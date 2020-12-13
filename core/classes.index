@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Approved Content</name>
+		<description>The classes for dnd 5e approved for the World of Morad Campagin Setting.</description>
+		<author url="">Richard Mraz</author>
+		<update version="0.1">
+			<file name="classes.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes.index" />
+		</update>
+	</info>
+	<files>
+		<file name="artificer.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/artificer.index" />
+        <file name="barbarian.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/barbarian.index" />
+        <file name="bard.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/bard.index" />
+        <file name="cleic.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/cleric.index" />
+        <file name="druid.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/druid.index" />
+        <file name="fighter.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/fighter.index" />
+        <file name="monk.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/monk.index" />
+        <file name="paladin.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/paladin.index" />
+        <file name="ranger.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/ranger.index" />
+        <file name="rogue.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/rogue.index" />
+        <file name="sorcerer.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/sorcerer.index" />
+        <file name="warlock.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/warlock.index" />
+        <file name="wizard.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/wizard.index" />
+
+        <!--Class Features use in multiple classes/fighting styles/warlock invocations-->
+        <file name="class-features.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/00-class-features.index" />
+	</files>
+</index>

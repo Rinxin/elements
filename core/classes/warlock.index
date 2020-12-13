@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Approved Content</name>
+		<description>The classes for dnd 5e approved for the World of Morad Campagin Setting.</description>
+		<author url="">Richard Mraz</author>
+		<update version="0.1">
+			<file name="warlock.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/warlock.index" />
+		</update>
+	</info>
+	<files>
+		<file name="00-warlock.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Warlock/00-warlock.xml" />
+	</files>
+</index>
