@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Items</name>
+		<update version="0.0.7">
+			<file name="items.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/supplements/tashas-cauldron-of-everything/items.xml" />
+		</update>
+	</info>
+</elements>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Spells</name>
+        <update version="0.1.6">
+            <file name="spells.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/supplements/tashas-cauldron-of-everything/spells.xml" />
+        </update>
+    </info>
+</elements>

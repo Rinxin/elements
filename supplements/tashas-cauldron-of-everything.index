@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Xanathar’s Guide to Everything</name>
+		<description></description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything">Wizards of the Coast</author>
+		<update version="0.3.2">
+			<file name="tashas-cauldron-of-everything.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/supplements/tashas-cauldron-of-everything.index" />
+		</update>
+	</info>
+	<files>
+		<file name="source.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/supplements/tashas-cauldron-of-everything/source.xml" />
+
+		<!-- archetypes 
+		<file name="barbarian-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/supplements/tashas-cauldron-of-everything/archetypes/barbarian-.xml" />
+		-->
+
+		<file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/supplements/tashas-cauldron-of-everything/eldritch-invocations.xml" />
+		<file name="feats.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/supplements/tashas-cauldron-of-everything/feats.xml" />
+		<file name="spells.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/supplements/tashas-cauldron-of-everything/spells.xml" />
+
+		<file name="items.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/supplements/tashas-cauldron-of-everything/items.xml" />
+	</files>
+</index>
