@@ -12,7 +12,66 @@
 		<file name="source.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/supplements/tashas-cauldron-of-everything/source.xml" />
 
 		<!-- archetypes 
-		<file name="barbarian-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/supplements/tashas-cauldron-of-everything/archetypes/barbarian-.xml" />
+		artificer
+        -alchemist
+        armorer
+        artillerist
+        Battle smith
+
+        <file name="barbarian-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/supplements/tashas-cauldron-of-everything/archetypes/barbarian-.xml" />
+        optional class features with class option button
+        Pathof the Beast
+        Path of Wild Magic
+
+        Bard class options
+
+        College of creation
+        College of eloquence
+
+        Cleric options
+        Order domain
+        Peace domain
+        Twilight domain
+
+        Druid options
+        Circle of Spores
+        Circle of Stars
+        Circle of Wildfire
+
+        Fighter options
+        Maneuver options
+        Psi Warrior
+        Rune Knight
+        Battle Master Builds (info)
+
+        Monk options
+        Way of Mercy
+        Way of the Astral Self
+
+        Paladin options
+        Oath of Glory
+        Oath of the Watchers
+
+        Ranger options
+        Fey wanderer
+        Swarmkeeper
+        Beast Master Compainons
+
+        Rogue options
+        Phantom
+        Soulknife
+
+        Sorcerer options
+        Aberrant Mind
+        Clockwork Soul
+
+        Warlock options
+        The Fathomless
+        The Genie
+
+        Wizard options
+        Bladsinging
+        Order of the Scribes
 		-->
 
 		<file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/supplements/tashas-cauldron-of-everything/eldritch-invocations.xml" />
