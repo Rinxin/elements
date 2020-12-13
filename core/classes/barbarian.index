@@ -10,5 +10,8 @@
 	</info>
 	<files>
 		<file name="00-barbarian.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Barbarian/00-barbarian.xml" />
+		
+		<file name="barbarian-path-of-the-berserker.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Barbarian/barbarian-path-of-the-berserker.xml" />
+		<file name="barbarian-path-of-the-totem-warrior.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Barbarian/barbarian-path-of-the-totem-warrior.xml" />
 	</files>
 </index>

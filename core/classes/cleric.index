@@ -10,5 +10,12 @@
 	</info>
 	<files>
 		<file name="00-cleric.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/00-cleric.xml" />
+		<file name="cleric-knowledge-domain.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/cleric-knowledge-domain.xml" />
+		<file name="cleric-life-domain.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/cleric-life-domain.xml" />
+		<file name="cleric-light-domain.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/cleric-light-domain.xml" />
+		<file name="cleric-nature-domain.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/cleric-nature-domain.xml" />
+		<file name="cleric-tempest-domain.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/cleric-tempest-domain.xml" />
+		<file name="cleric-trickery-domain.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/cleric-trickery-domain.xml" />
+		<file name="cleric-war-domain.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/cleric-war-domain.xml" />
 	</files>
 </index>

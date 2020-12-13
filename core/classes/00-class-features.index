@@ -9,6 +9,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="00-class-features.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/00-class-features/eldrich-invocations.xml" />
+		<file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/00-class-features/eldritch-invocations.xml" />
+		<file name="fighting-styles.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/00-class-features/fighting-styles.xml" />
 	</files>
 </index>

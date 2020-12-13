@@ -10,5 +10,9 @@
 	</info>
 	<files>
 		<file name="00-paladin.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Paladin/00-paladin.xml" />
+
+		<file name="paladin-oath-of-devotion.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Paladin/paladin-oath-of-devotion.xml" />
+		<file name="paladin-oath-of-the-ancients.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Paladin/paladin-oath-of-the-ancients.xml" />
+		<file name="paladin-oath-of-vengeance.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Paladin/paladin-oath-of-vengeance.xml" />
 	</files>
 </index>

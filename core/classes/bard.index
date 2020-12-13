@@ -10,5 +10,8 @@
 	</info>
 	<files>
 		<file name="00-bard.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Bard/00-bard.xml" />
+
+		<file name="bard-college-of-lore.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Bard/bard-college-of-lore.xml" />
+		<file name="bard-college-of-valor.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Bard/bard-college-of-valor.xml" />
 	</files>
 </index>

@@ -10,5 +10,9 @@
 	</info>
 	<files>
 		<file name="00-warlock.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Warlock/00-warlock.xml" />
+		
+		<file name="warlock-the-archfey.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Warlock/warlock-the-archfey.xml" />
+		<file name="warlock-the-fiend.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Warlock/warlock-the-fiend.xml" />
+		<file name="warlock-the-great-old-one.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Warlock/warlock-the-great-old-one.xml" />
 	</files>
 </index>

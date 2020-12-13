@@ -10,5 +10,9 @@
 	</info>
 	<files>
 		<file name="00-fighter.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Fighter/00-fighter.xml" />
+
+		<file name="fighter-battle-master.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Fighter/fighter-battle-master.xml" />
+		<file name="fighter-champion.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Fighter/fighter-champion.xml" />
+		<file name="fighter-eldritch-knight.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Fighter/fighter-eldritch-knight.xml" />
 	</files>
 </index>

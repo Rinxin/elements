@@ -10,5 +10,14 @@
 	</info>
 	<files>
 		<file name="00-wizard.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Wizard/00-wizard.xml" />
+
+		<file name="wizard.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Wizard/wizard-abjuration.xml" />
+		<file name="wizard.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Wizard/wizard-conjuration.xml" />
+		<file name="wizard.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Wizard/wizard-divination.xml" />
+		<file name="wizard.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Wizard/wizard-enchantment.xml" />
+		<file name="wizard.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Wizard/wizard-evocation.xml" />
+		<file name="wizard.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Wizard/wizard-illusion.xml" />
+		<file name="wizard.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Wizard/wizard-necromancy.xml" />
+		<file name="wizard.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Wizard/wizard-transmutation.xml" />
 	</files>
 </index>

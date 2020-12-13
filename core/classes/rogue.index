@@ -10,5 +10,9 @@
 	</info>
 	<files>
 		<file name="00-rogue.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Rogue/00-rogue.xml" />
+
+		<file name="rogue-arcane-trickster.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Rogue/rogue-arcane-trickster.xml" />
+		<file name="rogue-assassin.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Rogue/rogue-assassin.xml" />
+		<file name="rogue-thief.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Rogue/rogue-thief.xml" />
 	</files>
 </index>
