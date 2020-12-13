@@ -10,6 +10,10 @@
 	</info>
 	<files>
 		<obsolete name="sources.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/sources.xml" />
+
+	<!--Classes-->
+		<file name="classes.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes.index" />
+
 		<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/dungeon-masters-guide.index" />
 		<file name="monster-manual.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/monster-manual.index" />
 		<file name="players-handbook.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/players-handbook.index" />
