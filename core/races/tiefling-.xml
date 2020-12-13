@@ -3,7 +3,7 @@
 	<info>
 		<name>Tiefling</name>
 		<update version="0.2.2">
-			<file name="race-tiefling.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/players-handbook/races/race-tiefling.xml" />
+			<file name="tiefling-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/tiefling-.xml" />
 		</update>
 	</info>
 
@@ -82,6 +82,6 @@
 			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="5"/>
 		</rules>
 	</element>
-	<!-- an element that you should grant in a subrace so that you can override stats/infernal legacy -->
+	<!--an element that you should grant in a subrace so that you can override stats/infernal legacy-->
 	<element name="Tiefling Subrace" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
 </elements>

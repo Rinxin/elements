@@ -3,7 +3,7 @@
 	<info>
 		<name>Half-Orc</name>
 		<update version="0.2">
-			<file name="race-halforc.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/players-handbook/races/race-halforc.xml" />
+			<file name="half-orc.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/half-orc.xml" />
 		</update>
 	</info>
 	<element name="Half-Orc" type="Race" source="Player’s Handbook" id="ID_RACE_HALFORC">

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Approved Content</name>
+		<description>The classes for dnd 5e approved for the World of Morad Campagin Setting.</description>
+		<author url="">Richard Mraz</author>
+		<update version="0.1">
+			<file name="races.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races.index" />
+		</update>
+	</info>
+	<files>
+		<file name="dragonborn-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/dragonborn-.xml" />
+        <file name="dwarf-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/dwarf-.xml" />
+        <file name="elf-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/elf-.xml" />
+        <file name="gnome-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/gnome-.xml" />
+        <file name="half-elf.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/half-elf.xml" />
+        <file name="half-orc.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/half-orc.xml" />
+        <file name="halfling-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/halfling-.xml" />
+        <file name="human.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/human.xml" />
+        <file name="tiefling-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/tiefling-.xml" />
+    </files>
+</index>

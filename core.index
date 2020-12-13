@@ -12,6 +12,7 @@
 		<obsolete name="sources.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/sources.xml" />		
 
 	<!--Races-->
+		<file name="races.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races.index" />
 	<!--Classes-->
 		<file name="classes.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes.index" />
 	<!--Backgrounds-->
