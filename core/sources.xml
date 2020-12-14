@@ -36,6 +36,20 @@
 			<set name="release">20140930</set>
 		</setters>
 	</element>
+	<element name="Rise of Tiamat" type="Source" source="Core" id="ID_WOTC_SOURCE_RISE_OF_TIAMAT">
+		<description>
+			<![CDATA[<p><strong>Avert the Cataclysmic Return of Tiamat in this Adventure for the World’s Greatest Roleplaying Game.</strong></p><p>The Cult of the Dragon leads the charge in an unholy crusade to bring Tiamat back to the Realms, and the situation grows more perilous for good people with each passing moment. The battle becomes increasingly political as opportunities to gather allies and gain advantage present themselves. From Waterdeep to the Sea of Moving Ice to Thay, it is a race against Evil. Succeed or succumb to the oppression of draconic tyranny. Win or lose, things will never be the same again.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">ROT</set>
+			<set name="url">http://dnd.wizards.com/products/tabletop-games/rpg-products/rise-tiamat</set>
+			<set name="image">https://media.dnd.wizards.com/styles/product_tabletop_left/public/images/product/DnD_RiseTiamat.png</set>
+			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+			<set name="official">true</set>
+			<set name="supplement">true</set>
+			<set name="release">20141104</set>
+		</setters>
+	</element>
 	<element name="Monster Manual" type="Source" source="Core" id="ID_WOTC_SOURCE_MONSTER_MANUAL">
 		<description>
 			<![CDATA[<p><strong>A menagerie of deadly monsters for the world’s greatest roleplaying game.</strong></p><p>The Monster Manual presents a horde of classic Dungeons &amp; Dragons creatures, including dragons, giants, mind flayers, and beholders—a monstrous feast for Dungeon Masters ready to challenge their players and populate their adventures.</p><p>The monsters contained herein are culled from the D&amp;D game’s illustrious history, with easy-to-use game statistics and thrilling stories to feed your imagination.</p>]]>
@@ -150,7 +164,35 @@
 			<set name="release">20150108</set>
 		</setters>
 	</element>
+	<element name="Sword Coast Adventurer’s Guide" type="Source" source="Core" id="ID_WOTC_SOURCE_SWORD_COAST_ADVENTURERS_GUIDE">
+		<description>
+			<![CDATA[<p>WELCOME TO THE SWORD COAST—a region of Faerûn that comprises shining paragons of civilization and culture, perilous locales fraught with dread and evil, and encompassing them all, a wilderness that offers every explorer vast opportunity and simultaneously promises great danger.</p><p>While the Sword Coast Adventurer’s Guide is a valuable resource for Dungeon Masters, it was crafted with players and their characters foremost in mind. There is a plethora of new character options to intrigue and inspire every member of the adventuring party.</p><p>For use with the fifth edition Player’s Handbook, Monster Manual, and Dungeon Master’s Guide, the Sword Coast Adventurer’s Guide provides the setting, story, and character options needed to participate in a game anywhere along the Sword Coast of the Forgotten Realms.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">SCAG</set>
+			<set name="url">http://dnd.wizards.com/products/tabletop-games/rpg-products/sc-adventurers-guide</set>
+			<set name="image">https://media.dnd.wizards.com/styles/product_tabletop_left/public/images/product/DnD_SCAG.png</set>
+			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+			<set name="official">true</set>
+			<set name="supplement">true</set>
+			<set name="release">20151103</set>
+		</setters>
+	</element>
 <!--2016-->
+	<element name="Storm King’s Thunder" type="Source" source="Core" id="ID_WOTC_SOURCE_STORM_KINGS_THUNDER">
+		<description>
+			<![CDATA[<p><strong>To fight giants, you must be giant.</strong></p><p>This 256-page adventure for characters of 1st level to 11th level or higher provides everything a Dungeon Master needs to create an exciting and memorable play experience for the Storm King’s Thunder story, including rune magic items, a new treasure option for characters.</p><p>Giants have emerged from their strongholds to threaten civilization as never before. Hill giants are stealing all the grain and livestock they can, while stone giants have been scouring settlements that have been around forever. Fire giants are press-ganging the small folk into the desert, while frost giant longships have been pillaging along the Sword Coast. Even the elusive cloud giants have been witnessed, their wondrous floating cities appearing above Waterdeep and Baldur’s Gate. Where is the storm giant King Hekaton, who is tasked with keeping order among the giants?</p><p>The humans, dwarves, elves, and other small folk of the Sword Coast will be crushed underfoot by the onslaught of these giant foes. The only chance at survival is for the small folk to work together to investigate this invasion and harness the power of rune magic, the giants’ weapon against their ancient enemies, the dragons. The only way the people of Faerûn can restore order is to use the giants’ own power against them.</p><p><em>Stand with or against the giants in this adventure for the world's greatest roleplaying game.</em></p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">SKT</set>
+			<set name="url">http://dnd.wizards.com/products/tabletop-games/rpg-products/storm-kings-thunder</set>
+			<set name="image">https://media.dnd.wizards.com/styles/product_tabletop_left/public/images/product/SKT_Book.png</set>
+			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+			<set name="official">true</set>
+			<set name="supplement">true</set>
+			<set name="release">20160906</set>
+		</setters>
+	</element>
 	<element name="Volo’s Guide to Monsters" type="Source" source="Core" id="ID_WOTC_SOURCE_VOLOS_GUIDE_TO_MONSTERS">
 		<description>
 			<![CDATA[<p><strong>Research has never been so dangerous…</strong></p><p>Explore the breadth of D&amp;D’s monsters in this immersive 224-page volume filled with beautiful illustrations and in-depth lore. Volo’s Guide to Monsters provides something exciting for players and Dungeon Masters everywhere!</p><p>The esteemed loremaster Volothamp Geddarm is back and he’s written a fantastical dissertation, covering some of the most iconic monsters in the Forgotten Realms. Unfortunately, the Sage of Shadowdale himself, Elminster, doesn’t believe Volo gets some of the important details quite right. Don’t miss out as Volo and Elminster square off (academically speaking of course) to illuminate the uninitiated on creatures both common and obscure. Uncover the machinations of the mysterious Kraken Society, what is the origin of the bizarre froghemoth, or how to avoid participating in the ghastly reproductive cycle of the grotesque vargouille.</p><p>Dungeon Masters and players will get some much-needed guidance as you plan your next venture, traipsing about some dusty old ruin in search of treasure, lore, and let’s not forget ... dangerous creatures whose horns, claws, fangs, heads, or even hides might comfortably adorn the walls of your trophy room. If you survive.</p>]]>
@@ -166,6 +208,20 @@
 		</setters>
 	</element>
 <!--2017-->
+	<element name="Tales from the Yawning Portal" type="Source" source="Core" id="ID_WOTC_SOURCE_TALES_FROM_THE_YAWNING_PORTAL">
+		<description>
+			<![CDATA[<p><strong>Dread tales told in the dead of night!</strong></p><p>When the shadows grow long in Waterdeep and the fireplace in the taproom of the Yawning Portal dims to a deep crimson glow, adventurers from across the Forgotten Realms, and even from other worlds, spin tales and spread rumors of dark dungeons and lost treasures. Some of the yarns overheard by Durnan, the barkeep of the Yawning Portal, are inspired by places and events in far-flung lands from across the D&amp;D multiverse, and these tales have been collected into a single volume.</p><p>Within this tome are seven of the most compelling dungeons from the 40+ year history of Dungeons &amp; Dragons. Some are classics that have hosted an untold number of adventurers, while others are some of the most popular adventures ever printed.</p><p>The seeds of these stories now rest in your hands. D&amp;D’s most storied dungeons are now part of your modern repertoire of adventures. Enjoy, and remember to keep a few spare character sheets handy.</p><p>For use with the fifth edition Player’s Handbook, Monster Manual, and Dungeon Master’s Guide, this book provides fans with adventures, magic items and deadly monsters, all of which have been updated to the fifth edition rules. Explore seven deadly dungeons in this adventure supplement for the world’s greatest roleplaying game.</p><p><strong><em>Tales from the Yawning Portal includes the following adventures:</em></strong></p><ul><li>Against the Giants</li><li>Dead in Thay</li><li>Forge of Fury</li><li>Hidden Shrine of Tamoachan</li><li>Sunless Citadel</li><li>Tomb of Horrors</li><li>White Plume Mountain</li></ul>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">TFTYP</set>
+			<set name="url">http://dnd.wizards.com/products/tabletop-games/rpg-products/tales-yawning-portal</set>
+			<set name="image">https://media.dnd.wizards.com/styles/product_tabletop_left/public/images/product/2016_010516_Yawning_Portal_Product_TFTYP.png</set>
+			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+			<set name="official">true</set>
+			<set name="supplement">true</set>
+			<set name="release">20170404</set>
+		</setters>
+	</element>
 	<element name="The Tortle Package" type="Source" source="Core" id="ID_SOURCE_THE_TORTLE_PACKAGE">
 		<description>
 			<![CDATA[<p>The Snout of Omgar is a geographical region described briefly in Tomb of Annihilation.</p><p>Not much is revealed about the location or its inhabitants in that adventure, however. The Tortle Package is written for Dungeon Masters who want to know more about the Snout of Omgar. </p><p>This supplement also introduces a new playable character race, the tortle, and a new adventure location: Dangwaru, the Typhoon Palace. All of this is permissible for play within the D&amp;D Adventurers League.</p>]]>
@@ -240,6 +296,21 @@
 	</element>
 <!--2019-->
 <!--2020-->
+	<element name="Tasha's Cauldron of Everything" type="Source" source="Core" id="ID_WOTC_SOURCE_TASHAS_CAULDRON_OF_EVERYTHING">
+		<description>
+			<![CDATA[<]]>
+		</description>
+		<setters>
+			<set name="abbreviation">TCOE</set>
+			<set name="url">http://dnd.wizards.com/products/tabletop-games/rpg-products/tashas-cauldron-everything</set>
+			<set name="image">https://media.wizards.com/2020/dnd/images/Uq3hS7w0xJwb.png</set>
+			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+			<set name="errata"></set>
+			<set name="official">true</set>
+			<set name="supplement">true</set>
+			<set name="release">20201117</set>
+		</setters>
+	</element>
 <!--2021-->
 
 <!--Generic Source Tag-->
