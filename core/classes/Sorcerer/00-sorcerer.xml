@@ -219,7 +219,7 @@
 				<tr><td>4th</td><td>6</td></tr>
 				<tr><td>5th</td><td>7</td></tr>
 			</table>
-			<p class="indent"><strong><em>Converting a Spell Slot to Sorcery Points.</em></strong> As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot’s level.</p>
+			<p class="indent"><strong><em>Converting Spell Points to Sorcery Points.</em></strong> As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot’s level.</p>
 		</description>
 		<sheet action="Bonus Action">
 			<description>You have {{sorcery-points}} Sorcery Points. You can transform unexpended sorcery points into one spell slot (2 > 1st, 3 > 2nd, 5 > 3rd, 6 > 4th, 7 > 5th) on your turn or you can expend one spell slot and gain a number of sorcery points equal to the slot’s level.</description>

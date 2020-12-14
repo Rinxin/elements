@@ -80,7 +80,7 @@
         <rules>
             <select type="Class Feature" name="Eldritch Invocation (Eldritch Adelpt)" supports="Eldritch Adept" />
         </rules>
-		<!--update all invocations with Eldritch Adelpt and add warlock to the requirements area-->
+		<!--All invocations should support Eldritch adept and add :warlock to the level requrement or [level:warlock:1] to insure only warlocks can take those options-->
 	</element>
 	<element name="Fey Touched" type="Feat" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_FEAT_FEY_TOUCHED">
 		<description>
@@ -117,11 +117,12 @@
 				<li>Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.</li>
            	</ul>
         </description>
-		<sheet usage="1/Long Rest">
-			<description></description>
+		<sheet>
+			<description>You ignore the loading property of firearms and being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.</description>
         </sheet>
         <rules>
-            
+            <stat name="dexterity" value="1" />
+			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_FIREARMS" />
         </rules>
 	</element>
 	<element name="Metamagic Adept" type="Feat" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_FEAT_METAMAGIC_ADEPT">
@@ -135,11 +136,12 @@
                 <li>You gain 2 sorcery points to spend on Metamagic (these points are added to any sorcery points you have from another source but can be used only on Metamagic). You regain all spent sorcery points when you finish a long rest.</li>
            	</ul>
         </description>
-		<sheet usage="1/Long Rest">
-			<description></description>
-        </sheet>
+		<sheet action="Bonus Action">
+			<description>You have {{sorcery-points}} Sorcery Points. You can transform unexpended sorcery points into one spell point (2 > 1st, 3 > 2nd, 5 > 3rd, 6 > 4th, 7 > 5th) on your turn or you can expend one spell point and gain a number of sorcery points equal to the slot’s level.</description>
+		</sheet>
         <rules>
-            
+            <select type="Feat Feature" name="Metamagic (Metamagic Adept)" supports="Metamagic" level="3" number="2"/>
+			<stat name="sorcery-points" value="2" />
         </rules>
 	</element>
 	<element name="Piercer" type="Feat" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_FEAT_PIERCER">
@@ -151,11 +153,14 @@
 				<li>When you score a critical hit that deals piercing damage to a creature, you can roll one additional damage die when determining the extra piercing damage the target takes.</li>
            	</ul>
         </description>
-		<sheet usage="1/Long Rest">
-			<description></description>
+		<sheet usage="1/Turn">
+			<description>You can reroll one of the attack's piercing damage dice, and you must use the new roll.
+			
+			Critial hit's that deal piercind damage to a creature, roll an additional die of damage.
+			</description>
         </sheet>
         <rules>
-            
+            <select type="Ability Score Improvement" name="Piercer" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
         </rules>
 	</element>
 	<element name="Poisoner" type="Feat" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_FEAT_Poisoner">
@@ -167,11 +172,14 @@
 				<li>You gain proficiency with the poisoner's kit if you don't already have it. With one hour of work using a poisoner's kit and expending 50 gp worth of materials, you can create a number of doses of potent poison equal to your proficiency bonus. Once applied to a weapon or piece of ammunition, the poison retains its potency for 1 minute or until you hit with the weapon or ammunition. When a creature takes damage from the coated weapon or ammunition, that creature must succeed on a DC 14 Constitution saving throw or take 2d8 poison damage and become poisoned until the end of your next turn .</li>
            	</ul>
         </description>
-		<sheet usage="1/Long Rest">
-			<description></description>
+		<sheet>
+			<description>You ignore poison resistance.
+			
+			BA: Apply poison.</description>
         </sheet>
         <rules>
-            
+            <grant type="Proficiency" id="ID_WOTC_PHB_ITEM_TOOL_POISONERS_KIT" requriement="!ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT" />
+			<grant type="Expertise" id="ID_WOTC_PHB_ITEM_TOOL_POISONERS_KIT" requriement="ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT"
         </rules>
 	</element>
 	<element name="Shadow Touched" type="Feat" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_FEAT_SHADOW_TOUCHED">
