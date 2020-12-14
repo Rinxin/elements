@@ -9,19 +9,18 @@
 		</update>
 	</info>
 	<files>
-		<obsolete name="sources.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/sources.xml" />		
+		
 
-	<!--Races-->
-		<file name="races.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races.index" />
-	<!--Classes-->
+	<!--index-->
+		<file name="backgrounds.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds.index" />
 		<file name="classes.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes.index" />
-	<!--Backgrounds-->
-	<!--Equipment-->
-		<!--Armor-->
-		<!--Weapons-->
-		<!--Adventuring Gear-->
-		<!--Tools-->
-		<!--Trinkets-->
-	<!--Spellcasting/Spells-->
+		<file name="deities.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/deities.index" />
+		<file name="items.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items.index" />
+		<file name="races.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races.index" />
+		<file name="spells.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells.index" />
+
+		<file name="feats.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/feats.xml" />
+		<file name="languages.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/languages.xml" />
+		<file name="sources.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/sources.xml" />		
 	</files>
 </index>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>backgrounds</name>
+		<description>The World of Morad Campagin Setting.</description>
+		<author url="">Richard Mraz</author>
+		<update version="0.1">
+			<file name="backgrounds.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds.index" />
+		</update>
+	</info>
+	<files>
+		<file name="acolyte.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/acolyte.xml" />
+        <file name="charlatan.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/charlatan.xml" />
+        <file name="criminal.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/criminal.xml" />
+        <file name="entertainer.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/entertainer.xml" />
+        <file name="folk-hero.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/folk-hero.xml" />
+        <file name="guild-artisan.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/guild-artisan.xml" />
+        <file name="hermit.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/hermit.xml" />
+        <file name="noble.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/noble.xml" />
+        <file name="outlander.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/outlander.xml" />
+        <file name="sage.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/sage.xml" />
+        <file name="sailer.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/sailer.xml" />
+        <file name="soldier.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/soldier.xml" />
+        <file name="urchin.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/urchin.xml" />
+    </files>
+</index>
