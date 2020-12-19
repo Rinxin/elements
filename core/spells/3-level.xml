@@ -359,6 +359,29 @@
         </setters>
     </element>
 <!--F-->
+    <element name="Fast Friends" type="Spell" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_SPELL_FAST_FRIENDS">
+		<supports>Bard,Cleric,Wizard</supports>
+		<description>
+			<p>When you need to make sure something gets done, you can’t rely on vague promises, sworn oaths, or binding contracts of employment. When you cast this spell, choose one humanoid within range that can see and hear you, and that can understand you. The creature must succeed on a Wisdom saving throw or become charmed by you for the duration. While the creature is charmed in this way, it undertakes to perform any services or activities you ask of it in a friendly manner, to the best of its ability.</p>
+			<p class="indent">You can set the creature new tasks when a previous task is completed, or if you decide to end its current task. If the service or activity might cause harm to the creature. or if it conflicts with the creature’s normal activities and desires, the creature can make another Wisdom saving throw to try to end the effect. This save is made with advantage if you or your companions are fighting the creature. If the activity would result in certain death for the creature, the spell ends.</p>
+			<p class="indent">When the spell ends, the creature knows it was charmed by you.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</p>
+		</description>
+		<setters>
+			<set name="keywords">charm</set>
+			<set name="level">3</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
     <element name="Fear" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FEAR">
         <supports>Bard, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -554,6 +577,27 @@
         </setters>
     </element>
 <!--I-->
+    <element name="Incite Greed" type="Spell" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_SPELL_INCITE_GREED">
+		<supports>Cleric,Sorcerer,Wizard,Warlock</supports>
+		<description>
+			<p>When you cast this spell, you present the gem used as the material component and choose any number of creatures within range that can see you. Each target must succeed on a Wisdom saving throw or be charmed by you until the spell ends, or until you or your companions do anything harmful to it. While charmed in this way, a creature can do nothing but use its movement to approach you in a safe manner. While an affected creature is within 5 feet of you, it cannot move, but simply stares greedily at the gem you present.</p>
+			<p class="indent">At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target.</p>
+		</description>
+		<setters>
+			<set name="keywords">charm</set>
+			<set name="level">3</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 action</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a gem worth at least 50 gp</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 <!--J-->
 <!--K-->
 <!--L-->
@@ -710,6 +754,27 @@
             <set name="isRitual">true</set>
         </setters>
     </element>
+    <element name="Motivational Speech" type="Spell" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_SPELL_MOTIVATIONAL_SPEECH">
+		<supports>Bard,Cleric</supports>
+		<description>
+			<p>You address allies, staff, or innocent bystanders to exhort and inspire them to greatness, whether they have anything to get excited about or not. Choose up to five creatures within range that can hear you. For the duration, each affected creature gains 5 temporary hit points and has advantage on Wisdom saving throws. If an affected creature is hit by an attack, it has advantage on the next attack roll it makes. Once an affected creature loses the temporary hit points granted by this spell, the spell ends for that creature.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 4th level or higher, the temporary hit points increase by 5 for each slot level above 3rd.</p>
+		</description>
+		<setters>
+			<set name="keywords">temporary hit points,advantage</set>
+			<set name="level">3</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 minute</set>
+			<set name="duration">1 hour</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 <!--N-->
     <element name="Nondetection" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_NONDETECTION">
         <supports>Bard, Ranger, Wizard</supports>
@@ -793,6 +858,28 @@
             <set name="hasMaterialComponent">false</set>
             <set name="materialComponent" />
             <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Pulse Wave" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_PULSE_WAVE">
+        <supports>Wizard,Dunamancy</supports>
+        <description>
+            <p>You create intense pressure, unleash it in a 30-foot cone, and decide whether the pressure pulls or pushes creatures and objects. Each creature in that cone must make a Constitution saving throw. A creature takes 6d6 force damage on a failed save, or half as much damage on a successful one, and every creature that fails the save is either pulled 15 feet toward you or pushed 15 feet away from you, depending on the choice you made for the spell.</p>
+            <p class="indent">In addition, unsecured objects that are completely within the cone are likewise pulled or pushed 15 feet.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 and the distance pulled or pushed increases by 5 feet for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords">force, dunamancy</set>
+            <set name="level">3</set>
+            <set name="school" addition="Dunamancy">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self (30-foot cone)</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
             <set name="isRitual">false</set>
         </setters>
     </element>

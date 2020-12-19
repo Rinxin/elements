@@ -5,12 +5,13 @@
 		<description>The World of Morad Campagin Setting.</description>
 		<author url="">Richard Mraz</author>
 		<update version="0.1">
-			<file name="dmg.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/dmg.index" />
+			<file name="items.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/items.index" />
 		</update>
 	</info>
 	<files>
     <!--
-		<file name="phb.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/phb.index" />
+		<file name="items.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/acquisitions-incorporated/items.index" />
+		<file name="vehicles.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/acquisitions-incorporated/items.index" />
         <file name="dmg.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/dmg.index" />
     -->
     </files>

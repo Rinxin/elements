@@ -139,6 +139,27 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Encode Thoughts" type="Spell" source="Guildmasters’ Guide to Ravnica" id="ID_GGTR_SPELL_ENCODE_THOUGHTS">
+        <description>
+			<p>Putting a finger to your head, you pull a memory, an idea, or a message from your mind and transform it into a tangible string of glowing energy called a thought strand, which persists for the duration or until you cast this spell again. The thought strand appears in an unoccupied space within 5 feet of you as a Tiny, weightless, semisolid object that can be held and carried like a ribbon. It is otherwise stationary.</p>
+			<p class="indent">If you cast this spell while concentrating on a spell or an ability that allows you to read or manipulate the thoughts of others (such as detect thoughts or modify memory), you can transform the thoughts or memories you read, rather than your own, into a thought strand.</p>
+			<p class="indent">Casting this spell while holding a thought strand allows you to instantly receive whatever memory, idea, or message the thought strand contains. (Casting detect thoughts on the strand has the same effect.)</p>
+        </description>
+        <setters>
+            <set name="keywords">memory</set>
+            <set name="level">0</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 action</set>
+            <set name="duration">Up to 8 hours</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--F-->
     <element name="Fire Bolt" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FIRE_BOLT">
         <supports>Sorcerer, Wizard, Artificer</supports>
@@ -441,6 +462,27 @@
             <set name="hasSomaticComponent">true</set>
             <set name="hasMaterialComponent">false</set>
             <set name="materialComponent" />
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Sapping Sting" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_SAPPING_STING">
+        <supports>Wizard,Dunamancy</supports>
+        <description>
+            <p>You sap the vitality of one creature you can see in range. The target must succeed on a Constitution saving throw or take 1d4 necrotic damage and fall prone.</p>
+            <p class="indent">This spell’s damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic, dunamancy</set>
+            <set name="level">0</set>
+            <set name="school" addition="Dunamancy">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
             <set name="isConcentration">false</set>
             <set name="isRitual">false</set>
         </setters>

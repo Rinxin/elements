@@ -220,6 +220,28 @@
     </element>
 <!--Q-->
 <!--R-->
+    <element name="Ravenous Void" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_RAVENOUS_VOID">
+        <supports>Wizard,Dunamancy,Graviturgy</supports>
+        <description>
+            <p>You create a 20-foot-radius sphere of destructive gravitational force centered on a point that you can see within range. For the spell’s duration, the sphere and any space within 100 feet of it are difficult terrain, and nonmagical objects fully inside the sphere are destroyed if they aren’t being worn or carried.</p>
+            <p class="indent">When the sphere appears and at the start of each of your turns until the spell ends, unsecured objects within 100 feet of the sphere are pulled toward the sphere’s center, ending in an unoccupied space as close to the center as possible.</p>
+            <p class="indent">A creature that starts its turn within 100 feet of the sphere must succeed on a Strength saving throw or be pulled straight toward the sphere’s center, ending in an unoccupied space as close to the center as possible. A creature that enters the sphere for the first time on a turn or starts its turn there takes 5d10 force damage and is restrained until it is no longer in the sphere. If the sphere is in the air, the restrained creature hovers inside the sphere. A creature can use its action to make a Strength check against your spell save DC, ending this restrained condition on itself or another creature in the sphere that it can reach. A creature reduced to 0 hit points by this spell is annihilated, along with any non-magical items it is wearing or carrying.</p>
+        </description>
+        <setters>
+            <set name="keywords">force,dunamancy,graviturgy</set>
+            <set name="level">9</set>
+            <set name="school" addition="Dunamancy">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">1,000 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a small, nine-pointed star made of iron</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--S-->
     <element name="Shapechange" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SHAPECHANGE">
         <supports>Druid, Wizard</supports>
@@ -267,6 +289,26 @@
         </setters>
     </element>
 <!--T-->
+    <element name="Time Ravage" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_TIME_RAVAGE">
+        <supports>Wizard,Chronurgy,Dunamancy</supports>
+        <description>
+            <p>You target a creature you can see within range, putting its physical form through the devastation of rapid aging. The target must make a Constitution saving throw, taking 10d12 points of necrotic damage on a failed save, or half as much damage on a successful one. If the save fails, the target also ages tot he point where it has only 30 days left before it dies of old age. In this aged state, the target has disadvantage on attack rolls, ability checks, and saving throws, and its walking speed is halved. Only the <em>wish</em> spell or the <em>greater restoration</em> spell cast with a 9th-level spell slot can end these effects and restore the target to its previous age.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic,dunamancy,chronurgy</set>
+            <set name="level">9</set>
+            <set name="school" addition="Dunamancy">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">an hourglass filled with diamond dust worth at least 5,000gp, which the spell consumes.</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Time Stop" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_TIME_STOP">
         <supports>Sorcerer, Wizard</supports>
         <description>

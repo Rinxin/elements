@@ -154,6 +154,28 @@
         </setters>
     </element>
 <!--D-->
+    <element name="Dark Star" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_DARK_STAR">
+        <supports>Wizard,Dunamancy,Graviturgy</supports>
+        <description>
+            <p>This spell creates a sphere centered on a point you choose within range. The sphere can have a radius of up to 40 feet. The area within this sphere is filled with magical darkness and crushing gravitational force.</p>
+            <p class="indent">For the duration, the spell’s area is difficult terrain. A creature with darkvision can’t see through the magical darkness, and nonmagical light can’t illuminate it. No sound can be created within or pass through the area. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there.</p>
+            <p class="indent">Any creature that enters the spell’s area for the first time on a turn or starts its turn there must make a Constitution saving throw. The creature takes 8d10 force damage on a failed save, or half as much damage on a successful one. A creature reduced to 0 hit points by this damage is disintegrated. A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust.</p>
+        </description>
+        <setters>
+            <set name="keywords">force,dunamancy,graviturgy</set>
+            <set name="level">8</set>
+            <set name="school" addition="Dunamancy">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">150 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a shard of onyx and a drop of the caster’s blood, both of which the spell consumes</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Demiplane" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DEMIPLANE">
         <supports>Warlock, Wizard</supports>
         <description>
@@ -378,6 +400,36 @@
     </element>
 <!--Q-->
 <!--R-->
+    <element name="Reality Break" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_REALITY_BREAK">
+        <supports>Wizard,Chronurgy,Dunamancy</supports>
+        <description>
+            <p>You shatter the barriers between realities and timelines, thrusting a creature into turmoil and madness. The target must succeed on a Wisdom saving throw, or it can’t take reactions until the spell ends. The affected target must also roll a d10 at the start of each of its turns; the number rolled determines what happens to the target, as shown on the Reality Break Effects table.</p>
+            <p class="indent">At the end of each of its turns, the affected target can repeat the Wisdom saving throw, ending the spell on itself on a success.</p>
+            <table>
+                <thead>
+                    <tr><td>d10</td><td>Reality Break Effects</td></tr>
+                </thead>
+                <tr><td>1-2</td><td><strong>Vision of the Far Realm.</strong> The target takes 6d12 psychic damage, and it is stunned until the end of the turn.</td></tr>
+                <tr><td>3-5</td><td><strong>Rending Rift.</strong> The target must make a Dexterity saving throw, taking 8d12 force damage on a failed save, or half as much damage on a successful one.</td></tr>
+                <tr><td>6-8</td><td><strong>Wormhole.</strong> The target is teleported, along with everything it is wearing or carrying, up to 30 feet to an unoccupied space of your choice that you can see. The target also takes 10d12 force damage and is knocked prone.</td></tr>
+                <tr><td>9-10</td><td><strong>Chill of the Dark Void.</strong> The target takes 10d12 cold damage, and it is blinded until the end of the turn.</td></tr>
+            </table>
+        </description>
+        <setters>
+            <set name="keywords">cold,psychic,force,dunamancy,chronurgy</set>
+            <set name="level">8</set>
+            <set name="school" addition="Dunamancy">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a crystal prism</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--S-->
     <element name="Sunburst" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SUNBURST">
         <supports>Druid, Sorcerer, Wizard</supports>

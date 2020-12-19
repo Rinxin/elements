@@ -157,6 +157,40 @@
         </setters>
     </element>
 <!--C-->
+    <element name="Chaos Bolt" type="Spell" source="Guildmasters’ Guide to Ravnica" id="ID_GGTR_SPELL_CHAOS_BOLT">
+        <description>
+            <p>You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 + 1d6 damage. Choose one of the d8s. The number rolled on that die determines the attack's damage type, as shown below.</p>
+            <table>
+                <thead>
+                    <tr><td class="col-10">d8</td><td>Damage Type</td></tr>
+                </thead>
+                <tr><td>1</td><td>Acid</td></tr>
+                <tr><td>2</td><td>Cold</td></tr>
+                <tr><td>3</td><td>Fire</td></tr>
+                <tr><td>4</td><td>Force</td></tr>
+                <tr><td>5</td><td>Lightning</td></tr>
+                <tr><td>6</td><td>Poison</td></tr>
+                <tr><td>7</td><td>Psychic</td></tr>
+                <tr><td>8</td><td>Thunder</td></tr>
+            </table>
+            <p class="indent">If you roll the same number on both d8s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again. A creature can be targeted only once by each casting of this spell.</p>
+            <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage of the type rolled for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords">acid,cold,fire,force,lightning,poison,psychic,thunder</set>
+            <set name="level">1</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Charm Person" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CHARM_PERSON">
         <supports>Bard, Druid, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -433,6 +467,27 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Distort Value" type="Spell" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_SPELL_DISTORT_VALUE">
+		<supports>Bard,Sorcerer,Wizard,Warlock</supports>
+		<description>
+			<p>Do you need to squeeze a few more gold pieces out of a merchant as you try to sell that weird octopus statue you liberated from the chaos temple? Do you need to downplay the worth of some magical assets when the tax collector stops by? Distort value has you covered.</p>
+			<p class="indent">You cast this spell on an object no more than 1 foot on a side, doubling the object’s perceived value by adding illusory nourishes or polish to it, or reducing its perceived value by half with the help of illusory scratches, dents, and other unsightly features. Anyone examining the object can ascertain its true value with a successful Intelligence (Investigation) check against your spell save DC.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, the maximum size of the object increases by 1 foot for each slot level above 1st.</p>
+		</description>
+		<setters>
+			<set name="level">1</set>
+			<set name="school">Illusion</set>
+			<set name="time">1 minute</set>
+			<set name="duration">8 hours</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
     <element name="Divine Favor" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DIVINE_FAVOR">
         <supports>Paladin</supports>
         <description>
@@ -626,6 +681,26 @@
         </setters>
     </element>
 <!--G-->
+    <element name="Gift of Alacrity" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_GIFT_OF_ALACRITY">
+        <supports>Wizard,Chronurgy,Dunamancy</supports>
+        <description>
+            <p>You touch a willing creature. For the duration, the target can add 1d8 to its initiative rolls.</p>
+        </description>
+        <setters>
+            <set name="keywords">dunamancy,chronurgy</set>
+            <set name="level">1</set>
+            <set name="school" addition="Dunamancy">Divination</set>
+            <set name="time">1 action</set>
+            <set name="duration">8 hours</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Goodberry" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GOODBERRY">
         <supports>Druid, Ranger</supports>
         <description>
@@ -962,6 +1037,28 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Magnify Gravity" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_MAGNIFY_GRAVITY">
+        <supports>Wizard,Dunamancy,Graviturgy</supports>
+        <description>
+            <p>The gravity in a 10-foot-radius sphere centered on a point you can see within range increases for a moment. Each creature in the sphere on the turn when you cast the spell must make a Constitution saving throw. On a failed save, a creature takes 2d8 force damage, and its speed is halved until the end of the next turn. On a successful save, a creature takes half as much damage and suffers no reduction to its speed.</p>
+            <p class="indent">Until the start of your next turn, any object that isn’t being worn or carried in the sphere requires a successful Strength check against your spell save DC to pick up or move.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords">force,dunamancy,graviturgy</set>
+            <set name="level">1</set>
+            <set name="school" addition="Dunamancy">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 round</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--N-->
 <!--O-->
 <!--P-->
@@ -1028,6 +1125,30 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Jim’s Magic Missile" type="Spell" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_SPELL_JIMS_MAGIC_MISSILE">
+		<supports>Wizard</supports>
+		<description>
+			<p>Any apprentice wizard can cast a boring old magic missile. Sure, it always strikes its target. Yawn. Do away with the drudgery of your grandfather’s magic with this improved version of the spell, as used by Jim Darkmagic!</p>
+			<p class="indent">You create three twisting, whistling, hypoallergenic, gluten-free darts of magical force. Each dart targets a creature of your choice that you can see within range. Make a ranged spell attack for each missile. On a hit, a missile deals 2d4 force damage to its target.</p>
+			<p class="indent">If the attack roll scores a critical hit, the target of that missile takes 5d4 force damage instead of you rolling damage twice for a critical hit. If the attack roll for any missile is a 1, all missiles miss their targets and blow up in your face, dealing 1 force damage per missile to you.</p>
+			<p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart, and the royalty component increases by 1 gp, for each slot level above 1st.</p>
+		</description>
+		<setters>
+			<set name="keywords">royalty</set>
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">120 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<!-- <set name="hasRoyaltyComponent">true</set> -->
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 <!--S-->
     <element name="Sanctuary" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SANCTUARY">
         <supports>Cleric, Artificer</supports>

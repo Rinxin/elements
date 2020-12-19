@@ -8,7 +8,29 @@
 			<file name="feats.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/players-handbook/feats.xml" />
 		</update>
 	</info>
-
+<!--A-->
+	<element name="Aberrant Dragonmark" type="Feat" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_FEAT_ABERRANT_DRAGONMARK">
+		<requirements>!ID_INTERNAL_GRANTS_DRAGONMARK,!ID_WOTC_WGTE_GRANTS_DARKMARKED</requirements>
+		<prerequisite>No other dragonmark</prerequisite>
+		<description>
+			<p><em>Prerequisite: No other dragonmark</em></p>
+			<p>You have manifested an aberrant dragonmark. Determine its appearance and the flaw associated with it. You gain the following benefits:</p>
+			<ul>
+				<li>Increase your Constitution score by 1, to a maximum of 20.</li>
+				<li>You learn a cantrip of your choice from the sorcerer spell list. In addition, choose a 1st-level spell from the sorcerer spell list. You learn that spell and can cast it through your mark. Once you cast it, you must finish a short or long rest before you can cast it again through the mark. Constitution is your spellcasting ability for these spells.</li>
+				<li>When you cast the 1st-level spell through your mark, you can expend one of your Hit Dice and roll it. If you roll an even number, you gain a number of temporary hit points equal to the number rolled. If you roll an odd number, one random creature within 30 feet of you (not including you) takes force damage equal to the number rolled. If no other creatures are in range, you take the damage.</li>
+			</ul>
+		</description>
+		<sheet usage="1/Short Rest">
+			<description>You learn spells and can cast them through your mark using Constitution as your spellcasting ability.
+			When you cast the 1st-level spell through your mark, you can expend one of your Hit Dice and roll it. If you roll an even number, you gain a number of temporary hit points equal to the number rolled. If you roll an odd number, one random creature within 30 feet of you (not including you) takes force damage equal to the number rolled. If no other creatures are in range, you take the damage.</description>
+		</sheet>
+		<rules>
+			<stat name="constitution" value="1" />
+			<select type="Spell" name="Cantrip, Aberrant Dragonmark" supports="0,Sorcerer" />
+			<select type="Spell" name="1st-level Spell, Aberrant Dragonmark" supports="1,Sorcerer" />
+		</rules>
+	</element>
 	<element name="Actor" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_ACTOR">
 		<description>
 			<p>Skilled at mimicry and dramatics, you gain the following benefits</p>
@@ -62,6 +84,7 @@
 			<select type="Ability Score Improvement" name="Athlete" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
 		</rules>
 	</element>
+<!--C-->
 	<element name="Charger" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_CHARGER">
 		<description>
 			<p>When you use your action to Dash, you can use a bonus action to make one melee weapon attack or to shove a creature.</p>
@@ -87,6 +110,7 @@
 			When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to attack with a hand crossbow you are holding.</description>
 		</sheet>
 	</element>
+<!--D-->
 	<element name="Defensive Duelist" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_DEFENSIVE_DUELIST">
 		<prerequisite>Dexterity 13 or higher</prerequisite>
 		<requirements>[dex:13]</requirements>
@@ -156,6 +180,7 @@
 			<stat name="durable:hd:bonus" value="durable:constitution modifier" bonus="feat:durable" />
 		</rules>
 	</element>
+<!--E-->
 	<element name="Elemental Adept" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT">
 		<prerequisite>The ability to cast at least one spell</prerequisite>
 		<requirements>[type:spell]</requirements>
@@ -170,117 +195,119 @@
 			<select type="Feat Feature" name="Elemental Adept" supports="Elemental Adept" />
 		</rules>
 	</element>
-	<element name="Acid" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_ACID">
-		<compendium display="false" />
-		<supports>Elemental Adept</supports>
-		<description>
-			<p>Spells you cast ignore acid resistance. In addition, when you roll damage for a spell you cast that deals acid damage, you can treat any 1 on a damage die as a 2.</p>
-		</description>
-		<sheet alt="Elemental Adept, Acid">
-			<description>Spells you cast ignore acid resistance. Treat any 1 on a damage die as a 2 with acid spells.</description>
-		</sheet>
-	</element>
-	<element name="Cold" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_COLD">
-		<compendium display="false" />
-		<supports>Elemental Adept</supports>
-		<description>
-			<p>Spells you cast ignore cold resistance. In addition, when you roll damage for a spell you cast that deals cold damage, you can treat any 1 on a damage die as a 2.</p>
-		</description>
-		<sheet alt="Elemental Adept, Cold">
-			<description>Spells you cast ignore cold resistance. Treat any 1 on a damage die as a 2 with cold spells.</description>
-		</sheet>
-	</element>
-	<element name="Fire" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_FIRE">
-		<compendium display="false" />
-		<supports>Elemental Adept</supports>
-		<description>
-			<p>Spells you cast ignore fire resistance. In addition, when you roll damage for a spell you cast that deals fire damage, you can treat any 1 on a damage die as a 2.</p>
-		</description>
-		<sheet alt="Elemental Adept, Fire">
-			<description>Spells you cast ignore fire resistance. Treat any 1 on a damage die as a 2 with fire spells.</description>
-		</sheet>
-	</element>
-	<element name="Lightning" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_LIGHTNING">
-		<compendium display="false" />
-		<supports>Elemental Adept</supports>
-		<description>
-			<p>Spells you cast ignore lightning resistance. In addition, when you roll damage for a spell you cast that deals lightning damage, you can treat any 1 on a damage die as a 2.</p>
-		</description>
-		<sheet alt="Elemental Adept, Lightning">
-			<description>Spells you cast ignore lightning resistance. Treat any 1 on a damage die as a 2 with lightning spells.</description>
-		</sheet>
-	</element>
-	<element name="Thunder" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_THUNDER">
-		<compendium display="false" />
-		<supports>Elemental Adept</supports>
-		<description>
-			<p>Spells you cast ignore thunder resistance. In addition, when you roll damage for a spell you cast that deals thunder damage, you can treat any 1 on a damage die as a 2.</p>
-		</description>
-		<sheet alt="Elemental Adept, Thunder">
-			<description>Spells you cast ignore thunder resistance. Treat any 1 on a damage die as a 2 with thunder spells.</description>
-		</sheet>
-	</element>
-	<element name="Elemental Adept" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_2">
-		<compendium display="false" />
-		<prerequisite>The ability to cast at least one spell</prerequisite>
-		<requirements>ID_PHB_FEAT_ELEMENTAL_ADEPT,[type:spell]</requirements>
-		<description>
-			<p><i>Prerequisite: The ability to cast at least one spell</i></p>
-			<p>When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.</p>
-			<p class="indent">Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.</p>
-			<p class="indent">You can select this feat multiple times. Each time you do so, you must choose a different damage type.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<select type="Feat Feature" name="Elemental Adept" supports="Elemental Adept" />
-		</rules>
-	</element>
-	<element name="Elemental Adept" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_3">
-		<compendium display="false" />
-		<prerequisite>The ability to cast at least one spell</prerequisite>
-		<requirements>ID_PHB_FEAT_ELEMENTAL_ADEPT_2,[type:spell]</requirements>
-		<description>
-			<p><i>Prerequisite: The ability to cast at least one spell</i></p>
-			<p>When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.</p>
-			<p class="indent">Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.</p>
-			<p class="indent">You can select this feat multiple times. Each time you do so, you must choose a different damage type.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<select type="Feat Feature" name="Elemental Adept" supports="Elemental Adept" />
-		</rules>
-	</element>
-	<element name="Elemental Adept" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_4">
-		<compendium display="false" />
-		<prerequisite>The ability to cast at least one spell</prerequisite>
-		<requirements>ID_PHB_FEAT_ELEMENTAL_ADEPT_3,[type:spell]</requirements>
-		<description>
-			<p><i>Prerequisite: The ability to cast at least one spell</i></p>
-			<p>When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.</p>
-			<p class="indent">Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.</p>
-			<p class="indent">You can select this feat multiple times. Each time you do so, you must choose a different damage type.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<select type="Feat Feature" name="Elemental Adept" supports="Elemental Adept" />
-		</rules>
-	</element>
-	<element name="Elemental Adept" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_5">
-		<compendium display="false" />
-		<prerequisite>The ability to cast at least one spell</prerequisite>
-		<requirements>ID_PHB_FEAT_ELEMENTAL_ADEPT_4,[type:spell]</requirements>
-		<description>
-			<p><i>Prerequisite: The ability to cast at least one spell</i></p>
-			<p>When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.</p>
-			<p class="indent">Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.</p>
-			<p class="indent">You can select this feat multiple times. Each time you do so, you must choose a different damage type.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<select type="Feat Feature" name="Elemental Adept" supports="Elemental Adept" />
-		</rules>
-	</element>
-	<!-- /elemental adept -->
+	<!--elemental Adept-->
+		<element name="Acid" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_ACID">
+			<compendium display="false" />
+			<supports>Elemental Adept</supports>
+			<description>
+				<p>Spells you cast ignore acid resistance. In addition, when you roll damage for a spell you cast that deals acid damage, you can treat any 1 on a damage die as a 2.</p>
+			</description>
+			<sheet alt="Elemental Adept, Acid">
+				<description>Spells you cast ignore acid resistance. Treat any 1 on a damage die as a 2 with acid spells.</description>
+			</sheet>
+		</element>
+		<element name="Cold" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_COLD">
+			<compendium display="false" />
+			<supports>Elemental Adept</supports>
+			<description>
+				<p>Spells you cast ignore cold resistance. In addition, when you roll damage for a spell you cast that deals cold damage, you can treat any 1 on a damage die as a 2.</p>
+			</description>
+			<sheet alt="Elemental Adept, Cold">
+				<description>Spells you cast ignore cold resistance. Treat any 1 on a damage die as a 2 with cold spells.</description>
+			</sheet>
+		</element>
+		<element name="Fire" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_FIRE">
+			<compendium display="false" />
+			<supports>Elemental Adept</supports>
+			<description>
+				<p>Spells you cast ignore fire resistance. In addition, when you roll damage for a spell you cast that deals fire damage, you can treat any 1 on a damage die as a 2.</p>
+			</description>
+			<sheet alt="Elemental Adept, Fire">
+				<description>Spells you cast ignore fire resistance. Treat any 1 on a damage die as a 2 with fire spells.</description>
+			</sheet>
+		</element>
+		<element name="Lightning" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_LIGHTNING">
+			<compendium display="false" />
+			<supports>Elemental Adept</supports>
+			<description>
+				<p>Spells you cast ignore lightning resistance. In addition, when you roll damage for a spell you cast that deals lightning damage, you can treat any 1 on a damage die as a 2.</p>
+			</description>
+			<sheet alt="Elemental Adept, Lightning">
+				<description>Spells you cast ignore lightning resistance. Treat any 1 on a damage die as a 2 with lightning spells.</description>
+			</sheet>
+		</element>
+		<element name="Thunder" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_THUNDER">
+			<compendium display="false" />
+			<supports>Elemental Adept</supports>
+			<description>
+				<p>Spells you cast ignore thunder resistance. In addition, when you roll damage for a spell you cast that deals thunder damage, you can treat any 1 on a damage die as a 2.</p>
+			</description>
+			<sheet alt="Elemental Adept, Thunder">
+				<description>Spells you cast ignore thunder resistance. Treat any 1 on a damage die as a 2 with thunder spells.</description>
+			</sheet>
+		</element>
+		<element name="Elemental Adept" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_2">
+			<compendium display="false" />
+			<prerequisite>The ability to cast at least one spell</prerequisite>
+			<requirements>ID_PHB_FEAT_ELEMENTAL_ADEPT,[type:spell]</requirements>
+			<description>
+				<p><i>Prerequisite: The ability to cast at least one spell</i></p>
+				<p>When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.</p>
+				<p class="indent">Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.</p>
+				<p class="indent">You can select this feat multiple times. Each time you do so, you must choose a different damage type.</p>
+			</description>
+			<sheet display="false" />
+			<rules>
+				<select type="Feat Feature" name="Elemental Adept" supports="Elemental Adept" />
+			</rules>
+		</element>
+		<element name="Elemental Adept" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_3">
+			<compendium display="false" />
+			<prerequisite>The ability to cast at least one spell</prerequisite>
+			<requirements>ID_PHB_FEAT_ELEMENTAL_ADEPT_2,[type:spell]</requirements>
+			<description>
+				<p><i>Prerequisite: The ability to cast at least one spell</i></p>
+				<p>When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.</p>
+				<p class="indent">Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.</p>
+				<p class="indent">You can select this feat multiple times. Each time you do so, you must choose a different damage type.</p>
+			</description>
+			<sheet display="false" />
+			<rules>
+				<select type="Feat Feature" name="Elemental Adept" supports="Elemental Adept" />
+			</rules>
+		</element>
+		<element name="Elemental Adept" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_4">
+			<compendium display="false" />
+			<prerequisite>The ability to cast at least one spell</prerequisite>
+			<requirements>ID_PHB_FEAT_ELEMENTAL_ADEPT_3,[type:spell]</requirements>
+			<description>
+				<p><i>Prerequisite: The ability to cast at least one spell</i></p>
+				<p>When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.</p>
+				<p class="indent">Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.</p>
+				<p class="indent">You can select this feat multiple times. Each time you do so, you must choose a different damage type.</p>
+			</description>
+			<sheet display="false" />
+			<rules>
+				<select type="Feat Feature" name="Elemental Adept" supports="Elemental Adept" />
+			</rules>
+		</element>
+		<element name="Elemental Adept" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_ELEMENTAL_ADEPT_5">
+			<compendium display="false" />
+			<prerequisite>The ability to cast at least one spell</prerequisite>
+			<requirements>ID_PHB_FEAT_ELEMENTAL_ADEPT_4,[type:spell]</requirements>
+			<description>
+				<p><i>Prerequisite: The ability to cast at least one spell</i></p>
+				<p>When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.</p>
+				<p class="indent">Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.</p>
+				<p class="indent">You can select this feat multiple times. Each time you do so, you must choose a different damage type.</p>
+			</description>
+			<sheet display="false" />
+			<rules>
+				<select type="Feat Feature" name="Elemental Adept" supports="Elemental Adept" />
+			</rules>
+		</element>
+	<!--/elemental adept-->
+<!--G-->
 	<element name="Grappler" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_GRAPPLER">
 		<prerequisite>Strength 13 or higher</prerequisite>
 		<requirements>[str:13]</requirements>
@@ -310,6 +337,7 @@
 			Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a - 5 penalty to the attack roll. If the attack hits, you add +10 to the attack’s damage.</description>
 		</sheet>
 	</element>
+<!--H-->
 	<element name="Healer" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_HEALER">
 		<description>
 			<p>You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:</p>
@@ -360,6 +388,7 @@
 			<stat name="strength" value="1" />
 		</rules>
 	</element>
+<!--I-->
 	<element name="Inspiring Leader" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_INSPIRINGLEADER">
 		<prerequisite>Charisma 13 or higher</prerequisite>
 		<requirements>[cha:13]</requirements>
@@ -375,6 +404,7 @@
 			<stat name="inspiring leader:hp:temp" value="charisma:modifier" />
 		</rules>
 	</element>
+<!--K-->
 	<element name="Keen Mind" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_KEENMIND">
 		<description>
 			<p>You have a mind that can track time, direction, and detail with uncanny precision. You gain the following benefits:</p>
@@ -394,6 +424,7 @@
 			<stat name="intelligence" value="1" />
 		</rules>
 	</element>
+<!--L-->
 	<element name="Lightly Armored" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_LIGHTLYARMORED">
 		<description>
 			<p>You have trained to master the use of light armor, gaining the following benefits:</p>
@@ -442,6 +473,7 @@
 			You can also spend one luck point when an attack roll is made against you. Roll a d20, and then choose whether the attack uses the attacker’s roll or yours.</description>
 		</sheet>
 	</element>
+<!--M-->
 	<element name="Mage Slayer" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_MAGESLAYER">
 		<description>
 			<p>You have practiced techniques useful in melee combat against spellcasters, gaining the following benefits:</p>
@@ -468,96 +500,96 @@
 			<select type="Feat Feature" name="Magic Initiate" supports="Magic Initiate" />
 		</rules>
 	</element>
-	<element name="Bard" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_BARD">
-		<supports>Magic Initiate</supports>
-		<description>
-			<p>You learn two cantrips of your choice from the bard’s spell list.</p>
-			<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
-			<p class="indent">Your spellcasting ability for these spells is charisma.</p>
-		</description>
-		<sheet>
-			<description>Spellcasting ability: Charisma.</description>
-		</sheet>
-		<rules>
-			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Bard" number="2" />
-			<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Bard" />
-		</rules>
-	</element>
-	<element name="Cleric" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_CLERIC">
-		<supports>Magic Initiate</supports>
-		<description>
-			<p>You learn two cantrips of your choice from the cleric’s spell list.</p>
-			<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
-			<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
-		</description>
-		<sheet>
-			<description>Spellcasting ability: Wisdom.</description>
-		</sheet>
-		<rules>
-			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Cleric" number="2" />
-			<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Cleric" />
-		</rules>
-	</element>
-	<element name="Druid" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_DRUID">
-		<supports>Magic Initiate</supports>
-		<description>
-			<p>You learn two cantrips of your choice from the druid spell list.</p>
-			<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
-			<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
-		</description>
-		<sheet>
-			<description>Spellcasting ability: Wisdom.</description>
-		</sheet>
-		<rules>
-			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Druid" number="2" />
-			<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Druid" />
-		</rules>
-	</element>
-	<element name="Sorcerer" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_SORCERER">
-		<supports>Magic Initiate</supports>
-		<description>
-			<p>You learn two cantrips of your choice from the sorcerer’s spell list.</p>
-			<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
-			<p class="indent">Your spellcasting ability for these spells is charisma.</p>
-		</description>
-		<sheet>
-			<description>Spellcasting ability: Charisma.</description>
-		</sheet>
-		<rules>
-			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Sorcerer" number="2" />
-			<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Sorcerer" />
-		</rules>
-	</element>
-	<element name="Warlock" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_WARLOCK">
-		<supports>Magic Initiate</supports>
-		<description>
-			<p>You learn two cantrips of your choice from the warlock’s spell list.</p>
-			<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
-			<p class="indent">Your spellcasting ability for these spells is charisma.</p>
-		</description>
-		<sheet>
-			<description>Spellcasting ability: Charisma.</description>
-		</sheet>
-		<rules>
-			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Warlock" number="2" />
-			<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Warlock" />
-		</rules>
-	</element>
-	<element name="Wizard" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_WIZARD">
-		<supports>Magic Initiate</supports>
-		<description>
-			<p>You learn two cantrips of your choice from the wizard’s spell list.</p>
-			<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
-			<p class="indent">Your spellcasting ability for these spells is intelligence.</p>
-		</description>
-		<sheet>
-			<description>Spellcasting ability: Intelligence.</description>
-		</sheet>
-		<rules>
-			<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Wizard" number="2" />
-			<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Wizard" />
-		</rules>
-	</element>
+		<element name="Bard" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_BARD">
+			<supports>Magic Initiate</supports>
+			<description>
+				<p>You learn two cantrips of your choice from the bard’s spell list.</p>
+				<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
+				<p class="indent">Your spellcasting ability for these spells is charisma.</p>
+			</description>
+			<sheet>
+				<description>Spellcasting ability: Charisma.</description>
+			</sheet>
+			<rules>
+				<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Bard" number="2" />
+				<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Bard" />
+			</rules>
+		</element>
+		<element name="Cleric" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_CLERIC">
+			<supports>Magic Initiate</supports>
+			<description>
+				<p>You learn two cantrips of your choice from the cleric’s spell list.</p>
+				<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
+				<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
+			</description>
+			<sheet>
+				<description>Spellcasting ability: Wisdom.</description>
+			</sheet>
+			<rules>
+				<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Cleric" number="2" />
+				<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Cleric" />
+			</rules>
+		</element>
+		<element name="Druid" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_DRUID">
+			<supports>Magic Initiate</supports>
+			<description>
+				<p>You learn two cantrips of your choice from the druid spell list.</p>
+				<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
+				<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
+			</description>
+			<sheet>
+				<description>Spellcasting ability: Wisdom.</description>
+			</sheet>
+			<rules>
+				<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Druid" number="2" />
+				<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Druid" />
+			</rules>
+		</element>
+		<element name="Sorcerer" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_SORCERER">
+			<supports>Magic Initiate</supports>
+			<description>
+				<p>You learn two cantrips of your choice from the sorcerer’s spell list.</p>
+				<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
+				<p class="indent">Your spellcasting ability for these spells is charisma.</p>
+			</description>
+			<sheet>
+				<description>Spellcasting ability: Charisma.</description>
+			</sheet>
+			<rules>
+				<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Sorcerer" number="2" />
+				<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Sorcerer" />
+			</rules>
+		</element>
+		<element name="Warlock" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_WARLOCK">
+			<supports>Magic Initiate</supports>
+			<description>
+				<p>You learn two cantrips of your choice from the warlock’s spell list.</p>
+				<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
+				<p class="indent">Your spellcasting ability for these spells is charisma.</p>
+			</description>
+			<sheet>
+				<description>Spellcasting ability: Charisma.</description>
+			</sheet>
+			<rules>
+				<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Warlock" number="2" />
+				<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Warlock" />
+			</rules>
+		</element>
+		<element name="Wizard" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_MAGIC_INITIATE_WIZARD">
+			<supports>Magic Initiate</supports>
+			<description>
+				<p>You learn two cantrips of your choice from the wizard’s spell list.</p>
+				<p class="indent">In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.</p>
+				<p class="indent">Your spellcasting ability for these spells is intelligence.</p>
+			</description>
+			<sheet>
+				<description>Spellcasting ability: Intelligence.</description>
+			</sheet>
+			<rules>
+				<select type="Spell" name="Cantrip (Magic Initiate)" supports="0,Wizard" number="2" />
+				<select type="Spell" name="1st-level Spell (Magic Initiate)" supports="1,Wizard" />
+			</rules>
+		</element>
 	<!-- /magic initiate -->
 	<element name="Martial Adept" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_MARTIALADEPT">
 		<description>
@@ -661,6 +693,7 @@
 			If your mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</description>
 		</sheet>
 	</element>
+<!--O-->
 	<element name="Observant" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_OBSERVANT">
 		<description>
 			<p>Quick to notice details of your environment, you gain the following benefits:</p>
@@ -680,6 +713,7 @@
 			<stat name="investigation:passive" value="5" />
 		</rules>
 	</element>
+<!--P-->
 	<element name="Polearm Master" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_POLEARMMASTER">
 		<description>
 			<p>You can keep your enemies at bay with reach weapons. You gain the following benefits:</p>
@@ -693,6 +727,7 @@
 			While you are wielding a glaive, halberd, pike, quarterstaff, or spear, other creatures provoke an opportunity attack from you when they enter your reach.</description>
 		</sheet>
 	</element>
+<!--R-->
 	<element name="Resilient" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT">
 		<description>
 			<p>Choose one ability score. You gain the following benefits:</p>
@@ -706,85 +741,107 @@
 			<select type="Feat Feature" name="Resilient (Feat)" supports="Resilient" />
 		</rules>
 	</element>
-	<element name="Resilient (Strength)" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT_STRENGTH">
-		<compendium display="false" />
-		<supports>Resilient</supports>
-		<description>
-			<p>Your Strength increases by 1.</p>
-			<p>You gain proficiency with Strength saving throws.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<stat name="strength" value="1" alt="Resilient" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
-		</rules>
-	</element>
-	<element name="Resilient (Dexterity)" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT_DEXTERITY">
-		<compendium display="false" />
-		<supports>Resilient</supports>
-		<description>
-			<p>Your Dexterity increases by 1.</p>
-			<p>You gain proficiency with Dexterity saving throws.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<stat name="dexterity" value="1" alt="Resilient" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
-		</rules>
-	</element>
-	<element name="Resilient (Constitution)" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT_CONSTITUTION">
-		<compendium display="false" />
-		<supports>Resilient</supports>
-		<description>
-			<p>Your Constitution increases by 1.</p>
-			<p>You gain proficiency with Constitution saving throws.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<stat name="constitution" value="1" alt="Resilient" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
-		</rules>
-	</element>
-	<element name="Resilient (Intelligence)" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT_INTELLIGENCE">
-		<compendium display="false" />
-		<supports>Resilient</supports>
-		<description>
-			<p>Your Intelligence increases by 1.</p>
-			<p>You gain proficiency with Intelligence saving throws.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<stat name="intelligence" value="1" alt="Resilient" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
-		</rules>
-	</element>
-	<element name="Resilient (Wisdom)" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT_WISDOM">
-		<compendium display="false" />
-		<supports>Resilient</supports>
-		<description>
-			<p>Your Wisdom increases by 1.</p>
-			<p>You gain proficiency with Wisdom saving throws.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<stat name="wisdom" value="1" alt="Resilient" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
-		</rules>
-	</element>
-	<element name="Resilient (Charisma)" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT_CHARISMA">
-		<compendium display="false" />
-		<supports>Resilient</supports>
-		<description>
-			<p>Your Charisma increases by 1.</p>
-			<p>You gain proficiency with Charisma saving throws.</p>
-		</description>
-		<sheet display="false" />
-		<rules>
-			<stat name="charisma" value="1" alt="Resilient" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
-		</rules>
-	</element>
+		<element name="Resilient (Strength)" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT_STRENGTH">
+			<compendium display="false" />
+			<supports>Resilient</supports>
+			<description>
+				<p>Your Strength increases by 1.</p>
+				<p>You gain proficiency with Strength saving throws.</p>
+			</description>
+			<sheet display="false" />
+			<rules>
+				<stat name="strength" value="1" alt="Resilient" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
+			</rules>
+		</element>
+		<element name="Resilient (Dexterity)" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT_DEXTERITY">
+			<compendium display="false" />
+			<supports>Resilient</supports>
+			<description>
+				<p>Your Dexterity increases by 1.</p>
+				<p>You gain proficiency with Dexterity saving throws.</p>
+			</description>
+			<sheet display="false" />
+			<rules>
+				<stat name="dexterity" value="1" alt="Resilient" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
+			</rules>
+		</element>
+		<element name="Resilient (Constitution)" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT_CONSTITUTION">
+			<compendium display="false" />
+			<supports>Resilient</supports>
+			<description>
+				<p>Your Constitution increases by 1.</p>
+				<p>You gain proficiency with Constitution saving throws.</p>
+			</description>
+			<sheet display="false" />
+			<rules>
+				<stat name="constitution" value="1" alt="Resilient" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
+			</rules>
+		</element>
+		<element name="Resilient (Intelligence)" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT_INTELLIGENCE">
+			<compendium display="false" />
+			<supports>Resilient</supports>
+			<description>
+				<p>Your Intelligence increases by 1.</p>
+				<p>You gain proficiency with Intelligence saving throws.</p>
+			</description>
+			<sheet display="false" />
+			<rules>
+				<stat name="intelligence" value="1" alt="Resilient" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" />
+			</rules>
+		</element>
+		<element name="Resilient (Wisdom)" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT_WISDOM">
+			<compendium display="false" />
+			<supports>Resilient</supports>
+			<description>
+				<p>Your Wisdom increases by 1.</p>
+				<p>You gain proficiency with Wisdom saving throws.</p>
+			</description>
+			<sheet display="false" />
+			<rules>
+				<stat name="wisdom" value="1" alt="Resilient" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
+			</rules>
+		</element>
+		<element name="Resilient (Charisma)" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RESILIENT_CHARISMA">
+			<compendium display="false" />
+			<supports>Resilient</supports>
+			<description>
+				<p>Your Charisma increases by 1.</p>
+				<p>You gain proficiency with Charisma saving throws.</p>
+			</description>
+			<sheet display="false" />
+			<rules>
+				<stat name="charisma" value="1" alt="Resilient" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
+			</rules>
+		</element>
 	<!-- /resilient -->
+	<element name="Revenant Blade" type="Feat" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_FEAT_REVENANT_BLADE">
+		<requirements>ID_RACE_ELF</requirements>
+		<prerequisite>Elf</prerequisite>
+		<description>
+			<p><em>Prerequisite: Elf</em></p>
+			<p>You are descended from a master of the double-bladed scimitar, and some of that mastery has passed on to you. You gain the following benefits:</p>
+			<ul>
+				<li>Increase your Dexterity or Strength score by 1, to a maximum of 20.</li>
+				<li>While you are holding a double-bladed scimitar with two hands, you gain a +1 bonus to Armor Class.</li>
+				<li>A double-bladed scimitar has the finesse property when you wield it.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>While you are holding a double-bladed scimitar with two hands, you gain a +1 bonus to Armor Class.
+			A double-bladed scimitar has the finesse property when you wield it.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase, Revenant Blade" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
+			<stat name="ac:misc" value="1" equipped="[primary:double-bladed scimitar]" />
+			<!-- todo: runtime rule property additions -->
+		</rules>
+	</element>
 	<element name="Ritual Caster" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_RITUALCASTER">
 		<prerequisite>Intelligence or Wisdom 13 or higher</prerequisite>
 		<requirements>[int:13]||[wis:13]</requirements>
@@ -802,91 +859,92 @@
 			<select type="Feat Feature" name="Ritual Caster" supports="Ritual Caster" />
 		</rules>
 	</element>
-	<element name="Bard" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RITUAL_CASTER_BARD">
-		<compendium display="false" />
-		<supports>Ritual Caster</supports>
-		<description>
-			<p>You acquire a ritual book holding two 1st-level spells of your choice.</p>
-			<p class="indent">Your spellcasting ability for these spells is charisma.</p>
-		</description>
-		<sheet>
-			<description>Spellcasting ability: Charisma.</description>
-		</sheet>
-		<rules>
-			<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1,Bard" number="2" />
-		</rules>
-	</element>
-	<element name="Cleric" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RITUAL_CASTER_CLERIC">
-		<compendium display="false" />
-		<supports>Ritual Caster</supports>
-		<description>
-			<p>You acquire a ritual book holding two 1st-level spells of your choice.</p>
-			<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
-		</description>
-		<sheet>
-			<description>Spellcasting ability: Wisdom.</description>
-		</sheet>
-		<rules>
-			<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1,Cleric" number="2" />
-		</rules>
-	</element>
-	<element name="Druid" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RITUAL_CASTER_DRUID">
-		<compendium display="false" />
-		<supports>Ritual Caster</supports>
-		<description>
-			<p>You acquire a ritual book holding two 1st-level spells of your choice.</p>
-			<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
-		</description>
-		<sheet>
-			<description>Spellcasting ability: Wisdom.</description>
-		</sheet>
-		<rules>
-			<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1,Druid" number="2" />
-		</rules>
-	</element>
-	<element name="Sorcerer" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RITUAL_CASTER_SORCERER">
-		<compendium display="false" />
-		<supports>Ritual Caster</supports>
-		<description>
-			<p>You acquire a ritual book holding two 1st-level spells of your choice.</p>
-			<p class="indent">Your spellcasting ability for these spells is charisma.</p>
-		</description>
-		<sheet>
-			<description>Spellcasting ability: Charisma.</description>
-		</sheet>
-		<rules>
-			<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1,Sorcerer" number="2" />
-		</rules>
-	</element>
-	<element name="Warlock" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RITUAL_CASTER_WARLOCK">
-		<compendium display="false" />
-		<supports>Ritual Caster</supports>
-		<description>
-			<p>You acquire a ritual book holding two 1st-level spells of your choice.</p>
-			<p class="indent">Your spellcasting ability for these spells is charisma.</p>
-		</description>
-		<sheet>
-			<description>Spellcasting ability: Charisma.</description>
-		</sheet>
-		<rules>
-			<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1,Warlock" number="2" />
-		</rules>
-	</element>
-	<element name="Wizard" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RITUAL_CASTER_WIZARD">
-		<compendium display="false" />
-		<supports>Ritual Caster</supports>
-		<description>
-			<p>You acquire a ritual book holding two 1st-level spells of your choice.</p>
-			<p class="indent">Your spellcasting ability for these spells is intelligence.</p>
-		</description>
-		<sheet>
-			<description>Spellcasting ability: Intelligence.</description>
-		</sheet>
-		<rules>
-			<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1,Wizard" number="2" />
-		</rules>
-	</element>
+		<element name="Bard" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RITUAL_CASTER_BARD">
+			<compendium display="false" />
+			<supports>Ritual Caster</supports>
+			<description>
+				<p>You acquire a ritual book holding two 1st-level spells of your choice.</p>
+				<p class="indent">Your spellcasting ability for these spells is charisma.</p>
+			</description>
+			<sheet>
+				<description>Spellcasting ability: Charisma.</description>
+			</sheet>
+			<rules>
+				<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1,Bard" number="2" />
+			</rules>
+		</element>
+		<element name="Cleric" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RITUAL_CASTER_CLERIC">
+			<compendium display="false" />
+			<supports>Ritual Caster</supports>
+			<description>
+				<p>You acquire a ritual book holding two 1st-level spells of your choice.</p>
+				<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
+			</description>
+			<sheet>
+				<description>Spellcasting ability: Wisdom.</description>
+			</sheet>
+			<rules>
+				<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1,Cleric" number="2" />
+			</rules>
+		</element>
+		<element name="Druid" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RITUAL_CASTER_DRUID">
+			<compendium display="false" />
+			<supports>Ritual Caster</supports>
+			<description>
+				<p>You acquire a ritual book holding two 1st-level spells of your choice.</p>
+				<p class="indent">Your spellcasting ability for these spells is wisdom.</p>
+			</description>
+			<sheet>
+				<description>Spellcasting ability: Wisdom.</description>
+			</sheet>
+			<rules>
+				<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1,Druid" number="2" />
+			</rules>
+		</element>
+		<element name="Sorcerer" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RITUAL_CASTER_SORCERER">
+			<compendium display="false" />
+			<supports>Ritual Caster</supports>
+			<description>
+				<p>You acquire a ritual book holding two 1st-level spells of your choice.</p>
+				<p class="indent">Your spellcasting ability for these spells is charisma.</p>
+			</description>
+			<sheet>
+				<description>Spellcasting ability: Charisma.</description>
+			</sheet>
+			<rules>
+				<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1,Sorcerer" number="2" />
+			</rules>
+		</element>
+		<element name="Warlock" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RITUAL_CASTER_WARLOCK">
+			<compendium display="false" />
+			<supports>Ritual Caster</supports>
+			<description>
+				<p>You acquire a ritual book holding two 1st-level spells of your choice.</p>
+				<p class="indent">Your spellcasting ability for these spells is charisma.</p>
+			</description>
+			<sheet>
+				<description>Spellcasting ability: Charisma.</description>
+			</sheet>
+			<rules>
+				<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1,Warlock" number="2" />
+			</rules>
+		</element>
+		<element name="Wizard" type="Feat Feature" source="Player’s Handbook" id="ID_PHB_FEAT_RITUAL_CASTER_WIZARD">
+			<compendium display="false" />
+			<supports>Ritual Caster</supports>
+			<description>
+				<p>You acquire a ritual book holding two 1st-level spells of your choice.</p>
+				<p class="indent">Your spellcasting ability for these spells is intelligence.</p>
+			</description>
+			<sheet>
+				<description>Spellcasting ability: Intelligence.</description>
+			</sheet>
+			<rules>
+				<select type="Spell" name="1st-level Spell (Ritual Caster)" supports="Ritual,1,Wizard" number="2" />
+			</rules>
+		</element>
 	<!-- /ritual caster -->
+<!--S-->
 	<element name="Savage Attacker" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_SAVAGEATTACKER">
 		<description>
 			<p>Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice as use either total.</p>
@@ -988,6 +1046,7 @@
 			<select type="Spell" name="Spell Sniper" supports="0,(Bard||Cleric||Druid||Sorcerer||Warlock||Wizard)" />
 		</rules>
 	</element>
+<!--T-->
 	<element name="Tavern Brawler" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_TAVERNBRAWLER">
 		<description>
 			<p>Accustomed to rough-and-tumble fighting using whatever weapons happen to be at hand, you gain the following benefits:</p>
@@ -1040,6 +1099,7 @@
 			When a hostile creature’s movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an opportunity attack. The spell must have a casting time of 1 action and must target only that creature.</description>
 		</sheet>
 	</element>
+<!--W-->
 	<element name="Weapon Master" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_WEAPONMASTER">
 		<description>
 			<p>You have practiced extensively with a variety of weapons, gaining the following benefits:</p>

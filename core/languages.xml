@@ -7,7 +7,7 @@
 		</update>
 	</info>
 
-	<!-- standard -->
+<!-- standard -->
 	<element name="Caelian (Common)" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_COMMON">
 		<supports>Standard</supports>
 		<description>
@@ -85,6 +85,50 @@
 			<set name="script">Common</set>
 		</setters>
 	</element>
+	<element name="Kraul" type="Language" source="Guildmasters’ Guide to Ravnica" id="ID_GGTR_LANGUAGE_KRAUL">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Kraul.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Kraul</set>
+			<set name="script">Kraul</set>
+		</setters>
+	</element>
+	<element name="Loxodon" type="Language" source="Guildmasters’ Guide to Ravnica" id="ID_GGTR_LANGUAGE_LOXODON">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Loxodons.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Loxodons</set>
+			<set name="script">Elvish</set>
+		</setters>
+	</element>
+	<element name="Merfolk" type="Language" source="Guildmasters’ Guide to Ravnica" id="ID_GGTR_LANGUAGE_MERFOLK">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Merfolk.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Merfolk</set>
+			<set name="script">Merfolk</set>
+		</setters>
+	</element>
+	<element name="Minotaur" type="Language" source="Guildmasters’ Guide to Ravnica" id="ID_GGTR_LANGUAGE_MINOTAUR">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Minotaurs.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Minotaurs</set>
+			<set name="script">Minotaur</set>
+		</setters>
+	</element>
 	<element name="Orc" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_ORC">
 		<supports>Standard</supports>
 		<description>
@@ -105,8 +149,30 @@
 			<set name="standard">true</set>
 		</setters>
 	</element>
+	<element name="Sphinx" type="Language" source="Guildmasters’ Guide to Ravnica" id="ID_GGTR_LANGUAGE_SPHINX">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Sphinxes.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Sphinxes</set>
+			<set name="script"></set>
+		</setters>
+	</element>
+	<element name="Vedalken" type="Language" source="Guildmasters’ Guide to Ravnica" id="ID_GGTR_LANGUAGE_VEDALKEN">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by Vedalken.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Vedalken</set>
+			<set name="script">Vedalken</set>
+		</setters>
+	</element>
 
-	<!-- exotic -->
+<!-- exotic -->
 	<element name="Abyssal" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_ABYSSAL">
 		<supports>Exotic</supports>
 		<description>
@@ -215,7 +281,7 @@
 		</setters>
 	</element>
 
-	<!-- secret -->
+<!-- secret -->
 	<element name="Druidic" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_DRUIDIC">
 		<supports>Secret</supports>
 		<description>

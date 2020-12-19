@@ -473,6 +473,26 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Tether Essence" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_TETHER_ESSENCE">
+        <supports>Wizard,Dunamancy</supports>
+        <description>
+            <p>Two creatures you can see within range must make a Constitution saving throw, with disadvantage if they are within 30 feet of each other. Either creature can willingly fail the save. If either save succeeds, the spell has no effect. If both saves fail, the creatures are magically linked for the duration, regardless of the distance between them. When damage is dealt to one of them, the same damage is dealt to the other one. If hit points are restored to one of them, the same number of hit points are restored to the other one. If either of the tethered creatures is reduced to 0 hit points, the spell ends on both. If the spell ends on one creature, it ends on both.</p>
+        </description>
+        <setters>
+            <set name="keywords">dunamancy</set>
+            <set name="level">7</set>
+            <set name="school" addition="Dunamancy">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a spool of platinum cord worth at least 250 fp, which the spell consumes</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--U-->
 <!--V-->
 <!--W-->

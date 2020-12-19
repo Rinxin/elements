@@ -14,6 +14,7 @@
 	<!--index-->
 		<file name="backgrounds.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds.index" />
 		<file name="classes.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes.index" />
+		<file name="companions.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/companions.index" />
 		<file name="deities.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/deities.index" />
 		<file name="items.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items.index" />
 		<file name="races.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races.index" />

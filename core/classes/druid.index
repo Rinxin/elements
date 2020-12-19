@@ -12,6 +12,7 @@
 		<file name="00-druid.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Druid/00-druid.xml" />
 		
 		<file name="druid-circle-of-dreams.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Druid/druid-circle-of-dreams.xml" />
+		<file name="druid-circle-of-spores.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Druid/druid-circle-of-spores.xml" />
 		<file name="druid-circle-of-the-land.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Druid/druid-circle-of-the-land.xml" />
 		<file name="druid-circle-of-the-moon.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Druid/druid-circle-of-the-moon.xml" />
 		<file name="druid-circle-of-the-shepherd.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Druid/druid-circle-of-the-shepherd.xml" />

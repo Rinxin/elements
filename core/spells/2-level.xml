@@ -557,6 +557,28 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Fortune’s Favor" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_FORTUNES_FAVOR">
+        <supports>Wizard,Dunamancy</supports>
+        <description>
+            <p>You impart latent luck to yourself or one willing creature you can see within range. When the chosen creature makes an attack roll, an ability check, or a saving throw before the spell ends, it can dismiss this spell on itself to roll and additional d20 and choose which of the d20s to use. Alternatively, when an attack roll is made against the chosen creature, it can dismiss this spell on itself to roll a d20 and choose which of the d20s to use, the one it rolled or the one the attacker rolled.</p>
+            <p class="indent">If the original d20 roll has advantage or disadvantage, the creature rolls the additional d20 after advantage or disadvantage has been applied to the original roll.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords">dunamancy</set>
+            <set name="level">2</set>
+            <set name="school" addition="Dunamancy">Divination</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 hour</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a white pearl worth at least 100 gp, which the spell consumes</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--G-->
     <element name="Gentle Repose" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GENTLE_REPOSE">
         <supports>Cleric, Wizard</supports>
@@ -578,6 +600,28 @@
             <set name="isRitual">true</set>
         </setters>
     </element>
+    <element name="Gift of Gab" type="Spell" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_SPELL_GIFT_OF_GAB">
+		<supports>Bard,Wizard</supports>
+		<description>
+			<p>Jim Darkmagic is said to have invented this spell, originally calling it I said what?! Have you ever been talking to the local monarch and accidentally mentioned how their son looks like your favorite hog from when you were growing up on the family farm? We’ve all been there! But rather than being beheaded for an honest slip of the tongue, you can pretend it never happened—by ensuring that no one knows it happened.</p>
+			<p class="indent">When you cast this spell, you skillfully reshape the memories of listeners in your immediate area, so that each creature of your choice within 5 feet of you forgets everything you said within the last 6 seconds. Those creatures then remember that you actually said the words you speak as the verbal component of the spell.</p>
+		</description>
+		<setters>
+			<set name="keywords">royalty</set>
+			<set name="level">2</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 reaction, which you take when you speak to another creature</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<!-- <set name="hasRoyaltyComponent">true</set> -->
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
     <element name="Gust of Wind" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GUST_OF_WIND">
         <supports>Druid, Sorcerer, Wizard</supports>
         <description>
@@ -645,6 +689,28 @@
         </setters>
     </element>
 <!--I-->
+    <element name="Immovable Object" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_IMMOVABLE_OBJECT">
+        <supports>Wizard,Dunamancy,Graviturgy</supports>
+        <description>
+            <p>You touch an object that weighs no more than 10 pounds and cause it to become magically fixed in place. You and the creatures you designate when you cast this spell can move the object normally. You can also set a password, that, when spoken within 5 feet of the object, suppresses this spell for 1 minute.</p>
+            <p class="indent">If the object is fixed in the air, it can hold up to 4,000 pounds of weight. More weight causes the object to fall. Otherwise, a creature can use an action to make a Strength check against your spell save DC. On a success, the creature can move the object up to 10 feet.</p>
+            <p class="indent"><strong><em>At Higher Levels.</em></strong> If you cast this spell using a spell slot of 4th or 5th level, the DC to move the object increases by 5, it can carry up to 8,000 pounds of weight, and the duration increases to 24 hours. If you cast this spell using a spell slot of 6th level or higher, the DC to move the object increases by 10, it can carry up to 20,000 pounds of weight, and the effect is permanent until dispelled.</p>
+        </description>
+        <setters>
+            <set name="keywords">dunamancy,graviturgy</set>
+            <set name="level">2</set>
+            <set name="school" addition="Dunamancy">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 hour</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">gold dust worth at least 25 gp, which the spell consumes</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Invisibility" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_INVISIBILITY">
         <supports>Bard, Sorcerer, Warlock, Wizard, Artificer</supports>
         <description>
@@ -667,6 +733,27 @@
         </setters>
     </element>
 <!--J-->
+    <element name="Jim’s Glowing Coin" type="Spell" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_SPELL_JIMS_GLOWING_COIN">
+		<supports>Wizard</supports>
+		<description>
+			<p>Of the many tactics employed by master magician and renowned adventurer Jim Darkmagic, the old glowing coin trick is a time-honored classic. When you cast the spell, you hurl the coin that is the spell’s material component to any spot within range. The coin lights up as if under the effect of a light spell. Each creature of your choice that you can see within 30 feet of the coin must succeed on a Wisdom saving throw or be distracted for the duration. While distracted, a creature has disadvantage on Wisdom (Perception) checks and initiative rolls.</p>
+		</description>
+		<setters>
+			<set name="keywords">royalty</set>
+			<set name="level">2</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 minute</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<!-- <set name="hasRoyaltyComponent">true</set> -->
+			<set name="materialComponent">a coin</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 <!--K-->
     <element name="Knock" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_KNOCK">
         <supports>Bard, Sorcerer, Wizard</supports>
@@ -1261,6 +1348,27 @@
             <set name="materialComponent">a bit of spiderweb</set>
             <set name="isConcentration">true</set>
             <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Wristpocket" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_WRISTPOCKET">
+        <supports>Wizard,Dunamancy</supports>
+        <description>
+            <p>You flick your wrist, causing one object in your hand to vanish. The object, which only you can be holding and can weigh no more than 5 pounds, is transported to an extradimensional space, where it remains for the duration.</p>
+            <p class="indent">Until the spell ends, you can use your action to summon the object to your free hand, and you can use your action to return the object to the extradimensional space. An object still in the pocket plane when the spell ends appears in your space, at your feet.</p>
+        </description>
+        <setters>
+            <set name="keywords">dunamancy</set>
+            <set name="level">2</set>
+            <set name="school" addition="Dunamancy">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">true</set>
         </setters>
     </element>
 <!--X-->
