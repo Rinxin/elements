@@ -54,26 +54,26 @@
 				<thead>
 					<tr><td class="col-5">Level</td><td class="left">Core Features</td><td>"Flavor" Features</td></tr>
 				</thead>
-				<tr><td> 1st</td><td class="left">Fighting Style, Second Wind</td></tr>
-				<tr><td> 2nd</td><td class="left">Action Surge (one use)</td></tr>
-				<tr><td> 3rd</td><td class="left">Martial Archetype</td></tr>
-				<tr><td> 4th</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td> 5th</td><td class="left">Extra Attack</td></tr>
-				<tr><td> 6th</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td> 7th</td><td class="left">Martial Archetype feature</td></tr>
-				<tr><td> 8th</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td> 9th</td><td class="left">Indomitable (one use)</td></tr>
-				<tr><td>10th</td><td class="left">Martial Archetype feature</td></tr>
-				<tr><td>11th</td><td class="left">Extra Attack (2)</td></tr>
-				<tr><td>12th</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>13th</td><td class="left">Indomitable (two uses)</td></tr>
-				<tr><td>14th</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>15th</td><td class="left">Martial Archetype feature</td></tr>
-				<tr><td>16th</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>17th</td><td class="left">Action Surge (two uses), Indomitable (three uses)</td></tr>
-				<tr><td>18th</td><td class="left">Martial Archetype feature</td></tr>
-				<tr><td>19th</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>20th</td><td class="left">Extra Attack (3)</td></tr>
+				<tr><td> 1st</td><td class="left">Fighting Style, Second Wind</td><td>—</td></tr>
+				<tr><td> 2nd</td><td class="left">Action Surge (one use)</td><td>—</td></tr>
+				<tr><td> 3rd</td><td class="left">Martial Archetype</td><td>—</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>—</td></tr>
+				<tr><td> 5th</td><td class="left">Extra Attack</td><td>—</td></tr>
+				<tr><td> 6th</td><td class="left">Ability Score Improvement</td><td>—</td></tr>
+				<tr><td> 7th</td><td class="left">Martial Archetype feature</td><td>—</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>—</td></tr>
+				<tr><td> 9th</td><td class="left">Indomitable (one use)</td><td>—</td></tr>
+				<tr><td>10th</td><td class="left">Martial Archetype feature</td><td>—</td></tr>
+				<tr><td>11th</td><td class="left">Extra Attack (2)</td><td>—</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>—</td></tr>
+				<tr><td>13th</td><td class="left">Indomitable (two uses)</td><td>—</td></tr>
+				<tr><td>14th</td><td class="left">Ability Score Improvement</td><td>—</td></tr>
+				<tr><td>15th</td><td class="left">Martial Archetype feature</td><td>—</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>—</td></tr>
+				<tr><td>17th</td><td class="left">Action Surge (two uses), Indomitable (three uses)</td><td>—</td></tr>
+				<tr><td>18th</td><td class="left">Martial Archetype feature</td><td>—</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>—</td></tr>
+				<tr><td>20th</td><td class="left">Extra Attack (3)</td><td>—</td></tr>
 			</table>
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_SECONDWIND" />

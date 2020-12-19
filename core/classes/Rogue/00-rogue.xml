@@ -55,26 +55,26 @@
 				<thead>
 					<tr><td class="col-5">Level</td><td class="col-10">Sneak Attack</td><td class="col-60 left">Core Features</td><td>"Flavor" Features</td></tr>
 				</thead>
-				<tr><td> 1st</td><td>1d6</td><td class="left">Expertise, Sneak Attack, Thieves’ Cant</td></tr>
-				<tr><td> 2nd</td><td>1d6</td><td class="left">Cunning Action</td></tr>
-				<tr><td> 3rd</td><td>2d6</td><td class="left">Roguish Archetype</td></tr>
-				<tr><td> 4th</td><td>2d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td> 5th</td><td>3d6</td><td class="left">Uncanny Dodge</td></tr>
-				<tr><td> 6th</td><td>3d6</td><td class="left">Expertise</td></tr>
-				<tr><td> 7th</td><td>4d6</td><td class="left">Evasion</td></tr>
-				<tr><td> 8th</td><td>4d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td> 9th</td><td>Sd6</td><td class="left">Roguish Archetype feature</td></tr>
-				<tr><td>10th</td><td>Sd6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>11th</td><td>6d6</td><td class="left">Reliable Talent</td></tr>
-				<tr><td>12th</td><td>6d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>13th</td><td>7d6</td><td class="left">Roguish Archetype feature</td></tr>
-				<tr><td>14th</td><td>7d6</td><td class="left">Blindsense</td></tr>
-				<tr><td>15th</td><td>8d6</td><td class="left">Slippery Mind</td></tr>
-				<tr><td>16th</td><td>8d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>17th</td><td>9d6</td><td class="left">Roguish Archetype feature</td></tr>
-				<tr><td>18th</td><td>9d6</td><td class="left">Elusive</td></tr>
-				<tr><td>19th</td><td>10d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>20th</td><td>10d6</td><td class="left">Stroke of Luck</td></tr>
+				<tr><td> 1st</td><td>1d6</td><td class="left">Expertise, Sneak Attack, Thieves’ Cant</td><td>—</td></tr>
+				<tr><td> 2nd</td><td>1d6</td><td class="left">Cunning Action</td><td>—</td></tr>
+				<tr><td> 3rd</td><td>2d6</td><td class="left">Roguish Archetype</td><td>—</td></tr>
+				<tr><td> 4th</td><td>2d6</td><td class="left">Ability Score Improvement</td><td>—</td></tr>
+				<tr><td> 5th</td><td>3d6</td><td class="left">Uncanny Dodge</td><td>—</td></tr>
+				<tr><td> 6th</td><td>3d6</td><td class="left">Expertise</td><td>—</td></tr>
+				<tr><td> 7th</td><td>4d6</td><td class="left">Evasion</td><td>—</td></tr>
+				<tr><td> 8th</td><td>4d6</td><td class="left">Ability Score Improvement</td><td>—</td></tr>
+				<tr><td> 9th</td><td>Sd6</td><td class="left">Roguish Archetype feature</td><td>—</td></tr>
+				<tr><td>10th</td><td>Sd6</td><td class="left">Ability Score Improvement</td><td>—</td></tr>
+				<tr><td>11th</td><td>6d6</td><td class="left">Reliable Talent</td><td>—</td></tr>
+				<tr><td>12th</td><td>6d6</td><td class="left">Ability Score Improvement</td><td>—</td></tr>
+				<tr><td>13th</td><td>7d6</td><td class="left">Roguish Archetype feature</td><td>—</td></tr>
+				<tr><td>14th</td><td>7d6</td><td class="left">Blindsense</td><td>—</td></tr>
+				<tr><td>15th</td><td>8d6</td><td class="left">Slippery Mind</td><td>—</td></tr>
+				<tr><td>16th</td><td>8d6</td><td class="left">Ability Score Improvement</td><td>—</td></tr>
+				<tr><td>17th</td><td>9d6</td><td class="left">Roguish Archetype feature</td><td>—</td></tr>
+				<tr><td>18th</td><td>9d6</td><td class="left">Elusive</td><td>—</td></tr>
+				<tr><td>19th</td><td>10d6</td><td class="left">Ability Score Improvement</td><td>—</td></tr>
+				<tr><td>20th</td><td>10d6</td><td class="left">Stroke of Luck</td><td>—</td></tr>
 			</table>
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_EXPERTISE"/>
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_SNEAKATTACK"/>

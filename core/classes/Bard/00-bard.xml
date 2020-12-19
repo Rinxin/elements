@@ -55,26 +55,26 @@
 				<thead>
 					<tr><td class="col-5">Level</td><td class="left">Core Features</td><td>"Flavor" Features</td><td class="col-5">Cantrips Known</td><td class="col-5">Spells Known</td><td>Spell Points</td><td>Max Spell Level</td></tr>
 				</thead>
-				<tr><td> 1st</td><td class="left">Spellcasting, Bardic Inspiration (d6)</td><td>2</td><td>4</td>					<td>2</td><td>1st</td></tr>
-				<tr><td> 2nd</td><td class="left">Jack of All Trades, Song of Rest (d6)</td><td>2</td><td>5</td>					<td>3</td><td>1st</td></tr>
-				<tr><td> 3rd</td><td class="left">Bard College, Expertise</td><td>2</td><td>6</td>									<td>8</td><td>2nd</td></tr>
-				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>3</td><td>7</td>								<td>10</td><td>2nd</td></tr>
-				<tr><td> 5th</td><td class="left">Bardic Inspiration (d8), Font of Inspiration</td><td>3</td><td>8</td>				<td>16</td><td>3rd</td></tr>
-				<tr><td> 6th</td><td class="left">Countercharm, Bard College feature</td><td>3</td><td>9</td>						<td>19</td><td>3rd</td></tr>
-				<tr><td> 7th</td><td class="left">—</td><td>3</td><td>10</td><td>4</td><td>3</td>									<td>23</td><td>4th</td></tr>
-				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>3</td><td>11</td>								<td>27</td><td>4th</td></tr>
-				<tr><td> 9th</td><td class="left">Song of Rest (d8)</td><td>3</td><td>12</td>										<td>36</td><td>5th</td></tr>
-				<tr><td>10th</td><td class="left">Bardic Inspiration (d10), Expertise, Magical Secrets</td><td>4</td><td>14</td>	<td>41</td><td>5th</td></tr>
-				<tr><td>11th</td><td class="left">—</td><td>4</td><td>15</td>														<td>47</td><td>6th</td></tr>
-				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>4</td><td>15</td>								<td>47</td><td>6th</td></tr>
-				<tr><td>13th</td><td class="left">Song of Rest (d10) </td><td>4</td><td>16</td>										<td>54</td><td>7th</td></tr>
-				<tr><td>14th</td><td class="left">Magical Secrets, Bard College feature</td><td>4</td><td>18</td>					<td>54</td><td>7th</td></tr>
-				<tr><td>15th</td><td class="left">Bardic Inspiration (d12)</td><td>4</td><td>19</td>								<td>62</td><td>8th</td></tr>
-				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>4</td><td>19</td>								<td>62</td><td>8th</td></tr>
-				<tr><td>17th</td><td class="left">Song of Rest (d12)</td><td>4</td><td>20</td>										<td>71</td><td>9th</td></tr>
-				<tr><td>18th</td><td class="left">Magical Secrets</td><td>4</td><td>22</td>											<td>76</td><td>9th</td></tr>
-				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>4</td><td>22</td>								<td>82</td><td>9th</td></tr>
-				<tr><td>20th</td><td class="left">Superior Inspiration</td><td>4</td><td>22</td>									<td>89</td><td>9th</td></tr>
+				<tr><td> 1st</td><td class="left">Spellcasting, Bardic Inspiration (d6)</td><td>—</td><td>2</td><td>4</td>					<td>2</td><td>1st</td></tr>
+				<tr><td> 2nd</td><td class="left">Jack of All Trades, Song of Rest (d6)</td><td>—</td><td>2</td><td>5</td>					<td>3</td><td>1st</td></tr>
+				<tr><td> 3rd</td><td class="left">Bard College, Expertise</td><td>—</td><td>2</td><td>6</td>									<td>8</td><td>2nd</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>—</td><td>3</td><td>7</td>								<td>10</td><td>2nd</td></tr>
+				<tr><td> 5th</td><td class="left">Bardic Inspiration (d8), Font of Inspiration</td><td>—</td><td>3</td><td>8</td>				<td>16</td><td>3rd</td></tr>
+				<tr><td> 6th</td><td class="left">Countercharm, Bard College feature</td><td>—</td><td>3</td><td>9</td>						<td>19</td><td>3rd</td></tr>
+				<tr><td> 7th</td><td class="left">—</td><td>—</td><td>3</td><td>10</td>														<td>23</td><td>4th</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>—</td><td>3</td><td>11</td>								<td>27</td><td>4th</td></tr>
+				<tr><td> 9th</td><td class="left">Song of Rest (d8)</td><td>—</td><td>3</td><td>12</td>										<td>36</td><td>5th</td></tr>
+				<tr><td>10th</td><td class="left">Bardic Inspiration (d10), Expertise, Magical Secrets</td><td>—</td><td>4</td><td>14</td>	<td>41</td><td>5th</td></tr>
+				<tr><td>11th</td><td class="left">—</td><td>—</td><td>4</td><td>15</td>														<td>47</td><td>6th</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>—</td><td>4</td><td>15</td>								<td>47</td><td>6th</td></tr>
+				<tr><td>13th</td><td class="left">Song of Rest (d10) </td><td>—</td><td>4</td><td>16</td>										<td>54</td><td>7th</td></tr>
+				<tr><td>14th</td><td class="left">Magical Secrets, Bard College feature</td><td>—</td><td>4</td><td>18</td>					<td>54</td><td>7th</td></tr>
+				<tr><td>15th</td><td class="left">Bardic Inspiration (d12)</td><td>—</td><td>4</td><td>19</td>								<td>62</td><td>8th</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>—</td><td>4</td><td>19</td>								<td>62</td><td>8th</td></tr>
+				<tr><td>17th</td><td class="left">Song of Rest (d12)</td><td>—</td><td>4</td><td>20</td>										<td>71</td><td>9th</td></tr>
+				<tr><td>18th</td><td class="left">Magical Secrets</td><td>—</td><td>4</td><td>22</td>											<td>76</td><td>9th</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>—</td><td>4</td><td>22</td>								<td>82</td><td>9th</td></tr>
+				<tr><td>20th</td><td class="left">Superior Inspiration</td><td>—</td><td>4</td><td>22</td>									<td>89</td><td>9th</td></tr>
 			</table>
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARDIC_INSPIRATION" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_SPELLCASTING_BARD" />
