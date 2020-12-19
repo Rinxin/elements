@@ -10,7 +10,7 @@
 	</info>
 	<files>
         <file name="00-background-options.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/00-background-options.xml" />
-    
+
 		<file name="acolyte.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/acolyte.xml" />
         <file name="anthropologist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/anthropologist.xml" />
         <file name="athlete.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/athlete.xml" />
