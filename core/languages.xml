@@ -8,7 +8,7 @@
 	</info>
 
 	<!-- standard -->
-	<element name="Common" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_COMMON">
+	<element name="Caelian (Common)" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_COMMON">
 		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by humans.</p>
@@ -96,6 +96,15 @@
 			<set name="script">Dwarvish</set>
 		</setters>
 	</element>
+	<element name="Riedran" type="Language" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_LANGUAGE_RIEDRAN">
+		<supports>Standard</supports>
+		<description>
+			<p>Mainly spoken by the people of Sarlona.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+		</setters>
+	</element>
 
 	<!-- exotic -->
 	<element name="Abyssal" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_ABYSSAL">
@@ -118,6 +127,15 @@
 			<set name="exotic">true</set>
 			<set name="speakers">Celestials</set>
 			<set name="script">Celestial</set>
+		</setters>
+	</element>
+	<element name="Daelkyr" type="Language" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_LANGUAGE_DAELKYR">
+		<supports>Exotic</supports>
+		<description>
+			<p>Mainly spoken by aberrations and denizens of Khyber.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
 		</setters>
 	</element>
 	<element name="Deep Speech" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_DEEP_SPEECH">
@@ -165,6 +183,15 @@
 			<set name="script">Dwarvish</set>
 		</setters>
 	</element>
+	<element name="Quori" type="Language" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_LANGUAGE_QUORI">
+		<supports>Exotic</supports>
+		<description>
+			<p>Mainly spoken by inspired, kalashtar, and quori.</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+		</setters>
+	</element>
 	<element name="Sylvan" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_SYLVAN">
 		<supports>Exotic</supports>
 		<description>
@@ -210,7 +237,7 @@
 		</setters>
 	</element>
 
-	<!--Unsorted-->
+<!--Monster-->
 	<element name="Auran" type="Language" source="Monster Manual" id="ID_MM_LANGUAGE_AURAN">
 		<supports>Monster</supports>
 		<description>
