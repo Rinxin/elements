@@ -10,8 +10,12 @@
 	</info>
 	<files>
 		<file name="00-ranger.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Ranger/00-ranger.xml" />
+		<file name="01-ranger-favored-enemies.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Ranger/01-ranger-favored-enemies.xml" />
 
 		<file name="ranger-beast-master.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Ranger/ranger-beast-master.xml" />
+		<file name="ranger-gloom-stalker.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Ranger/ranger-gloom-stalker.xml" />
+		<file name="ranger-horizon-walker.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Ranger/ranger-horizon-walker.xml" />
 		<file name="ranger-hunter.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Ranger/ranger-hunter.xml" />
+		<file name="ranger-monster-slayer.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Ranger/ranger-monster-slayer.xml" />
 	</files>
 </index>

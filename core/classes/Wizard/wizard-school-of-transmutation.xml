@@ -5,7 +5,7 @@
 		<description>The Wizard class from the Player’s Handbook.</description>
 		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
 		<update version="0.3.1">
-			<file name="wizard-transmutation.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Wizard/wizard-transmutation.xml" />
+			<file name="wizard-school-of-transmutation.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Wizard/wizard-school-of-transmutation.xml" />
 		</update>
 	</info>
 

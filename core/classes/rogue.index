@@ -13,6 +13,10 @@
 
 		<file name="rogue-arcane-trickster.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Rogue/rogue-arcane-trickster.xml" />
 		<file name="rogue-assassin.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Rogue/rogue-assassin.xml" />
+		<file name="rogue-inquisitive.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Rogue/rogue-inquisitive.xml" />
+		<file name="rogue-mastermind.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Rogue/rogue-mastermind.xml" />
+		<file name="rogue-scout.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Rogue/rogue-scout.xml" />
+		<file name="rogue-swashbuckler.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Rogue/rogue-swashbuckler.xml" />
 		<file name="rogue-thief.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Rogue/rogue-thief.xml" />
 	</files>
 </index>

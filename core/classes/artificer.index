@@ -10,5 +10,10 @@
 	</info>
 	<files>
 		<file name="00-artificer.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Artificer/00-artificer.xml" />
+		<file name="01-infusions.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Artificer/01-infusions.xml" />
+		
+		<file name="artificer-alchemist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Artificer/artificer-alchemist.xml" />
+		<file name="artificer-artillerist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Artificer/artificer-artillerist.xml" />
+		<file name="artificer-battle-smith.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Artificer/artificer-battle-smith.xml" />
 	</files>
 </index>

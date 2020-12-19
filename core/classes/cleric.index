@@ -11,6 +11,8 @@
 	<files>
 		<file name="00-cleric.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/00-cleric.xml" />
 		<file name="cleric-death-domain.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/cleric-death-domain.xml" />
+		<file name="cleric-forge-domain.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/cleric-forge-domain.xml" />
+		<file name="cleric-grave-domain.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/cleric-grave-domain.xml" />
 		<file name="cleric-knowledge-domain.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/cleric-knowledge-domain.xml" />
 		<file name="cleric-life-domain.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/cleric-life-domain.xml" />
 		<file name="cleric-light-domain.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/cleric-light-domain.xml" />

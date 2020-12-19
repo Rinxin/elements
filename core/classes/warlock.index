@@ -12,7 +12,10 @@
 		<file name="00-warlock.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Warlock/00-warlock.xml" />
 		
 		<file name="warlock-the-archfey.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Warlock/warlock-the-archfey.xml" />
+		<file name="warlock-the-celestial.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Warlock/warlock-the-celestial.xml" />
 		<file name="warlock-the-fiend.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Warlock/warlock-the-fiend.xml" />
 		<file name="warlock-the-great-old-one.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Warlock/warlock-the-great-old-one.xml" />
+		<file name="warlock-the-hexblade.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Warlock/warlock-the-hexblade.xml" />
+		<file name="warlock-the-undying.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Warlock/warlock-the-undying.xml" />
 	</files>
 </index>

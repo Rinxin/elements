@@ -11,7 +11,10 @@
 	<files>
 		<file name="00-sorcerer.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Sorcerer/00-sorcerer.xml" />
 
+		<file name="sorcerer-divne-soul.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Sorcerer/sorcerer-divine-soul.xml" />
 		<file name="sorcerer-draconic-bloodline.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Sorcerer/sorcerer-draconic-bloodline.xml" />
+		<file name="sorcerer-shadow-magic.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Sorcerer/sorcerer-shadow-magic.xml" />
+		<file name="sorcerer-storm-sorcery.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Sorcerer/sorcerer-storm-sorcery.xml" />
 		<file name="sorcerer-wild-magic.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Sorcerer/sorcerer-wild-magic.xml" />
 	</files>
 </index>
