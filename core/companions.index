@@ -76,7 +76,7 @@
         
         <file name="vulture.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/companions/vulture.xml" />
         
-        <file name="weasle.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/companions/weasle.xml" />
+        <file name="weasel.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/companions/weasel.xml" />
         <file name="wolf.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/companions/wolf.xml" />
     </files>
 </index>
