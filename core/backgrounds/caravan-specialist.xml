@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <update version="0.0.1">
+            <file name="caravan-specialist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/caravan-specialist.xml" />
+        </update>
+    </info>	
+		
+	<element name="Caravan Specialist" type="Background" source="Adventurers League: Elemental Evil" id="ID_WOTC_ALEE_BACKGROUND_CARAVAN_SPECIALIST">
+		<description>
+			<p>You are used to life on the road. You pride yourself at having traveled every major tradeway in the Moonsea region, including the best backroads and shortcuts. When traveling these roads, you know where the best inns, campsites, and water sources are located, as well as potential locations of danger such as ambush. Having worked the roads as long as you have, you have made many aquaintences and find it easy to pick up information and rumors floating from town to town. You are skilled with beasts of burden and handling and repairing wagons of all kinds.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Animal Handling, Survival</li>
+				<li><strong>Tool Proficiencies:</strong> Vehicles (Land)</li>
+				<li><strong>Languages:</strong> One of your choice</li>
+				<li><strong>Equipment:</strong> A whip, a tent, a regional map, a set of traveling clothes, and a belt pouch containing 10 gp.</li>
+				<li><strong>Lifestyle:</strong> Poor</li>
+			</ul>
+			<div element="ID_WOTC_ALEE_BACKGROUND_FEATURE_WAGONMASTER" />
+		</description>
+		<setters>
+			<set name="short">Animal Handling, Survival, Vehicles (Land), Language</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ANIMALHANDLING" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_LAND" />
+			<select type="Language" name="Language, Caravan Specialist" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_WOTC_ALEE_BACKGROUND_FEATURE_WAGONMASTER" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">Any group is only as strong as its weakest link. Everyone has to pull their own weight.</item>
+				<item id="2">There’s always someone out there trying to take what I’ve got. Always be vigilent.</item>
+				<item id="3">Anything can be learned if you have the right teacher. Most folks just need a chance.</item>
+				<item id="4">Early to bed and early to rise; this much at least is under my control.</item>
+				<item id="5">You can listen to me or don’t and wish you had. Everyone ends up on one side of that fence.</item>
+				<item id="6">Eventually my hard work will be rewarded. Maybe that time has finally come.</item>
+				<item id="7">A strong ox or horse is more reliable than most people I’ve met.</item>
+				<item id="8">I never had time for books, but wish I had. I admire folks who have taken the time to learn. </item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Service: Using my talents to help others is the best way of helping myself. (Good)</item>
+				<item id="2">Selfish: What people don’t know WILL hurt them, but why is that my problem? (Evil)</item>
+				<item id="3">Wanderer: I go where the road takes me. Sometimes that’s a good thing… (Chaotic)</item>
+				<item id="4">Fittest: On the open road, the law of nature wins. Victims are the unprepared. (Lawful)</item>
+				<item id="5">Focused: I simply have a job to do, and I’m going to do it. (Neutral)</item>
+				<item id="6">Motivated: There’s a reason I’m good at what I do, I pay attention to the details. (Any)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">My brother has a farm In Elmwood and I’ve helped him and his neigbors move their goods to Mulmaster and other surrounding towns. Those are good people.</item>
+				<item id="2">A caravan I lead was attacked by bandits and many innocents died. I swear that I will avenge them by killing any bandits I encounter.</item>
+				<item id="3">The Soldiery are mostly good guys who understand the importance of protecting the roads. The City Watch is who you have to look out for. If they are inspecting your goods, get ready to pay a fine.</item>
+				<item id="4">The new commander of Southroad Tower, Capt. Holke, understands the importance of safe roads. He’s hired me for several jobs and I’m grateful.</item>
+				<item id="5">There’s always a road I haven’t traveled before. I’m always looking for new places to explore.</item>
+				<item id="6">Wealth and power mean little without the freedom to go where and when you want.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">I have trouble trusting people I’ve just met.</item>
+				<item id="2">I enjoy the open road. Underground and tight spaces make me very nervous.</item>
+				<item id="3">I expect others to heed my orders and have little resepect or sympathy if they don’t.</item>
+				<item id="4">I am very prideful and have trouble admitting when I’m wrong.</item>
+				<item id="5">Once I decide on a course of action, I do not waiver.</item>
+				<item id="6">I like to explore, and my curiosity will sometimes get me into trouble.</item>
+			</select>
+		</rules>
+	</element>
+	<element name="Feature: Wagonmaster" type="Background Feature" source="Adventurers League: Elemental Evil" id="ID_WOTC_ALEE_BACKGROUND_FEATURE_WAGONMASTER">
+		<description>
+			<p>You are used to being in charge of the operation and your reputation for reliability has you on a short list when the job is critical. Experience has taught you to rely on your gut. Others recognize this and look to you for direction when a situation gets serious. You are able to identify the most defensible locations for camping. If you are part of a caravan outfit, you are able to attract two additional workers that are loyal to you based on your reputation. You have an excellent memory for maps and geography and can always determine your cardinal directions while traveling.</p>
+		</description>
+		<sheet alt="Wagonmaster" />
+	</element>
+</elements>

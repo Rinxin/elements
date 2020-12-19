@@ -33,6 +33,28 @@
         </setters>
     </element>
 <!--B-->
+    <element name="Blade of Disaster" type="Spell" source="Icewind Dale: Rime of the Frostmaiden" id="ID_WOTC_IDROTF_SPELL_BLADE_OF_DISASTER">
+		<supports>Wizard</supports>
+		<description>
+			<p>You create a blade-shaped planar rift about 3 feet long in an unoccupied space you can see within range. The blade lasts for the duration. When you cast this spell, you can make up to two melee spell attacks with the blade, each one against a creature, loose object, or structure within 5 feet of the blade. On a hit, the target takes 4d12 force damage. This attack scores a critical hit if the number on the d20 is 18 or higher. On a critical hit, the blade deals an extra 8d12 force damage (for a total of 12d12 force damage).</p>
+			<p class="indent">As a bonus action on your turn, you can move the blade up to 30 feet to an unoccupied space you can see and then make up to two melee spell attacks with it again.</p>
+			<p class="indent">The blade can harmlessly pass through any barrier, including a wall of force.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">9</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 bonus action</set>
+			<set name="range">60 feet</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 <!--C-->
 <!--D-->
 <!--E-->
@@ -100,6 +122,26 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Invulnerability" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_INVULNERABILITY">
+        <supports>Wizard</supports>
+        <description>
+            <p>You are immune to all damage until the spell ends.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">9</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a small piece of adamantine worth at least 500 gp, which the spell consumes</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--J-->
 <!--K-->
 <!--L-->
@@ -121,6 +163,30 @@
             <set name="hasMaterialComponent">false</set>
             <set name="materialComponent" />
             <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Mass Polymorph" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_MASS_POLYMORPH">
+        <supports>Bard, Sorcerer, Wizard</supports>
+        <description>
+            <p>You transform up to ten creatures of your choice that you can see within range. An unwilling target must succeed on a Wisdom saving throw to resist the transformation. An unwilling shapechanger automatically succeeds on the save.</p>
+            <p class="indent">Each target assumes a beast form of your choice, and you can choose the same form or different ones for each target. The new form can be any beast you have seen whose challenge rating is equal to or less than the target’s (or half the target’s level, if the target doesn’t have a challenge rating). The target’s game statistics, including mental ability scores, are replaced by the statistics of the chosen beast, but the target retains its hit points, alignment, and personality.</p>
+            <p class="indent">Each target gains a number of temporary hit points equal to the hit points of its new form. These temporary hit points can’t be replaced by temporary hit points from another source. A target reverts to its normal form when it has no more temporary hit points or it dies. If the spell ends before then, the creature loses all its temporary hit points and reverts to its normal form.</p>
+            <p class="indent">The creature is limited in the actions it can perform by the nature of its new form. It can’t speak, cast spells, or do anything else that requires hands or speech.</p>
+            <p class="indent">The target’s gear melds into the new form. The target can’t activate, use, wield, or otherwise benefit from any of its equipment.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">9</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a caterpillar cocoon</set>
+            <set name="isConcentration">true</set>
             <set name="isRitual">false</set>
         </setters>
     </element>
@@ -214,6 +280,28 @@
             <set name="hasSomaticComponent">true</set>
             <set name="hasMaterialComponent">false</set>
             <set name="materialComponent" />
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Psychic Scream" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_PSYCHIC_SCREAM">
+        <supports>Bard, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You unleash the power of your mind to blast the intellect of up to ten creatures of your choice that you can see within range. Creatures that have an Intelligence score of 2 or lower are unaffected.</p>
+            <p class="indent">Each target must make an Intelligence saving throw. On a failed save, a target takes 14d6 psychic damage and is stunned. On a successful save, a target takes half as much damage and isn’t stunned. If a target is killed by this damage, its head explodes, assuming it has one.</p>
+            <p class="indent">A stunned target can make an Intelligence saving throw at the end of each of its turns. On a successful save, the stunning effect ends.</p>
+        </description>
+        <setters>
+            <set name="keywords">psychic</set>
+            <set name="level">9</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
             <set name="isConcentration">false</set>
             <set name="isRitual">false</set>
         </setters>

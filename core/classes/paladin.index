@@ -16,6 +16,7 @@
 		<file name="paladin-oath-of-glory.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Paladin/paladin-oath-of-glory.xml" />
 		<file name="paladin-oath-of-redemption.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Paladin/paladin-oath-of-redemption.xml" />
 		<file name="paladin-oath-of-the-ancients.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Paladin/paladin-oath-of-the-ancients.xml" />
+		<file name="paladin-oath-of-the-crown.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Paladin/paladin-oath-of-the-crown.xml" />
 		<file name="paladin-oath-of-vengeance.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Paladin/paladin-oath-of-vengeance.xml" />
 		<file name="paladin-oathbreaker.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Paladin/paladin-oathbreaker.xml" />
 	</files>

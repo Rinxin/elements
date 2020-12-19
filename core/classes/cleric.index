@@ -10,6 +10,8 @@
 	</info>
 	<files>
 		<file name="00-cleric.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/00-cleric.xml" />
+
+		<file name="cleric-arcana-domain.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/cleric-arcana-domain.xml" />
 		<file name="cleric-death-domain.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/cleric-death-domain.xml" />
 		<file name="cleric-forge-domain.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/cleric-forge-domain.xml" />
 		<file name="cleric-grave-domain.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Cleric/cleric-grave-domain.xml" />

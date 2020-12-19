@@ -11,6 +11,7 @@
 	<files>
 		<file name="00-barbarian.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Barbarian/00-barbarian.xml" />
 		
+		<file name="barbarian-battlerager.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Barbarian/barbarian-battlerager.xml" />
 		<file name="barbarian-path-of-the-ancestral-guardian.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Barbarian/barbarian-path-of-the-ancestral-guardian.xml" />
 		<file name="barbarian-path-of-the-berserker.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Barbarian/barbarian-path-of-the-berserker.xml" />
 		<file name="barbarian-path-of-the-storm-herald.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Barbarian/barbarian-path-of-the-storm-herald.xml" />

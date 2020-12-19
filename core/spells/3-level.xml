@@ -163,6 +163,27 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Catnap" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_CATNAP">
+        <supports>Bard, Sorcerer, Wizard, Artificer</supports>
+        <description>
+            <p>You make a calming gesture, and up to three willing creatures of your choice that you can see within range fall unconscious for the spell’s duration. The spell ends on a target early if it takes damage or someone uses an action to shake or slap it awake. If a target remains unconscious for the full duration, that target gains the benefit of a short rest, and it can’t be affected by this spell again until if finishes a long rest.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, you can target one additional willing creature for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 action</set>
+            <set name="duration">10 minutes</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a pinch of sand</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Clairvoyance" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CLAIRVOYANCE">
         <supports>Bard, Cleric, Sorcerer, Wizard</supports>
         <description>
@@ -358,6 +379,48 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Enemies Abound" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_ENEMIES_ABOUND">
+        <supports>Bard, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You reach into the mind of one creature you can see and force it to make an Intelligence saving throw. A creature automatically succeeds if it is immune to being frightened. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the spell ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success.</p>
+            <p class="indent">Whenever the affected creature chooses another creature as a target, it must choose the target at random from among the creatures it can see within range of the attack, spell, or other ability it’s using. If an enemy provokes an opportunity attack from the affected creature, the creature must make that attack if it is able to.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Erupting Earth" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_ERUPTING_EARTH">
+        <supports>Druid, Sorcerer, Wizard</supports>
+        <description>
+            <p>Choose a point you can see on the ground within range. A fountain of churned earth and stone erupts in a 20-foot cube centered on that point. Each creature in that area must make a Dexterity saving throw. A creature takes 3d12 bludgeoning damage on a failed save, or half as much damage on a successful one. Additionally, the ground in that area becomes difficult terrain until cleared away. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d12 for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a piece of obsidian</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--F-->
     <element name="Fast Friends" type="Spell" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_SPELL_FAST_FRIENDS">
 		<supports>Bard,Cleric,Wizard</supports>
@@ -442,6 +505,27 @@
             <set name="hasMaterialComponent">true</set>
             <set name="materialComponent">a tiny ball of bat guano and sulfur</set>
             <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Flame Arrows" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_FLAME_ARROWS">
+        <supports>Druid, Ranger, Sorcerer, Wizard, Artificer</supports>
+        <description>
+            <p>You touch a quiver containing arrows or bolts. When a target is hit by a ranged weapon attack using a piece of ammunition drawn from the quiver, the target takes an extra 1d6 fire damage. The spell’s magic ends on the piece of ammunition when it hits or misses, and the spell ends when twelve pieces of ammunition have been drawn from the quiver.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords">fire</set>
+            <set name="level">3</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
             <set name="isRitual">false</set>
         </setters>
     </element>
@@ -623,6 +707,27 @@
             <set name="isRitual">true</set>
         </setters>
     </element>
+    <element name="Life Transference" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_LIFE_TRANSFERENCE">
+        <supports>Cleric, Wizard</supports>
+        <description>
+            <p>You sacrifice some of your health to mend another creature’s injuries. You take 4d8 necrotic damage, which can’t be reduced in any way, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic</set>
+            <set name="level">3</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Lightning Arrow" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_LIGHTNING_ARROW">
         <supports>Ranger</supports>
         <description>
@@ -752,6 +857,27 @@
             <set name="materialComponent" />
             <set name="isConcentration">false</set>
             <set name="isRitual">true</set>
+        </setters>
+    </element>
+    <element name="Melf’s Minute Meteors" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_MELFS_MINUTE_METEORS">
+        <supports>Sorcerer, Wizard, Fighter (Eldritch Knight)</supports>
+        <description>
+            <p>You create six tiny meteors in your space. They float in the air and orbit you for the spell’s duration. When you cast the spell-and as a bonus action on each of your turns thereafter-you can expend one or two of the meteors, sending them streaking toward a point or points you choose within 120 feet of you. Once a meteor reaches its destination or impacts against a solid surface, the meteor explodes. Each creature within 5 feet of the point where the meteor explodes must make a Dexterity saving throw. A creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the number of meteors created increases by two for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords">fire</set>
+            <set name="level">3</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">niter, sulfur, and pine tar formed into a bead</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
         </setters>
     </element>
     <element name="Motivational Speech" type="Spell" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_SPELL_MOTIVATIONAL_SPEECH">
@@ -1072,7 +1198,99 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Summon Lesser Demons" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_SUMMON_LESSER_DEMONS">
+        <supports>Warlock, Wizard</supports>
+        <description>
+            <p>You utter foul words, summoning demons from the chaos of the Abyss. Roll on the following table to determine what appears.</p>
+            <p class="indent">d6:1-2 Two demons of challenge rating 1 or lower</p>
+            <p class="indent">d6:3-4 Four demons of challenge rating 1/2 or lower</p>
+            <p class="indent">d6:5-6 Eight demons of challenge rating 1/4 or lower</p>
+            <p class="indent">The DM chooses the demons, such as manes or dretches, and you choose the unoccupied spaces you can see within range where they appear. A summoned demon disappears when it drops to 0 hit points or when the spell ends.</p>
+            <p class="indent">The demons are hostile to all creatures, including you. Roll initiative for the summoned demons as a group, which has its own turns. The demons pursue and attack the nearest non-demons to the best of their ability.</p>
+            <p class="indent">As part of casting the spell, you can form a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. While the spell lasts, the summoned demons can’t cross the circle or harm it, and they canâ€˜t target anyone within it. Using the material component in this manner consumes it when the spell ends.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th or 7th level, you summon twice as many demons. If you cast it using a spell slot of 8th or 9th level, you summon three times as many demons.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a vial of blood from a humanoid killed within the past 24 hours</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--T-->
+    <element name="Thunder Step" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_THUNDER_STEP">
+        <supports>Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You teleport yourself to an unoccupied space you can see within range. Immediately after you disappear, a thunderous boom sounds. and each creature within 10 feet of the space you left must make a Constitution saving throw, taking 3d10 thunder damage on a failed save, or half as much damage on a successful one. The thunder can be heard from up to 300 feet away.</p>
+            <p class="indent">You can bring along objects as long as their weight doesn’t exceed what you can carry. You can also teleport one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell, and there must be an unoccupied space within 5 feet of your destination space for the creature to appear in; otherwise, the creature is left behind.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d10 for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords">thunder</set>
+            <set name="level">3</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">V</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Tidal Wave" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_TIDAL_WAVE">
+        <supports>Druid, Sorcerer, Wizard</supports>
+        <description>
+            <p>You conjure up a wave of water that crashes down on an area within range. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a Dexterity saving throw. On a failure, a creature takes 4d8 bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn’t knocked prone. The water then spreads out across the ground in all directions, extinguishing unprotected flames within 30 feet of it, and then it vanishes.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a drop of water</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Tiny Servant" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_TINY_SERVANT">
+        <supports>Wizard, Artificer</supports>
+        <description>
+            <p>You touch one Tiny, nonmagical object that isn’t attached to another object or a surface and isn’t being carried by another creature. The target animates and sprouts little arms and legs, becoming a creature under your control until the spell ends or the creature drops to 0 hit points. See the stat block for its statistics.</p>
+            <p class="indent">As a bonus action, you can mentally command the creature if it is within 120 feet of you. (If you control multiple creatures with this spell, you can command any or all of them at the same time, issuing the same command to each one.) You decide what action the creature will take and where it will move during its next turn, or you can issue a simple, general command, such as to fetch a key, stand watch, or stack some books. If you issue no commands, the servant does nothing other than defend itself against hostile creatures. Once given an order, the servant continues to follow that order until its task is complete.</p>
+            <p class="indent">When the creature drops to 0 hit points, it reverts to its original form, and any remaining damage carries over to that form.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 4th level or higher, you can animate two additional objects for each slot level above 3rd.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 minute</set>
+            <set name="duration">8 hours</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Tongues" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_TONGUES">
         <supports>Bard, Cleric, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -1117,6 +1335,47 @@
         </setters>
     </element>
 <!--W-->
+    <element name="Wall of Sand" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_WALL_OF_SAND">
+        <supports>Wizard, Fighter (Eldritch Knight)</supports>
+        <description>
+            <p>You conjure up a wall of swirling sand on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 10 feet thick, and it vanishes when the spell ends. It blocks line of sight but not movement. A creature is blinded while in the wall’s space and must spend 3 feet of movement for every 1 foot it moves there.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a handful of sand</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Wall of Water" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_WALL_OF_WATER">
+        <supports>Druid, Sorcerer, Wizard, Fighter (Eldritch Knight), Triton</supports>
+        <description>
+            <p>You conjure up a wall of water on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 1 foot thick, or you can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall vanishes when the spell ends. The wall’s space is difficult terrain.</p>
+            <p class="indent">Any ranged weapon attack that enters the wall’s space has disadvantage on the attack roll, and fire damage is halved if the fire effect passes through the wall to reach its target. Spells that deal cold damage that pass through the wall cause the area of the wall they pass through to freeze solid (at least a 5-foot square section is frozen). Each 5-foot-square frozen section has AC 5 and 15 hit points. Reducing a frozen section to 0 hit points destroys it. When a section is destroyed, the wall’s water doesn’t fill it.</p>
+        </description>
+        <setters>
+            <set name="keywords">fire,cold</set>
+            <set name="level">3</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a drop of water</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Water Breathing" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_WATER_BREATHING">
         <supports>Druid, Ranger, Sorcerer, Wizard, Artificer</supports>
         <description>

@@ -328,6 +328,29 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Control Winds" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_CONTROL_WINDS">
+        <supports>Druid, Sorcerer, Wizard</supports>
+        <description>
+            <p>You take control of the air in a 100-foot cube that you can see within range. Choose one of the following effects when you cast the spell. The effect lasts for the spell’s duration, unless you use your action on a later turn to switch to a different effect. You can also use your action to temporarily halt the effect or to restart one you’ve halted.</p>
+            <p class="indent"><b><i>Gusts. </i></b>A wind picks up within the cube, continually blowing in a horizontal direction you designate. You choose the intensity of the wind: calm, moderate, or strong. If the wind is moderate or strong, ranged weapon attacks that enter or leave the cube or pass through it have disadvantage on their attack rolls. If the wind is strong, any creature moving against the wind must spend 1 extra foot of movement for each foot moved.</p>
+            <p class="indent"><b><i>Downdraft. </i></b>You cause a sustained blast of strong wind to blow downward from the top of the cube. Ranged weapon attacks that pass through the cube or that are made against targets within it have disadvantage on their attack rolls. A creature must make a Strength saving throw if it flies into the cube for the first time on a turn or starts its turn there flying. On a failed save, the creature is knocked prone.</p>
+            <p class="indent"><b><i>Updraft. </i></b>You cause a sustained updraft within the cube, rising upward from the cube’s bottom side. Creatures that end a fall within the cube take only half damage from the fall. When a creature in the cube makes a vertical jump, the creature can jump up to 10 feet higher than normal.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">300 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Creation" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CREATION">
         <supports>Sorcerer, Artificer</supports>
         <description>
@@ -350,6 +373,51 @@
         </setters>
     </element>
 <!--D-->
+    <element name="Danse Macabre" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_DANSE_MACABRE">
+        <supports>Warlock, Wizard</supports>
+        <description>
+            <p>Threads of dark power leap from your fingers to pierce up to five Small or Medium corpses you can see within range. Each corpse immediately stands up and becomes undead. You decide whether it is a zombie or a skeleton (the statistics for zombies and skeletons are in the Monster Manual), and it gains a bonus to its attack and damage rolls equal to your spellcasting ability modifier.</p>
+            <p class="indent">You can use a bonus action to mentally command the creatures you make with this spell, issuing the same command to all of them. To receive the command, a creature must be within 60 feet of you. You decide what action the creatures will take and where they will move during their next turn, or you can issue a general command, such as to guard a chamber or passageway against your foes. If you issue no commands, the creatures do nothing except defend themselves against hostile creatures. Once given an order, the creatures continue to follow it until their task is complete.</p>
+            <p class="indent">The creatures are under your control until the spell ends, after which they become inanimate once more.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th level or higher, you animate up to two additional corpses for each slot level above 5th.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Dawn" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_DAWN">
+        <supports>Cleric, Wizard</supports>
+        <description>
+            <p>The light of dawn shines down on a location you specify within range. Until the spell ends, a 30-foot-radius, 40-foot-high cylinder of bright light glimmers there. This light is sunlight.</p>
+            <p class="indent">When the cylinder appears, each creature in it must make a Constitution saving throw, taking 4d10 radiant damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw whenever it ends its turn in the cylinder.</p>
+            <p class="indent">If you’re within 60 feet of the cylinder, you can move it up to 60 feet as a bonus action on your turn.</p>
+        </description>
+        <setters>
+            <set name="keywords">radiant</set>
+            <set name="level">5</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a sunburst pendant worth at least 100 gp</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Destructive Wave" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DESTRUCTIVE_WAVE">
         <supports>Paladin</supports>
         <description>
@@ -435,7 +503,49 @@
         </setters>
     </element>
 <!--E-->
+    <element name="Enervation" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_ENERVATION">
+        <supports>Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>A tendril of inky darkness reaches out from you, touching a creature you can see within range to drain life from it. The target must make a Dexterity saving throw. On a successful save, the target takes 2d8 necrotic damage, and the spell ends. On a failed save, the target takes 4d8 necrotic damage, and until the spell ends, you can use your action on each of your turns to automatically deal 4d8 necrotic damage to the target. The spell ends if you use your action to do anything else, if the target is ever outside the spell’s range, or if the target has total cover from you.</p>
+            <p class="indent">Whenever the spell deals damage to a target, you regain hit points equal to half the amount of necrotic damage the target takes.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic</set>
+            <set name="level">5</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--F-->
+    <element name="Far Step" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_FAR_STEP">
+        <supports>Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You teleport up to 60 feet to an unoccupied space you can see. On each of your turns before the spell ends, you can use a bonus action to teleport in this way again.</p>
+        </description>
+        <setters>
+            <set name="keywords">teleport</set>
+            <set name="level">5</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">V</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Flame Strike" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FLAME_STRIKE">
         <supports>Cleric</supports>
         <description>
@@ -547,7 +657,74 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Holy Weapon" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_HOLY_WEAPON">
+        <supports>Cleric, Paladin</supports>
+        <description>
+            <p>You imbue a weapon you touch with holy power. Until the spell ends, the weapon emits bright light in a 30-foot radius and dim light for an additional 30 feet. In addition, weapon attacks made with it deal an extra 2d8 radiant damage on a hit. If the weapon isn’t already a magic weapon, it becomes one for the duration.</p>
+            <p class="indent">As a bonus action on your turn, you can dismiss this spell and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 feet of the weapon must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage, and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn’t blinded. At the end of each of its turns, a blinded creature can make a Constitution saving throw, ending the effect on itself on a success.</p>
+        </description>
+        <setters>
+            <set name="keywords">radiant</set>
+            <set name="level">5</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--I-->
+    <element name="Immolation" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_IMMOLATION">
+        <supports>Sorcerer, Wizard</supports>
+        <description>
+            <p>Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes 8d6 fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns for the spell’s duration. The burning target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. At the end of each of its turns, the target repeats the saving throw. It takes 4d6 fire damage on a failed save, and the spell ends on a successful one. These magical flames can’t be extinguished through nonmagical means.</p>
+            <p class="indent">If damage from this spell kills a target, the target is turned to ash.</p>
+        </description>
+        <setters>
+            <set name="keywords">fire</set>
+            <set name="level">5</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">V</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Infernal Calling" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_INFERNAL_CALLING">
+        <supports>Warlock, Wizard</supports>
+        <description>
+            <p>Uttering a dark incantation, you summon a devil from the Nine Hells. You choose the devil’s type, which must be one of challenge rating 6 or lower, such as a barbed devil or a bearded devil. The devil appears in an unoccupied space that you can see within range. The devil disappears when it drops to 0 hit points or when the spell ends.</p>
+            <p class="indent">The devil is unfriendly toward you and your companions. Roll initiative for the devil, which has its own turns. It is under the Dungeon Master’s control and acts according to its nature on each of its turns, which might result in its attacking you if it thinks it can prevail, or trying to tempt you to undertake an evil act in exchange for limited service. The DM has the creature’s statistics.</p>
+            <p class="indent">On each of your turns, you can try to issue a verbal command to the devil (no action required by you). It obeys the command if the likely outcome is in accordance with its desires, especially if the result would draw you toward evil. Otherwise, you must make a Charisma (Deception, Intimidation, or Persuasion) check contested by its Wisdom (Insight) check. You make the check with advantage if you say the devil’s true name. If your check fails, the devil becomes immune to your verbal commands for the duration of the spell, though it can still carry out your commands if it chooses. If your check succeeds, the devil carries out your command such as "attack my enemies," "explore the room ahead," or "bear this message to the queen" until it completes the activity, at which point it returns to you to report having done so.</p>
+            <p class="indent">If your concentration ends before the spell reaches its full duration, the devil doesn’t disappear if it has become immune to your verbal commands. Instead, it acts in whatever manner it chooses for 3d6 minutes, and then it disappears.</p>
+            <p class="indent">If you possess an individual devil’s talisman, you can summon that devil if it is of the appropriate challenge rating plus 1, and it obeys all your commands, with no Charisma checks required.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 minute</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a ruby worth at least 999 gp</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Insect Plague" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_INSECT_PLAGUE">
         <supports>Cleric, Druid, Sorcerer</supports>
         <description>
@@ -594,6 +771,26 @@
         </setters>
     </element>
 <!--M-->
+    <element name="Maelstrom" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_MAELSTROM">
+        <supports>Druid</supports>
+        <description>
+            <p>A mass of 5-foot-deep water appears and swirls in a 30-foot radius centered on a point you can see within range. The point must be on ground or in a body of water. Until the spell ends, that area is difficult terrain, and any creature that starts its turn there must succeed on a Strength saving throw or take 6d6 bludgeoning damage and be pulled 10 feet toward the center.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">paper or leaf in the shape of a funnel</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Mass Cure Wounds" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MASS_CURE_WOUNDS">
         <supports>Bard, Cleric, Druid</supports>
         <description>
@@ -661,6 +858,27 @@
         </setters>
     </element>
 <!--N-->
+    <element name="Negative Energy Flood" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_NEGATIVE_ENERGY_FLOOD">
+        <supports>Warlock, Wizard</supports>
+        <description>
+            <p>You send ribbons of negative energy at one creature you can see within range. Unless the target is undead, it must make a Constitution saving throw, taking 5d12 necrotic damage on a failed save, or half as much damage on a successful one. A target killed by this damage rises up as a zombie at the start of your next turn. The zombie pursues whatever creature it can see that is closest to it. Statistics for the zombie are in the Monster Manual.</p>
+            <p class="indent">If you target an undead with this spell, the target doesn’t make a saving throw. Instead, roll 5d12. The target gains half the total as temporary hit points.</p>
+        </description>
+        <setters>
+            <set name="keywords">necrotic</set>
+            <set name="level">5</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a broken bone and a square of black silk</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--O-->
 <!--P-->
     <element name="Passwall" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_PASSWALL">
@@ -827,6 +1045,73 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Skill Empowerment" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_SKILL_EMPOWERMENT">
+        <supports>Bard, Sorcerer, Wizard, Artificer</supports>
+        <description>
+            <p>Your magic deepens a creature’s understanding of its own talent. You touch one willing creature and give it expertise in one skill of your choice; until the spell ends, the creature doubles its proficiency bonus for ability checks it makes that use the chosen skill.</p>
+            <p class="indent">You must choose a skill in which the target is proficient and that isn’t already benefiting from an effect, such as Expertise, that doubles its proficiency bonus.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Soul Cage" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_SOUL_CAGE">
+        <supports>Warlock, Wizard</supports>
+        <description>
+            <p>This spell snatches the soul of a humanoid as it dies and traps it inside the tiny cage you use for the material component. A stolen soul remains inside the cage until the spell ends or until you destroy the cage, which ends the spell. While you have a soul inside the cage, you can exploit it in any of the ways described below. You can use a trapped soul up to six times. Once you exploit a soul for the sixth time, it is released, and the spell ends. While a soul is trapped, the dead humanoid it came from can’t be revived.</p>
+            <p class="indent">Steal Life. You can use a bonus action to drain vigor from the soul and regain 2d8 hit points.</p>
+            <p class="indent">Query Soul. You ask the soul a question (no action required) and receive a brief telepathic answer, which you can understand regardless of the language used. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more than a sentence or two and might be cryptic.</p>
+            <p class="indent">Borrow Experience. You can use a bonus action to bolster yourself with the soul’s life experience, making your next attack roll, ability check, or saving throw with advantage. If you don’t use this benefit before the start of your next turn, it is lost.</p>
+            <p class="indent">Eyes of the Dead. You can use an action to name a place the humanoid saw in life, which creates an invisible sensor somewhere in that place if it is on the plane of existence you’re currently on. The sensor remains for as long as you concentrate, up to 10 minutes (as if you were concentrating on a spell). You receive visual and auditory information from the sensor as if you were in its space using your senses.</p>
+            <p class="indent">A creature that can see the sensor (such as one using see invisibility or truesight) sees a translucent image of the tormented humanoid whose soul you caged.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">6</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 reaction, which you take when a humanoid you can see within 60 feet of you dies</set>
+            <set name="duration">8 hours</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a tiny silver cage worth 100 gp</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Steel Wind Strike" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_STEEL_WIND_STRIKE">
+        <supports>Ranger, Wizard</supports>
+        <description>
+            <p>You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to five creatures you can see within range. Make a melee spell attack against each target. On a hit, a target takes 6d10 force damage.</p>
+            <p class="indent">You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed.</p>
+        </description>
+        <setters>
+            <set name="keywords">force</set>
+            <set name="level">5</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a melee weapon worth at least 1 sp</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Swift Quiver" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SWIFT_QUIVER">
         <supports>Ranger</supports>
         <description>
@@ -844,6 +1129,27 @@
             <set name="hasMaterialComponent">true</set>
             <set name="materialComponent">a quiver containing at least one piece of ammunition</set>
             <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Synaptic Static" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_SYNAPTIC_STATIC">
+        <supports>Bard, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You choose a point within range and cause psychic energy to explode there. Each creature in a 20 foot radius sphere centered on that point must make an Intelligence saving throw. A creature with an Intelligence score of 2 or lower can’t be affected by this spell. A target takes 8d6 psychic damage on a failed save, or half as much damage on a successful one.</p>
+            <p class="indent">After a failed save, a target has muddled thoughts for 1 minute. During that time, it rolls a d6 and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain concentration. The target can make an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+        </description>
+        <setters>
+            <set name="keywords">psychic</set>
+            <set name="level">5</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
             <set name="isRitual">false</set>
         </setters>
     </element>
@@ -914,6 +1220,30 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Transmute Rock" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_TRANSMUTE_ROCK">
+        <supports>Druid, Wizard, Artificer</supports>
+        <description>
+            <p>You choose an area of stone or mud that you can see that fits within a 40-foot cube and is within range, and choose one of the following effects.</p>
+            <p class="indent">Transmute Rock to Mud: Nonmagical rock of any sort in the area becomes an equal volume of thick, flowing mud that remains for the spell’s duration.</p>
+            <p class="indent">The ground in the spell’s area becomes muddy enough that creatures can sink into it. Each foot that a creature moves through the mud costs 4 feet of movement, and any creature on the ground when you cast the spell must make a Strength saving throw. A creature must also make the saving throw when it moves into the area for the first time on a turn or ends its turn there. On a failed save, a creature sinks into the mud and is restrained, though it can use an action to end the restrained condition on itself by pulling itself free of the mud.</p>
+            <p class="indent">If you cast the spell on a ceiling, the mud falls. Any creature under the mud when it falls must make a Dexterity saving throw. A creature takes 4d8 bludgeoning damage on a failed save, or half as much damage on a successful one.</p>
+            <p class="indent">Transmute Mud to Rock: Nonmagical mud or quicksand in the area no more than 10 feet deep transforms into soft stone for the spell’s duration. Any creature in the mud when it transforms must make a Dexterity saving throw. On a successful save, a creature is shunted safely to the surface in an unoccupied space. On a failed save, a creature becomes restrained by the rock. A restrained creature, or another creature within reach, can use an action to try to break the rock by succeeding on a DC 20 Strength check or by dealing damage to it. The rock has AC 15 and 25 hit points, and it is immune to poison and psychic damage. </p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Until dispelled</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">clay and water</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Tree Stride" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_TREE_STRIDE">
         <supports>Druid, Ranger</supports>
         <description>
@@ -959,6 +1289,30 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Wall of Light" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_WALL_OF_LIGHT">
+        <supports>Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>A shimmering wall of bright light appears at a point you choose within range. The wall appears in any orientation you choose: horizontally, vertically, or diagonally. It can be free floating, or it can rest on a solid surface. The wall can be up to 60 feet long, 10 feet high, and 5 feet thick. The wall blocks line of sight, but creatures and objects can pass through it. It emits bright light out to 120 feet and dim light for an additional 120 feet.</p>
+            <p class="indent">When the wall appears, each creature in its area must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage, and it is blinded for 1 minute. On a successful save, it takes half as much damage and isn’t blinded. A blinded creature can make a Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+            <p class="indent">A creature that ends its turn in the wall’s area takes 4d8 radiant damage.</p>
+            <p class="indent">Until the spell ends, you can use an action to launch a beam of radiance from the wall at one creature you can see within 60 feet of it. Make a ranged spell attack. On a hit, the target takes 4d8 radiant damage. Whether you hit or miss, reduce the length of the wall by 10 feet. If the walls length drops to 0 feet, the spell ends.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</p>
+        </description>
+        <setters>
+            <set name="keywords">radiant</set>
+            <set name="level">5</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a hand mirror</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Wall of Stone" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_WALL_OF_STONE">
         <supports>Druid, Sorcerer, Wizard, Artificer</supports>
         <description>
@@ -980,6 +1334,30 @@
             <set name="hasSomaticComponent">true</set>
             <set name="hasMaterialComponent">true</set>
             <set name="materialComponent">a small block of granite</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Wrath of Nature" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_WRATH_OF_NATURE">
+        <supports>Druid, Ranger</supports>
+        <description>
+            <p>You call out to the spirits of nature to rouse them against your enemies. Choose a point you can see within range. The spirits cause trees, rocks, and grasses in a 60-foot cube centered on that point to become animated until the spell ends.</p>
+            <p class="indent">Grasses and Undergrowth. Any area of ground in the cube that is covered by grass or undergrowth is difficult terrain for your enemies.</p>
+            <p class="indent">Trees. At the start of each of your turns, each of your enemies within 10 feet of any tree in the cube must succeed on a Dexterity saving throw or take 4d6 slashing damage from whipping branches.</p>
+            <p class="indent">Roots and Vines. At the end of each of your turns, one creature of your choice that is on the ground in the cube must succeed on a Strength saving throw or become restrained until the spell ends. A restrained creature can use an action to make a Strength (Athletics) check against your spell save DC, ending the effect on itself on a success.</p>
+            <p class="indent">Rocks. As a bonus action on your turn, you can cause a loose rock in the cube to launch at a creature you can see in the cube. Make a ranged spell attack against the target. On a hit, the target takes 3d8 nonmagical bludgeoning damage, and it must succeed on a Strength saving throw or fall prone.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
             <set name="isConcentration">true</set>
             <set name="isRitual">false</set>
         </setters>

@@ -17,6 +17,7 @@
 		<file name="fighter-champion.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Fighter/fighter-champion.xml" />
 		<file name="fighter-echo-knight.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Fighter/fighter-echo-knight.xml" />
 		<file name="fighter-eldritch-knight.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Fighter/fighter-eldritch-knight.xml" />
+		<file name="fighter-purple-dragon-knight.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Fighter/fighter-purple-dragon-knight.xml" />
 		<file name="fighter-samurai.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Fighter/fighter-samurai.xml" />
 	</files>
 </index>

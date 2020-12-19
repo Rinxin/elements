@@ -7,6 +7,27 @@
       </update>
     </info>
 <!--A-->
+    <element name="Absorb Elements" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_ABSORB_ELEMENTS">
+        <supports>Druid, Ranger, Sorcerer, Wizard, Fighter (Eldritch Knight), Artificer</supports>
+        <description>
+            <p>The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 reaction, which you take when you take acid, cold, fire, lightning, or thunder damage</set>
+            <set name="duration">1 round</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Alarm" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ALARM">
         <supports>Ranger, Wizard, Artificer</supports>
         <description>
@@ -114,6 +135,26 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Beast Bond" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_BEAST_BOND">
+        <supports>Druid, Ranger</supports>
+        <description>
+            <p>You establish a telepathic link with one beast you touch that is friendly to you or charmed by you. The spell fails if the beast’s Intelligence is 4 or higher. Until the spell ends, the link is active while you and the beast are within line of sight of each other. Through the link, the beast can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the beast gains advantage on attack rolls against any creature within 5 feet of you that you can see.</p>
+        </description>
+        <setters>
+            <set name="keywords">companion</set>
+            <set name="level">1</set>
+            <set name="school">Divination</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a bit of fur wrapped in a cloth</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Bless" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BLESS">
         <supports>Cleric, Paladin</supports>
         <description>
@@ -157,12 +198,81 @@
         </setters>
     </element>
 <!--C-->
-    <element name="Chaos Bolt" type="Spell" source="Guildmasters’ Guide to Ravnica" id="ID_GGTR_SPELL_CHAOS_BOLT">
+    <element name="Catapult" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_CATAPULT">
+        <supports>Sorcerer, Wizard, Artificer</supports>
         <description>
-            <p>You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 + 1d6 damage. Choose one of the d8s. The number rolled on that die determines the attack's damage type, as shown below.</p>
+            <p>Choose one object weighing 1 to 5 pounds within range that isn’t being worn or carried. The object flies in a straight line up to 90 feet in a direction you choose before falling to the ground, stopping early if it impacts against a solid surface. If the object would strike a creature, that creature must make a Dexterity saving throw. On a failed save, the object strikes the target and stops moving. When the object strikes something, the object and what it strikes each take 3d8 bludgeoning damage.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects that you can target with this spell increases by 5 pounds, and the damage increases by 1d8, for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Cause Fear" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_CAUSE_FEAR">
+        <supports>Warlock, Wizard</supports>
+        <description>
+            <p>You awaken the sense of mortality in one creature you can see within range. A construct or an undead is immune to this effect. The target must succeed on a Wisdom saving throw or become frightened of you until the spell ends. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Ceremony" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_CEREMONY">
+        <supports>Cleric, Paladin</supports>
+        <description>
+            <p>You perform a special religious ceremony that is infused with magic. When you cast the spell, choose one of the following rites, the target of which must be within 10 feet of you throughout the casting.</p>
+            <p class="indent"><b><i>Atonement. </i></b>You touch one willing creature whose alignment has changed, and you make a DC 20 Wisdom (Insight) check. On a successful check, you restore the target to its original alignment</p>
+            <p class="indent"><b><i>Bless Water. </i></b>You touch one vial of water and cause it to become holy water.</p>
+            <p class="indent"><b><i>Coming of Age. </i></b>You touch one humanoid who is a young adult. For the next 24 hours, whenever the target makes an ability check, it can roll a d4 and add the number rolled to the ability check. A creature can benefit from this rite only once.</p>
+            <p class="indent"><b><i>Dedication. </i></b>You touch one humanoid who wishes to be dedicated to your god’s service. For the next 24 hours, whenever the target makes a saving throw, it can roll a d4 and add the number rolled to the save. A creature can benefit from this rite only once.</p>
+            <p class="indent"><b><i>Funeral Rite. </i></b>You touch one corpse, and for the next 7 days, the target can’t become undead by any means short of a wish spell.</p>
+            <p class="indent"><b><i>Wedding. </i></b>You touch adult humanoids willing to be bonded together in marriage. For the next 7 days, each target gains a +2 bonus to AC while they are within 30 feet of each other. A creature can benefit from this rite again only if widowed.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 hour</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">25 gp worth of powdered silver, which the spell consumes</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+    <element name="Chaos Bolt" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_CHAOS_BOLT">
+        <supports>Sorcerer</supports>
+        <description>
+            <p>You hurl an undulating, warbling mass of chaotic energy at one creature in range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 + 1d6 damage. Choose one of the d8s. The number rolled on that die determines the attack’s damage type, as shown below.</p>
             <table>
                 <thead>
-                    <tr><td class="col-10">d8</td><td>Damage Type</td></tr>
+                    <tr><td>d8</td><td>Damage Type</td></tr>
                 </thead>
                 <tr><td>1</td><td>Acid</td></tr>
                 <tr><td>2</td><td>Cold</td></tr>
@@ -174,7 +284,7 @@
                 <tr><td>8</td><td>Thunder</td></tr>
             </table>
             <p class="indent">If you roll the same number on both d8s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again. A creature can be targeted only once by each casting of this spell.</p>
-            <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage of the type rolled for each slot level above 1st.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage of the type rolled for each slot level above 1st.</p>
         </description>
         <setters>
             <set name="keywords">acid,cold,fire,force,lightning,poison,psychic,thunder</set>
@@ -509,6 +619,27 @@
         </setters>
     </element>
 <!--E-->
+    <element name="Earth Tremor" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_EARTH_TREMOR">
+        <supports>Bard, Druid, Sorcerer, Wizard, Fighter (Eldritch Knight)</supports>
+        <description>
+            <p>You cause a tremor in the ground within range. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes 1d6 bludgeoning damage and is knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">10 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Ensnaring Strike" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ENSNARING_STRIKE">
         <supports>Ranger</supports>
         <description>
@@ -890,6 +1021,27 @@
         </setters>
     </element>
 <!--I-->
+    <element name="Ice Knife" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_ICE_KNIFE">
+        <supports>Druid, Sorcerer, Wizard</supports>
+        <description>
+            <p>You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 cold damage.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 2nd level or higher, the cold damage increases by 1d6 for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords">cold</set>
+            <set name="level">1</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a drop of water or piece of ice</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Identify" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_IDENTIFY">
         <supports>Bard, Wizard, Artificer</supports>
         <description>
@@ -1276,6 +1428,30 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Snare" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_SNARE">
+        <supports>Druid, Ranger, Wizard, Artificer</supports>
+        <description>
+            <p>As you cast this spell, you use the rope to create a circle with a 5-foot radius on the ground or the floor. When you finish casting, the rope disappears and the circle becomes a magic trap.</p>
+            <p class="indent">This trap is nearly invisible, requiring a successful Intelligence (Investigation) check against your spell save DC to be discerned.</p>
+            <p class="indent">The trap triggers when a Small, Medium, or Large creature moves onto the ground or the floor in the spell’s radius. That creature must succeed on a Dexterity saving throw or be magically hoisted into the air, leaving it hanging upside down 3 feet above the ground or the floor. The creature is restrained there until the spell ends.</p>
+            <p class="indent">A restrained creature can make a Dexterity saving throw at the end of each of its turns, ending the effect on itself on a success. Alternatively, the creature or someone else who can reach it can use an action to make an Intelligence (Arcana) check against your spell save DC. On a success, the restrained effect ends.</p>
+            <p class="indent">After the trap is triggered, the spell ends when no creature is restrained by it.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 minute</set>
+            <set name="duration">8 hours</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">25 feet of rope, which the spell consumes</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Speak with Animals" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS">
         <supports>Bard, Druid, Ranger</supports>
         <description>
@@ -1448,4 +1624,25 @@
 <!--X-->
 <!--Y-->
 <!--Z-->
+    <element name="Zephyr Strike" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_ZEPHYR_STRIKE">
+        <supports>Ranger</supports>
+        <description>
+            <p>You move like the wind. Until the spell ends, your movement doesn’t provoke opportunity attacks.</p>
+            <p class="indent">Once before the spell ends, you can give yourself advantage on one weapon attack roll on your turn. That attack deals an extra 1d8 force damage on a hit. Whether you hit or miss, your walking speed increases by 30 feet until the end of that turn.</p>
+        </description>
+        <setters>
+            <set name="keywords">force</set>
+            <set name="level">1</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">V</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 </elements>

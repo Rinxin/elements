@@ -30,6 +30,28 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Crown of Stars" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_CROWN_OF_STARS">
+        <supports>Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>Seven star-like motes of light appear and orbit your head until the spell ends. You can use a bonus action to send one of the motes streaking toward one creature or object within 120 feet of you. When you do so, make a ranged spell attack. On a hit, the target takes 4d12 radiant damage. Whether you hit or miss, the mote is expended. The spell ends early if you expend the last mote.</p>
+            <p class="indent">If you have four or more motes remaining, they shed bright light in a 30-foot radius and dim light for an additional 30 feet. If you have one to three motes remaining, they shed dim light in a 30-foot radius.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 8th level or higher, the number of motes created increases by two for each slot level above 7th.</p>
+        </description>
+        <setters>
+            <set name="keywords">radiant</set>
+            <set name="level">7</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 hour</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--D-->
     <element name="Delayed Blast Fireball" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DELAYED_BLAST_FIREBALL">
         <supports>Sorcerer, Wizard</supports>
@@ -258,6 +280,28 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Power Word Pain" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_POWER_WORD_PAIN">
+        <supports>Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You speak a word of power that causes waves of intense pain to assail one creature you can see within range. If the target has 100 hit points or fewer, it is subject to crippling pain. Otherwise, the spell has no effect on it. A target is also unaffected if it is immune to being charmed.</p>
+            <p class="indent">While the target is affected by crippling pain, any speed it has can be no higher than 10 feet. The target also has disadvantage on attack rolls, ability checks, and saving throws, other than Constitution saving throws. Finally, if the target tries to cast a spell, it must first succeed on a Constitution saving throw, or the casting fails and the spell is wasted.</p>
+            <p class="indent">A target suffering this pain can make a Constitution saving throw at the end of each of its turns. On a successful save, the pain ends.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">7</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">V</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Prismatic Spray" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_PRISMATIC_SPRAY">
         <supports>Sorcerer, Wizard</supports>
         <description>
@@ -473,6 +517,33 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Temple of the Gods" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_TEMPLE_OF_THE_GODS">
+        <supports>Cleric</supports>
+        <description>
+            <p>You cause a temple to shimmer into existence on ground you can see within range. The temple must fit within an unoccupied cube of space, up to 120 feet on each side. The temple remains until the spell ends. It is dedicated to whatever god, pantheon, or philosophy is represented by the holy symbol used in the casting.</p>
+            <p class="indent">You make all decisions about the temples appearance. The interior is enclosed by a floor, walls, and a roof, with one door granting access to the interior and as many windows as you wish. Only you and any creatures you designate when you cast the spell can open or close the door.</p>
+            <p class="indent">The temple’s interior is an open space with an idol or altar at one end. You decide whether the temple is illuminated and whether that illumination is bright light or dim light. The smell of burning incense fills the air within, and the temperature is mild.</p>
+            <p class="indent">The temple opposes types of creatures you choose when you cast this spell. Choose one or more of the following: celestials, elementals, fey, fiends, or undead. If a creature of the chosen type attempts to enter the temple, that creature must make a Charisma saving throw. On a failed save, it can’t enter the temple for 24 hours. Even if the creature can enter the temple, the magic there hinders it; whenever it makes an attack roll, an ability check, or a saving throw inside the temple, it must roll a d4 and subtract the number rolled from the d20 roll.</p>
+            <p class="indent">In addition, the sensors created by divination spells can’t appear inside the temple, and creatures within can’t be targeted by divination spells.</p>
+            <p class="indent">Finally, whenever any creature in the temple regains hit points from a spell of 1st level or higher, the creature regains additional hit points equal to your Wisdom modifier (minimum 1 hit point).</p>
+            <p class="indent">The temple is made from opaque magical force that extends into the Ethereal Plane, thus blocking ethereal travel into the temples interior. Nothing can physically  pass through the temple’s exterior. It can’t be dispelled by dispel magic, and antimagic field has no effect on it. A disintegrate spell destroys the temple instantly.</p>
+            <p class="indent">Casting this spell on the same spot every day for a year makes this effect permanent.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">7</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 hour</set>
+            <set name="duration">24 hours</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a holy symbol worth at least 5 gp</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Tether Essence" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_TETHER_ESSENCE">
         <supports>Wizard,Dunamancy</supports>
         <description>
@@ -496,6 +567,28 @@
 <!--U-->
 <!--V-->
 <!--W-->
+    <element name="Whirlwind" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_WHIRLWIND">
+        <supports>Druid, Sorcerer, Wizard</supports>
+        <description>
+            <p>A whirlwind howls down to a point on the ground you specify. The whirlwind is a 10-foot-radius, 30-foot-high cylinder centered on that point. Until the spell ends, you can use your action to move the whirlwind up to 30 feet in any direction along the ground. The whirlwind sucks up any Medium or smaller objects that aren’t secured to anything and that aren’t worn or carried by anyone.</p>
+            <p class="indent">A creature must make a Dexterity saving throw the first time on a turn that it enters the whirlwind or that the whirlwind enters its space, including when the whirlwind first appears. A creature takes 10d6 bludgeoning damage on a failed save, or half as much damage on a successful one. In addition, a Large or smaller creature that fails the save must succeed on a Strength saving throw or become restrained in the whirlwind until the spell ends. When a creature starts its turn restrained by the whirlwind, the creature is pulled 5 feet higher inside it, unless the creature is at the top. A restrained creature moves with the whirlwind and falls when the spell ends, unless the creature has some means to stay aloft.</p>
+            <p class="indent">A restrained creature can use an action to make a Strength or Dexterity check against your spell save DC. If successful, the creature is no longer restrained by the whirlwind and is hurled 3d6 x 10 feet away from it in a random direction.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">7</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">300 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a piece of straw</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--X-->
 <!--Y-->
 <!--Z-->

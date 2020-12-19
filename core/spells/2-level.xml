@@ -7,6 +7,27 @@
       </update>
     </info>
 <!--A-->
+    <element name="Aganazzar’s Scorcher" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_AGANAZZARS_SCORCHER">
+        <supports>Sorcerer, Wizard, Fighter (Eldritch Knight)</supports>
+        <description>
+            <p>A line of roaring flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 3d8 fire damage on a failed save, or half as much damage on a successful one.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords">fire</set>
+            <set name="level">2</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a red dragon’s scale</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Aid" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_AID">
         <supports>Cleric, Paladin, Artificer</supports>
         <description>
@@ -398,7 +419,71 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Dragon’s Breath" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_DRAGONS_BREATH">
+        <supports>Sorcerer, Wizard</supports>
+        <description>
+            <p>You touch one willing creature and imbue it with the power to spew magical energy from its mouth, provided it has one. Choose acid, cold, fire, lightning, or poison. Until the spell ends, the creature can use an action to exhale energy of the chosen type in a 15-foot cone. Each creature in that area must make a Dexterity saving throw, taking 3d6 damage of the chosen type on a failed save, or half as much damage on a successful one.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords">acid,cold,fire,lightning,poison</set>
+            <set name="level">2</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a hot pepper</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Dust Devil" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_DUST_DEVIL">
+        <supports>Druid, Sorcerer, Wizard</supports>
+        <description>
+            <p>Choose an unoccupied 5-foot cube of air that you can see within range. An elemental force that resembles a dust devil appears in the cube and lasts for the spell’s duration.</p>
+            <p class="indent">Any creature that ends its turn within 5 feet of the dust devil must make a Strength saving throw. On a failed save, the creature takes 1d8 bludgeoning damage and is pushed 10 feet away. On a successful save, the creature takes half as much damage and isn’t pushed.</p>
+            <p class="indent">As a bonus action, you can move the dust devil up to 30 feet in any direction. If the dust devil moves over sand, dust, loose dirt, or small gravel, it sucks up the material and forms a 10-foot-radius cloud of debris around itself that lasts until the start of your next turn. The cloud heavily obscures its area.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">2</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a pinch of dust</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--E-->
+    <element name="Earthbind" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_EARTHBIND">
+        <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>Choose one creature you can see within range. Yellow strips of magical energy loop around the creature. The target must succeed on a Strength saving throw or its flying speed (if any) is reduced to 0 feet for the spell’s duration. An airborne creature affected by this spell descends at 60 feet per round until it reaches the ground or the spell ends.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">2</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">300 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">V</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Enhance Ability" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ENHANCE_ABILITY">
         <supports>Bard, Cleric, Druid, Sorcerer, Artificer</supports>
         <description>
@@ -646,6 +731,29 @@
         </setters>
     </element>
 <!--H-->
+    <element name="Healing Spirit" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_HEALING_SPIRIT">
+        <supports>Druid, Ranger</supports>
+        <description>
+            <p>You call forth a nature spirit to soothe the wounded. The intangible spirit appears in a space that is a 5-foot cube you can see within range. The spirit looks like a transparent beast or fey (your choice).</p>
+            <p class="indent">Until the spell ends, whenever you or a creature you can see moves into the spirit’s space for the first time on a turn or starts its turn there, you can cause the spirit to restore 1d6 hit points to that creature (no action required). The spirit can’t heal constructs or undead. The spirit can heal a number of times equal to 1 + your spellcasting ability modifier (minimum of twice). After healing that number of times, the spirit disappears.</p>
+            <p class="indent">As a bonus action on your turn, you can move the Spirit up to 30 feet to a space you can see.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d6 for each slot level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">2</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Heat Metal" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_HEAT_METAL">
         <supports>Bard, Druid, Artificer</supports>
         <description>
@@ -903,6 +1011,29 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Maximilian’s Earthen Grasp" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_MAXIMILIANS_EARTHEN_GRASP">
+        <supports>Sorcerer, Wizard</supports>
+        <description>
+            <p>You choose a 5-foot-square unoccupied space on the ground that you can see within range. A Medium hand made from compacted soil rises there and reaches for one creature you can see within 5 feet of it. The target must make a Strength saving throw. On a failed save, the target takes 2d6 bludgeoning damage and is restrained for the spell’s duration.</p>
+            <p class="indent">As an action, you can cause the hand to crush the restrained target, who must make a Strength saving throw. It takes 2d6 bludgeoning damage on a failed save, or half as much damage on a successful one.</p>
+            <p class="indent">To break out, the restrained target can us its action make a Strength check against your spell save DC. On a success, the target escapes and is no longer restrained by the hand.</p>
+            <p class="indent">As an action, you can cause the hand to reach for a different creature or to move to a different unoccupied space within range. The hand releases a restrained target if you do either.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">2</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a miniature hand sculpted from clay</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Melf’s Acid Arrow" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MELFS_ACID_ARROW">
         <supports>Wizard</supports>
         <description>
@@ -921,6 +1052,27 @@
             <set name="hasMaterialComponent">true</set>
             <set name="materialComponent">powdered rhubarb leaf and an adder’s stomach</set>
             <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Mind Spike" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_MIND_SPIKE">
+        <supports>Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You reach into the mind of one creature you can see within range. The target must make a Wisdom saving throw, taking 3d8 psychic damage on a failed save, or half as much damage on a successful one. On a failed save, you also always know the target’s location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can’t become hidden from you, and if it’s invisible, it gains no benefit from that condition against you.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords">psychic</set>
+            <set name="level">2</set>
+            <set name="school">Divination</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
             <set name="isRitual">false</set>
         </setters>
     </element>
@@ -1092,6 +1244,28 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Pyrotechnics" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_PYROTECHNICS">
+        <supports>Bard, Sorcerer, Wizard, Artificer</supports>
+        <description>
+            <p>Choose an area of nonmagical flame that you can see and that can fit within a 5-foot cube within range. You can extinguish the fire in that area, and you create either fireworks or smoke.</p>
+            <p class="indent">Fireworks: The target explodes with a dazzling display of colors. Each creature within 10 feet of the target must succeed on a Constitution saving throw or become blinded until the end of your next turn.</p>
+            <p class="indent">Smoke: Thick black smoke spreads out from the target in a 20-foot radius, moving around corners. The area of the smoke is heavily obscured. The smoke persists for 1 minute or until a strong wind disperses it.</p>
+        </description>
+        <setters>
+            <set name="keywords">fire</set>
+            <set name="level">2</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--Q-->
 <!--R-->
     <element name="Ray of Enfeeblement" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_RAY_OF_ENFEEBLEMENT">
@@ -1176,6 +1350,28 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Shadow Blade" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_SHADOW_BLADE">
+        <supports>Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You weave together threads of shadow to create a sword of solidified gloom in your hand. This magic sword lasts until the spell ends. It counts as a simple melee weapon with which you are proficient. It deals 2d8 psychic damage on a hit and has the finesse, light, and thrown properties (range 20/60). In addition, when you use the sword to attack a target that is in dim light or darkness, you make the attack roll with advantage.</p>
+            <p class="indent">If you drop the weapon or throw it, it dissipates at the end of the turn. Thereafter, while the spell persists, you can use a bonus action to cause the sword to reappear in your hand.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a 3rd- or 4th-level spell slot, the damage increases to 3d8. When you cast it using a 5th- or 6th-level spell slot, the damage increases to 4d8. When you cast it using a spell slot of 7th level or higher, the damage increases to 5d8.</p>
+        </description>
+        <setters>
+            <set name="keywords">psychic</set>
+            <set name="level">2</set>
+            <set name="school">Illusion</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Shatter" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SHATTER">
         <supports>Bard, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -1215,6 +1411,47 @@
             <set name="materialComponent" />
             <set name="isConcentration">true</set>
             <set name="isRitual">true</set>
+        </setters>
+    </element>
+    <element name="Skywrite" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_SKYWRITE">
+        <supports>Bard, Druid, Wizard, Artificer</supports>
+        <description>
+            <p>You cause up to ten words to form in a part of the sky you can see. The words appear to be made of cloud and remain in place for the spell’s duration. The words dissipate when the spell ends. A strong wind can disperse the clouds and end the spell early.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">2</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">Sight</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">true</set>
+        </setters>
+    </element>
+    <element name="Snilloc’s Snowball Swarm" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_SNILLOCS_SNOWBALL_SWARM">
+        <supports>Sorcerer, Wizard, Fighter (Eldritch Knight)</supports>
+        <description>
+            <p>A flurry of magic snowballs erupts from a point you choose within range. Each creature in a 5-foot-radius sphere centered on that point must make a Dexterity saving throw. A creature takes 3d6 cold damage on a failed save, or half as much damage on a successful one.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords">cold</set>
+            <set name="level">2</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a piece of ice or a small white rock chip</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
         </setters>
     </element>
     <element name="Spider Climb" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SPIDER_CLIMB">
@@ -1323,6 +1560,34 @@
             <set name="hasMaterialComponent">true</set>
             <set name="materialComponent">a pair of platinum rings worth at least 50 gp each, which you and target must wear for the duration</set>
             <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Warding Wind" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_WARDING_WIND">
+        <supports>Bard, Druid, Sorcerer</supports>
+        <description>
+            <p>A strong wind (20 miles per hour) blows around you in a 10-foot radius and moves with you, remaining centered on you. The wind lasts for the spell’s duration.</p>
+            <p class="indent">The wind has the following effects.</p>
+            <ul>
+                <li>It deafens you and other creatures in its area.</li>
+                <li>It extinguishes unprotected flames in its area that are torch-sized or smaller.</li>
+                <li>It hedges out vapor, gas, and fog that can be dispersed by strong wind.</li>
+                <li>The area is difficult terrain for creatures other than you.</li>
+                <li>The attack rolls of ranged weapon attacks have disadvantage if the attacks pass in or out of the wind.</li>
+            </ul>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">2</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">V</set>
+            <set name="isConcentration">true</set>
             <set name="isRitual">false</set>
         </setters>
     </element>

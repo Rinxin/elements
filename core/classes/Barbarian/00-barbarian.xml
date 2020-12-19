@@ -57,7 +57,7 @@
 				<thead>
 					<tr><td class="col-10">Level</td><td class="col-30 left">Core Features</td><td class="col-30 left">"Flavor" Features</td><td>Rages</td><td>Rage Damage</td></tr>
 				</thead>
-				<tr><td>1st</td><td class="left">Rage, Unarmored Defense</td></td></td><td>2</td><td>+2</td></tr>
+				<tr><td>1st</td><td class="left">Rage, Unarmored Defense</td></td><td>2</td><td>+2</td></tr>
 				<tr><td>2nd</td><td class="left">Reckless Attack, Danger Sense</td></td></td><td>2</td><td>+2</td></tr>
 				<tr><td>3rd</td><td class="left">Primal Path</td></td></td><td>3</td><td>+2</td></tr>
 				<tr><td>4th</td><td class="left">Ability Score Improvement</td></td></td><td>3</td><td>+2</td></tr>

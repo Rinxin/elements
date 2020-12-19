@@ -19,6 +19,7 @@
         <file name="black-fist-double-agent.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/black-fist-double-agent.xml" />
         <file name="boros-legionarire.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/boros-legionaire.xml" />
         
+        <file name="caravan-specialist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/caravan-specialist.xml" />
         <file name="celebrity-adventurers-scion.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/celebrity-adventurers-scion.xml" />
         <file name="charlatan.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/charlatan.xml" />
         <file name="city-watch.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/city-watch.xml" />
@@ -31,6 +32,7 @@
         <file name="dimir-operative.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/dimir-operative.xml" />
         <file name="dragon-casualty.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/dragon-casualty.xml" />
         
+        <file name="earthspur-miner.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/earthspur-miner.xml" />
         <file name="entertainer.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/entertainer.xml" />
         
         <file name="faceless.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/faceless.xml" />
@@ -46,6 +48,7 @@
         <file name="grull-anarch.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/grull-anarch.xml" />
         <file name="guild-artisan.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/guild-artisan.xml" />
         
+        <file name="harborfolk.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/harborfolk.xml" />
         <file name="haunted-one.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/haunted-one.xml" />
         <file name="hermit.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/hermit.xml" />
         <file name="hillsfar-merchant.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/hillsfar-merchant.xml" />
@@ -60,6 +63,7 @@
 
         <file name="marine.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/marine.xml" />
         <file name="mercenary-veteran.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/mercenary-veteran.xml" />
+        <file name="mulmaster-aristocrat.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/mulmaster-aristocrat.xml" />
 
         <file name="noble.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/noble.xml" />
         
@@ -67,6 +71,7 @@
         <file name="outlander.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/outlander.xml" />
 
         <file name="phlan-insurgent.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/phlan-insurgent.xml" />
+        <file name="phalan-refugee.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/phlan-refugee.xml" />
         <file name="plaintiff.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/plaintiff.xml" />
 
         <file name="rakdos-cultist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/rakdos-cultist.xml" />

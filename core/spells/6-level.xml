@@ -50,6 +50,29 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Bones of the Earth" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_BONES_OF_THE_EARTH">
+        <supports>Druid</supports>
+        <description>
+            <p>You cause up to six pillars of stone to burst from places on the ground that you can see within range. Each pillar is a cylinder that has a diameter of 5 feet and a height of up to 30 feet. The ground where a pillar appears must be wide enough for its diameter, and you can target ground under a creature if that creature is Medium or smaller. Each pillar has AC 5 and 30 hit points. When reduced to 0 hit points, a pillar crumbles into rubble, which creates an area of difficult terrain with a 10-foot radius that lasts until cleared. Each 5-foot-diameter portion of the area requires at least 1 minutes to clear by hand.</p>
+            <p class="indent">If a pillar is created under a creature, that creature must succeed on a Dexterity saving throw or be lifted by the pillar. A creature can choose to fail the save.</p>
+            <p class="indent">If a pillar is prevented from reaching its full height because of a ceiling or other obstacle, a creature on the pillar takes 6d6 bludgeoning damage and is restrained, pinched between the pillar and the obstacle. The restrained creature can use an action to make a Strength or Dexterity check (the creature’s choice) against the spell’s save DC. On a success, the creature is no longer restrained an must either move off the pillar or fall off it.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 7th level or higher, you can create two additional pillars for each slot level above 6th.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">6</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--C-->
     <element name="Chain Lightning" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CHAIN_LIGHTNING">
         <supports>Sorcerer, Wizard</supports>
@@ -137,6 +160,28 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Create Homunculus" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_CREATE_HOMUNCULUS">
+        <supports>Wizard</supports>
+        <description>
+            <p>While speaking an intricate incantation, you cut yourself with a jewel-encrusted dagger, taking 2d4 piercing damage that can’t be reduced in any way. You then drip your blood on the spell’s other components and touch them, transforming them into a special construct called a homunculus.</p>
+            <p class="indent">The statistics of the homunculus are in the Monster Manual. It is your faithful companion, and it dies if you die. Whenever you finish a long rest, you can spend up to half your Hit Dice if the homunculus is on the same plane of existence as you. When you do so, roll each die and add your Constitution modifier to it. Your hit point maximum is reduced by the total, and the homunculus’s hit point maximum and current hit points are both increased by it. This process can reduce you to no lower than 1 hit point, and the change to your and the homunculus’s hit points ends when you finish your next long rest. The reduction to your hit point maximum can’t be removed by any means before then, except by the homunculus’s death.</p>
+            <p class="indent">You can have only one homunculus at a time. If you cast this spell while your homunculus lives, the spell fails.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">6</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 hour</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">clay, ash, and mandrake root, all of which the spell consumes, and a jewel-encrusted dagger worth at least 1,000 gp</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Create Undead" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CREATE_UNDEAD">
         <supports>Cleric, Warlock, Wizard</supports>
         <description>
@@ -204,6 +249,38 @@
             <set name="materialComponent">a sapphire worth 1,000 gp</set>
             <set name="isConcentration">false</set>
             <set name="isRitual">true</set>
+        </setters>
+    </element>
+    <element name="Druid Grove" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_DRUID_GROVE">
+        <supports>Druid</supports>
+        <description>
+            <p>You invoke the spirits of nature to protect an area outdoors or underground. The area can be as small as a 30-foot-cube or as large as a 90-foot-cube. Buildings and other structures are excluded from the affected area. If you cast this spell in the same area every day for a year, the spell lasts until dispelled.</p>
+            <p class="indent">The spell creates the following effects within the area. When you cast this spell, you can specify creatures as friends who are immune to the effects. You can also specify a password that, when spoken aloud, makes the speaker immune to these effects.</p>
+            <p class="indent">The entire warded area radiates magic. A dispel magic cast on the area, if successful, removes only one of the following effects, not the entire area. that spell’s caster chooses which effect to end. Only when all its effects are gone is this spell dispelled.</p>
+            <p class="indent"><b><i>Solid Fog. </i></b>You can fill any number of 5-foot squares on the ground with thick fog, making them heavily obscured. The fog reaches 10 feet high. In addition, every foot of movement through the fog costs 2 extra feet. To a creature immune to this effect, the fog obscures nothing and looks like soft mist, with motes of green light floating in the air.</p>
+            <p class="indent"><b><i>Grasping Undergrowth. </i></b>You can fill any number of 5-foot squares on the ground that aren’t filled with fog with grasping weeds and vines, as if they were affected by an entangle spell. To a creature immune to this effect, the weeks and vines feel soft and reshape themselves to serve as temporary seats or beds.</p>
+            <p class="indent"><b><i>Grove Guardians. </i></b>You can animate up to four trees in the area, causing them to uproot themselves from the ground. These trees have the same statistics as an awakened tree, which appears in the Monster Manual, except they can’t speak, and their bark is covered with druidic symbols. If any creature not immune to this effect enters the warded area, the grove guardians fight until they have driven off or slain the intruders. The grove guardians also obey your spoken commands (no action required by you) that you issue while in the area. If you don’t give them commands and no intruders are present, the grove guardians do nothing. The grove guardians can’t leave the warded area. When the spell ends, the magic animating them disappears, and the trees take root again if possible.</p>
+            <p class="indent"><b><i>Additional Spell Effect. </i></b>You can place your choice of one of the following magical effects within the warded area:</p>
+            <ul>
+                <li>A constant gust of wind in two locations of your choice</li>
+                <li>Spike growth in one location of your choice</li>
+                <li>Wind wall in two locations of your choice</li>
+            </ul>
+            <p class="indent">To a creature immune to this effect, the winds are a fragrant, gentle breeze, and the area of spike growth is harmless.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">6</set>
+            <set name="school">Abjuration</set>
+            <set name="time">10 minutes</set>
+            <set name="duration">24 hours</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">mistletoe, which the spell consumes, that was harvested with a golden sickle under the light of a full moon</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
         </setters>
     </element>
 <!--E-->
@@ -434,6 +511,107 @@
         </setters>
     </element>
 <!--I-->
+    <element name="Investiture of Flame" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_INVESTITURE_OF_FLAME">
+        <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>Flames race across your body, shedding bright light in a 30-foot radius and dim light for an additional 30 feet for the spell’s duration. The flames don’t harm you. Until the spell ends, you gain the following benefits:</p>
+            <ul>
+                <li>You are immune to fire damage and have resistance to cold damage.</li>
+                <li>Any creature that moves within 5 feet of you for the first time on a turn or ends its turn there takes 1d10 fire damage.</li>
+                <li>You can use your action to create a line of fire 15 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 4d8 fire damage on a failed save, or half as much damage on a successful one.</li>
+            </ul>
+        </description>
+        <setters>
+            <set name="keywords">fire</set>
+            <set name="level">6</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Investiture of Ice" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_INVESTITURE_OF_ICE">
+        <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>Until the spell ends, ice rimes your body, and you gain the following benefits:</p>
+            <ul>
+                <li>You are immune to cold damage and have resistance to fire damage.</li>
+                <li>You can move across difficult terrain created by ice or snow without spending extra movement.</li>
+                <li>The ground in a 10-foot radius around you is icy and is difficult terrain for creatures other than you. The radius moves with you.</li>
+                <li>You can use your action to create a 15-foot cone of freezing wind extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes 4d6 cold damage on a failed save, or half as much damage on a successful one. A creature that fails its save against this effect has its speed halved until the start of your next turn.</li>
+            </ul>
+        </description>
+        <setters>
+            <set name="keywords">cold,fire</set>
+            <set name="level">6</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Investiture of Stone" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_INVESTITURE_OF_STONE">
+        <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>Until the spell ends, bits of rock spread across your body, and you gain the following benefits:</p>
+            <ul>
+                <li>You have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.</li>
+                <li>You can use your action to create a small earthquake on the ground in a 15-foot radius centered on you. Other creatures on that ground must succeed on a Dexterity saving throw or be knocked prone.</li>
+                <li>You can move across difficult terrain made of earth or stone without spending extra movement. You can move through solid earth or stone as if it was air and without destabilizing it, but you can’t end your movement there. If you do so, you are ejected to the nearest unoccupied space, this spell ends, and you are stunned until the end of your next turn.</li>
+            </ul>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">6</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Investiture of Wind" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_INVESTITURE_OF_WIND">
+        <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>Until the spell ends, wind whirls around you, and you gain the following benefits.</p>
+            <ul>
+                <li>Ranged weapon attacks made against you have disadvantage on the attack roll.</li>
+                <li>You gain a flying speed of 60 feet. If you are still flying when the spell ends, you fall, unless you can somehow prevent it.</li>
+                <li>You can use your action to create a 15-foot cube of swirling wind centered on a point you can see within 60 feet of you. Each creature in that area must make a Constitution saving throw. A creature takes 2d10 bludgeoning damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to 10 feet away from the center of the cube.</li>
+            </ul>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">6</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--J-->
 <!--K-->
 <!--L-->
@@ -476,6 +654,26 @@
             <set name="hasMaterialComponent">true</set>
             <set name="materialComponent">a snake’s tongue and either a bit of honeycomb or a drop of sweet oil</set>
             <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Mental Prison" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_MENTAL_PRISON">
+        <supports>Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence saving throw. The target succeeds automatically if it is immune to being charmed. On a successful save, the target takes 5d10 psychic damage, and the spell ends. On a failed save, the target takes 5d10 psychic damage, and you make the area immediately around the target’s space appear dangerous to it in some way. You might cause the target to perceive itself as being surrounded by fire, floating razors, or hideous maws filled with dripping teeth. Whatever form the illusion takes, the target can’t see or hear anything beyond it and is restrained for the spell’s duration. If the target is moved out of the illusion, makes a melee attack through it, or reaches any part of its body through it, the target takes 10d10 psychic damage, and the spell ends.</p>
+        </description>
+        <setters>
+            <set name="keywords">psychic</set>
+            <set name="level">6</set>
+            <set name="school">Illusion</set>
+            <set name="time">1 actoin</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
             <set name="isRitual">false</set>
         </setters>
     </element>
@@ -563,6 +761,27 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Primordial Ward" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_PRIMORDIAL_WARD">
+        <supports>Druid</supports>
+        <description>
+            <p>You have resistance to acid, cold, fire, lightning, and thunder damage for the spell’s duration.</p>
+            <p class="indent">When you take damage of one of those types, you can use your reaction to gain immunity to that type of damage, including against the triggering damage. If you do so, the resistances end, and you have the immunity until the end of your next turn, at which time the spell ends.</p>
+        </description>
+        <setters>
+            <set name="keywords">thunder</set>
+            <set name="level">6</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Programmed Illusion" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_PROGRAMMED_ILLUSION">
         <supports>Bard, Wizard</supports>
         <description>
@@ -586,6 +805,26 @@
 <!--Q-->
 <!--R-->
 <!--S-->
+    <element name="Scatter" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_SCATTER">
+        <supports>Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>The air quivers around up to five creatures of your choice that you can see within range. An unwilling creature must succeed on a Wisdom saving throw to resist this spell. You teleport each affected target to an unoccupied space that you can see within 120 feet of you. That space must be on the ground or on a floor.</p>
+        </description>
+        <setters>
+            <set name="keywords">teleport</set>
+            <set name="level">6</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent">V</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Sunbeam" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SUNBEAM">
         <supports>Druid, Sorcerer, Wizard</supports>
         <description>
@@ -607,6 +846,35 @@
         </setters>
     </element>
 <!--T-->
+    <element name="Tenser’s Transformation" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_TENSERS_TRANSFORMATION">
+        <supports>Wizard</supports>
+        <description>
+            <p>You endow yourself with endurance and martial prowess fueled by magic. Until the spell ends, you can’t cast spells, and you gain the following benefits:</p>
+            <ul>
+                <li>You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost.</li>
+                <li>You have advantage on attack rolls that you make with simple and martial weapons.</li>
+                <li>When you hit a target with a weapon attack, that target takes an extra 2d12 force damage.</li>
+                <li>You have proficiency with all armor, shields, simple weapons, and martial weapons.</li>
+                <li>You have proficiency in Strength and Constitution saving throws.</li>
+                <li>You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.</li>
+            </ul>
+            <p class="indent">Immediately after the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion.</p>
+        </description>
+        <setters>
+            <set name="keywords">force</set>
+            <set name="level">6</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a few hairs from a bull</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Transport via Plants" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_TRANSPORT_VIA_PLANTS">
         <supports>Druid</supports>
         <description>
