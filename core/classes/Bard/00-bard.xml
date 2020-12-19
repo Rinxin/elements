@@ -53,9 +53,7 @@
 			<h5 class="caption">THE BARD</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="left">Core Features</td><td>"Flavor" Features</td><td class="col-5">Cantrips Known</td><td class="col-5">Spells Known</td>
-					<td>Spell Points</td><td>Max Spell Level</td>
-					<td></td><td></td>
+					<tr><td class="col-5">Level</td><td class="left">Core Features</td><td>"Flavor" Features</td><td class="col-5">Cantrips Known</td><td class="col-5">Spells Known</td><td>Spell Points</td><td>Max Spell Level</td></tr>
 				</thead>
 				<tr><td> 1st</td><td class="left">Spellcasting, Bardic Inspiration (d6)</td><td>2</td><td>4</td>					<td>2</td><td>1st</td></tr>
 				<tr><td> 2nd</td><td class="left">Jack of All Trades, Song of Rest (d6)</td><td>2</td><td>5</td>					<td>3</td><td>1st</td></tr>
