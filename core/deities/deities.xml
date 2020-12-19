@@ -564,7 +564,7 @@
 		</sheet>
 	</element>
 
-	<!-- Greyhawk -->
+<!-- Greyhawk -->
 	<element name="Beory" type="Deity" source="Player’s Handbook" id="ID_WOTC_PHB_DEITY_BEORY">
 		<description>
 			<p class="flavor">goddess of nature</p>
@@ -941,7 +941,7 @@
 		</sheet>
 	</element>
 
-	<!-- Dragonlance -->
+<!-- Dragonlance -->
 	<element name="Paladine" type="Deity" source="Player’s Handbook" id="ID_WOTC_PHB_DEITY_PALADINE">
 		<description>
 			<p class="flavor">god of rulers and guardians</p>

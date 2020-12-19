@@ -3,7 +3,7 @@
     <info>
         <name>Character Backgrounds</name>
         <update version="0.0.1">
-            <file name="background-options.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/descent-into-avernus/backgrounds/background-options.xml" />
+            <file name="background-options.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/background-options.xml" />
         </update>
     </info>	
 	<element name="Baldur’s Gate Feature: Religious Community" type="Background Feature" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_BACKGROUND_FEATURE_RELIGIOUS_COMMUNITY">
@@ -180,4 +180,25 @@
 			<grant type="Grants" id="ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
 		</rules>
 	</element>	
+
+	<element name="Optional Feature: Deep Delver" type="Background Feature" source="Out of the Abyss" id="ID_WOCT_OOTA_BACKGROUND_FEATURE_DEEP_DELVER">
+		<supports>Background Feature, Optional Background Feature</supports>
+		<description>
+			<p>You have a knack for making your way in the deep places of the world. You can recall the twists and turns of passageways and tunnels such that you can always retrace your steps underground. You’re also well acquainted with foraging and survival in the Underdark, and can determine when sources of food and water are safe to consume. You can always find sufficient food and water for yourself and up to five other people in the Underdark, as long as sustenance is available in the area.</p>
+		</description>
+		<sheet alt="Deep Delver" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+		</rules>
+	</element>
+	<element name="Optional Feature: Underdark Experience" type="Background Feature" source="Out of the Abyss" id="ID_WOCT_OOTA_BACKGROUND_FEATURE_UNDERDARK_EXPERIENCE">
+		<supports>Background Feature, Optional Background Feature</supports>
+		<description>
+			<p>You are no casual visitor to the Underdark, but instead have spent considerable time there learning its ways. You are familiar with the various races, civilizations, and settlements of the Underdark, as well as its major routes for travel. If you fail an Intelligence check to recall some piece of Underdark lore, you know a source you can consult for the answer unless the DM rules that the lore is unknown.</p>
+		</description>
+		<sheet alt="Underdark Experience" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+		</rules>
+	</element>
 </elements>
