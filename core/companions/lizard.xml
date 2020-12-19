@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Companions</name>
+		<description>Companion creatures from the Player’s Handbook.</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.0.3">
+			<file name="lizard.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/companions/lizard.xml" />
+		</update>
+	</info>
+
+	<element name="Lizard" type="Companion" source="Player’s Handbook" id="ID_WOTC_PHB_COMPANION_LIZARD">
+		<supports>Familiar</supports>
+		<description />
+		<setters>
+			<set name="strength">2</set>
+			<set name="dexterity">11</set>
+			<set name="constitution">10</set>
+			<set name="intelligence">1</set>
+			<set name="wisdom">8</set>
+			<set name="charisma">3</set>
+			<set name="ac">10</set>
+			<set name="hp">2 (1d4)</set>
+			<set name="speed">20 ft., climb 20 ft.</set>
+			<set name="senses">darkvision 30 ft.</set>
+			<set name="languages">—</set>
+			<set name="type">Beast</set>
+			<set name="size">Tiny</set>
+			<set name="alignment">unaligned</set>
+			<set name="challenge">0</set>
+			<set name="actions">ID_WOTC_PHB_COMPANION_ACTION_LIZARD_BITE</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="10" />
+			<stat name="companion:hp:max" value="2" bonus="base" />
+			<stat name="companion:speed" value="20" bonus="base" />
+			<stat name="companion:speed:climb" value="20" bonus="base" />
+		</rules>
+	</element>
+	<element name="Bite" type="Companion Action" source="Player’s Handbook" id="ID_WOTC_PHB_COMPANION_ACTION_LIZARD_BITE">
+		<description>
+			<p>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</description>
+		</sheet>
+	</element>
+</elements>

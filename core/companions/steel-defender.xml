@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Companions</name>
+		<description>Companion creatures from the Player’s Handbook.</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.0.3">
+			<file name="steel-defender.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/companions/steel-defender.xml" />
+		</update>
+	</info>
+    <element name="Steel Defender" type="Companion" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_COMPANION_ARTIFICER_STEEL_DEFENDER">
+		<supports>Steel Defender</supports>
+		<description>
+			<p>Your tinkering has borne you a faithful companion, a steel defender. It is friendly to you and your companions, and it obeys your commands.</p>
+		</description>
+		<setters>
+			<set name="strength">14</set>
+			<set name="dexterity">12</set>
+			<set name="constitution">14</set>
+			<set name="intelligence">4</set>
+			<set name="wisdom">10</set>
+			<set name="charisma">6</set>
+			<set name="ac">15 (natural armor)</set>
+			<set name="hp">equal the steel defender’s Constitution modifier + your Intelligence modifier + five times your level in this class</set>
+			<set name="speed">40 ft.</set>
+			<set name="immunities">poison</set>
+			<set name="conditionImmunities">charmed, exhaustion, poisoned</set>			
+			<set name="saves">Dex +3, Con +4</set>
+			<set name="skills">Athletics +4, Perception +4</set>
+			<set name="senses">darkvision 60 ft., passive Perception 14</set>
+			<set name="languages">understands the languages you speak</set>
+			<set name="type">Construct</set>
+			<set name="size">Medium</set>
+			<set name="alignment">neutral</set>
+			<set name="challenge">1</set>
+			<set name="traits">ID_WOTC_ERLW_COMPANION_TRAIT_STEEL_DEFENDER_MIGHT_OF_THE_MASTER,ID_WOTC_ERLW_COMPANION_TRAIT_STEEL_DEFENDER_VIGILANT</set>
+			<set name="actions">ID_WOTC_ERLW_COMPANION_ACTION_STEEL_DEFENDER_FORCE_EMPOWERED_REND,ID_WOTC_ERLW_COMPANION_ACTION_STEEL_DEFENDER_REPAIR</set>
+			<set name="reactions">ID_WOTC_ERLW_COMPANION_REACTION_STEEL_DEFENDER_DEFLECT_ATTACK</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="15" bonus="base" />
+			<stat name="companion:hp:max" value="companion:constitution:modifier" />
+			<stat name="companion:hp:max" value="intelligence:modifier" />
+			<stat name="companion:hp:max" value="level:artificer" />
+			<stat name="companion:hp:max" value="level:artificer" />
+			<stat name="companion:hp:max" value="level:artificer" />
+			<stat name="companion:hp:max" value="level:artificer" />
+			<stat name="companion:hp:max" value="level:artificer" />
+			<stat name="companion:speed" value="40" bonus="base" />	
+			<stat name="companion:athletics:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="double" />
+			<stat name="companion:dexterity:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:constitution:save:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<grant type="Companion Trait" id="ID_WOTC_ERLW_COMPANION_TRAIT_STEEL_DEFENDER_MIGHT_OF_THE_MASTER" />
+		</rules>
+	</element>
+	<element name="Might of the Master" type="Companion Trait" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_COMPANION_TRAIT_STEEL_DEFENDER_MIGHT_OF_THE_MASTER">
+		<description>
+			<p>The following numbers increase by 1 when your proficiency bonus increases by 1: the defender’s skill and saving throw bonuses (above), the bonuses to hit and damage of its rend attack, and the number of hit points restored by its Repair action (below).</p>
+		</description>
+		<sheet>
+			<description>The following numbers increase by 1 when your proficiency bonus increases by 1: the defender’s skill and saving throw bonuses, the bonuses to hit and damage of its rend attack, and the number of hit points restored by its Repair action.</description>
+		</sheet>
+		<rules>
+			<stat name="might of the master:bonus" value="proficiency" bonus="base" />
+			<stat name="might of the master:bonus" value="-2" />			
+			<stat name="companion:athletics:misc" value="might of the master:bonus" />
+			<stat name="companion:perception:misc" value="might of the master:bonus" />			
+			<stat name="companion:dexterity:save:misc" value="might of the master:bonus" />
+			<stat name="companion:constitution:save:misc" value="might of the master:bonus" />
+		</rules>
+	</element>
+	<element name="Vigilant" type="Companion Trait" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_COMPANION_TRAIT_STEEL_DEFENDER_VIGILANT">
+		<description>
+			<p>The defender can’t be surprised.</p>
+		</description>
+		<sheet>
+			<description>The defender can’t be surprised.</description>
+		</sheet>
+	</element>
+	<element name="Force-Empowered Rend" type="Companion Action" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_COMPANION_ACTION_STEEL_DEFENDER_FORCE_EMPOWERED_REND">
+		<description>
+			<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target you can see. Hit: 1d8 + 2 force damage.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one target you can see. Hit: 1d8 + 2 force damage.</description>
+		</sheet>
+	</element>
+	<element name="Repair" type="Companion Action" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_COMPANION_ACTION_STEEL_DEFENDER_REPAIR">
+		<description>
+			<p>The magical mechanisms inside the defender restore 2d8 + 2 hit points to itself or to one construct or object within 5 feet of it.</p>
+		</description>
+		<sheet usage="3/Day">
+			<description>The magical mechanisms inside the defender restore 2d8 + 2 hit points to itself or to one construct or object within 5 feet of it.</description>
+		</sheet>
+	</element>
+	<element name="Deflect Attack" type="Companion Reaction" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_COMPANION_REACTION_STEEL_DEFENDER_DEFLECT_ATTACK">
+		<description>
+			<p>The defender imposes disadvantage on the attack roll of one creature it can see that is within 5 feet of it, provided the attack roll is against a creature other than the defender.</p>
+		</description>
+		<sheet>
+			<description>The defender imposes disadvantage on the attack roll of one creature it can see that is within 5 feet of it, provided the attack roll is against a creature other than the defender.</description>
+		</sheet>
+	</element>
+</elements>

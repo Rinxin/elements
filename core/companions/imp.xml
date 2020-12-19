@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Companions</name>
+		<description>Companion creatures from the Player’s Handbook.</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.0.3">
+			<file name="imp.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/companions/imp.xml" />
+		</update>
+	</info>
+
+	<element name="Imp" type="Companion" source="Monster Manual" id="ID_WOTC_MM_COMPANION_IMP">
+		<supports>Familiar, Variant Familiar</supports>
+		<description>
+			<p>Imps can be found in the service to mortal spellcasters, acting as advisors, spies, and familiars. An imp urges its master to acts of evil, knowing the mortal's soul is a prize the imp might ultimately claim. Imps display an unusual loyalty to their masters, and an imp can be quite dangerous if its master is threatened. Some such imps have the following trait.</p>
+			<p class="indent">An imp can assume animal form at will, but in its natural state it resembles a diminutive red-skinned humanoid with a barbed tail, small horns, and leathery wings. It strikes while invisible, attacking with its poison stinger.</p>
+        </description>
+		<setters>
+			<set name="strength">6</set>
+			<set name="dexterity">17</set>
+			<set name="constitution">13</set>
+			<set name="intelligence">11</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">14</set>
+			<set name="ac">13</set>
+			<set name="hp">10 (3d4+3)</set>
+			<set name="speed">20 ft., fly 40 ft.</set>
+			<set name="languages">Infernal, Common</set>
+			<set name="skills">Deception +4, Insight +3, Persuasion +4, Stealth +5</set>
+			<set name="type">Fiend</set>
+			<set name="size">Tiny</set>
+			<set name="alignment">lawful evil</set>
+			<set name="challenge">1</set>
+			<set name="traits">ID_WOTC_MM_COMPANION_TRAIT_IMP_SHAPECHANGER,ID_WOTC_MM_COMPANION_TRAIT_IMP_DEVILS_SIGHT,ID_WOTC_MM_COMPANION_TRAIT_IMP_MAGIC_RESISTANCE</set>
+			<set name="actions">ID_WOTC_MM_COMPANION_ACTION_IMP_STING,ID_WOTC_MM_COMPANION_ACTION_IMP_INVISIBILITY</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="13" />
+			<stat name="companion:hp:max" value="10" bonus="base" />
+			<stat name="companion:speed" value="20" bonus="base" />
+			<stat name="companion:speed:fly" value="40" bonus="base" />
+			<stat name="companion:deception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:insight:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:persuasion:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Shapechanger" type="Companion Trait" source="Monster Manual" id="ID_WOTC_MM_COMPANION_TRAIT_IMP_SHAPECHANGER">
+		<description>
+			<p>The imp can use its action to polymorph into a beast form that resembles a rat (speed 20 ft.), a raven (20 ft., fly 60 ft.), or a spider (20 ft., climb 20 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</p>
+		</description>
+		<sheet>
+			<description>The imp can use its action to polymorph into a beast form that resembles a rat (speed 20 ft.), a raven (20 ft., fly 60 ft.), or a spider (20 ft., climb 20 ft.), or back into its true form. Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.</description>
+		</sheet>
+	</element>
+	<element name="Devil's Sight" type="Companion Trait" source="Monster Manual" id="ID_WOTC_MM_COMPANION_TRAIT_IMP_DEVILS_SIGHT">
+		<description>
+			<p>Magical darkness doesn't impede the imp's darkvision.</p>
+		</description>
+		<sheet>
+			<description>Magical darkness doesn't impede the imp's darkvision.</description>
+		</sheet>
+	</element>
+	<element name="Magic Resistance" type="Companion Trait" source="Monster Manual" id="ID_WOTC_MM_COMPANION_TRAIT_IMP_MAGIC_RESISTANCE">
+		<description>
+			<p>The imp has advantage on saving throws against spells and other magical effects.</p>
+		</description>
+		<sheet>
+			<description>The imp has advantage on saving throws against spells and other magical effects.</description>
+		</sheet>
+	</element>
+	<element name="Sting (Bite in Beast Form)" type="Companion Action" source="Monster Manual" id="ID_WOTC_MM_COMPANION_ACTION_IMP_STING">
+		<description>
+			<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</description>
+		</sheet>
+	</element>
+	<element name="Invisibility" type="Companion Action" source="Monster Manual" id="ID_WOTC_MM_COMPANION_ACTION_IMP_INVISIBILITY">
+		<description>
+			<p>The imp magically turns invisible until it attacks, or until its concentration ends (as if concentrating on a spell). Any equipment the imp wears or carries is invisible with it.</p>
+		</description>
+		<sheet>
+			<description>The imp magically turns invisible until it attacks, or until its concentration ends (as if concentrating on a spell). Any equipment the imp wears or carries is invisible with it.</description>
+		</sheet>
+	</element>
+</elements>

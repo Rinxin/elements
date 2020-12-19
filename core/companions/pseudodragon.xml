@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Companions</name>
+		<description>Companion creatures from the Player’s Handbook.</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.0.3">
+			<file name="pseudodragon.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/companions/pseudodragon.xml" />
+		</update>
+	</info>
+
+	<element name="Pseudodragon" type="Companion" source="Monster Manual" id="ID_WOTC_MM_COMPANION_PSEUDODRAGON">
+		<supports>Familiar, Variant Familiar</supports>
+		<description>
+			<p>The pseudodragon can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the pseudodragon senses as long as they are within 1 mile of each other. While the pseudodragon is within 10 feet of its companion, the companion shares the pseudodragon's Magic Resistance trait. At any time and for any reason, the pseudodragon can end its service as a familiar, ending the telepathic bond.</p>
+        </description>
+		<setters>
+			<set name="strength">6</set>
+			<set name="dexterity">15</set>
+			<set name="constitution">13</set>
+			<set name="intelligence">10</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">10</set>
+			<set name="ac">13</set>
+			<set name="hp">7 (2d4+2)</set>
+			<set name="speed">15 ft., fly 60 ft.</set>
+			<set name="languages">understands Common and Draconic but can't speak</set>
+			<set name="skills">Perception +3, Stealth +4</set>
+			<set name="senses">blindsight 10 ft., darkvision 60 ft., passive Perception 13</set>
+			<set name="type">Dragon</set>
+			<set name="size">Tiny</set>
+			<set name="alignment">neutral good</set>
+			<set name="challenge">1/4</set>
+			<set name="traits">ID_WOTC_MM_COMPANION_TRAIT_PSEUDODRAGON_KEEN_SENSES,ID_WOTC_MM_COMPANION_TRAIT_PSEUDODRAGON_LIMITED_TELEPATHY,ID_WOTC_MM_COMPANION_TRAIT_PSEUDODRAGON_MAGIC_RESISTANCE</set>
+			<set name="actions">ID_WOTC_MM_COMPANION_ACTION_PSEUDODRAGON_BITE,ID_WOTC_MM_COMPANION_ACTION_PSEUDODRAGON_STING</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="13" />
+			<stat name="companion:hp:max" value="7" bonus="base" />
+			<stat name="companion:speed" value="15" bonus="base" />
+			<stat name="companion:speed:fly" value="60" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Keen Senses" type="Companion Trait" source="Monster Manual" id="ID_WOTC_MM_COMPANION_TRAIT_PSEUDODRAGON_KEEN_SENSES">
+		<description>
+			<p>The pseudodragon has advantage on Wisdom (Perception) checks that rely on sight, hearing, or smell.</p>
+		</description>
+		<sheet>
+			<description>The pseudodragon has advantage on Wisdom (Perception) checks that rely on sight, hearing, or smell.</description>
+		</sheet>
+	</element>
+	<element name="Limited Telepathy" type="Companion Trait" source="Monster Manual" id="ID_WOTC_MM_COMPANION_TRAIT_PSEUDODRAGON_LIMITED_TELEPATHY">
+		<description>
+			<p>The pseudodragon can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language.</p>
+		</description>
+		<sheet>
+			<description>The pseudodragon can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language.</description>
+		</sheet>
+	</element>
+	<element name="Magic Resistance" type="Companion Trait" source="Monster Manual" id="ID_WOTC_MM_COMPANION_TRAIT_PSEUDODRAGON_MAGIC_RESISTANCE">
+		<description>
+			<p>The pseudodragon has advantage on saving throws against spells and other magical effects.</p>
+		</description>
+		<sheet>
+			<description>The pseudodragon has advantage on saving throws against spells and other magical effects.</description>
+		</sheet>
+	</element>
+	<element name="Bite" type="Companion Action" source="Monster Manual" id="ID_WOTC_MM_COMPANION_ACTION_PSEUDODRAGON_BITE">
+		<description>
+			<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</description>
+		</sheet>
+	</element>
+	<element name="Sting" type="Companion Action" source="Monster Manual" id="ID_WOTC_MM_COMPANION_ACTION_PSEUDODRAGON_STING">
+		<description>
+			<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the target falls unconscious for the same duration, or until it takes damage or another creature uses an action to shake it awake.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the target falls unconscious for the same duration, or until it takes damage or another creature uses an action to shake it awake.</description>
+		</sheet>
+	</element>
+</elements>

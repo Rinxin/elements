@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Companions</name>
+		<description>Companion creatures from the Player’s Handbook.</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">Wizards of the Coast</author>
+		<update version="0.0.3">
+			<file name="eagle.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/companions/eagle.xml" />
+		</update>
+	</info>
+
+	<element name="Eagle" type="Companion" source="Player’s Handbook" id="ID_WOTC_PHB_COMPANION_EAGLE">
+		<description />
+		<setters>
+			<set name="strength">6</set>
+			<set name="dexterity">15</set>
+			<set name="constitution">10</set>
+			<set name="intelligence">2</set>
+			<set name="wisdom">14</set>
+			<set name="charisma">7</set>
+			<set name="ac">12</set>
+			<set name="hp">3 (1d6)</set>
+			<set name="speed">10 ft., fly 60 ft.</set>
+			<set name="languages">—</set>
+			<set name="skills">Perception +4</set>
+			<set name="type">Beast</set>
+			<set name="size">Small</set>
+			<set name="alignment">unaligned</set>
+			<set name="challenge">0</set>
+			<set name="traits">ID_WOTC_PHB_COMPANION_TRAIT_EAGLE_KEEN_SIGHT</set>
+			<set name="actions">ID_WOTC_PHB_COMPANION_ACTION_EAGLE_TALONS</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="12" />
+			<stat name="companion:hp:max" value="3" bonus="base" />
+			<stat name="companion:speed" value="10" bonus="base" />
+			<stat name="companion:speed:fly" value="60" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Keen Sight" type="Companion Trait" source="Player’s Handbook" id="ID_WOTC_PHB_COMPANION_TRAIT_EAGLE_KEEN_SIGHT">
+		<description>
+			<p>The eagle has advantage on Wisdom (Perception) checks that rely on sight.</p>
+		</description>
+		<sheet>
+			<description>The eagle has advantage on Wisdom (Perception) checks that rely on sight.</description>
+		</sheet>
+	</element>
+	<element name="Talons" type="Companion Action" source="Player’s Handbook" id="ID_WOTC_PHB_COMPANION_ACTION_EAGLE_TALONS">
+		<description>
+			<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.</description>
+		</sheet>
+	</element>
+	<element name="Flying Snake" type="Companion" source="Player’s Handbook" id="ID_WOTC_PHB_COMPANION_FLYING_SNAKE">
+		<description />
+		<setters>
+			<set name="strength">4</set>
+			<set name="dexterity">18</set>
+			<set name="constitution">11</set>
+			<set name="intelligence">2</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">5</set>
+			<set name="ac">14</set>
+			<set name="hp">5 (2d4)</set>
+			<set name="speed">30 ft., fly 60 ft., swim 30 ft.</set>
+			<set name="senses">blindsight 10 ft.</set>
+			<set name="languages">—</set>
+			<set name="type">Beast</set>
+			<set name="size">Tiny</set>
+			<set name="alignment">unaligned</set>
+			<set name="challenge">1/8</set>
+			<set name="traits">ID_WOTC_PHB_COMPANION_TRAIT_FLYING_SNAKE_FLYBY</set>
+			<set name="actions">ID_WOTC_PHB_COMPANION_ACTION_FLYING_SNAKE_BITE</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="14" />
+			<stat name="companion:hp:max" value="5" bonus="base" />
+			<stat name="companion:speed" value="30" bonus="base" />
+			<stat name="companion:speed:fly" value="60" bonus="base" />
+			<stat name="companion:speed:swim" value="30" bonus="base" />
+		</rules>
+	</element>
+	<element name="Flyby" type="Companion Trait" source="Player’s Handbook" id="ID_WOTC_PHB_COMPANION_TRAIT_FLYING_SNAKE_FLYBY">
+		<description>
+			<p>The snake doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p>
+		</description>
+		<sheet>
+			<description>The snake doesn't provoke opportunity attacks when it flies out of an enemy's reach.</description>
+		</sheet>
+	</element>
+	<element name="Bite" type="Companion Action" source="Player’s Handbook" id="ID_WOTC_PHB_COMPANION_ACTION_FLYING_SNAKE_BITE">
+		<description>
+			<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 7 (3d4) poison damage.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 7 (3d4) poison damage.</description>
+		</sheet>
+	</element>
+</elements>
