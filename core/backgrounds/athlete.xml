@@ -3,7 +3,7 @@
 	<info>
 		<name>Athlete</name>
 		<update version="0.0.1">
-			<file name="athlete.xml" url="https://raw.githubusercontent.com/rinxin/elements/master/core/background/athlete.xml" />
+			<file name="athlete.xml" url="https://raw.githubusercontent.com/rinxin/elements/master/core/backgrounds/athlete.xml" />
 		</update>
 	</info>
 	<element name="Athlete" type="Background" source="Mythic Odysseys of Theros" id="ID_WOTC_MOOT_BACKGROUND_Athlete">
