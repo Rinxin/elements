@@ -56,28 +56,28 @@
 			<h5 class="caption">THE SORCERER</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="col-10">Sorcery Points</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td class="col-10">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+					<tr><td class="col-5">Level</td><td class="col-10">Sorcery Points</td><td class="left">Core Features</td><td>"Flavor" Features</td><td class="col-10">Cantrips Known</td><td class="col-10">Spells Known</td><td>Spell Points</td><td>Max Spell Level</td></tr>
 				</thead>
-				<tr><td> 1st</td><td>—</td><td class="left">Spellcasting, Sorcerous Origin</td><td>4</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 2nd</td><td>2</td><td class="left">Font of Magic</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 3rd</td><td>3</td><td class="left">Metamagic</td><td>4</td><td>4</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 4th</td><td>4</td><td class="left">Ability Score Improvement</td><td>5</td><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 5th</td><td>5</td><td class="left">—</td><td>5</td><td>6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 6th</td><td>6</td><td class="left">Sorcerous Origin feature</td><td>5</td><td>7</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 7th</td><td>7</td><td class="left">—</td><td>5</td><td>8</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 8th</td><td>8</td><td class="left">Ability Score Improvement</td><td>5</td><td>9</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td> 9th</td><td>9</td><td class="left">—</td><td>5</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>10th</td><td>10</td><td class="left">Metamagic</td><td>6</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>11th</td><td>11</td><td class="left">—</td><td>6</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>12th</td><td>12</td><td class="left">Ability Score Improvement</td><td>6</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
-				<tr><td>13th</td><td>13</td><td class="left">—</td><td>6</td><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
-				<tr><td>14th</td><td>14</td><td class="left">Sorcerous Origin feature</td><td>6</td><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
-				<tr><td>15th</td><td>15</td><td class="left">—</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
-				<tr><td>16th</td><td>16</td><td class="left">Ability Score Improvement</td><td>6</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
-				<tr><td>17th</td><td>17</td><td class="left">Metamagic</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>18th</td><td>18</td><td class="left">Sorcerous Origin feature</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>19th</td><td>19</td><td class="left">Ability Score Improvement</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
-				<tr><td>20th</td><td>20</td><td class="left">Sorcerous Restoration</td><td>6</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+				<tr><td> 1st</td><td>—</td><td class="left">Spellcasting, Sorcerous Origin</td><td>4</td><td>2</td>		<td>2</td><td>1st</td></tr>
+				<tr><td> 2nd</td><td>2</td><td class="left">Font of Magic</td><td>4</td><td>3</td>						<td>3</td><td>1st</td></tr>
+				<tr><td> 3rd</td><td>3</td><td class="left">Metamagic</td><td>4</td><td>4</td>							<td>8</td><td>2nd</td></tr>
+				<tr><td> 4th</td><td>4</td><td class="left">Ability Score Improvement</td><td>5</td><td>5</td>			<td>10</td><td>2nd</td></tr>
+				<tr><td> 5th</td><td>5</td><td class="left">—</td><td>5</td><td>6</td>									<td>16</td><td>3rd</td></tr>
+				<tr><td> 6th</td><td>6</td><td class="left">Sorcerous Origin feature</td><td>5</td><td>7</td>			<td>19</td><td>3rd</td></tr>
+				<tr><td> 7th</td><td>7</td><td class="left">—</td><td>5</td><td>8</td>									<td>23</td><td>4th</td></tr>
+				<tr><td> 8th</td><td>8</td><td class="left">Ability Score Improvement</td><td>5</td><td>9</td>			<td>27</td><td>4th</td></tr>
+				<tr><td> 9th</td><td>9</td><td class="left">—</td><td>5</td><td>10</td>									<td>36</td><td>5th</td></tr>
+				<tr><td>10th</td><td>10</td><td class="left">Metamagic</td><td>6</td><td>11</td>						<td>41</td><td>5th</td></tr>
+				<tr><td>11th</td><td>11</td><td class="left">—</td><td>6</td><td>12</td>								<td>47</td><td>6th</td></tr>
+				<tr><td>12th</td><td>12</td><td class="left">Ability Score Improvement</td><td>6</td><td>12</td>		<td>47</td><td>6th</td></tr>
+				<tr><td>13th</td><td>13</td><td class="left">—</td><td>6</td><td>13</td>								<td>54</td><td>7th</td></tr>
+				<tr><td>14th</td><td>14</td><td class="left">Sorcerous Origin feature</td><td>6</td><td>13</td>			<td>54</td><td>7th</td></tr>
+				<tr><td>15th</td><td>15</td><td class="left">—</td><td>6</td><td>14</td>								<td>62</td><td>8th</td></tr>
+				<tr><td>16th</td><td>16</td><td class="left">Ability Score Improvement</td><td>6</td><td>14</td>		<td>62</td><td>8th</td></tr>
+				<tr><td>17th</td><td>17</td><td class="left">Metamagic</td><td>6</td><td>15</td>						<td>71</td><td>9th</td></tr>
+				<tr><td>18th</td><td>18</td><td class="left">Sorcerous Origin feature</td><td>6</td><td>15</td>			<td>76</td><td>9th</td></tr>
+				<tr><td>19th</td><td>19</td><td class="left">Ability Score Improvement</td><td>6</td><td>15</td>		<td>82</td><td>9th</td></tr>
+				<tr><td>20th</td><td>20</td><td class="left">Sorcerous Restoration</td><td>6</td><td>15</td>			<td>89</td><td>9th</td></tr>
 			</table>
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN" />

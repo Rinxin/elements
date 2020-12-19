@@ -53,7 +53,7 @@
 			<h5 class="caption">THE ROGUE</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="col-10">Sneak Attack</td><td class="col-60 left">Features</td></tr>
+					<tr><td class="col-5">Level</td><td class="col-10">Sneak Attack</td><td class="col-60 left">Core Features</td><td>"Flavor" Features</td></tr>
 				</thead>
 				<tr><td> 1st</td><td>1d6</td><td class="left">Expertise, Sneak Attack, Thieves’ Cant</td></tr>
 				<tr><td> 2nd</td><td>1d6</td><td class="left">Cunning Action</td></tr>

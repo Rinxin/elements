@@ -56,28 +56,28 @@
 			<h5 class="caption">THE MONK</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-10">Level</td><td class="col-10">Martial Arts</td><td class="col-10">Ki Points</td><td class="col-10">Unarmored Movement</td><td class="col-60 left">Features</td></tr>
+					<tr><td class="col-10">Level</td><td class="col-10">Martial Arts</td><td class="col-10">Ki Points</td><td class="col-10">Unarmored Movement</td><td class="col-60 left">Core Features</td><td>"Flavor" Features</td></tr>
 				</thead>
-				<tr><td>1st</td><td>1d4</td><td>—</td><td>—</td><td class="left">Unarmored Defense, Martial Arts</td></tr>
-				<tr><td>2nd</td><td>1d4</td><td>2</td><td>+10 ft.</td><td class="left">Ki, Unarmored Movement</td></tr>
-				<tr><td>3rd</td><td>1d4</td><td>3</td><td>+10 ft.</td><td class="left">Monastic Tradition, Deflect Missiles</td></tr>
-				<tr><td>4th</td><td>1d4</td><td>4</td><td>+10 ft.</td><td class="left">Ability Score Improvement, Slow Fall</td></tr>
-				<tr><td>5th</td><td>1d6</td><td>5</td><td>+10 ft.</td><td class="left">Extra Attack, Stunning Strike</td></tr>
-				<tr><td>6th</td><td>1d6</td><td>6</td><td>+15 ft.</td><td class="left">Ki-Empowered Strikes, Monastic Tradition feature</td></tr>
-				<tr><td>7th</td><td>1d6</td><td>7</td><td>+15 ft.</td><td class="left">Evasion, Stillness of Mind</td></tr>
-				<tr><td>8th</td><td>1d6</td><td>8</td><td>+15 ft.</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>9th</td><td>1d6</td><td>9</td><td>+15 ft.</td><td class="left">Unarmored Movement improvement</td></tr>
-				<tr><td>10th</td><td>1d6</td><td>10</td><td>+20 ft.</td><td class="left">Purity of Body</td></tr>
-				<tr><td>11th</td><td>1d8</td><td>11</td><td>+20 ft.</td><td class="left">Monastic Tradition feature</td></tr>
-				<tr><td>12th</td><td>1d8</td><td>12</td><td>+20 ft.</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>13th</td><td>1d8</td><td>13</td><td>+20 ft.</td><td class="left">Tongue of the Sun and Moon</td></tr>
-				<tr><td>14th</td><td>1d8</td><td>14</td><td>+25 ft.</td><td class="left">Diamond Soul</td></tr>
-				<tr><td>15th</td><td>1d8</td><td>15</td><td>+25 ft.</td><td class="left">Timeless Body</td></tr>
-				<tr><td>16th</td><td>1d8</td><td>16</td><td>+25 ft.</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>17th</td><td>1d10</td><td>17</td><td>+25 ft.</td><td class="left">Monastic Tradition feature</td></tr>
-				<tr><td>18th</td><td>1d10</td><td>18</td><td>+30 ft.</td><td class="left">Empty Body</td></tr>
-				<tr><td>19th</td><td>1d10</td><td>19</td><td>+30 ft.</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>20th</td><td>1d10</td><td>20</td><td>+30 ft.</td><td class="left">Perfect Self</td></tr>
+				<tr><td>1st</td><td>1d4</td><td>—</td><td>—</td><td class="left">Unarmored Defense, Martial Arts</td><td></td></tr>
+				<tr><td>2nd</td><td>1d4</td><td>2</td><td>+10 ft.</td><td class="left">Ki, Unarmored Movement</td><td></td></tr>
+				<tr><td>3rd</td><td>1d4</td><td>3</td><td>+10 ft.</td><td class="left">Monastic Tradition, Deflect Missiles</td><td></td></tr>
+				<tr><td>4th</td><td>1d4</td><td>4</td><td>+10 ft.</td><td class="left">Ability Score Improvement, Slow Fall</td><td></td></tr>
+				<tr><td>5th</td><td>1d6</td><td>5</td><td>+10 ft.</td><td class="left">Extra Attack, Stunning Strike</td><td></td></tr>
+				<tr><td>6th</td><td>1d6</td><td>6</td><td>+15 ft.</td><td class="left">Ki-Empowered Strikes, Monastic Tradition feature</td><td></td></tr>
+				<tr><td>7th</td><td>1d6</td><td>7</td><td>+15 ft.</td><td class="left">Evasion, Stillness of Mind</td><td></td></tr>
+				<tr><td>8th</td><td>1d6</td><td>8</td><td>+15 ft.</td><td class="left">Ability Score Improvement</td><td></td></tr>
+				<tr><td>9th</td><td>1d6</td><td>9</td><td>+15 ft.</td><td class="left">Unarmored Movement improvement</td><td></td></tr>
+				<tr><td>10th</td><td>1d6</td><td>10</td><td>+20 ft.</td><td class="left">Purity of Body</td><td></td></tr>
+				<tr><td>11th</td><td>1d8</td><td>11</td><td>+20 ft.</td><td class="left">Monastic Tradition feature</td><td></td></tr>
+				<tr><td>12th</td><td>1d8</td><td>12</td><td>+20 ft.</td><td class="left">Ability Score Improvement</td><td></td></tr>
+				<tr><td>13th</td><td>1d8</td><td>13</td><td>+20 ft.</td><td class="left">Tongue of the Sun and Moon</td><td></td></tr>
+				<tr><td>14th</td><td>1d8</td><td>14</td><td>+25 ft.</td><td class="left">Diamond Soul</td><td></td></tr>
+				<tr><td>15th</td><td>1d8</td><td>15</td><td>+25 ft.</td><td class="left">Timeless Body</td><td></td></tr>
+				<tr><td>16th</td><td>1d8</td><td>16</td><td>+25 ft.</td><td class="left">Ability Score Improvement</td><td></td></tr>
+				<tr><td>17th</td><td>1d10</td><td>17</td><td>+25 ft.</td><td class="left">Monastic Tradition feature</td><td></td></tr>
+				<tr><td>18th</td><td>1d10</td><td>18</td><td>+30 ft.</td><td class="left">Empty Body</td><td></td></tr>
+				<tr><td>19th</td><td>1d10</td><td>19</td><td>+30 ft.</td><td class="left">Ability Score Improvement</td><td></td></tr>
+				<tr><td>20th</td><td>1d10</td><td>20</td><td>+30 ft.</td><td class="left">Perfect Self</td><td></td></tr>
 			</table>				
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_UNARMORED_DEFENSE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_MARTIAL_ARTS" />

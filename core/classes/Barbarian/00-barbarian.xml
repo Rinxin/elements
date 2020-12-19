@@ -55,28 +55,28 @@
 			<h5 class="caption">THE BARBARIAN</h5>
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-10">Level</td><td>Rages</td><td>Rage Damage</td><td class="col-60 left">Features</td></tr>
+					<tr><td class="col-10">Level</td><td class="col-30 left">Core Features</td><td class="col-30 left">"Flavor" Features</td><td>Rages</td><td>Rage Damage</td></tr>
 				</thead>
-				<tr><td>1st</td><td>2</td><td>+2</td><td class="left">Rage, Unarmored Defense</td></tr>
-				<tr><td>2nd</td><td>2</td><td>+2</td><td class="left">Reckless Attack, Danger Sense</td></tr>
-				<tr><td>3rd</td><td>3</td><td>+2</td><td class="left">Primal Path</td></tr>
-				<tr><td>4th</td><td>3</td><td>+2</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>5th</td><td>3</td><td>+2</td><td class="left">Extra Attack, Fast Movement</td></tr>
-				<tr><td>6th</td><td>4</td><td>+2</td><td class="left">Path feature</td></tr>
-				<tr><td>7th</td><td>4</td><td>+2</td><td class="left">Feral Instinct</td></tr>
-				<tr><td>8th</td><td>4</td><td>+2</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>9th</td><td>4</td><td>+3</td><td class="left">Brutal Critical (1 die)</td></tr>
-				<tr><td>10th</td><td>4</td><td>+3</td><td class="left">Path feature</td></tr>
-				<tr><td>11th</td><td>4</td><td>+3</td><td class="left">Relentless Rage</td></tr>
-				<tr><td>12th</td><td>5</td><td>+3</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>13th</td><td>5</td><td>+3</td><td class="left">Brutal Critical (2 dice)</td></tr>
-				<tr><td>14th</td><td>5</td><td>+3</td><td class="left">Path feature</td></tr>
-				<tr><td>15th</td><td>5</td><td>+3</td><td class="left">Persistent Rage</td></tr>
-				<tr><td>16th</td><td>5</td><td>+4</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>17th</td><td>6</td><td>+4</td><td class="left">Brutal Critical (3 dice)</td></tr>
-				<tr><td>18th</td><td>6</td><td>+4</td><td class="left">Indomitable Might</td></tr>
-				<tr><td>19th</td><td>6</td><td>+4</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>20th</td><td>Unlimited</td><td>+4</td><td class="left">Primal Champion</td></tr>
+				<tr><td>1st</td><td class="left">Rage, Unarmored Defense</td></td></td><td>2</td><td>+2</td></tr>
+				<tr><td>2nd</td><td class="left">Reckless Attack, Danger Sense</td></td></td><td>2</td><td>+2</td></tr>
+				<tr><td>3rd</td><td class="left">Primal Path</td></td></td><td>3</td><td>+2</td></tr>
+				<tr><td>4th</td><td class="left">Ability Score Improvement</td></td></td><td>3</td><td>+2</td></tr>
+				<tr><td>5th</td><td class="left">Extra Attack, Fast Movement</td></td></td><td>3</td><td>+2</td></tr>
+				<tr><td>6th</td><td class="left">Path feature</td></td></td><td>4</td><td>+2</td></tr>
+				<tr><td>7th</td><td class="left">Feral Instinct</td></td></td><td>4</td><td>+2</td></tr>
+				<tr><td>8th</td><td class="left">Ability Score Improvement</td></td></td><td>4</td><td>+2</td></tr>
+				<tr><td>9th</td><td class="left">Brutal Critical (1 die)</td></td></td><td>4</td><td>+3</td></tr>
+				<tr><td>10th</td><td class="left">Path feature</td></td></td><td>4</td><td>+3</td></tr>
+				<tr><td>11th</td><td class="left">Relentless Rage</td></td></td><td>4</td><td>+3</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td></td></td><td>5</td><td>+3</td></tr>
+				<tr><td>13th</td><td class="left">Brutal Critical (2 dice)</td></td></td><td>5</td><td>+3</td></tr>
+				<tr><td>14th</td><td class="left">Path feature</td></td></td><td>5</td><td>+3</td></tr>
+				<tr><td>15th</td><td class="left">Persistent Rage</td></td></td><td>5</td><td>+3</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td></td></td><td>5</td><td>+4</td></tr>
+				<tr><td>17th</td><td class="left">Brutal Critical (3 dice)</td></td></td><td>6</td><td>+4</td></tr>
+				<tr><td>18th</td><td class="left">Indomitable Might</td></td></td><td>6</td><td>+4</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td></td></td><td>6</td><td>+4</td></tr>
+				<tr><td>20th</td><td class="left">Primal Champion</td></td></td><td>Unlimited</td><td>+4</td></tr>
 			</table>
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RAGE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE" />
