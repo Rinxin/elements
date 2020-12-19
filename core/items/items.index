@@ -9,10 +9,9 @@
 		</update>
 	</info>
 	<files>
-    <!--
-		<file name="items.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/acquisitions-incorporated/items.index" />
-		<file name="vehicles.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/acquisitions-incorporated/items.index" />
-        <file name="dmg.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/dmg.index" />
-    -->
+    
+		<file name="musical-instruments.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/musical-instruments.index" />
+		
+    
     </files>
 </index>
