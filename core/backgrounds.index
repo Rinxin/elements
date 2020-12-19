@@ -10,7 +10,7 @@
 	</info>
 	<files>
         <file name="00-background-options.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/00-background-options.xml" />
-    
+
 		<file name="acolyte.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/acolyte.xml" />
         <file name="anthropologist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/anthropologist.xml" />
         <file name="athlete.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/athlete.xml" />
@@ -45,7 +45,7 @@
         <file name="gambler.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/gambler.xml" />
         <file name="gate-urchin.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/gate-urchin.xml" />
         <file name="grinner.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/grinner.xml" />
-        <file name="grull-anarch.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/grull-anarch.xml" />
+        <file name="gruul-anarch.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/gruul-anarch.xml" />
         <file name="guild-artisan.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/guild-artisan.xml" />
         
         <file name="harborfolk.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/harborfolk.xml" />
