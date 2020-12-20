@@ -651,6 +651,26 @@
         </setters>
     </element>
 <!--Q-->
+    <element name="Quicken" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_QUICKEN">
+		<supports>Bard,Sorcerer,Wizard, Dunamancy</supports>
+		<description>
+			<p>You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to its next initiative roll or Dexterity saving throw. The target can roll the die before or after the d20 roll. The spell then ends.</p>
+		</description>
+		<setters>
+			<set name="keywords">dunamancy</set>
+			<set name="level">0</set>
+			<set name="school" addition="Dunamancy">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="range">Touch</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 <!--R-->
     <element name="Ray of Frost" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_RAY_OF_FROST">
         <supports>Sorcerer, Wizard, Artificer</supports>

@@ -826,7 +826,7 @@
         </setters>
     </element>
     <element name="Sunbeam" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SUNBEAM">
-        <supports>Druid, Sorcerer, Wizard</supports>
+        <supports>Cleric, Druid, Sorcerer, Wizard</supports>
         <description>
             <p>A beam of brilliant light flashes out from your hand in a 5-foot-wide, 60-foot-line. Each creature in the line must make a Constitution saving throw. On a failed save, a creature takes 6d8 radiant damage and is blinded until your next turn. On a successful save, it takes half as much damage and isn’t blinded by this spell. Undead and oozes have disadvantage on this saving throw. You can create a new line of radiance as your action on any turn until the spell ends. For the duration, a mote of brilliant radiance shines in your hand. It sheds bright light in a 30-foot radius and dim light for an additional 30 feet. The light is sunlight.</p>
         </description>
@@ -875,6 +875,27 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Time Loop" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_TIME_LOOP">
+		<supports>Bard,Cleric,Druid,Sorcerer,Warlock,Wizard, Dunamancy</supports>
+		<description>
+			<p>You capture the target in a loop of time. The creature is teleported to the space where it began its previous turn. The target then makes a Wisdom saving throw. If it succeeds, the spell’s effect ends. If it fails, the creature must repeat the actions it took on its previous turn, following the same sequence of moves and actions to the best of its ability. It doesn’t need to move along the same path or attack the same target, but if it moved, then attacked, on its previous turn, its only option is to move, then attack, this turn. If the space where the target began its previous turn is occupied or it’s impossible for the target to take the same action (if it cast a spell but it’s now unable to do so, for example), the target is incapacitated.</p>
+			<p class="indent">An affected target repeats the saving throw at the end of its turn, ending the effect on itself on a success. For as long as the duration lasts, the target teleports back to its starting point at the start of each of its turns and it must repeat the same sequence of moves and actions.</p>
+		</description>
+		<setters>
+			<set name="keywords">dunamancy</set>
+			<set name="level">6</set>
+			<set name="school" addition="Dunamancy">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="range">30 feet</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a metal loop</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
     <element name="Transport via Plants" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_TRANSPORT_VIA_PLANTS">
         <supports>Druid</supports>
         <description>

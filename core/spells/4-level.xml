@@ -825,6 +825,27 @@
     </element>
 <!--Q-->
 <!--R-->
+    <element name="Reset" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_RESET">
+		<supports>Bard,Cleric,Druid,Paladin,Wizard, Dunamancy</supports>
+		<description>
+			<p>Temporal energy bursts from you to bathe the battlefield. Choose up to four creatures within range. If the creature is your ally, it can reroll its initiative check twice, keeping whichever of the two results it prefers. If the target is your enemy, it must make a successful Wisdom saving throw or reroll its initiative check twice, keeping whichever of the two results you prefer. New initiative results go into effect at the start of the next round.</p>
+			<p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 5th level or higher, you can affect one additional creature for each slot level above 4th.</p>
+		</description>
+		<setters>
+			<set name="keywords">dunamancy</set>
+			<set name="level">4</set>
+			<set name="school" addition="Dunamancy">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="range">60 feet</set>
+			<set name="duration">Instantaneous</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 <!--S-->
     <element name="Shadow of Moil" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_SHADOW_OF_MOIL">
         <supports>Warlock</supports>
@@ -976,6 +997,38 @@
         </setters>
     </element>
 <!--T-->
+    <element name="Time Vortex" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_TIME_VORTEX">
+		<supports>Sorcerer,Warlock,Wizard, Dunamancy</supports>
+		<description>
+			<p>This spell destabilizes the flow of time in the target area, subjecting creatures caught in the vortex to temporal fluctuations that are visible as a spherical distortion with a 10-foot radius. Each creature within the sphere when you cast the spell must succeed on a Wisdom saving throw or be affected by the time vortex. While the spell lasts, a creature that enters the sphere or begins its turn inside the sphere must also make a Wisdom saving throw or be affected. Once a creature’s Wisdom saving throw succeeds, it is immune to this time vortex.</p>
+			<p class="indent">An affected creature can’t take reactions and must roll a d10 at the start of its turn to determine its behavior for that turn.</p>
+			<table>
+				<thead>
+					<tr><td>d10</td><td>Roll Effect</td></tr>
+				</thead>
+				<tr><td>1-2</td><td>The creature is affected as if by slow until the start of its next turn.</td></tr>
+				<tr><td>3-5</td><td>The creature is stunned until the start of its next turn.</td></tr>
+				<tr><td>6-8</td><td>The creature’s initiative result is reduced by 5. The creature begins using this new initiative result next round. Multiple occurrences of this effect for the same creature are cumulative.</td></tr>
+				<tr><td>9-10</td><td>The creature’s speed is halved until the start of its next turn.</td></tr>
+			</table>
+			<p class="indent">You can move the temporal vortex 10 feet each round as a bonus action. An affected creature repeats the saving throw at the end of its turn, ending the effect on itself on a success.</p>
+			<p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot level above 4th.</p>
+		</description>
+		<setters>
+			<set name="keywords">dunamancy</set>
+			<set name="level">4</set>
+			<set name="school" addition="Dunamancy">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="range">90 feet</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a clockwork butterfly</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 <!--U-->
 <!--V-->
     <element name="Vitriolic Sphere" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_VITRIOLIC_SPHERE">

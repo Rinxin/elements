@@ -343,6 +343,27 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Chronal Lance" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_CHRONAL_LANCE">
+		<supports>Sorcerer,Wizard, Dunamancy</supports>
+		<description>
+			<p>You send glowing lances of temporal energy streaking toward three separate targets. Each target must make a successful Wisdom saving throw or its speed is halved and it has disadvantage on Dexterity ability checks (but not saving throws). An affected creature repeats the saving throw at the end of its turn, ending the effect on itself on a success.</p>
+			<p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, you can create an additional lance to target one additional creature for each slot level above 1st.</p>
+		</description>
+		<setters>
+			<set name="keywords">dunamancy</set>
+			<set name="level">1</set>
+			<set name="school" addition="Dunamancy">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="range">60 feet</set>
+			<set name="duration">1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a gear spring</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
     <element name="Color Spray" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_COLOR_SPRAY">
         <supports>Sorcerer, Wizard</supports>
         <description>
@@ -682,12 +703,12 @@
         </setters>
     </element>
     <element name="Expeditious Retreat" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_EXPEDITIOUS_RETREAT">
-        <supports>Sorcerer, Warlock, Wizard, Artificer</supports>
+        <supports>Sorcerer, Warlock, Wizard, Artificer, Dunamancy</supports>
         <description>
             <p>This spell allows you to move at an incredible pace. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action.</p>
         </description>
         <setters>
-            <set name="keywords"></set>
+            <set name="keywords">dunamancy</set>
             <set name="level">1</set>
             <set name="school">Transmutation</set>
             <set name="time">1 bonus action</set>
@@ -1601,6 +1622,27 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Withered Sight" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_WITHERED_SIGHT">
+		<supports>Bard,Cleric,Druid,Ranger,Warlock,Wizard, Dunamancy</supports>
+		<description>
+			<p>You cause the eyes of a creature you can see within range to age rapidly. The target must make a Constitution saving throw. If it fails, the creature has disadvantage on Perception rolls and attack rolls. An affected creature repeats the saving throw at the end of its turn, ending the effect with a success. This spell has no effect on a creature that is blind or that doesn’t use its eyes to see.</p>
+			<p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p>
+		</description>
+		<setters>
+			<set name="keywords">dunamancy</set>
+			<set name="level">1</set>
+			<set name="school" addition="Dunamancy">Necromancy</set>
+			<set name="time">1 action</set>
+			<set name="range">Touch</set>
+			<set name="duration">Instantaneous</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a dried lizard’s eye</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
     <element name="Wrathful Smite" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_WRATHFUL_SMITE">
         <supports>Paladin</supports>
         <description>

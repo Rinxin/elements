@@ -750,13 +750,13 @@
 <!--K-->
 <!--L-->
     <element name="Legend Lore" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_LEGEND_LORE">
-        <supports>Bard, Cleric, Wizard</supports>
+        <supports>Bard, Cleric, Wizard, Dunamancy</supports>
         <description>
             <p>Name or describe a person, place, or object. The spell brings to your mind a brief summary of the significant lore about the thing you named. The lore might consist of current tales, forgotten stories, or even secret lore that has never been widely known. If the thing you named isn’t of legendary importance, you gain no information. The more information you already have about the thing, the more precise and detailed the information you receive is.</p>
             <p class="indent">The information you learn is accurate but might be couched in figurative language. For example, if you have a mysterious magic axe on hand, the spell might yield this information: Woe to the evildoer whose hand touches the axe, for even the haft slices the hand of the evil ones. Only a true Child of Stone, lover and beloved of Moradin, may awaken the true powers of the axe, and only with the sacred word Rudnogg on the lips.</p>
         </description>
         <setters>
-            <set name="keywords"></set>
+            <set name="keywords">dunamancy</set>
             <set name="level">5</set>
             <set name="school">Divination</set>
             <set name="time">10 minutes</set>
@@ -1112,6 +1112,28 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Summon Celestial" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCOE_SPELL_SUMMON_CELESTIAL">
+        <supports>Cleric, Paladin</supports>
+        <description>
+            <p>You call forth a celestial spirit. It manifests in an angelic form in an unoccupied space that you can see within range. This corporeal form uses the Celeslial Spirit stat block. When you cast the spell, choose Avenger or Defender. Your choice determines the creature's attack in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends. </p>
+            <p class="indent">The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.</p>
+            <p class="indent"><strong><em>At Higher Levels. </em></strong>When you cast this spell using a spell slot of 6th level or higher, use the higher level wherever the spell's level appears in the stat block. </p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">5</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a golden reliquary worth at least 500gp</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Swift Quiver" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SWIFT_QUIVER">
         <supports>Ranger</supports>
         <description>
@@ -1338,6 +1360,26 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Wall of Time" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_WALL_OF_TIME">
+		<supports>Cleric,Sorcerer,Wizard, Dunamancy</supports>
+		<description>
+			<p>You create a wall of shimmering, transparent blocks and rotating but intangible gears on a solid surface within range. You can make a straight wall up to 60 feet long, 20 feet high, and 1 foot thick, or a circular wall up to 20 feet high, 1 foot thick, and forming a closed circle 20 feet in diameter. Nonmagical ranged attacks that cross the wall vanish into time with no other effect. Ranged spell attacks and ranged weapon attacks made with magical weapons that pass through the wall are made with disadvantage. A creature that intentionally enters or passes through the wall is affected as if they had just failed their initial saving throw against the slow spell.</p>
+		</description>
+		<setters>
+			<set name="keywords">dunamancy</set>
+			<set name="level">5</set>
+			<set name="school" addition="Dunamancy">Abjuration</set>
+			<set name="time">1 action</set>
+			<set name="range">120 feet</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">an hourglass</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
     <element name="Wrath of Nature" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_WRATH_OF_NATURE">
         <supports>Druid, Ranger</supports>
         <description>

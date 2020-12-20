@@ -395,6 +395,27 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Decelerate" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_DECELERATE">
+		<supports>Druid,Paladin,Ranger,Sorcerer,Warlock,Wizard, Dunamancy</supports>
+		<description>
+			<p>You slow the flow of time around a creature. The creature must make a successful Wisdom saving throw or its speed is halved (rounded up to the nearest 5-foot increment). Until the effect ends, the creature’s speed is halved again at the start of each of your turns. For example, a character with a speed of 30 feet fails its saving throw, dropping its speed to 15 feet. At the start of your next turn, the creature’s speed drops to 10 feet, then to 5 feet on the following round. Decelerate can’t reduce a creature’s speed to less than 5 feet. The spell ends after 1 minute or when the target uses its action to make a successful Wisdom saving throw.</p>
+			<p class="indent">When you cast this spell using a spell slot of 3rd level or higher, you can affect an additional creature for each slot level above 3rd.</p>
+		</description>
+		<setters>
+			<set name="keywords">dunamancy</set>
+			<set name="level">2</set>
+			<set name="school" addition="Dunamancy">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="range">60 feet</set>
+			<set name="duration">1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a toy top</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
     <element name="Detect Thoughts" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DETECT_THOUGHTS">
         <supports>Bard, Sorcerer, Wizard</supports>
         <description>
@@ -1539,6 +1560,26 @@
         </setters>
     </element>
 <!--T-->
+    <element name="Time Step" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_TIME_STEP">
+		<supports>Bard,Cleric,Ranger,Warlock,Wizard, Dunamancy</supports>
+		<description>
+			<p>You briefly step forward in time. You disappear from your location and reappear at the beginning of your next turn in a location within 30 feet of the space you disappeared from. You can’t be affected by anything that happens during the interval you’re missing, and you aren’t aware of anything that happens during that time.</p>
+		</description>
+		<setters>
+			<set name="keywords">dunamancy</set>
+			<set name="level">2</set>
+			<set name="school" addition="Dunamancy">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="range">Self</set>
+			<set name="duration">Instantaneous</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 <!--U-->
 <!--V-->
 <!--W-->

@@ -7,6 +7,27 @@
       </update>
     </info>
 <!--A-->
+    <element name="Accelerate" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_ACCELERATE">
+		<supports>Bard,Cleric,Druid,Sorcerer,Wizard, Dunamancy</supports>
+		<description>
+			<p>Choose up to three willing creatures within range, which may include you. Until the end of the spell, the target’s movement speed doubles. The target can also take a bonus action on each of its turns. This bonus action can only be used to take the Dash action. In addition, the creature has advantage on Dexterity saving throws while under the effect of this spell.</p>
+			<p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, you can affect an additional creature for each slot level above 3rd.</p>
+		</description>
+		<setters>
+			<set name="keywords">dunamancy</set>
+			<set name="level">3</set>
+			<set name="school" addition="Dunamancy">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="range">Touch</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a toy top</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
     <element name="Animate Dead" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ANIMATE_DEAD">
         <supports>Cleric, Wizard</supports>
         <description>
@@ -600,12 +621,12 @@
     </element>
 <!--H-->
     <element name="Haste" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_HASTE">
-        <supports>Sorcerer, Wizard, Artificer</supports>
+        <supports>Sorcerer, Wizard, Artificer, Dunamancy</supports>
         <description>
             <p>Choose a willing creature that you can see within range. Until the spell ends, the target’s speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action. When the spell ends, the target can’t move or take actions until after its next turn, as a wave of lethargy sweeps over it.</p>
         </description>
         <setters>
-            <set name="keywords"></set>
+            <set name="keywords">dunamancy</set>
             <set name="level">3</set>
             <set name="school">Transmutation</set>
             <set name="time">1 action</set>
@@ -1095,7 +1116,7 @@
         </setters>
     </element>
     <element name="Slow" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SLOW">
-        <supports>Sorcerer, Wizard</supports>
+        <supports>Sorcerer, Wizard, Dunamancy</supports>
         <description>
             <p>You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Wisdom saving throw or be affected by this spell for the duration.</p>
             <p class="indent">An affected target’s speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, and it can’t use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature’s abilities or magic items, it can’t make more than one melee or ranged attack during its turn.</p>
@@ -1103,7 +1124,7 @@
             <p class="indent">A creature affected by this spell makes another Wisdom saving throw at the end of each of its turns. On a successful save, the effect ends for it.</p>
         </description>
         <setters>
-            <set name="keywords"></set>
+            <set name="keywords">dunamancy</set>
             <set name="level">3</set>
             <set name="school">Transmutation</set>
             <set name="time">1 action</set>
@@ -1174,6 +1195,29 @@
             <set name="hasSomaticComponent">true</set>
             <set name="hasMaterialComponent">true</set>
             <set name="materialComponent">a holy symbol</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Spirit Shroud" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCOE_SPELL_SPIRIT_SHROUD">
+        <supports>Cleric, Paladin, Warlock, Wizard</supports>
+        <description>
+            <p>You call forth spirits of the dead, which flit around you for the spell's duration. The spirits are intangible and invulnerable.</p>
+            <p class="indent">Until the spell ends, any attack you make deals ld8 extra damage when you hit a creature within 10 feet of you. This damage is radiant, necrotic, or cold (your choice when you cast the spell). Any creature that takes this damage can't regain hit points until the start of your next turn.</p>
+            <p class="indent">In addition, any creature of your choice that you can see that starts its turn within 10 feet of you has its speed reduced by 10 feet until the start of your next turn.</p>
+            <p class="indent"><strong><em>At Higher Levels. </em></strong>When you cast this spell using a spell slot of 4th level or higher, the damage increases by ld8 for every two slot levels above 3rd. </p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
             <set name="isConcentration">true</set>
             <set name="isRitual">false</set>
         </setters>

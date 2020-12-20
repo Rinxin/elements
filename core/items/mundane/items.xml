@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Deep Magic 16: Time Magic</name>
+		<update version="0.0.1">
+			<file name="items.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/mundane/items.xml" />
+		</update>
+	</info>
+<!--Spellcasting Focus-->
+	<element name="Clockwork Watch" type="Item" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_ITEM_CLOCKWORK_WATCH">
+		<description>
+			<p>A special timepiece that can be held easily in one hand. You can use this timepiece as an arcane focus.</p>
+		</description>
+		<setters>
+			<set name="keywords">time magic, bonded timepiece, temporal</set>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+	<element name="Hourglass" type="Item" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_ITEM_HOURGLASS">
+		<description>
+			<p>A special timepiece that can be held easily in one hand. You can use this timepiece as an arcane focus.</p>
+		</description>
+		<setters>
+			<set name="keywords">time magic, Bonded Timepiece, temporal</set>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+</elements>
