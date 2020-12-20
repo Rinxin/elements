@@ -137,7 +137,7 @@
 			<h5 class="caption">PREPARING AND CASTING SPELLS</h5>
 			<p>The Cleric table shows how many spell points you have to cast your cleric spells of 1st level and higher. To cast one of these spells, you must expend a number of points equal to the spell’s level or higher. You regain all expended spell points when you finish a long rest.</p>
 			<p class="indent">You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you can cast or lower, your max spell level is shown on the Cleric table.</p>
-			<p class="indent">For example, if you are a 3rd-level cleric, you have X spell points. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using at 1st-level or 2nd-level, using 1 or 2 spell points. Casting the spell doesn’t remove it from your list of prepared spells.</p>
+			<p class="indent">For example, if you are a 3rd-level cleric, you have 8 spell points. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using at 1st-level or 2nd-level, using 1 or 2 spell points. Casting the spell doesn’t remove it from your list of prepared spells.</p>
 			<p class="indent">You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p>
 			<h5 class="caption">SPELLCASTING ABILITY</h5>
 			<p>Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.</p>
@@ -248,7 +248,7 @@
 	</element>
 	<element name="Harness Divine Power" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_HARNESS_DIVINE_POWER">
 		<description>
-			<p>You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain on expended spell slot, the level of which can be no hihger than half your proficiency bonus (rounded up.) The number of tiems you can use this feature is based on the level you've reached in this class: 2nd level, once; 6th level, twice; and 18th level, thrice. You regain all expended uses when you finish a long rest.</p>
+			<p>You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain on expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up.) The number of tiems you can use this feature is based on the level you've reached in this class: 2nd level, once; 6th level, twice; and 18th level, thrice. You regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet action="bonus action" usage="{{harness divine power:count}}/Long Rest">
 			<description>Regain a number of spell points equal to {{proficiency:half:up}}.</description>
@@ -334,6 +334,7 @@
 
 
 	<element name="Blessed Strikes" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_BLESSED_STRIKES">
+		<supports>Divine Blessing</supports>
 		<description>
 			<p>You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.</p>
 		</description>
@@ -342,6 +343,7 @@
 		</sheet>
 	</element>
 	<element name="Divine Strike" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TOCE_CLASS_FEATURE_CLERIC_DIVINE_STRIKE">
+		<supports>Divine Blessing</supports>
 		<description>
 			<p>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8.</p>
 		</description>
@@ -351,6 +353,7 @@
 		</sheet>
 	</element>
 	<element name="Potent Spellcasting" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TOCE_CLASS_FEATURE_CLEIC_POTENT_SPELLCASTING">
+		<supports>Divine Blessing</supports>
 		<description>
 			<p>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</p>
 		</description>
