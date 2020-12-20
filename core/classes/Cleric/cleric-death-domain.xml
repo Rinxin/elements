@@ -17,7 +17,7 @@
 			<div element="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_REAPER" />
 			<div element="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_CHANNELDIVINITY_TOUCH_OF_DEATH" />
 			<div element="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_INESCAPABLE_DESTRUCTION" />
-			<div element="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_DIVINE_STRIKE" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_DEATH_DOMAIN_DIVINE_BLESSING" />
 			<div element="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_IMPROVED_REAPER" />
 		</description>
 		<sheet display="false">
@@ -29,7 +29,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_REAPER" level="1" />
 			<grant type="Archetype Feature" id="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_CHANNELDIVINITY_TOUCH_OF_DEATH" level="2" />
 			<grant type="Archetype Feature" id="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_INESCAPABLE_DESTRUCTION" level="6" />
-			<grant type="Archetype Feature" id="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_DIVINE_STRIKE" level="8" />
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_DEATH_DOMAIN_DIVINE_BLESSING" level="8" />
 			<grant type="Archetype Feature" id="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_IMPROVED_REAPER" level="17" />
 		</rules>
 	</element>
@@ -107,14 +107,16 @@
 			<description>Your cleric spells and Channel Divinity options ignore resistance to necrotic damage.</description>
 		</sheet>
 	</element>
-	<element name="Divine Strike" type="Archetype Feature" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_DIVINE_STRIKE">
+	<element name="Divine Blessing" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_DEATH_DOMAIN_DIVINE_BLESSING">
 		<description>
-			<p>At 8th level, the cleric gains the ability to infuse his or weapon strikes with necrotic energy. Once on each of the cleric's turns when he or she hits a creature with a weapon attack, the cleric can cause the attack to deal an extra 1d8 necrotic damage to the target. When the cleric reaches 14th level, the extra damage increases to 2d8.</p>
+			<p>You may select one of the following blessings from your deity.</p>
+			<p><div element="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_BLESSED_STRIKES" /></p>
+			<div element="ID_WOTC_TOCE_CLASS_FEATURE_CLERIC_DIVINE_STRIKE" />
+			<div element="ID_WOTC_TOCE_CLASS_FEATURE_CLERIC_POTENT_SPELLCASTING" />
 		</description>
-		<sheet usage="1/Turn">
-			<description>Deal an extra 1d8 damage on a hit with a weapon.</description>
-			<description level="14">Deal an extra 2d8 damage on a hit with a weapon.</description>
-		</sheet>
+		<rules>
+			<select type="Class Feature" name="Divine Blessing" supports="Divine Blessing" />
+		</rules>
 	</element>
 	<element name="Improved Reaper" type="Archetype Feature" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_IMPROVED_REAPER">
 		<description>

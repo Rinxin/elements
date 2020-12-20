@@ -28,7 +28,7 @@
 			<div element="ID_WOTC_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_ARCANE_INITIATE" />
 			<div element="ID_WOTC_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_CD_ARCANE_ABJURATION" />
 			<div element="ID_WOTC_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_SPELL_BREAKER" />
-			<div element="ID_WOTC_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_POTENT_SPELLCASTING" />
+			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARCANA_DOMAIN_DIVINE_BLESSING" />
 			<div element="ID_WOTC_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_ARCANE_MASTERY" />
 		</description>
 		<sheet display="false">
@@ -48,7 +48,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_ARCANE_INITIATE" level="1"/>
 			<grant type="Archetype Feature" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_CD_ARCANE_ABJURATION" level="2"/>
 			<grant type="Archetype Feature" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_SPELL_BREAKER" level="6"/>
-			<grant type="Archetype Feature" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_POTENT_SPELLCASTING" level="8"/>
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARCANA_DOMAIN_DIVINE_BLESSING" level="8"/>
 			<grant type="Archetype Feature" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_ARCANE_MASTERY" level="17"/>
 		</rules>
 	</element>
@@ -105,13 +105,16 @@
 			<description>When you restore hit points to an ally with a spell of 1st level or higher, you can also end one spell of your choice on that creature. The level of the spell you end must be equal to or lower than the level of the spell slot you use to cast the healing spell.</description>
 		</sheet>
 	</element>
-	<element name="Potent Spellcasting" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_POTENT_SPELLCASTING">
+	<element name="Divine Blessing" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ARCANA_DOMAIN_DIVINE_BLESSING">
 		<description>
-			<p>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</p>
+			<p>You may select one of the following blessings from your deity.</p>
+			<p><div element="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_BLESSED_STRIKES" /></p>
+			<div element="ID_WOTC_TOCE_CLASS_FEATURE_CLERIC_DIVINE_STRIKE" />
+			<div element="ID_WOTC_TOCE_CLASS_FEATURE_CLERIC_POTENT_SPELLCASTING" />
 		</description>
-		<sheet>
-			<description>You add your Wisdom modifier (+{{wisdom:modifier}}) to the damage you deal with any cleric cantrip.</description>
-		</sheet>
+		<rules>
+			<select type="Class Feature" name="Divine Blessing" supports="Divine Blessing" />
+		</rules>
 	</element>
 	<element name="Arcane Mastery" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_ARCANE_MASTERY">
 		<description>

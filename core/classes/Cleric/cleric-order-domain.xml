@@ -20,7 +20,7 @@
             <div element="ID_WOTC_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_VOICE_OF_AUTHORITY" />
             <div element="ID_WOTC_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_CD_ORDERS_DEMAND" />
             <div element="ID_WOTC_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_EMBODIMENT_OF_THE_LAW" />
-            <div element="ID_WOTC_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_DIVINE_STRIKE" />
+            <div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ORDER_DOMAIN_DIVINE_BLESSING" />
             <div element="ID_WOTC_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_ORDERS_WRATH" />
         </description>
         <sheet display="false">
@@ -32,7 +32,7 @@
             <grant type="Archetype Feature" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_VOICE_OF_AUTHORITY" level="1"/>
             <grant type="Archetype Feature" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_CD_ORDERS_DEMAND" level="2"/>
             <grant type="Archetype Feature" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_EMBODIMENT_OF_THE_LAW" level="6"/>
-            <grant type="Archetype Feature" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_DIVINE_STRIKE" level="8"/>
+            <grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ORDER_DOMAIN_DIVINE_BLESSING" level="8"/>
             <grant type="Archetype Feature" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_ORDERS_WRATH" level="17"/>
         </rules>
     </element>
@@ -109,15 +109,17 @@
 			<stat name="embodiment of the law:usages" value="wisdom:modifier" bonus="embodiment of the law" />
 		</rules>
     </element>
-    <element name="Divine Strike" type="Archetype Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_DIVINE_STRIKE">
-        <description>
-			<p>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage to the target. When you reach 14th level, the extra damage increases to 2d8.</p>
-        </description>
-        <sheet>
-            <description>Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage to the target.</description>
-            <description level="14">Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 2d8 psychic damage to the target.</description>
-        </sheet>
-    </element>
+    <element name="Divine Blessing" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_ORDER_DOMAIN_DIVINE_BLESSING">
+		<description>
+			<p>You may select one of the following blessings from your deity.</p>
+			<p><div element="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_BLESSED_STRIKES" /></p>
+			<div element="ID_WOTC_TOCE_CLASS_FEATURE_CLERIC_DIVINE_STRIKE" />
+			<div element="ID_WOTC_TOCE_CLASS_FEATURE_CLERIC_POTENT_SPELLCASTING" />
+		</description>
+		<rules>
+			<select type="Class Feature" name="Divine Blessing" supports="Divine Blessing" />
+		</rules>
+	</element>
     <element name="Order’s Wrath" type="Archetype Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_ORDERS_WRATH">
         <description>
 			<p>Starting at 17th level, enemies you designate for destruction wilt under the combined efforts of you and your allies. If you deal your Divine Strike damage to a creature on your turn, you can curse that creature until the start of your next turn. The next time one of your allies hits the cursed creature with an attack, the target also takes 2d8 psychic damage, and the curse ends. You can curse a creature in this way only once per turn.</p>
