@@ -10,6 +10,7 @@
 	</info>
 	<files>
 		<file name="dragonborn-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/dragonborn-.xml" />
+		<file name="dryad.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/dryad.xml" />
         <file name="dwarf-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/dwarf-.xml" />
         <file name="elf-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/elf-.xml" />
         <file name="gnome-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/gnome-.xml" />

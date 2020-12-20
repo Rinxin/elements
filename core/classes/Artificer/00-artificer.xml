@@ -190,7 +190,7 @@
 			You can also use any item bearing one of your infusions as a spellcasting focus.</description>
 		</sheet>
 		<spellcasting name="Artificer" ability="Intelligence" prepare="true">
-			<list known="true">Artificer</list>
+			<list>Wizard,(Enchantment||Transmutation)</list>
 		</spellcasting>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>

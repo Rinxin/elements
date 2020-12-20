@@ -52,7 +52,7 @@
         </setters>
     </element>
     <element name="Aura of Vitality" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_AURA_OF_VITALITY">
-        <supports>Paladin</supports>
+        <supports>Druid, Paladin</supports>
         <description>
             <p>Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points.</p>
         </description>
@@ -380,7 +380,7 @@
     </element>
 <!--E-->
     <element name="Elemental Weapon" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ELEMENTAL_WEAPON">
-        <supports>Paladin, Artificer</supports>
+        <supports>Druid, Paladin, Artificer</supports>
         <description>
             <p>A nonmagical weapon you touch becomes a magic weapon. Choose one of the following damage types: acid, cold, fire, lightning, or thunder. For the duration, the weapon has a +1 bonus to attack rolls and deals an extra 1d4 damage of the chosen type when it hits.</p>
             <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 5th or 6th level, the bonus to attack rolls increases to +2 and the extra damage increases to 2d4. When you use a spell slot of 7th level or higher, the bonus increases to +3 and the extra damage increases to 3d4.</p>
@@ -1053,7 +1053,7 @@
         </setters>
     </element>
     <element name="Revivify" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_REVIVIFY">
-        <supports>Cleric, Paladin, Artificer</supports>
+        <supports>Cleric, Druid, Paladin, Artificer</supports>
         <description>
             <p>You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can’t return to life a creature that has died of old age, nor can it restore any missing body parts.</p>
         </description>
@@ -1238,6 +1238,28 @@
             <set name="hasSomaticComponent">true</set>
             <set name="hasMaterialComponent">true</set>
             <set name="materialComponent">a rotten egg or several skunk cabbage leaves</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Summon Fey" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCOE_SPELL_SUMMON_FEY">
+        <supports>Druid, Ranger, Warlock, Wizard</supports>
+        <description>
+            <p>You call forth a fey spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Fey Spirit stat block. When you cast the spell, choose a mood: Fuming, Mirthful, or Tricksy. The creature resembles a fey creature of your choice marked by the chosen mood, which determines one of the traits in its stat block. The creature disappears when it drops to O hit points or when the spell ends.</p>
+            <p class="indent">The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b> When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears in the stat block.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a gilded flower worth at least 300gp</set>
             <set name="isConcentration">true</set>
             <set name="isRitual">false</set>
         </setters>

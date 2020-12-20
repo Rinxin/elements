@@ -33,8 +33,8 @@
 			<h5>HIT POINTS</h5>
 			<ul class="unstyled">
 				<li><strong>Hit Dice:</strong> 1d8 per druid level</li>
-				<li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
-				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per druid level after 1st</li>
+				<li><strong>Hit Points at 1st Level thru 3rd Level:</strong> 8 + your Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per druid level after 3rd</li>
 			</ul>
 			<h5>PROFICIENCIES</h5>
 			<ul class="unstyled mb">
@@ -58,31 +58,33 @@
 				<thead>
 					<tr><td class="col-5">Level</td><td class="left">Core Features</td><td>"Flavor" Features</td><td class="col-10">Cantrips Known</td><td>Spell Points</td><td>Max Spell Level</td></tr>
 				</thead>
-				<tr><td> 1st</td><td class="left">Druidic, Spellcasting</td><td>—</td><td>2</td><td>2</td><td>1st</td></tr>
-				<tr><td> 2nd</td><td class="left">Wild Shape, Druid Circle</td><td>—</td><td>2</td><td>3</td><td>1st</td></tr>
-				<tr><td> 3rd</td><td class="left">—</td><td>—</td><td>2</td><td>8</td><td>2nd</td></tr>
-				<tr><td> 4th</td><td class="left">Wild Shape improvement, Ability Score Improvement</td><td>—</td><td>3</td><td>10</td><td>2nd</td></tr>
-				<tr><td> 5th</td><td class="left">—</td><td>—</td><td>3</td><td>16</td><td>3rd</td></tr>
-				<tr><td> 6th</td><td class="left">Druid Circle feature</td><td>—</td><td>3</td><td>19</td><td>3rd</td></tr>
-				<tr><td> 7th</td><td class="left">—</td><td>—</td><td>3</td><td>23</td><td>4th</td></tr>
-				<tr><td> 8th</td><td class="left">Wild Shape improvement, Ability Score Improvement</td><td>—</td><td>3</td><td>27</td><td>4th</td></tr>
-				<tr><td> 9th</td><td class="left">—</td><td>—</td><td>3</td><td>36</td><td>5th</td></tr>
-				<tr><td>10th</td><td class="left">Druid Circle feature</td><td>—</td><td>4</td><td>41</td><td>5th</td></tr>
-				<tr><td>11th</td><td class="left">—</td><td>—</td><td>4</td><td>47</td><td>6th</td></tr>
-				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>—</td><td>4</td><td>47</td><td>6th</td></tr>
-				<tr><td>13th</td><td class="left">—</td><td>—</td><td>4</td><td>54</td><td>7th</td></tr>
-				<tr><td>14th</td><td class="left">Druid Circle feature</td><td>—</td><td>4</td><td>54</td><td>7th</td></tr>
-				<tr><td>15th</td><td class="left">—</td><td>—</td><td>4</td><td>62</td><td>8th</td></tr>
-				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>—</td><td>4</td><td>62</td><td>8th</td></tr>
-				<tr><td>17th</td><td class="left">—</td><td>—</td><td>4</td><td>71</td><td>9th</td></tr>
-				<tr><td>18th</td><td class="left">Timeless Body, Beast Spells</td><td>—</td><td>4</td><td>76</td><td>9th</td></tr>
-				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>—</td><td>4</td><td>82</td><td>9th</td></tr>
-				<tr><td>20th</td><td class="left">Archdruid</td><td>—</td><td>4</td><td>89</td><td>9th</td></tr>
+				<tr><td> 1st</td><td class="left">Spellcasting</td><td class="left">Druidic</td><td>2</td><td>2</td><td>1st</td></tr>
+				<tr><td> 2nd</td><td class="left">Wild Shape, Druid Circle</td>	<td class="left">—</td><td>2</td><td>3</td><td>1st</td></tr>
+				<tr><td> 3rd</td><td class="left">—</td class="left"><td>—</td><td>2</td><td>8</td><td>2nd</td></tr>
+				<tr><td> 4th</td><td class="left">Wild Shape improvement, Ability Score Improvement</td><td class="left">—</td><td>3</td><td>10</td><td>2nd</td></tr>
+				<tr><td> 5th</td><td class="left">—</td><td class="left">—</td><td>3</td><td>16</td><td>3rd</td></tr>
+				<tr><td> 6th</td><td class="left">Druid Circle feature</td><td class="left">—</td><td>3</td><td>19</td><td>3rd</td></tr>
+				<tr><td> 7th</td><td class="left">—</td><td class="left">—</td><td>3</td><td>23</td><td>4th</td></tr>
+				<tr><td> 8th</td><td class="left">Wild Shape improvement, Ability Score Improvement</td><td class="left">—</td><td>3</td><td>27</td><td>4th</td></tr>
+				<tr><td> 9th</td><td class="left">—</td><td class="left">—</td><td>3</td><td>36</td><td>5th</td></tr>
+				<tr><td>10th</td><td class="left">Druid Circle feature</td><td class="left">—</td><td>4</td><td>41</td><td>5th</td></tr>
+				<tr><td>11th</td><td class="left">—</td><td class="left">—</td><td>4</td><td>47</td><td>6th</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td class="left">—</td><td>4</td><td>47</td><td>6th</td></tr>
+				<tr><td>13th</td><td class="left">—</td><td class="left">—</td><td>4</td><td>54</td><td>7th</td></tr>
+				<tr><td>14th</td><td class="left">Druid Circle feature</td><td class="left">—</td><td>4</td><td>54</td><td>7th</td></tr>
+				<tr><td>15th</td><td class="left">—</td><td class="left">—</td><td>4</td><td>62</td><td>8th</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td class="left">—</td><td>4</td><td>62</td><td>8th</td></tr>
+				<tr><td>17th</td><td class="left">—</td><td class="left">—</td><td>4</td><td>71</td><td>9th</td></tr>
+				<tr><td>18th</td><td class="left">Beast Spells</td><td class="left">Timeless Body</td><td>4</td><td>76</td><td>9th</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td class="left">—</td><td>4</td><td>82</td><td>9th</td></tr>
+				<tr><td>20th</td><td class="left">Archdruid</td><td class="left">—</td><td>4</td><td>89</td><td>9th</td></tr>
 			</table>
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUIDIC" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID" />
+			<div element="ID_WOTC_TCOE_CLASS_FEATURE_DRUID_WILD_COMPANION" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_WILDSHAPE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUID_CIRCLE" />
+			<div element="ID_WOTC_TCOE_CLASS_FEATURE_DRUID_CANTRIP_VERSATILITY" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_TIMELESS_BODY" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_DRUID_BEAST_SPELLS" />
@@ -115,8 +117,10 @@
 			<select type="Proficiency" name="Skill Proficiency (Druid)" supports="Skill,Druid" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_DRUID"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUIDIC" level="1"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID" level="1"/>
+			<grant type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_DRUID_WILD_COMPANION" level="2" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_WILDSHAPE" level="2"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_DRUID_CIRCLE" level="2"/>
+			<grant type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_DRUID_CANTRIP_VERSATILITY" level="4" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID" level="4"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_TIMELESS_BODY" level="18"/>
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_BEAST_SPELLS" level="18"/>
@@ -203,6 +207,20 @@
 			<select type="Spell" name="Cantrip (Druid)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Druid" />
 		</rules>
 	</element>
+	<element name="Wild Companion" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_DRUID_WILD_COMPANION">
+		<compendium display="false" />
+		<description>
+			<p>You gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the find familiar spell, without material components.</p>
+		</description>
+		<sheet action="action" usage="wild shape">
+			<description>
+				<p>You gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the find familiar spell, without material components.</p>
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" />
+		</rules>
+	</element>
 	<element name="Wildshape" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_WILDSHAPE">
 		<description>
 			<p>Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.</p>
@@ -234,9 +252,34 @@
 		<sheet display="false">
 			<description>You choose to identify with a circle of druids.</description>
 		</sheet>
+		<spellcasting name="Druid" extend="true">
+			<!--Tasha's Additional Spells-->
+			<extend>ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD</extend>
+			<extend>ID_PHB_SPELL_AUGURY</extend>
+			<extend>ID_PHB_SPELL_CONTINUAL_FLAME</extend>
+			<extend>ID_PHB_SPELL_ENLARGE_REDUCE</extend>
+			<extend>ID_TCOE_SPELL_SUMMON_BEAST</extend>
+			<extend>ID_PHB_SPELL_AURA_OF_VITALITY</extend>
+			<extend>ID_PHB_SPELL_ELEMENTAL_WEAPON</extend>
+			<extend>ID_PHB_SPELL_REVIVIFY</extend>
+			<extend>ID_TCOE_SPELL_SUMMON_FEY</extend>
+			<extend>ID_PHB_SPELL_DIVINATION</extend>
+			<extend>ID_PHB_SPELL_FIRE_SHIELD</extend>
+			<extend>ID_TCOE_SPELL_SUMMON_ELEMENTAL</extend>
+			<extend>ID_PHB_SPELL_CONE_OF_COLD</extend>
+			<extend>ID_PHB_SPELL_FLESH_TO_STONE</extend>
+			<extend>ID_PHB_SPELL_SYMBOL</extend>
+			<extend>ID_PHB_SPELL_INCENDIARY_CLOUD</extend>
+		</spellcasting>
 		<rules>
 			<select type="Archetype" name="Druid Circle" supports="Druid Circle" level="2"/>
 		</rules>
+	</element>
+	<element name="Cantrip Versatility" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_DRUID_CANTRIP_VERSATILITY">
+		<compendium display="false" />
+		<description>
+			<p>Whenever you reach a level in this class<!-- that grants the Ability Score Improvement feature-->, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the cleric spell list.</p>
+		</description>
 	</element>
 	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_ABILITYSCOREIMPROVEMENT_DRUID">
 		<compendium display="false" />

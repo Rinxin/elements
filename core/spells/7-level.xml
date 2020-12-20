@@ -477,7 +477,7 @@
         </setters>
     </element>
     <element name="Symbol" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SYMBOL">
-        <supports>Bard, Cleric, Wizard</supports>
+        <supports>Bard, Cleric, Druid, Wizard</supports>
         <description>
             <p>When you cast this spell, you inscribe a harmful glyph either on a surface (such as a section of floor, a wall, or a table) or within an object that can be closed to conceal the glyph (such as a book, a scroll, or a treasure chest). If you choose a surface, the glyph can cover an area of the surface no larger than 10 feet in diameter. If you choose an object, that object must remain in its place</p>
         </description>

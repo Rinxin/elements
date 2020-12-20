@@ -116,7 +116,7 @@
         </setters>
     </element>
     <element name="Augury" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_AUGURY">
-        <supports>Cleric</supports>
+        <supports>Cleric, Druid</supports>
         <description>
             <p>By casting gem-inlaid sticks, rolling dragon bones, laying out ornate cards, or employing some other divining tool, you receive an omen from an otherworldly entity about the results of a specific course of action that you plan to take within the next 30 minutes. The DM chooses from the following possible omens:</p>
             <ul>
@@ -291,7 +291,7 @@
         </setters>
     </element>
     <element name="Continual Flame" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CONTINUAL_FLAME">
-        <supports>Cleric, Wizard, Artificer</supports>
+        <supports>Cleric, Druid, Wizard, Artificer</supports>
         <description>
             <p>A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn’t use oxygen. A continual flame can be covered or hidden but not smothered or quenched.</p>
         </description>
@@ -533,7 +533,7 @@
         </setters>
     </element>
     <element name="Enlarge/Reduce" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ENLARGE_REDUCE">
-        <supports>Sorcerer, Wizard, Artificer</supports>
+        <supports>Druid, Sorcerer, Wizard, Artificer</supports>
         <description>
             <p>You cause a creature or an object you can see within range to grow larger or smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.</p>
             <p class="indent">If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.</p>
@@ -1555,6 +1555,28 @@
             <set name="hasSomaticComponent">false</set>
             <set name="hasMaterialComponent">true</set>
             <set name="materialComponent">a snake’s tongue and either a bit of honeycomb or a drop of sweet oil</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Summon Beast" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCOE_SPELL_SUMMON_BEAST">
+        <supports>Druid, Ranger</supports>
+        <description>
+            <p>You call forth a bestial spirit. It manifests in an tunoccupied space that you can see within range. This corporeal form uses the Bestial Spirit stat block. When you cast the spell, choose an environment: Air, Land, or Water. The creature resembles an animal of your choice that is native to the chosen environment, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.</p>
+            <p class="indent">The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b> When you cast this spell using a spell slot of 3rd level or higher, use the higher level wherever the spell's level appears in the stat block.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">3</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a feather, tuft of fur, and fish tail inside a gilded acorn worth at least 200gp</set>
             <set name="isConcentration">true</set>
             <set name="isRitual">false</set>
         </setters>

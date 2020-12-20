@@ -311,7 +311,7 @@
         </setters>
     </element>
     <element name="Divination" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DIVINATION">
-        <supports>Cleric</supports>
+        <supports>Cleric, Druid</supports>
         <description>
             <p>Your magic and an offering put you in contact with a god or a god’s servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The DM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen. The spell doesn’t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion. If you cast this spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret.</p>
         </description>
@@ -441,7 +441,7 @@
         </setters>
     </element>
     <element name="Fire Shield" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FIRE_SHIELD">
-        <supports>Wizard</supports>
+        <supports>Druid, Wizard</supports>
         <description>
             <p>Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet, You can end the spell early by using an action to dismiss it. The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage. In addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes 2d8 fire damage from a warm shield, or 2d8 cold damage from a cold shield.</p>
         </description>
@@ -968,6 +968,28 @@
             <set name="hasSomaticComponent">true</set>
             <set name="hasMaterialComponent">false</set>
             <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Summon Elemental" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCOE_SPELL_SUMMON_ELEMENTAL">
+        <supports>Druid, Ranger, Wizard</supports>
+        <description>
+            <p>You call forth an elemental spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Elemental Spirit stat block. When you cast the spell, choose an element: Air, Earth, Fire, or Water. The creature resembles a bipedal form wreathed in the chosen element, which determines certain traits in its stat block. The creature disappears when it drops to O hit points or when the spell ends.</p>
+            <p class="indent">The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its move to avoid danger.</p>
+            <p class="indent"><b><i>At Higher Levels. </i></b>When you cast this spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears in the stat block</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">4</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">air, a pebble, ash, and water inside a gold-inlaid vial worth at least 400gp</set>
             <set name="isConcentration">true</set>
             <set name="isRitual">false</set>
         </setters>
