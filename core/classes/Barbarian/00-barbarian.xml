@@ -32,8 +32,8 @@
 			<h5 class="caption">HIT POINTS</h5>
 			<ul class="unstyled">
 				<li><strong>Hit Dice:</strong> 1d12 per barbarian level</li>
-				<li><strong>Hit Points at 1st Level:</strong> 12 + your Constitution modifier</li>
-				<li><strong>Hit Points at Higher Levels:</strong> 1d12 (or 7) + your Constitution modifier per barbarian level after 1st</li>
+				<li><strong>Hit Points at 1st Level thru 3rd Level:</strong> 12 + your Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d12 (or 7) + your Constitution modifier per barbarian level after 3rd</li>
 			</ul>
 			<h5 class="caption">PROFICIENCIES</h5>
 			<ul class="unstyled mb">
@@ -58,15 +58,15 @@
 					<tr><td class="col-10">Level</td><td class="col-30 left">Core Features</td><td class="col-30 left">"Flavor" Features</td><td>Rages</td><td>Rage Damage</td></tr>
 				</thead>
 				<tr><td>1st</td><td class="left">Rage, Unarmored Defense</td><td>—</td><td>2</td><td>+2</td></tr>
-				<tr><td>2nd</td><td class="left">Reckless Attack, Danger Sense</td><td>—</td><td>2</td><td>+2</td></tr>
-				<tr><td>3rd</td><td class="left">Primal Path</td><td>—</td><td>3</td><td>+2</td></tr>
+				<tr><td>2nd</td><td class="left">Reckless Attack</td><td>Danger Sense</td><td>2</td><td>+2</td></tr>
+				<tr><td>3rd</td><td class="left">Primal Knowledge, Primal Path</td><td>—</td><td>3</td><td>+2</td></tr>
 				<tr><td>4th</td><td class="left">Ability Score Improvement</td><td>—</td><td>3</td><td>+2</td></tr>
 				<tr><td>5th</td><td class="left">Extra Attack, Fast Movement</td><td>—</td><td>3</td><td>+2</td></tr>
 				<tr><td>6th</td><td class="left">Path feature</td><td>—</td><td>4</td><td>+2</td></tr>
-				<tr><td>7th</td><td class="left">Feral Instinct</td><td>—</td><td>4</td><td>+2</td></tr>
+				<tr><td>7th</td><td class="left">Instictive Pounce</td><td>Feral Instinct</td><td>4</td><td>+2</td></tr>
 				<tr><td>8th</td><td class="left">Ability Score Improvement</td><td>—</td><td>4</td><td>+2</td></tr>
 				<tr><td>9th</td><td class="left">Brutal Critical (1 die)</td><td>—</td><td>4</td><td>+3</td></tr>
-				<tr><td>10th</td><td class="left">Path feature</td><td>—</td><td>4</td><td>+3</td></tr>
+				<tr><td>10th</td><td class="left">Path feature, Primal Knowledge</td><td>—</td><td>4</td><td>+3</td></tr>
 				<tr><td>11th</td><td class="left">Relentless Rage</td><td>—</td><td>4</td><td>+3</td></tr>
 				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>—</td><td>5</td><td>+3</td></tr>
 				<tr><td>13th</td><td class="left">Brutal Critical (2 dice)</td><td>—</td><td>5</td><td>+3</td></tr>
@@ -82,11 +82,13 @@
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_DANGER_SENSE" />
+			<div element="ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_PRIMAL_KNOWLEDGE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT" />
+			<div element="ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_INSTINCTIVE_POUNCE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE"/>
@@ -113,11 +115,13 @@
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK" level="2" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_DANGER_SENSE" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_PRIMAL_KNOWLEDGE" level="3" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH" level="3" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT" level="4" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK" level="5" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT" level="5" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FERAL_INSTINCT" level="7" />
+			<grant type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_INSTINCTIVE_POUNCE" level="7" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL" level="9" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE" level="11" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE" level="15" />
@@ -147,7 +151,7 @@
 				<li>You have resistance to bludgeoning, piercing, and slashing damage.</li>
 			</ul>
 			<p>If you are able to cast spells, you can’t cast them or concentrate on them while raging.</p>
-			<p class="indent">Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven’t attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.</p>
+			<p class="indent">Your rage lasts for 1 minute. It ends early if you are knocked unconscious. You can also end your rage on your turn as a bonus action.</p>
 			<p class="indent">Once you have raged the number of times shown for your barbarian level in the Rages column of the Barbarian table, you must finish a long rest before you can rage again.</p>
 		</description>
 		<sheet action="Bonus Action">
@@ -199,7 +203,7 @@
 	</element>
 	<element name="Reckless Attack" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK">
 		<description>
-			<p>Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</p>
+			<p>Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</p>
 		</description>
 		<sheet>
 			<description>When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</description>
@@ -214,7 +218,17 @@
 			<description>You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can’t be blinded, deafened, or incapacitated.</description>
 		</sheet>
 		<rules>
-			<!--<stat name="advantage:Dexterity Saving Throws" condition="against effects that you can see, such as traps and spells. While not blinded, deafened, or incapacitated." />-->
+			<stat name="advantage:Dexterity Saving Throws" condition="against effects that you can see, such as traps and spells. While not blinded, deafened, or incapacitated." />
+		</rules>
+	</element>
+	<element name="Primal Knowledge" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_PRIMAL_KNOWLEDGE">
+		<description>
+			<p>When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skill available to barbarians at 1st level.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Proficiency" name="Primal Knowledge (Barbarian 3)" supports="Skill" number="1" level="3" />
+			<select type="Proficiency" name="Primal Knowledge (Barbarian 10)" supports="Skill" number="1" level="10" />
 		</rules>
 	</element>
 	<element name="Primal Path" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH">
@@ -279,54 +293,78 @@
 			<grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
 		</rules>
 	</element>
-	<element name="Brutal Critical" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL">
+	<element name="Instinctive Pounce" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_INSTINCTIVE_POUNCE">
 		<description>
-			<p>Beginning at 9th level, you can roll one additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</p>
-			<p class="indent">This increases to two additional dice at 13th level and three additional dice at 17th level.</p>
+			<p>As part of the bonus action you take to enter your rage, you can move up to half your speed.</p>
 		</description>
 		<sheet>
-			<description>One additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</description>
-			<description level="13">Two additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</description>
-			<description level="17">Three additional weapon damage die when determining the extra damage for a critical hit with a melee attack.</description>
+			<description>As part of the bonus action you take to enter your rage, you can move up to half your speed.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
+		</rules>
+	</element>
+	<element name="Brutal Critical" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_BRUTAL_CRITICAL">
+		<description>
+			<p>Beginning at 9th level, your melee weapon attacks score a critical hit on a roll of 19 or 20, in addition you add the maximum result of one die of your weapon's damage to the damage of a critical hit with a melee weapon.</p>
+			<p class="indent">This bonus damage increases to 2 maximum die results at 13th level and 3 maximum die results at 17th level.</p>
+		</description>
+		<sheet>
+			<description>Melee attacks crit on a 19-20 of the die roll.</description>
+			<description>Add the maximum result of 1 die of your weapon's damage to a melee critical hit.</description>
+			<description level="13">Add the maximum result of 2 die of your weapon's damage to a melee critical hit.</description>
+			<description level="17">Add the maximum result of 3 die of your weapon's damage to a melee critical hit.</description>
 		</sheet>
 	</element>
 	<element name="Relentless Rage" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RELENTLESS_RAGE">
 		<description>
-			<p>Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you’re raging and don’t die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.</p>
-			<p class="indent">Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</p>
+			<p>Starting at 11th level, your rage can keep you fighting despite grievous wounds. If you drop to 0 hit points while you’re raging and don’t die outright, you can make a DC 5 Constitution saving throw. If you succeed, you drop to 1 hit point instead.</p>
+			<p class="indent">Each time you use this feature after the first, the DC increases by 5. When you rage again, the DC resets to 5.</p>
 		</description>
 		<sheet>
-			<description>If you drop to 0 hp while you’re raging and don’t die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hp instead. Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</description>
+			<description>If you drop to 0 hp while you’re raging and don’t die outright, you can make a DC 5 Constitution saving throw. If you succeed, you drop to 1 hp instead. Each time you use this feature after the first, the DC increases by 5. When you rage, the DC resets to 5.</description>
 		</sheet>
 	</element>
 	<element name="Persistant Rage" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PERSISTANT_RAGE">
 		<description>
-			<p>Beginning at 15th level, your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</p>
+			<p>Beginning at 15th level, your rage is so fierce that after a rage would end after one minute, you can attempt to extend the rage. You can make a DC 10 Constitution saving throw. If you succeed, the rage lasts an additional minute or until you fall unconscious.</p>
+			<p class="indent">Each time you use this feature after the first, the DC increases by 5. The DC resets to 5 when you begin a new rage.</p>
 		</description>
 		<sheet>
-			<description>Your rage is so fierce that it ends early only if you fall unconscious or if you choose to end it.</description>
+			<description>Your rage is so fierce that after 1 minute, you can make DC 10 Constitution saving throw to extend your rage by another minute. Each time you use this feature after the first, the DC icreases by 5. When you begin a new rage the DC resets to 10.</description>
 		</sheet>
 	</element>
 	<element name="Indomitable Might" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_INDOMITABLE_MIGHT">
 		<description>
 			<p>Beginning at 18th level, if your total for a Strength check is less than your Strength score, you can use that score in place of the total.</p>
+			<p class="indent">Whenever you have advantage on an attack roll using Strength, you can reroll one of the dice once.</p>
 		</description>
 		<sheet>
-			<description>If your total for a Strength check is less than {{strength:score}}, you can use {{strength:score}} place of the total.</description>
+			<description>If your total for a Strength check is less than {{strength:score}}, you can use {{strength:score}} place of the total. When you have advantage on a Strength attack roll you can reroll on of the dice once.</description>
 		</sheet>
 	</element>
 	<element name="Primal Champion" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_CHAMPION">
 		<description>
-			<p>At 20th level, you embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</p>
+			<p>At 20th level, you embody the power of the wilds. May divide 10 points between your, Strength, Constitution, and Dexterity scores. Your maximum for these scores is now 24.</p>
 		</description>
 		<sheet display="false">
-			<description>You embody the power of the wilds. Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24.</description>
+			<description>You embody the power of the wilds. You divide 10 points between Strength, Constitution, and Dexterity. Your maximum for those scores is now 24.</description>
 		</sheet>
 		<rules>
-			<stat name="strength" value="4" />
-			<stat name="constitution" value="4" />
 			<stat name="strength:max" value="4" />
 			<stat name="constitution:max" value="4" />
+			<stat name="dexterity:max" value="4" />
+			
+			<select type="Ability Score Improvement" name="Primal Champion" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION" />
+			<select type="Ability Score Improvement" name="Primal Champion" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION" />
+			<select type="Ability Score Improvement" name="Primal Champion" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION" />
+			<select type="Ability Score Improvement" name="Primal Champion" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION" />
+			<select type="Ability Score Improvement" name="Primal Champion" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION" />
+			<select type="Ability Score Improvement" name="Primal Champion" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION" />
+			<select type="Ability Score Improvement" name="Primal Champion" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION" />
+			<select type="Ability Score Improvement" name="Primal Champion" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION" />
+			<select type="Ability Score Improvement" name="Primal Champion" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION" />
+			<select type="Ability Score Improvement" name="Primal Champion" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION" />
 		</rules>
 	</element>
 </elements>
