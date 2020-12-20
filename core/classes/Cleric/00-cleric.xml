@@ -228,7 +228,6 @@
 		<sheet display="false" />
 		<rules>
 			<select type="Archetype" name="Divine Domain" supports="Divine Domain" />
-			<grant>
 		</rules>
 	</element>
 	<element name="Channel Divinity" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY">
