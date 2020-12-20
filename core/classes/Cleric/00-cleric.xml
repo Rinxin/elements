@@ -206,16 +206,6 @@
 			<select type="Spell" name="Cantrip (Cleric)" supports="$(spellcasting:list), 0" level="1" number="3" spellcasting="Cleric" />
 			<select type="Spell" name="Cantrip (Cleric)" supports="$(spellcasting:list), 0" level="4" number="1" spellcasting="Cleric" />
 			<select type="Spell" name="Cantrip (Cleric)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Cleric" />
-
-			<!--Tasha's Additional Spells-->
-			<extend type="Spell" id="ID_PHB_SPELL_AURA_OF_VITALITY" level="1" spellcasting="Cleric" />
-			<extend type="Spell" id="ID_TCOE_SPELL_SPIRIT_SHROUD" level="1" spellcasting="Cleric" />
-			<extend type="Spell" id="ID_PHB_SPELL_AURA_OF_LIFE" level="1" spellcasting="Cleric" />
-			<extend type="Spell" id="ID_PHB_SPELL_AURA_OF_PURITY" level="1" spellcasting="Cleric" />
-			<extend type="Spell" id="ID_TCOE_SPELL_SUMMON_CELESTIAL" level="1" spellcasting="Cleric" />
-			<extend type="Spell" id="ID_PHB_SPELL_SUNBEAM" level="1" spellcasting="Cleric" />
-			<extend type="Spell" id="ID_PHB_SPELL_SUNBURST" level="1" spellcasting="Cleric" />
-			<extend type="Spell" id="ID_PHB_SPELL_POWER_WORD_HEAL" level="1" spellcasting="Cleric" />
 		</rules>
 	</element>
 	<element name="Divine Domain" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEDOMAIN">
@@ -226,6 +216,17 @@
 			<p class="indent">If you have a domain spell that doesn’t appear on the cleric spell list, the spell is nonetheless a cleric spell for you.</p>
 		</description>
 		<sheet display="false" />
+		<spellcasting name="Cleric" extend="true">
+			<!--Tasha's Additional Spells-->
+			<extend>ID_PHB_SPELL_AURA_OF_VITALITY</extend>
+			<extend>ID_TCOE_SPELL_SPIRIT_SHROUD</extend>
+			<extend>ID_PHB_SPELL_AURA_OF_LIFE</extend>
+			<extend>ID_PHB_SPELL_AURA_OF_PURITY</extend>
+			<extend>ID_TCOE_SPELL_SUMMON_CELESTIAL</extend>
+			<extend>ID_PHB_SPELL_SUNBEAM</extend>
+			<extend>ID_PHB_SPELL_SUNBURST</extend>
+			<extend>ID_PHB_SPELL_POWER_WORD_HEAL</extend>
+		</spellcasting>
 		<rules>
 			<select type="Archetype" name="Divine Domain" supports="Divine Domain" />
 		</rules>
