@@ -88,7 +88,7 @@
 			<div element="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_CANTRIP_VERSATILITY" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DESTROYUNDEAD" />
-			<!--divine blessing (select blessed strikes, divine strike, or Potent spellcasting)-->>
+			<!--divine blessing (select blessed strikes, divine strike, or Potent spellcasting)-->
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION" />
 		</description>
 		<sheet display="false">
@@ -110,7 +110,7 @@
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEDOMAIN" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY" level="2" />
-			<grant type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_CLEIC_HARNESS_DIVINE_POWER" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_HARNESS_DIVINE_POWER" level="2" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC" level="4" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DESTROYUNDEAD" level="5" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION" level="10" />
@@ -324,7 +324,7 @@
 			
 			<div element="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_BLESSED_STRIKES" />
 			<div element="ID_WOTC_TOCE_CLASS_FEATURE_CLERIC_DIVINE_STRIKE" />
-			<div element="ID_WOTC_TOCE_CLASS_FEATURE_CLEIC_POTENT_SPELLCASTING" />
+			<div element="ID_WOTC_TOCE_CLASS_FEATURE_CLERIC_POTENT_SPELLCASTING" />
 		</description>
 		<rules>
 			<select type="Class Feature" name="Divine Blessing" supports="Divine Blessing" />
@@ -342,7 +342,7 @@
 			You deal an addtional +1d8 radiant damage with a cantrip or weapon attack.
 		</sheet>
 	</element>
-	<element name="Divine Strike" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TOCE_CLASS_FEATURE_CLERIC_DIVINE_STRIKE">
+	<element name="Divine Strike" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TOCE_CLASS_FEATURE_CLERIC_DIVINE_STRIKE">
 		<supports>Divine Blessing</supports>
 		<description>
 			<p>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8.</p>
@@ -352,7 +352,7 @@
 			<description level="14">Once on each of your turn +2d8 damage of the same type dealt by the weapon with a weapon attack.</description>
 		</sheet>
 	</element>
-	<element name="Potent Spellcasting" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TOCE_CLASS_FEATURE_CLEIC_POTENT_SPELLCASTING">
+	<element name="Potent Spellcasting" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TOCE_CLASS_FEATURE_CLERIC_POTENT_SPELLCASTING">
 		<supports>Divine Blessing</supports>
 		<description>
 			<p>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</p>

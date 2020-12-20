@@ -97,9 +97,9 @@
 	<element name="Divine Blessing" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WAR_DOMAIN_DIVINE_BLESSING">
 		<description>
 			<p>You may select one of the following blessings from your deity.</p>
-			<div element="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_BLESSED_STRIKES" />
+			<p><div element="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_BLESSED_STRIKES" /></p>
 			<div element="ID_WOTC_TOCE_CLASS_FEATURE_CLERIC_DIVINE_STRIKE" />
-			<div element="ID_WOTC_TOCE_CLASS_FEATURE_CLEIC_POTENT_SPELLCASTING" />
+			<div element="ID_WOTC_TOCE_CLASS_FEATURE_CLERIC_POTENT_SPELLCASTING" />
 		</description>
 		<rules>
 			<select type="Class Feature" name="Divine Blessing" supports="Divine Blessing" />
