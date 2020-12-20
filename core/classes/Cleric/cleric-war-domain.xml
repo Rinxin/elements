@@ -49,7 +49,7 @@
 			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_WAR_PRIEST" level="1"/>
 			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_GUIDED_STRIKE" level="2"/>
 			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_WAR_GODS_BLESSING" level="6"/>
-			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_DIVINE_STRIKE" level="8"/>
+			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WAR_DOMAIN_DIVINE_BLESSING" level="8"/>
 			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_AVATAR_OF_BATTLE" level="17"/>
 		</rules>
 	</element>
@@ -94,14 +94,16 @@
 			<description>When a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll.</description>
 		</sheet>
 	</element>
-	<element name="Divine Strike" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_DIVINE_STRIKE">
+	<element name="Divine Blessing" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WAR_DOMAIN_DIVINE_BLESSING">
 		<description>
-			<p>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8.</p>
+			<p>You may select one of the following blessings from your deity.</p>
+			<div element="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_BLESSED_STRIKES" />
+			<div element="ID_WOTC_TOCE_CLASS_FEATURE_CLERIC_DIVINE_STRIKE" />
+			<div element="ID_WOTC_TOCE_CLASS_FEATURE_CLEIC_POTENT_SPELLCASTING" />
 		</description>
-		<sheet>
-			<description>Once on each of your turn +1d8 damage of the same type dealt by the weapon with a weapon attack.</description>
-			<description level="14">Once on each of your turn +2d8 damage of the same type dealt by the weapon with a weapon attack.</description>
-		</sheet>
+		<rules>
+			<select type="Class Feature" name="Divine Blessing" supports="Divine Blessing" />
+		</rules>
 	</element>
 	<element name="Avatar of Battle" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_AVATAR_OF_BATTLE">
 		<description>

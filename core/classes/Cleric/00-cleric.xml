@@ -33,8 +33,8 @@
 			<h5 class="caption">HIT POINTS</h5>
 			<ul class="unstyled">
 				<li><strong>Hit Dice:</strong> 1d8 per cleric level</li>
-				<li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
-				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per cleric level after 1st </li>
+				<li><strong>Hit Points at 1st Level thru 3rd Level:</strong> 8 + your Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per cleric level after 3rd </li>
 			</ul>
 			<h5 class="caption">PROFICIENCIES</h5>
 			<ul class="unstyled mb">
@@ -61,31 +61,34 @@
 					<tr><td class="col-5">Level</td><td class="left">Core Features</td><td>"Flavor" Features</td><td class="col-10">Cantrips Known</td><td>Spell Points</td><td>Max Spell Level</td></tr>
 				</thead>
 				<tr><td> 1st</td><td class="left">Spellcasting, Divine Domain</td><td>—</td><td>3</td><td>2</td><td>1st</td></tr>
-				<tr><td> 2nd</td><td class="left">Channel Divinity (1/rest), Divine Domain feature</td><td>—</td><td>3</td><td>3</td><td>1st</td></tr>
+				<tr><td> 2nd</td><td class="left">Divine Domain feature</td><td>Channel Divinity (1/rest)</td><td>3</td><td>3</td><td>1st</td></tr>
 				<tr><td> 3rd</td><td class="left">—</td><td>—</td><td>3</td><td>8</td><td>2nd</td></tr>
 				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>—</td><td>4</td><td>10</td><td>2nd</td></tr>
-				<tr><td> 5th</td><td class="left">Destroy Undead (CR 1/2)</td><td>—</td><td>4</td><td>16</td><td>3rd</td></tr>
-				<tr><td> 6th</td><td class="left">Channel Divinity (2/rest), Divine Domain feature</td><td>—</td><td>4</td><td>19</td><td>3rd</td></tr>
+				<tr><td> 5th</td><td class="left">—</td><td>Destroy Undead (CR 1/2)</td><td>4</td><td>16</td><td>3rd</td></tr>
+				<tr><td> 6th</td><td class="left">Divine Domain feature</td><td>Channel Divinity (2/rest)</td><td>4</td><td>19</td><td>3rd</td></tr>
 				<tr><td> 7th</td><td class="left">—</td><td>—</td><td>4</td><td>23</td><td>4th</td></tr>
 				<tr><td> 8th</td><td class="left">Ability Score Improvement, Destroy Undead (CR 1), Divine Domain feature</td><td>—</td><td>4</td><td>27</td><td>4th</td></tr>
 				<tr><td> 9th</td><td class="left">—</td><td>—</td><td>4</td><td>36</td><td>5th</td></tr>
 				<tr><td>10th</td><td class="left">Divine Intervention</td><td>—</td><td>5</td><td>41</td><td>5th</td></tr>
-				<tr><td>11th</td><td class="left">Destroy Undead (CR 2)</td><td>—</td><td>5</td><td>47</td><td>6th</td></tr>
+				<tr><td>11th</td><td class="left">—</td><td>Destroy Undead (CR 2)</td><td>5</td><td>47</td><td>6th</td></tr>
 				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>—</td><td>5</td><td>47</td><td>6th</td></tr>
 				<tr><td>13th</td><td class="left">—</td><td>—</td><td>5</td><td>54</td><td>7th</td></tr>
-				<tr><td>14th</td><td class="left">Destroy Undead (CR 3)</td><td>—</td><td>5</td><td>54</td><td>7th</td></tr>
+				<tr><td>14th</td><td class="left">—</td><td>Destroy Undead (CR 3)</td><td>5</td><td>54</td><td>7th</td></tr>
 				<tr><td>15th</td><td class="left">—</td><td>—</td><td>5</td><td>62</td><td>8th</td></tr>
 				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>—</td><td>5</td><td>62</td><td>8th</td></tr>
-				<tr><td>17th</td><td class="left">Destroy Undead (CR 4), Divine Domain feature</td><td>—</td><td>5</td><td>71</td><td>9th</td></tr>
-				<tr><td>18th</td><td class="left">Channel Divinity (3/rest)</td><td>—</td><td>5</td><td>76</td><td>9th</td></tr>
+				<tr><td>17th</td><td class="left">Divine Domain feature</td><td>Destroy Undead (CR 4)</td><td>5</td><td>71</td><td>9th</td></tr>
+				<tr><td>18th</td><td class="left">—</td><td>Channel Divinity (3/rest)</td><td>5</td><td>76</td><td>9th</td></tr>
 				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>—</td><td>5</td><td>82</td><td>9th</td></tr>
 				<tr><td>20th</td><td class="left">Divine Intervention Improvement</td><td>—</td><td>5</td><td>89</td><td>9th</td></tr>
 			</table>
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEDOMAIN" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY" />
+			<div element="ID_WOTC_TCOE_CLASS_FEATURE_CLEIC_HARNESS_DIVINE_POWER" />
+			<div element"ID_WOTC_TCOE_CLASS_FEATURE_CLEIC_CANTRIP_VERSATILITY" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DESTROYUNDEAD" />
+			<!--divine blessing (select blessed strikes, divine strike, or Potent spellcasting)-->>
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION" />
 		</description>
 		<sheet display="false">
@@ -107,6 +110,7 @@
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEDOMAIN" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_CLEIC_HARNESS_DIVINE_POWER" level="2" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC" level="4" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DESTROYUNDEAD" level="5" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEINTERVENTION" level="10" />
@@ -131,9 +135,9 @@
 			<h5 class="caption">CANTRIPS</h5>
 			<p>At 1st level, you know three cantrips of your choice from the cleric spell list. You learn additional cleric cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Cleric table.</p>
 			<h5 class="caption">PREPARING AND CASTING SPELLS</h5>
-			<p>The Cleric table shows how many spell slots you have to cast your cleric spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
-			<p class="indent">You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you have spell slots.</p>
-			<p class="indent">For example, if you are a 3rd-level cleric, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn’t remove it from your list of prepared spells.</p>
+			<p>The Cleric table shows how many spell points you have to cast your cleric spells of 1st level and higher. To cast one of these spells, you must expend a number of points equal to the spell’s level or higher. You regain all expended spell points when you finish a long rest.</p>
+			<p class="indent">You prepare the list of cleric spells that are available for you to cast, choosing from the cleric spell list. When you do so, choose a number of cleric spells equal to your Wisdom modifier + your cleric level (minimum of one spell). The spells must be of a level for which you can cast or lower, your max spell level is shown on the Cleric table.</p>
+			<p class="indent">For example, if you are a 3rd-level cleric, you have X spell points. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using at 1st-level or 2nd-level, using 1 or 2 spell points. Casting the spell doesn’t remove it from your list of prepared spells.</p>
 			<p class="indent">You can change your list of prepared spells when you finish a long rest. Preparing a new list of cleric spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p>
 			<h5 class="caption">SPELLCASTING ABILITY</h5>
 			<p>Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a cleric spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.</p>
@@ -147,7 +151,7 @@
 			<p>You can use a holy symbol as a spellcasting focus for your cleric spells.</p>
 		</description>
 		<sheet>
-			<description>You can cast cleric spells as rituals. You can prepare {{cleric:spellcasting:prepare}} spells from the cleric spell list. You can use a holy symbol as your spellcasting focus.</description>
+			<description>You have {{cleric:spell:points}} Spell Points. You can cast cleric spells as rituals. You can prepare {{cleric:spellcasting:prepare}} spells from the cleric spell list. You can use a holy symbol as your spellcasting focus.</description>
 		</sheet>
 		<spellcasting name="Cleric" ability="Wisdom" prepare="true">
 			<list known="true">Cleric</list>
@@ -176,6 +180,25 @@
 			<stat name="cleric:spellcasting:slots:7" value="1" level="20" />
 			<stat name="cleric:spellcasting:slots:8" value="1" level="15" />
 			<stat name="cleric:spellcasting:slots:9" value="1" level="17" />
+
+			<!-- Spell points -->
+			<stat name="cleric:spell:points" value="2" level="1" />
+			<stat name="cleric:spell:points" value="1" level="2" />
+			<stat name="cleric:spell:points" value="5" level="3" />
+			<stat name="cleric:spell:points" value="2" level="4" />
+			<stat name="cleric:spell:points" value="6" level="5" />
+			<stat name="cleric:spell:points" value="3" level="6" />
+			<stat name="cleric:spell:points" value="4" level="7" />
+			<stat name="cleric:spell:points" value="4" level="8" />
+			<stat name="cleric:spell:points" value="9" level="9" />
+			<stat name="cleric:spell:points" value="5" level="10" />
+			<stat name="cleric:spell:points" value="6" level="11" />
+			<stat name="cleric:spell:points" value="7" level="13" />
+			<stat name="cleric:spell:points" value="8" level="15" />
+			<stat name="cleric:spell:points" value="9" level="17" />
+			<stat name="cleric:spell:points" value="5" level="18" />
+			<stat name="cleric:spell:points" value="6" level="19" />
+			<stat name="cleric:spell:points" value="7" level="20" />
 
 			<stat name="cleric:spellcasting:prepare" value="wisdom:modifier" />
 			<stat name="cleric:spellcasting:prepare" value="level:cleric" />
@@ -222,6 +245,25 @@
 			<description>Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
 				A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</description>
 		</sheet>
+	</element>
+	<element name="Harness Divine Power" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_HARNESS_DIVINE_POWER">
+		<description>
+			<p>You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain on expended spell slot, the level of which can be no hihger than half your proficiency bonus (rounded up.) The number of tiems you can use this feature is based on the level you've reached in this class: 2nd level, once; 6th level, twice; and 18th level, thrice. You regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet action="bonus action" usage="{{harness divine power:count}}/Long Rest">
+			<description>Regain a number of spell points equal to {{proficiency:half:up}}.</description>
+		</sheet>
+		<rules>
+			<stat name="harness divine power:count" value="1" bonus="base" />
+			<stat name="harness divine power:count" value="2" level="6" bonus="base" />
+			<stat name="harness divine power:count" value="3" level="18" bonus="base" />
+		</rules>
+	</element>
+	<element name="Cantrip Versatility" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_CANTRIP_VERSATILITY">
+		<compendium display="false" />
+		<description>
+			<p>Whenever you reach a level in this class<!-- that grants the Ability Score Improvement feature-->, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the cleric spell list.</p>
+		</description>
 	</element>
 	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_ABILITYSCOREIMPROVEMENT_CLERIC">
 		<compendium display="false" />
@@ -272,6 +314,47 @@
 			If your deity intervenes, you can’t use this feature again for 7 days. Otherwise, you can use it again after you finish a long rest.</description>
 			<description level="20">Describe the assistance you seek and your deity intervenes.
 			You can’t use this feature again for 7 days.</description>
+		</sheet>
+	</element>
+
+	<!--Divine Blessing Choices-->
+	<element name="Divine Blessing" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_WAR_DOMAIN_DIVINE_BLESSING">
+		<description>
+			<p>You may select one of the following blessings from your deity.</p>
+			
+			<div element="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_BLESSED_STRIKES" />
+			<div element="ID_WOTC_TOCE_CLASS_FEATURE_CLERIC_DIVINE_STRIKE" />
+			<div element="ID_WOTC_TOCE_CLASS_FEATURE_CLEIC_POTENT_SPELLCASTING" />
+		</description>
+		<rules>
+			<select type="Class Feature" name="Divine Blessing" supports="Divine Blessing" />
+		</rules>
+	</element>
+
+
+	<element name="Blessed Strikes" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_CLERIC_BLESSED_STRIKES">
+		<description>
+			<p>You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.</p>
+		</description>
+		<sheet usage="1/turn">
+			You deal an addtional +1d8 radiant damage with a cantrip or weapon attack.
+		</sheet>
+	</element>
+	<element name="Divine Strike" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TOCE_CLASS_FEATURE_CLERIC_DIVINE_STRIKE">
+		<description>
+			<p>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8.</p>
+		</description>
+		<sheet usage="1/turn">
+			<description>Once on each of your turn +1d8 damage of the same type dealt by the weapon with a weapon attack.</description>
+			<description level="14">Once on each of your turn +2d8 damage of the same type dealt by the weapon with a weapon attack.</description>
+		</sheet>
+	</element>
+	<element name="Potent Spellcasting" type="Archetype Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TOCE_CLASS_FEATURE_CLEIC_POTENT_SPELLCASTING">
+		<description>
+			<p>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</p>
+		</description>
+		<sheet>
+			<description>+{{wisdom:modifier}} to the damage you deal with any cleric cantrip.</description>
 		</sheet>
 	</element>
 </elements>
