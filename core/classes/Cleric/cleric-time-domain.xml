@@ -67,7 +67,7 @@
 			<description>You learn two of the following languages: Ankeshelian, Illyrian, Morphoi, Northern Tongue, or Vos’Ghaen. You become proficient in the History skill. In addition, you learn the quicken cantrip, which does not count against the number of cleric cantrips you know.</description>
 		</sheet>
 		<rules>
-			<select type="Language" name="Language, Steward of Time" supports="Steward of Time" number="2" />
+			<select type="Language" name="Language, Steward of Time" supports="Exotic" number="2" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
 			<grant type="Spell" id="ID_KBP_DMTM_SPELL_QUICKEN" spellcasting="Cleric" />
 		</rules>

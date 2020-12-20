@@ -12,6 +12,7 @@
 		<file name="00-monk.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Monk/00-monk.xml" />
 
 		<file name="monk-way-of-shadows.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Monk/monk-way-of-shadows.xml" />
+		<file name="monk-way-of-the-astral-self.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/classes/Monk/monk-way-of-the-astral-self.xml" />
 		<file name="monk-way-of-the-drunken-master.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Monk/monk-way-of-the-drunken-master.xml" />
 		<file name="monk-way-of-the-four-elements.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Monk/monk-way-of-the-four-elements.xml" />
 		<file name="monk-way-of-the-kensei.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Monk/monk-way-of-the-kensei.xml" />

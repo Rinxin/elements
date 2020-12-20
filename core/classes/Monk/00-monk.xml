@@ -59,10 +59,10 @@
 					<tr><td class="col-10">Level</td><td class="col-10">Martial Arts</td><td class="col-10">Ki Points</td><td class="col-10">Unarmored Movement</td><td class="col-30 left">Core Features</td><td class="col-30 left">"Flavor" Features</td></tr>
 				</thead>
 				<tr><td>1st</td><td>1d4</td><td>—</td><td>—</td><td class="left">Unarmored Defense, Martial Arts</td><td></td><td>—</td></tr>
-				<tr><td>2nd</td><td>1d4</td><td>2</td><td>+10 ft.</td><td class="left">Ki, Unarmored Movement</td><td></td><td>—</td></tr>
-				<tr><td>3rd</td><td>1d4</td><td>3</td><td>+10 ft.</td><td class="left">Monastic Tradition, Deflect Missiles</td><td></td><td>—</td></tr>
-				<tr><td>4th</td><td>1d4</td><td>4</td><td>+10 ft.</td><td class="left">Ability Score Improvement, Slow Fall</td><td></td><td>—</td></tr>
-				<tr><td>5th</td><td>1d6</td><td>5</td><td>+10 ft.</td><td class="left">Extra Attack, Stunning Strike</td><td></td><td>—</td></tr>
+				<tr><td>2nd</td><td>1d4</td><td>2</td><td>+10 ft.</td><td class="left">Dedicated Weapon, Ki, Unarmored Movement</td><td></td><td>—</td></tr>
+				<tr><td>3rd</td><td>1d4</td><td>3</td><td>+10 ft.</td><td class="left">Ki-Fueled Attack, Monastic Tradition, Deflect Missiles</td><td></td><td>—</td></tr>
+				<tr><td>4th</td><td>1d4</td><td>4</td><td>+10 ft.</td><td class="left">Ability Score Improvement, Quickened Healing, Slow Fall</td><td></td><td>—</td></tr>
+				<tr><td>5th</td><td>1d6</td><td>5</td><td>+10 ft.</td><td class="left">Extra Attack, Focused Aim, Stunning Strike</td><td></td><td>—</td></tr>
 				<tr><td>6th</td><td>1d6</td><td>6</td><td>+15 ft.</td><td class="left">Ki-Empowered Strikes, Monastic Tradition feature</td><td></td><td>—</td></tr>
 				<tr><td>7th</td><td>1d6</td><td>7</td><td>+15 ft.</td><td class="left">Evasion, Stillness of Mind</td><td></td><td>—</td></tr>
 				<tr><td>8th</td><td>1d6</td><td>8</td><td>+15 ft.</td><td class="left">Ability Score Improvement</td><td></td><td>—</td></tr>
@@ -81,13 +81,17 @@
 			</table>				
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_UNARMORED_DEFENSE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_MARTIAL_ARTS" />
+			<div element="ID_WOTC_TCOE_CLASS_FEATURE_MONK_DEDICATED_WEAPON" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI" />
+			<div element="ID_WOTC_TCOE_CLASS_FEATURE_MONK_KI_FUELED_ATTACK" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_UNARMORED_MOVEMENT" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_MONASTIC_TRADITION" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_DEFLECT_MISSILES" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_ABILITYSCOREIMPROVEMENT_MONK" />
+			<div element="ID_WOTC_TCOE_CLASS_FEATURE_MONK_QUICKENED_HEALING" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_SLOW_FALL" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_EXTRA_ATTACK_MONK" />
+			<div element="ID_WOTC_TCOE_CLASS_FEATURE_MONK_FOCUSED_AIM" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_STUNNING_STRIKE" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI_EMPOWERED_STRIKES" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_MONK_EVASION_MONK" />
@@ -115,13 +119,17 @@
 			<select type="Proficiency" name="Skill Proficiency (Monk)" supports="Skill,Monk" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_MONK" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_UNARMORED_DEFENSE" level="1" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_MARTIAL_ARTS" level="1" />
+			<grant type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_MONK_DEDICATED_WEAPON" level="2" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI" level="2" />
+			<grant type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_MONK_KI_FUELED_ATTACK" level="3" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_UNARMORED_MOVEMENT" level="2" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_MONASTIC_TRADITION" level="3" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_DEFLECT_MISSILES" level="3" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_ABILITYSCOREIMPROVEMENT_MONK" level="4" />
+			<grant type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_MONK_QUICKENED_HEALING" level="4" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_SLOW_FALL" level="4" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_EXTRA_ATTACK_MONK" level="5" />
+			<grant type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_MONK_FOCUSED_AIM" level="5" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_STUNNING_STRIKE" level="5" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI_EMPOWERED_STRIKES" level="6" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_EVASION_MONK" level="7" />
@@ -188,6 +196,20 @@
 			<stat name="martial arts:dice" value="8" bonus="martial arts" level="11" />
 			<stat name="martial arts:dice" value="10" bonus="martial arts" level="17" />
 		</rules>
+	</element>
+	<element name="Dedicated Weapon" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_MONK_DEDICATED_WEAPON">
+		<description>
+			<p>Starting at 2nd level, you train yourself to use a variety of weapons as monk weapons, not just simple melee weapons and and shortswords. Whenever you finish a short or long rest, you can touch one weapon, focus your ki on it, and then count that weapon as a monk weapon until you use this feature again.</p>
+			<p class="indent">The chosen weapon must meet these criterial:</p>
+			<ul>
+				<li>The weapon must be a simple or martial weapon.</li>
+				<li>You must be proficient with it.</li>
+				<li>It must lack the heavy and special properties.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>You can make a simple or martial weapon, with out the heavy or special property, you are proficient with count as a monk weapon when finishing a long rest.</description>
+		</sheet>
 	</element>
 	<element name="Ki" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI">
 		<description>
@@ -288,6 +310,14 @@
 			<stat name="monk:deflect missiles bonus" value="level:monk" />
 		</rules>
 	</element>
+	<element name="Ki-Fueled Attack" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_MONK_KI_FUELED_ATTACK">
+		<description>
+			<p>Starting at 3rd level, if you spend 1 ki point or more as part of your action on your turn, you can make one attack with an unarmed strike or a monk weapon as a bonus action before the end of the turn.</p>
+		</description>
+		<sheet>
+			<description>If you spend 1 ki point or more as part of your action on your turn, you can make one attack with an unarmed strike or a monk weapon as a bonus action before the end of the turn.</description>
+		</sheet>
+	</element>
 	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_ABILITYSCOREIMPROVEMENT_MONK">
 		<compendium display="false" />
 		<description>
@@ -301,6 +331,14 @@
 			<select type="Class Feature" name="Improvement Option (Monk 16)" supports="Improvement Option,Monk,16" level="16" />
 			<select type="Class Feature" name="Improvement Option (Monk 19)" supports="Improvement Option,Monk,19" level="19" />
 		</rules>
+	</element>
+	<element name="Quickened Healing" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_MONK_QUICKENED_HEALING">
+		<description>
+			<p>Starting at 4th level, you can spend 2 ki points and roll a Martial Arts die. You regain a number of hit points equal to the number rolled plus your proficiency bonus.</p>
+		</description>
+		<sheet action="Action" usage="Ki">
+			<description>You can spend 2 ki points and roll a Martial Arts die. You regain a number of hit points equal to the number rolled plus your proficiency bonus.</description>
+		</sheet>
 	</element>
 	<element name="Slow Fall" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_SLOW_FALL">
 		<description>
@@ -327,6 +365,14 @@
 		<rules>
 			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
 		</rules>
+	</element>
+	<element name="Focused Aim" type="Class Feature" source="Tasha's Cauldron of Everything" id="ID_WOTC_TCOE_CLASS_FEATURE_MONK_FOCUSED_AIM">
+		<description>
+			<p>Starting at 5th level, when you miss with an attack roll, you can spend 1 to 3 ki points to increase your attack roll by 2 for each of these points you spend, potentially turning the miss into a hit.</p>
+		</description>
+		<sheet action="" usage="Ki">
+			<description> When you miss an attack roll, you may spend 1-3 ki points to gain +2 /point spent. </description>
+		</sheet>
 	</element>
 	<element name="Stunning Strike" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_STUNNING_STRIKE">
 		<description>
