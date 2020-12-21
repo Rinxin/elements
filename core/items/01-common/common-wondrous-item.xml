@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Items</name>
+		<description>The World of Morad Campagin Setting.</description>
+		<author url="">Richard Mraz</author>
+		<update version="0.1">
+			<file name="01-common.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common.xml" />
+		</update>
+	</info>
+<!--Wondrous Item-->
+	<!--A-->
+	<!--B-->
+	<!--C-->
+		<element name="Cleansing Stone" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_CLEANSING_STONE">
+			<description>
+				<p>A cleansing stone is a sphere 1 foot in diameter, engraved with mystic sigils. When touching the stone, you can use an action to activate it and remove dirt and grime from your garments and your person.</p>
+				<p class="indent">Such stones are often embedded in pedestals in public squares in Aundair or in high-end Ghallanda inns.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="stackable">true</set>
+			</setters>
+		</element>
+	<!--D-->
+	<!--E-->
+		<element name="Everbright Lantern" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_EVERBRIGHT_LANTERN">
+			<description>
+				<p>This bullseye lantern contains an Eberron dragonshard that sheds light comparable to that produced by a continual flame spell. An everbright lantern sheds light in a 120-foot cone; the closest 60 feet is bright light, and the farthest 60 feet is dim light.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+			</setters>
+		</element>
+	<!--F-->
+		<element name="Feather Token" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_FEATHER_TOKEN">
+			<description>
+				<p>This small metal disk is inscribed with the image of a feather. When you fall at least 20 feet while the token is on your person, you descend 60 feet per round and take no damage from falling. The token’s magic is expended after you land, whereupon the disk becomes nonmagical.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="stackable">true</set>
+			</setters>
+		</element>
+	<!--G-->
+		<element name="Glamerweave" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_GLAMERWEAVE_COMMON">
+			<description>
+				<p>Glamerweave is clothing imbued with harmless illusory magic. While wearing the common version of these clothes, you can use a bonus action to create a moving illusory pattern within the cloth.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="slot">misc</set>
+			</setters>
+		</element>
+	<!--H-->
+	<!--I-->
+		<element name="Imbued Wood Focus" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_IMBUED_WOOD_FOCUS">
+			<description>
+				<p>An imbued wood focus is a rod, staff, or wand cut from a tree infused with extraplanar energy. If you’re a spellcaster, you can use this focus as a spellcasting focus.</p>
+				<p class="indent">When you cast a damage-dealing spell using this item as your spellcasting focus, you gain a +1 bonus to one damage roll of the spell, provided the damage is of the type associated with the item’s wood. The types of wood and their associated damage types are listed in the Imbued Wood Focus table.</p>
+				<p><strong>IMBUED WOOD FOCUS</strong></p>
+				<table>
+					<thead>
+						<tr><td>Wood</td><td>Damage Type</td></tr>
+					</thead>
+					<tr><td>Fernian Ash</td><td>Fire</td></tr>
+					<tr><td>Irian Rosewood</td><td>Radiant</td></tr>
+					<tr><td>Kythrian Manchineel</td><td>Acid or poison</td></tr>
+					<tr><td>Lamannian Oak</td><td>Lightning or thunder</td></tr>
+					<tr><td>Mabaran Ebony</td><td>Necrotic</td></tr>
+					<tr><td>Risian Pine</td><td>Cold</td></tr>
+					<tr><td>Shavarran Birch</td><td>Force</td></tr>
+					<tr><td>Xorian Wenge</td><td>Psychic</td></tr>
+				</table>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="slot">onehand</set>
+				<set name="attunement">true</set>
+			</setters>
+		</element>
+	<!--J-->
+	<!--K-->
+		<element name="Keycharm" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_KEYCHARM">
+			<description>
+				<p>This small stylized key plays a vital role in the work of House Kundarak. If you cast the alarm, arcane lock, or glyph of warding spell, you can tie the effect to the keycharm so that whoever holds it receives the notification from the alarm spell, bypasses the lock of the arcane Jock spell, or avoids triggering the glyph placed by the glyph of warding spell. In addition, the holder (who needn’t be attuned to the item) can take an action to end any one spell tied to it, provided the holder knows the command word you set for ending the tied spells. The keycharm can have up to three tied spells at one time.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="attunement" addition="by a creature with the Mark of Warding">true</set>
+			</setters>
+		</element>
+	<!--L-->
+	<!--M-->
+	<!--N-->
+	<!--O-->
+		<element name="Orb of Shielding" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ORB_OF_SHIELDING">
+			<description>
+				<p>An orb of shielding is a polished, spherical chunk of crystal or stone aligned to one of the planes of existence. If you’re a spellcaster, you can use this orb as a spellcasting focus.</p>
+				<p class="indent">If you’re holding the orb when you take damage of the type associated with the orb’s material, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0). The materials and their associated damage types are listed in the Orb of Shielding table.</p>
+				<p><strong>ORB OF SHIELDING</strong></p>
+				<table>
+					<thead>
+						<tr><td>Planar Material</td><td>Damage Type</td></tr>
+					</thead>
+					<tr><td>Fernian basalt</td><td>Fire</td></tr>
+					<tr><td>Irian quartz</td><td>Radiant</td></tr>
+					<tr><td>Kythrian skarn</td><td>Acid and poison</td></tr>
+					<tr><td>Lamannian flint</td><td>Lightning and thunder</td></tr>
+					<tr><td>Mabaran obsidian</td><td>Necrotic</td></tr>
+					<tr><td>Risian shale</td><td>Cold</td></tr>
+					<tr><td>Shavarran chert</td><td>Force</td></tr>
+					<tr><td>Xorian marble</td><td>Psychic</td></tr>
+				</table>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="slot">onehand</set>
+				<set name="attunement">true</set>
+			</setters>
+		</element>
+		<element name="Orb of Shielding, Fernian Basalt" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ORB_OF_SHIELDING_FERNIAN_BASALT">
+			<description>
+				<p>An orb of shielding is a polished, spherical chunk of fernian basalt. If you’re a spellcaster, you can use this orb as a spellcasting focus.</p>
+				<p class="indent">If you’re holding the orb when you take fire damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>				
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="slot">onehand</set>
+				<set name="attunement">true</set>
+			</setters>
+		</element>
+		<element name="Orb of Shielding, Irian Quartz" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ORB_OF_SHIELDING_IRIAN_QUARTZ">
+			<description>
+				<p>An orb of shielding is a polished, spherical chunk of irian quartz. If you’re a spellcaster, you can use this orb as a spellcasting focus.</p>
+				<p class="indent">If you’re holding the orb when you take radiant damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>				
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="slot">onehand</set>
+				<set name="attunement">true</set>
+			</setters>
+		</element>
+		<element name="Orb of Shielding, Kythrian Skarn" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ORB_OF_SHIELDING_KYTHRIAN_SKARN">
+			<description>
+				<p>An orb of shielding is a polished, spherical chunk of kythrian skarn. If you’re a spellcaster, you can use this orb as a spellcasting focus.</p>
+				<p class="indent">If you’re holding the orb when you take acid or poison damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>				
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="slot">onehand</set>
+				<set name="attunement">true</set>
+			</setters>
+		</element>
+		<element name="Orb of Shielding, Lamannian Flint" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ORB_OF_SHIELDING_LAMANNIAN_FLINT">
+			<description>
+				<p>An orb of shielding is a polished, spherical chunk of lamannian flint. If you’re a spellcaster, you can use this orb as a spellcasting focus.</p>
+				<p class="indent">If you’re holding the orb when you take lightning or thunder damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>				
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="slot">onehand</set>
+				<set name="attunement">true</set>
+			</setters>
+		</element>
+		<element name="Orb of Shielding, Mabaran Obsidian" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ORB_OF_SHIELDING_MABARAN_OBSIDIAN">
+			<description>
+				<p>An orb of shielding is a polished, spherical chunk of mabaran obsidian. If you’re a spellcaster, you can use this orb as a spellcasting focus.</p>
+				<p class="indent">If you’re holding the orb when you take necrotic damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>				
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="slot">onehand</set>
+				<set name="attunement">true</set>
+			</setters>
+		</element>
+		<element name="Orb of Shielding, Risian Shale" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ORB_OF_SHIELDING_RISIAN_SHALE">
+			<description>
+				<p>An orb of shielding is a polished, spherical chunk of risian shale. If you’re a spellcaster, you can use this orb as a spellcasting focus.</p>
+				<p class="indent">If you’re holding the orb when you take cold damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>				
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="slot">onehand</set>
+				<set name="attunement">true</set>
+			</setters>
+		</element>
+		<element name="Orb of Shielding, Shavarran Chert" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ORB_OF_SHIELDING_SHAVARRAN_CHERT">
+			<description>
+				<p>An orb of shielding is a polished, spherical chunk of shavarran chert. If you’re a spellcaster, you can use this orb as a spellcasting focus.</p>
+				<p class="indent">If you’re holding the orb when you take force damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>				
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="slot">onehand</set>
+				<set name="attunement">true</set>
+			</setters>
+		</element>
+		<element name="Orb of Shielding, Xorian Marble" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ORB_OF_SHIELDING_XORIAN_MARBLE">
+			<description>
+				<p>An orb of shielding is a polished, spherical chunk of xorian marble. If you’re a spellcaster, you can use this orb as a spellcasting focus.</p>
+				<p class="indent">If you’re holding the orb when you take psychic damage, you can use your reaction to reduce the damage by 1d4 (to a minimum of 0).</p>				
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="slot">onehand</set>
+				<set name="attunement">true</set>
+			</setters>
+		</element>
+	<!--P-->
+		<element name="Prosthetic Limb" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_PROSTHETIC_LIMB">
+			<description>
+				<p>This artificial limb replaces a hand, arm, foot, leg, or similar appendage that was lost or removed. While the prosthetic is attached and attuned to you, it functions identically to the body part it is replacing. You can detach or reattach it as an action, and it can’t be removed by anyone else.</p>
+				<p class="indent">If you have multiple prosthetic limbs, they count as a single magic item with regard to the number of magic items you can attune to.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="slot">misc</set>
+				<set name="attunement" addition="by a creature missing some or all of a limb">true</set>
+			</setters>
+			<!--NOTE need to figure out set attunement-->
+		</element>
+	<!--Q-->
+	<!--R-->
+	<!--S-->
+		<element name="Scribe’s Pen" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_SCRIBES_PEN">
+			<description>
+				<p>You can use this pen to write on any surface. You decide whether the writing is visible or invisible, but the writing is always visible to a person with the Mark of Scribing.</p>
+				<p class="indent">Any creature with the Mark of Scribing can use an action to touch the invisible writing, making it visible to all.</p>
+				<p class="indent">If you use the pen to write on a creature that isn’t a construct, the writing fades after 7 days.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="attunement" addition="by a creature with the Mark of Scribing">true</set>
+			</setters>
+		</element>
+		<element name="Shiftweave" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_SHIFTWEAVE">
+			<description>
+				<p>When a suit of shiftweave is created, up to five different outfits can be embedded into the cloth. While wearing the clothing, you can speak its command word as a bonus action to transform your outfit into your choice of one of the other designs contained within it. Regardless of its appearance, the outfit can’t be anything but clothing. Although it can duplicate the look of other magical clothing, it doesn’t gain their magical properties.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="slot">misc</set>
+			</setters>
+		</element>
+		<element name="Spellshard" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_SPELLSHARD">
+			<description>
+				<p>This polished Eberron dragonshard fits in the hand and stores information similar to a book. The shard can hold the equivalent of one book that’s no more than 320 pages long. A shard can be created blank or already filled with information. When the shard is created, the creator can set a passphrase that must be spoken to access the information stored within.</p>
+				<p class="indent">While holding the shard, you can use an action to open your mind to the shard, seeing its content in your mind. On subsequent rounds, reading the text or scribing new text on blank "pages" in the shard requires concentration (as if concentrating on a spell) and takes the same amount of time it takes you to read and write normally. Thinking of a particular phrase or topic draws you to the first section in the shard that addresses it.</p>
+				<p class="indent">A wizard can use a spellshard as a spellbook, with the usual cost in gold and time to "scribe" a spell into the shard.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+			</setters>
+		</element>
+	<!--T-->
+	<!--U-->
+	<!--V-->
+	<!--W-->
+		<element name="Wand Sheath" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_WAND_SHEATH">
+			<description>
+				<p>A wand sheath clamps onto your arm and imparts the following benefits:</p>
+				<ul>
+					<li>The wand sheath can’t be removed from you while you’re attuned to it.</li>
+					<li>You can insert a wand into the sheath as an action. The sheath can hold only one wand at a time .</li>
+					<li>You can retract or extend a wand from the sheath as a bonus action. While the wand is extended, you can use it as if you were holding it, but your hand remains free.</li>
+				</ul>
+				<p class="indent">If a sheathed wand requires attunement, you must attune to the wand before you can use it. However, the wand sheath and the attached wand count as a single magic item with regard to the number of magic items you can attune to. If you remove the wand from the sheath, your attunement to the wand ends.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="slot">arms</set>
+				<set name="attunement" addition="by a warforged">true</set>
+			</setters>
+		</element>
+	<!--X-->
+	<!--Y-->
+	<!--Z-->
+</elements>

@@ -101,6 +101,85 @@
 			<stat name="experimental elixir:count" value="1" level="15" />
 		</rules>
 	</element>
+		<!--Experimental Elixir's-->
+			<element name="Experimental Elixir, Healing" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_EXPERIMENTAL_ELIXIR_HEALING">
+				<description>
+					<p>The drinker regains a number of hit points equal to 2d4 + the alchemist’s Intelligence modifier.</p>
+				</description>
+				<setters>
+					<set name="keywords">artificer,alchemist,experimental elixir</set>
+					<set name="category">Potions</set>
+					<set name="type" addition="alchemist">Elixir</set>
+					<set name="cost" currency="gp">0</set>
+					<set name="weight" lb="1">1 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Experimental Elixir, Swiftness" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_EXPERIMENTAL_ELIXIR_SWIFTNESS">
+				<description>
+					<p>The drinker’s walking speed increases by 10 feet for 1 hour.</p>
+				</description>
+				<setters>
+					<set name="keywords">artificer,alchemist,experimental elixir</set>
+					<set name="category">Potions</set>
+					<set name="type" addition="alchemist">Elixir</set>
+					<set name="cost" currency="gp">0</set>
+					<set name="weight" lb="1">1 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Experimental Elixir, Resilience" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_EXPERIMENTAL_ELIXIR_RESILIENCE">
+				<description>
+					<p>The drinker gains a +1 bonus to AC for 10 minutes.</p>
+				</description>
+				<setters>
+					<set name="keywords">artificer,alchemist,experimental elixir</set>
+					<set name="category">Potions</set>
+					<set name="type" addition="alchemist">Elixir</set>
+					<set name="cost" currency="gp">0</set>
+					<set name="weight" lb="1">1 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Experimental Elixir, Boldness" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_EXPERIMENTAL_ELIXIR_BOLDNESS">
+				<description>
+					<p>The drinker can roll a d4 and add the number rolled to every attack roll and saving throw they make for the next minute.</p>
+				</description>
+				<setters>
+					<set name="keywords">artificer,alchemist,experimental elixir</set>
+					<set name="category">Potions</set>
+					<set name="type" addition="alchemist">Elixir</set>
+					<set name="cost" currency="gp">0</set>
+					<set name="weight" lb="1">1 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Experimental Elixir, Flight" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_EXPERIMENTAL_ELIXIR_FLIGHT">
+				<description>
+					<p>The drinker gains a flying speed of 10 feet for 10 minutes.</p>
+				</description>
+				<setters>
+					<set name="keywords">artificer,alchemist,experimental elixir</set>
+					<set name="category">Potions</set>
+					<set name="type" addition="alchemist">Elixir</set>
+					<set name="cost" currency="gp">0</set>
+					<set name="weight" lb="1">1 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Experimental Elixir, Transformation" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_EXPERIMENTAL_ELIXIR_TRANSFORMATION">
+				<description>
+					<p>The drinker’s body is transformed as if by the alter self spell. The drinker determines the transformation caused by the spell, the effects of which last for 10 minutes.</p>
+				</description>
+				<setters>
+					<set name="keywords">artificer,alchemist,experimental elixir</set>
+					<set name="category">Potions</set>
+					<set name="type" addition="alchemist">Elixir</set>
+					<set name="cost" currency="gp">0</set>
+					<set name="weight" lb="1">1 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
 	<element name="Alchemical Savant" type="Archetype Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ARCHETYPE_FEATURE_ALCHEMIST_ALCHEMICAL_SAVANT">
 		<description>
 			<p>At 5th level, you develop masterful command of magical chemicals, enhancing the healing and damage you create through them. Whenever you cast a spell using your alchemist’s supplies as the spellcasting focus, you gain a bonus to one roll of the spell. That roll must restore hit points or be a damage roll that deals acid, fire, necrotic, or poison damage, and the bonus equals your Intelligence modifier (minimum of +1).</p>

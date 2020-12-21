@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Items</name>
+		<description>The World of Morad Campagin Setting.</description>
+		<author url="">Richard Mraz</author>
+		<update version="0.1">
+			<file name="01-common.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common.xml" />
+		</update>
+	</info>
+<!--Weapon-->
+	<!--A-->
+	<!--B-->
+		<element name="Blade of Avernus" type="Magic Item" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_MAGIC_ITEM_BLADE_OF_AVERNUS">
+			<description>
+				<p>You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.</p>
+				<p class="indent">When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature’s heads. The creature dies if it can’t survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn’t have or need a head, has legendary actions, or the GM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit.</p>
+				<p class="indent"><strong><em>Random Properties.</em></strong> The sword has the following random properties:</p>
+				<ul>
+					<li>2 minor beneficial properties</li>
+					<li>1 major beneficial property</li>
+					<li>1 major detrimental property, which is suppressed while the sword is attuned to an archdevil</li>
+				</ul>
+				<p class="indent"><strong><em>Ruler of Avernus.</em></strong> As an action, you can point this sword at one devil you can see within 60 feet of you. That devil must succeed on a DC 22 Charisma saving throw or be charmed by you for 1 hour. While charmed in this way, the devil follows your orders to the best of its ability. If you command the devil to do something it perceives as suicidal, the effect ends and you can no longer use this power of the sword against that devil.</p>
+				<p class="indent"><strong><em>Infernal recall.</em></strong> As an action, you can use the sword to cast <em>word of recall</em>. Creatures transported by this spell appear in an unoccupied space within 30 feet of the current ruler of Avernus, or a sanctuary you designate if you rule Avernus.</p>
+				<p class="indent"><strong><em>Destroying the Sword.</em></strong> The sword can be destroyed by casting it into the River Styx or melting it down in the forge that created it.</p>
+			</description>
+			<setters>
+				<set name="category">Magic Weapons</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="Longsword">Weapon</set>
+				<set name="rarity">Artifact</set>
+				<set name="attunement">true</set>
+				<set name="enhancement">3</set>
+				<set name="weapon">Longsword</set>
+			</setters>
+		</element>
+	<!--C-->
+	<!--D-->
+	<!--E-->
+	<!--F-->
+	<!--G-->
+	<!--H-->
+	<!--I-->
+	<!--J-->
+	<!--K-->
+	<!--L-->
+	<!--M-->
+	<!--N-->
+	<!--O-->
+	<!--P-->
+	<!--Q-->
+	<!--R-->
+	<!--S-->
+		<element name="Sword of Zariel" type="Magic Item" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_MAGIC_ITEM_SWORD_OF_ZARIEL">
+			<description>
+				<p>This longsword belong to the angel Zariel before her fall from grace. Fashioned from celestial steel, it gives off a faint glow and hum. The weapon chooses who can attune to it and who can’t. It desires a wielder who embodies bravery and heroism.</p>
+				<p class="indent"><strong><em>Attunement.</em></strong> The sword allows you to attune to it immediately, without having to take a short rest. The first time you attune to the sword, you are transformed into a heavenly, idealized version of yourself, blessed with otherworldly beauty and a touch of heaven in your heart. Neither magic nor divine intervention can reverse this transformation. You alignment becomes lawful good, and you gain the following traits:</p>
+				<ul class="unstyled">
+					<li><strong>Angelic Language.</strong> You can speak, read, and write Celestial.</li>
+					<li><strong>Celestial Resistance.</strong> You have resistance to necrotic and radiant damage.</li>
+					<li><strong>Divine Presence.</strong> You Charisma score becomes 20, unless it is already 20 or higher.</li>
+					<li><strong>Feathered Wings.</strong> You sprout a beautiful pair of feathered wings that grant you a flying speed of 90 feet and the ability to hover.</li>
+					<li><strong>Truesight.</strong> Your eyes become luminous pools of silver. You can see in normal and magical darkness, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, perceive the original form of a shapechanger or a creature that is transformed by magic, and see into the Ethereal Plane, all within a range of 60 feet.</li>
+					<li><strong>New Personality.</strong> You gain new personality traits, determined by rolling once on each of the following tables. These traits override any conflicting personality trait, ideal, bond, or flaw.</li>
+				</ul>
+				<br />
+				<h5>Personality Traits</h5>
+				<table>
+					<thead>
+						<tr><td>d8</td><td>Personality Trait</td></tr>
+					</thead>
+					<tr><td>1</td><td>I treat all beings, even enemies, with respect.</td></tr>
+					<tr><td>2</td><td>I won’t tell a lie.</td></tr>
+					<tr><td>3</td><td>I enjoy sharing my philosophical worldview and experiences with others.</td></tr>
+					<tr><td>4</td><td>I cut right to the chase in every conversation.</td></tr>
+					<tr><td>5</td><td>I often quote (or misquote) religious texts.</td></tr>
+					<tr><td>6</td><td>I anger quickly when I witness cruelty or injustice.</td></tr>
+					<tr><td>7</td><td>My praise and trust are earned and never given freely.</td></tr>
+					<tr><td>8</td><td>I like everything clean and organized.</td></tr>
+				</table>
+				<h5>Ideals</h5>
+				<table>
+					<thead>
+						<tr><td>d6</td><td>Ideal</td></tr>
+					</thead>
+					<tr><td>1</td><td>Charity. I always help those in need. (Good)</td></tr>
+					<tr><td>2</td><td>Faith. I choose to follow the tenets of a particular lawful good deity to the letter. (Lawful)</td></tr>
+					<tr><td>3</td><td>Responsibility. It is the duty of the strong to protect the weak. (Lawful)</td></tr>
+					<tr><td>4</td><td>Respect. All people deserve to be treated with dignity. (Good)</td></tr>
+					<tr><td>5</td><td>Honor. The way I conduct myself determines my reward in the afterlife. (Lawful)</td></tr>
+					<tr><td>6</td><td>Redemption. All creatures are capable of change for the better. (Good)</td></tr>
+				</table>
+				<h5>Bonds</h5>
+				<table>
+					<thead>
+						<tr><td>d6</td><td>Bond</td></tr>
+					</thead>
+					<tr><td>1</td><td>I have a favorite religious hymn that I constantly hum.</td></tr>
+					<tr><td>2</td><td>I must keep a written record of my beliefs and the sins that I witness. When finished, this book will be my gift to the multiverse.</td></tr>
+					<tr><td>3</td><td>I have cherished memories of Idyllglen, though I’ve only seen this bucolic town in dreams.</td></tr>
+					<tr><td>4</td><td>I would die for those who fight beside me, regardless of their faults.</td></tr>
+					<tr><td>5</td><td>I seek to honor the angel Zariel by destroying fiends and other evildoers wherever I find them.</td></tr>
+					<tr><td>6</td><td>The Sword of Zariel has chosen me. I shall not fail to wield it justly.</td></tr>
+				</table>
+				<h5>Flaws</h5>
+				<table>
+					<thead>
+						<tr><td>d6</td><td>Flaw</td></tr>
+					</thead>
+					<tr><td>1</td><td>I am too quick to judge others.</td></tr>
+					<tr><td>2</td><td>I offer forgiveness to readily.</td></tr>
+					<tr><td>3</td><td>I will sacrifice innocent lives for the greater good.</td></tr>
+					<tr><td>4</td><td>Flaw? What flaw? I am flawless. Utter perfection!</td></tr>
+					<tr><td>5</td><td>I allow nothing to stand in the way of my crusade to eradicate evil from the multiverse.</td></tr>
+					<tr><td>6</td><td>I ignore those who do not support my plans, for my calling is higher than all others.</td></tr>
+				</table>
+				<p class="indent"><strong><em>Holy Light.</em></strong> The sword sheds bright light in a 5-foot radius and dim light for an additional 5 feet. Fiends find the sword’s light disconcerting and painful, even if they can’t see it, and have disadvantage on attack rolls made within the weapon’s radius of bright light.</p>
+				<p class="indent">As a bonus action, you can intensify the sword’s light, causing it to shed bright light in a 15-foot radius and dim light for an additional 5 feet, or reduce its glow to its normal intensity.</p>
+				<p class="indent"><strong><em>Random Properties.</em></strong> The sword has 2 minor beneficial properties, each determined by rolling on the Minor Beneficial Properties table in chapter 7 of the <em>Dungeon Master’s Guide</em>.</p>
+				<p class="indent"><strong><em>Searing Radiance.</em></strong> The sword deals an extra 9 (2d8) radiant damage to any creature it hits, or 16 (3d10) radiant damage if you’re wielding the weapon with two hands. An evil creature that takes this radiant damage must succeed on a DC 17 Constitution saving throw or be blinded until the end of its next turn.</p>
+				<p class="indent"><strong><em>Sentience.</em></strong> The <em>Sword of Zariel</em> is a sentient lawful good item with an Intelligence of 10, a Wisdom of 20, and a Charisma of 18. It has hearing and normal vision out to a range of 30 feet.</p>
+				<p class="indent">The sword communicates by transmitting emotion to the creature carrying or wielding it.</p>
+				<p class="indent"><strong><em>Truth Seer.</em></strong> While holding the sword, you gain advantage on all Wisdom (Insight) checks.</p>
+				<p class="indent"><strong><em>Destroying the Sword.</em></strong> Zariel can destroy the sword simply by grasping it. She couldn’t bring herself to do so when she was an angel, but as an archdevil she has no compunction about ridding the multiverse of the weapon. The sword is also destroyed if it’s used to shatter the Companion, unless the blade is wielded by and angel of challenge rating 15 or higher, or a good-aligned cleric or paladin of at least 10th level.</p>
+				<p class="indent">If Zariel is killed for good (that is, if she dies in the Nine Hells), the sword becomes no harder to destroy that a normal longsword.</p>
+			</description>
+			<setters>
+				<set name="category">Magic Weapons</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="Longsword">Weapon</set>
+				<set name="rarity">Artifact</set>
+				<set name="attunement" addition="by a creature the sword deems worthy">true</set>
+				<set name="weapon">Longsword</set>
+			</setters>
+			<rules>
+				<grant type="Language" id="ID_LANGUAGE_CELESTIAL" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+				<stat name="charisma:score:set" value="20" bonus="base" />
+				<stat name="speed:fly" value="90" bonus="base" />
+				<grant type="Vision" id="ID_VISION_TRUESIGHT" />
+			</rules>
+		</element>
+	<!--T-->
+	<!--U-->
+	<!--V-->
+	<!--W-->
+	<!--X-->
+	<!--Y-->
+	<!--Z-->
+</elements>

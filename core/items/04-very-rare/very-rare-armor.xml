@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Items</name>
+		<description>The World of Morad Campagin Setting.</description>
+		<author url="">Richard Mraz</author>
+		<update version="0.1">
+			<file name="01-common.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common.xml" />
+		</update>
+	</info>
+<!--Armor-->
+	<!--A-->
+		<element name="Armor of the Mender" type="Magic Item" source="Relics of the Realms - Volume 5" id="ID_BONUSACTION_ROTR5_MAGIC_ITEM_ARMOR_OF_THE_MENDER">
+			<description>
+				<p><b>Immunity. </b>While wearing this half-plate you are immune to Diseases and have resistance against Poison damage.</p>
+				<p><b>Swift Response. </b>While wearing this armor you gain acces to the Spare the Dying cantrip. Additionaly you may cast it as a bonus action instead of an action.</p>
+				<p><b>Healer’s Boon. </b>This armor holds 3 charges. When you heal another creature through a spell or ability you may expend as many charges as you want. Each charge increases the healing by 1d6. The armor regains all charges after you finish a long rest.</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp"></set>
+				<set name="weight" lb="0">lb.</set>
+				<set name="type" addition="">Armor</set>
+				<set name="rarity">Very Rare</set>
+				<set name="enhancement">2</set>
+				<set name="slot">body</set>
+				<set name="attunement" addition="by a Cleric or a Paladin">true</set>
+				<set name="weapon"></set>
+				<set name="armor">ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL||ID_WOTC_ARMOR_MEDIUM_BREASTPLATE</set>
+				<set name="name-format">{{Parent}} of the Mender</set>
+				<set name="stackable"></set>
+				<set name="charges"></set>
+			</setters>
+			<rules>
+			</rules>
+		</element>
+	<!--B-->
+	<!--C-->
+	<!--D-->
+	<!--E-->
+	<!--F-->
+	<!--G-->
+	<!--H-->
+	<!--I-->
+	<!--J-->
+	<!--K-->
+	<!--L-->
+		<element name="Living Armor" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ARMOR_LIVING_ARMOR">
+			<description>
+				<p>This hideous armor is formed from black chitin, beneath which veins pulse and red sinews glisten. To attune to this item, you must wear it for the entire attunement period, during which tendrils on the inside burrow into you.</p>
+				<p class="indent">While wearing this armor, you have a +1 bonus to Armor Class, and you have resistance to the following damage types: necrotic, poison, and psychic.</p>
+				<p class="indent"><strong><em>Symbiotic Nature.</em></strong> The armor can’t be removed from you while you’re attuned to it, and you can’t voluntarily end your attunement to it. If you’re targeted by a spell that ends a curse, your attunement to the armor ends, and it detaches from you.</p>
+				<p class="indent">The armor requires fresh blood be fed to it. Immediately after you finish any long rest, you must either feed half of your remaining Hit Dice to the armor (round up) or take 1 level of exhaustion.</p>
+			</description>
+			<setters>
+				<set name="category">Magic Armor</set>
+				<set name="type" addition="any">Armor</set>
+				<set name="rarity">Very Rare</set>
+				<set name="attunement">true</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+				<set name="enhancement">1</set>
+				<set name="name-format">Living {{parent}}, +1</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+			</rules>
+		</element>
+	<!--M-->
+	<!--N-->
+	<!--O-->
+	<!--P-->
+	<!--Q-->
+	<!--R-->
+	<!--S-->
+	<!--T-->
+	<!--U-->
+	<!--V-->
+	<!--W-->
+	<!--X-->
+	<!--Y-->
+	<!--Z-->
+</elements>

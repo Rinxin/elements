@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Items</name>
+		<description>The World of Morad Campagin Setting.</description>
+		<author url="">Richard Mraz</author>
+		<update version="0.1">
+			<file name="01-common.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common.xml" />
+		</update>
+	</info>
+<!--Wondrous Item-->
+	<!--A-->
+	<!--B-->
+	<!--C-->
+	<!--D-->
+	<!--E-->
+	<!--F-->
+	<!--G-->
+	<!--H-->
+		<element name="Holy Symbol of Ravenkind" type="Magic Item" source="Curse of Strahd" id="ID_WOTC_COS_MAGIC_ITEM_HOLY_SYMBOL_OF_RAVENKIND">		
+			<description>
+				<p>The Holy Symbol of Raven kind is a unique holy symbol sacred to the good-hearted faithful of Barovia. It predates the establishment of any church in Barovia. According to legend, it was delivered to a paladin named Lugdana by a giant raven-or an angel in the form of a giant raven. Lugdana used the holy symbol to root out and destroy nests of vampires until her death. The high priests of Ravenloft kept and wore the holy symbol after Lugdana's passing.</p>
+				<p class="indent">The holy symbol is a platinum amulet shaped like the sun, with a large crystal embedded in its center.</p>
+				<p class="indent">The holy symbol has 10 charges for the following properties. It regains 1d6 + 4 charges daily at dawn.</p>
+				<p class="indent"><strong><em>Hold Vampires.</em></strong> As an action, you can expend 1 charge and present the holy symbol to make it flare with holy power. Vampires and vampire spawn within 30 feet of the holy symbol when it flares must make a DC 15 Wisdom saving throw. On a failed save, a target is paralyzed for 1 minute. It can repeat the saving throw at the end of each of its turns to end the effect on itself.</p>
+				<p class="indent"><strong><em>Turn Undead.</em></strong> If you have the-Turn Undead or the Turn the Unholy feature, you can expend 3 charges when you present the holy symbol while using that feature. When you do so, undead have disadvantage on their saving throws against the effect.</p>
+				<p class="indent"><strong><em>Sunlight.</em></strong> As an action, you can expend 5 charges while presenting the holy symbol to make it shed bright light in a 30-foot radius and dim light for an additional 30 feet. The light is sunlight and lasts for 10 minutes or until you end the effect (no action required).</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Legendary</set>
+				<set name="slot">neck</set>
+				<set name="attunement" addition="by a cleric or paladin of good alignment">true</set>
+				<set name="charges">10</set>
+			</setters>
+		</element>
+	<!--I-->
+		<element name="Icon of Ravenloft" type="Magic Item" source="Curse of Strahd" id="ID_WOTC_COS_MAGIC_ITEM_ICON_OF_RAVENLOFT">		
+			<description>
+				<p>The Icon of Raven loft is a 12-inch-tall statuette made of the purest silver, weighing 10 pounds. It depicts a cleric kneeling in supplication.</p>
+				<p class="indent">The icon was given to Strahd by the archpriest Ciril Romulich, an old family friend, to consecrate the castle and its chapel.</p>
+				<p class="indent">While within 30 feet of the icon, a creature is under the effect of a protection from evil and good spell against fiends and undead. Only a creature attuned to the icon can use its other properties.</p>
+				<p class="indent"><strong><em>Augury.</em></strong> You can use an action to cast an <em>augury</em> spell from the icon, with no material components required. Once used, this property can't be used again until the next dawn.</p>
+				<p class="indent"><strong><em>Bane of the Undead.</em></strong> You can use the icon as a holy symbol while using the Turn Undead or Turn the Unholy feature. If you do so, increase the save DC by 2.</p>
+				<p class="indent"><strong><em>Cure Wounds.</em></strong> While holding the icon, you can take an action to heal one creature that you can see within 30 feet of you. The target regains 3d8 + 3 hit points, unless it is an undead, a construct, or a fiend. Once used, this property can't be used again until the next dawn.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Legendary</set>
+				<set name="attunement" addition="by a creature of good alignment">true</set>
+			</setters>
+		</element>
+		<element name="Infernal Tack" type="Magic Item" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_MAGIC_ITEM_INFERNAL_TACK">
+			<description>
+				<p>A narzugon devil binds a nightmare (described in the Monster Manual) to its service with <em>infernal tack</em>, which consists of a bridle, bit, reins, saddle, stirrups, and spurs. A nightmare equipped with <em>infernal tack</em> must serve whoever wears the spurs until the wearer dies or the tack is removed.</p>
+				<p class="indent">You can use an action to call the nightmare equipped with <em>infernal tack</em> by clashing the spurs together or scraping them through blood. The nightmare appears at the start of your next turn, withing 20 feet of you. It acts as your ally and takes its turn on your initiative count. It remains for 1 day, until you or it dies, or until you dismiss it as an action. If the nightmare, it reforms in the Nine Hells within 24 hours, after which you can summon it again.</p>
+				<p class="indent">The tack doesn’t conjure a nightmare from thin air; one must first be subdued so the tack can be placed on it. No nightmare accepts this forced servitude willingly, but some eventually form strong loyalties to their masters and become partners in evil.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Legendary</set>
+				<set name="attunement" addition="by a creature of evil alignment">true</set>
+			</setters>
+		</element>
+	<!--J-->
+	<!--K-->
+	<!--L-->
+	<!--M-->
+	<!--N-->
+	<!--O-->
+	<!--P-->
+	<!--Q-->
+	<!--R-->
+	<!--S-->
+	<!--T-->
+	<!--U-->
+	<!--V-->
+	<!--W-->
+	<!--X-->
+	<!--Y-->
+	<!--Z-->
+</elements>

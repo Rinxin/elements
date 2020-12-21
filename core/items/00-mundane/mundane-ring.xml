@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Items</name>
+		<description>The World of Morad Campagin Setting.</description>
+		<author url="">Richard Mraz</author>
+		<update version="0.1">
+			<file name="mundane-ring.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/00-mundane/mundane-ring.xml" />
+		</update>
+	</info>
+<!--Ring-->
+	<!--A-->
+	<!--B-->
+	<!--C-->
+	<!--D-->
+	<!--E-->
+	<!--F-->
+	<!--G-->
+	<!--H-->
+	<!--I-->
+	<!--J-->
+	<!--K-->
+	<!--L-->
+	<!--M-->
+	<!--N-->
+	<!--O-->
+	<!--P-->
+	<!--Q-->
+	<!--R-->
+	<!--S-->
+		<element name="Signet Ring, House Cannith" type="Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ITEM_SIGNET_RING_HOUSE_CANNITH">
+			<description>
+				<p>A signet ring of the dragonmarked House Cannith.</p>
+			</description>
+			<setters>
+				<set name="category">Adventuring Gear</set>
+			</setters>
+		</element>
+		<element name="Signet Ring, House Deneith" type="Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ITEM_SIGNET_RING_HOUSE_DENEITH">
+			<description>
+				<p>A signet ring of the dragonmarked House Deneith.</p>
+			</description>
+			<setters>
+				<set name="category">Adventuring Gear</set>
+			</setters>
+		</element>
+		<element name="Signet Ring, House Ghallanda" type="Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ITEM_SIGNET_RING_HOUSE_GHALLANDA">
+			<description>
+				<p>A signet ring of the dragonmarked House Ghallanda.</p>
+			</description>
+			<setters>
+				<set name="category">Adventuring Gear</set>
+			</setters>
+		</element>
+		<element name="Signet Ring, House Jorasco" type="Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ITEM_SIGNET_RING_HOUSE_JORASCO">
+			<description>
+				<p>A signet ring of the dragonmarked House Jorasco.</p>
+			</description>
+			<setters>
+				<set name="category">Adventuring Gear</set>
+			</setters>
+		</element>
+		<element name="Signet Ring, House Kundarak" type="Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ITEM_SIGNET_RING_HOUSE_KUNDARAK">
+			<description>
+				<p>A signet ring of the dragonmarked House Kundarak.</p>
+			</description>
+			<setters>
+				<set name="category">Adventuring Gear</set>
+			</setters>
+		</element>
+		<element name="Signet Ring, House Lyrandar" type="Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ITEM_SIGNET_RING_HOUSE_LYRANDAR">
+			<description>
+				<p>A signet ring of the dragonmarked House Lyrandar.</p>
+			</description>
+			<setters>
+				<set name="category">Adventuring Gear</set>
+			</setters>
+		</element>
+		<element name="Signet Ring, House Medani" type="Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ITEM_SIGNET_RING_HOUSE_MEDANI">
+			<description>
+				<p>A signet ring of the dragonmarked House Medani.</p>
+			</description>
+			<setters>
+				<set name="category">Adventuring Gear</set>
+			</setters>
+		</element>
+		<element name="Signet Ring, House Orien" type="Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ITEM_SIGNET_RING_HOUSE_ORIEN">
+			<description>
+				<p>A signet ring of the dragonmarked House Orien.</p>
+			</description>
+			<setters>
+				<set name="category">Adventuring Gear</set>
+			</setters>
+		</element>
+		<element name="Signet Ring, House Phiarlan" type="Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ITEM_SIGNET_RING_HOUSE_PHIARLAN">
+			<description>
+				<p>A signet ring of the dragonmarked House Phiarlan.</p>
+			</description>
+			<setters>
+				<set name="category">Adventuring Gear</set>
+			</setters>
+		</element>
+		<element name="Signet Ring, House Sivis" type="Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ITEM_SIGNET_RING_HOUSE_SIVIS">
+			<description>
+				<p>A signet ring of the dragonmarked House Sivis.</p>
+			</description>
+			<setters>
+				<set name="category">Adventuring Gear</set>
+			</setters>
+		</element>
+		<element name="Signet Ring, House Tharashk" type="Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ITEM_SIGNET_RING_HOUSE_THARASHK">
+			<description>
+				<p>A signet ring of the dragonmarked House Tharashk.</p>
+			</description>
+			<setters>
+				<set name="category">Adventuring Gear</set>
+			</setters>
+		</element>
+		<element name="Signet Ring, House Thuranni" type="Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ITEM_SIGNET_RING_HOUSE_THURANNI">
+			<description>
+				<p>A signet ring of the dragonmarked House Thuranni.</p>
+			</description>
+			<setters>
+				<set name="category">Adventuring Gear</set>
+			</setters>
+		</element>
+		<element name="Signet Ring, House Vadalis" type="Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ITEM_SIGNET_RING_HOUSE_VADALIS">
+			<description>
+				<p>A signet ring of the dragonmarked House Vadalis.</p>
+			</description>
+			<setters>
+				<set name="category">Adventuring Gear</set>
+			</setters>
+		</element>
+	<!--T-->
+	<!--U-->
+	<!--V-->
+	<!--W-->
+	<!--X-->
+	<!--Y-->
+	<!--Z-->
+</elements>

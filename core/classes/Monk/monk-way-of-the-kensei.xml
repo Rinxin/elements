@@ -233,6 +233,15 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" />
 		</rules>
 	</element>
+	<element name="Kensei Weapon (Double-Bladed Scimitar)" type="Archetype Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ARCHETYPE_FEATURE_KENSEI_WEAPON_DOUBLE_BLADED_SCIMITAR">
+		<supports>Kensei Weapon, Melee</supports>
+        <description>
+			<p>You gain proficiency with the Double-Bladed Scimitar if you don’t already have it, and it is a monk weapon for you.</p>
+        </description>
+		<rules>
+			<grant type="Proficiency" id="ID_WOTC_ERLW_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR" />
+		</rules>
+	</element>
 	<element name="Kensei Weapon (Flail)" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_KENSEI_WEAPON_FLAIL">
 		<supports>Kensei Weapon, Melee</supports>
         <description>

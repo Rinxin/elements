@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Items</name>
+		<description>The World of Morad Campagin Setting.</description>
+		<author url="">Richard Mraz</author>
+		<update version="0.1">
+			<file name="01-common.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common.xml" />
+		</update>
+	</info>
+<!--Weapon-->
+	<!--A-->
+		<element name="Armblade" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ARMBLADE">
+			<description>
+				<p>An armblade is a magic weapon that attaches to your arm, becoming inseparable from you as long as you’re attuned to it. To attune to this item, you must hold it against your forearm for the entire attunement period.</p>
+				<p class="indent">As a bonus action, you can retract the armblade into your forearm or extend it from there. While it is extended, you can use the weapon as if you were holding it, and you can’t use that hand for other purposes.</p>
+			</description>
+			<setters>
+				<set name="category">Magic Weapons</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="any one-handed melee weapon">Weapon</set>
+				<set name="rarity">Common</set>
+				<set name="attunement" addition="by a warforged">true</set>
+				<set name="weapon">(ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE),!ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</set>
+				<set name="name-format">Armblade, {{parent}}</set>
+			</setters>
+		</element>
+	<!--B-->
+	<!--C-->
+	<!--D-->
+	<!--E-->
+	<!--F-->
+	<!--G-->
+	<!--H-->
+	<!--I-->
+	<!--J-->
+	<!--K-->
+	<!--L-->
+	<!--M-->
+	<!--N-->
+	<!--O-->
+	<!--P-->
+	<!--Q-->
+	<!--R-->
+	<!--S-->
+	<!--T-->
+	<!--U-->
+	<!--V-->
+	<!--W-->
+	<!--X-->
+	<!--Y-->
+	<!--Z-->
+</elements>

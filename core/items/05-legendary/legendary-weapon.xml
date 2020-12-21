@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Items</name>
+		<description>The World of Morad Campagin Setting.</description>
+		<author url="">Richard Mraz</author>
+		<update version="0.1">
+			<file name="01-common.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common.xml" />
+		</update>
+	</info>
+<!--Weapon-->
+	<!--A-->
+	<!--B-->
+	<!--C-->
+	<!--D-->
+	<!--E-->
+	<!--F-->
+		<element name="Fane-Eater" type="Magic Item" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_MAGIC_ITEM_FANE_EATER">
+			<description>
+				<p><em>Fane-Eater</em> is a battleaxe belonging to Arkhan the Cruel.</p>
+				<p class="indent">You gain a +3 bonus to attack and damage rolls with <em>Fane-Eater</em>. If you attack a creature with this weapon and roll a 20 on the attack roll, the creature takes an extra 2d8 necrotic damage, and you regain a number of hit points equal to the necrotic damage taken.</p>
+			</description>
+			<setters>
+				<set name="keywords">necrotic</set>
+				<set name="category">Magic Weapons</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="battleaxe">Weapon</set>
+				<set name="rarity">Legendary</set>
+				<set name="enhancement">3</set>
+				<set name="weapon">Battleaxe</set>
+				<set name="attunement" addition="by an evil cleric or paladin">true</set>
+			</setters>
+		</element>
+	<!--G-->
+	<!--H-->
+	<!--I-->
+	<!--J-->
+	<!--K-->
+	<!--L-->
+	<!--M-->
+		<element name="Matalotok" type="Magic Item" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_MAGIC_ITEM_MATALOTOK">
+			<description>
+				<p><em>Matalotok</em>, the Frost Father, is an ancient hammer fashioned by Thrym, the god of frost giants. The favored weapon of the demon lord Kostchtchie, <em>Matalotok</em> is frigid to the touch and wreathed in mist.</p>
+				<p class="indent">You are immune to cold damage while holding <em>Matalotok</em>. Whenever it deals damage to a creature, the hammer radiates a burst of intense cold in a 30-foot-radius sphere. Each creature in that area takes 10 (3d6) cold damage.</p>
+			</description>
+			<setters>
+				<set name="category">Magic Weapons</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="warhammer">Weapon</set>
+				<set name="rarity">Legendary</set>
+				<set name="attunement">true</set>
+				<set name="weapon">warhammer</set>
+			</setters>
+			<rules>
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_COLD" />
+			</rules>
+		</element>
+	<!--N-->
+	<!--O-->
+	<!--P-->
+	<!--Q-->
+	<!--R-->
+	<!--S-->
+		<element name="Sunsword" type="Magic Item" source="Curse of Strahd" id="ID_WOTC_COS_MAGIC_ITEM_SUNSWORD">		
+			<description>
+				<p>The <em>Sunsword</em> is a unique blade once possessed by Strahd's brother, Sergei von Zarovich. In its original form, it had a platinum hilt and guard, and a thin crystal blade as strong as steel.</p>
+				<p class="indent">Strahd employed a powerful wizard named Khazan to destroy the weapon after Sergei's death. The first part of the process required the hilt and the blade to be separated, which Khazan accomplished. While Khazan was busying himself destroying the blade, his apprentice stole the hilt and fled. Khazan later located his apprentice's mutilated corpse in the Svalich Woods, but the hilt was nowhere to be found. To avoid the vampire's wrath, Khazan told Strahd that the entire weapon had been destroyed.</p>
+				<p class="indent">The hilt, which is sentient, knows that it can never be reunited with its original crystal blade. It has, however, gained the properties of a <em>sun blade</em>.</p>
+				<p class="indent"><strong><em>Sentience.</em></strong> The <em>Sunsword</em> is a sentient chaotic good weapon with an Intelligence of 11, a Wisdom of 17, and a Charisma of 16. It has hearing and normal vision out to a range of 60 feet. The weapon communicates by transmitting emotions to the creature carrying or wielding it.</p>
+				<p class="indent"><strong><em>Personality.</em></strong> The <em>Sunsword</em>'s special purpose is to destroy Strahd, not so much because it wants to free the land of Barovia from evil but because it wants revenge for the loss of its crystal blade. The weapon secretly fears its own destruction.</p>
+			</description>
+			<setters>
+				<set name="category">Magic Weapons</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="longsword">Weapon</set>
+				<set name="rarity">Legendary</set>
+				<set name="weapon">Longsword</set>
+				<set name="attunement">true</set>
+			</setters>
+		</element>
+	<!--T-->
+	<!--U-->
+	<!--V-->
+	<!--W-->
+	<!--X-->
+	<!--Y-->
+	<!--Z-->
+</elements>

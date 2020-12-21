@@ -6,9 +6,105 @@
 		</update>
 	</info>
 	
-	
-	<element name="Tool Proficiency (Vehicles (Air and Sea))" type="Proficiency" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_AIR_SEA">
-		<supports>Tool, Vehicles</supports>
-		<sheet alt="Vehicles (Air and Sea)" />
+<!--Armor Proficencies-->
+<!--Weapon Proficencies-->
+	<element name="Weapon Proficiency (Double-Bladed Scimitar)" type="Proficiency" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR">
+		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL, ID_WOTC_ERLW_INTERNAL_WEAPON_PROPERTY_SPECIAL_DOUBLE_BLADED_SCIMITAR</supports>
 	</element>
+	
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+		<rules>
+			<grant type="Proficiency" id="ID_WOTC_ERLW_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR" />
+		</rules>
+	</append>
+<!--Skill Proficiencies-->
+	<append id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND">
+		<supports>Eberron Living Gloves Proficiency</supports>>
+	</append>
+<!--Skill Expertise-->
+<!--Tool Proficiencies-->
+	<element name="Tool Proficiency (Birdpipes)" type="Proficiency" source="Sword Coast Adventurer’s Guide" id="ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_BIRDPIPES">
+		<supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+		<description>
+			<p>Pan pipes or satyr pipes, also known as the shalm, these are sacred to Lliira and popular with wood elf and wild elf bards.</p>
+		</description>
+	</element>
+	<element name="Tool Proficiency (Glaur)" type="Proficiency" source="Sword Coast Adventurer’s Guide" id="ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_GLAUR">
+		<supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+		<description>
+			<p>Short, curved horns like a cornucopia. Played with valves, glaur sound like trumpets, while those without valves, known as gloon, have a more mournful sound.</p>
+		</description>
+	</element>
+	<element name="Tool Proficiency (Hand Drum)" type="Proficiency" source="Sword Coast Adventurer’s Guide" id="ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_HAND_DRUM">
+		<supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+		<description>
+			<p>A double-headed skin drum fitted with handles along its side.</p>
+		</description>
+	</element>
+	<element name="Tool Proficiency (Longhorn)" type="Proficiency" source="Sword Coast Adventurer’s Guide" id="ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_LONGHORN">
+		<supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+		<description>
+			<p>A Faerilnian flute of sophisticated make, found only in areas with skilled artisans, as in great cities or elven enclaves.</p>
+		</description>
+	</element>
+	<element name="Tool Proficiency (Shawm)" type="Proficiency" source="Sword Coast Adventurer’s Guide" id="ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_SHAWM">
+		<supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+		<description>
+			<p>A double-reed instrument similar to an oboe or a bassoon, popular with gnomes, who have developed some bellows-powered versions.</p>
+		</description>
+	</element>
+	<element name="Tool Proficiency (Songhorn)" type="Proficiency" source="Sword Coast Adventurer’s Guide" id="ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_SONGHORN">
+		<supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+		<description>
+			<p>A recorder, a simple type of flute, usually carved from wood.</p>
+		</description>
+	</element>
+	<element name="Tool Proficiency (Tantan)" type="Proficiency" source="Sword Coast Adventurer’s Guide" id="ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_TANTAN">
+		<supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+		<description>
+			<p>A tambourine, a popular instrument with halflings and humans south of the Dalelands.</p>
+		</description>
+	</element>
+	<element name="Tool Proficiency (Thelarr)" type="Proficiency" source="Sword Coast Adventurer’s Guide" id="ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_THELARR">
+		<supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+		<description>
+			<p>Also known as a whistlecane, a simple and easy-to-make wind instrument cut from a reed. They are so simple, in fact, that skilled bards frequently make and give them away to children-to the parents' delight or regret.</p>
+		</description>
+	</element>
+	<element name="Tool Proficiency (Tocken)" type="Proficiency" source="Sword Coast Adventurer’s Guide" id="ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_TOCKEN">
+		<supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+		<description>
+			<p>A hanging set of carved oval bells, usually played with a pair of light wooden hammers (or open handed). They are most common in underground cultures, where the resonant tones can carry.</p>
+		</description>
+	</element>
+	<element name="Tool Proficiency (Vehicles (Air))" type="Proficiency" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_AIR">
+		<supports>Tool, Vehicles (Air)</supports>
+		<sheet alt="Vehicles (Air)" />
+	</element>
+	<element name="Tool Proficiency (Vehicles (Sea))" type="Proficiency" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_SEA">
+		<supports>Tool, Vehicles (Sea)</supports>
+		<sheet alt="Vehicles (Sea)" />
+	</element>
+	<element name="Tool Proficiency (Wargong)" type="Proficiency" source="Sword Coast Adventurer’s Guide" id="ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_WARGONG">
+		<supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+		<description>
+			<p>A metal gong, traditionally made from a shield, particularly the shield of an enemy. Both goblins and dwarves make and play wargongs, their sound echoing through tunnels in the Underdark.</p>
+		</description>
+	</element>
+	<element name="Tool Proficiency (Yarting)" type="Proficiency" source="Sword Coast Adventurer’s Guide" id="ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_YARTING">
+		<supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+		<description>
+			<p>A southern instrument from Arnn and Calimshan that is a Faerilnian analog to the guitar. Numerous variations have spread across the continent.</p>
+		</description>
+	</element>
+	<element name="Tool Proficiency (Zulkoon)" type="Proficiency" source="Sword Coast Adventurer’s Guide" id="ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_ZULKOON">
+		<supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+		<description>
+			<p>A complex pump organ that originated with the zulkirs of Thay, who use it in the casting of their spells. It is considered to have a dramatic, but sinister, sound.</p>
+		</description>
+	</element>
+	
+	<append id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS">
+		<supports>Eberron Living Gloves Proficiency</supports>>
+	</append>
 </elements>

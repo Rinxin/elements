@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Items</name>
+		<description>The World of Morad Campagin Setting.</description>
+		<author url="">Richard Mraz</author>
+		<update version="0.1">
+			<file name="01-common.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common.xml" />
+		</update>
+	</info>
+<!--Wondrous Item-->
+	<!--A-->
+	<!--B-->
+		<element name="Belashyrra’s Beholder Crown" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_BELASHYRRAS_BEHOLDER_CROWN">
+			<description>
+				<p>This symbiotic crown is carved from dark purple and mauve stone, with ten points like stalks set with gemstones resembling the eyestalks of a beholder. To attune to this item, you must wear it on your head for the entire attunement period, during which the crown’s hidden tendrils burrow into your scalp to bond with your skull.</p>
+				<p class="indent">While wearing the crown, you can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</p>
+				<p class="indent"><strong><em>Spells.</em></strong> The crown has 10 charges. While wearing it, you can use an action to expend some of its charges to cast one of the following spells from it (spell save DC 16): charm person (1 charge), disintegrate (6 charges), fear (3 charges), finger of death (7 charges), flesh to stone (6 charges), hold person (2 charges), ray of enfeeblement (2 charges), sleep (1 charge), slow (3 charges), telekinesis (5 charges).</p>
+				<p class="indent">The crown regains 1d6 + 3 expended charges daily at dawn.</p>
+				<p class="indent"><strong><em>Symbiotic Nature.</em></strong> The crown can’t be removed from you while you’re attuned to it, and you can’t voluntarily end your attunement to it. If you’re targeted by a spell that ends a curse, your attunement to the crown ends, and it detaches from you.</p>
+				<p class="indent">The daelkyr Belashyrra made these crowns. While on the same plane of existence as the crown, Belashyrra can see through its eyestalks.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Legendary</set>
+				<set name="slot">head</set>
+				<set name="attunement">true</set>
+				<set name="charges">10</set>
+			</setters>
+		</element>
+	<!--C-->
+	<!--D-->
+	<!--E-->
+	<!--F-->
+	<!--G-->
+	<!--H-->
+	<!--I-->
+	<!--J-->
+	<!--K-->
+	<!--L-->
+	<!--M-->
+	<!--N-->
+	<!--O-->
+	<!--P-->
+	<!--Q-->
+	<!--R-->
+	<!--S-->
+	<!--T-->
+	<!--U-->
+	<!--V-->
+	<!--W-->
+	<!--X-->
+	<!--Y-->
+	<!--Z-->
+</elements>

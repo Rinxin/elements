@@ -9,12 +9,12 @@
 		</update>
 	</info>
 	<files>
-		<file name="00-mundane.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/00-mundane.xml" />
-		<file name="01-common.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common.xml" />
-		<file name="02-uncommon.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/02-uncommon.xml" />
-		<file name="03-rare.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/03-rare.xml" />
-		<file name="04-very-rare.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/04-very-rare.xml" />
-		<file name="05-legendary.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/05-legendary.xml" />
-		<file name="06-artifact.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/06-artifact.xml" />    
+		<file name="00-mundane.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/00-mundane.index" />
+		<file name="01-common.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common.index" />
+		<file name="02-uncommon.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/02-uncommon.index" />
+		<file name="03-rare.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/03-rare.index" />
+		<file name="04-very-rare.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/04-very-rare.index" />
+		<file name="05-legendary.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/05-legendary.index" />
+		<file name="06-artifact.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/06-artifact.index" />
     </files>
 </index>

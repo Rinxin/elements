@@ -40,6 +40,47 @@
 			<select type="Proficiency" name="Tool Proficiency, Artillerist" supports="Tool" default="ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS" />
 		</rules>
 	</element>
+		<!--Arcane Firearms-->
+			<element name="Arcane Firearm, Wand" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ARCANE_FIREARM_WAND">
+				<description>
+					<p>You can use your arcane firearm as a spellcasting focus for your artificer spells. When you cast an artificer spell through the firearm, roll a d8, and you gain a bonus to one of the spell’s damage rolls equal to the number rolled.</p>
+				</description>
+				<setters>
+					<set name="keywords">artificer,artillerist</set>
+					<set name="category">Wands</set>
+					<set name="cost" currency="gp">0</set>
+					<set name="weight" lb="1">1 lb.</set>
+					<set name="slot">onehand</set>
+					<set name="type" addition="artificer">Wand</set>
+				</setters>
+			</element>
+			<element name="Arcane Firearm, Staff" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ARCANE_FIREARM_STAFF">
+				<description>
+					<p>You can use your arcane firearm as a spellcasting focus for your artificer spells. When you cast an artificer spell through the firearm, roll a d8, and you gain a bonus to one of the spell’s damage rolls equal to the number rolled.</p>
+				</description>
+				<setters>
+					<set name="keywords">artificer,artillerist</set>
+					<set name="category">Staffs</set>
+					<set name="cost" currency="gp">0</set>
+					<set name="weight" lb="4">4 lb.</set>
+					<set name="slot">onehand</set>
+					<set name="weapon">Quarterstaff</set>
+					<set name="type" addition="artificer">Staff</set>
+				</setters>
+			</element>
+			<element name="Arcane Firearm, Rod" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ARCANE_FIREARM_ROD">
+				<description>
+					<p>You can use your arcane firearm as a spellcasting focus for your artificer spells. When you cast an artificer spell through the firearm, roll a d8, and you gain a bonus to one of the spell’s damage rolls equal to the number rolled.</p>
+				</description>
+				<setters>
+					<set name="keywords">artificer,artillerist</set>
+					<set name="category">Rods</set>
+					<set name="cost" currency="gp">0</set>
+					<set name="weight" lb="2">2 lb.</set>
+					<set name="slot">onehand</set>
+					<set name="type" addition="artificer">Rod</set>
+				</setters>
+			</element>
 	<element name="Artillerist Spells" type="Archetype Feature" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ARCHETYPE_FEATURE_ARTILLERIST_ARTILLERIST_SPELLS">
 		<description>
 			<p>Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Artillerist Spells table. These spells count as artificer spells for you, but they don’t count against the number of artificer spells you prepare.</p>

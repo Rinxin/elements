@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Items</name>
+		<description>The World of Morad Campagin Setting.</description>
+		<author url="">Richard Mraz</author>
+		<update version="0.1">
+			<file name="01-common.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common.xml" />
+		</update>
+	</info>
+<!--Wondrous Item-->
+	<!--A-->
+		<element name="Alchemist's Medicine Maker" type="Magic Item" source="Relics of the Realms - Volume 5" id="ID_BONUSACTION_ROTR5_MAGIC_ITEM_ALCHEMISTS_MEDICINE_MAKER">
+			<description>
+				<p><b>Cure-all Potion. </b>You can fill this flask with any type of liquid that is not poisonous. After 24 hours have passed the liquid becomes imbued with the enchantment. You can use a bonus action to speak a command word which causes the imbued liquid to gain or switch properties. The liquid takes on the properties of one the potions or spells from the table below. The liquid loses the properties if left out of this flask for over a minute.</p>
+				<table>
+				<h5>Potion Properties</h5>
+				<thead>
+					<tr><td>Option</td><td>Origin Type</td></tr>
+				</thead>
+				<tr><td>Freedom of Movement</td><td>Spell</td></tr>
+				<tr><td>Greater Restoration</td><td>Spell</td></tr>
+				<tr><td>Lesser Restoration</td><td>Spell</td></tr>
+				<tr><td>Potion of Healing, Greater</td><td>Potion</td></tr>
+				<tr><td>Potion of Heroism</td><td>Potion</td></tr>
+				<tr><td>Potion of Resistance, Poison</td><td>Potion</td></tr>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Rare</set>
+				<set name="enhancement"></set>
+				<set name="slot"></set>
+				<set name="attunement" addition=""></set>
+				<set name="weapon"></set>
+				<set name="armor"></set>
+				<set name="name-format"></set>
+				<set name="stackable"></set>
+				<set name="charges"></set>
+			</setters>
+			<rules>
+			</rules>
+		</element>
+	<!--B-->
+	<!--C-->
+	<!--D-->
+		<element name="Docent" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_DOCENT">
+			<description>
+				<p>A docent is a small metal sphere, about 2 inches across, studded with dragonshards. To attune to a docent, you must embed the item somewhere on your body, such as your chest or your eye socket.</p>
+				<p class="indent"><strong><em>Sentience.</em></strong> A docent is a sentient item of any alignment with an Intelligence of 16, a Wisdom of 14, and a Charisma of 14. It perceives the world through your senses. It communicates telepathically with you and can speak, read, and understand any language it knows (see "Random Properties" below).</p>
+				<p class="indent"><strong><em>Life Support.</em></strong> Whenever you end your turn with 0 hit points, the docent can make a Wisdom (Medicine) check with a +6 bonus. If this check succeeds, the docent stabilizes you.</p>
+				<p class="indent"><strong><em>Random Properties.</em></strong> A docent has the following properties:</p>
+				<ul class="unstyled">
+					<li><strong>Languages.</strong> The docent knows Common, Giant, and 1d4 additional languages chosen by the DM. If a docent knows fewer than six languages, it can learn a new language after it hears or reads the language through your senses.</li>
+					<li><strong>Skills.</strong> The docent has a +7 bonus to one of the following skills (roll a d4): (1) Arcana, (2) History, (3) Investigation, or (4) Nature.</li>
+					<li><strong>Spells.</strong> The docent knows one of the following spells and can cast it at will, requiring no components (roll a d6): (1-2) detect evil and good or (3-6) detect magic. The docent decides when to cast the spell.</li>
+				</ul>
+				<br/>
+				<p class="indent"><strong><em>Personality.</em></strong> A docent is designed to advise and assist the warforged it’s attached to. One of the simple functions of a docent is to serve as a translator. The docent’s properties are under its control, and if you have a bad relationship with your docent, it might refuse to assist you.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Rare</set>
+				<set name="attunement" addition="by a warforged">true</set>
+			</setters>
+		</element>
+	<!--E-->
+	<!--F-->
+	<!--G-->
+		<element name="Gauntlets of Flaming Fury" type="Magic Item" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_MAGIC_ITEM_GAUNTLETS_OF_FLAMING_FURY">
+			<description>
+				<p>While you wear both these steel gauntlets, any non-magical weapon you grasp with either gauntlet is treated as a magic weapon. As a bonus action, you can use the gauntlets to cause magical flames to envelop one or two melee weapons in your grasp. Each flaming weapon deals and extra 1d6 fire damage on a hit. These flames last until you sheath or let go of either weapon. Once used, this property can’t be used again until the next dawn.</p>
+			</description>
+			<setters>
+				<set name="keywords">fire</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Rare</set>
+				<set name="attunement">true</set>
+				<set name="slot">hands</set>
+			</setters>
+		</element>
+	<!--H-->
+	<!--I-->
+		<element name="Íta Mâl" type="Item" source="Mraz-Homebrew" id="ID_HOMEBREW_ITEM_ITA_MAL">
+			<description>
+				<p>A creature subjected to this poison must make a DC 15 (+1 per failed save), Constitution saving throw. On a failed save, Upon lifting the vial to the characters nose and inhaling deeply, the user will be filled with an immense sense of power and benefit from the below effects for 8 hour:</p>
+				<ul>
+					<li>Advantage on Str Ability Checks.</li>
+					<li>Bonus Action to use Dash.</li>
+					<li>Your size counts as one larger for weight limits.</li>
+					<li>In combat you can take one extra action per battle.</li>
+				</ul>
+				<p></p>
+				<div class="reference">
+					<div element="ID_INTERNAL_SUPPORT_POISON_INHALED" />
+				</div>
+			</description>
+			<setters>
+				<set name="keywords">poison,ihnale</set>
+				<set name="category">Poison</set>
+				<set name="rarity">Rare</set>
+				<set name="cost" currency="gp">125</set>
+				<set name="weight" lb="0.02">1/50 lb.</set>
+				<set name="stackable">true</set>
+			</setters>
+			<sheet alt="Íta Mâl (Inhaled)" />		
+		</element>
+	<!--J-->
+	<!--K-->
+	<!--L-->
+	<!--M-->
+	<!--N-->
+	<!--O-->
+	<!--P-->
+	<!--Q-->
+	<!--R-->
+	<!--S-->
+	<!--T-->
+	<!--U-->
+	<!--V-->
+		<element name="Ventilating Lungs" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_VENTILATING_LUNGS">
+			<description>
+				<p>These metallic nodules were created in response to the poisonous gases used on the battlefields of the Last War. When you attune to these lungs, they replace the lungs in your chest, which disappear. The lungs allow you to breathe normally, even in an antimagic field, and their breathing function can’t be suppressed by magic.</p>
+				<p class="indent">Outside an antimagic field or any other effect that suppresses magic, these lungs allow you to breathe normally in any environment (including a vacuum), and you have advantage on saving throws against harmful gases such as those created by a cloudkill spell, a stinking cloud spell, inhaled poisons, and gaseous breath weapons .</p>
+				<p class="indent">As an action, you can use these lungs to exhale a gust of wind, as if you had cast the gust of wind spell (spell save DC 15) with no components. This property of the lungs can’t be used again until the next dawn.</p>
+				<p class="indent">If your attunement to the lungs ends, your original lungs reappear.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Rare</set>
+				<set name="attunement">true</set>
+			</setters>
+		</element>
+	<!--W-->
+	<!--X-->
+	<!--Y-->
+	<!--Z-->
+</elements>

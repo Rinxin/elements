@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<info>
+		<name>Items</name>
+		<description>The World of Morad Campagin Setting.</description>
+		<author url="">Richard Mraz</author>
+		<update version="0.1">
+			<file name="01-common.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common.xml" />
+		</update>
+	</info>
+<!--Wondrous Item-->
+	<!--A-->
+	<!--B-->
+	<!--C-->
+	<!--D-->
+	<!--E-->
+		<element name="Earworm" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_EARWORM">
+			<description>
+				<p>To attune to this symbiont, you must hold it against the skin behind your ear for the entire attunement period, whereupon it burrows into your head and bonds to your skull. While the earworm is inside you, you can speak, read, and write Deep Speech.</p>
+				<p class="indent"><strong><em>Spells.</em></strong> The earworm has 4 charges. You can cast the following spells from it, expending the necessary number of charges (spell save DC 15): detect thoughts (2 charges) or dissonant whispers (1 charge). Each time you use the earworm to cast the detect thoughts spell, it sends the information gleaned to the nearest daelkyr, or to the next nearest earworm until it reaches a daelkyr.</p>
+				<p class="indent">The earworm regains 1d4 expended charges daily at dawn.</p>
+				<p class="indent"><strong><em>Symbiotic Nature.</em></strong> The earworm can’t be removed from you while you’re attuned to it, and you can’t voluntarily end your attunement to it. If you’re targeted by a spell that ends a curse, your attunement to the earworm ends, and it exits your body.</p>
+				<!-- todo: add spell references -->
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+				<set name="attunement">true</set>
+				<set name="charges">4</set>
+			</setters>
+			<rules>
+				<grant type="Language" id="ID_LANGUAGE_DEEP_SPEECH" />
+			</rules>
+		</element>
+	<!--F-->
+		<element name="Finder’s Goggles" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_FINDERS_GOGGLES">
+			<description>
+				<p>The lenses of these garish goggles are carved from Siberys dragonshards. While wearing these lenses, you gain the following benefits:</p>
+				<ul>
+					<li>When you make a Wisdom (Insight) check, you can roll a d4 and add the number rolled to the check.</li>
+					<li>As an action, you can use the goggles to examine an object to identify the aura of the last creature that touched it. Make a Wisdom (Insight) check against a DC of 13 + the number of days since the last contact occurred. On a success, you learn the creature’s type and can immediately use the goggles to cast locate creature to find that creature. This property can’t be used again until the next dawn.</li>
+				</ul>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+				<set name="slot">head</set>
+				<set name="attunement" addition="by a creature with the Mark of Finding">true</set>
+			</setters>
+		</element>
+	<!--G-->
+		<element name="Glamerweave" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_GLAMERWEAVE_UNCOMMON">
+			<description>
+				<p>Glamerweave is clothing imbued with harmless illusory magic. While wearing the common version of these clothes, you can use a bonus action to create a moving illusory pattern within the cloth.</p>
+				<p class="indent">Uncommon glamerweave can have the pattern rise from the cloth. For example, a glamerweave gown might be wreathed in harmless, illusory flames, while a glamerweave hat might have illusory butterflies fluttering around it.</p>
+				<p class="indent">When you make a Charisma (Performance) or Charisma (Persuasion) check while wearing the uncommon version of glamerweave, you can roll a d4 and add the number rolled to the check. Once you use this property, it can’t be used again until the next dawn.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+				<set name="slot">misc</set>
+			</setters>
+		</element>	
+	<!--H-->
+	<!--I-->
+		<element name="Infernal Puzzle Box" type="Magic Item" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_MAGIC_ITEM_INFERNAL_PUZZLE_BOX">
+			<description>
+				<p>An <em>infernal puzzle box</em> is a cube-shaped container 5 to 6 inches on a side, composed of airtight, interlocking parts made from materials found in the Nine Hells. Most of these boxes are made of infernal iron, though some are carved from bone or horn. <em>Infernal puzzle box</em> are used to safeguard diabolical contracts signed between devils and mortals, even after the terms of these contracts are fulfilled. An empty <em>infernal puzzle box</em> weighs 3 pounds regardless of the materials used to fashion it.</p>
+				<p class="indent">When an object small enough to fit inside an <em>infernal puzzle box</em> is placed in it, the container magically sealed shut around the object, and no magic can forced the box open. The sealed box becomes immune to all damage as well. Every <em>infernal puzzle box</em> is constructed with a unique means of opening it. The trick to solving the puzzle is always mundane, never magical. Once a creature figures out the trick or sequence of steps needed to open a particular <em>infernal puzzle box</em>, that creature can open the box as an action, allowing access to the box’s contents.</p>
+				<p class="indent">A creature that spends 1 hour hiding an <em>infernal puzzle box</em> while trying to open it can make a DC 30 Intelligence (Investigation) check. If the check succeeds, the creature figures out the trick or sequence of steps needed to open the box. If the check fails by 5 or more, the creature must make a DC 18 Wisdom saving throw, taking 42 (12d6) psychic damage on a failed save, or half as much damage on a successful one.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="3">3 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+	<!--J-->
+	<!--K-->
+	<!--L-->
+		<element name="Living Gloves" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_LIVING_GLOVES">
+			<description>
+				<p>These symbiotic gloves-made of thin chitin and sinew-pulse with a life of their own. To attune to them, you must wear them for the entire attunement period, during which the gloves bond with your skin.</p>
+				<p class="indent">While attuned to these gloves, you gain one of the following proficiencies (your choice when you attune to the gloves):</p>
+				<ul>
+					<li>Sleight of Hand</li>
+					<li>Thieves’ tools</li>
+					<li>One kind of artisan’s tools of your choice</li>
+					<li>One kind of musical instrument of your choice</li>
+				</ul>
+				<p>When you make an ability check using the chosen proficiency, you add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>
+				<p class="indent"><strong><em>Symbiotic Nature.</em></strong> The gloves can’t be removed from you while you’re attuned to them, and you can’t voluntarily end your attunement to them. If you’re targeted by a spell that ends a curse, your attunement to the gloves ends, and they can be removed.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+				<set name="slot">hands</set>
+				<set name="attunement">true</set>
+			</setters>
+			<rules>
+				<select type="Proficiency" name="Proficiency, Living Gloves" supports="Artisan tools||Musical Instrument||Eberron Living Gloves Proficiency" />
+			</rules>
+		</element>
+	<!--M-->
+	<!--N-->
+	<!--O-->
+	<!--P-->
+	<!--Q-->
+	<!--R-->
+	<!--S-->
+		<element name="Soul Coin" type="Magic Item" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_MAGIC_ITEM_SOUL_COIN">
+			<description>
+				<p><em>Soul coins</em> are about 5 inches across and about an inch thick, minted from infernal iron. Each coin weighs one-third of a pound, and is inscribed with Infernal writing and a spell that magically binds a single soul to the coin. Because each <em>soul coin</em> has a unique soul trapped within it, each has a story. A creature might have been imprisoned as a result of defaulting on a deal, while another might be the victim of a night hag’s curse.</p>
+				<p class="indent"><strong><em>Carrying Soul Coins.</em></strong> To hold a <em>soul coin</em> is to feel the soul bound within it—overcome with rage or fraught with despair.</p>
+				<p class="indent">An evil creature can carry as many <em>soul coins</em> as it wishes (up to its maximum weight allowance). A non-evil creature can carry a number of <em>soul coins</em> equal to or less than its Constitution modifier has disadvantage on its attack rolls, ability checks, and saving throws.</p>
+				<p class="indent"><strong><em>Using a Soul Coin.</em></strong> A <em>soul coin</em> has 3 charges. A creature carrying the coin can use its action to expend 1 charge from a <em>soul coin</em> and use it to do one of the following:</p>
+				<ul>
+					<li><strong>Drain Life.</strong> You siphon away some of the soul’s essence and gain 1d10 temporary hit points.</li>
+					<li><strong>Query.</strong> You telepathically ask the soul a question and receive a brief telepathic response, which you can understand. The soul knows only what it knew in life, but it must answer you truthfully and to the best of its ability. The answer is no more that a sentence or two and might be cryptic.</li>
+				</ul>
+				<p class="indent"><strong><em>Freeing a Soul.</em></strong> Casting a spell that removes a curse on a <em>soul coin</em> frees the soul trapped within it, and does expending all of the coin’s charges. The coin itself rusts from within and is destroyed once the soul is released. A freed soul travels to the realm of the god it served or the outer plane most closely tied to its alignment (DM’s choice). The souls of lawful evil creatures released from <em>soul coins</em> typically emerge from the River Styx as lemure devils.</p>
+				<p class="indent">A soul can also be freed by destroying the coin that contains it. A <em>soul coin</em> has AC 19, 1 hit point for each charge it has remaining, and immunity to all damage except that which is dealt by a <em>hellfire weapon</em> or an infernal war machine’s furnace.</p>
+				<p class="indent">Freeing a soul from a <em>soul coin</em> is considered a good act, even if the soul belongs to an evil creature.</p>
+				<p class="indent"><strong><em>Hellish Currency.</em></strong><em>Soul coins</em> are a currency of the Nine Hells and are highly valued by devils. The coins are used among the infernal hierarchy to barter for favors, bribe the unwilling, and reward the faithful for services rendered.</p>
+				<p class="indent"><em>Soul coins</em> are created by Mammon and his greater devils on Minauros, the third layer of the Nine Hells, in a vast chamber where the captured souls of evil mortals are bound into the coins. These coins are then distributed throughout the Nine Hells to be used for goods and services, infernal deals, dark bargains, and bribes.</p>
+			</description>
+			<setters>
+				<set name="keywords">currency</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0.333">1/3 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+				<set name="stackable">true</set>
+				<set name="charges">3</set>
+			</setters>
+		</element>
+	<!--T-->
+	<!--U-->
+	<!--V-->
+	<!--W-->
+		<element name="Wheel of Wind and Water" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_WHEEL_OF_WIND_AND_WATER">
+			<description>
+				<p>When mounted at the helm of an elemental galleon or airship, this wheel allows a creature that possesses the Mark of Storm to telepathically control the elemental bound inside the vessel.</p>
+				<p class="indent">If a wheel of wind and water is mounted on a mundane sailing ship, a creature with the Mark of Storm who is using the wheel can create an area of ideal conditions around the vessel, increasing its speed by 5 miles per hour.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+	<!--X-->
+	<!--Y-->
+	<!--Z-->
+</elements>

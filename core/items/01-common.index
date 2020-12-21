@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Items</name>
+		<description>The World of Morad Campagin Setting.</description>
+		<author url="">Richard Mraz</author>
+		<update version="0.1">
+			<file name="01-common.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common.index" />
+		</update>
+	</info>
+	<files>
+		<file name="common-armor.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common/common-armor.xml" />
+        <file name="common-potion.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common/common-potion.xml" />
+        <file name="common-ring.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common/common-ring.xml" />
+        <file name="common-rod.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common/common-rod.xml" />
+        <file name="common-scroll.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common/common-scroll.xml" />
+        <file name="common-staff.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common/common-staff.xml" />
+        <file name="common-wand.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common/common-wand.xml" />
+        <file name="common-weapon.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common/common-weapon.xml" />
+        <file name="common-wondrous-item.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common/common-wondrous-item.xml" />
+    </files>
+</index>
