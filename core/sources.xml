@@ -598,7 +598,7 @@
 			<setters>
 				<set name="abbreviation">RotR1</set>
 				<set name="url">https://www.patreon.com/bonusaction/</set>
-				<set name="image">https://c10.patreonusercontent.com/3/eyJ3Ijo2MjB9/patreon-media/p/post/40314451/5eca8baf4735499f9e62ca7d5db12d43/1.jpeg?token-time=1608588047&token-hash=dp2HS3D5oEkLi2JITTeRw-8snGye5ZjOgONQLMyL324%3D</set>
+				<set name="image">https://c10.patreonusercontent.com/3/eyJ3Ijo2MjB9/patreon-media/p/post/40314451/5eca8baf4735499f9e62ca7d5db12d43/1.jpeg?token-time=1608588047&amp;token-hash=dp2HS3D5oEkLi2JITTeRw-8snGye5ZjOgONQLMyL324%3D</set>
 				<set name="author" abbreviation="@BA" url="https://www.patreon.com/bonusaction/">@BonusAction</set>
 				<set name="third-party">true</set>
 				<!-- <set name="release"></set> -->
