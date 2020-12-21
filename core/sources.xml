@@ -592,6 +592,73 @@
 <!--2021-->
 
 <!--Third Party-->
+	<!--@BonusAction-->
+		<element name="Relics of the Realms - Volume 1" type="Source" source="Core" id="ID_BONUSACTION_ROTR1_SOURCE_RELICS_OF_THE_REALMS_1">
+			<description />
+			<setters>
+				<set name="abbreviation">RotR1</set>
+				<set name="url">https://www.patreon.com/bonusaction/</set>
+				<set name="image">https://c10.patreonusercontent.com/3/eyJ3Ijo2MjB9/patreon-media/p/post/40314451/5eca8baf4735499f9e62ca7d5db12d43/1.jpeg?token-time=1608588047&token-hash=dp2HS3D5oEkLi2JITTeRw-8snGye5ZjOgONQLMyL324%3D</set>
+				<set name="author" abbreviation="@BA" url="https://www.patreon.com/bonusaction/">@BonusAction</set>
+				<set name="third-party">true</set>
+				<!-- <set name="release"></set> -->
+			</setters>
+		</element>
+		<element name="Relics of the Realms - Volume 2" type="Source" source="Core" id="ID_BONUSACTION_ROTR2_SOURCE_RELICS_OF_THE_REALMS_2">
+			<description />
+			<setters>
+				<set name="abbreviation">RotR2</set>
+				<set name="url">https://www.patreon.com/bonusaction/</set>
+				<set name="image">https://c10.patreonusercontent.com/3/eyJ3Ijo2MjB9/patreon-media/p/post/40314451/5eca8baf4735499f9e62ca7d5db12d43/1.jpeg?token-time=1608588047&token-hash=dp2HS3D5oEkLi2JITTeRw-8snGye5ZjOgONQLMyL324%3D</set>
+				<set name="author" abbreviation="@BA" url="https://www.patreon.com/bonusaction/">@BonusAction</set>
+				<set name="third-party">true</set>
+				<!-- <set name="release"></set> -->
+			</setters>
+		</element>
+		<element name="Relics of the Realms - Volume 3" type="Source" source="Core" id="ID_BONUSACTION_ROTR3_SOURCE_RELICS_OF_THE_REALMS_3">
+			<description />
+			<setters>
+				<set name="abbreviation">RotR3</set>
+				<set name="url">https://www.patreon.com/bonusaction/</set>
+				<set name="image">https://c10.patreonusercontent.com/3/eyJ3Ijo2MjB9/patreon-media/p/post/40314451/5eca8baf4735499f9e62ca7d5db12d43/1.jpeg?token-time=1608588047&token-hash=dp2HS3D5oEkLi2JITTeRw-8snGye5ZjOgONQLMyL324%3D</set>
+				<set name="author" abbreviation="@BA" url="https://www.patreon.com/bonusaction/">@BonusAction</set>
+				<set name="third-party">true</set>
+				<!-- <set name="release"></set> -->
+			</setters>
+		</element>
+		<element name="Relics of the Realms - Volume 4" type="Source" source="Core" id="ID_BONUSACTION_ROTR4_SOURCE_RELICS_OF_THE_REALMS_4">
+			<description />
+			<setters>
+				<set name="abbreviation">RotR4</set>
+				<set name="url">https://www.patreon.com/bonusaction/</set>
+				<set name="image">https://c10.patreonusercontent.com/3/eyJ3Ijo2MjB9/patreon-media/p/post/40314451/5eca8baf4735499f9e62ca7d5db12d43/1.jpeg?token-time=1608588047&token-hash=dp2HS3D5oEkLi2JITTeRw-8snGye5ZjOgONQLMyL324%3D</set>
+				<set name="author" abbreviation="@BA" url="https://www.patreon.com/bonusaction/">@BonusAction</set>
+				<set name="third-party">true</set>
+				<!-- <set name="release"></set> -->
+			</setters>
+		</element>
+		<element name="Relics of the Realms - Volume 5" type="Source" source="Core" id="ID_BONUSACTION_ROTR5_SOURCE_RELICS_OF_THE_REALMS_5">
+			<description />
+			<setters>
+				<set name="abbreviation">RotR5</set>
+				<set name="url">https://www.patreon.com/bonusaction/</set>
+				<set name="image">https://c10.patreonusercontent.com/3/eyJ3Ijo2MjB9/patreon-media/p/post/40314451/5eca8baf4735499f9e62ca7d5db12d43/1.jpeg?token-time=1608588047&token-hash=dp2HS3D5oEkLi2JITTeRw-8snGye5ZjOgONQLMyL324%3D</set>
+				<set name="author" abbreviation="@BA" url="https://www.patreon.com/bonusaction/">@BonusAction</set>
+				<set name="third-party">true</set>
+				<!-- <set name="release"></set> -->
+			</setters>
+		</element>
+		<element name="Relics of the Realms - Volume 6" type="Source" source="Core" id="ID_BONUSACTION_ROTR6_SOURCE_RELICS_OF_THE_REALMS_6">
+			<description />
+			<setters>
+				<set name="abbreviation">RotR6</set>
+				<set name="url">https://www.patreon.com/bonusaction/</set>
+				<set name="image">https://c10.patreonusercontent.com/3/eyJ3Ijo2MjB9/patreon-media/p/post/40314451/5eca8baf4735499f9e62ca7d5db12d43/1.jpeg?token-time=1608588047&token-hash=dp2HS3D5oEkLi2JITTeRw-8snGye5ZjOgONQLMyL324%3D</set>
+				<set name="author" abbreviation="@BA" url="https://www.patreon.com/bonusaction/">@BonusAction</set>
+				<set name="third-party">true</set>
+				<!-- <set name="release"></set> -->
+			</setters>
+		</element>
 	<!--Kobold Press-->
 		<!--Deep Magic-->
 			<element name="Deep Magic 16: Time Magic" type="Source" source="Core" id="ID_KBP_DMTM_SOURCE_DEEP_MAGIC_TIME_MAGIC">
