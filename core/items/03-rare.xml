@@ -231,13 +231,15 @@
 				<p><b>Cure-all Potion. </b>You can fill this flask with any type of liquid that is not poisonous. After 24 hours have passed the liquid becomes imbued with the enchantment. You can use a bonus action to speak a command word which causes the imbued liquid to gain or switch properties. The liquid takes on the properties of one the potions or spells from the table below. The liquid loses the properties if left out of this flask for over a minute.</p>
 				<table>
 				<h5>Potion Properties</h5>
-				<th><tr><td>Option</td><td>Origin Type<td></tr></th>
-				<tr><td>Freedom of Movement</td><td>Spell<td></tr>
-				<tr><td>Greater Restoration</td><td>Spell<td></tr>
-				<tr><td>Lesser Restoration</td><td>Spell<td></tr>
-				<tr><td>Potion of Healing, Greater</td><td>Potion<td></tr>
-				<tr><td>Potion of Heroism</td><td>Potion<td></tr>
-				<tr><td>Potion of Resistance, Poison</td><td>Potion<td></tr>
+				<thead>
+					<tr><td>Option</td><td>Origin Type</td></tr>
+				</thead>
+				<tr><td>Freedom of Movement</td><td>Spell</td></tr>
+				<tr><td>Greater Restoration</td><td>Spell</td></tr>
+				<tr><td>Lesser Restoration</td><td>Spell</td></tr>
+				<tr><td>Potion of Healing, Greater</td><td>Potion</td></tr>
+				<tr><td>Potion of Heroism</td><td>Potion</td></tr>
+				<tr><td>Potion of Resistance, Poison</td><td>Potion</td></tr>
 				</table>
 			</description>
 			<setters>
