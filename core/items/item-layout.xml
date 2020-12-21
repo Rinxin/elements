@@ -3923,107 +3923,6 @@
         </rules>
     </element>
     <!--****************************************************************************************************-->
-      
-    <element name="Alchemist's Medicine Maker" type="Magic Item" source="Relics of the Realms - Volume 5" id="ID_BONUSACTION_ROTR5_MAGIC_ITEM_ALCHEMISTS_MEDICINE_MAKER">
-        <description>
-            <p><b>Cure-all Potion. </b>You can fill this flask with any type of liquid that is not poisonous. After 24 hours have passed the liquid becomes imbued with the enchantment. You can use a bonus action to speak a command word which causes the imbued liquid to gain or switch properties. The liquid takes on the properties of one the potions or spells from the table below. The liquid loses the properties if left out of this flask for over a minute.</p>
-            <table>
-            <h5>Potion Properties</h5>
-            <th><tr><td>Option</td><td>Origin Type<td></tr></th>
-            <tr><td>Freedom of Movement</td><td>Spell<td></tr>
-            <tr><td>Greater Restoration</td><td>Spell<td></tr>
-            <tr><td>Lesser Restoration</td><td>Spell<td></tr>
-            <tr><td>Potion of Healing, Greater</td><td>Potion<td></tr>
-            <tr><td>Potion of Heroism</td><td>Potion<td></tr>
-            <tr><td>Potion of Resistance, Poison</td><td>Potion<td></tr>
-            </table>
-        </description>
-        <setters>
-            <set name="keywords"></set>
-            <set name="category">Wondrous Items</set>
-            <set name="cost" currency="gp">0</set>
-            <set name="weight" lb="0">0 lb.</set>
-            <set name="type" addition="">Wondrous Item</set>
-            <set name="rarity">Rare</set>
-            <set name="enhancement"></set>
-            <set name="slot"></set>
-            <set name="attunement" addition=""></set>
-            <set name="weapon"></set>
-            <set name="armor"></set>
-            <set name="name-format"></set>
-            <set name="stackable"></set>
-            <set name="charges"></set>
-        </setters>
-        <rules>
-        </rules>
-    </element>
-    <element name="Amulet of the Indispensable" type="Magic Item" source="Relics of the Realms - Volume 5" id="ID_BONUSACTION_ROTR5_MAGIC_ITEM_AMULET_OF_THE_INDISPENSABLE">
-        <description>
-        </description>
-        <setters>
-            <set name="keywords"></set>
-            <set name="category">Wondrous Items</set>
-            <set name="cost" currency="gp"></set>
-            <set name="weight" lb="0">lb.</set>
-            <set name="type" addition="">Wondrous Item</set>
-            <set name="rarity">Very Rare</set>
-            <set name="enhancement"></set>
-            <set name="slot">neck</set>
-            <set name="attunement" addition=""></set>
-            <set name="weapon"></set>
-            <set name="armor"></set>
-            <set name="name-format"></set>
-            <set name="stackable"></set>
-            <set name="charges"></set>
-        </setters>
-        <rules>
-        </rules>
-    </element>
-    <element name="Amulet of the Sea of Stars" type="Magic Item" source="Relics of the Realms - Volume 5" id="ID_BONUSACTION_ROTR5_MAGIC_ITEM_AMULET_OF_THE_SEA_OF_STARS">
-        <description>
-        </description>
-        <setters>
-            <set name="keywords"></set>
-            <set name="category">Wondrous Items</set>
-            <set name="cost" currency="gp"></set>
-            <set name="weight" lb="0">lb.</set>
-            <set name="type" addition="">Wondrous Item</set>
-            <set name="rarity">Very Rare</set>
-            <set name="enhancement"></set>
-            <set name="slot">neck</set>
-            <set name="attunement" addition=""></set>
-            <set name="weapon"></set>
-            <set name="armor"></set>
-            <set name="name-format"></set>
-            <set name="stackable"></set>
-            <set name="charges"></set>
-        </setters>
-        <rules>
-        </rules>
-    </element>
-      Medium Armor
-    <element name="Armor of the Mender" type="Magic Item" source="Relics of the Realms - Volume 5" id="ID_BONUSACTION_ROTR5_MAGIC_ITEM_ARMOR_OF_THE_MENDER">
-        <description>
-        </description>
-        <setters>
-            <set name="keywords"></set>
-            <set name="category"></set>
-            <set name="cost" currency="gp"></set>
-            <set name="weight" lb="0">lb.</set>
-            <set name="type" addition=""></set>
-            <set name="rarity">Very Rare</set>
-            <set name="enhancement"></set>
-            <set name="slot"></set>
-            <set name="attunement" addition=""></set>
-            <set name="weapon"></set>
-            <set name="armor"></set>
-            <set name="name-format"></set>
-            <set name="stackable"></set>
-            <set name="charges"></set>
-        </setters>
-        <rules>
-        </rules>
-    </element>
     <element name="Astralis - The Eye of the Universe" type="Magic Item" source="Relics of the Realms - Volume 5" id="ID_BONUSACTION_ROTR5_MAGIC_ITEM_ASTALIS_THE_EYE_OF_THE_UNIVERSE">
         <description>
         </description>
@@ -5117,46 +5016,11 @@
 
 
     
-    Amulet of the Indispensable
-    Very Rare Wondrous Item
-    Requires Attunement
-    Essential Individual. While you are attuned to this amulet
-    your Constitution score increases by 2, to a maximum of 20.
-    Lifesaver’s Dash. Your speed increases by 20 ft. when
-    moving towards a friendly creature which has dropped to 0
-    hit points.
-    Swift Response. Whenever you heal a creature which has
-    taken damage since the end of your last turn, you may reroll
-    all 1’s and 2’s on the dice. You may use this feature for Healing
-    spells, abilities and potions.
-    Amulet of the Sea of Stars
-    Very Rare Wondrous Item
-    Requires attunement
-    Star-Eyed. While attuned to this amulet you have Darkvision
-    out to a range of 120ft. Additionally you can use a bonus
-    action to channel the energy from this amulet to gain
-    Truesight for 1 hour out to a range of 120ft. You can use this
-    feature once per day.
-    Ancient Amethyst. While attuned to this amulet you have
-    resistance against Force, Radiant and Necrotic damage.
-    Overseer’s Might. When you are attuned to Astralis - the
-    Eye of the Universe and this amulet, the maximum amount of
-    Dimension Walker charges of the staff is increased by 2.
+    
+    
 
-    Armor of the Mender
-    Very Rare Medium Armor
-    Requires attunement by a Cleric or a Paladin
-    AC. 16 + Dexterity modifier (max +2)
-    Immunity. While wearing this half-plate you are immune to
-    Diseases and have resistance against Poison damage.
-    Swift Response. While wearing this armor you gain acces to
-    the Spare the Dying cantrip. Additionaly you may cast it as a
-    bonus action instead of an action.
-    Healer’s Boon. This armor holds 3 charges. When you heal
-    another creature through a spell or ability you may expend as
-    many charges as you want. Each charge increases the healing
-    by 1d6. The armor regains all charges after you finish a long
-    rest.
+    
+    
     Astralis - The Eye of the Universe
     Legendary Staff
     Requires attunement by a Spellcaster
@@ -5766,6 +5630,7 @@
     Everlasting Eclipse
 
     Relics of the Realms - Volume 5 9 Bonus Action
+    
     Seafarer’s Map Table
     Uncommon Wondrous Item
     Bound Vessel. This map table only works when bound to
@@ -5816,6 +5681,7 @@
     and have disadvantage on all attack rolls until the end of their
     next turn. On a successful save, they only take half damage.
     You can use this feature once per long rest.
+    
     Sinistorix - the Iron Corruptor
     Legendary Staff
     Requires attunement by a Spellcaster
@@ -5848,6 +5714,7 @@
     the Mimic
 
     Relics of the Realms - Volume 5 10 Bonus Action
+    
     Solarex - The Piercer of Suns
     Legendary Shortsword (Finesse, Light)
     Requires attunement
@@ -5864,6 +5731,7 @@
     Blind Spot. While attuned to this sword you are hidden from
     divination magic. You can’t be targeted by any divination
     magic or perceived through magical scrying sensors.
+    
     Spider Bullets
     Rare Ammunition (Sling, Firearms)
     Single Use
@@ -5876,6 +5744,7 @@
     strands of spidersilk. A creature can attempt to break free by
     making a successful Athletics or Acrobatics check (DC 11) at
     the start of each of their turns.
+    
     Spyglass of the Seaspecter
     Rare Wondrous Item
     Requires attunement
@@ -5889,6 +5758,7 @@
     attack.
     Eye in the Sky. When you use this spyglass as a spellcasting
     focus for a ranged spell attack, the range is doubled.
+    
     Suit of the Astral Overseer
     Legendary Light Armor
     Requires attunement by a Spellcaster
@@ -5937,6 +5807,7 @@
     always have the spell Storm of Vengeance prepared. It doesn’t
     count against the number of spells you know or can prepare
     each day and still costs a 9th level spell slot to cast.
+    
     Suit of the Golden Shadow
     Legendary Light Armor
     Requires attunement by a Rogue
@@ -5954,6 +5825,7 @@
     Precise Assassination. Whenever you roll a 1 on a damage
     die for your sneak attack ability, you can reroll the die and
     must use the new roll.
+    
     Suit of the Immortal Judge
     Legendary Light Armor
     Requires attunement
@@ -5977,7 +5849,6 @@
 
     Suit of the
     Golden Shadow
-
     Relics of the Realms - Volume 5 12 Bonus Action
     Token of the Sea Speaker
     Uncommon Wondrous Item
@@ -5985,6 +5856,7 @@
     you can speak and understand Aquan. Additionally you are
     able to breathe air and water if you can not already, as long as
     you have the token around your neck.
+    
     Tor’can - The Herald of Tempests
     Legendary Whip (Finesse, Reach)
     Requires attunement
@@ -6001,6 +5873,7 @@
     creature takes 6d6 Thunder damage and is Deafened until the
     end of their next turn. On a successful save they only take half
     damage. You can use this feature twice per long rest.
+    
     Treasure Hunter’s Shovel
     Rare Spear (Thrown, Versatile)
     Requires attunement
@@ -6016,6 +5889,7 @@
     (buried) treasure worth at least 100gp. The closer you are to
     the treasure the brighter the gem glows. Additionally, you can
     cast the spell Locate Object from this Spear once per long rest.
+    
     Wavecaster’s Fishing Rod
     Very Rare Rod
     Requires attunement
