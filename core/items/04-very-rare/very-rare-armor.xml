@@ -9,7 +9,58 @@
 		</update>
 	</info>
 <!--Armor-->
+	<!--+-->
+		<element name="Armor, +2" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_2">
+			<description>
+				<p>You have a bonus to AC while wearing this armor. The bonus is determined by its rarity.</p>
+			</description>
+			<setters>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="light, medium, or heavy">Armor</set>
+				<set name="rarity">Very Rare</set>
+				<set name="enhancement">2</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+				<set name="name-format">{{parent}} +{{enhancement}}</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="2" bonus="enhancement" />
+			</rules>
+		</element>
+		<element name="Shield, +3" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_SHIELD_3">
+			<description>
+				<p>While holding this shield, you have a bonus to AC determined by the shield's rarity. This bonus is in addition to the shield's normal bonus to AC.</p>
+			</description>
+			<setters>
+				<set name="keywords">shield</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="shield">Armor</set>
+				<set name="rarity">Very Rare</set>
+				<set name="enhancement">3</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+				<set name="name-format">{{parent}} +{{enhancement}}</set>
+			</setters>
+			<rules>
+				<stat name="ac:shield" value="3" bonus="enhancement" />
+			</rules>
+		</element>
 	<!--A-->
+		<element name="Animated Shield" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ANIMATED_SHIELD">
+			<description>
+				<p>While holding this shield, you can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The shield remains animated for 1 minute, until you use a bonus action to end this effect, or until you are incapacitated or die, at which point the shield falls to the ground or into your hand if you have one free.</p>
+			</description>
+			<setters>
+				<set name="keywords">shield</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="shield">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+			</setters>
+		</element>
 		<element name="Armor of the Mender" type="Magic Item" source="Relics of the Realms - Volume 5" id="ID_BONUSACTION_ROTR5_MAGIC_ITEM_ARMOR_OF_THE_MENDER">
 			<description>
 				<p><b>Immunity. </b>While wearing this half-plate you are immune to Diseases and have resistance against Poison damage.</p>
@@ -38,6 +89,390 @@
 	<!--B-->
 	<!--C-->
 	<!--D-->
+		<element name="Demon Armor" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DEMON_ARMOR">
+			<description>
+				<p>While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor's clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack rolls and damage rolls and a damage die of 1d8.</p>
+				<p class="indent"><strong><em>Curse. </em></strong>Once you don this cursed armor, you can't doff it unless you are targeted by the <em>remove curse</em> spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities.</p>
+			</description>
+			<setters>
+				<set name="keywords">plate</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="plate">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+				<set name="cursed">true</set>
+				<set name="armor">Plate</set>
+				<set name="enhancement">1</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+			</rules>
+		</element>
+		<element name="Dragon Scale Mail, Black" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DRAGON_SCALE_MAIL_BLACK">
+			<description>
+				<p>Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.</p>
+				<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
+				<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
+			</description>
+			<setters>
+				<set name="keywords">scale, acid</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="scale mail">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+				<set name="armor">Scale Mail</set>
+				<set name="enhancement">1</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+			</rules>
+		</element>
+		<element name="Dragon Scale Mail, Blue" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DRAGON_SCALE_MAIL_BLUE">
+			<description>
+				<p>Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.</p>
+				<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
+				<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
+				<table>
+					<thead><tr><td>Dragon</td><td>Resistance</td></tr></thead>
+					<tbody>
+						<tr><td>Black</td><td>Acid</td></tr>
+						<tr><td>Blue</td><td>Lightning</td></tr>
+						<tr><td>Brass</td><td>Fire</td></tr>
+						<tr><td>Bronze</td><td>Lightning</td></tr>
+						<tr><td>Copper</td><td>Acid</td></tr>
+						<tr><td>Gold</td><td>Fire</td></tr>
+						<tr><td>Green</td><td>Poison</td></tr>
+						<tr><td>Red</td><td>Fire</td></tr>
+						<tr><td>Silver</td><td>Cold</td></tr>
+						<tr><td>White</td><td>Cold</td></tr></tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords">scale, lightning</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="scale mail">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+				<set name="armor">Scale Mail</set>
+				<set name="enhancement">1</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+			</rules>
+		</element>
+		<element name="Dragon Scale Mail, Brass" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DRAGON_SCALE_MAIL_BRASS">
+			<description>
+				<p>Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.</p>
+				<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
+				<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
+				<table>
+					<thead><tr><td>Dragon</td><td>Resistance</td></tr></thead>
+					<tbody>
+						<tr><td>Black</td><td>Acid</td></tr>
+						<tr><td>Blue</td><td>Lightning</td></tr>
+						<tr><td>Brass</td><td>Fire</td></tr>
+						<tr><td>Bronze</td><td>Lightning</td></tr>
+						<tr><td>Copper</td><td>Acid</td></tr>
+						<tr><td>Gold</td><td>Fire</td></tr>
+						<tr><td>Green</td><td>Poison</td></tr>
+						<tr><td>Red</td><td>Fire</td></tr>
+						<tr><td>Silver</td><td>Cold</td></tr>
+						<tr><td>White</td><td>Cold</td></tr></tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords">scale, fire</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="scale mail">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+				<set name="armor">Scale Mail</set>
+				<set name="enhancement">1</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+			</rules>
+		</element>
+		<element name="Dragon Scale Mail, Bronze" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DRAGON_SCALE_MAIL_BRONZE">
+			<description>
+				<p>Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.</p>
+				<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
+				<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
+				<table>
+					<thead><tr><td>Dragon</td><td>Resistance</td></tr></thead>
+					<tbody>
+						<tr><td>Black</td><td>Acid</td></tr>
+						<tr><td>Blue</td><td>Lightning</td></tr>
+						<tr><td>Brass</td><td>Fire</td></tr>
+						<tr><td>Bronze</td><td>Lightning</td></tr>
+						<tr><td>Copper</td><td>Acid</td></tr>
+						<tr><td>Gold</td><td>Fire</td></tr>
+						<tr><td>Green</td><td>Poison</td></tr>
+						<tr><td>Red</td><td>Fire</td></tr>
+						<tr><td>Silver</td><td>Cold</td></tr>
+						<tr><td>White</td><td>Cold</td></tr></tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords">scale, lightning</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="scale mail">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+				<set name="armor">Scale Mail</set>
+				<set name="enhancement">1</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+			</rules>
+		</element>
+		<element name="Dragon Scale Mail, Copper" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DRAGON_SCALE_MAIL_COPPER">
+			<description>
+				<p>Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.</p>
+				<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
+				<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
+				<table>
+					<thead><tr><td>Dragon</td><td>Resistance</td></tr></thead>
+					<tbody>
+						<tr><td>Black</td><td>Acid</td></tr>
+						<tr><td>Blue</td><td>Lightning</td></tr>
+						<tr><td>Brass</td><td>Fire</td></tr>
+						<tr><td>Bronze</td><td>Lightning</td></tr>
+						<tr><td>Copper</td><td>Acid</td></tr>
+						<tr><td>Gold</td><td>Fire</td></tr>
+						<tr><td>Green</td><td>Poison</td></tr>
+						<tr><td>Red</td><td>Fire</td></tr>
+						<tr><td>Silver</td><td>Cold</td></tr>
+						<tr><td>White</td><td>Cold</td></tr></tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords">scale, acid</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="scale mail">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+				<set name="armor">Scale Mail</set>
+				<set name="enhancement">1</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+			</rules>
+		</element>
+		<element name="Dragon Scale Mail, Gold" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DRAGON_SCALE_MAIL_GOLD">
+			<description>
+				<p>Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.</p>
+				<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
+				<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
+				<table>
+					<thead><tr><td>Dragon</td><td>Resistance</td></tr></thead>
+					<tbody>
+						<tr><td>Black</td><td>Acid</td></tr>
+						<tr><td>Blue</td><td>Lightning</td></tr>
+						<tr><td>Brass</td><td>Fire</td></tr>
+						<tr><td>Bronze</td><td>Lightning</td></tr>
+						<tr><td>Copper</td><td>Acid</td></tr>
+						<tr><td>Gold</td><td>Fire</td></tr>
+						<tr><td>Green</td><td>Poison</td></tr>
+						<tr><td>Red</td><td>Fire</td></tr>
+						<tr><td>Silver</td><td>Cold</td></tr>
+						<tr><td>White</td><td>Cold</td></tr></tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords">scale, fire</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="scale mail">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+				<set name="armor">Scale Mail</set>
+				<set name="enhancement">1</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+			</rules>
+		</element>
+		<element name="Dragon Scale Mail, Green" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DRAGON_SCALE_MAIL_GREEN">
+			<description>
+				<p>Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.</p>
+				<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
+				<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
+				<table>
+					<thead><tr><td>Dragon</td><td>Resistance</td></tr></thead>
+					<tbody>
+						<tr><td>Black</td><td>Acid</td></tr>
+						<tr><td>Blue</td><td>Lightning</td></tr>
+						<tr><td>Brass</td><td>Fire</td></tr>
+						<tr><td>Bronze</td><td>Lightning</td></tr>
+						<tr><td>Copper</td><td>Acid</td></tr>
+						<tr><td>Gold</td><td>Fire</td></tr>
+						<tr><td>Green</td><td>Poison</td></tr>
+						<tr><td>Red</td><td>Fire</td></tr>
+						<tr><td>Silver</td><td>Cold</td></tr>
+						<tr><td>White</td><td>Cold</td></tr></tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords">scale, poison</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="scale mail">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+				<set name="armor">Scale Mail</set>
+				<set name="enhancement">1</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+			</rules>
+		</element>
+		<element name="Dragon Scale Mail, Red" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DRAGON_SCALE_MAIL_RED">
+			<description>
+				<p>Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.</p>
+				<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
+				<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
+				<table>
+					<thead><tr><td>Dragon</td><td>Resistance</td></tr></thead>
+					<tbody>
+						<tr><td>Black</td><td>Acid</td></tr>
+						<tr><td>Blue</td><td>Lightning</td></tr>
+						<tr><td>Brass</td><td>Fire</td></tr>
+						<tr><td>Bronze</td><td>Lightning</td></tr>
+						<tr><td>Copper</td><td>Acid</td></tr>
+						<tr><td>Gold</td><td>Fire</td></tr>
+						<tr><td>Green</td><td>Poison</td></tr>
+						<tr><td>Red</td><td>Fire</td></tr>
+						<tr><td>Silver</td><td>Cold</td></tr>
+						<tr><td>White</td><td>Cold</td></tr></tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords">scale, fire</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="scale mail">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+				<set name="armor">Scale Mail</set>
+				<set name="enhancement">1</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+			</rules>
+		</element>
+		<element name="Dragon Scale Mail, Silver" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DRAGON_SCALE_MAIL_SILVER">
+			<description>
+				<p>Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.</p>
+				<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
+				<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
+				<table>
+					<thead><tr><td>Dragon</td><td>Resistance</td></tr></thead>
+					<tbody>
+						<tr><td>Black</td><td>Acid</td></tr>
+						<tr><td>Blue</td><td>Lightning</td></tr>
+						<tr><td>Brass</td><td>Fire</td></tr>
+						<tr><td>Bronze</td><td>Lightning</td></tr>
+						<tr><td>Copper</td><td>Acid</td></tr>
+						<tr><td>Gold</td><td>Fire</td></tr>
+						<tr><td>Green</td><td>Poison</td></tr>
+						<tr><td>Red</td><td>Fire</td></tr>
+						<tr><td>Silver</td><td>Cold</td></tr>
+						<tr><td>White</td><td>Cold</td></tr></tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords">scale, cold</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="scale mail">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+				<set name="armor">Scale Mail</set>
+				<set name="enhancement">1</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+			</rules>
+		</element>
+		<element name="Dragon Scale Mail, White" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DRAGON_SCALE_MAIL_WHITE">
+			<description>
+				<p>Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued.</p>
+				<p>While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one damage type that is determined by the kind of dragon that provided the scales (see the table).</p>
+				<p>Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. This special action can't be used again until the next dawn.</p>
+				<table>
+					<thead><tr><td>Dragon</td><td>Resistance</td></tr></thead>
+					<tbody>
+						<tr><td>Black</td><td>Acid</td></tr>
+						<tr><td>Blue</td><td>Lightning</td></tr>
+						<tr><td>Brass</td><td>Fire</td></tr>
+						<tr><td>Bronze</td><td>Lightning</td></tr>
+						<tr><td>Copper</td><td>Acid</td></tr>
+						<tr><td>Gold</td><td>Fire</td></tr>
+						<tr><td>Green</td><td>Poison</td></tr>
+						<tr><td>Red</td><td>Fire</td></tr>
+						<tr><td>Silver</td><td>Cold</td></tr>
+						<tr><td>White</td><td>Cold</td></tr></tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords">scale, cold</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="scale mail">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+				<set name="armor">Scale Mail</set>
+				<set name="enhancement">1</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+			</rules>
+		</element>
+		<element name="Dwarven Plate" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DWARVEN_PLATE">
+			<description>
+				<p>While wearing this armor, you gain a +2 bonus to AC. In addition, if an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet.</p>
+			</description>
+			<setters>
+				<set name="keywords">plate</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="plate">Armor</set>
+				<set name="rarity">Very Rare</set>
+				<set name="armor">Plate</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="2" bonus="enhancement" />
+			</rules>
+		</element>
 	<!--E-->
 	<!--F-->
 	<!--G-->
@@ -76,6 +511,20 @@
 	<!--Q-->
 	<!--R-->
 	<!--S-->
+		<element name="Spellguard Shield" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_SPELLGUARD_SHIELD">
+			<description>
+				<p>While holding this shield, you have advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against you.</p>
+			</description>
+			<setters>
+				<set name="keywords">shield</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="shield">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+			</setters>
+		</element>
 	<!--T-->
 	<!--U-->
 	<!--V-->
