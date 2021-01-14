@@ -9,7 +9,42 @@
 		</update>
 	</info>
 <!--Armor-->
+	<!--+-->
+		<element name="Shield, +1" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_SHIELD_1">
+			<description>
+				<p>While holding this shield, you have a bonus to AC determined by the shield's rarity. This bonus is in addition to the shield's normal bonus to AC.</p>
+			</description>
+			<setters>
+				<set name="keywords">shield</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="shield">Armor</set>
+				<set name="rarity">Uncommon</set>
+				<set name="enhancement">1</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+				<set name="name-format">{{parent}} +{{enhancement}}</set>
+			</setters>
+			<rules>
+				<stat name="ac:shield" value="1" bonus="enhancement" />
+			</rules>
+		</element>
 	<!--A-->
+		<element name="Adamantine Armor" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ADAMANTINE_ARMOR">
+			<supports>Armor</supports>
+			<description>
+				<p>This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.</p>
+			</description>
+			<setters>
+				<set name="keywords">medium, heavy</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="medium or heavy, but not hide">Armor</set>
+				<set name="rarity">Uncommon</set>
+				<set name="armor">(ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
+				<set name="name-format">Adamantine {{parent}}</set>
+			</setters>
+		</element>
 	<!--B-->
 	<!--C-->
 	<!--D-->
@@ -22,12 +57,62 @@
 	<!--K-->
 	<!--L-->
 	<!--M-->
+		<element name="Mariner’s Armor" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_MARINERS_ARMOR">
+			<description>
+				<p>While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs.</p>
+			</description>
+			<setters>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="light, medium, or heavy">Armor</set>
+				<set name="rarity">Uncommon</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT||ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+				<set name="name-format">Mariner’s {{parent}}</set>
+			</setters>
+			<rules>
+				<stat name="speed:swim" value="speed" bonus="base" />
+			</rules>
+		</element>
+		<element name="Mithral Armor" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_MITHRAL_ARMOR">
+			<description>
+				<p>Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn't.</p>
+			</description>
+			<setters>
+				<set name="keywords">medium, heavy</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="medium or heavy, but not hide">Armor</set>
+				<set name="rarity">Uncommon</set>
+				<set name="armor">(ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
+			</setters>
+			<rules>
+				<!-- todo: no disadvantage or strength requirement -->
+			</rules>
+		</element>
 	<!--N-->
 	<!--O-->
 	<!--P-->
 	<!--Q-->
 	<!--R-->
 	<!--S-->
+		<element name="Sentinel Shield" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_SENTINEL_SHIELD">
+			<description>
+				<p>While holding this shield, you have advantage on initiative rolls and Wisdom (Perception) checks. The shield is emblazoned with a symbol of an eye.</p>
+			</description>
+			<setters>
+				<set name="keywords">shield</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="shield">Armor</set>
+				<set name="rarity">Uncommon</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
+			</rules>
+		</element>
 	<!--T-->
 	<!--U-->
 	<!--V-->
