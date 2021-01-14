@@ -23,32 +23,25 @@
     </element>
     
     <!---->
-    Aegis of the Abyss Legendary Shield
-    <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+    <element name="Aegis of the Abyss" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
         <description>
             Aegis of the Abyss
             Legendary Shield
-            Requires attunement
-            AC. +3
-            Spellguard. While holding this Shield, you have advantage
-            on Saving Throws against Spells and other magical effects,
-            and spell attacks have disadvantage against you
-            Arcane Hunger. As a reaction you can make the shield
-            absorb a spell. You can do this on a ranged spell attack, if
-            the target of the spell is within 10ft. of you. You can use this
-            feature twice per long rest. If a single spell deals more than 90
-            damage the shield shatters.
+            
+            
+            <p><b>Spellguard. </b>While holding this Shield, you have advantage on Saving Throws against Spells and other magical effects, and spell attacks have disadvantage against you.</p>
+            <p class="indent"><b>Arcane Hunger. </b>As a reaction you can make the shield absorb a spell. You can do this on a ranged spell attack, if the target of the spell is within 10ft. of you. You can use this feature twice per long rest. If a single spell deals more than 90 damage the shield shatters.</p>
         </description>
         <setters>
             <set name="keywords"></set>
-            <set name="category"></set>
+            <set name="category">Armor</set>
             <set name="cost" currency="gp"></set>
             <set name="weight" lb="0">lb.</set>
-            <set name="type" addition=""></set>
-            <set name="rarity"></set>
-            <set name="enhancement"></set>
-            <set name="slot"></set>
-            <set name="attunement" addition=""></set>
+            <set name="type" addition="Shield">Armor</set>
+            <set name="rarity">Legendary</set>
+            <set name="enhancement">3</set>
+            <set name="slot">onehanded</set>
+            <set name="attunement" addition="">true</set>
             <set name="weapon"></set>
             <set name="armor"></set>
             <set name="name-format"></set>
@@ -58,22 +51,14 @@
         <rules>
         </rules>
     </element>
-    Amulet of the Frog Uncommon Wondrous Item (Jewelry)
-    <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+    <element name="Amulet of the Frog" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_AMULET_OF_THE_FROG">
         <description>
             Amulet of the Frog
             Uncommon Wondrous Item
             Requires attunement
-            Leapfrog. Twice per day this amulet can be used to cast the
-            spell Jump.
-            Amphibian. When attuned to this amulet yoour movement
-            speed is not halved when swimming.
-            Knowledge of the Swamp. If a Druid attunes to this
-            necklace he gains the following beast shapes. Rat, Raven,
-            Giant Rat, Poisonous Snake, Stirge, Constrictor Snake, Giant
-            Frog, Giant Lizard, Giant Poisonous Snake, Crocodile, Giant
-            Spider, Giant Toad, Giant Constrictor Snakeand Giant
-            Crocodile. This knowledge is permanent.
+            <p><b>Leapfrog. </b>Twice per day this amulet can be used to cast the spell Jump.</p>
+            <p class="indent"><b>Amphibian. </b>When attuned to this amulet yoour movement speed is not halved when swimming.</p>
+            <p class="indent"><b>Knowledge of the Swamp. </b>If a Druid attunes to this necklace he gains the following beast shapes. Rat, Raven, Giant Rat, Poisonous Snake, Stirge, Constrictor Snake, Giant Frog, Giant Lizard, Giant Poisonous Snake, Crocodile, Giant Spider, Giant Toad, Giant Constrictor Snakeand Giant Crocodile. This knowledge is permanent.</p>
         </description>
         <setters>
             <set name="keywords"></set>
