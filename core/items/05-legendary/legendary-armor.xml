@@ -9,11 +9,72 @@
 		</update>
 	</info>
 <!--Armor-->
+	<!--+-->
+		<element name="Armor, +3" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_3">
+			<description>
+				<p>You have a bonus to AC while wearing this armor. The bonus is determined by its rarity.</p>
+			</description>
+			<setters>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="light, medium, or heavy">Armor</set>
+				<set name="rarity">Legendary</set>
+				<set name="strength" />
+				<set name="stealth" />
+				<set name="supports" />
+				<set name="enhancement">3</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+				<set name="name-format">{{parent}} +{{enhancement}}</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="3" bonus="enhancement" />
+			</rules>
+		</element>
 	<!--A-->
+		<element name="Armor of Invulnerability" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_INVULNERABILITY">
+			<description>
+				<p>You have resistance to nonmagical damage while you wear this armor. Additionally, you can use an action to make yourself immune to nonmagical damage for 10 minutes or until you are no longer wearing the armor. Once this special action is used, it can't be used again until the next dawn.</p>
+			</description>
+			<setters>
+				<set name="keywords">plate</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="plate">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Legendary</set>
+				<set name="armor">Plate</set>
+			</setters>
+			<rules>
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_BLUDGEONING" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_SLASHING" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PIERCING" />
+			</rules>
+		</element>
 	<!--B-->
 	<!--C-->
 	<!--D-->
 	<!--E-->
+		<element name="Efreeti Chain" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_EFREETI_CHAIN">
+			<description>
+				<p>While wearing this armor, you gain a +3 bonus to AC, you are immune to fire damage, and you can understand and speak Primordial. In addition, you can stand on and walk across molten rock as if it were solid ground.</p>
+			</description>
+			<setters>
+				<set name="keywords">chain</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="chain mail">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Legendary</set>
+				<set name="armor">Chain Mail</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="3" bonus="enhancement" />
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FIRE" />
+			</rules>
+		</element>
 	<!--F-->
 	<!--G-->
 	<!--H-->
@@ -43,6 +104,21 @@
 			</rules>
 		</element>
 	<!--P-->
+		<element name="Plate Armor of Etherealness" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_PLATE_ARMOR_OF_ETHEREALNESS">
+			<description>
+				<p>While you're wearing this armor, you can speak its command word as an action to gain the effect of the <em>etherealness</em> spell, which last for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can't be used again until the next dawn.</p>
+			</description>
+			<setters>
+				<set name="keywords">plate</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="plate">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Legendary</set>
+				<set name="armor">Plate</set>
+			</setters>
+		</element>
 	<!--Q-->
 	<!--R-->
 	<!--S-->
