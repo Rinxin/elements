@@ -9,13 +9,309 @@
 		</update>
 	</info>
 <!--Armor-->
+	<!--+-->
+		<element name="Armor, +1" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_1">
+			<description>
+				<p>You have a bonus to AC while wearing this armor. The bonus is determined by its rarity.</p>
+			</description>
+			<setters>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="light, medium, or heavy">Armor</set>
+				<set name="rarity">Rare</set>
+				<set name="enhancement">1</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+				<set name="name-format">{{parent}} +{{enhancement}}</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+			</rules>
+		</element>
+		<element name="Shield, +2" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_SHIELD_2">
+			<description>
+				<p>While holding this shield, you have a bonus to AC determined by the shield's rarity. This bonus is in addition to the shield's normal bonus to AC.</p>
+			</description>
+			<setters>
+				<set name="keywords">shield</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="shield">Armor</set>
+				<set name="rarity">Rare</set>
+				<set name="enhancement">2</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+				<set name="name-format">{{parent}} +{{enhancement}}</set>
+			</setters>
+			<rules>
+				<stat name="ac:shield" value="2" bonus="enhancement" />
+			</rules>
+		</element>
 	<!--A-->
+		<element name="Armor of Resistance, Acid" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_ACID">
+			<description>
+				<p>You have resistance to acid damage while you wear this armor.</p>
+			</description>
+			<setters>
+				<set name="keywords">acid</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="light, medium, or heavy">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Rare</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+				<set name="name-format">{{parent}} of Acid Resistance</set>
+			</setters>
+			<rules>
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+			</rules>
+		</element>
+		<element name="Armor of Resistance, Cold" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_COLD">
+			<description>
+				<p>You have resistance to cold damage while you wear this armor.</p>
+			</description>
+			<setters>
+				<set name="keywords">cold</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="light, medium, or heavy">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Rare</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+				<set name="name-format">{{parent}} of Cold Resistance</set>
+			</setters>
+			<rules>
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+			</rules>
+		</element>	
+		<element name="Armor of Resistance, Fire" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_FIRE">
+			<description>
+				<p>You have resistance to fire damage while you wear this armor.</p>
+			</description>
+			<setters>
+				<set name="keywords">fire</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="light, medium, or heavy">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Rare</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+				<set name="name-format">{{parent}} of Fire Resistance</set>
+			</setters>
+			<rules>
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+			</rules>
+		</element>	
+		<element name="Armor of Resistance, Force" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_FORCE">
+			<description>
+				<p>You have resistance to force damage while you wear this armor.</p>
+			</description>
+			<setters>
+				<set name="keywords">force</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="light, medium, or heavy">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Rare</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+				<set name="name-format">{{parent}} of Force Resistance</set>
+			</setters>
+			<rules>
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE" />
+			</rules>
+		</element>	
+		<element name="Armor of Resistance, Lightning" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_LIGHTNING">
+			<description>
+				<p>You have resistance to lightning damage while you wear this armor.</p>
+			</description>
+			<setters>
+				<set name="keywords">lightning</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="light, medium, or heavy">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Rare</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+				<set name="name-format">{{parent}} of Lightning Resistance</set>
+			</setters>
+			<rules>
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+			</rules>
+		</element>	
+		<element name="Armor of Resistance, Necrotic" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_NECROTIC">
+			<description>
+				<p>You have resistance to necrotic damage while you wear this armor.</p>
+			</description>
+			<setters>
+				<set name="keywords">necrotic</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="light, medium, or heavy">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Rare</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+				<set name="name-format">{{parent}} of Necrotic Resistance</set>
+			</setters>
+			<rules>
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+			</rules>
+		</element>	
+		<element name="Armor of Resistance, Poison" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_POISON">
+			<description>
+				<p>You have resistance to poison damage while you wear this armor.</p>
+			</description>
+			<setters>
+				<set name="keywords">poison</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="light, medium, or heavy">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Rare</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+				<set name="name-format">{{parent}} of Poison Resistance</set>
+			</setters>
+			<rules>
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+			</rules>
+		</element>	
+		<element name="Armor of Resistance, Psychic" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_PSYCHIC">
+			<description>
+				<p>You have resistance to psychic damage while you wear this armor.</p>
+			</description>
+			<setters>
+				<set name="keywords">psychic</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="light, medium, or heavy">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Rare</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+				<set name="name-format">{{parent}} of Psychic Resistance</set>
+			</setters>
+			<rules>
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
+			</rules>
+		</element>	
+		<element name="Armor of Resistance, Radiant" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_RADIANT">
+			<description>
+				<p>You have resistance to radiant damage while you wear this armor.</p>
+			</description>
+			<setters>
+				<set name="keywords">radiant</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="light, medium, or heavy">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Rare</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+				<set name="name-format">{{parent}} of Radiant Resistance</set>
+			</setters>
+			<rules>
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
+			</rules>
+		</element>	
+		<element name="Armor of Resistance, Thunder" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_RESISTANCE_THUNDER">
+			<description>
+				<p>You have resistance to thunder damage while you wear this armor.</p>
+			</description>
+			<setters>
+				<set name="keywords">thunder</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="light, medium, or heavy">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Rare</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+				<set name="name-format">{{parent}} of Thunder Resistance</set>
+			</setters>
+			<rules>
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
+			</rules>
+		</element>
+		<element name="Armor of Vulnerability" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_VULNERABILITY">
+			<description>
+				<p>While wearing this armor, you have resistance to one of the following damage types: bludgeoning, piercing, or slashing. The GM chooses the type or determines it randomly.</p>
+				<p class="indent"><strong><em>Curse. </em></strong>This armor is cursed, a fact that is revealed only when an Identify spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by the <em>remove curse</em> spell or similar magic; removing the armor fails to end the curse. While cursed, you have vulnerability to two of the three damage types associated with the armor (not the one to which it grants resistance).</p>
+			</description>
+			<setters>
+				<set name="keywords">plate, resistance</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="plate">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Rare</set>
+				<set name="cursed">true</set>
+				<set name="armor">Plate</set>
+			</setters>
+		</element>
+		<element name="Arrow-Catching Shield" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARROWCATCHING_SHIELD">
+			<description>
+				<p>You gain a +2 bonus to AC against ranged attacks while you wield this shield. This bonus is in addition to the shield's normal bonus to AC. In addition, whenever an attacker makes a ranged attack against a target within 5 feet of you, you can use your reaction to become the target of the attack instead.</p>
+			</description>
+			<setters>
+				<set name="keywords">shield</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="shield">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Rare</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+			</setters>
+		</element>
 	<!--B-->
 	<!--C-->
 	<!--D-->
 	<!--E-->
+		<element name="Elven Chain" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ELVEN_CHAIN">
+			<description>
+				<p>You gain a +1 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor.</p>
+			</description>
+			<setters>
+				<set name="keywords">chain, shirt</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="chain shirt">Armor</set>
+				<set name="rarity">Rare</set>
+				<set name="armor">Chain Shirt</set>
+				<set name="enhancement">1</set>
+				<set name="name-format">Elven {{parent}}</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_SHIRT" />			
+			</rules>
+		</element>
 	<!--F-->
 	<!--G-->
+		<element name="Glamoured Studded Leather" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_GLAMOURED_STUDDED_LEATHER">
+			<description>
+				<p>While wearing this armor, you gain a +1 bonus to AC. You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor.</p>
+			</description>
+			<setters>
+				<set name="keywords">studded, leather</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="slot">body</set>
+				<set name="type" addition="studded leather">Armor</set>
+				<set name="rarity">Rare</set>
+				<set name="armor">Studded Leather</set>
+				<set name="enhancement">1</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+			</rules>
+		</element>
 	<!--H-->
 	<!--I-->
 	<!--J-->
@@ -28,6 +324,22 @@
 	<!--Q-->
 	<!--R-->
 	<!--S-->
+		<element name="Shield of Missile Attraction" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_SHIELD_OF_MISSILE_ATTRACTION">
+			<description>
+				<p>While holding this shield, you have resistance to damage from ranged weapon attacks.</p>
+				<p><strong>Curse.</strong> This shield is cursed. Attuning to it curses you until you are targeted by the <em>remove curse</em> spell or similar magic. Removing the shield fails to end the curse on you. Whenever a ranged weapon attack is made against a target within 10 feet of you, the curse causes you to become the target instead.</p>
+			</description>
+			<setters>
+				<set name="keywords">shield</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="shield">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Rare</set>
+				<set name="cursed">true</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+			</setters>
+		</element>
 	<!--T-->
 	<!--U-->
 	<!--V-->
