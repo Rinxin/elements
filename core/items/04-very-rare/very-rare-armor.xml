@@ -477,10 +477,48 @@
 	<!--F-->
 	<!--G-->
 	<!--H-->
+		<element name="Hunter’s Coat" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_ARMOR_HUNTERS_COAT">
+			<description>
+				<p>You gain a +1 bonus to AC while wearing this armor.</p>
+				<p class="indent">The coat has 3 charges. When you hit a creature with an attack and that creature doesn’t have all its hit points, you can expend 1 charge to deal an extra 1d10 necrotic damage to the target. The coat regains 1d3 expended charges daily at dawn.</p>
+			</description>
+			<setters>
+				<set name="keywords">necrotic</set>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="light">Armor</set>
+				<set name="rarity">Very Rare</set>
+				<set name="armor">Leather||Studded Leather</set>
+				<set name="name-format">Hunter’s {{parent}} Coat, +{{enhancement}}</set>
+				<set name="enhancement">1</set>
+				<set name="charges">3</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+			</rules>
+		</element>
 	<!--I-->
 	<!--J-->
 	<!--K-->
 	<!--L-->
+		<element name="Last Stand Armor" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_ARMOR_LAST_STAND_ARMOR">
+			<description>
+				<p>You have a +1 bonus to AC while wearing this armor, which shimmers softly.</p>
+				<p class="indent">If you die while wearing the armor, it is destroyed, and each celestial, fey, and fiend with 30 feet of you must succeed on a DC 15 Charisma saving throw or be banished to its home plane of existence, unless it is already there.</p>
+			</description>
+			<setters>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="any">Armor</set>
+				<set name="rarity">Very Rare</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+				<set name="name-format">Last Stand {{parent}}, +{{enhancement}}</set>
+				<set name="enhancement">1</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+			</rules>
+		</element>
 		<element name="Living Armor" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ARMOR_LIVING_ARMOR">
 			<description>
 				<p>This hideous armor is formed from black chitin, beneath which veins pulse and red sinews glisten. To attune to this item, you must wear it for the entire attunement period, during which tendrils on the inside burrow into you.</p>

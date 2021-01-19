@@ -25,6 +25,19 @@
 	<!--N-->
 	<!--O-->
 	<!--P-->
+		<element name="Potion of Maximum Power" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_POTION_OF_MAXIMUM_POWER">
+			<description>
+				<p>The first time you cast a damage-dealing spell of 4th level or lower within 1 minute after drinking the potion, instead of rolling dice to determine the damage dealt, you can instead use the highest number possible for each die.</p>
+				<p class="indent">This glowing purple liquid smells of sugar and plum, but it has a muddy taste.</p>
+			</description>
+			<setters>
+				<set name="category">Potions</set>
+				<set name="weight" lb="0.5">½ lb.</set>
+				<set name="type">Potion</set>
+				<set name="rarity">Rare</set>
+				<set name="stackable">true</set>
+			</setters>
+		</element>
 	<!--Q-->
 	<!--R-->
 	<!--S-->

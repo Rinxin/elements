@@ -10,9 +10,44 @@
 	</info>
 <!--Wondrous Item-->
 	<!--A-->
+		<element name="Amulet of the Drunkard" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_AMULET_OF_THE_DRUNKARD">
+			<description>
+				<p>This amulet smells of old, ale-stained wood. While wearing it, you can regain 4d4 + 4 hit points when you drink a pint of beer, ale, mead, or wine. Once the amulet has restored hit points, it can’t do so again until the next dawn.</p>
+			</description>
+			<setters>
+				<set name="keywords">necklace</set>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+				<set name="slot">neck</set>
+			</setters>
+		</element>
 	<!--B-->
+		<element name="Brooch of Living Essence" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_BROOCH_OF_LIVING_ESSENCE">
+			<description>
+				<p>While wearing this nondescript brooch, spells and anything else that would detect or reveal your creature type treat you as humanoid, and those that would reveal your alignment treat it as neutral.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+				<set name="attunement">true</set>
+				<set name="slot">misc</set>
+			</setters>
+		</element>
 	<!--C-->
 	<!--D-->
+		<element name="Dust of Deliciousness" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_DUST_OF_DELICIOUSNESS">
+			<description>
+				<p>This reddish brown dust can be sprinkled over any edible substance to greatly improve the flavor. The dust also dulls the eater’s senses: anyone eating food treated with this dust has disadvantage on Wisdom ability checks and Wisdom saving throws for 1 hour. There is enough dust to flavor six servings.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+				<set name="stackable">true</set>
+			</setters>
+		</element>
 	<!--E-->
 		<element name="Earworm" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_EARWORM">
 			<description>
@@ -63,7 +98,23 @@
 				<set name="rarity">Uncommon</set>
 				<set name="slot">misc</set>
 			</setters>
-		</element>	
+		</element>
+		<element name="Goggles of Object Reading" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_GOGGLES_OF_OBJECT_READING">
+			<description>
+				<p>These leather-framed goggles feature purple crystal lenses. While wearing the goggles, you have advantage on Intelligence (Arcana) checks made to reveal information about a creature or object you can see.</p>
+				<p class="indent">In addition, you can cast the identify spell using the goggles. Once you do so, you can’t do so again until the next dawn.</p>
+				<div class="reference">
+					<div element="ID_PHB_SPELL_IDENTIFY" />
+				</div>
+			</description>
+			<setters>
+				<set name="keywords">arcana, identify</set>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+				<set name="slot">head</set>
+			</setters>
+		</element>
 	<!--H-->
 	<!--I-->
 		<element name="Infernal Puzzle Box" type="Magic Item" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_MAGIC_ITEM_INFERNAL_PUZZLE_BOX">

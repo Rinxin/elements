@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Titan Heart</name>
+		<description>The Titan Heart Sorcerous Origin from MCDM: Arcadia volume 1</description>
+		<author url="">MCDM: Arcadia</author>
+		<update version="0.0.2">
+			<file name="sorcerer-titan-heart.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/classes/Sorcerer/sorcerer-titan-heart.xml" />
+		</update>
+	</info>
+
+	<element name="Titan Heart" type="Archetype" source="MCDM: Arcadia" id="ID_MCDM_ARCADIA_SORCERER_ARCHETYPE_TITAN_HEART">
+		<supports>Sorcerous Origin</supports>
+		<description>
+			<p>Divine will produces the massive titans, greater than even the giants. As the children and creations of deities, titans are filled with magic so powerful that they require enormous forms to contain it.</p>
+			<p class="indent">When a titan’s blood mixes with that of a humanoid, there is a chance for the smaller being to gain the ability to channel the titan’s magic by altering their form. This power transfer occurs if a titan deems a humanoid worthy of wielding their power, or if the lesser creature makes the behemoth bleed in battle and lives to tell the tale. A burst of flame or surge of wind from a Titan Heart sorcerer commands fear and respect.</p>
+			<p class="indent">Your character could be the chosen herald of the titans, a survivor of a cataclysmic titan battle, or even the descendent of another Titan Heart sorcerer.</p>
+			<div element="ID_MCDM_ARCADIA_ARCHETYPE_FEATURE_TITAN_HEART_ANCIENT_KNOWLEDGE" />
+			<div element="ID_MCDM_ARCADIA_ARCHETYPE_FEATURE_TITAN_HEART_TITAN_MANIFESTATION" />
+			<div element="ID_MCDM_ARCADIA_ARCHETYPE_FEATURE_TITAN_HEART_STRENGTH_OF_MAGIC" />
+			<div element="ID_MCDM_ARCADIA_ARCHETYPE_FEATURE_TITAN_HEART_TOUGHENED_GRACE" />
+			<div element="ID_MCDM_ARCADIA_ARCHETYPE_FEATURE_TITAN_HEART_TITANS_WILL" />
+			<div element="ID_MCDM_ARCADIA_ARCHETYPE_FEATURE_TITAN_HEART_ANCIENT_COLOSSUS" />
+		</description>
+		<sheet>
+			<description>Sometimes the spark of magic that fuels a sorcerer comes from a divine source that glimmers within the soul.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_MCDM_ARCADIA_ARCHETYPE_FEATURE_TITAN_HEART_ANCIENT_KNOWLEDGE" level="1" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCADIA_ARCHETYPE_FEATURE_TITAN_HEART_TITAN_MANIFESTATION" level="1" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCADIA_ARCHETYPE_FEATURE_TITAN_HEART_STRENGTH_OF_MAGIC" level="6" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCADIA_ARCHETYPE_FEATURE_TITAN_HEART_TOUGHENED_GRACE" level="6" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCADIA_ARCHETYPE_FEATURE_TITAN_HEART_TITANS_WILL" level="14" />
+			<grant type="Archetype Feature" id="ID_MCDM_ARCADIA_ARCHETYPE_FEATURE_TITAN_HEART_ANCIENT_COLOSSUS" level="18" />
+		</rules>
+	</element>
+	<element name="Ancient Knowledge" type="Archetype Feature" source="MCDM: Arcadia" id="ID_MCDM_ARCADIA_ARCHETYPE_FEATURE_TITAN_HEART_ANCIENT_KNOWLEDGE">
+		<description>
+			<p>Starting at 1st level, you are proficient with martial weapons and can speak, read, and write Primordial. Knowing this language allows you to understand and be understood by those who speak its dialects: Aquan, Auran, Ignan, and Terran.</p>
+		</description>
+		<rules>
+			<!--martial prof & Primordial lang-->
+		</rules>
+	</element>
+	<element name="Titan Manifestation" type="Archetype Feature" source="MCDM: Arcadia" id="ID_MCDM_ARCADIA_ARCHETYPE_FEATURE_TITAN_HEART_TITAN_MANIFESTATION">
+		<description>
+			<p>You can physically embody your connection to titans for a short time as your form takes on aspects of your origin titan. If that titan is a kraken you may grow fish scales all over your body; if that titan is the child of a deity, you may take on an heavenly glow or manifest large horns. As an action, you assume the form for up to 1 minute. It ends early if you are knocked unconscious or if you choose to end it early as a bonus action. While in this form, you gain the following benefits:</p>
+			<ul>
+				<li>Your size increases to Large.</li>
+				<li>Your AC increases by 2.</li>
+				<li>When you make a melee weapon attack, you can use Charisma, instead of Strength or Dexterity, for the attack and damage rolls.</li>
+				<li>Your weapons and equipment grow to match your new size. While these weapons are enlarged, your attacks with them deal 1d4 extra damage.</li>
+				<li>Your spells and melee weapon attacks deal double damage to objects and structures.</li>
+			</ul>
+			<p class="indent">While your Titan Manifestation feature is active, you also know and can cast the blaze, cataclysm, daybreak, glacier, and quake spells as sorcerer spells. These are special primordial spells described below.</p>
+			<p class="indent">You can use this feature twice. You regain both uses when you finish a long rest.
+		</description>
+		<sheet action="Action" usage="2/Long Rest">
+			<description>As an action, you can assume your titan form for 1 minute.</description>
+			
+		</sheet>
+		<rules>
+			<!--Add the Titan spells-->>
+		</rules>
+	</element>
+	<element name="Strength of Magic" type="Archetype Feature" source="MCDM: Arcadia" id="ID_MCDM_ARCADIA_ARCHETYPE_FEATURE_TITAN_HEART_STRENGTH_OF_MAGIC">
+		<description>
+			<p>Starting at 6th level, you can use your Charisma modifier instead of your Strength modifier for Strength checks and saving throws, as your magical connection to the titans grows stronger.</p>
+		</description>
+		<sheet>
+			<description>You now can use your Charisma modifier in stead of your Strenght modifier for Strenght checks and saving throws.</description>
+		</sheet>
+	</element>
+	<element name="Toughened Grace" type="Archetype Feature" source="MCDM: Arcadia" id="ID_MCDM_ARCADIA_ARCHETYPE_FEATURE_TITAN_HEART_TOUGHENED_GRACE">
+		<description>
+			<p>Also starting at 6th level, while transformed by your Titan Manifestation feature, your total bonus to AC from that feature increases to +4 and you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+			<p class="indent">Additionally, you can use your Titan Manifestation feature three times, regaining all uses when you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description></description>
+		</sheet>
+		<rules>
+		</rules>
+	</element>
+	<element name="Titan's Will" type="Archetype Feature" source="MCDM: Arcadia" id="ID_MCDM_ARCADIA_ARCHETYPE_FEATURE_TITAN_HEART_TITANS_WILL">
+		<description>
+			<p>At 18th level, you gain the ability to overcome grievous injuries. As a bonus action when you have fewer than half of your hit points remaining, you can regain a number of hit points equal to half your hit point maximum.</p>
+			<p class="indent">Once you use this feature, you can’t use it again until you finish a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>As a bonus action when you have fewer than half of your hit points remaining, you can regain a number of hit points equal to half your hit point maximum.</description>
+		</sheet>
+	</element>
+	<element name="Ancient Colossus" type="Archetype Feature" source="MCDM: Arcadia" id="ID_MCDM_ARCADIA_ARCHETYPE_FEATURE_TITAN_HEART_ANCIENT_COLOSSUS">
+	</element>
+</elements>

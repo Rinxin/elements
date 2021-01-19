@@ -269,6 +269,26 @@
 			</setters>
 		</element>
 	<!--B-->
+		<element name="Battering Shield" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_SHIELD_BATTERING_SHIELD">
+			<description>
+				<p>While holding this iron tower shield, you gain a +1 bonus to AC. This bonus is in addition to the shield’s normal bonus to AC.</p>
+				<p class="indent">Additionally, the shield has 3 charges, and it regains 1d3 expended charges daily at dawn. If you are holding the shield and push a creature within your reach at least 5 feet away, you can expend 1 charge to push that creature an additional 10 feet, knock it prone, or both.</p>
+			</description>
+			<setters>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="shield">Armor</set>
+				<set name="rarity">Rare</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+				<set name="attunement">true</set>
+				<set name="enhancement">1</set>
+				<set name="name-format">{{parent}}, +{{enhancement}}</set>
+				<set name="charges">3</set>
+			</setters>
+			<rules>
+				<stat name="ac:shield" value="1" bonus="enhancement" />
+			</rules>
+		</element>
 	<!--C-->
 	<!--D-->
 	<!--E-->

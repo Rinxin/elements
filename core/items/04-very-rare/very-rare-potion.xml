@@ -25,6 +25,22 @@
 	<!--N-->
 	<!--O-->
 	<!--P-->
+		<element name="Potion of Possibility" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_POTION_OF_POSSIBILITY">
+			<description>
+				<p>When you drink this clear potion, you gain two Fragments of Possibility, each of which looks like a Tiny, grayish bead of energy that follows you around, staying within 1 foot of you at all times. Each fragment lasts for 8 hours or until used.</p>
+				<p class="indent">When you make an attack roll, an ability check, or a saving throw, you can expend your fragment to roll an additional d20 and choose which of the d20s to use. Alternatively, when an attack roll is made against you, you can expend your fragment to roll a d20 and choose which of the d20s to use, the one you rolled or the one the attacker rolled.</p>
+				<p class="indent">If the original d20 roll has advantage or disadvantage, you roll your d20 after advantage or disadvantage has been applied to the original roll.</p>
+				<p class="indent">While you have one or more Fragments of Possibility from this potion, you can’t gain another Fragment of Possibility from any source.</p>
+			</description>
+			<setters>
+				<set name="keywords">fragments of possibility</set>
+				<set name="category">Potions</set>
+				<set name="weight" lb="0.5">½ lb.</set>
+				<set name="type">Potion</set>
+				<set name="rarity">Very Rare</set>
+				<set name="stackable">true</set>
+			</setters>
+		</element>
 	<!--Q-->
 	<!--R-->
 	<!--S-->

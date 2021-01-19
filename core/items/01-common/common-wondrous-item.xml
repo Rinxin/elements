@@ -10,7 +10,21 @@
 	</info>
 <!--Wondrous Item-->
 	<!--A-->
+		
 	<!--B-->
+		<element name="Breathing Bubble" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_BREATHING_BUBBLE">
+			<description>
+				<p>This translucent, bubble-like sphere has a slightly tacky outer surface, and you gain the item’s benefits only while wearing it over your head like a helmet.</p>
+				<p class="indent">The bubble contains 1 hour of breathable air. The bubble regains all its expended air daily at dawn.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="slot">head</set>
+			</setters>
+		</element>
+		
 	<!--C-->
 		<element name="Cleansing Stone" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_CLEANSING_STONE">
 			<description>
@@ -24,7 +38,19 @@
 				<set name="stackable">true</set>
 			</setters>
 		</element>
+		<element name="Coin of Delving" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_COIN_OF_DELVING">
+			<description>
+				<p>This scintillating copper coin sheds dim light in a 5-foot radius. If dropped a distance greater than 5 feet, the coin issues a melodious ringing sound when it hits a surface. Any creature that can hear the chime can determine the distance the coin dropped based on the tone.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="stackable">true</set>
+			</setters>
+		</element>
 	<!--D-->
+		
 	<!--E-->
 		<element name="Everbright Lantern" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_EVERBRIGHT_LANTERN">
 			<description>
@@ -60,6 +86,7 @@
 				<set name="slot">misc</set>
 			</setters>
 		</element>
+		
 	<!--H-->
 	<!--I-->
 		<element name="Imbued Wood Focus" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_IMBUED_WOOD_FOCUS">
@@ -252,8 +279,22 @@
 			</setters>
 			<!--NOTE need to figure out set attunement-->
 		</element>
+		<element name="Prosthetic Limb" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_PROSTHETIC_LIMB">
+			<description>
+				<p>This artificial limb replaces a hand, an arm, a foot, a leg, or a similar appendage that was lost or removed. While the prosthetic is attached and attuned to you, it functions identically to the body part it is replacing. You can detach or reattach it as an action, and it can’t be removed by anyone else.</p>
+				<p class="indent">If you have multiple prosthetic limbs, they count as a single magic item with regard to the number of magic items you can attune to.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="attunement" addition="by a creature missing some or all of a limb">true</set>
+				<set name="slot">misc</set>
+			</setters>
+		</element>
 	<!--Q-->
 	<!--R-->
+
 	<!--S-->
 		<element name="Scribe’s Pen" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_SCRIBES_PEN">
 			<description>
@@ -294,6 +335,18 @@
 	<!--T-->
 	<!--U-->
 	<!--V-->
+		<element name="Vox Seeker" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_VOX_SEEKER">
+			<description>
+				<p>This clockwork device resembles a metal crab the size of a dinner plate. Every action used to wind up the device allows it to operate for 1 minute, to a maximum of 10 minutes. While operational, the item uses the accompanying vox seeker stat block. This automaton is under the DM’s control. A vox seeker reduced to 0 hit points is destroyed.</p>
+			</description>
+			<setters>
+				<set name="keywords">clockwork</set>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="stackable">true</set>
+			</setters>
+		</element>
 	<!--W-->
 		<element name="Wand Sheath" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_WAND_SHEATH">
 			<description>

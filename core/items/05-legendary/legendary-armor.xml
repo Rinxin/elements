@@ -78,6 +78,113 @@
 	<!--F-->
 	<!--G-->
 	<!--H-->
+		<element name="Hide of the Feral Guardian (Dormant)" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_ARMOR_HIDE_OF_THE_FERAL_GUARDIAN_DORMANT">
+			<compendium display="false" />
+			<description>
+				<p>It is believed that this polished and beautifully detailed leather armor was a gift from Melora, bestowed on a long-forgotten archdruid and champion of the natural world before the terrors of the Calamity.</p>
+				<p class="indent"><strong><em>Dormant.</em></strong> While wearing the armor in its dormant state, you gain the following benefits:</p>
+				<ul>
+					<li>The armor grants you a +1 bonus to AC.</li>
+					<li>While you are transformed by an effect that replaces any of your game statistics with those of another creature, you have a +1 bonus to melee attack and damage rolls, and you retain the benefits of this armor.</li>
+					<li>As an action, you can use the armor to cast polymorph on yourself, transforming into a giant owl while retaining your Intelligence, Wisdom, and Charisma scores. This property can’t be used again until the next dawn.</li>
+				</ul>
+				<p class="indent"><strong><em>Awakened.</em></strong> When the armor reaches an awakened state, it gains the following properties:</p>
+				<ul>
+					<li>The AC bonus of the armor increases to +2.</li>
+					<li>While you are transformed by an effect that replaces any of your game statistics with those of another creature, your bonus to melee attack and damage rolls increases by 1 (to +2).</li>
+					<li>When you cast the polymorph spell using this armor, you can transform into a cave bear (use the polar bear statistics).</li>
+				</ul>
+				<p class="indent"><strong><em>Exalted.</em></strong> When the armor reaches an exalted state, it gains the following properties:</p>
+				<ul>
+					<li>The AC bonus of the armor increases to +3.</li>
+					<li>While you are transformed by an effect that replaces any of your game statistics with those of another creature, your bonus to melee attack and damage rolls increases by 1 (to +3).</li>
+					<li>When you cast the polymorph spell using this armor, you can transform into a guardian wolf (see the accompanying stat block).</li>
+				</ul>
+			</description>
+			<setters>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="studded leather">Armor</set>
+				<set name="rarity">Legendary</set>
+				<set name="armor">Studded Leather</set>
+				<set name="name-format">Hide of the Feral Guardian, +{{enhancement}}</set>
+				<set name="enhancement">1</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+			</rules>
+		</element>
+		<element name="Hide of the Feral Guardian (Awakened)" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_ARMOR_HIDE_OF_THE_FERAL_GUARDIAN_AWAKENED">
+			<compendium display="false" />
+			<description>
+				<p>It is believed that this polished and beautifully detailed leather armor was a gift from Melora, bestowed on a long-forgotten archdruid and champion of the natural world before the terrors of the Calamity.</p>
+				<p class="indent"><strong><em>Dormant.</em></strong> While wearing the armor in its dormant state, you gain the following benefits:</p>
+				<ul>
+					<li>The armor grants you a +1 bonus to AC.</li>
+					<li>While you are transformed by an effect that replaces any of your game statistics with those of another creature, you have a +1 bonus to melee attack and damage rolls, and you retain the benefits of this armor.</li>
+					<li>As an action, you can use the armor to cast polymorph on yourself, transforming into a giant owl while retaining your Intelligence, Wisdom, and Charisma scores. This property can’t be used again until the next dawn.</li>
+				</ul>
+				<p class="indent"><strong><em>Awakened.</em></strong> When the armor reaches an awakened state, it gains the following properties:</p>
+				<ul>
+					<li>The AC bonus of the armor increases to +2.</li>
+					<li>While you are transformed by an effect that replaces any of your game statistics with those of another creature, your bonus to melee attack and damage rolls increases by 1 (to +2).</li>
+					<li>When you cast the polymorph spell using this armor, you can transform into a cave bear (use the polar bear statistics).</li>
+				</ul>
+				<p class="indent"><strong><em>Exalted.</em></strong> When the armor reaches an exalted state, it gains the following properties:</p>
+				<ul>
+					<li>The AC bonus of the armor increases to +3.</li>
+					<li>While you are transformed by an effect that replaces any of your game statistics with those of another creature, your bonus to melee attack and damage rolls increases by 1 (to +3).</li>
+					<li>When you cast the polymorph spell using this armor, you can transform into a guardian wolf (see the accompanying stat block).</li>
+				</ul>
+			</description>
+			<setters>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="studded leather">Armor</set>
+				<set name="rarity">Legendary</set>
+				<set name="armor">Studded Leather</set>
+				<set name="name-format">Hide of the Feral Guardian, +{{enhancement}}</set>
+				<set name="enhancement">2</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="2" bonus="enhancement" />
+			</rules>
+		</element>
+		<element name="Hide of the Feral Guardian (Exalted)" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_ARMOR_HIDE_OF_THE_FERAL_GUARDIAN_EXALTED">
+			<description>
+				<p>It is believed that this polished and beautifully detailed leather armor was a gift from Melora, bestowed on a long-forgotten archdruid and champion of the natural world before the terrors of the Calamity.</p>
+				<p class="indent"><strong><em>Dormant.</em></strong> While wearing the armor in its dormant state, you gain the following benefits:</p>
+				<ul>
+					<li>The armor grants you a +1 bonus to AC.</li>
+					<li>While you are transformed by an effect that replaces any of your game statistics with those of another creature, you have a +1 bonus to melee attack and damage rolls, and you retain the benefits of this armor.</li>
+					<li>As an action, you can use the armor to cast polymorph on yourself, transforming into a giant owl while retaining your Intelligence, Wisdom, and Charisma scores. This property can’t be used again until the next dawn.</li>
+				</ul>
+				<p class="indent"><strong><em>Awakened.</em></strong> When the armor reaches an awakened state, it gains the following properties:</p>
+				<ul>
+					<li>The AC bonus of the armor increases to +2.</li>
+					<li>While you are transformed by an effect that replaces any of your game statistics with those of another creature, your bonus to melee attack and damage rolls increases by 1 (to +2).</li>
+					<li>When you cast the polymorph spell using this armor, you can transform into a cave bear (use the polar bear statistics).</li>
+				</ul>
+				<p class="indent"><strong><em>Exalted.</em></strong> When the armor reaches an exalted state, it gains the following properties:</p>
+				<ul>
+					<li>The AC bonus of the armor increases to +3.</li>
+					<li>While you are transformed by an effect that replaces any of your game statistics with those of another creature, your bonus to melee attack and damage rolls increases by 1 (to +3).</li>
+					<li>When you cast the polymorph spell using this armor, you can transform into a guardian wolf (see the accompanying stat block).</li>
+				</ul>
+			</description>
+			<setters>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="studded leather">Armor</set>
+				<set name="rarity">Legendary</set>
+				<set name="armor">Studded Leather</set>
+				<set name="name-format">Hide of the Feral Guardian, +{{enhancement}}</set>
+				<set name="enhancement">3</set>
+			</setters>
+			<rules>
+				<stat name="ac:armored:enhancement" value="3" bonus="enhancement" />
+			</rules>
+		</element>
 	<!--I-->
 	<!--J-->
 	<!--K-->

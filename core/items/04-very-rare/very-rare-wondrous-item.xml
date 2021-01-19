@@ -72,6 +72,25 @@
 				<grant type="Resistance" id="ID_INTERNAL_RESISTANCE_DAMAGE_RESISTANCE_NECROTIC" />
 			</rules>
 		</element>
+		<element name="Arcane Cannon" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_ARCANE_CANNON">
+			<description>
+				<p>This Large cannon is imbued with magic. It requires no ammunition and doesn’t need to be loaded. It takes one action to aim the cannon and one action to fire it. After the cannon has fired, it must recharge for 5 minutes before it can be fired again.</p>
+				<p class="indent">The creature firing the cannon chooses the effect from the following options:</p>
+				<ul class="unstyled">
+					<li><strong>Acid Jet.</strong> The cannon discharges acid in a line 300 feet long and 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 22 (4d10) acid damage on a failed save, or half as much damage on a successful one. In addition, a creature that fails its saving throw takes 11 (2d10) acid damage at the start of each of its turns; a creature can end this damage by using its action to wash off the acid with a pint or more of water.</li>
+					<li><strong>Fire Jet.</strong> The cannon discharges fire in a line 300 feet long and 5 feet wide. Each creature in the area must make a DC 15 Dexterity saving throw, taking 33 (6d10) fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area that aren’t being worn or carried.</li>
+					<li><strong>Frost Shot.</strong> The cannon shoots a ball of frost to a point you can see within 1,200 feet of the cannon. The ball then expands to form a 30-foot-radius sphere centered on that point. Each creature in that area must make a DC 15 Constitution saving throw. On a failed save, a creature takes 22 (4d10) cold damage, and its speed is reduced by 10 feet for 1 minute. On a successful save, the creature takes half as much damage, and its speed isn’t reduced. A creature whose speed is reduced by this effect can repeat the save at the end of each of its turns, ending the effect on itself on a success.</li>
+					<li><strong>Lightning Shot.</strong> The cannon shoots a ball of lightning to a point you can see within 1,200 feet of the cannon. The lightning then expands to form a 20-foot radius sphere centered on that point. Each creature in that area must make a DC 15 Dexterity saving throw, taking 33 (6d10) lightning damage on a failed save, or half as much damage on a successful one. Creatures wearing metal armor have disadvantage on the save.</li>
+					<li><strong>Poison Spray.</strong> The cannon expels poison gas in a 60-foot cone. Each creature in that area must make a DC 15 Constitution saving throw. On a failed save, the creature takes 22 (4d10) poison damage and is poisoned for 1 minute. On a successful save, the creature takes half as much damage and isn’t poisoned. A creature poisoned in this way can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+				</ul>
+			</description>
+			<setters>
+				<set name="keywords">acid, fire, frost, lightning, poison</set>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
 		<element name="Arcane Propulsion Arm" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_ARCANE_PROPULSION_ARM">
 			<description>
 				<p>This prosthetic appendage was developed by artificers of House Cannith. To attune to this item, you must attach it to your arm at the wrist, elbow, or shoulder, at which point the prosthetic magically forms a copy of the appendage it’s replacing.</p>
@@ -150,6 +169,17 @@
 				<grant type="Vision" id="ID_VISION_DARKVISION" />
 			</rules>
 		</element>
+		<element name="Dispelling Stone" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_DISPELLING_STONE">
+			<description>
+				<p>This smooth, rainbow-colored, egg-shaped stone can be thrown up to 30 feet and explodes in a 10-foot-radius sphere of magical energy on impact, destroying the stone. Any active spell of 5th level or lower in the sphere ends.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+				<set name="stackable">true</set>
+			</setters>
+		</element>
 	<!--E-->
 	<!--F-->
 		<element name="Far Gear" type="Magic Item" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_MAGIC_ITEM_FAR_GEAR">
@@ -218,9 +248,47 @@
 	<!--M-->
 	<!--N-->
 	<!--O-->
+		<element name="Orb of the Veil" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_ORB_OF_THE_VEIL">
+			<description>
+				<p>This onyx sphere bears deep, spiraling grooves and dangles from an iron chain. While the orb is on your person, you gain the following benefits:</p>
+				<ul>
+					<li>Your Wisdom score increases by 2, as does your maximum for that score.</li>
+					<li>You gain darkvision out to a range of 60 feet. If you already have darkvision, the orb increases its range by 60 feet.</li>
+					<li>You have advantage on Wisdom checks to find hidden doors and paths.</li>
+				</ul>
+				<p class="indent"><strong><em>Curse.</em></strong> The orb is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the orb, keeping it on your person at all times. All nonmagical flames within 30 feet of you automatically extinguish, and fire damage dealt by you is halved.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+				<set name="attunement">true</set>
+				<set name="slot">onehand</set>
+			</setters>
+			<rules>
+				<stat name="wisdom" value="2" />
+				<stat name="wisdom:max" value="2" />
+				<grant type="Grants" id="ID_INTERNAL_GRANTS_DARKVISION_OR_INCREASE_60" />
+			</rules>
+		</element>
 	<!--P-->
 	<!--Q-->
 	<!--R-->
+		<element name="Reincarnation Dust" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_REINCARNATION_DUST">
+			<description>
+				<p>When this small pouch of purple dust is sprinkled on a dead humanoid or a piece of a dead humanoid, the dust is absorbed by the remains. If willing, the dead creature returns to life with a new body as if the reincarnate spell had been cast on the remains.</p>
+				<div class="reference">
+					<div element="ID_PHB_SPELL_REINCARNATE" />
+				</div>
+			</description>
+			<setters>
+				<set name="keywords">reincarnate</set>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+				<set name="stackable">true</set>
+			</setters>
+		</element>
 		<element name="Rotor of Return" type="Magic Item" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_MAGIC_ITEM_ROTOR_OF_RETURN">
 			<description>
 				<p>While attuned to this device, you have a +1 bonus to Constitution saving throws. You periodically receive flashbacks of old memories, and you can unerringly recall any event that took place within the previous 30 days.</p>

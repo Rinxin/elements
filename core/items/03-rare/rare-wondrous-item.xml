@@ -46,6 +46,22 @@
 			</rules>
 		</element>
 	<!--B-->
+		<element name="Butcher’s Bib" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_BUTCHERS_BIB">
+			<description>
+				<p>This black leather apron is perpetually covered by blood, even after being washed off. You gain the following benefits while wearing the apron:</p>
+				<ul>
+					<li>Once per turn when you roll damage for a melee attack with a weapon, you can reroll the weapon’s damage dice. If you do so, you must use the second total.</li>
+					<li>Your weapon attacks that deal slashing damage score a critical hit on a roll of 19 or 20 on the d20.</li>
+				</ul>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Rare</set>
+				<set name="attunement">true</set>
+				<set name="slot">misc</set>
+			</setters>
+		</element>
 	<!--C-->
 	<!--D-->
 		<element name="Docent" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_DOCENT">

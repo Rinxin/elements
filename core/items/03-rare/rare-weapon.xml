@@ -10,8 +10,44 @@
 	</info>
 <!--Weapon-->
 	<!--A-->
+		<element name="Acheron Blade" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_ACHERON_BLADE">
+			<description>
+				<p>The black blade of this sword is crafted from a mysterious arcane alloy. You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you are immune to effects that turn undead.</p>
+				<p class="indent"><strong><em>Dark Blessing.</em></strong> While holding the sword, you can use an action to give yourself 1d4 + 4 temporary hit points. This property can’t be used again until the next dusk.</p>
+				<p class="indent"><strong><em>Disheartening Strike.</em></strong> When you hit a creature with an attack using this weapon, you can fill the target with unsettling dread: the target has disadvantage on the next saving throw it makes before the end of your next turn. The creature ignores this effect if it’s immune to the frightened condition. Once you use this property, you can’t do so again until the next dusk.</p>
+			</description>
+			<setters>
+				<set name="keywords">any sword</set>
+				<set name="category">Magic Weapons</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="any sword">Weapon</set>
+				<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+				<set name="rarity">Rare</set>
+				<set name="enhancement">1</set>
+				<set name="attunement">true</set>
+			</setters>
+		</element>
 	<!--B-->
+
 	<!--C-->
+		<element name="Corpse Slayer" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_CORPSE_SLAYER">
+			<description>
+				<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+				<p class="indent">When you hit an undead creature with an attack using this weapon, the attack deals an extra 1d8 damage of the weapon’s type, and the creature has disadvantage on saving throws against effects that turn undead until the start of your next turn.</p>
+			</description>
+			<setters>
+				<set name="keywords">any</set>
+				<set name="category">Magic Weapons</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="any">Weapon</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Rare</set>
+				<set name="enhancement">1</set>
+				<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+				<set name="name-format">Corpse Slayer {{parent}}, +{{enhancement}}</set>
+				<set name="charges">0</set>
+			</setters>
+		</element>
 	<!--D-->
 	<!--E-->
 	<!--F-->
@@ -46,6 +82,26 @@
 		</element>
 	<!--M-->
 	<!--N-->
+		<element name="Needle of Mending" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_NEEDLE_OF_MENDING">
+			<description>
+				<p>This weapon is a magic dagger disguised as a sewing needle. When you hold it and use a bonus action to speak its command word, it transforms into a dagger or back into a needle.</p>
+				<p class="indent">You gain a+ 1 bonus to attack and damage rolls made with the dagger. While holding it, you can use an action to cast the mending cantrip from it.</p>
+				<div class="reference">
+					<div element="ID_PHB_SPELL_MENDING" />
+				</div>
+			</description>
+			<setters>
+				<set name="keywords">dagger</set>
+				<set name="category">Magic Weapons</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="dagger">Weapon</set>
+				<set name="weapon">Dagger</set>
+				<set name="rarity">Rare</set>
+				<set name="enhancement">1</set>
+				<set name="attunement">true</set>
+				<set name="name-format">Needle of Mending, +{{enhancement}}</set>
+			</setters>
+		</element>
 	<!--O-->
 	<!--P-->
 	<!--Q-->
@@ -74,6 +130,21 @@
 	<!--U-->
 	<!--V-->
 	<!--W-->
+		<element name="Weapon of Certain Death" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_WEAPON_OF_CERTAIN_DEATH">
+			<description>
+				<p>When you damage a creature with an attack using this magic weapon, the target can’t regain hit points until the start of your next turn.</p>
+			</description>
+			<setters>
+				<set name="keywords">any</set>
+				<set name="category">Magic Weapons</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="type" addition="any">Weapon</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Rare</set>
+				<set name="weapon">ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+				<set name="name-format">{{parent}} of Certain Death</set>
+			</setters>
+		</element>
 	<!--X-->
 	<!--Y-->
 	<!--Z-->
