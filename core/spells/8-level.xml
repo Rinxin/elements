@@ -106,6 +106,29 @@
     </element>
 <!--B-->
 <!--C-->
+    <element name="Caustic Torrent" type="Spell" source="Deep Magic: Collected" id="ID_KBP_DM_SPELL_CAUSTIC_TORRENT">
+        <supports>Sorcerer, Warlock, Wizard, Alkemancy</supports>
+        <description>
+            <p>You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell. Moving to a place where you don’t have a clear path to the sky ends the spell early.</p>
+            <p class="indent">When you cast the spell, you change the current weather conditions, which are determined by the DM based on the climate and season. You can change precipitation, temperature, and wind. It takes 1d4 x 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.</p>
+            <p class="indent">When you change the weather conditions, find a current condition on the following tables and change its 
+            stage by one, up or down. When changing the wind, you can change its direction.</p>
+        </description>
+        <setters>
+            <set name="keywords">alkemancy</set>
+            <set name="level">8</set>
+            <set name="school" additional="Alkemancy">Transmutation</set>
+            <set name="time">10 minutes</set>
+            <set name="duration">Concentration, up to 8 hours</set>
+            <set name="range">Self (5-mile radius)</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">burning incense and bits of earth and wood mixed in water</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Clone" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CLONE">
         <supports>Wizard</supports>
         <description>
@@ -378,6 +401,27 @@
 <!--J-->
 <!--K-->
 <!--L-->
+    <element name="Life Hack" type="Spell" source="Deep Magic: Collect" id="ID_KBP_DM_SPELL_LIFE_HACK">
+        <supports>Wizard, Alkemancy</supports>
+        <description>
+            <p>Choose up to five creatures that you can see within range. Each of the creatures gains access to a pool of temporary hit points that it can draw upon over the spell’s duration or until the pool is used up. The pool contains 120 temporary hit points. The number of temporary hit points each individual creature can draw is determined by dividing 120 by the number of creatures with access to the pool. Hit points are drawn as a bonus action by the creature gaining the temporary hit points. Any number can be drawn at once, up to the maximum allowed.</p>
+            <p class="indent">A creature can’t draw temporary hit points from the pool while it has temporary hit points from any source, including a previous casting of this spell.</p>
+        </description>
+        <setters>
+            <set name="keywords">Alkemancy</set>
+            <set name="level">8</set>
+            <set name="school" additional="Alkemancy">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 hour</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a ruby worth 500 gp, which is consumed during the casting)</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--M-->
     <element name="Maddening Darkness" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_MADDENING_DARKNESS">
         <supports>Warlock, Wizard</supports>

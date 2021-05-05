@@ -572,15 +572,15 @@
         </setters>
     </element>
 <!--G-->
-    <element name="Gaseous Form" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GASEOUS_FORM">
-        <supports>Sorcerer, Wizard, Warlock</supports>
+    <element name="Gaseous Form" type="Spell" source="Deep Magic: Collected" id="ID_KBP_DM_SPELL_GASEOUS_FORM">
+        <supports>Sorcerer, Wizard, Warlock, Alkemancy</supports>
         <description>
             <p>You transform a willing creature you touch, along with everything it’s wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn’t affected. While in this form, the target’s only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can’t fall and remains hovering in the air even when stunned or otherwise incapacitated. While in the form of a misty cloud, the target can’t talk or manipulate objects, and any objects it was carrying or holding can’t be dropped, used, or otherwise interacted with. The target can’t attack or cast spells.</p>
         </description>
         <setters>
-            <set name="keywords"></set>
+            <set name="keywords">alkemancy</set>
             <set name="level">3</set>
-            <set name="school">Transmutation</set>
+            <set name="school" additional="Alkemancy">Transmutation</set>
             <set name="time">1 action</set>
             <set name="duration">Concentration, up to 1 hour</set>
             <set name="range">Touch</set>
@@ -589,6 +589,27 @@
             <set name="hasMaterialComponent">true</set>
             <set name="materialComponent">a bit of gauze and a wisp of smoke</set>
             <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Gluey Goblue" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_GLUEY_GOBLUE">
+        <supports>Wizard, Alkemancy</supports>
+        <description>
+            <p>You make a ranged spell attack to hurl a large globule of sticky, magical glue at a creature within 120 feet. If the attack hits, the target creature is restrained. A restrained creature can break free by using an action to make a successful Strength saving throw. When the creature breaks free, it takes 2d6 slashing damage from the glue tearing its skin. If your ranged spell attack roll was a critical hit or exceeded the target’s AC by 5 or more, the Strength saving throw is made with disadvantage. The target can also be freed by an application of universal solvent or by taking 20 acid damage. The glue dissolves when the creature breaks free or at the end of 1 minute.</p>
+            <p class="indent">Alternatively, gluey globule can also be used to glue an object to a solid surface or to another object. In this case, the spell works like a single application of sovereign glue and lasts for 1 hour.</p>
+        </description>
+        <setters>
+            <set name="keywords">Alkemancy</set>
+            <set name="level">3</set>
+            <set name="school" additonal="Alkemancy">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 minute or 1 hour</set>
+            <set name="range">120 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a drop of glue</set>
+            <set name="isConcentration">false</set>
             <set name="isRitual">false</set>
         </setters>
     </element>
@@ -1073,6 +1094,27 @@
         </setters>
     </element>
 <!--S-->
+    <element name="Salt Lash" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_SENDING">
+        <supports>Wizard, Alkemancy</supports>
+        <description>
+            <p>You create a long, thin blade of razor-sharp salt crystals. You can wield it as a longsword, using your spellcasting ability to modify your weapon attack rolls. The sword deals 2d8 slashing damage on a hit, and any creature struck by the blade must make a successful Constitution saving throw or be stunned by searing pain until the start of your next turn. Constructs and undead are immune to the blade’s secondary (stun) effect; plants and creatures composed mostly of water, such as water elementals, also take an additional 2d8 necrotic damage if they fail the saving throw.</p>
+            <p class="indent">The spell lasts until you stop concentrating on it, the duration expires, or you let go of the blade for any reason.</p>
+        </description>
+        <setters>
+            <set name="keywords">alkemancy</set>
+            <set name="level">3</set>
+            <set name="school" additional="Alkemancy">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a pinch of salt worth 1 sp, which is consumed during the casting</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Sending" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SENDING">
         <supports>Bard, Cleric, Wizard</supports>
         <description>
@@ -1223,14 +1265,14 @@
         </setters>
     </element>
     <element name="Stinking Cloud" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_STINKING_CLOUD">
-        <supports>Bard, Sorcerer, Wizard</supports>
+        <supports>Bard, Sorcerer, Wizard, Alkemancy</supports>
         <description>
             <p>You create a 20-foot-radius sphere of yellow, nauseating gas centered on a point within range. The cloud spreads around corners, and its area is heavily obscured. The cloud lingers in the air for the duration. Each creature that is completely within the cloud at the start of its turn must make a Constitution saving throw against poison. On a failed save, the creature spends its action that turn retching and reeling. Creatures that don’t need to breathe or are immune to poison automatically succeed on this saving throw. A moderate wind (at least 10 miles per hour) disperses the cloud after 4 rounds. A strong wind (at least 20 miles per hour) disperses it after 1 round.</p>
         </description>
         <setters>
-            <set name="keywords"></set>
+            <set name="keywords">alkemancy</set>
             <set name="level">3</set>
-            <set name="school">Conjuration</set>
+            <set name="school" additional="Alkemancy">Conjuration</set>
             <set name="time">1 action</set>
             <set name="duration">Concentration, up to 1 minute</set>
             <set name="range">90 feet</set>

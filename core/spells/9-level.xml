@@ -55,6 +55,27 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
+    <element name="Blood to Acid" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BLOOD_TO_ACID">
+		<supports>Wizard, Alkemancy</supports>
+		<description>
+			<p>When you cast this spell, you designate a creature within range and convert its blood into virulent acid. The target must make a Constitution saving throw. On a failed save, it takes 10d12 acid damage and is stunned by the pain for 1d4 rounds. On a successful save, it takes half the damage and isn’t stunned.</p>
+			<p class="indent">Creatures without blood, such as constructs and plants, are not affected by this spell. If blood to acid is cast on a creature composed mainly of blood, such as a blood elemental or a blood zombie (Creature Codex, p. 393), the creature is slain by the spell if its saving throw fails.</p>
+		</description>
+		<setters>
+			<set name="keywords">Alkemancy</set>
+			<set name="level">9</set>
+			<set name="school" additional="Alkemancy">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="range">60 feet</set>
+			<set name="duration">Instantaneous</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 <!--C-->
 <!--D-->
 <!--E-->

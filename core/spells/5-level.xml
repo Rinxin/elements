@@ -8,7 +8,7 @@
     </info>
 <!--A-->
     <element name="Acid Rain" type="Spell" source="Deep Magic: Collected" id="ID_KBP_DM_SPELL_ACID_RAIN">
-        <supports>Alkemancy</supports>
+        <supports>Sorcerer, Warlock, Wizard, Alkemancy</supports>
         <description>
             <p>You unleash a storm of swirling acid in a cylinder 20 feet wide and 30 feet high, centered on a point you can see. The area is heavily obscured by the driving acidfall. A creature that starts its turn in the area or that enters the area for the first time on its turn takes 6d6 acid damage, or half as much damage if it makes a successful Dexterity saving throw. A creature takes half as much damage from the acid (as if it had made a successful saving throw) at the start of its first turn after leaving the affected area.</p>
             <p class="indent"><b>At Higher Levels.</b> When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d6 for each slot level above 5th.</p>
@@ -148,6 +148,29 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Bottled Arcana" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BOTTLED_ARCANA">
+        <supports>Wizard, Alkemancy</supports>
+        <description>
+            <p>By touching an empty, stoppered glass container such as a vial or flask, you magically enable it to hold a single spell. To be captured, the spell must be cast within 1 round of casting bottled arcana and it must be intentionally cast into the container. The container can hold one spell of 3rd level or lower. The spell can be held in the container for as much as 24 hours, after which the container reverts to a mundane vessel and any magic inside it dissipates harmlessly.</p>
+            <p class="indent">As an action, any creature can unstop the container, thereby releasing the spell. If the spell has a range of self, the creature opening the container is affected; otherwise, the creature opening the container designates the target according to the captured spell’s description. If a creature opens the container unwittingly (not knowing that the container holds a spell), the spell targets the creature opening the container or is centered on its space instead (whichever is more appropriate). Dispel magic cast on the container targets bottled arcana, not the spell inside. If bottled arcana is dispelled, the container becomes mundane and the spell inside dissipates harmlessly.</p>
+            <p class="indent">Until the spell in the container is released, its caster can’t regain the spell slot used to cast that spell. Once the spell is released, its caster regains the use of that slot normally.</p>
+            <p class="indent"><b>At Higher Levels.</b> When you cast this spell using a spell slot of 6th level or higher, the level of the spell the container can hold increases by one for every slot level above 5th.</p>
+        </description>
+        <setters>
+            <set name="keywords">Alkemancy</set>
+            <set name="level">5</set>
+            <set name="school" additional="Alkemancy">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">See below</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">an empty glass container</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--C-->
     <element name="Circle of Power" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CIRCLE_OF_POWER">
         <supports>Paladin</supports>
@@ -170,15 +193,15 @@
         </setters>
     </element>
     <element name="Cloudkill" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CLOUDKILL">
-        <supports>Sorcerer, Wizard</supports>
+        <supports>Sorcerer, Wizard, Alkemancy</supports>
         <description>
             <p>You create a 20-foot-radius sphere of poisonous, yellow-green fog centered on a point you choose within range. The fog spreads around corners. It lasts for the duration or until strong wind disperses the fog, ending the spell. Its area is heavily obscured. When a creature enters the spell’s area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. The creature takes 5d8 poison damage on a failed save, or half as much damage on a successful one. Creatures are affected even if they hold their breath or don’t need to breathe. The fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings.</p>
             <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</p>
         </description>
         <setters>
-            <set name="keywords"></set>
+            <set name="keywords">alkemancy</set>
             <set name="level">5</set>
-            <set name="school">Conjuration</set>
+            <set name="school" additional="Alkemancy">Conjuration</set>
             <set name="time">1 action</set>
             <set name="duration">Concentration, up to 10 minutes</set>
             <set name="range">120 feet</set>

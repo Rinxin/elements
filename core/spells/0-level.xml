@@ -8,15 +8,15 @@
     </info>
 <!--A-->
     <element name="Acid Splash" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ACID_SPLASH">
-        <supports>Sorcerer, Wizard</supports>
+        <supports>Sorcerer, Wizard, Alkemancy</supports>
         <description>
             <p>You hurl a bubble of acid. Choose one creature you can see within range, or choose two creatures you can see within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.</p>
             <p class="indent">This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
         </description>
         <setters>
-            <set name="keywords">acid</set>
+            <set name="keywords">acid, alkemancy</set>
             <set name="level">0</set>
-            <set name="school">Conjuration</set>
+            <set name="school" additional="Alkemancy">Conjuration</set>
             <set name="time">1 action</set>
             <set name="duration">Instantaneous</set>
             <set name="range">60 feet</set>
@@ -66,6 +66,26 @@
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">true</set>
 			<set name="materialComponent">a weapon</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+    <element name="Brimstone Infusion" type="Spell" source="Deep Magic" id="ID_KBP_DM_SPELL_BRIMSTONE_INFUSION">
+		<supports>Wizard, Alkemancy</supports>
+		<description>
+			<p>You infuse an ordinary flask of alchemist’s fire with magical brimstone. While so enchanted, the alchemist’s fire can be thrown 40 feet instead of 20, and it does 2d6 fire damage instead of 1d4. The Dexterity saving throw to extinguish the flames uses your spell save DC instead of DC 10. Infused alchemist’s fire returns to its normal properties after 24 hours.</p>
+		</description>
+		<setters>
+			<set name="keywords">alkemancy</set>
+			<set name="level">0</set>
+			<set name="school" additional="Alkemancy">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration">24 hours</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a flask of alchemist's fire and 5 gp worth of brimstone</set>
 			<set name="isConcentration">false</set>
 			<set name="isRitual">false</set>
 		</setters>
@@ -561,14 +581,14 @@
 <!--O-->
 <!--P-->
     <element name="Poison Spray" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_POISON_SPRAY">
-        <supports>Druid, Sorcerer, Warlock, Wizard</supports>
+        <supports>Druid, Sorcerer, Warlock, Wizard, Alkemancy</supports>
         <description>
             <p>You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take 1d12 poison damage. This spell’s damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).</p>
         </description>
         <setters>
-            <set name="keywords">poison</set>
+            <set name="keywords">alkemancy, poison</set>
             <set name="level">0</set>
-            <set name="school">Conjuration</set>
+            <set name="school" additional="Alkemancy">Conjuration</set>
             <set name="time">1 action</set>
             <set name="duration">Instantaneous</set>
             <set name="range">10 feet</set>

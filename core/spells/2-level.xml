@@ -225,6 +225,27 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Boiling Oil" type="Spell" source="Deep Magic: Collected" id="ID_KBP_DM_SPELL_BOILING_OIL">
+        <supports>Sorcerer, Wizard, Alkemancy</supports>
+        <description>
+            <p>You conjure a shallow, 15-foot-radius pool of boiling oil centered on a point within range. The pool is difficult terrain, and any creature that enters the pool or starts its turn there must make a Dexterity saving throw. On a failed save, the creature takes 3d8 fire damage and falls prone. On a successful save, a creature takes half as much damage and doesn’t fall prone.</p>
+            <p class="indent"><b>At Higher Levels.</b>> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords">alkemancy</set>
+            <set name="level">2</set>
+            <set name="school" additional="Alkemancy">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a vial of oil</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Branding Smite" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BRANDING_SMITE">
         <supports>Paladin</supports>
         <description>
@@ -412,6 +433,27 @@
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
 			<set name="materialComponent">a toy top</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+    <element name="Delay Potion" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_DELAY_POTION">
+		<supports>Wizard, Alkemancy</supports>
+		<description>
+			<p>Upon casting this spell, you delay the next potion you consume from taking effect for up to 1 hour. You must consume the potion within 1 round of casting delay potion; otherwise the spell has no effect. At any point during delay potion’s duration, you can use a bonus action to cause the potion to go into effect. When the potion is activated, it works as if you had just drunk it. While the potion is delayed, it has no effect at all and you can consume and benefit from other potions normally.</p>
+			<p class="indent">You can delay only one potion at a time. If you try to delay the effect of a second potion, the spell fails, the first potion has no effect, and the second potion has its normal effect when you drink it.</p>
+		</description>
+		<setters>
+			<set name="keywords">alkemancy</set>
+			<set name="level">2</set>
+			<set name="school" addition="Alkemancy">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="range">Touch</set>
+			<set name="duration">1 hour(see below)</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
 			<set name="isConcentration">false</set>
 			<set name="isRitual">false</set>
 		</setters>
@@ -1056,15 +1098,15 @@
         </setters>
     </element>
     <element name="Melf’s Acid Arrow" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MELFS_ACID_ARROW">
-        <supports>Wizard</supports>
+        <supports>Wizard, Alkemancy</supports>
         <description>
             <p>A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 acid damage immediately and 2d4 acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn.</p>
             <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd.</p>
         </description>
         <setters>
-            <set name="keywords">acid</set>
+            <set name="keywords">acid, alkemancy</set>
             <set name="level">2</set>
-            <set name="school">Evocation</set>
+            <set name="school" additional="Alkemancy">Evocation</set>
             <set name="time">1 action</set>
             <set name="duration">Instantaneous</set>
             <set name="range">90 feet</set>
@@ -1072,6 +1114,27 @@
             <set name="hasSomaticComponent">true</set>
             <set name="hasMaterialComponent">true</set>
             <set name="materialComponent">powdered rhubarb leaf and an adder’s stomach</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Mephitic Croak" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_MEPHITIC_CROAK">
+        <supports>Wizard, Alkemancy</supports>
+        <description>
+            <p>You release an intensely loud burp of acidic gas in a 15-foot cone. Creatures in the area take 2d6 acid damage plus 2d6 thunder damage, or half as much damage with a successful Dexterity saving throw. A creature whose Dexterity saving throw fails must also make a successful Constitution saving throw or be stunned and poisoned until the start of your next turn.</p>
+            <p class="indent"><b>At Higher Levels.</b> When you cast this spell using a spell slot of 3rd level or higher, both acid and thunder damage increase by 1d6 for each slot level above 2nd.</p>
+        </description>
+        <setters>
+            <set name="keywords">acid, alkemancy</set>
+            <set name="level">2</set>
+            <set name="school" additional="Alkemancy">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self (15-foot cone)</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a dead toad and a dram of arsenic worth 10 gp</set>
             <set name="isConcentration">false</set>
             <set name="isRitual">false</set>
         </setters>

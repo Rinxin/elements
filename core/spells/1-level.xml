@@ -176,6 +176,29 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Bottomless Stomach" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BOTTOMLESS_STOMACH">
+        <supports>Wizard, Alkemancy</supports>
+        <description>
+            <p>When you cast this spell, you gain the ability to consume dangerous substances and contain them in an extradimensional reservoir in your stomach. The spell allows you to swallow most liquids, such as acids, alcohol, poison, and even quicksilver, and hold them safely in your stomach. You are unaffected by swallowing the substance, but the spell doesn’t give you resistance or immunity to the substance in general; for example, you could safely drink a bucket of a black dragon’s acidic spittle, but you’d still be burned if you were caught in the dragon’s breath attack or if that bucket of acid were dumped over your head.</p>
+            <p class="indent">The spell allows you to store up to 10 gallons of liquid at one time. The liquid doesn’t need to all be of the same type, and different types don’t mix while in your stomach. Any liquid in excess of 10 gallons has its normal effect when you try to swallow it.</p>
+            <p class="indent">At any time before you stop concentrating on the spell, you can regurgitate up to 1 gallon of liquid stored in your stomach as a bonus action. The liquid is vomited into an adjacent 5-foot square. A target in that square must succeed on a DC 15 Dexterity saving throw or be affected by the liquid. The GM determines the exact effect based on the type of liquid regurgitated, using 1d6 damage of the appropriate type as the baseline.</p>
+            <p class="indent">When you stop concentrating on the spell, its duration expires, or it’s dispelled, the extradimensional reservoir and the liquid it contains cease to exist.</p>
+        </description>
+        <setters>
+            <set name="keywords">Alkemancy</set>
+            <set name="level">1</set>
+            <set name="school" additional="Alkemancy">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent" />
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Burning Hands" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BURNING_HANDS">
         <supports>Sorcerer, Wizard</supports>
         <description>
@@ -812,15 +835,15 @@
         </setters>
     </element>
     <element name="Fog Cloud" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FOG_CLOUD">
-        <supports>Druid, Ranger, Sorcerer, Wizard</supports>
+        <supports>Druid, Ranger, Sorcerer, Wizard, Alkemancy</supports>
         <description>
             <p>You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured, It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p>
             <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st.</p>
         </description>
         <setters>
-            <set name="keywords"></set>
+            <set name="keywords">alkemancy</set>
             <set name="level">1</set>
-            <set name="school">Conjuration</set>
+            <set name="school" additional="Alkemancy">Conjuration</set>
             <set name="time">1 action</set>
             <set name="duration">Concentration, up to 1 hour</set>
             <set name="range">120 feet</set>
@@ -874,14 +897,14 @@
         </setters>
     </element>
     <element name="Grease" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GREASE">
-        <supports>Wizard, Artificer</supports>
+        <supports>Wizard, Artificer, Alkemancy</supports>
         <description>
             <p>Slick grease covers the ground in a 10-foot square centered on a point within range and turns it into difficult terrain for the duration. When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone.</p>
         </description>
         <setters>
-            <set name="keywords"></set>
+            <set name="keywords">alkemancy</set>
             <set name="level">1</set>
-            <set name="school">Conjuration</set>
+            <set name="school" additional="Alkemancy">Conjuration</set>
             <set name="time">1 action</set>
             <set name="duration">1 minute</set>
             <set name="range">60 feet</set>
