@@ -16,5 +16,7 @@
 		<file name="04-very-rare.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/04-very-rare.index" />
 		<file name="05-legendary.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/05-legendary.index" />
 		<file name="06-artifact.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/06-artifact.index" />
+		
+		<file name="supernatural-gifts.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/supernatural-gifts.xml" />
     </files>
 </index>
