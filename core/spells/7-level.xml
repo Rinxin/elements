@@ -7,7 +7,7 @@
       </update>
     </info>
 <!--A-->
-    <element name="Acid Gate" type="Spell" source="Deep Magic: Collected" id="ID_KBP_DM_SPELL_ACID_GATE">
+    <element name="Acid Gate" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ACID_GATE">
 		<supports>Wizard, Alkemancy</supports>
 		<description>
 			<p>You create a portal of swirling, acidic green vapor in an unoccupied space you can see. This portal connects with a target destination within 100 miles that you are personally familiar with and have seen with your own eyes, such as your wizard’s tower or an inn you have stayed at. You and up to three creatures of your choice can enter the portal and pass through it, arriving at the target destination (or within 10 feet of it, if it is currently occupied). If the target destination doesn’t exist or is inaccessible, the spell automatically fails and the gate doesn’t form.</p>

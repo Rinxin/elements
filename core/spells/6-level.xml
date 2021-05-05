@@ -7,7 +7,7 @@
       </update>
     </info>
 <!--A-->
-    <element name="Alchemical Form" type="Spell" source="Deep Magic: Collected" id="ID_KBP_DM_SPELL_ALCHEMICAL_FORM">
+    <element name="Alchemical Form" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ALCHEMICAL_FORM">
         <supports>Wizard, Alkemancy</supports>
         <description>
             <p>You transform into an amoebic form composed of highly acidic and poisonous alchemical jelly. While in this form:</p>

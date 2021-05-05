@@ -7,7 +7,7 @@
       </update>
     </info>
 <!--A-->
-    <element name="Acid Rain" type="Spell" source="Deep Magic: Collected" id="ID_KBP_DM_SPELL_ACID_RAIN">
+    <element name="Acid Rain" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ACID_RAIN">
         <supports>Sorcerer, Warlock, Wizard, Alkemancy</supports>
         <description>
             <p>You unleash a storm of swirling acid in a cylinder 20 feet wide and 30 feet high, centered on a point you can see. The area is heavily obscured by the driving acidfall. A creature that starts its turn in the area or that enters the area for the first time on its turn takes 6d6 acid damage, or half as much damage if it makes a successful Dexterity saving throw. A creature takes half as much damage from the acid (as if it had made a successful saving throw) at the start of its first turn after leaving the affected area.</p>

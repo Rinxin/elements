@@ -70,7 +70,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-    <element name="Brimstone Infusion" type="Spell" source="Deep Magic" id="ID_KBP_DM_SPELL_BRIMSTONE_INFUSION">
+    <element name="Brimstone Infusion" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BRIMSTONE_INFUSION">
 		<supports>Wizard, Alkemancy</supports>
 		<description>
 			<p>You infuse an ordinary flask of alchemist’s fire with magical brimstone. While so enchanted, the alchemist’s fire can be thrown 40 feet instead of 20, and it does 2d6 fire damage instead of 1d4. The Dexterity saving throw to extinguish the flames uses your spell save DC instead of DC 10. Infused alchemist’s fire returns to its normal properties after 24 hours.</p>
