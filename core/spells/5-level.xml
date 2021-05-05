@@ -7,6 +7,27 @@
       </update>
     </info>
 <!--A-->
+    <element name="Acid Rain" type="Spell" source="Deep Magic: Collected" id="ID_KBP_DM_SPELL_ACID_RAIN">
+        <supports>Alkemancy</supports>
+        <description>
+            <p>You unleash a storm of swirling acid in a cylinder 20 feet wide and 30 feet high, centered on a point you can see. The area is heavily obscured by the driving acidfall. A creature that starts its turn in the area or that enters the area for the first time on its turn takes 6d6 acid damage, or half as much damage if it makes a successful Dexterity saving throw. A creature takes half as much damage from the acid (as if it had made a successful saving throw) at the start of its first turn after leaving the affected area.</p>
+            <p class="indent"><b>At Higher Levels.</b> When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d6 for each slot level above 5th.</p>
+        </description>
+        <setters>
+            <set name="keywords">alkemancy</set>
+            <set name="level">5</set>
+            <set name="school" addition="Alkemancy">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="range">1520 feet</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a drop of acid</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Animate Objects" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ANIMATE_OBJECTS">
         <supports>Bard, Sorcerer, Wizard, Artificer</supports>
         <description>

@@ -7,6 +7,28 @@
       </update>
     </info>
 <!--A-->
+    <element name="Acid Gate" type="Spell" source="Deep Magic: Collected" id="ID_KBP_DM_SPELL_ACID_GATE">
+		<supports>Wizard, Alkemancy</supports>
+		<description>
+			<p>You create a portal of swirling, acidic green vapor in an unoccupied space you can see. This portal connects with a target destination within 100 miles that you are personally familiar with and have seen with your own eyes, such as your wizard’s tower or an inn you have stayed at. You and up to three creatures of your choice can enter the portal and pass through it, arriving at the target destination (or within 10 feet of it, if it is currently occupied). If the target destination doesn’t exist or is inaccessible, the spell automatically fails and the gate doesn’t form.</p>
+            <p class="indent">Any creature that tries to move through the gate, other than those selected by you when the spell was cast, takes 10d6 acid damage and is teleported 1d100 × 10 feet in a random, horizontal direction. If the creature makes a successful Intelligence saving throw, it can’t be teleported by this portal, but it still takes acid damage when it enters the acid-filled portal and every time it ends its turn in contact with it.</p>
+            <p class="indent"><b>At Higher Levels.</b> When you cast this spell using a spell slot of 8th level or higher, you can allow one additional creature to use the gate for each slot level above 7th.</p>
+		</description>
+		<setters>
+			<set name="keywords">alkemancy</set>
+			<set name="level">7</set>
+			<set name="school" addition="Alkemancy">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="range">60 feet</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a vial of acid and a polished silver mirror worth 125 gp</set>
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
     <element name="Anomalous Object" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_ANOMALOUS_OBJECT">
 		<supports>Wizard, Dunamancy</supports>
 		<description>

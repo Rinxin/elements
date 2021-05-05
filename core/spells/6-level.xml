@@ -7,6 +7,38 @@
       </update>
     </info>
 <!--A-->
+<element name="Alchemical Form" type="Spell" source="Deep Magic: Collected" id="ID_KBP_DM_SPELL_ALCHEMICAL_FORM">
+        <supports>Alkemancy</supports>
+        <description>
+            <p>You transform into an amoebic form composed of highly acidic and poisonous alchemical jelly. While in this form:</p>
+            <ul>
+                <li>you are immune to acid and poison damage and to the poisoned and stunned conditions;</li>
+                <li>you have resistance to nonmagical fire, piercing, and slashing damage;</li>
+                <li>you can’t speak, cast spells, use items or weapons, or manipulate objects;</li>
+                <li>your gear melds into your body and reappears when the spell ends;</li>
+                <li>you don't need to breathe;</li>
+                <li>your speed is 20 feet;</li>
+                <li>your size doesn’t change, but you can move through and between obstructions as if you were two size categories smaller; and</li>
+                <li>you gain the following action: Melee Weapon Attack: spellcasting ability modifier + proficiency bonus to hit, range 5 ft., one target; Hit: 4d6 acid or poison damage (your choice), and the target must make a successful Constitution saving throw or be poisoned until the start of your next turn.</li>
+            </ul>
+            <p class="indent"></p>
+            <p class="indent"></p>
+        </description>
+        <setters>
+            <set name="keywords">alkemancy</set>
+            <set name="level">6</set>
+            <set name="school" additional="Alkemancy">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="range">Self</set>
+            <set name="duration">1 minutes</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a vial of acid, poison, or alchemist's fire</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Arcane Gate" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ARCANE_GATE">
         <supports>Sorcerer, Warlock, Wizard</supports>
         <description>
