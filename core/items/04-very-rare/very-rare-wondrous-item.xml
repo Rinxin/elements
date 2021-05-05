@@ -13,7 +13,7 @@
 		<element name="Amulet of the Indispensable" type="Magic Item" source="Relics of the Realms - Volume 5" id="ID_BONUSACTION_ROTR5_MAGIC_ITEM_AMULET_OF_THE_INDISPENSABLE">
 			<description>
 				<p><b>Essential Individual. </b>While you are attuned to this amulet your Constitution score increases by 2, to a maximum of 20.</p>
-				<p><<b>Lifesaver’s Dash. </b>Your speed increases by 20 ft. when moving towards a friendly creature which has dropped to 0 hit points.</p>
+				<p><b>Lifesaver’s Dash. </b>Your speed increases by 20 ft. when moving towards a friendly creature which has dropped to 0 hit points.</p>
 				<p class="indent"><b>Swift Response. </b>Whenever you heal a creature which has taken damage since the end of your last turn, you may reroll all 1’s and 2’s on the dice. You may use this feature for Healing spells, abilities and potions.</p>
 			</description>
 			<setters>
