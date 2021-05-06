@@ -7,6 +7,7 @@
       </update>
     </info>
 <!--A-->
+Acid gate - Wizard
     <element name="Acid Gate" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ACID_GATE">
 		<supports>Wizard, Alkemancy</supports>
 		<description>
@@ -29,6 +30,9 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
+
+Alter time flow (transmutation) [temporal] - Bard, Cleric
+Amplify gravity (transmutation) - Wizard
     <element name="Anomalous Object" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_ANOMALOUS_OBJECT">
 		<supports>Wizard, Dunamancy</supports>
 		<description>
@@ -49,8 +53,11 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
+Arcane parasite (transmutation) - Druid, Wizard
 <!--B-->
+Blizzard (conjuration) [winter] - Wizard
 <!--C-->
+Celebration (enchantment) [elven ritual] - Bard, Wizard
     <element name="Conjure Celestial" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CONJURE_CELESTIAL">
         <supports>Cleric</supports>
         <description>
@@ -72,6 +79,10 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Conjure greater spectral dead (conjuration) - Cleric, Wizard
+Conjure shadow titan (conjuration) [shadow] - Wizard
+Conjure voidborn (conjuration) [Void] - Wizard
+Create thunderstaff (transmutation) - Wizard
     <element name="Crown of Stars" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_CROWN_OF_STARS">
         <supports>Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -94,7 +105,11 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Curse of dust (necromancy) - Cleric, Druid
+Curse of the grave (necromancy) - Cleric, Wizard
 <!--D-->
+Death god's touch (necromancy) - Cleric, Wizard
+Defile healing (necromancy) - Cleric
     <element name="Delayed Blast Fireball" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DELAYED_BLAST_FIREBALL">
         <supports>Sorcerer, Wizard</supports>
         <description>
@@ -143,6 +158,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Dying of the light (evocation) [shadow] - Wizard
 <!--E-->
     <element name="Etherealness" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ETHEREALNESS">
         <supports>Bard, Cleric, Sorcerer, Warlock, Wizard</supports>
@@ -228,11 +244,16 @@
         </setters>
     </element>
 <!--G-->
+Glacial fog (evocation) [winter] - Cleric, Druid, Wizard
 <!--H-->
 <!--I-->
+Ice soldiers (conjuration) - Cleric, Druid, Wizard
+Icy grasp of the Void (evocation) [Void] - Wizard
 <!--J-->
 <!--K-->
 <!--L-->
+Last rays of the dying sun (evocation) [illumination] - Wizard
+Legend killer (divination) [dragon] - Wizard
 <!--M-->
     <element name="Mirage Arcane" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MIRAGE_ARCANE">
         <supports>Bard, Druid, Wizard</supports>
@@ -394,6 +415,7 @@
     </element>
 <!--Q-->
 <!--R-->
+Ravages of time (transmutation) [temporal] [clockwork] - Cleric, Wizard
     <element name="Regenerate" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_REGENERATE">
         <supports>Bard, Cleric, Druid</supports>
         <description>
@@ -454,7 +476,10 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Right the stars (divination) [temporal] - Wizard
+Ring ward (abjuration) [ring] - Wizard
 <!--S-->
+Seal of sanctuary (abjuration) [angelic] - Cleric, Wizard
     <element name="Sequester" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SEQUESTER">
         <supports>Wizard</supports>
         <description>
@@ -475,6 +500,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Sign of Koth (abjuration) [mythos] - Wizard
     <element name="Simulacrum" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SIMULACRUM">
         <supports>Wizard</supports>
         <description>
@@ -498,6 +524,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Starry vision (divination) - Wizard
     <element name="Symbol" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SYMBOL">
         <supports>Bard, Cleric, Druid, Wizard</supports>
         <description>
@@ -518,7 +545,9 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Symbol of sorcery (evocation) - Wizard
 <!--T-->
+Talons of a hungry land (evocation) - Wizard
     <element name="Teleport" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_TELEPORT">
         <supports>Bard, Sorcerer, Wizard</supports>
         <description>
@@ -606,9 +635,15 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Time jaunt (transmutation) [temporal] - Bard, Cleric
+Transmogrification (transmutation) [apocalypse] - Cleric, Druid, Wizard
+Triumph of ice (transmutation) [winter] - Druid, Wizard
 <!--U-->
+Uncontrollable transformation (transmutation) [chaos] - Bard, Wizard
 <!--V-->
+Volley shield (abjuration) - Druid, Wizard
 <!--W-->
+Walking wall (transmutation) - Wizard
     <element name="Whirlwind" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_WHIRLWIND">
         <supports>Druid, Sorcerer, Wizard</supports>
         <description>
@@ -631,6 +666,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Wild trajectory (transmutation) [chaos] - Wizard
 <!--X-->
 <!--Y-->
 <!--Z-->

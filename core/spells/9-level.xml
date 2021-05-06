@@ -7,6 +7,7 @@
       </update>
     </info>
 <!--A-->
+Afflict line (necromancy) [elven ritual] - Cleric, Wizard
     <element name="Astral Projection" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ASTRAL_PROJECTION">
         <supports>Cleric, Warlock, Wizard</supports>
         <description>
@@ -55,6 +56,8 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
+Black Hole (conjuration) [apocalypse] - , Wizard
+Blood to Acid- , Wizard
     <element name="Blood to Acid" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BLOOD_TO_ACID">
 		<supports>Wizard, Alkemancy</supports>
 		<description>
@@ -77,6 +80,7 @@
 		</setters>
 	</element>
 <!--C-->
+Circle of Devastation (evocation) [ring] - , Wizard
 <!--D-->
 <!--E-->
 <!--F-->
@@ -100,6 +104,8 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Forest sanctuary (abjuration) - Druid
+Form of the gods (transmutation) - Cleric
 <!--G-->
     <element name="Gate" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GATE">
         <supports>Cleric, Sorcerer, Wizard</supports>
@@ -121,6 +127,8 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Greater Maze (conjuration) [labyrith] - , Wizard
+Greater seal of sanctuary (abjuration) [angelic] - Cleric, Wizard
 <!--H-->
 <!--I-->
     <element name="Imprisonment" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_IMPRISONMENT">
@@ -167,6 +175,7 @@
 <!--K-->
 <!--L-->
 <!--M-->
+Mammon’s due (conjuration) - Cleric, Wizard
     <element name="Mass Heal" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MASS_HEAL">
         <supports>Cleric</supports>
         <description>
@@ -327,6 +336,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Pyroclasm (evocation) - , Wizard
 <!--Q-->
 <!--R-->
     <element name="Ravenous Void" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_RAVENOUS_VOID">
@@ -372,6 +382,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Star's heart (tramsutation) [illumination] - , Wizard
     <element name="Storm of Vengeance" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_STORM_OF_VENGEANCE">
         <supports>Druid</supports>
         <description>
@@ -397,7 +408,9 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Summon avatar (conjuartion) [mythos] - , Wizard
 <!--T-->
+Time in a bottle (transmutation) [temporal] [clockwork] - Bard, Cleric, Wizard
     <element name="Time Ravage" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_TIME_RAVAGE">
         <supports>Wizard,Chronurgy,Dunamancy</supports>
         <description>
@@ -489,7 +502,11 @@
         </setters>
     </element>
 <!--U-->
+Umbral Storm (necromancy) [shadow] - , Wizard
+Unleash effigy (transmutation) - , Wizard
+Unshackled magic (enchantment) [chaos] - , Wizard
 <!--V-->
+Void rift (evocation) [void] - , Wizard
 <!--W-->
     <element name="Weird" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_WEIRD">
         <supports>Wizard</supports>

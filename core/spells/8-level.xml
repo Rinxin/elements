@@ -104,8 +104,13 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Arcane sight (divination) - Wizard
+Awaken object (transmutation) - Druid
 <!--B-->
+Black Sunshine (illusion) - Wizard
+Bloom (conjuration) [elven ritual] - Cleric, Druid, Wizard
 <!--C-->
+Caustic torrent (conjuration) [alkemancy] - Wizard
     <element name="Caustic Torrent" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_CAUSTIC_TORRENT">
         <supports>Sorcerer, Warlock, Wizard, Alkemancy</supports>
         <description>
@@ -197,6 +202,9 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Costly victory (evocation) - Cleric
+Create ring servant (transmutation) [ring] - Wizard
+Creeping darkness (conjuration) [shadow] - Wizard
 <!--D-->
     <element name="Dark Star" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_DARK_STAR">
         <supports>Wizard,Dunamancy,Graviturgy</supports>
@@ -220,6 +228,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Deadly sting (transmutation) [dragon] - Wizard
     <element name="Demiplane" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DEMIPLANE">
         <supports>Warlock, Wizard</supports>
         <description>
@@ -240,6 +249,8 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Desolation (necromancy) [elven ritual] - Cleric, Druid, Wizard
+Disruptive aura (evocation) - Druid, Wizard
     <element name="Dominate Monster" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DOMINATE_MONSTER">
         <supports>Bard, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -312,7 +323,9 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Frailform (enchantment) [apocalypse] - Bard, Druid, Wizard
 <!--G-->
+Ghoul king's cloak (transmutation) - Cleric
     <element name="Glibness" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GLIBNESS">
         <supports>Bard, Warlock</supports>
         <description>
@@ -333,7 +346,9 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Glimpse of the Void (enchantment) [Void] - Wizard
 <!--H-->
+Harsh light of summer’s glare (enchantment) - Druid, Wizard
     <element name="Holy Aura" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_HOLY_AURA">
         <supports>Cleric</supports>
         <description>
@@ -401,6 +416,7 @@
 <!--J-->
 <!--K-->
 <!--L-->
+Life Hack - Wizard
     <element name="Life Hack" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_LIFE_HACK">
         <supports>Wizard, Alkemancy</supports>
         <description>
@@ -422,6 +438,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Lower the veil (divination) - Cleric, Wizard
 <!--M-->
     <element name="Maddening Darkness" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_MADDENING_DARKNESS">
         <supports>Warlock, Wizard</supports>
@@ -444,6 +461,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Malevolent waves (abjuration) - Wizard
     <element name="Maze" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MAZE">
         <supports>Wizard</supports>
         <description>
@@ -513,6 +531,7 @@
 <!--N-->
 <!--O-->
 <!--P-->
+Paragon of chaos (transmutation) [chaos] - Bard, Wizard
     <element name="Power Word Stun" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_POWER_WORD_STUN">
         <supports>Bard, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -534,6 +553,7 @@
         </setters>
     </element>
 <!--Q-->
+Quintessence (transmutation) [angelic] - Cleric, Wizard
 <!--R-->
     <element name="Reality Break" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_REALITY_BREAK">
         <supports>Wizard,Chronurgy,Dunamancy</supports>
@@ -565,7 +585,11 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Roaring winds of Limbo (conjuration) [chaos] - Wizard
 <!--S-->
+Seed of destruction (enchantment) [mythos] - Wizard
+Steam whistle (evocation) [clockwork] - Wizard
+Summon star (conjuration) [illumination] - Wizard
     <element name="Sunburst" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SUNBURST">
         <supports>Cleric, Druid, Sorcerer, Wizard</supports>
         <description>
@@ -607,6 +631,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Time jump (transmutation) [temporal] [clockwork] - Bard, Wizard
     <element name="Tsunami" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_TSUNAMI">
         <supports>Druid</supports>
         <description>
@@ -627,9 +652,11 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Time slippage (enchantment) [temporal] [clockwork] - Wizard
 <!--U-->
 <!--V-->
 <!--W-->
+Wind of the hereafter (conjuration) - Cleric, Wizard
 <!--X-->
 <!--Y-->
 <!--Z-->

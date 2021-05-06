@@ -7,6 +7,7 @@
       </update>
     </info>
 <!--A-->
+Abhorrent apparition (illusion) - Bard
     <element name="Arcane Eye" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ARCANE_EYE">
         <supports>Wizard, Artificer</supports>
         <description>
@@ -29,6 +30,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Aura of entropy (abjuration) [apocalypse] - Paladin
     <element name="Aura of Life" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_AURA_OF_LIFE">
         <supports>Paladin</supports>
         <description>
@@ -91,6 +93,8 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Binding oath (necromancy) - Bard, Cleric, Paladin
+Blade of my brother (transmutation) - Cleric, Paladin
     <element name="Blight" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BLIGHT">
         <supports>Druid, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -111,7 +115,13 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Blood and steel (transmutation) [blood] - Cleric
+Blood puppet (transmutation) [blood] - Cleric
+Blood Spoor (divination) [blood] - Ranger
+Brittling (transmutation) [winter] - Cleric, Druid
+By the light of the watchful moon (divination) - Cleric, Druid, Paladin, Ranger
 <!--C-->
+Caustic waste (evocation) [apocalypse] - Cleric, Druid
     <element name="Charm Monster" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_CHARM_MONSTER">
         <supports>Bard, Druid, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -133,6 +143,8 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Chaotic form (transmutation) [chaos] - Bard
+Cherub’s burning blade (evocation) - Cleric, Paladin
     <element name="Compulsion" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_COMPULSION">
         <supports>Bard</supports>
         <description>
@@ -243,6 +255,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Consult the storm (divination) - Cleric, Druid
     <element name="Control Water" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CONTROL_WATER">
         <supports>Cleric, Druid, Wizard, Alkemancy</supports>
         <description>
@@ -269,6 +282,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Cursed gift (abjuration) - Bard
 <!--D-->
     <element name="Death Ward" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DEATH_WARD">
         <supports>Cleric, Paladin</supports>
@@ -290,6 +304,8 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Desiccating breath (evocation) - Cleric, Druid
+Deva’s wings (transmutation) [angelic] - Cleric, Paladin
     <element name="Dimension Door" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DIMENSION_DOOR">
         <supports>Bard, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -310,6 +326,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Distressing resonance (evocation) - Bard
     <element name="Divination" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DIVINATION">
         <supports>Cleric, Druid</supports>
         <description>
@@ -351,7 +368,11 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Doom of the earthen maw (evocation) - Cleric, Druid
+Doom of serpent coils (necromancy) - Cleric, Druid
+Draconic senses (divination) [dragon] - Bard
 <!--E-->
+Echoes of steel (evocation) - Paladin
     <element name="Elemental Bane" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_ELEMENTAL_BANE">
         <supports>Druid, Warlock, Wizard, Artificer</supports>
         <description>
@@ -373,6 +394,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Energy foreknowledge (divination) - Bard, Cleric, Druid
     <element name="Evard’s Black Tentacles" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_EVARDS_BLACK_TENTACLES">
         <supports>Wizard</supports>
         <description>
@@ -393,6 +415,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Evercold (necromancy) [winter] - Cleric
 <!--F-->
     <element name="Fabricate" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FABRICATE">
         <supports>Wizard, Artificer</supports>
@@ -460,6 +483,8 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Fluctuating alignment (enchantment) [chaos] - Bard
+Fog of war (illusion) - Bard
     <element name="Freedom of Movement" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT">
         <supports>Bard, Cleric, Druid, Ranger, Artificer</supports>
         <description>
@@ -480,6 +505,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Fusillade of ice (evocation) [winter] - Ranger
 <!--G-->
     <element name="Giant Insect" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GIANT_INSECT">
         <supports>Druid</supports>
@@ -501,6 +527,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Giant's jest (transmutation) - Bard
     <element name="Grasping Vine" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GRASPING_VINE">
         <supports>Druid, Ranger</supports>
         <description>
@@ -637,6 +664,9 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Harry (enchantment) - Bard, Druid, Ranger
+Heart-seeking arrow (transmutation) - Ranger
+Hunting stand (conjuration) - Druid, Ranger
 <!--I-->
     <element name="Ice Storm" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ICE_STORM">
         <supports>Druid, Sorcerer, Wizard</supports>
@@ -659,9 +689,12 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Inspiring speech (enchantment) - Bard, Cleric, Paladin
 <!--J-->
 <!--K-->
+Keening wail (necromancy) - Bard, Cleric
 <!--L-->
+Labyrinth mastery (divination) [labyrinth] - Bard, Ranger
     <element name="Leomund’s Secret Chest" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_LEOMUNDS_SECRET_CHEST">
         <supports>Wizard, Artificer</supports>
         <description>
@@ -704,7 +737,10 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Looping trail (transmutation) - Druid, Ranger
+Lovesick (enchantment) - Bard, Cleric
 <!--M-->
+Moon trap (abjuration) [labyrinth] - Cleric, Druid
     <element name="Mordenkainen’s Faithful Hound" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MORDENKAINENS_FAITHFUL_HOUND">
         <supports>Wizard, Artificer</supports>
         <description>
@@ -756,6 +792,7 @@
         </setters>
     </element>
 <!--N-->
+Not dead yet (necromancy) - Cleric
 <!--O-->
     <element name="Otiluke’s Resilient Sphere" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_OTILUKES_RESILIENT_SPHERE">
         <supports>Wizard, Artificer</supports>
@@ -823,7 +860,9 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Power word pain (enchantment) - Cleric
 <!--Q-->
+Quick time (conjuration) [temporal] - Druid
     <element name="Quicksilver Mantle" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_QUICKSILVER_MANTLE">
 		<supports>Wizard, Alkemancy</supports>
 		<description>
@@ -845,6 +884,7 @@
 		</setters>
 	</element>
 <!--R-->
+Raid the lair (abjuration) [dragon] - Bard, Ranger
     <element name="Ray of Alchemical Negation" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_RAY_OF_ALCHEMICAL_NEGATION">
 		<supports>Wizard, Alkemancy</supports>
 		<description>
@@ -866,16 +906,19 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-    <element name="Reset" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_RESET">
-		<supports>Bard,Cleric,Druid,Paladin,Wizard, Dunamancy</supports>
+Ray of life suppression (necromancy) - Druid
+Reposition (conjuration) - Bard
+Reset (transmutation) [temporal] [clockwork] - Bard, Cleric, Druid, Paladin
+    <element name="Reset" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_RESET">
+		<supports>Bard, Cleric, Druid, Paladin, Wizard, Dunamancy, Clockwork</supports>
 		<description>
 			<p>Temporal energy bursts from you to bathe the battlefield. Choose up to four creatures within range. If the creature is your ally, it can reroll its initiative check twice, keeping whichever of the two results it prefers. If the target is your enemy, it must make a successful Wisdom saving throw or reroll its initiative check twice, keeping whichever of the two results you prefer. New initiative results go into effect at the start of the next round.</p>
 			<p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 5th level or higher, you can affect one additional creature for each slot level above 4th.</p>
 		</description>
 		<setters>
-			<set name="keywords">dunamancy</set>
+			<set name="keywords">clockwork, dunamancy</set>
 			<set name="level">4</set>
-			<set name="school" addition="Dunamancy">Transmutation</set>
+			<set name="school" addition="Clockwork, Dunamancy">Transmutation</set>
 			<set name="time">1 action</set>
 			<set name="range">60 feet</set>
 			<set name="duration">Instantaneous</set>
@@ -888,6 +931,10 @@
 		</setters>
 	</element>
 <!--S-->
+Sacrificial healing (necromancy) - Bard
+Scale rot (necromancy) [dragon] - Bard, Cleric, Ranger
+Scry ambush (divination) [temporal] - Bard, Cleric, Druid, Ranger
+Servant of doom (transmutation) [apocalypse] - Cleric, Druid
     <element name="Shadow of Moil" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_SHADOW_OF_MOIL">
         <supports>Warlock</supports>
         <description>
@@ -909,6 +956,9 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Shadowy retribution (necromancy) [elven ritual] - Cleric
+Shocking shroud (evocation) - Cleric, Druid
+Shroud of death (necromancy) - Cleric
     <element name="Sickening Radiance" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_SICKENING_RADIANCE">
         <supports>Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -930,6 +980,9 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Snow boulder (transmutation) [winter] - Druid, Ranger
+Spectral herd (conjuration) - Cleric, Paladin
+Staff of violet fire (evocation) - Cleric
     <element name="Staggering Smite" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_STAGGERING_SMITE">
         <supports>Paladin</supports>
         <description>
@@ -990,6 +1043,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Storm of wings (conjuration) - Druid, Ranger
     <element name="Storm Sphere" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_STORM_SPHERE">
         <supports>Sorcerer, Wizard, Fighter (Eldritch Knight)</supports>
         <description>
@@ -1013,6 +1067,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Sudden stampede (conjuration) - Bard, Druid, Ranger
     <element name="Summon Elemental" type="Spell" source="Tasha's Cauldron of Everything" id="ID_TCOE_SPELL_SUMMON_ELEMENTAL">
         <supports>Druid, Ranger, Wizard</supports>
         <description>
@@ -1060,7 +1115,7 @@
         </setters>
     </element>
 <!--T-->
-    <element name="Time Vortex" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_TIME_VORTEX">
+    <element name="Time Vortex" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_TIME_VORTEX">
 		<supports>Sorcerer,Warlock,Wizard, Dunamancy</supports>
 		<description>
 			<p>This spell destabilizes the flow of time in the target area, subjecting creatures caught in the vortex to temporal fluctuations that are visible as a spherical distortion with a 10-foot radius. Each creature within the sphere when you cast the spell must succeed on a Wisdom saving throw or be affected by the time vortex. While the spell lasts, a creature that enters the sphere or begins its turn inside the sphere must also make a Wisdom saving throw or be affected. Once a creature’s Wisdom saving throw succeeds, it is immune to this time vortex.</p>
@@ -1092,6 +1147,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
+True light of revelation (abjuration) - Cleric, Paladin
 <!--U-->
 <!--V-->
     <element name="Vitriolic Sphere" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_VITRIOLIC_SPHERE">
@@ -1163,6 +1219,8 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Wild shield (abjuration) [chaos] - Bard
+Wintry glide (conjuration) [winter] - Druid, Ranger
 <!--X-->
 <!--Y-->
 <!--Z-->

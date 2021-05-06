@@ -7,6 +7,7 @@
       </update>
     </info>
 <!--A-->
+Acid Rain - Wizard
     <element name="Acid Rain" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ACID_RAIN">
         <supports>Sorcerer, Warlock, Wizard, Alkemancy</supports>
         <description>
@@ -28,6 +29,8 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Ancient shade (necromancy) - Cleric, Wizard
+Animated object swarm (conjuration) - Bard, Wizard
     <element name="Animate Objects" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ANIMATE_OBJECTS">
         <supports>Bard, Sorcerer, Wizard, Artificer</supports>
         <description>
@@ -107,6 +110,7 @@
         </setters>
     </element>
 <!--B-->
+Babble (enchantment) [chaos] - Bard, Wizard
     <element name="Banishing Smite" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BANISHING_SMITE">
         <supports>Paladin</supports>
         <description>
@@ -127,6 +131,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Battle mind (divination) - Bard, Paladin, Wizard
     <element name="Bigby’s Hand" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BIGBYS_HAND">
         <supports>Wizard, Artificer</supports>
         <description>
@@ -148,6 +153,8 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Blazing chariot (conjuration) [angelic] - Cleric, Paladin, Wizard
+Bottled arcana (transmutation) [alkemancy] - Wizard
     <element name="Bottled Arcana" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BOTTLED_ARCANA">
         <supports>Wizard, Alkemancy</supports>
         <description>
@@ -172,6 +179,8 @@
         </setters>
     </element>
 <!--C-->
+Chains of the goddess (enchantment) [clockwork] - Cleric
+Channel fiendish power (transmutation) [fiendish] - Wizard
     <element name="Circle of Power" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CIRCLE_OF_POWER">
         <supports>Paladin</supports>
         <description>
@@ -192,6 +201,9 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Clash of glaciers (evocation) [winter] - Druid, Wizard
+Claws of the earth dragon (evocation) [dragon] - Bard, Cleric, Wizard
+Clockwork bodyguard (conjuration) [clockwork] - Cleric, Wizard
     <element name="Cloudkill" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CLOUDKILL">
         <supports>Sorcerer, Wizard, Alkemancy</supports>
         <description>
@@ -303,6 +315,9 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Conjure fey hound (conjuration) - Druid, Ranger, Wizard
+Conjure minor voidborn (conjuration) [Void] - Wizard
+Conjure nightmare (conjuration) [fiendish] - Wizard
     <element name="Conjure Volley" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CONJURE_VOLLEY">
         <supports>Ranger</supports>
         <description>
@@ -372,6 +387,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Control ice (transmutation) [winter] - Druid, Wizard
     <element name="Control Winds" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_CONTROL_WINDS">
         <supports>Druid, Sorcerer, Wizard</supports>
         <description>
@@ -416,6 +432,9 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Cruor of visions (divination) [blood] - Cleric, Wizard
+Curse of Yig (transmutation) [mythos] - Wizard
+Curse ring (necromancy) [ring] - Wizard
 <!--D-->
     <element name="Danse Macabre" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_DANSE_MACABRE">
         <supports>Warlock, Wizard</supports>
@@ -440,6 +459,8 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Dark dementing (illusion) [shadow] - Wizard
+Dark lord’s mantle (enchantment) [fiendish] - Wizard
     <element name="Dawn" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_DAWN">
         <supports>Cleric, Wizard</supports>
         <description>
@@ -482,6 +503,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Detonate corpses (necromancy) [apocalypse] - Cleric, Wizard
     <element name="Dispel Evil and Good" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DISPEL_EVIL_AND_GOOD">
         <supports>Cleric, Paladin</supports>
         <description>
@@ -523,6 +545,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Dragon breath (evocation) [dragon] - Wizard
     <element name="Dream" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DREAM">
         <supports>Bard, Warlock, Wizard</supports>
         <description>
@@ -547,6 +570,10 @@
         </setters>
     </element>
 <!--E-->
+Earth wave (transmutation) - Druid
+Eidetic memory (transmutation) - Bard, Cleric, Druid, Wizard
+Eldritch communion (divination) [mythos] - Wizard
+Energy absorption (abjuration) - Druid, Wizard
     <element name="Enervation" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_ENERVATION">
         <supports>Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -569,6 +596,9 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Essence instability (transmutation) - Wizard
+Exsanguinate (necromancy) [blood] - Cleric, Wizard
+Exsanguinating cloud (necromancy) [blood] - Cleric, Wizard
 <!--F-->
     <element name="Far Step" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_FAR_STEP">
         <supports>Sorcerer, Warlock, Wizard</supports>
@@ -590,6 +620,8 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Fey crown (abjuration) - Bard, Druid, Ranger
+Fiendish brand (necromancy) [fiendish] - Cleric, Wizard
     <element name="Flame Strike" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FLAME_STRIKE">
         <supports>Cleric</supports>
         <description>
@@ -611,6 +643,8 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Forest of spears (evocation) - Druid, Wizard
+Frostbite (evocation) [winter] - Wizard
 <!--G-->
     <element name="Geas" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GEAS">
         <supports>Bard, Cleric, Druid, Paladin, Wizard</supports>
@@ -633,6 +667,8 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Grasp of the tupilak (necromancy) - Cleric, Wizard
+Greater protective nimbus (abjuration) [illumination] - Wizard
     <element name="Greater Restoration" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GREATER_RESTORATION">
         <supports>Bard, Cleric, Druid, Artificer</supports>
         <description>
@@ -680,6 +716,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Harrying hounds (enchantment) - Druid, Ranger, Wizard
     <element name="Hold Monster" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_HOLD_MONSTER">
         <supports>Bard, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -701,6 +738,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Holy ground (evocation) - Cleric, Paladin
     <element name="Holy Weapon" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_HOLY_WEAPON">
         <supports>Cleric, Paladin</supports>
         <description>
@@ -723,6 +761,7 @@
         </setters>
     </element>
 <!--I-->
+Ice fortress (conjuration) [winter] - Cleric, Wizard
     <element name="Immolation" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_IMMOLATION">
         <supports>Sorcerer, Wizard</supports>
         <description>
@@ -790,9 +829,14 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Instant fortification (transmutation) - Wizard
 <!--J-->
 <!--K-->
+Kiss of the succubus (necromancy) - Bard, Cleric, Wizard
+Killing fields (transmutation) - Ranger
 <!--L-->
+Labyrinthine howl (illusion) [labyrinth] - Wizard
+Lay to rest (evocation) - Cleric, Paladin
     <element name="Legend Lore" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_LEGEND_LORE">
         <supports>Bard, Cleric, Wizard, Dunamancy</supports>
         <description>
@@ -814,6 +858,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Living shadows (enchantment) [Void] - Wizard
 <!--M-->
     <element name="Maelstrom" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_MAELSTROM">
         <supports>Druid</supports>
@@ -835,6 +880,9 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Magnetize (evocation) - Wizard
+Maim (necromancy) - Bard, Druid, Wizard
+Mass surge dampener (abjuration) [chaos] - Bard, Wizard
     <element name="Mass Cure Wounds" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MASS_CURE_WOUNDS">
         <supports>Bard, Cleric, Druid</supports>
         <description>
@@ -902,6 +950,7 @@
         </setters>
     </element>
 <!--N-->
+Necrotic leech (necromancy) - Druid, Wizard
     <element name="Negative Energy Flood" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_NEGATIVE_ENERGY_FLOOD">
         <supports>Warlock, Wizard</supports>
         <description>
@@ -923,6 +972,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Not this day! (abjuration) - Cleric
 <!--O-->
 <!--P-->
     <element name="Passwall" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_PASSWALL">
@@ -966,8 +1016,11 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Primal Infusion (transmutation) - Ranger
+Prismatic ray (evocation) - Wizard
 <!--Q-->
 <!--R-->
+Rain of blades (conjuration) - Cleric, Paladin
     <element name="Raise Dead" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_RAISE_DEAD">
         <supports>Bard, Cleric, Paladin</supports>
         <description>
@@ -1008,6 +1061,7 @@
             <set name="isRitual">true</set>
         </setters>
     </element>
+Recharge (evocation) - Bard, Cleric, Druid, Wizard
     <element name="Reincarnate" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_REINCARNATE">
         <supports>Druid</supports>
         <description>
@@ -1049,6 +1103,7 @@
         </setters>
     </element>
 <!--S-->
+Sanguine horror (conjuration) [blood] - Cleric, Wizard
     <element name="Scrying" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SCRYING">
         <supports>Bard, Cleric, Druid, Warlock, Wizard</supports>
         <description>
@@ -1069,6 +1124,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+See beyond (divination) - Bard, Druid, Ranger, Wizard
     <element name="Seeming" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SEEMING">
         <supports>Bard, Sorcerer, Wizard</supports>
         <description>
@@ -1089,6 +1145,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Shadow gateway (conjuration) [shadow] - Wizard
     <element name="Skill Empowerment" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_SKILL_EMPOWERMENT">
         <supports>Bard, Sorcerer, Wizard, Artificer</supports>
         <description>
@@ -1135,6 +1192,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Souleater (evocation) [apocalypse] - Cleric, Wizard
     <element name="Steel Wind Strike" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_STEEL_WIND_STRIKE">
         <supports>Ranger, Wizard</supports>
         <description>
@@ -1178,6 +1236,11 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Starfall (evocation) [illumination] - Druid, Wizard
+Summon eldritch servitor (conjuration) [mythos] - Wizard
+Sun's bounty (transmutation) - Druid, Ranger
+Surprise blessing (abjuration) - Cleric, Paladin
+Swift exchange (conjuration) - Wizard
     <element name="Swift Quiver" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SWIFT_QUIVER">
         <supports>Ranger</supports>
         <description>
@@ -1286,6 +1349,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+Tongue tied (enchantment) - Bard, Cleric, Wizard
     <element name="Transmute Rock" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_TRANSMUTE_ROCK">
         <supports>Druid, Wizard, Artificer</supports>
         <description>
@@ -1404,15 +1468,16 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Wall of Time" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_WALL_OF_TIME">
-		<supports>Cleric,Sorcerer,Wizard, Dunamancy</supports>
+Wall of time (abjuration) [temporal] [clockwork] - Cleric, Wizard
+    <element name="Wall of Time" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_WALL_OF_TIME">
+		<supports>Cleric,Sorcerer,Wizard, clockwork, Dunamancy</supports>
 		<description>
 			<p>You create a wall of shimmering, transparent blocks and rotating but intangible gears on a solid surface within range. You can make a straight wall up to 60 feet long, 20 feet high, and 1 foot thick, or a circular wall up to 20 feet high, 1 foot thick, and forming a closed circle 20 feet in diameter. Nonmagical ranged attacks that cross the wall vanish into time with no other effect. Ranged spell attacks and ranged weapon attacks made with magical weapons that pass through the wall are made with disadvantage. A creature that intentionally enters or passes through the wall is affected as if they had just failed their initial saving throw against the slow spell.</p>
 		</description>
 		<setters>
-			<set name="keywords">dunamancy</set>
+			<set name="keywords">clockwork, dunamancy</set>
 			<set name="level">5</set>
-			<set name="school" addition="Dunamancy">Abjuration</set>
+			<set name="school" addition="clockwork, Dunamancy">Abjuration</set>
 			<set name="time">1 action</set>
 			<set name="range">120 feet</set>
 			<set name="duration">Concentration, up to 1 minute</set>
