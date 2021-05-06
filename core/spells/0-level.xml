@@ -7,7 +7,7 @@
       </update>
     </info>
 <!--A-->
-Abhorrence (enchantment) - Bard, Cleric, Druid, Sorcerer
+Abhorrence (enchantment) - Bard, Cleric, Druid, Sorcerer, Wizard
     <element name="Acid Splash" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ACID_SPLASH">
         <supports>Sorcerer, Wizard, Alkemancy</supports>
         <description>
@@ -29,14 +29,14 @@ Abhorrence (enchantment) - Bard, Cleric, Druid, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Acumen (transmutation) - Bard, Cleric, Druid, Sorcerer
-Ale-dritch blast (conjuration) - Bard, Druid
-Allure (transmutation) - Bard, Cleric, Druid, Sorcerer
-Animated scroll (transmutation) - Druid, Sorcerer
+Acumen (transmutation) - Bard, Cleric, Druid, Sorcerer, Wizard
+Ale-dritch blast (conjuration) - Bard, Druid, Wizard
+Allure (transmutation) - Bard, Cleric, Druid, Sorcerer, Wizard
+Animated scroll (transmutation) - Druid, Sorcerer, Wizard
 <!--B-->
-Benediction (abjuration) [angelic] - Cleric
-Bewilderment (enchantment) - Bard, Cleric, Druid, Sorcerer
-Biting arrow (evocation) [winter] - Druid, Sorcerer
+Benediction (abjuration) [angelic] - Cleric, Wizard
+Bewilderment (enchantment) - Bard, Cleric, Druid, Sorcerer, Wizard
+Biting arrow (evocation) [winter] - Druid, Sorcerer, Wizard
     <element name="Blade Ward" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BLADE_WARD">
         <supports>Bard, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -57,7 +57,8 @@ Biting arrow (evocation) [winter] - Druid, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Blood tide (necromancy) [blood] - , Sorcerer
+Black Goat’s blessing (enchantment) [mythos] - Wizard
+Blood tide (necromancy) [blood] - , Sorcerer, Wizard
     <element name="Booming Blade" type="Spell" source="Sword Coast Adventurer’s Guide" id="ID_SCAG_SPELL_BOOMING_BLADE">
 		<supports>Sorcerer, Warlock, Wizard</supports>
 		<description>
@@ -79,8 +80,8 @@ Blood tide (necromancy) [blood] - , Sorcerer
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-Bless the dead (abjuration) - Cleric, Druid
-Brawn boost (transmutation) - Bard, Cleric, Druid, Sorcerer
+Bless the dead (abjuration) - Cleric, Druid, Warlock
+Brawn boost (transmutation) - Bard, Cleric, Druid, Sorcerer, Wizard
     <element name="Brimstone Infusion" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BRIMSTONE_INFUSION">
 		<supports>Wizard, Alkemancy</supports>
 		<description>
@@ -101,8 +102,9 @@ Brawn boost (transmutation) - Bard, Cleric, Druid, Sorcerer
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
+Brimstone infusion (transmutation) [alkemancy] - Wizard
 <!--C-->
-Caustic touch (evocation) - Cleric, Druid, Sorcerer
+Caustic touch (evocation) - Cleric, Druid, Sorcerer, Wizard
     <element name="Chill Touch" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CHILL_TOUCH">
         <supports>Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -123,9 +125,9 @@ Caustic touch (evocation) - Cleric, Druid, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Claws of darkness (evocation) [shadow] - , Sorcerer
-Clockwork bolt (evocation) [clockwork] - Bard, Cleric
-Clumsiness (necromancy) - Bard, Cleric, Druid, Sorcerer
+Claws of darkness (evocation) [shadow] - , Sorcerer, Warlock, Wizard
+Clockwork bolt (evocation) [clockwork] - Bard, Cleric, Wizard
+Clumsiness (necromancy) - Bard, Cleric, Druid, Sorcerer, Wizard
     <element name="Control Flames" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_CONTROL_FLAMES">
         <supports>Druid, Sorcerer, Wizard, Rogue (Arcane Trickster), Fighter (Eldritch Knight)</supports>
         <description>
@@ -175,6 +177,7 @@ Clumsiness (necromancy) - Bard, Cleric, Druid, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
+Crushing curse (enchantment) [Void] - Wizard
 <!--D-->
     <element name="Dancing Lights" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DANCING_LIGHTS">
         <supports>Bard, Sorcerer, Wizard</supports>
@@ -196,10 +199,10 @@ Clumsiness (necromancy) - Bard, Cleric, Druid, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Dark maw (necromancy) - Cleric, Sorcerer
-Decay (necromancy) - Cleric, Druid
-Douse light (transmutation) [shadow] - , Sorcerer
-Dragon roar (evocation) [dragon] - Bard, Sorcerer
+Dark maw (necromancy) - Cleric, Sorcerer, Warlock, Wizard
+Decay (necromancy) - Cleric, Druid, Warlock, Wizard
+Douse light (transmutation) [shadow] - , Sorcerer, Warlock, Wizard
+Dragon roar (evocation) [dragon] - Bard, Sorcerer, Wizard
     <element name="Druidcraft" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DRUIDCRAFT">
         <supports>Druid</supports>
         <description>
@@ -269,9 +272,9 @@ Dragon roar (evocation) [dragon] - Bard, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Encrypt / decrypt (alteration) - Bard, Cleric, Sorcerer
-Enumerate (divination) - Bard, Sorcerer
-Exceptional wit (transmutation) - Bard, Cleric, Druid, Sorcerer
+Encrypt / decrypt (alteration) - Bard, Cleric, Sorcerer, Warlock, Wizard
+Enumerate (divination) - Bard, Sorcerer, Wizard
+Exceptional wit (transmutation) - Bard, Cleric, Druid, Sorcerer, Wizard
 <!--F-->
     <element name="Fire Bolt" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FIRE_BOLT">
         <supports>Sorcerer, Wizard</supports>
@@ -294,9 +297,9 @@ Exceptional wit (transmutation) - Bard, Cleric, Druid, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Fist of iron (transmutation) [clockwork] - Cleric, Sorcerer
-Fortitude (transmutation) - Bard, Cleric, Druid, Sorcerer
-Frailty (necromancy) - Bard, Cleric, Druid, Sorcerer
+Fist of iron (transmutation) [clockwork] - Cleric, Sorcerer, Warlock, Wizard
+Fortitude (transmutation) - Bard, Cleric, Druid, Sorcerer, Wizard
+Frailty (necromancy) - Bard, Cleric, Druid, Sorcerer, Wizard
     <element name="Friends" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FRIENDS">
         <supports>Bard, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -406,12 +409,12 @@ Frailty (necromancy) - Bard, Cleric, Druid, Sorcerer
         </setters>
     </element>
 <!--H-->
-Hamstring (evocation) - Bard, Sorcerer
-Hand of doom (necromancy) [apocalypse], Cleric
-Hobble (evocation) - Bard, Cleric, Druid, Sorcerer
-Hoarfrost (evocation) [ring] - , Sorcerer
+Hamstring (evocation) - Bard, Sorcerer, Warlock, Wizard
+Hand of doom (necromancy) [apocalypse], Cleric, Warlock, Wizard
+Hobble (evocation) - Bard, Cleric, Druid, Sorcerer, Warlock, Wizard
+Hoarfrost (evocation) [ring] - , Sorcerer, Warlock, Wizard
 <!--I-->
-Impotence (necromancy) - Bard, Cleric, Druid, Sorcerer
+Impotence (necromancy) - Bard, Cleric, Druid, Sorcerer, Wizard
     <element name="Infestation" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_INFESTATION">
         <supports>Druid, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -522,7 +525,7 @@ Iron hand (abjuration) - Bard, Cleric, Druid
             <set name="isRitual">false</set>
         </setters>
     </element>
-Memento mori (necromancy) - Cleric, Druid, Sorcerer
+Memento mori (necromancy) - Cleric, Druid, Sorcerer, Warlock, Wizard
     <element name="Mending" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MENDING">
         <supports>Bard, Cleric, Druid, Sorcerer, Wizard</supports>
         <description>
@@ -583,7 +586,7 @@ Memento mori (necromancy) - Cleric, Druid, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Misstep (enchantment) [labyrinth] - , Sorcerer
+Misstep (enchantment) [labyrinth] - , Sorcerer, Wizard
     <element name="Mold Earth" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_MOLD_EARTH">
         <supports>Druid, Sorcerer, Wizard, Rogue (Arcane Trickster), Fighter (Eldritch Knight)</supports>
         <description>
@@ -611,9 +614,9 @@ Misstep (enchantment) [labyrinth] - , Sorcerer
         </setters>
     </element>
 <!--N-->
-Nimbleness (transmutation) - Bard, Cleric, Sorcerer
+Nimbleness (transmutation) - Bard, Cleric, Sorcerer, Wizard
 <!--O-->
-Obtuse (enchantment) - Bard, Cleric, Druid, Sorcerer
+Obtuse (enchantment) - Bard, Cleric, Druid, Sorcerer, Wizard
 <!--P-->
     <element name="Poison Spray" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_POISON_SPRAY">
         <supports>Druid, Sorcerer, Warlock, Wizard, Alkemancy</supports>
@@ -706,9 +709,9 @@ Obtuse (enchantment) - Bard, Cleric, Druid, Sorcerer
         </setters>
     </element>
 Puff of smoke (evocation) [dragon] - , Sorcerer
-Pummelstone (conjuration) - , Sorcerer
+Pummelstone (conjuration) - , Sorcerer, Warlock, Wizard
 <!--Q-->
-Quicken (transmutation) [temporal] [clockwork] - Bard, Cleric, Sorcerer
+Quicken (transmutation) [temporal] [clockwork] - Bard, Cleric, Sorcerer, Wizard
     <element name="Quicken" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_QUICKEN">
 		<supports>Bard, Sorcerer, Wizard, Dunamancy</supports>
 		<description>
@@ -812,7 +815,10 @@ Quicken (transmutation) [temporal] [clockwork] - Bard, Cleric, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Scribe (transmutation) - Bard, Cleric
+Scribe (transmutation) - Bard, Cleric, Wizard
+Semblance of dread (illusion) [mythos] - Wizard
+Shadow bite (illusion) [shadow] - Wizard
+Shadow blindness (illusion) [shadow] - Wizard
     <element name="Shape Water" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_SHAPE_WATER">
         <supports>Druid, Sorcerer, Wizard, Rogue (Arcane Trickster), Fighter (Eldritch Knight)</supports>
         <description>
@@ -860,7 +866,7 @@ Scribe (transmutation) - Bard, Cleric
             <set name="isRitual">false</set>
         </setters>
     </element>
-Shiver (evocation) [winter] - Cleric, Druid, Sorcerer
+Shiver (evocation) [winter] - Cleric, Druid, Sorcerer, Wizard
     <element name="Shocking Grasp" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SHOCKING_GRASP">
         <supports>Sorcerer, Wizard</supports>
         <description>
@@ -882,6 +888,7 @@ Shiver (evocation) [winter] - Cleric, Druid, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
+Silhouette (illusion) [shadow] - Wizard
     <element name="Spare the Dying" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SPARE_THE_DYING">
         <supports>Cleric</supports>
         <description>
@@ -902,7 +909,7 @@ Shiver (evocation) [winter] - Cleric, Druid, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Starburst (evocation) [illumination] - Druid
+Starburst (evocation) [illumination] - Druid, Warlock, Wizard
     <element name="Sword Burst" type="Spell" source="Sword Coast Adventurer’s Guide" id="ID_SCAG_SPELL_SWORD_BURST">
 		<supports>Sorcerer, Wizard, Warlock</supports>
 		<description>
@@ -925,7 +932,7 @@ Starburst (evocation) [illumination] - Druid
 		</setters>
 	</element>
 <!--T-->
-Telekinetic trip (transmutation) - Bard, Sorcerer
+Telekinetic trip (transmutation) - Bard, Sorcerer, Wizard
     <element name="Thaumaturgy" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_THAUMATURGY">
         <supports>Cleric</supports>
         <description>
@@ -1039,7 +1046,7 @@ Tree heal (evocation) - Druid
         </setters>
     </element>
 <!--U-->
-Uncanny avoidance (divination) - Bard, Sorcerer
+Uncanny avoidance (divination) - Bard, Sorcerer, Warlock, Wizard
 <!--V-->
     <element name="Vicious Mockery" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_VICIOUS_MOCKERY">
         <supports>Bard</supports>
@@ -1062,7 +1069,7 @@ Uncanny avoidance (divination) - Bard, Sorcerer
         </setters>
     </element>
 <!--W-->
-Wind lash (evocation) - , Sorcerer
+Wind lash (evocation) - , Sorcerer, Warlock, Wizard
     <element name="Word of Radiance" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_WORD_OF_RADIANCE">
         <supports>Cleric</supports>
         <description>
@@ -1084,6 +1091,7 @@ Wind lash (evocation) - , Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
+Word of misfortune (enchantment) [Void] - Wizard
 <!--X-->
 <!--Y-->
 <!--Z-->
