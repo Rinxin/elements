@@ -56,7 +56,7 @@ Afflict line (necromancy) [elven ritual] - Cleric, Wizard
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-Black Hole (conjuration) [apocalypse] - , Wizard
+Black Hole (conjuration) [apocalypse] - Sorcerer, Wizard
 Blood to Acid- , Wizard
     <element name="Blood to Acid" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BLOOD_TO_ACID">
 		<supports>Wizard, Alkemancy</supports>
@@ -80,7 +80,7 @@ Blood to Acid- , Wizard
 		</setters>
 	</element>
 <!--C-->
-Circle of Devastation (evocation) [ring] - , Wizard
+Circle of Devastation (evocation) [ring] - Sorcerer, Warlock, Wizard
 <!--D-->
 <!--E-->
 <!--F-->
@@ -127,7 +127,7 @@ Form of the gods (transmutation) - Cleric
             <set name="isRitual">false</set>
         </setters>
     </element>
-Greater Maze (conjuration) [labyrith] - , Wizard
+Greater Maze (conjuration) [labyrith] - Sorcerer, Wizard
 Greater seal of sanctuary (abjuration) [angelic] - Cleric, Wizard
 <!--H-->
 <!--I-->
@@ -175,7 +175,7 @@ Greater seal of sanctuary (abjuration) [angelic] - Cleric, Wizard
 <!--K-->
 <!--L-->
 <!--M-->
-Mammon’s due (conjuration) - Cleric, Wizard
+Mammon’s due (conjuration) - Cleric, Warlock, Wizard
     <element name="Mass Heal" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MASS_HEAL">
         <supports>Cleric</supports>
         <description>
@@ -336,7 +336,7 @@ Mammon’s due (conjuration) - Cleric, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Pyroclasm (evocation) - , Wizard
+Pyroclasm (evocation) - Sorcerer, Warlock, Wizard
 <!--Q-->
 <!--R-->
     <element name="Ravenous Void" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_RAVENOUS_VOID">
@@ -382,7 +382,7 @@ Pyroclasm (evocation) - , Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Star's heart (tramsutation) [illumination] - , Wizard
+Star's heart (tramsutation) [illumination] - Sorcerer, Wizard
     <element name="Storm of Vengeance" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_STORM_OF_VENGEANCE">
         <supports>Druid</supports>
         <description>
@@ -410,7 +410,7 @@ Star's heart (tramsutation) [illumination] - , Wizard
     </element>
 Summon avatar (conjuartion) [mythos] - , Wizard
 <!--T-->
-Time in a bottle (transmutation) [temporal] [clockwork] - Bard, Cleric, Wizard
+Time in a bottle (transmutation) [temporal] [clockwork] - Bard, Cleric, Sorcerer, Wizard
     <element name="Time Ravage" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_TIME_RAVAGE">
         <supports>Wizard,Chronurgy,Dunamancy</supports>
         <description>
@@ -502,9 +502,9 @@ Time in a bottle (transmutation) [temporal] [clockwork] - Bard, Cleric, Wizard
         </setters>
     </element>
 <!--U-->
-Umbral Storm (necromancy) [shadow] - , Wizard
+Umbral Storm (necromancy) [shadow] - Sorcerer, Warlock, Wizard
 Unleash effigy (transmutation) - , Wizard
-Unshackled magic (enchantment) [chaos] - , Wizard
+Unshackled magic (enchantment) [chaos] - Sorcerer, Wizard
 <!--V-->
 Void rift (evocation) [void] - , Wizard
 <!--W-->
