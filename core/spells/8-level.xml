@@ -104,13 +104,13 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-Arcane sight (divination) - Wizard
+Arcane sight (divination) - Sorcerer, Warlock, Wizard
 Awaken object (transmutation) - Druid
 <!--B-->
-Black Sunshine (illusion) - Wizard
+Black Sunshine (illusion) - Sorcerer, Wizard
 Bloom (conjuration) [elven ritual] - Cleric, Druid, Wizard
 <!--C-->
-Caustic torrent (conjuration) [alkemancy] - Wizard
+Caustic torrent (conjuration) [alkemancy] - Sorcerer, Warlock, Wizard
     <element name="Caustic Torrent" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_CAUSTIC_TORRENT">
         <supports>Sorcerer, Warlock, Wizard, Alkemancy</supports>
         <description>
@@ -203,8 +203,8 @@ Caustic torrent (conjuration) [alkemancy] - Wizard
         </setters>
     </element>
 Costly victory (evocation) - Cleric
-Create ring servant (transmutation) [ring] - Wizard
-Creeping darkness (conjuration) [shadow] - Wizard
+Create ring servant (transmutation) [ring] - Sorcerer, Wizard
+Creeping darkness (conjuration) [shadow] - Sorcerer, Warlock, Wizard
 <!--D-->
     <element name="Dark Star" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_DARK_STAR">
         <supports>Wizard,Dunamancy,Graviturgy</supports>
@@ -228,7 +228,7 @@ Creeping darkness (conjuration) [shadow] - Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Deadly sting (transmutation) [dragon] - Wizard
+Deadly sting (transmutation) [dragon] - Sorcerer, Wizard
     <element name="Demiplane" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DEMIPLANE">
         <supports>Warlock, Wizard</supports>
         <description>
@@ -250,7 +250,7 @@ Deadly sting (transmutation) [dragon] - Wizard
         </setters>
     </element>
 Desolation (necromancy) [elven ritual] - Cleric, Druid, Wizard
-Disruptive aura (evocation) - Druid, Wizard
+Disruptive aura (evocation) - Druid, Sorcerer, Warlock, Wizard
     <element name="Dominate Monster" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DOMINATE_MONSTER">
         <supports>Bard, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -323,9 +323,9 @@ Disruptive aura (evocation) - Druid, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Frailform (enchantment) [apocalypse] - Bard, Druid, Wizard
+Frailform (enchantment) [apocalypse] - Bard, Druid, Warlock, Wizard
 <!--G-->
-Ghoul king's cloak (transmutation) - Cleric
+Ghoul king's cloak (transmutation) - Cleric, Warlock
     <element name="Glibness" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GLIBNESS">
         <supports>Bard, Warlock</supports>
         <description>
@@ -348,7 +348,7 @@ Ghoul king's cloak (transmutation) - Cleric
     </element>
 Glimpse of the Void (enchantment) [Void] - Wizard
 <!--H-->
-Harsh light of summer’s glare (enchantment) - Druid, Wizard
+Harsh light of summer’s glare (enchantment) - Druid, Sorcerer, Wizard
     <element name="Holy Aura" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_HOLY_AURA">
         <supports>Cleric</supports>
         <description>
@@ -461,7 +461,7 @@ Lower the veil (divination) - Cleric, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Malevolent waves (abjuration) - Wizard
+Malevolent waves (abjuration) - Sorcerer, Warlock, Wizard
     <element name="Maze" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MAZE">
         <supports>Wizard</supports>
         <description>
@@ -585,7 +585,7 @@ Quintessence (transmutation) [angelic] - Cleric, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Roaring winds of Limbo (conjuration) [chaos] - Wizard
+Roaring winds of Limbo (conjuration) [chaos] - Sorcerer, Wizard
 <!--S-->
 Seed of destruction (enchantment) [mythos] - Wizard
 Steam whistle (evocation) [clockwork] - Wizard
@@ -631,7 +631,7 @@ Summon star (conjuration) [illumination] - Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Time jump (transmutation) [temporal] [clockwork] - Bard, Wizard
+Time jump (transmutation) [temporal] [clockwork] - Bard, Sorcerer, Wizard
     <element name="Tsunami" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_TSUNAMI">
         <supports>Druid</supports>
         <description>
@@ -652,7 +652,7 @@ Time jump (transmutation) [temporal] [clockwork] - Bard, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Time slippage (enchantment) [temporal] [clockwork] - Wizard
+Time slippage (enchantment) [temporal] [clockwork] - Warlock, Wizard
 <!--U-->
 <!--V-->
 <!--W-->
