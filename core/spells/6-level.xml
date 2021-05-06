@@ -7,7 +7,7 @@
       </update>
     </info>
 <!--A-->
-Absorbing field (abjuration) - Wizard
+Absorbing field (abjuration) - Sorcerer, Wizard
 Alchemical form (transmutation) [alkemancy] - Wizard
     <element name="Alchemical Form" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ALCHEMICAL_FORM">
         <supports>Wizard, Alkemancy</supports>
@@ -41,7 +41,7 @@ Alchemical form (transmutation) [alkemancy] - Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Ally aegis (abjuration) - Bard, Cleric, Wizard
+Ally aegis (abjuration) - Bard, Cleric, Sorcerer, Wizard
 Animate greater undead (necromancy) - Cleric, Wizard
     <element name="Arcane Gate" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ARCANE_GATE">
         <supports>Sorcerer, Warlock, Wizard</supports>
@@ -65,11 +65,11 @@ Animate greater undead (necromancy) - Cleric, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Aspect of the firebird (transmutation) - Cleric
-Aura of wrath (enchantment) [fiendish] - Wizard
-Avronin's astral assembly (necromancy) - Wizard
+Aspect of the firebird (transmutation) - Cleric, Sorcerer
+Aura of wrath (enchantment) [fiendish] - Warlock, Wizard
+Avronin's astral assembly (necromancy) - Warlock, Wizard
 <!--B-->
-Become nightwing (enchantment) [shadow] - Wizard
+Become nightwing (enchantment) [shadow] - Sorcerer, Warlock, Wizard
 Black well (necromancy) [shadow] - Wizard
     <element name="Blade Barrier" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BLADE_BARRIER">
         <supports>Cleric</supports>
@@ -116,8 +116,8 @@ Black well (necromancy) [shadow] - Wizard
     </element>
 Burning radiance (evocation) [illumination] - Cleric, Wizard
 <!--C-->
-Catapult (transmutation) [clockwork] - Wizard
-Cave dragon's dominance (transmutation) [dragon]
+Catapult (transmutation) [clockwork] - Sorcerer, Warlock, Wizard
+Cave dragon's dominance (transmutation) [dragon] - ?, Sorcerer
 Celestial fanfare (evocation) [angelic] - Cleric, Wizard
     <element name="Chain Lightning" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CHAIN_LIGHTNING">
         <supports>Sorcerer, Wizard</supports>
@@ -141,7 +141,7 @@ Celestial fanfare (evocation) [angelic] - Cleric, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Chaotic world (illusion) [chaos] - Bard, Wizard
+Chaotic world (illusion) [chaos] - Bard, Sorcerer, Wizard
     <element name="Circle of Death" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CIRCLE_OF_DEATH">
         <supports>Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -163,7 +163,7 @@ Chaotic world (illusion) [chaos] - Bard, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Claim lair (abjuration) [dragon] - Bard, Wizard
+Claim lair (abjuration) [dragon] - Bard, Sorcerer, Wizard
     <element name="Conjure Fey" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CONJURE_FEY">
         <supports>Druid, Warlock</supports>
         <description>
