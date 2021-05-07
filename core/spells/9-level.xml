@@ -410,7 +410,7 @@ Star's heart (tramsutation) [illumination] - Sorcerer, Wizard
     </element>
 Summon avatar (conjuartion) [mythos] - , Wizard
 <!--T-->
-Time in a bottle (transmutation) [temporal] [clockwork] - Bard, Cleric, Sorcerer, Wizard
+Time in a bottle (transmutation) [Dunamancy] [clockwork] - Bard, Cleric, Sorcerer, Wizard
     <element name="Time Ravage" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_TIME_RAVAGE">
         <supports>Wizard,Chronurgy,Dunamancy</supports>
         <description>

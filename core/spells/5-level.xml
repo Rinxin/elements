@@ -1330,7 +1330,7 @@ Swift exchange (conjuration) - Sorcerer, Wizard
         </setters>
     </element>
     <element name="Temporal Shunt" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_TEMPORAL_SHUNT">
-        <supports>Wizard,Chronurgy,Dunamancy</supports>
+        <supports>Wizard, Chronurgy, Dunamancy</supports>
         <description>
             <p>You target the triggering creature, which must succeed on a Wisdom saving throw or vanish, being thrown into another point in time and causing the attack to miss or spell to be wasted. At the start of its next turn, the target reappears where it was or in the closest unoccupied space. The target doesn’t remember you casting the spell or being affected by it.</p>
             <p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. All targets must be within 30 feet of each other.</p>
@@ -1470,7 +1470,7 @@ Tongue tied (enchantment) - Bard, Cleric, Warlock, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Wall of time (abjuration) [temporal] [clockwork] - Cleric, Sorcerer, Wizard
+Wall of time (abjuration) [Dunamancy] [clockwork] - Cleric, Sorcerer, Wizard
     <element name="Wall of Time" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_WALL_OF_TIME">
 		<supports>Cleric,Sorcerer,Wizard, clockwork, Dunamancy</supports>
 		<description>

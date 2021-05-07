@@ -31,7 +31,7 @@ Acid gate - Wizard
 		</setters>
 	</element>
 
-Alter time flow (transmutation) [temporal] - Bard, Cleric
+Alter time flow (transmutation) [Dunamancy] - Bard, Cleric
 Amplify gravity (transmutation) - Sorcerer, Warlock, Wizard
     <element name="Anomalous Object" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_ANOMALOUS_OBJECT">
 		<supports>Wizard, Dunamancy</supports>
@@ -416,7 +416,7 @@ Legend killer (divination) [dragon] - Sorcerer, Wizard
     </element>
 <!--Q-->
 <!--R-->
-Ravages of time (transmutation) [temporal] [clockwork] - Cleric, Sorcerer, Wizard
+Ravages of time (transmutation) [Dunamancy] [clockwork] - Cleric, Sorcerer, Wizard
     <element name="Regenerate" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_REGENERATE">
         <supports>Bard, Cleric, Druid</supports>
         <description>
@@ -477,7 +477,7 @@ Ravages of time (transmutation) [temporal] [clockwork] - Cleric, Sorcerer, Wizar
             <set name="isRitual">false</set>
         </setters>
     </element>
-Right the stars (divination) [temporal] - Wizard
+Right the stars (divination) [Dunamancy] - Wizard
 Ring ward (abjuration) [ring] - Sorcerer, Wizard
 <!--S-->
 Seal of sanctuary (abjuration) [angelic] - Cleric, Wizard
@@ -636,7 +636,7 @@ Talons of a hungry land (evocation) - Sorcerer, Warlock, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Time jaunt (transmutation) [temporal] - Bard, Cleric
+Time jaunt (transmutation) [Dunamancy] - Bard, Cleric
 Transmogrification (transmutation) [apocalypse] - Cleric, Druid, Sorcerer, Warlock, Wizard
 Triumph of ice (transmutation) [winter] - Druid, Sorcerer, Wizard
 <!--U-->

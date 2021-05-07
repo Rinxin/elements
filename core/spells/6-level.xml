@@ -117,7 +117,7 @@ Black well (necromancy) [shadow] - Wizard
 Burning radiance (evocation) [illumination] - Cleric, Wizard
 <!--C-->
 Catapult (transmutation) [clockwork] - Sorcerer, Warlock, Wizard
-Cave dragon's dominance (transmutation) [dragon] - ?, Sorcerer
+Cave dragon's dominance (transmutation) [dragon] - Sorcerer, Wizard
 Celestial fanfare (evocation) [angelic] - Cleric, Wizard
     <element name="Chain Lightning" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CHAIN_LIGHTNING">
         <supports>Sorcerer, Wizard</supports>
@@ -940,7 +940,7 @@ Storm form (transmutation) - Druid
             <set name="isRitual">false</set>
         </setters>
     </element>
-Time loop (transmutation) [temporal] [clockwork] - Bard, Cleric, Druid, Sorcerer, Wizard
+Time loop (transmutation) [Dunamancy] [clockwork] - Bard, Cleric, Druid, Sorcerer, Wizard
     <element name="Time Loop" type="Spell" source="Deep Magic: Collected" id="ID_KBP_DM_SPELL_TIME_LOOP">
 		<supports>Bard,Cleric,Druid,Sorcerer,Warlock,Wizard, Dunamancy, Clockwork</supports>
 		<description>

@@ -631,7 +631,7 @@ Summon star (conjuration) [illumination] - Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Time jump (transmutation) [temporal] [clockwork] - Bard, Sorcerer, Wizard
+Time jump (transmutation) [Dunamancy] [clockwork] - Bard, Sorcerer, Wizard
     <element name="Tsunami" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_TSUNAMI">
         <supports>Druid</supports>
         <description>
@@ -652,7 +652,7 @@ Time jump (transmutation) [temporal] [clockwork] - Bard, Sorcerer, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Time slippage (enchantment) [temporal] [clockwork] - Warlock, Wizard
+Time slippage (enchantment) [Dunamancy] [clockwork] - Warlock, Wizard
 <!--U-->
 <!--V-->
 <!--W-->

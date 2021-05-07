@@ -497,7 +497,7 @@ Evercold (necromancy) [winter] - Cleric, Sorcerer, Warlock, Wizard
         </setters>
     </element>
 Flame wave (evocation) - Sorcerer, Warlock, Wizard
-Flickering fate (divination) [temporal] - Wizard
+Flickering fate (divination) [Dunamancy] - Wizard
 Fluctuating alignment (enchantment) [chaos] - Bard, Sorcerer, Wizard
 Fog of war (illusion) - Bard, Sorcerer, Warlock, Wizard
     <element name="Freedom of Movement" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT">
@@ -886,7 +886,7 @@ Pitfall (transmutation) - Sorcerer, Wizard
     </element>
 Power word pain (enchantment) - Cleric, Sorcerer, Warlock, Wizard
 <!--Q-->
-Quick time (conjuration) [temporal] - Druid
+Quick time (conjuration) [Dunamancy] - Druid
 Quicksilver mantle (transmutation) [alkemancy] - Wizard
     <element name="Quicksilver Mantle" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_QUICKSILVER_MANTLE">
 		<supports>Wizard, Alkemancy</supports>
@@ -934,11 +934,11 @@ Ray of alchemical negation (transmutation) [alkemancy] - Wizard
 	</element>
 Ray of life suppression (necromancy) - Druid, Sorcerer, Warlock, Wizard
 Reposition (conjuration) - Bard, Sorcerer, Warlock, Wizard
-Reset (transmutation) [temporal] [clockwork] - Bard, Cleric, Druid, Paladin, Wizard
+Reset (transmutation) [Dunamancy] [clockwork] - Bard, Cleric, Druid, Paladin, Wizard
     <element name="Reset" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_RESET">
 		<supports>Bard, Cleric, Druid, Paladin, Wizard, Dunamancy, Clockwork</supports>
 		<description>
-			<p>Temporal energy bursts from you to bathe the battlefield. Choose up to four creatures within range. If the creature is your ally, it can reroll its initiative check twice, keeping whichever of the two results it prefers. If the target is your enemy, it must make a successful Wisdom saving throw or reroll its initiative check twice, keeping whichever of the two results you prefer. New initiative results go into effect at the start of the next round.</p>
+			<p>Dunamantic energy bursts from you to bathe the battlefield. Choose up to four creatures within range. If the creature is your ally, it can reroll its initiative check twice, keeping whichever of the two results it prefers. If the target is your enemy, it must make a successful Wisdom saving throw or reroll its initiative check twice, keeping whichever of the two results you prefer. New initiative results go into effect at the start of the next round.</p>
 			<p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 5th level or higher, you can affect one additional creature for each slot level above 4th.</p>
 		</description>
 		<setters>
@@ -961,7 +961,7 @@ Sacrificial healing (necromancy) - Bard, Sorcerer, Wizard
 Sand ship (transmutation) - Wizard
 Scale rot (necromancy) [dragon] - Bard, Cleric, Ranger, Sorcerer, Warlock, Wizard
 Scaly hide (transmutation) [dragon] - Sorcerer
-Scry ambush (divination) [temporal] - Bard, Cleric, Druid, Ranger, Sorcerer, Warlock, Wizard
+Scry ambush (divination) [Dunamancy] - Bard, Cleric, Druid, Ranger, Sorcerer, Warlock, Wizard
 Searing sun (transmutation) [illumination] - Sorcerre, Wizard
 Servant of doom (transmutation) [apocalypse] - Cleric, Druid, Sorcerer, Warlock
 Shadow monsters (illusion) [shadow] - Sorcerer, Warlock, Wizard
@@ -1148,11 +1148,11 @@ Sudden stampede (conjuration) - Bard, Druid, Ranger
         </setters>
     </element>
 <!--T-->
-Time vortex (evocation) [temporal] [clockwork] - Sorcerer, Warlock, Wizard
+Time vortex (evocation) [Dunamancy] [clockwork] - Sorcerer, Warlock, Wizard
     <element name="Time Vortex" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_TIME_VORTEX">
 		<supports>Sorcerer,Warlock,Wizard, Dunamancy</supports>
 		<description>
-			<p>This spell destabilizes the flow of time in the target area, subjecting creatures caught in the vortex to temporal fluctuations that are visible as a spherical distortion with a 10-foot radius. Each creature within the sphere when you cast the spell must succeed on a Wisdom saving throw or be affected by the time vortex. While the spell lasts, a creature that enters the sphere or begins its turn inside the sphere must also make a Wisdom saving throw or be affected. Once a creature’s Wisdom saving throw succeeds, it is immune to this time vortex.</p>
+			<p>This spell destabilizes the flow of time in the target area, subjecting creatures caught in the vortex to dunamantic fluctuations that are visible as a spherical distortion with a 10-foot radius. Each creature within the sphere when you cast the spell must succeed on a Wisdom saving throw or be affected by the time vortex. While the spell lasts, a creature that enters the sphere or begins its turn inside the sphere must also make a Wisdom saving throw or be affected. Once a creature’s Wisdom saving throw succeeds, it is immune to this time vortex.</p>
 			<p class="indent">An affected creature can’t take reactions and must roll a d10 at the start of its turn to determine its behavior for that turn.</p>
 			<table>
 				<thead>
@@ -1163,7 +1163,7 @@ Time vortex (evocation) [temporal] [clockwork] - Sorcerer, Warlock, Wizard
 				<tr><td>6-8</td><td>The creature’s initiative result is reduced by 5. The creature begins using this new initiative result next round. Multiple occurrences of this effect for the same creature are cumulative.</td></tr>
 				<tr><td>9-10</td><td>The creature’s speed is halved until the start of its next turn.</td></tr>
 			</table>
-			<p class="indent">You can move the temporal vortex 10 feet each round as a bonus action. An affected creature repeats the saving throw at the end of its turn, ending the effect on itself on a success.</p>
+			<p class="indent">You can move the dunamantic vortex 10 feet each round as a bonus action. An affected creature repeats the saving throw at the end of its turn, ending the effect on itself on a success.</p>
 			<p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot level above 4th.</p>
 		</description>
 		<setters>

@@ -72,7 +72,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-Althea's Travel Tent (conjuration) - , Sorcerer
+Althea's Travel Tent (conjuration) - Sorcerer, Wizard
     <element name="Animal Messenger" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ANIMAL_MESSENGER">
         <supports>Bard, Druid, Ranger</supports>
         <description>
@@ -96,8 +96,8 @@ Althea's Travel Tent (conjuration) - , Sorcerer
         </setters>
     </element>
 Animal spy (divination) - Druid, Ranger
-Animate ghoul (necromancy) - Cleric, Sorcerer
-Anticipate attack (divination) [temporal] - Bard, Cleric, Druid, Paladin, Ranger, Sorcerer
+Animate ghoul (necromancy) - Cleric, Sorcerer, Wizard
+Anticipate attack (divination) [Dunamancy] - Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard
     <element name="Arcane Lock" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ARCANE_LOCK">
         <supports>Wizard, Artificer</supports>
         <description>
@@ -119,8 +119,8 @@ Anticipate attack (divination) [temporal] - Bard, Cleric, Druid, Paladin, Ranger
             <set name="isRitual">false</set>
         </setters>
     </element>
-As you were (necromancy) - Cleric
-Ashen memories (divination) - Bard, Cleric
+As you were (necromancy) - Cleric, Wizard
+Ashen memories (divination) - Bard, Cleric, Wizard
 Aspect of the ape (transmutation) - Druid, Ranger
 Aspect of the ram (transmutation) - Druid, Ranger
     <element name="Augury" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_AUGURY">
@@ -152,7 +152,7 @@ Aspect of the ram (transmutation) - Druid, Ranger
         </setters>
     </element>
 <!--B-->
-Bad timing (divination) [chaos] - Bard, Sorcerer
+Bad timing (divination) [chaos] - Bard, Sorcerer, Wizard
     <element name="Barkskin" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BARKSKIN">
         <supports>Druid, Ranger</supports>
         <description>
@@ -196,10 +196,10 @@ Batsense (transmutation) - Bard, Druid, Ranger, Sorcerer
     </element>
 Beastial Fury (enchantment) - Ranger
 Beguiling bet (enchantment) - Bard
-Bitter chains (transmutation) [ring] - , Sorcerer
-Black swan storm (evocation) - , Sorcerer
-Bleating call (enchantment) - Bard, Ranger, Sorcerer
-Blessed halo (evocation) [angelic] - Cleric, Paladin
+Bitter chains (transmutation) [ring] - Sorcerer, Warlock, Wizard
+Black swan storm (evocation) - , Sorcerer, Warlock, Wizard
+Bleating call (enchantment) - Bard, Ranger, Sorcerer, Wizard
+Blessed halo (evocation) [angelic] - Cleric, Paladin, Wizard
 Blessed rest (enchantment) - Cleric, Paladin
     <element name="Blindness/Deafness" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BLINDNESS_DEAFNESS">
         <supports>Bard, Cleric, Sorcerer, Wizard</supports>
@@ -222,8 +222,8 @@ Blessed rest (enchantment) - Cleric, Paladin
             <set name="isRitual">false</set>
         </setters>
     </element>
-Blood lure (enchantment) [blood] - Cleric, Sorcerer
-Bloodshot (conjuration) [blood] - , Sorcerer
+Blood lure (enchantment) [blood] - Cleric, Sorcerer, Wizard
+Bloodshot (conjuration) [blood] - , Sorcerer, Warlock, Wizard
     <element name="Blur" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BLUR">
         <supports>Sorcerer, Wizard, Artificer</supports>
         <description>
@@ -244,7 +244,7 @@ Bloodshot (conjuration) [blood] - , Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Boiling oil (conjuration) [alkemancy] - , Sorcerer
+Boiling oil (conjuration) [alkemancy] - , Sorcerer, Wizard
     <element name="Boiling Oil" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BOILING_OIL">
         <supports>Sorcerer, Wizard, Alkemancy</supports>
         <description>
@@ -266,7 +266,7 @@ Boiling oil (conjuration) [alkemancy] - , Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Boreas's breath (transmutation) [winter] - Cleric, Druid, Ranger
+Boreas's breath (transmutation) [winter] - Cleric, Druid, Ranger, Wizard
 Boulder toss (transmutation) - Druid
     <element name="Branding Smite" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BRANDING_SMITE">
         <supports>Paladin</supports>
@@ -289,7 +289,7 @@ Boulder toss (transmutation) - Druid
             <set name="isRitual">false</set>
         </setters>
     </element>
-By the light of the moon (divination) [labyrinth] - Cleric, Druid, Ranger
+By the light of the moon (divination) [labyrinth] - Cleric, Druid, Ranger, Wizard
 <!--C-->
     <element name="Calm Emotions" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CALM_EMOTIONS">
         <supports>Bard, Cleric</supports>
@@ -314,11 +314,11 @@ By the light of the moon (divination) [labyrinth] - Cleric, Druid, Ranger
         </setters>
     </element>
 Carmello-Volta's irksome preserves (conjuration) - Druid
-Caustic blood (transmutation) [blood] - Druid, Ranger, Sorcerer
+Caustic blood (transmutation) [blood] - Druid, Ranger, Sorcerer, Warlock, Wizard
 Champion's Weapon (Conjuration) - Paladin
-Chaotic vitality (conjuration) [chaos] - Bard, Sorcerer
-Clearing the field (transmutation) [elven ritual] - Druid, Ranger
-Cloak of fiendish menace (transmutation) [fiendish] - Cleric, Sorcerer
+Chaotic vitality (conjuration) [chaos] - Bard, Sorcerer, Wizard
+Clearing the field (transmutation) [elven ritual] - Druid, Ranger, Wizard
+Cloak of fiendish menace (transmutation) [fiendish] - Cleric, Sorcerer, Wizard
     <element name="Cloud of Daggers" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CLOUD_OF_DAGGERS">
         <supports>Bard, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -342,8 +342,8 @@ Cloak of fiendish menace (transmutation) [fiendish] - Cleric, Sorcerer
     </element>
 Comprehend wild shape (divination) - Druid
 Conjure Mantelet (abjuration) - Ranger
-Conjure scarab swarm (conjuration) - Cleric, Druid
-Conjure spectral dead (conjuration) - Cleric
+Conjure scarab swarm (conjuration) - Cleric, Druid, Wizard
+Conjure spectral dead (conjuration) - Cleric, Warlock, Wizard
     <element name="Continual Flame" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CONTINUAL_FLAME">
         <supports>Cleric, Druid, Wizard, Artificer</supports>
         <description>
@@ -364,7 +364,7 @@ Conjure spectral dead (conjuration) - Cleric
             <set name="isRitual">false</set>
         </setters>
     </element>
-Convoluted dictum (enchantment) - Bard, Sorcerer
+Convoluted dictum (enchantment) - Bard, Sorcerer, Warlock, Wizard
     <element name="Cordon of Arrows" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CORDON_OF_ARROWS">
         <supports>Ranger</supports>
         <description>
@@ -387,7 +387,7 @@ Convoluted dictum (enchantment) - Bard, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Creeping ice (conjuration) [winter] - Druid, Ranger, Sorcerer
+Creeping ice (conjuration) [winter] - Druid, Ranger, Sorcerer, Warlock, Wizard
     <element name="Crown of Madness" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CROWN_OF_MADNESS">
         <supports>Bard, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -410,7 +410,8 @@ Creeping ice (conjuration) [winter] - Druid, Ranger, Sorcerer
     </element>
 Crushing trample (transmutation) [labyrinth] - Cleric, Druid, Ranger, Sorcerer
 <!--D-->
-Darkbolt (evocation) [shadow] - , Sorcerer
+Daggerhawk (transmutation) - Wizard
+Darkbolt (evocation) [shadow] - , Sorcerer, Warlock, Wizard
     <element name="Darkness" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DARKNESS">
         <supports>Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -453,9 +454,9 @@ Darkbolt (evocation) [shadow] - , Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Dark Path (conjuration) [shadow] - , Sorcerer
-Dead Walking (illusion) - Ranger, Sorcerer
-Decelerate (transmutation) [temporal] [clockwork] - Druid, Paladin, Ranger, Sorcerer
+Dark Path (conjuration) [shadow] - , Sorcerer, Warlock, Wizard
+Dead Walking (illusion) - Ranger, Sorcerer, Warlock, Wizard
+Decelerate (transmutation) [Dunamancy] [clockwork] - Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard
     <element name="Decelerate" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_DECELERATE">
 		<supports>Druid,Paladin,Ranger,Sorcerer,Warlock,Wizard, Dunamancy</supports>
 		<description>
@@ -477,6 +478,7 @@ Decelerate (transmutation) [temporal] [clockwork] - Druid, Paladin, Ranger, Sorc
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
+Delay potion (transmutation) [alkemancy] - Wizard
     <element name="Delay Potion" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_DELAY_POTION">
 		<supports>Wizard, Alkemancy</supports>
 		<description>
@@ -498,7 +500,8 @@ Decelerate (transmutation) [temporal] [clockwork] - Druid, Paladin, Ranger, Sorc
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-Detect dragons (divination) [dragon] - Bard, Druid, Sorcerer
+Destructive resonance (enchantment) [Void] - Wizard
+Detect dragons (divination) [dragon] - Bard, Druid, Sorcerer, Wizard
     <element name="Detect Thoughts" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DETECT_THOUGHTS">
         <supports>Bard, Sorcerer, Wizard</supports>
         <description>
@@ -523,13 +526,13 @@ Detect dragons (divination) [dragon] - Bard, Druid, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Discern weakness (divination) - Bard, Sorcerer
-Distracting divination (divination) - Bard, Cleric, Sorcerer
-Distraction cascade (divination) - Bard, Cleric, Druid, Ranger, Sorcerer
+Discern weakness (divination) - Bard, Sorcerer, Wizard
+Distracting divination (divination) - Bard, Cleric, Sorcerer, Warlock, Wizard
+Distraction cascade (divination) - Bard, Cleric, Druid, Ranger, Sorcerer, Warlock, Wizard
 Dome of silence (abjuration) - , Sorcerer
-Doom of consuming fire (evocation) - Cleric, Sorcerer
+Doom of consuming fire (evocation) - Cleric, Sorcerer, Wizard
 Dome of silence (abjuration) - Bard, Cleric
-Doom of the slippery rogue (conjuration) - Bard, Sorcerer
+Doom of the slippery rogue (conjuration) - Bard, Sorcerer, Wizard
     <element name="Dragon’s Breath" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_DRAGONS_BREATH">
         <supports>Sorcerer, Wizard</supports>
         <description>
@@ -595,8 +598,9 @@ Doom of the slippery rogue (conjuration) - Bard, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Elemental horns (evocation) [labyrinth] - Druid, Ranger, Sorcerer
-Elemental Twist (evocation) [chaos] - , Sorcerer
+Ectoplasm (necromancy) [mythos] - Wizard
+Elemental horns (evocation) [labyrinth] - Druid, Ranger, Sorcerer, Wizard
+Elemental Twist (evocation) [chaos] - , Sorcerer, Wizard
     <element name="Enhance Ability" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ENHANCE_ABILITY">
         <supports>Bard, Cleric, Druid, Sorcerer, Artificer</supports>
         <description>
@@ -624,7 +628,8 @@ Elemental Twist (evocation) [chaos] - , Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Enhance greed (divination) [dragon] - Bard, Cleric, Sorcerer
+Enhance familiar (transmutation) - Wizard
+Enhance greed (divination) [dragon] - Bard, Cleric, Sorcerer, Warlock, Wizard
     <element name="Enlarge/Reduce" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ENLARGE_REDUCE">
         <supports>Druid, Sorcerer, Wizard, Artificer</supports>
         <description>
@@ -648,7 +653,7 @@ Enhance greed (divination) [dragon] - Bard, Cleric, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Entomb in ice (evocation) [winter] - , Sorcerer
+Entomb in ice (evocation) [winter] - , Sorcerer, Warlock, Wizard
     <element name="Enthrall" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ENTHRALL">
         <supports>Bard, Warlock</supports>
         <description>
@@ -669,9 +674,9 @@ Entomb in ice (evocation) [winter] - , Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Exude acid (transmutation) - , Sorcerer
+Exude acid (transmutation) - , Sorcerer, Warlock, Wizard
 <!--F-->
-Feather travel (transmutation) - Druid
+Feather travel (transmutation) - Druid, Wizard
     <element name="Find Steed" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FIND_STEED">
         <supports>Paladin</supports>
         <description>
@@ -717,7 +722,7 @@ Feather travel (transmutation) - Druid
             <set name="isRitual">false</set>
         </setters>
     </element>
-Fire darts (evocation) - Cleric, Druid
+Fire darts (evocation) - Cleric, Druid, Wizard
     <element name="Flame Blade" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FLAME_BLADE">
         <supports>Druid</supports>
         <description>
@@ -782,10 +787,10 @@ Fire darts (evocation) - Cleric, Druid
             <set name="isRitual">false</set>
         </setters>
     </element>
-Frenzied bolt (evocation) [chaos] - Bard, Sorcerer
-Furious hooves (transmutation) [labyrinth] - Cleric, Druid, Sorcerer
+Frenzied bolt (evocation) [chaos] - Bard, Sorcerer, Wizard
+Furious hooves (transmutation) [labyrinth] - Cleric, Druid, Sorcerer, Wizard
 <!--G-->
-Gear Barrage (conjuration) [clockwork] - , Sorcerer
+Gear Barrage (conjuration) [clockwork] - , Sorcerer, Warlock, Wizard
     <element name="Gentle Repose" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GENTLE_REPOSE">
         <supports>Cleric, Wizard</supports>
         <description>
@@ -809,7 +814,7 @@ Gear Barrage (conjuration) [clockwork] - , Sorcerer
     <element name="Gift of Gab" type="Spell" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_SPELL_GIFT_OF_GAB">
 		<supports>Bard,Wizard</supports>
 		<description>
-			<p>Jim Darkmagic is said to have invented this spell, originally calling it I said what?! Have you ever been talking to the local monarch and accidentally mentioned how their son looks like your favorite hog from when you were growing up on the family farm? We’ve all been there! But rather than being beheaded for an honest slip of the tongue, you can pretend it never happened—by ensuring that no one knows it happened.</p>
+			<p>Jim Darkmagic is said to have invented this spell, originally calling it I said what?! Have you ever been talking to the local monarch and accidentally mentioned how their son looks like your favorite hog from when you were growing up on the family farm. We’ve all been there! But rather than being beheaded for an honest slip of the tongue, you can pretend it never happened—by ensuring that no one knows it happened.</p>
 			<p class="indent">When you cast this spell, you skillfully reshape the memories of listeners in your immediate area, so that each creature of your choice within 5 feet of you forgets everything you said within the last 6 seconds. Those creatures then remember that you actually said the words you speak as the verbal component of the spell.</p>
 		</description>
 		<setters>
@@ -828,13 +833,13 @@ Gear Barrage (conjuration) [clockwork] - , Sorcerer
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-Gift of Luck (divination) - Bard, Cleric
-Gift of resilience (enchantment) - Bard, Sorcerer
-Glyph of shifting (conjuration) - Bard
-Grain of truth (divination) - Bard, Cleric
-Grave sense (divination) [apocalypse] - Bard, Cleric
-Greater Analyze device (divination) [clockwork] - , Sorcerer
-Grudge Match (evocation) - Ranger
+Gift of Luck (divination) - Bard, Cleric, Warlock
+Gift of resilience (enchantment) - Bard, Sorcerer, Wizard
+Glyph of shifting (conjuration) - Bard, Wizard
+Grain of truth (divination) - Bard, Cleric, Warlock
+Grave sense (divination) [apocalypse] - Bard, Cleric, Wizard
+Greater Analyze device (divination) [clockwork] - , Sorcerer, Wizard
+Grudge Match (evocation) - Ranger, Warlock
     <element name="Gust of Wind" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GUST_OF_WIND">
         <supports>Druid, Sorcerer, Wizard</supports>
         <description>
@@ -882,8 +887,8 @@ Grudge Match (evocation) - Ranger
             <set name="isRitual">false</set>
         </setters>
     </element>
-Heartache (enchantment) - Bard, Sorcerer
-Heartstop (necromancy) [clockwork] - Bard
+Heartache (enchantment) - Bard, Sorcerer, Warlock, Wizard
+Heartstop (necromancy) [clockwork] - Bard, Warlock, Wizard
 Heartstrike (divination) - Druid, Ranger
     <element name="Heat Metal" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_HEAT_METAL">
         <supports>Bard, Druid, Artificer</supports>
@@ -927,9 +932,9 @@ Heartstrike (divination) - Druid, Ranger
             <set name="isRitual">false</set>
         </setters>
     </element>
-Holy warding (abjuration) - Bard, Cleric, Paladin
+Holy warding (abjuration) - Bard, Cleric, Paladin, Wizard
 Hunter’s cunning (divination) - Druid, Ranger
-Hypnotic missive (enchantment) - Bard
+Hypnotic missive (enchantment) - Bard, Wizard
 <!--I-->
 Ice hammer (conjuration) [winter] - Cleric, Ranger
     <element name="Immovable Object" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_IMMOVABLE_OBJECT">
@@ -954,7 +959,7 @@ Ice hammer (conjuration) [winter] - Cleric, Ranger
             <set name="isRitual">false</set>
         </setters>
     </element>
-Indecision (enchantment) - Bard, Sorcerer
+Indecision (enchantment) - Bard, Sorcerer, Wizard
 Instant snare (abjuration) - Ranger
     <element name="Invisibility" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_INVISIBILITY">
         <supports>Bard, Sorcerer, Warlock, Wizard, Artificer</supports>
@@ -979,7 +984,7 @@ Instant snare (abjuration) - Ranger
     </element>
 Iron stomach (transmutation) - Druid
 <!--J-->
-Jerilyn's cadaverous uprising (necromancy) [apocalypse] - Cleric
+Jerilyn's cadaverous uprising (necromancy) [apocalypse] - Cleric, Wizard
     <element name="Jim’s Glowing Coin" type="Spell" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_SPELL_JIMS_GLOWING_COIN">
 		<supports>Wizard</supports>
 		<description>
@@ -1002,6 +1007,7 @@ Jerilyn's cadaverous uprising (necromancy) [apocalypse] - Cleric
 		</setters>
 	</element>
 <!--K-->
+Kavelin’s instant aerosol (transmutation) - Wizard
     <element name="Knock" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_KNOCK">
         <supports>Bard, Sorcerer, Wizard</supports>
         <description>
@@ -1026,7 +1032,8 @@ Jerilyn's cadaverous uprising (necromancy) [apocalypse] - Cleric
         </setters>
     </element>
 <!--L-->
-Lacerate (evocation) - Bard, Cleric, Sorcerer
+Lacerate (evocation) - Bard, Cleric, Sorcerer, Wizard
+Lair sense (divination) [dragon] - Wizard
     <element name="Lesser Restoration" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_LESSER_RESTORATION">
         <supports>Bard, Cleric, Druid, Paladin, Ranger, Artificer</supports>
         <description>
@@ -1107,8 +1114,9 @@ Lacerate (evocation) - Bard, Cleric, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Lock armor (transmutation) [clockwork] - , Sorcerer
+Lock armor (transmutation) [clockwork] - , Sorcerer, Warlock, Wizard
 <!--M-->
+Maddening whispers (enchantment) [Void] - Wizard
     <element name="Magic Mouth" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MAGIC_MOUTH">
         <supports>Bard, Wizard, Artificer</supports>
         <description>
@@ -1152,7 +1160,7 @@ Lock armor (transmutation) [clockwork] - , Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Magma spray (transmutation) [apocalypse] - Druid, Sorcerer
+Magma spray (transmutation) [apocalypse] - Druid, Sorcerer, Warlock, Wizard
 Mantle of the brave (abjuration) - Cleric, Paladin
 Mark prey (divination) - Druid, Ranger
     <element name="Maximilian’s Earthen Grasp" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_MAXIMILIANS_EARTHEN_GRASP">
@@ -1199,6 +1207,7 @@ Mark prey (divination) - Druid, Ranger
             <set name="isRitual">false</set>
         </setters>
     </element>
+Mephitic croak (conjuration) [alkemancy] - Wizard
     <element name="Mephitic Croak" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_MEPHITIC_CROAK">
         <supports>Wizard, Alkemancy</supports>
         <description>
@@ -1261,7 +1270,7 @@ Mark prey (divination) - Druid, Ranger
             <set name="isRitual">false</set>
         </setters>
     </element>
-Mist of Wonders (conjuration) [chaos] - , Sorcerer
+Mist of Wonders (conjuration) [chaos] - , Sorcerer, Wizard
     <element name="Misty Step" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MISTY_STEP">
         <supports>Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -1307,7 +1316,7 @@ Mist of Wonders (conjuration) [chaos] - , Sorcerer
         </setters>
     </element>
 <!--N-->
-Negative image (conjuration) [shadow] - , Sorcerer
+Negative image (conjuration) [shadow] - , Sorcerer, Warlock, Wizard
 Nip at the heels (illusion) - Druid, Ranger
     <element name="Nystul’s Magic Aura" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_NYSTULS_MAGIC_AURA">
         <supports>Wizard</supports>
@@ -1330,6 +1339,7 @@ Nip at the heels (illusion) - Druid, Ranger
         </setters>
     </element>
 <!--O-->
+Orb of light (evocation) [illumination] - Warlock, Wizard
 <!--P-->
     <element name="Pass without Trace" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_PASS_WITHOUT_TRACE">
         <supports>Druid, Ranger</supports>
@@ -1371,11 +1381,11 @@ Nip at the heels (illusion) - Druid, Ranger
             <set name="isRitual">false</set>
         </setters>
     </element>
-Phantom light (illusion) [illumination] - Druid
-Plaguebearer (abjuration) [fiendish] - Cleric
-Poisoned volley (conjuration) - Druid, Ranger
-Poisonous flesh (transmutation) - Cleric, Ranger
-Power word kneel (enchantment) - Bard, Cleric, Sorcerer
+Phantom light (illusion) [illumination] - Druid, Wizard
+Plaguebearer (abjuration) [fiendish] - Cleric, Warlock, Wizard
+Poisoned volley (conjuration) - Druid, Ranger, Wizard
+Poisonous flesh (transmutation) - Cleric, Ranger, Warlock
+Power word kneel (enchantment) - Bard, Cleric, Sorcerer, Warlock, Wizard
     <element name="Prayer of Healing" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_PRAYER_OF_HEALING">
         <supports>Cleric</supports>
         <description>
@@ -1462,10 +1472,10 @@ Prayer of resolve (evocation) [apocalypse] - Cleric, Paladin
             <set name="isRitual">false</set>
         </setters>
     </element>
-Read object (divination) - Bard
-Reverberate (evocation) [ring] - , Sorcerer
+Read object (divination) - Bard, Warlock, Wizard
+Reverberate (evocation) [ring] - , Sorcerer, Warlock, Wizard
 Revive beast (necromancy) - Druid, Ranger
-Rolling thunder (evocation) - , Sorcerer
+Rolling thunder (evocation) - , Sorcerer, Warlock, Wizard
     <element name="Rope Trick" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ROPE_TRICK">
         <supports>Wizard, Artificer</supports>
         <description>
@@ -1486,7 +1496,7 @@ Rolling thunder (evocation) - , Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Rotting corpse (necromancy) - Cleric
+Rotting corpse (necromancy) - Cleric, Warlock, Wizard
 <!--S-->
     <element name="Scorching Ray" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SCORCHING_RAY">
         <supports>Sorcerer, Wizard</supports>
@@ -1509,7 +1519,7 @@ Rotting corpse (necromancy) - Cleric
             <set name="isRitual">false</set>
         </setters>
     </element>
-Sculpt snow (transmutation) [winter] - Druid, Sorcerer
+Sculpt snow (transmutation) [winter] - Druid, Sorcerer, Wizard
     <element name="See Invisibility" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SEE_INVISIBILITY">
         <supports>Bard, Sorcerer, Wizard, Artificer</supports>
         <description>
@@ -1530,7 +1540,7 @@ Sculpt snow (transmutation) [winter] - Druid, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Shade (abjuration) [dragon] - Bard, Cleric, Sorcerer
+Shade (abjuration) [dragon] - Bard, Cleric, Sorcerer, Warlock, Wizard
     <element name="Shadow Blade" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_SHADOW_BLADE">
         <supports>Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -1553,8 +1563,8 @@ Shade (abjuration) [dragon] - Bard, Cleric, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Shadows brought to light (divination) [elven ritual] - Bard, Cleric, Paladin
-Shadow Puppets (illusion) [shadow] - , Sorcerer
+Shadows brought to light (divination) [elven ritual] - Bard, Cleric, Paladin, Warlock, Wizard
+Shadow Puppets (illusion) [shadow] - , Sorcerer, Warlock, Wizard
     <element name="Shatter" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SHATTER">
         <supports>Bard, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -1577,8 +1587,8 @@ Shadow Puppets (illusion) [shadow] - , Sorcerer
         </setters>
     </element>
 Shared sacrifice (evocation) - Cleric, Paladin
-Sheen of ice (evocation) [winter] - , Sorcerer
-Shifting the odds (divination) [chaos] - Bard, Sorcerer
+Sheen of ice (evocation) [winter] - , Sorcerer, Warlock, Wizard
+Shifting the odds (divination) [chaos] - Bard, Sorcerer, Wizard
     <element name="Silence" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SILENCE">
         <supports>Bard, Cleric, Ranger</supports>
         <description>
@@ -1619,7 +1629,8 @@ Shifting the odds (divination) [chaos] - Bard, Sorcerer
             <set name="isRitual">true</set>
         </setters>
     </element>
-Snap the leash (enchantment) - Druid, Sorcerer
+Slither (transmutation) [shadow] - Wizard
+Snap the leash (enchantment) - Druid, Sorcerer, Wizard
     <element name="Snilloc’s Snowball Swarm" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_SNILLOCS_SNOWBALL_SWARM">
         <supports>Sorcerer, Wizard, Fighter (Eldritch Knight)</supports>
         <description>
@@ -1641,7 +1652,7 @@ Snap the leash (enchantment) - Druid, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Snow fort (conjuration) [winter] - Cleric, Sorcerer
+Snow fort (conjuration) [winter] - Cleric, Sorcerer, Wizard
     <element name="Spider Climb" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SPIDER_CLIMB">
         <supports>Sorcerer, Warlock, Wizard, Artificer</supports>
         <description>
@@ -1682,7 +1693,7 @@ Snow fort (conjuration) [winter] - Cleric, Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Spin (enchantment) [clockwork] - , Sorcerer
+Spin (enchantment) [clockwork] - , Sorcerer, Warlock, Wizard
     <element name="Spiritual Weapon" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SPIRITUAL_WEAPON">
         <supports>Cleric</supports>
         <description>
@@ -1704,8 +1715,8 @@ Spin (enchantment) [clockwork] - , Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Spy my shadow (transmutation) - , Sorcerer
-Stench of rot (necromancy) - Bard, Cleric, Druid, Ranger, Sorcerer
+Spy my shadow (transmutation) - , Sorcerer, Warlock, Wizard
+Stench of rot (necromancy) - Bard, Cleric, Druid, Ranger, Sorcerer, Warlock
     <element name="Suggestion" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SUGGESTION">
         <supports>Bard, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -1752,7 +1763,8 @@ Stench of rot (necromancy) - Bard, Cleric, Druid, Ranger, Sorcerer
         </setters>
     </element>
 <!--T-->
-Thorn cage (conjuration) - Druid
+Thorn cage (conjuration) - Druid, Warlock
+Thunderous stampede (transmutation) [labyrinth] - Warlock, Wizard
 Thunderous stampede (transmutation) [labyrinth] - , Sorcerer
     <element name="Time Step" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_TIME_STEP">
 		<supports>Bard,Cleric,Ranger,Warlock,Wizard, Dunamancy</supports>
@@ -1774,16 +1786,16 @@ Thunderous stampede (transmutation) [labyrinth] - , Sorcerer
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-Timely distraction (evocation) [chaos] - Bard, Sorcerer
-Time step (conjuration) [temporal] [clockwork] - Bard, Cleric, Ranger
+Timely distraction (evocation) [chaos] - Bard, Sorcerer, Wizard
+Time step (conjuration) [Dunamancy] [clockwork] - Bard, Cleric, Ranger, Warlock, Wizard
 Tree running (transmutation) - Druid, Ranger
 Treasure Chasm (enchantment) [dragon] - , Sorcerer
-Trench (transmutation) - Bard, Cleric, Druid, Paladin, Sorcerer
+Trench (transmutation) - Bard, Cleric, Druid, Paladin, Sorcerer, Wizard
 <!--U-->
-Unholy defiance (necromancy) - Cleric
+Unholy defiance (necromancy) - Cleric, Wizard
 <!--V-->
-Vine trestle (conjuration) [elven ritual] - Druid, Ranger
-Vomit Tentacles (transmutation) - , Sorcerer
+Vine trestle (conjuration) [elven ritual] - Druid, Ranger, Wizard
+Vomit Tentacles (transmutation) - , Sorcerer, Warlock, Wizard
 <!--W-->
     <element name="Warding Bond" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_WARDING_BOND">
         <supports>Cleric</supports>
@@ -1834,7 +1846,7 @@ Vomit Tentacles (transmutation) - , Sorcerer
             <set name="isRitual">false</set>
         </setters>
     </element>
-Warning shout (divination) - Bard, Cleric, Paladin
+Warning shout (divination) - Bard, Cleric, Paladin, Wizard
     <element name="Web" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_WEB">
         <supports>Sorcerer, Wizard, Artificer</supports>
         <description>
@@ -1859,7 +1871,7 @@ Warning shout (divination) - Bard, Cleric, Paladin
             <set name="isRitual">false</set>
         </setters>
     </element>
-Weiler's ward (conjuration) - Druid, Sorcerer
+Weiler's ward (conjuration) - Druid, Sorcerer, Wizard
 Wresting wind (evocation) - Druid, Ranger, Sorcerer
     <element name="Wristpocket" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_WRISTPOCKET">
         <supports>Wizard,Dunamancy</supports>
