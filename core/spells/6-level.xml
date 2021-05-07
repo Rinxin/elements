@@ -251,7 +251,7 @@ Conjure forest defender (conjuration) - Druid
             <set name="isRitual">false</set>
         </setters>
     </element>
-Curse of Boreas (transmutation) [winter] - Cleric, Wizard
+Curse of Boreas (transmutation) [winter] - Cleric, Sorcerer, Wizard
 <!--D-->
     <element name="Disintegrate" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DISINTEGRATE">
         <supports>Sorcerer, Wizard</supports>
@@ -333,9 +333,9 @@ Curse of Boreas (transmutation) [winter] - Cleric, Wizard
         </setters>
     </element>
 <!--E-->
-Enchant ring (enchantment) [ring] - Wizard
-Encroaching shadows (illusion) [elven ritual] - Cleric, Wizard
-Entomb (transmutation) - Wizard
+Enchant ring (enchantment) [ring] - Sorcerer, Wizard
+Encroaching shadows (illusion) [elven ritual] - Cleric, Sorcerer, Wizard
+Entomb (transmutation) - Sorcerer, Warlock, Wizard
     <element name="Eyebite" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_EYEBITE">
         <supports>Bard, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -359,9 +359,9 @@ Entomb (transmutation) - Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Extract knowledge (necromancy) - Bard, Cleric, Wizard
+Extract knowledge (necromancy) - Bard, Cleric, Warlock, Wizard
 <!--F-->
-Fault line (evocation) - Cleric, Druid, Wizard
+Fault line (evocation) - Cleric, Druid, Sorcerer, Wizard
     <element name="Find the Path" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FIND_THE_PATH">
         <supports>Bard, Cleric, Druid</supports>
         <description>
@@ -383,8 +383,8 @@ Fault line (evocation) - Cleric, Druid, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Fire dragon's fury (transmutation) [dragon] - Wizard
-Firewalk (transmutation) - Cleric, Druid - Wizard
+Fire dragon's fury (transmutation) [dragon] - Sorcerer, Wizard
+Firewalk (transmutation) - Cleric, Druid, Sorcerer, Wizard
     <element name="Flesh to Stone" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FLESH_TO_STONE">
         <supports>Druid, Warlock, Wizard, Alkemancy</supports>
         <description>
@@ -568,8 +568,8 @@ Heavenly crown (enchantment) - Cleric, Wizard
         </setters>
     </element>
 <!--I-->
-Icy manipulation (transmutation) - Wizard
-Investiture of blight (transmutation) [apocalypse] - Cleric, Druid, Wizard
+Icy manipulation (transmutation) - Sorcerer, Wizard
+Investiture of blight (transmutation) [apocalypse] - Cleric, Druid, Sorcerer, Warlock, Wizard
     <element name="Investiture of Flame" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_INVESTITURE_OF_FLAME">
         <supports>Druid, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -737,8 +737,8 @@ Life drain (evocation) [Void] - Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Misfortune (necromancy) [chaos] - Bard, Wizard
-Mithral dragon's might (transmutation) [dragon] - Wizard
+Misfortune (necromancy) [chaos] - Bard, Sorcerer, Wizard
+Mithral dragon's might (transmutation) [dragon] - Sorcerer, Wizard
     <element name="Move Earth" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MOVE_EARTH">
         <supports>Druid, Sorcerer, Wizard</supports>
         <description>
@@ -887,7 +887,7 @@ Mithral dragon's might (transmutation) [dragon] - Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Shadow metamorphosis (transmutation) [shadow] - Wizard
+Shadow metamorphosis (transmutation) [shadow] - Warlock, Wizard
 Smiting arrow (evocation) - Cleric
 Storm form (transmutation) - Druid
     <element name="Sunbeam" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SUNBEAM">
@@ -940,7 +940,7 @@ Storm form (transmutation) - Druid
             <set name="isRitual">false</set>
         </setters>
     </element>
-Time loop (transmutation) [temporal] [clockwork] - Bard, Cleric, Druid, Wizard
+Time loop (transmutation) [temporal] [clockwork] - Bard, Cleric, Druid, Sorcerer, Wizard
     <element name="Time Loop" type="Spell" source="Deep Magic: Collected" id="ID_KBP_DM_SPELL_TIME_LOOP">
 		<supports>Bard,Cleric,Druid,Sorcerer,Warlock,Wizard, Dunamancy, Clockwork</supports>
 		<description>
@@ -962,7 +962,7 @@ Time loop (transmutation) [temporal] [clockwork] - Bard, Cleric, Druid, Wizard
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-Tolling doom (necromancy) - Cleric
+Tolling doom (necromancy) - Cleric, Warlock
     <element name="Transport via Plants" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_TRANSPORT_VIA_PLANTS">
         <supports>Druid</supports>
         <description>
@@ -1006,7 +1006,7 @@ Tolling doom (necromancy) - Cleric
 <!--U-->
 <!--V-->
 <!--W-->
-Walk the twisted path (conjuration) [labyrinth] - Wizard
+Walk the twisted path (conjuration) [labyrinth] - Sorcerer, Wizard
     <element name="Wall of Ice" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_WALL_OF_ICE">
         <supports>Wizard</supports>
         <description>
@@ -1075,8 +1075,8 @@ Warp mind and matter (transmutation) [mythos] - Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Winterdark (transmutation) [winter] - Druid, Wizard
-Winter’s radiance (evocation) [winter] - Cleric, Druid, Wizard
+Winterdark (transmutation) [winter] - Druid, Sorcerer, Warlock, Wizard
+Winter’s radiance (evocation) [winter] - Cleric, Druid, Sorcerer, Wizard
     <element name="Word of Recall" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_WORD_OF_RECALL">
         <supports>Cleric</supports>
         <description>
