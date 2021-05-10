@@ -32,6 +32,27 @@
 			</rules>
 		</element>
 	<!--A-->
+		<element name="Aegis of the Abyss" type="Magic Item" source="Relics of the Realms: Volume 1" id="ID_BA_ROTR_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+			<description>
+				<p><b>Spellguard.</b> While holding this Shield, you have advantage on Saving Throws against Spells and other magical effects, and spell attacks have disadvantage against you</p>
+				<p class="indent"><b>Arcane Hunger.</b> As a reaction you can make the shield absorb a spell. You can do this on a ranged spell attack, if the target of the spell is within 10ft. of you. You can use this feature twice per long rest. If a single spell deals more than 90 damage the shield shatters.</p>
+				
+			</description>
+			<setters>
+				<set name="category">Magic Armor</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type" addition="shield">Armor</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Legendary</set>
+				<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+				<set name="charges">3</set>
+				<set name="enhancement">3</set>
+			</setters>
+			<rules>
+				<stat name="ac:shield" value="3" bonus="enhancement" />
+			</rules>
+		</element>
 		<element name="Armor of Invulnerability" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_OF_INVULNERABILITY">
 			<description>
 				<p>You have resistance to nonmagical damage while you wear this armor. Additionally, you can use an action to make yourself immune to nonmagical damage for 10 minutes or until you are no longer wearing the armor. Once this special action is used, it can't be used again until the next dawn.</p>
