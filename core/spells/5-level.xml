@@ -7,7 +7,7 @@
       </update>
     </info>
 <!--
-    <element name="Astral Projection" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_">
+    <element name="Astral" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_">
         <supports></supports>
         <description>
             <p></p>
@@ -17,9 +17,9 @@
             <set name="keywords"></set>
             <set name="level">5</set>
             <set name="school" addition="">Necromancy</set>
-            <set name="time">1 hour</set>
+            <set name="time">1 action</set>
             <set name="duration">Special</set>
-            <set name="range">10 feet</set>
+            <set name="range">60 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
             <set name="hasMaterialComponent">false</set>
