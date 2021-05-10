@@ -8,6 +8,21 @@
 			<file name="mundane-wondrous-item.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/00-mundane/mundane-wondrous-item.xml" />
 		</update>
 	</info>
+<!--
+	<element name="Drow Poison" type="Item" source="Player's Handbook" id="ID_WOTC_PHB_ITEM_">
+				<description>
+					<p></p>
+					<p class="indent"></p>
+				</description>
+				<setters>
+					<set name="keywords">poison</set>
+					<set name="category">Adventuring Gear</set>
+					<set name="cost" currency="gp">0</set>
+					<set name="weight" lb="1">1 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+-->
 <!--Wondrous Item-->
 	<!--A-->
 		<element name="Alchemist Flask" type="Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_ITEM_ALCHEMIST_FLASK">
@@ -526,6 +541,104 @@
 			</setters>
 		</element>
 	<!--P-->
+		<!--Poisons-->
+			<element name="Assassin's Blood" type="Item" source="Player's Handbook" id="ID_WOTC_PHB_ITEM_ASSASSINS_BLOOD">
+				<description>
+					<p>A creature subjected to this poison must make a DC 10 Constitution saving throw. On a failed save, it takes 6 (1d12) poison damage and is poisoned for 24 hours. On a successful save, the creature takes half damage and isn't poisoned.</p>
+					<p class="indent"><b>Ingested.</b> A creature must swallow an entire dose of ingested poison to suffer its effects. The dose can be delivered in food or a liquid. You may decide that a partial dose has a reduced effect, such as allowing advantage on the saving throw or dealing only half damage on a failed save.</p>
+				</description>
+				<setters>
+					<set name="keywords">poison</set>
+					<set name="category">Adventuring Gear</set>
+					<set name="cost" currency="gp">150</set>
+					<set name="weight" lb="1">1 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Blood of the Lycanthrope" type="Item" source="Player's Handbook" id="ID_WOTC_PHB_ITEM_BLOOD_OF_THE_LYCANTHROPE">
+				<description>
+					<p>This poison is created from blood harvested from a dead or incapacitated lycanthrope in its animal or hybrid form. A creature subjected to this poison must succeed on a DC 12 Constitution saving throw or be cursed with lycanthropy (see the Monster Manual). The curse lasts until removed by the remove curse spell or similar magic.</p>
+					<p class="indent"><b>Injury.</b> Injury poison can be applied to weapons, ammunition, trap components, and other objects that deal piercing or slashing damage and remains potent until delivered through a wound or washed off. A creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.</p>
+					<p class="indent">The type of lycanthropy depends on the lycanthrope used to create the poison. To determine the type of lycanthropy randomly, roll a d6:</p>
+					<table>
+						<tr><th>d6</th><th>type of lycanthropy</th></tr>
+						<tr><td>1–3</td><td>Wererat</td></tr>
+						<tr><td>4–5</td><td>Werewolf</td></tr>
+						<tr><td>6</td><td>Wereboar</td></tr>
+					</table>
+				</description>
+				<setters>
+					<set name="keywords">poison</set>
+					<set name="category">Adventuring Gear</set>
+					<set name="cost" currency="gp">500</set>
+					<set name="weight" lb="1">1 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Burnt Othur Fumes" type="Item" source="Player's Handbook" id="ID_WOTC_PHB_ITEM_BURNT_OTHUR_FUMES">
+				<description>
+					<p>A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or take 10 (3d6) poison damage, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the character takes 3 (1d6) poison damage. After three successful saves, the poison ends.</p>
+					<p class="indent"><b>Inhaled.</b> These poisons are powders or gases that take effect when inhaled. Blowing the powder or releasing the gas subjects creatures in a 5-foot cube to its effect. The resulting cloud dissipates immediately afterward. Holding one's breath is ineffective against inhaled poisons, as they affect nasal membranes, tear ducts, and other parts of the body.</p>
+				</description>
+				<setters>
+					<set name="keywords">poison</set>
+					<set name="category">Adventuring Gear</set>
+					<set name="cost" currency="gp">0</set>
+					<set name="weight" lb="1">1 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Crawler Mucus" type="Item" source="Player's Handbook" id="ID_WOTC_PHB_ITEM_CRAWLER_MUCUS">
+				<description>
+					<p>This poison must be harvested from a dead or incapacitated crawler. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. The poisoned creature is paralyzed. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+					<p class="indent">Contact. Contact poison can be smeared on an object and remains potent until it is touched or washed off. A creature that touches contact poison with exposed skin suffers its effects.</p>
+				</description>
+				<setters>
+					<set name="keywords">poison</set>
+					<set name="category">Adventuring Gear</set>
+					<set name="cost" currency="gp">200</set>
+					<set name="weight" lb="1">1 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Dragon's Blood" type="Item" source="Player's Handbook" id="ID_WOTC_PHB_ITEM_DRAGONS_BLOOD">
+				<description>
+					<p>Introduced into Sharn by Daask, dragon’s blood is a potent and highly addictive stimulant. In addition to inducing euphoria, it can enhance spellcasting ability or even temporarily imbue a user with the ability to cast sorcerer spells. The drug’s effects are potentially dangerous and always unpredictable. This isn’t something a player character should want to use; adventurers are more likely to interfere with Daask smugglers or deal with an addict who accidentally casts a fireball in a crowded street. The specific effects of dragon’s blood are up to you, but you can take inspiration from the Wild Magic Surge table in the Player’s Handbook.</p>
+				</description>
+				<setters>
+					<set name="keywords">poison</set>
+					<set name="category">Adventuring Gear</set>
+					<set name="cost" currency="gp">0</set>
+					<set name="weight" lb="1">1 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Dreamlily" type="Item" source="Player's Handbook" id="ID_WOTC_PHB_ITEM_DREAMLILY">
+				<description>
+					<p>A psychoactive liquid that smells and tastes like your favorite beverage, essence of dreamlily is a Sarlonan opiate. First imported to help manage pain during the Last War, it’s now the most commonly abused substance in Sharn. Though dreamlily isn’t illegal if used for medicinal purposes, it’s heavily taxed, and thus most dreamlily is smuggled in and sold on the black market. Dreamlily dens can be found across the lower wards. Consuming dreamlily causes disorienting euphoria and brings about remarkable resistance to pain. A creature under the effects of dreamlily is poisoned for 1 hour. While poisoned in this way, the creature is immune to fear, and the first time it drops to 0 hit points without being killed outright, it drops to 1 hit point instead. A dose of dreamlily costs around 1 gp, or up to ten times that if purchased through legal channels. There are many varieties of the drug, however, and the duration or the price might vary accordingly.</p>
+				</description>
+				<setters>
+					<set name="keywords">poison</set>
+					<set name="category">Adventuring Gear</set>
+					<set name="cost" currency="gp">1</set>
+					<set name="weight" lb="1">1 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Drow Poison" type="Item" source="Player's Handbook" id="ID_WOTC_PHB_ITEM_DROW_POISON">
+				<description>
+					<p>This poison is typically made only by the drow, and only in a place far removed from sunlight. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the creature is also unconscious while poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</p>
+					<p class="indent"><b>Injury.</b> Injury poison can be applied to weapons, ammunition, trap components, and other objects that deal piercing or slashing damage and remains potent until delivered through a wound or washed off. A creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.</p>
+				</description>
+				<setters>
+					<set name="keywords">poison</set>
+					<set name="category">Adventuring Gear</set>
+					<set name="cost" currency="gp">200</set>
+					<set name="weight" lb="1">1 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+		<!--/Poisons-->
 		<element name="Pride Silk (1 square yard)" type="Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_ITEM_PRIDE_SILK_SQUARD_YARD">
 			<description>
 				<p>One square yard of pride silk.</p>

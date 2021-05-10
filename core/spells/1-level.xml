@@ -18,7 +18,7 @@
             <set name="level">1</set>
             <set name="school" addition="">Necromancy</set>
             <set name="time">1 action</set>
-            <set name="duration">Special</set>
+            <set name="duration">Instantaneous</set>
             <set name="range">60 feet</set>
             <set name="hasVerbalComponent">true</set>
             <set name="hasSomaticComponent">true</set>
@@ -72,10 +72,68 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-Agonizing mark (evocation) - Bard, Cleric, Druid, Ranger, Sorcerer, Wizard
-Alter arrow’s fortune (divination) - Bard, Cleric, Druid, Ranger, Sorcerer, Wizard
+    <element name="Agonizing Mark" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_AGONIZING_MARK">
+        <supports>Bard, Cleric, Druid, Ranger, Sorcerer, Wizard</supports>
+        <description>
+            <p>You choose a creature you can see within range to mark as your prey, and a ray of black energy issues forth from you. Until the spell ends, each time you deal damage to the target it must make a Charisma saving throw. On a failed save, it falls prone as its body is filled with torturous agony.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">90 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Alter Arrow’s Fortune" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ALTER_ARROWS_FORTUNE">
+        <supports>Bard, Cleric, Druid, Ranger, Sorcerer, Wizard</supports>
+        <description>
+            <p>You clap your hands, setting off a chain of tiny events that culminate in throwing off an enemy’s aim. When an enemy makes a ranged attack with a weapon or a spell that hits one of your allies, this spell causes the enemy to reroll the attack roll unless the enemy makes a successful Charisma saving throw. The attack is resolved using the lower of the two rolls (effectively giving the enemy disadvantage on the attack).</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Divination</set>
+            <set name="time">1 reaction, which you take when an enemy makes a ranged attack that hits</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">100 feet</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 Amplify light (transmutation) [illumination] - Wizard
-Anchoring rope (evocation) - Bard, Druid, Ranger
+    <element name="Anchoring Rope" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ANCHORING_ROPE">
+        <supports>Bard, Druid, Ranger</supports>
+        <description>
+            <p>You create a spectral lanyard. One end is tied around your waist, and the other end is magically anchored in the air at a point you select within range. You can choose to make the rope from 5 to 30 feet long, and it can support up to 800 pounds. The point where the end of the rope is anchored in midair can’t be moved after the spell is cast. If this spell is cast as a reaction while you are falling, you stop at a point of your choosing in midair and take no falling damage. You can dismiss the rope as a bonus action.</p>
+            <p class="indent"><b>At Higher Levels.</b> When you cast this spell using a spell slot of 3rd level or higher, you can create one additional rope for every two slot levels above 1st. Each rope must be attached to a different creature.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action, or 1 reaction that you take while falling</set>
+            <set name="duration">5 minutes</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Alarm" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ALARM">
         <supports>Ranger, Wizard, Artificer</supports>
         <description>
@@ -98,7 +156,26 @@ Anchoring rope (evocation) - Bard, Druid, Ranger
             <set name="isRitual">true</set>
         </setters>
     </element>
-Analyze Device (divination) [clockwork] - , Sorcerer, Wizard
+    <element name="Analyze Device" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ANALYZE_DEVICE">
+        <supports>Sorcerer, Wizard, Clockwork</supports>
+        <description>
+            <p>You discover all mechanical properties, mechanisms, and functions of a single construct or clockwork device, including how to activate or deactivate those functions, if appropriate.</p>
+        </description>
+        <setters>
+            <set name="keywords">clockwork</set>
+            <set name="level">1</set>
+            <set name="school" addition="Clockwork">Divination</set>
+            <set name="time">1 hour</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a set of clockworker's tools</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Animal Friendship" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ANIMAL_FRIENDSHIP">
         <supports>Bard, Druid, Ranger</supports>
         <description>
@@ -120,7 +197,26 @@ Analyze Device (divination) [clockwork] - , Sorcerer, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Ancestor's strength (transmutation) - Cleric, Druid, Paladin
+    <element name="Ancestor's Strength" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ANCESTORS_STRENGTH">
+        <supports>Cleric, Druid, Paladin</supports>
+        <description>
+            <p>Choose a willing creature you can see and touch. Its muscles bulge and become invigorated. For the duration, the target is considered one size category larger for determining its carrying capacity, the maximum weight it can lift, push, or pull, and its ability to break objects. It also has advantage on Strength checks.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 8 hours</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 Angelic guardian (conjuration) [angelic] - Cleric, Paladin, Wizard
 Anticipate weakness (divination) [Dunamancy] - Bard, Cleric, Druid, Ranger, Sorcerer, Warlock, Wizard
 
@@ -167,7 +263,26 @@ Anticipate weakness (divination) [Dunamancy] - Bard, Cleric, Druid, Ranger, Sorc
         </setters>
     </element>
 Auspicious warning (enchantment) [Dunamancy] - Bard, Sorcerer, Wizard
-Avoid grievous injury (divination) - Bard, Cleric, Druid, Sorcerer, Warlock, Wizard
+    <element name="Avoid Grievous Injury" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_AVOID_GRIEVOUS_INJURY">
+        <supports>Bard, Cleric, Druid, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You cast this spell when a foe strikes you with a critical hit but before damage dice are rolled. The critical hit against you becomes a normal hit.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Divination</set>
+            <set name="time">1 reaction, which you take when you are struck by a critical strike</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--B-->
     <element name="Bane" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BANE">
         <supports>Bard, Cleric</supports>
@@ -211,7 +326,27 @@ Avoid grievous injury (divination) - Bard, Cleric, Druid, Sorcerer, Warlock, Wiz
         </setters>
     </element>
 Black ribbons (conjuration) [shadow] - , Sorcerer, Warlock, Wizard
-Bleed (necromancy) - Ranger, Warlock
+    <element name="Bleed" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BLEED">
+        <supports>Ranger, Warlock</supports>
+        <description>
+            <p>Crackling energy coats the blade of one weapon you are carrying that deals slashing damage. Until the spell ends, when you hit a creature with the weapon, the weapon deals an extra 1d4 necrotic damage and the creature must make a Constitution saving throw. On a failed save, the creature suffers a bleeding wound. Each time you hit a creature with this weapon while it suffers from a bleeding wound, your weapon deals an extra 1 necrotic damage for each time you have previously hit the creature with this weapon (to a maximum of 10 necrotic damage).</p>
+            <p class="indent">Any creature can take an action to stanch the bleeding wound by succeeding on a Wisdom (Medicine) check against your spell save DC. The wound also closes if the target receives magical healing. This spell has no effect on undead or constructs.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school" addition="">Necromancy</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a drop of blood</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Bless" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BLESS">
         <supports>Cleric, Paladin</supports>
         <description>
@@ -233,12 +368,73 @@ Bleed (necromancy) - Ranger, Warlock
             <set name="isRitual">false</set>
         </setters>
     </element>
-Blinding pain (enchantment) - Bard, Sorcerer, Warlock
+    <element name="Blinding Pain" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BLINDING_PAIN">
+        <supports>Bard, Sorcerer, Warlock</supports>
+        <description>
+            <p>You cause a creature within range to suffer severe pain in its head. At the start of its turn, the target takes 1d4 psychic damage and is blinded for 1 round. On a successful Wisdom saving throw, the creature takes half as much damage and is not blinded. A cure wounds or healing word spell cast on the target ends this spell, in addition to its regular effects.</p>
+            <p class="indent"><b>At Higher Levels.</b> When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 minute</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">an ice pick</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 Blood scarab (necromancy) [blood] - Cleric, Warlock
-Bloodhound (transmutation) - Druid, Ranger, Sorcerer, Wizard
+    <element name="Bloodhound" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BLOODHOUND">
+        <supports>Druid, Ranger, Sorcerer, Wizard</supports>
+        <description>
+            <p>You touch a willing creature to grant it an enhanced sense of smell. For the duration, that creature has advantage on Wisdom (Perception) checks that rely on smell and on Wisdom (Survival) checks to follow tracks.</p>
+            <p class="indent"><b>At Higher Levels.</b> When you cast this spell using a spell slot of 3rd level or higher, you also grant the target blindsight out to a range of 30 feet for the duration.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">8 hours</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a drop of ammonia</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 Bloody Hands (necromancy) [blood] - , Sorcerer, Warlock, Wizard
 Bloody smite (necromancy) [blood] - Cleric, Druid, Ranger, Wizard
-Bolster undead (necromancy) - Cleric, Sorcerer, Warlock, Wizard
+    <element name="Bolster Undead" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BOLSTER_UNDEAD">
+        <supports>Cleric, Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You suffuse an area with negative energy to increase the difficulty of harming or affecting undead creatures.</p>
+            <p class="indent">Choose up to three undead creatures within range. When a targeted creature makes a saving throw against being turned or against spells or effects that deal radiant damage, the target has advantage on the saving throw.</p>
+            <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional undead creature for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 hour</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a sprinkle of unholy water</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 Bottomless stomach (transmutation) [alkemancy] - Wizard
     <element name="Bottomless Stomach" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BOTTOMLESS_STOMACH">
         <supports>Wizard, Alkemancy</supports>
@@ -265,7 +461,27 @@ Bottomless stomach (transmutation) [alkemancy] - Wizard
     </element>
 Breathtaking wind (evocation) [winter] - Druid, Ranger, Sorcerer, Warlock, Wizard
 Brimstone (conjuration) [apocalypse] - Cleric, Sorcerer, Warlock, Wizard
-Broken charge (enchantment) [labyrinth] Bard, Warlock, Wizard
+    <element name="Broken Charge" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BROKEN_CHARGE">
+        <supports>Bard, Warlock, Wizard, Labyrinth</supports>
+        <description>
+            <p>When an enemy that you can see moves to within 5 feet of you, you utter a perplexing word that alters the foe’s course. The enemy must make a successful Wisdom saving throw or take 2d4 psychic damage and use the remainder of its speed to move in a direction of your choosing.</p>
+            <p class="indent"><b>At Higher Levels.</b> When you cast this spell using a spell slot of 2nd level or higher, the target takes an additional 2d4 psychic damage for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords">labyrinth</set>
+            <set name="level">1</set>
+            <set name="school" addition="Labyrinth">Enchantment</set>
+            <set name="time">1 reaction, which you take when an enemy approache to within 5 feet of you</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">10 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Burning Hands" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BURNING_HANDS">
         <supports>Sorcerer, Wizard</supports>
         <description>
@@ -288,7 +504,27 @@ Broken charge (enchantment) [labyrinth] Bard, Warlock, Wizard
         </setters>
     </element>
 <!--C-->
-Candle's insight (divination) - Bard, Warlock, Wizard
+    <element name="Candle's Insight" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_CANDLES_INSIGHT">
+        <supports>Bard, Warlock, Wizard</supports>
+        <description>
+            <p>Candle’s insight is cast on its target as the component candle is lit. The candle burns for up to 10 minutes unless it’s extinguished normally or by the spell’s effect. While the candle burns, the caster can question the spell’s target, and the candle reveals whether the target speaks truthfully. An intentionally misleading or partial answer causes the flame to flicker and dim. An outright lie causes the flame to flare and then go out, ending the spell. The candle judges honesty, not absolute truth; the flame burns steadily through even an outrageously false statement, as long as the target believes it’s true.</p>
+            <p class="indent">Candle’s insight is used across society: by merchants while negotiating deals, by inquisitors investigating heresy, and by monarchs as they interview foreign diplomats. In some societies, casting candle’s insight without the consent of the spell’s target is considered a serious breach of hospitality.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Divination</set>
+            <set name="time">1 action</set>
+            <set name="duration">10 minutes</set>
+            <set name="range">10 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a blessed candle</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Catapult" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_CATAPULT">
         <supports>Sorcerer, Wizard, Artificer</supports>
         <description>
@@ -458,7 +694,29 @@ Chronal Lance (transmutation) [Dunamancy] [clockwork] - , Sorcerer, Wizard
 	</element>
 Circle of wind (abjuraton) [ring] - , Sorcerer, Warlock, Wizard
 Cloak of shadow (illusion) [shadow] - Wizard
-Cobra Fangs (transmutation) - Ranger
+    <element name="Cobra Fangs" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_COBRA_FANGS">
+        <supports>Ranger</supports>
+        <description>
+            <p>The spell causes the target to grow great, snake-like fangs. An unwilling creature must make a Wisdom saving throw to avoid the effect. The spell fails if the target already has a bite attack that deals poison damage.</p>
+            <p class="indent">If the target doesn’t have a bite attack, it gains one. The target is proficient with the bite, and it adds its Strength modifier to the attack and damage rolls. The damage is piercing and the damage die is a d4.</p>
+            <p class="indent">When the target hits a creature with its bite attack, the creature must make a Constitution saving throw, taking 3d6 poison damage on a failed save, or half as much damage on a successful one.</p>
+            <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, the target’s bite counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">1 minute</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a drop of snake venom or a patch of snakeskin</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Color Spray" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_COLOR_SPRAY">
         <supports>Sorcerer, Wizard</supports>
         <description>
@@ -547,7 +805,27 @@ Cobra Fangs (transmutation) - Ranger
             <set name="isRitual">true</set>
         </setters>
     </element>
-Conjure mock animals (conjuration) - Druid, Ranger
+    <element name="Conjure Mock Animals" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_CONJURE_MOCK_ANIMALS">
+        <supports>Druid, Ranger</supports>
+        <description>
+            <p>You summon fey spirits that take the outward appearance of animals, but merely to serve as a distraction and trap for the unwary. The spell functions as conjure animals, but each mock animal has only 1 hit point and deals only 1 damage on a hit regardless of its appearance.</p>
+            <p class="indent">When a mock animal is dropped to 0 hit points, it explodes in a flash of light, dealing 2d4 radiant damage to all creatures within 5 feet of it. Each creature that takes damage must make a Dexterity saving throw. On a failed save, the creature is blinded for 1 round.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 Converse with dragon (divination) [dragon] - Bard, Cleric, Ranger, Sorcerer, Wizard
     <element name="Create or Destroy Water" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CREATE_OR_DESTROY_WATER">
         <supports>Cleric, Druid</supports>
@@ -570,7 +848,27 @@ Converse with dragon (divination) [dragon] - Bard, Cleric, Ranger, Sorcerer, Wiz
             <set name="isRitual">false</set>
         </setters>
     </element>
-Cure beast (evocation) - Druid, Ranger
+    <element name="Cure Beast" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_CURE_BEAST">
+        <supports>Druid, Ranger</supports>
+        <description>
+            <p>A beast of your choice that you can see within range regains a number of hit points equal to 1d6 + your spellcasting modifier.</p>
+            <p class="indent"><b>At Higher Levels.</b> When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d6 for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Cure Wounds" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CURE_WOUNDS">
         <supports>Bard, Cleric, Druid, Paladin, Ranger, Artificer</supports>
         <description>
@@ -593,7 +891,27 @@ Cure beast (evocation) - Druid, Ranger
         </setters>
     </element>
 <!--D-->
-Deep breath (transmutation) - Cleric, Druid, Sorcerer, Wizard
+    <element name="Deep Breath" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_DEEP_BREATH">
+        <supports>Cleric, Druid, Sorcerer, Wizard</supports>
+        <description>
+            <p>The recipient of this spell can breathe and function normally in thin atmosphere, suffering no ill effect at altitudes of up to 20,000 feet. If more than one creature is touched during the casting, the duration is divided evenly among all creatures touched.</p>
+            <p class="indent"><b>At Higher Levels.</b> When you cast this spell using a spell slot of 2nd level or higher, the duration increases by 2 hours for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">2 hours</set>
+            <set name="range">Touch</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Detect Evil and Good" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DETECT_EVIL_AND_GOOD">
         <supports>Cleric, Paladin</supports>
         <description>
