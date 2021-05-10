@@ -671,7 +671,7 @@ Brimstone (conjuration) [apocalypse] - Cleric, Sorcerer, Warlock, Wizard
         </setters>
     </element>
 Chronal Lance (transmutation) [Dunamancy] [clockwork] - , Sorcerer, Wizard
-    <element name="Chronal Lance" type="Spell" source="Deep Magic: CollectionTime Magic" id="ID_KBP_DMTM_SPELL_CHRONAL_LANCE">
+    <element name="Chronal Lance" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DMTM_SPELL_CHRONAL_LANCE">
 		<supports>Sorcerer,Wizard, Dunamancy</supports>
 		<description>
 			<p>You send glowing lances of dunamantic energy streaking toward three separate targets. Each target must make a successful Wisdom saving throw or its speed is halved and it has disadvantage on Dexterity ability checks (but not saving throws). An affected creature repeats the saving throw at the end of its turn, ending the effect on itself on a success.</p>

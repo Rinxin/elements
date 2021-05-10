@@ -480,7 +480,7 @@ Darkbolt (evocation) [shadow] - , Sorcerer, Warlock, Wizard
 Dark Path (conjuration) [shadow] - , Sorcerer, Warlock, Wizard
 Dead Walking (illusion) - Ranger, Sorcerer, Warlock, Wizard
 Decelerate (transmutation) [Dunamancy] [clockwork] - Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard
-    <element name="Decelerate" type="Spell" source="Deep Magic: CollectionTime Magic" id="ID_KBP_DMTM_SPELL_DECELERATE">
+    <element name="Decelerate" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DMTM_SPELL_DECELERATE">
 		<supports>Druid,Paladin,Ranger,Sorcerer,Warlock,Wizard, Dunamancy</supports>
 		<description>
 			<p>You slow the flow of time around a creature. The creature must make a successful Wisdom saving throw or its speed is halved (rounded up to the nearest 5-foot increment). Until the effect ends, the creature’s speed is halved again at the start of each of your turns. For example, a character with a speed of 30 feet fails its saving throw, dropping its speed to 15 feet. At the start of your next turn, the creature’s speed drops to 10 feet, then to 5 feet on the following round. Decelerate can’t reduce a creature’s speed to less than 5 feet. The spell ends after 1 minute or when the target uses its action to make a successful Wisdom saving throw.</p>
@@ -1789,7 +1789,7 @@ Stench of rot (necromancy) - Bard, Cleric, Druid, Ranger, Sorcerer, Warlock
 Thorn cage (conjuration) - Druid, Warlock
 Thunderous stampede (transmutation) [labyrinth] - Warlock, Wizard
 Thunderous stampede (transmutation) [labyrinth] - , Sorcerer
-    <element name="Time Step" type="Spell" source="Deep Magic: CollectionTime Magic" id="ID_KBP_DMTM_SPELL_TIME_STEP">
+    <element name="Time Step" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DMTM_SPELL_TIME_STEP">
 		<supports>Bard,Cleric,Ranger,Warlock,Wizard, Dunamancy</supports>
 		<description>
 			<p>You briefly step forward in time. You disappear from your location and reappear at the beginning of your next turn in a location within 30 feet of the space you disappeared from. You can’t be affected by anything that happens during the interval you’re missing, and you aren’t aware of anything that happens during that time.</p>

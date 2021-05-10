@@ -964,7 +964,7 @@ Storm form (transmutation) - Druid
         </setters>
     </element>
 Time loop (transmutation) [Dunamancy] [clockwork] - Bard, Cleric, Druid, Sorcerer, Wizard
-    <element name="Time Loop" type="Spell" source="Deep Magic: Collected" id="ID_KBP_DM_SPELL_TIME_LOOP">
+    <element name="Time Loop" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_TIME_LOOP">
 		<supports>Bard,Cleric,Druid,Sorcerer,Warlock,Wizard, Dunamancy, Clockwork</supports>
 		<description>
 			<p>You capture the target in a loop of time. The creature is teleported to the space where it began its previous turn. The target then makes a Wisdom saving throw. If it succeeds, the spell’s effect ends. If it fails, the creature must repeat the actions it took on its previous turn, following the same sequence of moves and actions to the best of its ability. It doesn’t need to move along the same path or attack the same target, but if it moved, then attacked, on its previous turn, its only option is to move, then attack, this turn. If the space where the target began its previous turn is occupied or it’s impossible for the target to take the same action (if it cast a spell but it’s now unable to do so, for example), the target is incapacitated.</p>
