@@ -6,6 +6,29 @@
         <file name="9-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/9-level.xml" />
       </update>
     </info>
+<!--
+    <element name="Astral Projection" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_">
+        <supports></supports>
+        <description>
+            <p></p>
+            <p class="indent"></p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">9</set>
+            <set name="school" addition="">Necromancy</set>
+            <set name="time">1 hour</set>
+            <set name="duration">Special</set>
+            <set name="range">10 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+-->
 <!--A-->
 Afflict line (necromancy) [elven ritual] - Cleric, Wizard
     <element name="Astral Projection" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ASTRAL_PROJECTION">
@@ -104,8 +127,54 @@ Circle of Devastation (evocation) [ring] - Sorcerer, Warlock, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Forest sanctuary (abjuration) - Druid
-Form of the gods (transmutation) - Cleric
+    <element name="Forest Sanctuary" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_FOREST_SANCTUARY">
+        <supports>Druid</supports>
+        <description>
+            <p>While in a forest, you create a protective, 200-foot cube centered on a point you can see within range. The atmosphere inside the cube has the lighting, temperature, and moisture that is most ideal for the forest, regardless of the lighting or weather outside the area. The cube is transparent, and creatures and objects can move freely through it. The cube protects the area inside it from storms, strong winds, and floods, including those created by magic such as control weather, control water, or meteor swarm. Such spells can’t be cast while the spellcaster is in the cube.</p>
+            <p class="indent">You can create a permanently protected area by casting this spell at the same location every day for one year.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">9</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 minute</set>
+            <set name="duration">24 hours</set>
+            <set name="range">300 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a bowl of fresh rainwater and a tree branch</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Form of the Gods" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_FORM_OF_THE_GODS">
+        <supports>Cleric</supports>
+        <description>
+            <p>By drawing on the energy of the gods, you can temporarily assume the form of your patron’s avatar. Form of the gods transforms you into an entirely new shape and brings about the following changes (summarized below and in the avatar form stat block).</p>
+            <ul>
+                <li>Your size becomes Large, unless you were already at least that big.</li>
+                <li>You gain resistance to nonmagical bludgeoning, piercing, and slashing damage and to one other damage type of your choice.</li>
+                <li>You gain a Multiattack action option, allowing you to make two slam attacks and a bite.</li>
+                <li>Your ability scores change to reflect your new form, as shown in the stat block.</li>
+            </ul>
+            <p class="indent">You remain in this form until you stop concentrating on the spell or until you drop to 0 hit points, at which time you revert to your natural form.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">9</set>
+            <set name="school" addition="">Transmutation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 hour</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a holy symbol</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--G-->
     <element name="Gate" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GATE">
         <supports>Cleric, Sorcerer, Wizard</supports>
@@ -127,7 +196,28 @@ Form of the gods (transmutation) - Cleric
             <set name="isRitual">false</set>
         </setters>
     </element>
-Greater Maze (conjuration) [labyrith] - Sorcerer, Wizard
+    <element name="Greater Maze" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_GREATER_MAZE">
+        <supports>Sorcerer, Wizard, Labyrith</supports>
+        <description>
+            <p>You banish a creature that you can see within range into a labyrinthine demiplane. The target remains there for the duration or until it escapes the maze. The target can use its action to attempt to escape. When it does so, it makes a DC 20 Intelligence check. If it succeeds, it escapes, and the spell ends (a minotaur or goristro demon automatically succeeds). When the spell ends, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space.</p>
+            <p class="indent">This spell functions as maze, but the target must also make a Dexterity saving throw each time it starts its turn in the maze. The target takes 4d6 psychic damage on a failed save, or half as much damage on a success.</p>
+            <p class="indent">Escaping this maze is especially difficult. To do so, the target must use an action to make a DC 20 Intelligence check. It escapes when it makes its second successful check.</p>
+        </description>
+        <setters>
+            <set name="keywords">labyrith</set>
+            <set name="level">9</set>
+            <set name="school" addition="Labyrith">Conjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minutes</set>
+            <set name="range">60 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 Greater seal of sanctuary (abjuration) [angelic] - Cleric, Wizard
 <!--H-->
 <!--I-->
@@ -336,7 +426,29 @@ Mammon’s due (conjuration) - Cleric, Warlock, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Pyroclasm (evocation) - Sorcerer, Warlock, Wizard
+    <element name="Pyroclasm" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_PYROCLASM">
+        <supports>Sorcerer, Warlock, Wizard</supports>
+        <description>
+            <p>You point toward an area of ground or a similar surface within range. A geyser of lava erupts from the chosen spot. The geyser is 5 feet in diameter and 40 feet high. Each creature in the cylinder when it erupts or at the start of your turn takes 10d8 fire damage, or half as much damage if it makes a successful Dexterity saving throw.</p>
+            <p class="indent">The geyser also forms a pool of lava at its base. Initially, the pool is the same size as the geyser, but at the start of each of your turns for the duration, the pool’s radius increases by 5 feet. A creature in the pool of lava (but not in the geyser) at the start of your turn takes 5d8 fire damage.</p>
+            <p class="indent">When a creature leaves the pool of lava, its speed is reduced by half and it has disadvantage on Dexterity saving throws, caused by a hardening layer of lava. These penalties last until the creature uses an action to break the hardened stone away from itself.</p>
+            <p class="indent">If you maintain concentration on pyroclasm for a full minute, the lava geyser and pool harden into permanent, nonmagical stone. A creature in either area when the stone hardens is restrained until the stone is broken away.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">9</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 1 minute</set>
+            <set name="range">500 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">a shard of obsidian</set>
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 <!--Q-->
 <!--R-->
     <element name="Ravenous Void" type="Spell" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_SPELL_RAVENOUS_VOID">

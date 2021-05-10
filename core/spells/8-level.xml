@@ -6,6 +6,29 @@
         <file name="8-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/8-level.xml" />
       </update>
     </info>
+<!--
+    <element name="Astral Projection" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_">
+        <supports></supports>
+        <description>
+            <p></p>
+            <p class="indent"></p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">8</set>
+            <set name="school" addition="">Necromancy</set>
+            <set name="time">1 hour</set>
+            <set name="duration">Special</set>
+            <set name="range">10 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+-->
 <!--A-->
     <element name="Abi-Dalzim’s Horrid Wilting" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_ABI_DALZIMS_HORRID_WILTING">
         <supports>Sorcerer, Wizard</supports>

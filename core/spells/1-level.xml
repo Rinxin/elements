@@ -6,6 +6,29 @@
         <file name="1-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/1-level.xml" />
       </update>
     </info>
+<!--
+    <element name="Astral Projection" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_">
+        <supports></supports>
+        <description>
+            <p></p>
+            <p class="indent"></p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school" addition="">Necromancy</set>
+            <set name="time">1 hour</set>
+            <set name="duration">Special</set>
+            <set name="range">10 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+-->
 <!--A-->
     <element name="Absorb Elements" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_ABSORB_ELEMENTS">
         <supports>Druid, Ranger, Sorcerer, Wizard, Fighter (Eldritch Knight), Artificer</supports>
@@ -28,7 +51,27 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-Adjust position (transmutation) - Bard, Cleric, Warlock, Wizard
+    <element name="Adjust Position" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_ADJUST_POSITION">
+        <supports>Bard, Cleric, Warlock, Wizard</supports>
+        <description>
+            <p>You adjust the location of an ally to a better tactical position. You move one willing creature within range 5 feet. This movement does not provoke opportunity attacks. The creature moves bodily through the intervening space (as opposed to teleporting), so there can be no physical obstacle (such as a wall or a door) in the path.</p>
+            <p class="indent"><b>At Higher Levels.</b> When you cast this spell using a spell slot of 2nd level or higher, you can target an additional willing creature for each slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">1</set>
+            <set name="school">Transmutation</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 Agonizing mark (evocation) - Bard, Cleric, Druid, Ranger, Sorcerer, Wizard
 Alter arrow’s fortune (divination) - Bard, Cleric, Druid, Ranger, Sorcerer, Wizard
 Amplify light (transmutation) [illumination] - Wizard
