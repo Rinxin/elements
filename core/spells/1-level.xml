@@ -7,7 +7,7 @@
       </update>
     </info>
 <!--
-    <element name="Astral Projection" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_">
+    <element name="Astral Projection" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_">
         <supports></supports>
         <description>
             <p></p>
@@ -51,7 +51,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Adjust Position" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_ADJUST_POSITION">
+    <element name="Adjust Position" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ADJUST_POSITION">
         <supports>Bard, Cleric, Warlock, Wizard</supports>
         <description>
             <p>You adjust the location of an ally to a better tactical position. You move one willing creature within range 5 feet. This movement does not provoke opportunity attacks. The creature moves bodily through the intervening space (as opposed to teleporting), so there can be no physical obstacle (such as a wall or a door) in the path.</p>
@@ -435,7 +435,7 @@ Candle's insight (divination) - Bard, Warlock, Wizard
         </setters>
     </element>
 Chronal Lance (transmutation) [Dunamancy] [clockwork] - , Sorcerer, Wizard
-    <element name="Chronal Lance" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_CHRONAL_LANCE">
+    <element name="Chronal Lance" type="Spell" source="Deep Magic: CollectionTime Magic" id="ID_KBP_DMTM_SPELL_CHRONAL_LANCE">
 		<supports>Sorcerer,Wizard, Dunamancy</supports>
 		<description>
 			<p>You send glowing lances of dunamantic energy streaking toward three separate targets. Each target must make a successful Wisdom saving throw or its speed is halved and it has disadvantage on Dexterity ability checks (but not saving throws). An affected creature repeats the saving throw at the end of its turn, ending the effect on itself on a success.</p>

@@ -7,7 +7,7 @@
       </update>
     </info>
 <!--
-    <element name="Astral Projection" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_">
+    <element name="Astral Projection" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_">
         <supports></supports>
         <description>
             <p></p>
@@ -30,7 +30,7 @@
     </element>
 -->
 <!--A-->
-    <element name="Afflict Line" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_AFFLICT_LINE">
+    <element name="Afflict Line" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_AFFLICT_LINE">
         <supports>Cleric, Wizard, </supports>
         <description>
             <p>You invoke the darkest curses upon your victim and his or her descendants. This spell does not require that you have a clear path to your target, only that your target is within range. The target must make a successful Wisdom saving throw or be cursed until the magic is dispelled. While cursed, the victim has disadvantage on ability checks and saving throws made with the ability score that you used when you cast the spell. In addition, the target’s firstborn offspring is also targeted by the curse. That individual is allowed a saving throw of its own if it is currently alive, or it makes one upon its birth if it is not yet born when the spell is cast. If the target’s firstborn has already died, the curse passes to the target’s next oldest offspring.</p>
@@ -99,7 +99,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-    <element name="Black Hole" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_BLACK_HOLE">
+    <element name="Black Hole" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BLACK_HOLE">
         <supports>Sorcerer, Wizard, Apocalypse</supports>
         <description>
             <p>You create a tiny black hole at a point you can see within range. The black hole is a sphere with a 15-foot radius. All fires and flames within 40 feet of the black hole—magical or otherwise—are instantly extinguished. Each creature within 40 feet of the black hole when it appears must make a Strength saving throw. On a failed save, the creature takes 20d6 force damage and is pulled to within 5 feet of the black hole. On a successful save, the creature takes half as much damage and is knocked prone but isn’t pulled toward the black hole.</p>
@@ -142,7 +142,7 @@
 		</setters>
 	</element>
 <!--C-->
-    <element name="Circle of Devastation" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_CIRCLE_OF_DEVASTATION">
+    <element name="Circle of Devastation" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_CIRCLE_OF_DEVASTATION">
         <supports>Sorcerer, Warlock, Wizard, Ring</supports>
         <description>
             <p>You create a 10-foot-tall, 20-foot-radius cylinder of destructive energy around a point you can see within range. The area is difficult terrain. When you cast the spell and as a bonus action on each of your turns, you can choose one of the following damage types: cold, fire, lightning, necrotic, or radiant. Each creature or object that is inside the cylinder when it’s created or ends its turn inside the cylinder takes 6d6 damage of the chosen type, or half the damage with a successful Constitution saving throw. A creature or object dropped to 0 hit points by the spell is reduced to fine ash.</p>
@@ -186,7 +186,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Forest Sanctuary" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_FOREST_SANCTUARY">
+    <element name="Forest Sanctuary" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_FOREST_SANCTUARY">
         <supports>Druid</supports>
         <description>
             <p>While in a forest, you create a protective, 200-foot cube centered on a point you can see within range. The atmosphere inside the cube has the lighting, temperature, and moisture that is most ideal for the forest, regardless of the lighting or weather outside the area. The cube is transparent, and creatures and objects can move freely through it. The cube protects the area inside it from storms, strong winds, and floods, including those created by magic such as control weather, control water, or meteor swarm. Such spells can’t be cast while the spellcaster is in the cube.</p>
@@ -207,7 +207,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Form of the Gods" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_FORM_OF_THE_GODS">
+    <element name="Form of the Gods" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_FORM_OF_THE_GODS">
         <supports>Cleric</supports>
         <description>
             <p>By drawing on the energy of the gods, you can temporarily assume the form of your patron’s avatar. Form of the gods transforms you into an entirely new shape and brings about the following changes (summarized below and in the avatar form stat block).</p>
@@ -255,7 +255,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Greater Maze" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_GREATER_MAZE">
+    <element name="Greater Maze" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_GREATER_MAZE">
         <supports>Sorcerer, Wizard, Labyrith</supports>
         <description>
             <p>You banish a creature that you can see within range into a labyrinthine demiplane. The target remains there for the duration or until it escapes the maze. The target can use its action to attempt to escape. When it does so, it makes a DC 20 Intelligence check. If it succeeds, it escapes, and the spell ends (a minotaur or goristro demon automatically succeeds). When the spell ends, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space.</p>
@@ -277,7 +277,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Greater Seal of Sanctuary" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_GREATER_SEAL_OF_SANCTUARY">
+    <element name="Greater Seal of Sanctuary" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_GREATER_SEAL_OF_SANCTUARY">
         <supports>Cleric, Wizard, Angelic</supports>
         <description>
             <p>You inscribe an angelic seal on the ground, the floor, or other solid surface of a structure. The seal creates a spherical sanctuary with a radius of 100 feet, centered on the seal. For the duration, aberrations, elementals, fey, fiends, and undead that approach to within 5 feet of the boundary know they are about to come into contact with a deadly barrier. If such a creature moves so as to touch the boundary, or tries to cross the boundary by any means, including teleportation and extradimensional travel, it must make a Charisma saving throw. On a failed save, it takes 15d8 radiant damage, is repelled to 5 feet outside the boundary, and can’t target anything inside the boundary with attacks, spells, or abilities until the spell ends. On a successful save, the creature takes half as much radiant damage and can cross the boundary. If the creature is a fiend that isn’t on its home plane, it is immediately destroyed (no saving throw) instead of taking damage.</p>
@@ -346,7 +346,7 @@
 <!--K-->
 <!--L-->
 <!--M-->
-    <element name="Mammon’s Due" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_MAMMONS_DUE">
+    <element name="Mammon’s Due" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_MAMMONS_DUE">
         <supports>Cleric, Warlock, Wizard</supports>
         <description>
             <p>You summon a cylindrical sinkhole filled with burning ash and grasping arms made of molten metal at a point on the ground you can see within range. The sinkhole is 20 feet deep and 50 feet in diameter, and is difficult terrain. A creature that’s in the area when the spell is cast, or that begins its turn in the area or enters it during its turn, takes 10d6 fire damage and must make a Strength or Dexterity (creature’s choice) saving throw. On a failed save, the creature is restrained by the molten arms, which try to drag it below the surface of the ash.</p>
@@ -528,7 +528,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Pyroclasm" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_PYROCLASM">
+    <element name="Pyroclasm" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_PYROCLASM">
         <supports>Sorcerer, Warlock, Wizard</supports>
         <description>
             <p>You point toward an area of ground or a similar surface within range. A geyser of lava erupts from the chosen spot. The geyser is 5 feet in diameter and 40 feet high. Each creature in the cylinder when it erupts or at the start of your turn takes 10d8 fire damage, or half as much damage if it makes a successful Dexterity saving throw.</p>
@@ -596,7 +596,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Star's Heart" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_STARS_HEART">
+    <element name="Star's Heart" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_STARS_HEART">
         <supports>Sorcerer, Wizard, Illumination</supports>
         <description>
             <p>This spell increases gravity tenfold in a 50-foot radius centered on you. Each creature in the area other than you drops whatever it’s holding, falls prone, becomes incapacitated, and can’t move. If a solid object (such as the ground) is encountered when a flying or levitating creature falls, the creature takes three times the normal falling damage. Any creature except you that enters the area or starts its turn there must make a successful Strength saving throw or fall prone and become incapacitated and unable to move. A creature that starts its turn prone and incapacitated makes a Strength saving throw. On a failed save, the creature takes 8d6 bludgeoning damage; on a successful save, it takes 4d6 bludgeoning damage, it’s no longer incapacitated, and it can move at half speed.</p>
@@ -642,7 +642,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Summon Avatar" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_SUMMON_AVATAR">
+    <element name="Summon Avatar" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_SUMMON_AVATAR">
         <supports>Wizard, Mythos</supports>
         <description>
             <p>You summon a worldly incarnation of a Great Old One, which appears in an unoccupied space you can see within range. This avatar manifests as an emanation of elder darkness, augmented by boons from the Void. Choose one of the following options for the type of avatar that appears. (Other options might be available if the GM allows.) An asterisk indicates a spell described in this section.</p>
@@ -673,7 +673,7 @@
         </setters>
     </element>
 <!--T-->
-    <element name="Time in a Bottle" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_TIME_IN_A_BOTTLE">
+    <element name="Time in a Bottle" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_TIME_IN_A_BOTTLE">
         <supports>Bard, Cleric, Sorcerer, Wizard, Clockwork, Dunamancy</supports>
         <description>
             <p>You designate a spot within your sight. Time comes under your control in a 20-foot radius centered on that spot. You can freeze it, reverse it, or move it forward by as much as 1 minute as long as you maintain concentration. Nothing and no one, yourself included, can enter the field or affect what happens inside it. You can choose to end the effect at any moment as an action on your turn.</p>
@@ -784,7 +784,7 @@
         </setters>
     </element>
 <!--U-->
-    <element name="Umbral Storm" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_UMBRAL_STORM">
+    <element name="Umbral Storm" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_UMBRAL_STORM">
         <supports>Sorcerer, Warlock, Wizard, Shadow</supports>
         <description>
             <p>You create a channel to a region of the Plane of Shadow that is inimical to life and order. A storm of dark, raging entropy fills a 20-foot-radius sphere centered on a point you can see within range. Any creature that starts its turn in the storm or enters it for the first time on its turn takes 6d8 necrotic damage and gains one level of exhaustion; a successful Constitution saving throw halves the damage and prevents the exhaustion.</p>
@@ -805,7 +805,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Unleash Effigy" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_UNLEASH_EFFIGY">
+    <element name="Unleash Effigy" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_UNLEASH_EFFIGY">
         <supports>Wizard</supports>
         <description>
             <p>You cause a stone statue that you can see within 60 feet of you to animate as your ally. The statue has the statistics of a stone golem. It takes a turn immediately after your turn. As a bonus action on your turn, you can order the golem to move and attack, provided you’re within 60 feet of it. Without orders from you, the statue does nothing.</p>
@@ -827,7 +827,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Unshackled Magic" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_UNSHACKLED_MAGIC">
+    <element name="Unshackled Magic" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_UNSHACKLED_MAGIC">
         <supports>Sorcerer, Wizard, Chaos</supports>
         <description>
             <p>You designate a creature within range that has the Spellcasting or Innate Spellcasting special trait and imbue it with wild magic, causing it to lose control of its magical ability. If the target gets a failure on a Charisma saving throw, then on its next turn, it rolls randomly to select one of its available spells. The target then spontaneously casts that spell as an action. If the spell can be cast using a spell slot higher than its level, roll randomly to determine what slot is used to cast the spell. The target still determines factors such as the location of the spell’s area or which creatures it affects, as normal, but it is compelled to cast that particular spell at that particular time.</p>
@@ -849,7 +849,7 @@
         </setters>
     </element>
 <!--V-->
-    <element name="Void Rift" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_VOID_RIFT">
+    <element name="Void Rift" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_VOID_RIFT">
         <supports>Wizard, Void</supports>
         <description>
             <p>You speak a hideous string of Void Speech that leaves your mouth bloodied, causing a rift into nothingness to tear open. The rift takes the form of a 10-foot-radius sphere, and it forms around a point you can see within range. The area within 40 feet of the sphere’s outer edge becomes difficult terrain as the Void tries to draw everything into itself. A creature that starts its turn within 40 feet of the sphere or that enters that area for the first time on its turn must succeed on a Strength saving throw or be pulled 15 feet toward the rift. A creature that starts its turn in the rift or that comes into contact with it for the first time on its turn takes 8d10 necrotic damage. Creatures inside the rift are blinded and deafened. Unattended objects within 40 feet of the rift are drawn 15 feet toward it at the start of your turn, and they take damage as creatures if they come into contact with it.</p>

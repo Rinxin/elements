@@ -7,7 +7,7 @@
       </update>
     </info>
 <!--
-    <element name="Astral Projection" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_">
+    <element name="Astral Projection" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_">
         <supports></supports>
         <description>
             <p></p>
@@ -56,7 +56,7 @@ Acid gate - Wizard
 
 Alter time flow (transmutation) [Dunamancy] - Bard, Cleric
 Amplify gravity (transmutation) - Sorcerer, Warlock, Wizard
-    <element name="Anomalous Object" type="Spell" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_SPELL_ANOMALOUS_OBJECT">
+    <element name="Anomalous Object" type="Spell" source="Deep Magic: CollectionTime Magic" id="ID_KBP_DMTM_SPELL_ANOMALOUS_OBJECT">
 		<supports>Wizard, Dunamancy</supports>
 		<description>
 			<p>By touching an object, you retrieve another version of the object from elsewhere in time. If the object is attended, you must succeed on a melee spell attack roll against the creature holding or controlling the object. Any effect that affects the original object also affects the duplicate (charges spent, damage taken, etc.) and any effect that affects the duplicate also affects the original object. If either object is destroyed, both are destroyed. This spell does not affect sentient items or unique artifacts.</p>

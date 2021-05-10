@@ -7,7 +7,7 @@
       </update>
     </info>
 <!--
-<element name="Abhorrence" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_">
+<element name="Abhorrence" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_">
         <supports></supports>
         <description>
             <p></p>
@@ -31,7 +31,7 @@
 -->
 
 <!--A-->
-    <element name="Abhorrence" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_ABHORRENCE">
+    <element name="Abhorrence" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ABHORRENCE">
         <supports>Bard, Cleric, Druid, Sorcerer, Wizard</supports>
         <description>
             <p>You temporarily make a creature within range less appealing to others. The target makes a Wisdom saving throw against your spell. On a successful save, the spell is ineffective. On a failed save, the next time the creature makes a Charisma check before the spell ends, roll a d6 and subtract the result from the roll. The spell then ends.</p>
@@ -72,7 +72,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Acumen" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_ACUMEN">
+    <element name="Acumen" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ACUMEN">
         <supports>Bard, Cleric, Druid, Sorcerer, Wizard</supports>
         <description>
             <p>You touch a willing creature. Once before the spell ends, the target can roll a d6 and add the result to one Wisdom check of its choice. It can roll the die before or after making the check. The spell then ends.</p>
@@ -92,7 +92,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Ale-dritch Blast" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_ALE_DRITCH_BLAST">
+    <element name="Ale-dritch Blast" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ALE_DRITCH_BLAST">
         <supports>Bard, Druid, Wizard</supports>
         <description>
             <p>A stream of ice-cold ale blasts from your outstretched hands toward a creature or object within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage and it must make a successful Constitution saving throw or be poisoned until the end of its next turn. A targeted creature has disadvantage on the saving throw if it has drunk any alcohol within the last hour.</p>
@@ -113,7 +113,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Allure" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_ALLURE">
+    <element name="Allure" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ALLURE">
         <supports>Bard, Cleric, Druid, Sorcerer, Wizard</supports>
         <description>
             <p>You touch a willing creature. Once before the spell ends, the target can roll a d6 and add the result to one Charisma check of its choice. It can roll the die before or after making the check. The spell then ends.</p>
@@ -133,7 +133,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Animated Scroll" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_ANIMATED_SCROLL">
+    <element name="Animated Scroll" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ANIMATED_SCROLL">
         <supports>Druid, Sorcerer, Wizard</supports>
         <description>
             <p>The paper or parchment must be folded into the shape of an animal before casting the spell. It then becomes an animated paper animal of the kind the folded paper most closely resembles. The creature uses the stat block of any beast that has a challenge rating of 0. It is made of paper, not flesh and bone, but it can do anything the real creature can do: a paper owl can fly and attack with its talons, a paper frog can swim without disintegrating in water, and so forth. It follows your commands to the best of its ability, including carrying messages to a recipient whose location you know.</p>
@@ -155,7 +155,7 @@
         </setters>
     </element>
 <!--B-->
-    <element name="Benediction" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_BENEDICTION">
+    <element name="Benediction" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BENEDICTION">
         <supports>Cleric, Wizard, Angelic</supports>
         <description>
             <p>You call down a blessing in the name of an angel of protection. A creature you can see within range shimmers with a faint white light. The next time the creature takes damage, it rolls a d4 and reduces the damage by the result. The spell then ends.</p>
@@ -175,7 +175,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Bewilderment" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_BEWILDERMENT">
+    <element name="Bewilderment" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BEWILDERMENT">
         <supports>Bard, Cleric, Druid, Sorcerer, Wizard</supports>
         <description>
             <p>You temporarily inhibit the cognitive ability of a creature within range. If the target makes a successful Wisdom saving throw, the spell is ineffective. On a failed save, the next time the creature makes an Intelligence check before the spell ends, roll a d6 and subtract the result from the roll. The spell then ends.</p>
@@ -195,7 +195,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Biting Arrow" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_BITING_ARROW">
+    <element name="Biting Arrow" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BITING_ARROW">
         <supports>Druid, Sorcerer, Wizard, Winter</supports>
         <description>
             <p>As part of the action used to cast this spell, you make a ranged weapon attack with a bow, a crossbow, or a thrown weapon. The effect is limited to a range of 120 feet despite the weapon’s range, and the attack is made with disadvantage if the target is in the weapon’s long range.</p>
@@ -237,7 +237,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Black Goat’s Blessing" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_BLACK_GOATS_BLESSING">
+    <element name="Black Goat’s Blessing" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BLACK_GOATS_BLESSING">
         <supports>Wizard, Mythos</supports>
         <description>
             <p>You raise your hand with fingers splayed and utter an incantation of the Black Goat with a Thousand Young. Your magic is blessed with the eldritch virility of the All‑Mother. The target has disadvantage on saving throws against spells you cast until the end of your next turn.</p>
@@ -257,7 +257,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Blood Tide" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_BLOOD_TIDE">
+    <element name="Blood Tide" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BLOOD_TIDE">
         <supports>Sorcerer, Wizard, Blood</supports>
         <description>
             <p>When you cast this spell, a creature you designate within range must succeed on a Constitution saving throw or bleed from its nose, eyes, ears, and mouth. This bleeding deals no damage but imposes a –2 penalty on the creature’s Intelligence, Charisma, and Wisdom checks. Blood tide has no effect on undead or constructs.</p>
@@ -301,7 +301,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-    <element name="Bless the Dead" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_BLESS_THE_DEAD">
+    <element name="Bless the Dead" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BLESS_THE_DEAD">
         <supports>Cleric, Druid, Warlock</supports>
         <description>
             <p>You grant a blessing to one deceased creature, enabling it to cross over to the realm of the dead in peace. A creature that benefits from bless the dead can’t become undead. The spell has no effect on living creatures or the undead.</p>
@@ -321,7 +321,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Brawn Boost" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_BRAWN_BOOST">
+    <element name="Brawn Boost" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BRAWN_BOOST">
         <supports>Bard, Cleric, Druid, Sorcerer, Wizard</supports>
         <description>
             <p>You touch a willing creature. Once before the spell ends, the target can roll a d6 and add the result to one Strength check of its choice. It can roll the die before or after making the check. The spell then ends.</p>
@@ -361,7 +361,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-    <element name="Brimstone Infusion" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_BRIMSTONE_INFUSION">
+    <element name="Brimstone Infusion" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BRIMSTONE_INFUSION">
         <supports>Wizard, Alkemancy</supports>
         <description>
             <p>You infuse an ordinary flask of alchemist’s fire with magical brimstone. While so enchanted, the alchemist’s fire can be thrown 40 feet instead of 20, and it does 2d6 fire damage instead of 1d4. The Dexterity saving throw to extinguish the flames uses your spell save DC instead of DC 10. Infused alchemist’s fire returns to its normal properties after 24 hours.</p>
@@ -382,7 +382,7 @@
         </setters>
     </element>
 <!--C-->
-    <element name="Caustic Touch" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_CAUSTIC_TOUCH">
+    <element name="Caustic Touch" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_CAUSTIC_TOUCH">
         <supports>Cleric, Druid, Sorcerer, Wizard</supports>
         <description>
             <p>Your hand sweats profusely and becomes coated in a film of caustic slime. Make a melee spell attack against a creature you touch. On a hit, the target takes 1d8 acid damage. If the target was concentrating on a spell, it has disadvantage on its Constitution saving throw to maintain concentration.</p>
@@ -423,7 +423,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Claws of Darkness" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_CLAWS_OF_DARKNESS">
+    <element name="Claws of Darkness" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_CLAWS_OF_DARKNESS">
         <supports>Sorcerer, Warlock, Wizard, Shadow</supports>
         <description>
             <p>You shape shadows into claws that grow from your fingers and drip inky blackness. The claws have a reach of 10 feet. While the spell lasts, you can make a melee spell attack with them that deals 1d10 cold damage.</p>
@@ -443,7 +443,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Clockwork Bolt" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_CLOCKWORK_BOLT">
+    <element name="Clockwork Bolt" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_CLOCKWORK_BOLT">
         <supports>Bard, Cleric, Wizard, Clockwork</supports>
         <description>
             <p></p>
@@ -464,7 +464,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Clumsiness" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_CLUMSINESS">
+    <element name="Clumsiness" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_CLUMSINESS">
         <supports>Bard, Cleric, Druid, Sorcerer, Wizard</supports>
         <description>
             <p>Choose two living creatures (not constructs or undead) you can see within range. Each must make a Charisma saving throw. On a failed save, a creature is compelled to use its movement to move toward the other creature. Its route must be as direct as possible, but it avoids dangerous terrain and enemies. If the creatures are within 5 feet of each other at the end of either one’s turn, their bodies fuse together. Fused creatures still take their own turns, but they can’t move, can’t use reactions, and have disadvantage on attack rolls, Dexterity saving throws, and Constitution checks to maintain concentration.</p>
@@ -536,7 +536,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Crushing Curse" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_CRUSHING_CURSE">
+    <element name="Crushing Curse" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_CRUSHING_CURSE">
         <supports>Wizard, Void</supports>
         <description>
             <p>You speak a word of Void Speech. Choose a creature you can see within range. If the target can hear you, it must succeed on a Wisdom saving throw or take 1d6 psychic damage and be deafened for 1 minute, except that it can still hear Void Speech. A creature deafened in this way can repeat the saving throw at the end of each of its turns, ending the effect on a success.</p>
@@ -578,7 +578,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Dark Maw" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_DARK_MAW">
+    <element name="Dark Maw" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_DARK_MAW">
         <supports>Cleric, Sorcerer, Warlock, Wizard</supports>
         <description>
             <p>Thick, penumbral ichor drips from your shadow-stained mouth, filling your mouth with giant shadow fangs. Make a melee spell attack against the target. On a hit, the target takes 1d8 necrotic damage as your shadowy fangs sink into it. If you have a bite attack (such as from a racial trait or a spell like alter self), you can add your spellcasting ability modifier to the damage roll but not to your temporary hit points.</p>
@@ -600,7 +600,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Decay" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_DECAY">
+    <element name="Decay" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_DECAY">
         <supports>Cleric, Druid, Warlock, Wizard</supports>
         <description>
             <p>Make a melee spell attack against a creature you touch. On a hit, the target takes 1d10 necrotic damage. If the target is a Tiny or Small nonmagical object that isn’t being worn or carried by a creature, it automatically takes maximum damage from the spell.</p>
@@ -621,7 +621,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Douse Light" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_DOUSE_LIGHT">
+    <element name="Douse Light" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_DOUSE_LIGHT">
         <supports>Sorcerer, Warlock, Wizard, Shadow</supports>
         <description>
             <p>With a simple gesture, you can put out a single small source of light within range. This spell extinguishes a torch, a candle, a lantern, or a light or dancing lights cantrip.</p>
@@ -641,7 +641,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Dragon Roar" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_DRAGON_ROAR">
+    <element name="Dragon Roar" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_DRAGON_ROAR">
         <supports>Bard, Sorcerer, Wizard, Dragon</supports>
         <description>
             <p>Your voice is amplified to assault the mind of one creature. The target must make a Charisma saving throw. If it fails, the target takes 1d4 psychic damage and is frightened until the start of your next turn. A target can be affected by your dragon roar only once per 24 hours.</p>
@@ -731,7 +731,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Encrypt / Decrypt" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_ENCRYPT_DECRYPT">
+    <element name="Encrypt / Decrypt" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ENCRYPT_DECRYPT">
         <supports>Bard, Cleric, Sorcerer, Warlock, Wizard</supports>
         <description>
             <p>By touching a page of written information, you can encode its contents. All creatures that try to read the information when its contents are encoded see the markings on the page as nothing but gibberish. The effect ends when either encrypt / decrypt or dispel magic is cast on the encoded writing, which turns it back into its normal state.</p>
@@ -751,7 +751,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Enumerate" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_ENUMERATE">
+    <element name="Enumerate" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ENUMERATE">
         <supports>Bard, Sorcerer, Wizard</supports>
         <description>
             <p>You are able to divine the exact amount of a number of like objects in a 10-foot-cube centered on a point within range. You can be general (“How many coins in this chest?”) or specific (“How many silver coins in this chest?”) but can receive only one number as a response from the casting of this spell. If, for example, you want to know the number of coins of each denomination in a chest, you must cast the spell anew for each type of coin to be counted (copper, silver, gold, and so forth).</p>
@@ -771,7 +771,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Exceptional Wit" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_EXCEPTIONAL_WIT">
+    <element name="Exceptional Wit" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_EXCEPTIONAL_WIT">
         <supports>Bard, Cleric, Druid, Sorcerer, Wizard</supports>
         <description>
             <p>You touch a willing creature. Once before the spell ends, the target can roll a d6 and add the result to one Intelligence check of its choice. It can roll the die before or after making the check. The spell then ends.</p>
@@ -813,7 +813,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Fist of Iron" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_FIST_OF_IRON">
+    <element name="Fist of Iron" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_FIST_OF_IRON">
         <supports>Cleric, Sorcerer, Warlock, Wizard, Clockwork</supports>
         <description>
             <p>You transform your naked hand into iron. Your unarmed attacks deal 1d6 bludgeoning damage and are considered magical.</p>
@@ -834,7 +834,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Fortitude" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_FORTITUDE">
+    <element name="Fortitude" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_FORTITUDE">
         <supports>Bard, Cleric, Druid, Sorcerer, Wizard</supports>
         <description>
             <p>You touch a willing creature. Once before the spell ends, the target can roll a d6 and add the result to one Constitution check of its choice. It can roll the die before or after making the check. The spell then ends.</p>
@@ -854,7 +854,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Frailty" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_FRAILTY">
+    <element name="Frailty" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_FRAILTY">
         <supports>Bard, Cleric, Druid, Sorcerer, Wizard</supports>
         <description>
             <p>You temporarily inhibit the vital force of a creature within range. If the target makes a successful Constitution saving throw, the spell is ineffective. On a failed save, the next time the creature makes a Constitution check before the spell ends, roll a d6 and subtract the result from the roll. The spell then ends.</p>
@@ -983,7 +983,7 @@
         </setters>
     </element>
 <!--H-->
-    <element name="Hamstring" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_HAMSTRING">
+    <element name="Hamstring" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_HAMSTRING">
         <supports>Bard, Sorcerer, Warlock, Wizard</supports>
         <description>
             <p>You create an arrow of eldritch energy and send it at a target you can see within range. Make a ranged spell attack against the target. On a hit, the target takes 1d4 force damage, and it can’t take reactions until the end of its next turn.</p>
@@ -1004,7 +1004,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Hand of Doom" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_HAND_OF_DOOM">
+    <element name="Hand of Doom" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_HAND_OF_DOOM">
         <supports>Cleric, Warlock, Wizard, Apocalypse</supports>
         <description>
             <p>Your outstretched hand glows with sinister power that hastens the demise of a creature you touch. Make a melee spell attack against the creature. On a hit, the target takes 1d4 necrotic damage and must make a successful Constitution saving throw or become poisoned until the end of your next turn. If the target was already poisoned when you hit it with hand of doom, it takes 1d12 poison damage instead of 1d4 necrotic damage on a failed save.</p>
@@ -1025,7 +1025,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Hobble" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_HOBBLE">
+    <element name="Hobble" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_HOBBLE">
         <supports>Bard, Cleric, Druid, Sorcerer, Warlock, Wizard</supports>
         <description>
             <p>You create an ethereal trap in the space of a creature you can see within range. The target must succeed on a Dexterity saving throw or its speed is halved until the end of its next turn.</p>
@@ -1045,7 +1045,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Hoarfrost" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_HOARFROST">
+    <element name="Hoarfrost" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_HOARFROST">
         <supports>Sorcerer, Warlock, Wizard, Ring</supports>
         <description>
             <p>A melee weapon you are holding is imbued with cold. For the duration, a rime of frost covers the weapon and light vapor rises from it if the temperature is above freezing. The weapon becomes magical and deals an extra 1d4 cold damage on a successful hit. The spell ends after 1 minute, or earlier if you make a successful attack with the weapon or let go of it.</p>
@@ -1067,7 +1067,7 @@
         </setters>
     </element>
 <!--I-->
-    <element name="Impotence" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_IMPOTENCE">
+    <element name="Impotence" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_IMPOTENCE">
         <supports>Bard, Cleric, Druid, Sorcerer, Wizard</supports>
         <description>
             <p>You temporarily weaken a creature within range. If the target makes a successful Constitution saving throw, the spell is ineffective. On a failed save, the next time the creature makes a Strength check before the spell ends, roll a d6 and subtract the result from the roll. The spell then ends.</p>
@@ -1108,7 +1108,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Iron Hand" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_IRON_HAND">
+    <element name="Iron Hand" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_IRON_HAND">
         <supports>Bard, Cleric, Druid</supports>
         <description>
             <p>Iron hand is a common spell among metalsmiths and other crafters who work with heat. When you use this spell, one of your arms becomes immune to fire damage, allowing you to grasp red-hot metal, scoop up molten glass with your fingers, or reach deep into a roaring fire to pick up an object. In addition, if you take the Dodge action while you’re protected by iron hand, you have resistance to fire damage until the start of your next turn.</p>
@@ -1131,7 +1131,7 @@
 <!--J-->
 <!--K-->
 <!--L-->
-    <element name="Lesser Charm" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_LESSER_CHARM">
+    <element name="Lesser Charm" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_LESSER_CHARM">
         <supports>Bard, Druid, Sorcerer, Warlock, Wizard</supports>
         <description>
             <p>You attempt to charm a humanoid you can see within range. The targeted creature makes a Wisdom saving throw, with advantage if you or your companions are fighting it or threatening it. If the saving throw fails, the humanoid is charmed by you until the spell’s duration expires, until you or any of your companions do anything harmful to it, or until it performs a minor favor for you. The charmed creature regards you as a friendly acquaintance or distant kin. It is willing to reveal a secret, open a door, lift an object, share food or water, or perform another favor on a similar level. It won’t fight on your behalf, defend you in combat, put its life or property at risk, or threaten or harm someone else it considers a friend. When the spell ends, the creature knows it was charmed by you.</p>
@@ -1236,7 +1236,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Memento Mori" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_MEMENTO_MORI">
+    <element name="Memento Mori" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_MEMENTO_MORI">
         <supports>Cleric, Druid, Sorcerer, Warlock, Wizard</supports>
         <description>
             <p>You transform yourself into a horrifying vision of death, rotted and crawling with maggots, exuding the stench of the grave. Each creature that can see you must succeed on a Charisma saving throw or be stunned until the end of your next turn.</p>
@@ -1317,7 +1317,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Misstep" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_MISSTEP">
+    <element name="Misstep" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_MISSTEP">
         <supports>Sorcerer, Wizard, Labyrinth</supports>
         <description>
             <p>You gesture to a creature within range that you can see. If the target fails a Wisdom saving throw, it uses its reaction to move 5 feet in a direction you dictate. This movement does not provoke opportunity attacks. The spell automatically fails if you direct the target into a dangerous area such as a pit trap, a bonfire, or off the edge of a cliff, or if the target has already used its reaction.</p>
@@ -1364,7 +1364,7 @@
         </setters>
     </element>
 <!--N-->
-    <element name="Nimbleness" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_NIMBLENESS">
+    <element name="Nimbleness" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_NIMBLENESS">
         <supports>Bard, Cleric, Sorcerer, Wizard</supports>
         <description>
             <p>You touch a willing subject. Once before the spell ends, the target can roll a d6 and add the result to one Dexterity check of its choice. It can roll the die before or after making the check. The spell then ends.</p>
@@ -1385,7 +1385,7 @@
         </setters>
     </element>
 <!--O-->
-    <element name="Obtuse" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_OBTUSE">
+    <element name="Obtuse" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_OBTUSE">
         <supports>Bard, Cleric, Druid, Sorcerer, Wizard</supports>
         <description>
             <p>You temporarily cloud the mind of a creature within range, inhibiting its decision-making skills. If the target succeeds on a Wisdom saving throw, the spell is ineffective. On a failed save, the next time the creature makes a Wisdom check before the spell ends, roll a d6 and subtract the result from the roll. The spell then ends.</p>
@@ -1496,7 +1496,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Puff of Smoke" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_PUFF_OF_SMOKE">
+    <element name="Puff of Smoke" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_PUFF_OF_SMOKE">
         <supports>Sorcerer, Dragon</supports>
         <description>
             <p>By harnessing the elemental power of fire, you warp nearby air into obscuring smoke. One creature you can see within range must make a Dexterity saving throw. If it fails, the creature is blinded until the start of your next turn. Puff of smoke has no effect on creatures that have tremorsense or blindsight.</p>
@@ -1516,7 +1516,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Pummelstone" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_PUMMELSTONE">
+    <element name="Pummelstone" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_PUMMELSTONE">
         <supports>Sorcerer, Warlock, Wizard</supports>
         <description>
             <p>You cause a fist-sized chunk of stone to appear and hurl itself against the spell’s target. Make a ranged spell attack. On a hit, the target takes 1d6 bludgeoning damage and must roll a d4 when it makes an attack roll or ability check during its next turn, subtracting the result of the d4 from the attack or check roll.</p>
@@ -1640,7 +1640,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Scribe" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_SCRIBE">
+    <element name="Scribe" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_SCRIBE">
         <supports>Bard, Cleric, Wizard</supports>
         <description>
             <p>This spell enables you to create a copy of a one-page written work by placing a blank piece of paper or parchment near the work that you are copying. All the writing, illustrations, and other elements in the original are reproduced in the new document, in your handwriting or drawing style. The new medium must be large enough to accommodate the original source. Any magical properties of the original aren’t reproduced, so you can’t use scribe to make copies of spell scrolls or magic books.</p>
@@ -1660,7 +1660,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Semblance of Dread" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_SEMBLANCE_OF_DREAD">
+    <element name="Semblance of Dread" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_SEMBLANCE_OF_DREAD">
         <supports>Wizard, Mythos</supports>
         <description>
             <p>You adopt the visage of the faceless god Nyarlathotep. For the duration, any creature within 10 feet of you and able to see you can’t willingly move closer to you unless it makes a successful Wisdom saving throw at the start of its turn. Constructs and undead are immune to this effect.</p>
@@ -1681,7 +1681,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Shadow Bite" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_SHADOW_BITE">
+    <element name="Shadow Bite" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_SHADOW_BITE">
         <supports>Wizard, Shadow</supports>
         <description>
             <p>You create a momentary needle of cold, sharp pain in a creature within range. The target must make a successful Constitution saving throw or take 1d6 necrotic damage immediately and have its speed halved until the start of your next turn.</p>
@@ -1702,7 +1702,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Shadow Blindness" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_SHADOW_BLINDESS">
+    <element name="Shadow Blindness" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_SHADOW_BLINDESS">
         <supports>Wizard, Shadow</supports>
         <description>
             <p>You make a melee spell attack against a creature you touch that has darkvision as an innate ability; on a hit, the target’s darkvision is negated until the spell ends. This spell has no effect against darkvision that derives from a spell or a magic item. The target retains all of its other senses.</p>
@@ -1769,7 +1769,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Shiver" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_SHIVER">
+    <element name="Shiver" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_SHIVER">
         <supports>Cleric, Druid, Sorcerer, Wizard, Winter</supports>
         <description>
             <p>You fill a humanoid creature with such cold that its teeth begin to chatter and its body shakes uncontrollably. Roll 5d8; the total is the maximum hit points of a creature this spell can affect. The affected creature must succeed on a Constitution saving throw, or it cannot cast a spell or load a missile weapon until the end of your next turn. Once a creature has been affected by this spell, it is immune to further castings of this spell for 24 hours.</p>
@@ -1811,7 +1811,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Silhouette" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_SILHOUETTE">
+    <element name="Silhouette" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_SILHOUETTE">
         <supports>Wizard, Shadow</supports>
         <description>
             <p>You create a shadow play against a screen or wall. The surface can encompass up to 100 square feet. The number of creatures that can see the shadow play equals your Intelligence score. The shadowy figures make no sound but they can dance, run, move, kiss, fight, and so forth. Most of the figures are generic types—a rabbit, a dwarf—but a number of them equal to your Intelligence modifier can be recognizable as specific individuals.</p>
@@ -1851,7 +1851,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Starburst" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_STARBURST">
+    <element name="Starburst" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_STARBURST">
         <supports>Druid, Warlock, Wizard, Illumination</supports>
         <description>
             <p>You cause a mote of starlight to appear and explode in a 5-foot cube you can see within range. If a creature is in the cube, it must succeed on a Charisma saving throw or take 1d8 radiant damage.</p>
@@ -1894,7 +1894,7 @@
 		</setters>
 	</element>
 <!--T-->
-    <element name="Telekinetic Trip" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_TELEKINETIC_TRIP">
+    <element name="Telekinetic Trip" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_TELEKINETIC_TRIP">
         <supports>Bard, Sorcerer, Wizard</supports>
         <description>
             <p>You lash out with a burst of telekinesis, sweeping a creature within range off its feet. The target of this spell must succeed on a Dexterity saving throw or fall prone.</p>
@@ -1962,7 +1962,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Thunder Bolt" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_THUNDER_BOLT">
+    <element name="Thunder Bolt" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_THUNDER_BOLT">
         <supports>Sorcerer, Dragon</supports>
         <description>
             <p>You cast a knot of thunder at one enemy. Make a ranged spell attack against the target. If it hits, the target takes 1d8 thunder damage and can’t use reactions until the start of your next turn.</p>
@@ -2024,7 +2024,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Tree Heal" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_TREE_HEAL">
+    <element name="Tree Heal" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_TREE_HEAL">
         <supports>Druid</supports>
         <description>
             <p>You touch a plant, and it regains 1d4 hit points. Alternatively, you can cure it of one disease or remove pests from it. Once you cast this spell on a plant or plant creature, you can’t cast it on that target again for 24 hours. This spell can be used only on plants and plant creatures.</p>
@@ -2065,7 +2065,7 @@
         </setters>
     </element>
 <!--U-->
-    <element name="Uncanny Avoidance" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_UNCANNY_AVOIDANCE">
+    <element name="Uncanny Avoidance" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_UNCANNY_AVOIDANCE">
         <supports>Bard, Sorcerer, Warlock, Wizard</supports>
         <description>
             <p>You extend a hand and point a finger at a creature within range. Your magic grants the target enhanced awareness of attacks directed at it. The next attack roll against the creature before the spell ends is made with disadvantage.</p>
@@ -2107,7 +2107,7 @@
         </setters>
     </element>
 <!--W-->
-    <element name="Wind Lash" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_WIND_LASH">
+    <element name="Wind Lash" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_WIND_LASH">
         <supports>Sorcerer, Warlock, Wizard</supports>
         <description>
             <p>Your swift gesture creates a solid lash of howling wind. Make a melee spell attack against the target. On a hit, the target takes 1d8 slashing damage from the shearing wind and is pushed 5 feet away from you.</p>
@@ -2149,7 +2149,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-    <element name="Word of Misfortune" type="Spell" source="Deep Magic: Colletion" id="ID_KBP_DM_SPELL_WORD_OF_MISFORTUNE">
+    <element name="Word of Misfortune" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_WORD_OF_MISFORTUNE">
         <supports>Wizard, Void</supports>
         <description>
             <p>You hiss a word of Void Speech. Choose one creature you can see within range. The next time the target makes a saving throw during the spell’s duration, it must roll a d4 and subtract the result from the total of the saving throw. The spell then ends.</p>
