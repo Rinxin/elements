@@ -9,94 +9,95 @@
 		</update>
 	</info>
 	<files>
-        <file name="00-background-options.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/00-background-options.xml" />
-
+        	
+		<file name="00-background-options.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/00-background-options.xml" />
+	<!--A-->
 		<file name="acolyte.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/acolyte.xml" />
-        <file name="anthropologist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/anthropologist.xml" />
-        <file name="athlete.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/athlete.xml" />
-        <file name="azorius-functionary.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/azorius-functionary.xml" />
-        
-        <file name="black-fist-double-agent.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/black-fist-double-agent.xml" />
-        <file name="boros-legionnaire.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/boros-legionnaire.xml" />
-        
-        <file name="caravan-specialist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/caravan-specialist.xml" />
-        <file name="celebrity-adventurers-scion.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/celebrity-adventurers-scion.xml" />
-        <file name="charlatan.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/charlatan.xml" />
-        <file name="city-watch.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/city-watch.xml" />
-        <file name="clan-crafter.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/clan-crafter.xml" />
-        <file name="cloistered-scholar.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/cloistered-scholar.xml" />
-        <file name="courtier.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/courtier.xml" />
-        <file name="criminal.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/criminal.xml" />
-        <file name="cromanthor-refugee.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/cromanthor-refugee.xml" />
-
-        <file name="dimir-operative.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/dimir-operative.xml" />
-        <file name="dragon-casualty.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/dragon-casualty.xml" />
-        
-        <file name="earthspur-miner.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/earthspur-miner.xml" />
-        <file name="entertainer.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/entertainer.xml" />
-        
-        <file name="faceless.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/faceless.xml" />
-        <file name="faction-agent.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/faction-agent.xml" />
-        <file name="failed-merchant.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/failed-merchant.xml" />
-        <file name="far-traveler.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/far-traveler.xml" />
-        <file name="fisher.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/fisher.xml" />
-        <file name="folk-hero.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/folk-hero.xml" />
-        
-        <file name="gambler.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/gambler.xml" />
-        <file name="gate-urchin.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/gate-urchin.xml" />
-        <file name="grinner.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/grinner.xml" />
-        <file name="gruul-anarch.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/gruul-anarch.xml" />
-        <file name="guild-artisan.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/guild-artisan.xml" />
-        
-        <file name="harborfolk.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/harborfolk.xml" />
-        <file name="haunted-one.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/haunted-one.xml" />
-        <file name="hermit.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/hermit.xml" />
-        <file name="hillsfar-merchant.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/hillsfar-merchant.xml" />
-        <file name="hillsfar-smuggler.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/hillsfar-smuggler.xml" />
-        <file name="house-agent.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/house-agent.xml" />
-        
-        <file name="inheritor.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/inheritor.xml" />
-        <file name="iron-route-bandit.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/iron-route-bandit.xml" />
-        <file name="izzet-engineer.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/izzet-engineer.xml" />
-
-        <file name="knight-of-the-order.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/knight-of-the-order.xml" />
-
-        <file name="marine.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/marine.xml" />
-        <file name="mercenary-veteran.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/mercenary-veteran.xml" />
-        <file name="mulmaster-aristocrat.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/mulmaster-aristocrat.xml" />
-
-        <file name="noble.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/noble.xml" />
-        
-        <file name="orzhov-representative.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/orzhov-representative.xml" />
-        <file name="outlander.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/outlander.xml" />
-
-        <file name="phlan-insurgent.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/phlan-insurgent.xml" />
-        <file name="phalan-refugee.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/phlan-refugee.xml" />
-        <file name="plaintiff.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/plaintiff.xml" />
-
-        <file name="rakdos-cultist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/rakdos-cultist.xml" />
-        <file name="rival-intern.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/rival-intern.xml" />
-        
-        <file name="sage.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/sage.xml" />
-        <file name="sailer.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/sailer.xml" />
-        <file name="secret-identity.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/secret-identity.xml" />
-        <file name="shade-fanatic.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/shade-fanatic.xml" />
-        <file name="shipwright.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/shipwright.xml" />
-        <file name="simic-scientist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/simic-scientist.xml" />
-        <file name="smuggler.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/smuggler.xml" />
-        <file name="soldier.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/soldier.xml" />
-        <file name="strojanow-prisoner.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/strojanow-prisoner.xml" />
-        
-        <file name="ticklebelly-nomad.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/ticklebelly-nomad.xml" />
-        <file name="time-lost-traveler.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/time-lost-traveler.xml" />
-        <file name="trade-sheriff.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/trade-sheriff.xml" />
-
-        <file name="urban-bounty-hunter.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/urban-bounty-hunter.xml" />
-        <file name="urchin.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/urchin.xml" />
-        <file name="uthgardt-tribe-member.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/uthgardt-tribe-member.xml" />
-
-        <file name="volstrucker-agent.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/volstrucker-agent.xml" />
-
-        <file name="waterdhavian-noble.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/waterdhavian-noble.xml" />
+        	<file name="anthropologist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/anthropologist.xml" />
+        	<file name="athlete.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/athlete.xml" />
+        	<file name="azorius-functionary.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/azorius-functionary.xml" />
+        <!--B-->
+        	<file name="black-fist-double-agent.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/black-fist-double-agent.xml" />
+        	<file name="boros-legionnaire.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/boros-legionnaire.xml" />
+        <!--C-->
+        	<file name="caravan-specialist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/caravan-specialist.xml" />
+        	<file name="celebrity-adventurers-scion.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/celebrity-adventurers-scion.xml" />
+        	<file name="charlatan.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/charlatan.xml" />
+		<file name="city-watch.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/city-watch.xml" />
+		<file name="clan-crafter.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/clan-crafter.xml" />
+		<file name="cloistered-scholar.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/cloistered-scholar.xml" />
+		<file name="courtier.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/courtier.xml" />
+		<file name="criminal.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/criminal.xml" />
+		<file name="cromanthor-refugee.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/cromanthor-refugee.xml" />
+	<!--D-->
+		<file name="dimir-operative.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/dimir-operative.xml" />
+		<file name="dragon-casualty.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/dragon-casualty.xml" />
+	<!--E-->
+		<file name="earthspur-miner.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/earthspur-miner.xml" />
+		<file name="entertainer.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/entertainer.xml" />
+	<!--F-->
+		<file name="faceless.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/faceless.xml" />
+		<file name="faction-agent.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/faction-agent.xml" />
+		<file name="failed-merchant.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/failed-merchant.xml" />
+		<file name="far-traveler.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/far-traveler.xml" />
+		<file name="fisher.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/fisher.xml" />
+		<file name="folk-hero.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/folk-hero.xml" />
+	<!--G-->
+		<file name="gambler.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/gambler.xml" />
+		<file name="gate-urchin.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/gate-urchin.xml" />
+		<file name="grinner.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/grinner.xml" />
+		<file name="gruul-anarch.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/gruul-anarch.xml" />
+		<file name="guild-artisan.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/guild-artisan.xml" />
+	<!--H-->
+		<file name="harborfolk.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/harborfolk.xml" />
+		<file name="haunted-one.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/haunted-one.xml" />
+		<file name="hermit.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/hermit.xml" />
+		<file name="hillsfar-merchant.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/hillsfar-merchant.xml" />
+		<file name="hillsfar-smuggler.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/hillsfar-smuggler.xml" />
+		<file name="house-agent.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/house-agent.xml" />
+	<!--I-->
+		<file name="inheritor.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/inheritor.xml" />
+		<file name="iron-route-bandit.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/iron-route-bandit.xml" />
+		<file name="izzet-engineer.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/izzet-engineer.xml" />
+	<!--K-->
+		<file name="knight-of-the-order.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/knight-of-the-order.xml" />
+	<!--M-->
+		<file name="marine.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/marine.xml" />
+		<file name="mercenary-veteran.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/mercenary-veteran.xml" />
+		<file name="mulmaster-aristocrat.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/mulmaster-aristocrat.xml" />
+	<!--N-->
+		<file name="noble.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/noble.xml" />
+	<!--O-->
+		<file name="orzhov-representative.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/orzhov-representative.xml" />
+		<file name="outlander.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/outlander.xml" />
+	<!--P-->
+		<file name="phlan-insurgent.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/phlan-insurgent.xml" />
+		<file name="phalan-refugee.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/phlan-refugee.xml" />
+		<file name="plaintiff.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/plaintiff.xml" />
+	<!--R-->
+		<file name="rakdos-cultist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/rakdos-cultist.xml" />
+		<file name="rival-intern.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/rival-intern.xml" />
+	<!--S-->
+		<file name="sage.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/sage.xml" />
+		<file name="sailer.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/sailer.xml" />
+		<file name="secret-identity.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/secret-identity.xml" />
+		<file name="shade-fanatic.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/shade-fanatic.xml" />
+		<file name="shipwright.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/shipwright.xml" />
+		<file name="simic-scientist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/simic-scientist.xml" />
+		<file name="smuggler.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/smuggler.xml" />
+		<file name="soldier.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/soldier.xml" />
+		<file name="strojanow-prisoner.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/strojanow-prisoner.xml" />
+	<!--T-->
+		<file name="ticklebelly-nomad.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/ticklebelly-nomad.xml" />
+		<file name="time-lost-traveler.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/time-lost-traveler.xml" />
+		<file name="trade-sheriff.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/trade-sheriff.xml" />
+	<!--U-->
+		<file name="urban-bounty-hunter.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/urban-bounty-hunter.xml" />
+		<file name="urchin.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/urchin.xml" />
+		<file name="uthgardt-tribe-member.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/uthgardt-tribe-member.xml" />
+	<!--V-->
+		<file name="volstrucker-agent.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/volstrucker-agent.xml" />
+	<!--W-->
+		<file name="waterdhavian-noble.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/waterdhavian-noble.xml" />
     </files>
 </index>
