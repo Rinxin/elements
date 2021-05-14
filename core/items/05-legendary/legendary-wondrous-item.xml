@@ -10,8 +10,158 @@
 	</info>
 <!--Wondrous Item-->
 	<!--A-->
+		<element name="Apparatus of Kwalish" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_APPARATUS_OF_KWALISH">
+			<description>
+				<p>This item first appears to be a Large sealed iron barrel weighing 500 pounds. The barrel has a hidden catch, which can be found with a successful DC 20 Intelligence (Investigation) check. Releasing the catch unlocks a hatch at one end of the barrel, allowing two Medium or smaller creatures to crawl inside. Ten levers are set in a row at the far end, each in a neutral position, able to move either up or down. When certain levers are used, the apparatus transforms to resemble a giant lobster.</p>
+				<p class="indent">The apparatus of the crab is a Large object with the following statistics:</p>
+				<p class="indent"><strong>Armor Class</strong>: 20</p>
+				<p class="indent"><strong>Hit Points:</strong> 200</p>
+				<p class="indent"><strong>Speed:</strong> 30 ft., swim 30 ft. (or 0 ft. for both if the legs and tail aren't extended)</p>
+				<p class="indent"><strong>Damage Immunities:</strong> poison, psychic</p>
+				<p>To be used as a vehicle, the apparatus requires one pilot. While the apparatus's hatch is closed, the compartment is airtight and watertight.  The compartment holds enough air for 10 hours of breathing, divided by the number of breathing creatures inside.</p>
+				<p class="indent">The apparatus floats on water. It can also go underwater to a depth of 900 feet. Below that, the vehicle takes 2d6 bludgeoning damage per minute from pressure.</p>
+				<p class="indent">A creature in the compartment can use an action to move as many as two of the apparatus's levers up or down. After each use, a lever goes back to its neutral position. Each lever, from left to right, functions as shown in the Apparatus of the Crab Levers table.</p>
+				<table>
+					<thead>
+						<tr><td>Lever</td><td>Up</td><td>Down</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>1</td><td>Legs and tail extend, allowing the apparatus to walk or swim.</td><td>Legs and tail retract, reducing the apparatus's speed to 0 and making it unable to benefit from bonuses to speed.</td></tr>
+						<tr><td>2</td><td>Forward window shutter opens.</td><td>Forward window shutter closes.</td></tr>
+						<tr><td>3</td><td>Side window shutters open (2 per side).</td><td>Side window shutters close (2 per side).</td></tr>
+						<tr><td>4</td><td>Two claws extend from the front sides of the apparatus.</td><td>The claws retract.</td></tr>
+						<tr><td>5</td><td>Each extended claw makes the following melee weapon attacks: +8 to hit, reach 5ft., one target. Hit: 7 (2d6) bludgeoning damage.</td><td>Each extended claw makes the following melee weapon attacks: +8 to hit, reach 5ft., one target. Hit: The target is grappled (escape DC 15)</td></tr>
+						<tr><td>6</td><td>The apparatus walks or swims forward.</td><td>The apparatus walks or swims backward.</td></tr>
+						<tr><td>7</td><td>The apparatus turns 90 degrees left.</td><td>The apparatus turns 90 degrees right.</td></tr>
+						<tr><td>8</td><td>Eyelike fixtures emit bright light in a 30-foot radius and dim light for an additional 30 feet.</td><td>The light turns off.</td></tr>
+						<tr><td>9</td><td>The apparatus sinks as much as 20 feet in liquid.</td><td>The apparatus rises up to 20 feet in liquid.</td></tr>
+						<tr><td>10</td><td>The rear hatch unseals and opens.</td><td>The rear hatch unseals and closes.</td></tr>
+					</tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="500">500 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Legendary</set>
+			</setters>
+		</element>
 	<!--B-->
+		<element name="Belt of Cloud Giant Strength" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_BELT_OF_CLOUD_GIANT_STRENGTH">
+			<description>
+				<p>While wearing this belt, your Strength score changes to a score granted by the belt. The item has no effect on you if your Strength without the belt is equal to or greater than the belt’s score.</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">waist</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Legendary</set>
+			</setters>
+			<rules>
+				<stat name="strength:score:set" value="27" bonus="base" />
+			</rules>
+		</element>
+		<element name="Belt of Storm Giant Strength" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_BELT_OF_STORM_GIANT_STRENGTH">
+			<description>
+				<p>While wearing this belt, your Strength score changes to a score granted by the belt. The item has no effect on you if your Strength without the belt is equal to or greater than the belt’s score.</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">waist</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Legendary</set>
+			</setters>
+			<rules>
+				<stat name="strength:score:set" value="29" bonus="base" />
+			</rules>
+		</element>
 	<!--C-->
+		<element name="Cloak of Invisibility" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_CLOAK_OF_INVISIBILITY">
+			<description>
+				<p>While wearing this cloak, you can pull its hood over your head to cause yourself to become invisible. While you are invisible, anything you are carrying or wearing is invisible with you. You become visible when you cease wearing the hood. Pulling the hood up or down requires an action.</p>
+				<p class="indent">Deduct the time you are invisible, in increments of 1 minute, from the cloak's maximum duration of 2 hours. After 2 hours of use, the cloak ceases to function. For every uninterrupted period of 12 hours the cloak goes unused, it regains 1 hour of duration.</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">shoulders</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Legendary</set>
+			</setters>
+		</element>
+		<element name="Crystal Ball of Mind Reading" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_CRYSTAL_BALL_OF_MIND_READING">
+			<description>
+				<p>The typical <em>crystal ball</em> is about 6 inches in diameter. While touching it, you can cast the <em>scrying</em> spell (save DC 17) with it.</p>
+				<p>You can use an action to cast the <em>detect thoughts</em> spell (save DC 17) while you are scrying with the <em>crystal ball</em>, targeting creatures you can see within 30 feet of the spell's sensor. You don't need to concentrate on this <em>detect thoughts</em> to maintain it during its duration, but it ends if Scrying ends.</p>
+			</description>
+			<setters>
+				<set name="keywords">scry</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Legendary</set>
+			</setters>
+		</element>
+		<element name="Crystal Ball of Telepathy" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_CRYSTAL_BALL_OF_TELEPATHY">
+			<description>
+				<p>The typical <em>crystal ball</em> is about 6 inches in diameter. While touching it, you can cast the <em>scrying</em> spell (save DC 17) with it.</p>
+				<p>While scrying with the crystal ball, you can communicate telepathically with creatures you can see within 30 feet of the spell's sensor. You can also use an action to cast the <em>suggestion</em> spell (save DC 17) through the sensor on one of those creatures. You don't need to concentrate on this <em>suggestion</em> to maintain it during its duration, but it ends if <em>scrying</em> ends. Once used, the <em>suggestion</em> power of the <em>crystal ball</em> can't be used again until the next dawn.</p>
+			</description>
+			<setters>
+				<set name="keywords">scry</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Legendary</set>
+			</setters>
+		</element>
+		<element name="Crystal Ball of True Seeing" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_CRYSTAL_BALL_OF_TRUE_SEEING">
+			<description>
+				<p>The typical <em>crystal ball</em> is about 6 inches in diameter. While touching it, you can cast the <em>scrying</em> spell (save DC 17) with it.</p>
+				<p>While scrying with the crystal ball, you have truesight with a radius of 120 feet centered on the spell's sensor.</p>
+			</description>
+			<setters>
+				<set name="keywords">scry</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Legendary</set>
+			</setters>
+		</element>
+		<element name="Cubic Gate" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_CUBIC_GATE">
+			<description>
+				<p>This cube is 3 inches across and radiates palpable magical energy. The six sides of the cube are each keyed to a different plane of existence, one of which is the Material Plane. The other sides are linked to planes determined by the GM.</p>
+				<p class="indent">You can use an action to press one side of the cube to cast the Gate spell with it, opening a portal to the plane keyed to that side. Alternatively, if you use an action to press one side twice, you can cast the <em>plane shift</em> spell (save DC 17) with the cube and transport the targets to the plane keyed to that side.</p>
+				<p class="indent">The cube has 3 charges. Each use of the cube expends 1 charge. The cube regains 1d3 expended charges daily at dawn.</p>
+			</description>
+			<setters>
+				<set name="keywords">planar</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Legendary</set>
+				<set name="charges">3</set>
+			</setters>
+		</element>
 	<!--D-->
 		<element name="Danoth’s Visor (Dormant)" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_DANOTHS_VISOR_DORMANT">
 			<compendium display="false" />
@@ -75,6 +225,73 @@
 				<set name="rarity">Legendary</set>
 				<set name="slot">head</set>
 				<set name="attunement">true</set>
+			</setters>
+		</element>
+		<element name="Deck of Many Things" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DECK_OF_MANY_THINGS">
+			<description>
+				<p>Usually found in a box or pouch, this deck contains a number of cards made of ivory or vellum. Most (75 percent) of these decks have only thirteen cards, but the rest have twenty-two.</p>
+				<p class="indent">Before you draw a card, you must declare how many cards you intend to draw and then draw them randomly (you can use an altered deck of playing cards to simulate the deck). Any cards drawn in excess of this number have no effect. Otherwise, as soon as you draw a card from the deck, its magic takes effect. You must draw each card no more than 1 hour after the previous draw. If you fail to draw the chosen number, the remaining number of cards fly from the deck on their own and take effect all at once.</p>
+				<p class="indent">Once a card is drawn, it fades from existence. Unless the card is the Fool or the Jester, the card reappears in the deck, making it possible to draw the same card twice.</p>
+				<table>
+					<thead>
+						<tr><td>Playing Card</td><td>Card</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>Ace of diamonds</td><td>Vizier*</td></tr>
+						<tr><td>King of diamonds</td><td>Sun</td></tr>
+						<tr><td>Queen of diamonds</td><td>Moon</td></tr>
+						<tr><td>Jack of diamonds</td><td>Star</td></tr>
+						<tr><td>Two of diamonds</td><td>Comet*</td></tr>
+						<tr><td>Ace of hearts</td><td>The Fates*</td></tr>
+						<tr><td>King of hearts</td><td>Throne</td></tr>
+						<tr><td>Queen of hearts</td><td>Key</td></tr>
+						<tr><td>Jack of hearts</td><td>Knight</td></tr>
+						<tr><td>Two of hearts</td><td>Gem*</td></tr>
+						<tr><td>Ace of clubs</td><td>Talons*</td></tr>
+						<tr><td>King of clubs</td><td>The Void</td></tr>
+						<tr><td>Queen of clubs</td><td>Flames</td></tr>
+						<tr><td>Jack of clubs</td><td>Skull</td></tr>
+						<tr><td>Two of clubs</td><td>Idiot*</td></tr>
+						<tr><td>Ace of spades</td><td>Donjon*</td></tr>
+						<tr><td>King of spades</td><td>Ruin</td></tr>
+						<tr><td>Queen of spades</td><td>Euryale</td></tr>
+						<tr><td>Jack of spades</td><td>Rogue</td></tr>
+						<tr><td>Two of spades</td><td>Balance*</td></tr>
+						<tr><td>Joker (with TM)</td><td>Fool*</td></tr>
+						<tr><td>Joker (without TM)</td><td>Jester</td></tr>
+					</tbody>
+				</table>
+				<p class="indent"><strong><em>Balance.</em></strong> Your mind suffers a wrenching alteration, causing your alignment to change. Lawful becomes chaotic, good becomes evil, and vice versa. If you are true neutral or unaligned, this card has no effect on you.</p>
+				<p class="indent"><strong><em>Comet.</em></strong> If you single-handedly defeat the next hostile monster or group of monsters you encounter, you gain experience points enough to gain one level. Otherwise, this card has no effect.</p>
+				<p class="indent"><strong><em>Donjon.</em></strong> You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything you were wearing and carrying stays behind in the space you occupied when you disappeared.  You remain imprisoned until you are found and removed from the sphere.  You can't be located by any divination magic, but a <em>wish</em> spell can reveal the location of your prison. You draw no more cards.</p>
+				<p class="indent"><strong><em>Euryale.</em></strong> The card's medusa-like visage curses you. You take a -2 penalty on saving throws while cursed in this way. Only a god or the magic of The Fates card can end this curse.</p>
+				<p class="indent"><strong><em>The Fates.</em></strong> Reality's fabric unravels and spins anew, allowing you to avoid or erase one event as if it never happened. You can use the card's magic as soon as you draw the card or at any other time before you die.</p>
+				<p class="indent"><strong><em>Flames.</em></strong> A powerful devil becomes your enemy. The devil seeks your ruin and plagues your life, savoring your suffering before attempting to slay you. This enmity lasts until either you or the devil dies.</p>
+				<p class="indent"><strong><em>Fool.</em></strong> You lose 10,000 XP, discard this card, and draw from the deck again, counting both draws as one of your declared draws. If losing that much XP would cause you to lose a level, you instead lose an amount that leaves you with just enough XP to keep your level.</p>
+				<p class="indent"><strong><em>Gem.</em></strong> Twenty-five pieces of jewelry worth 2,000 gp each or fifty gems worth 1,000 gp each appear at your feet.</p>
+				<p class="indent"><strong><em>Idiot.</em></strong> Permanently reduce your Intelligence by 1d4 + 1 (to a minimum score of 1). You can draw one additional card beyond your declared draws.</p>
+				<p class="indent"><strong><em>Jester.</em></strong> You gain 10,000 XP, or you can draw two additional cards beyond your declared draws.</p>
+				<p class="indent"><strong><em>Key.</em></strong> A rare or rarer magic weapon with which you are proficient appears in your hands. The GM chooses the weapon.</p>
+				<p class="indent"><strong><em>Knight.</em></strong> You gain the service of a 4th-level fighter who appears in a space you choose within 30 feet of you. The fighter is of the same race as you and serves you loyally until death, believing the fates have drawn him or her to you. You control this character.</p>
+				<p class="indent"><strong><em>Moon.</em></strong> You are granted the ability to cast the <em>wish</em> spell 1d3 times.</p>
+				<p class="indent"><strong><em>Rogue.</em></strong> A nonplayer character of the GM's choice becomes hostile toward you. The identity of your new enemy isn't known until the NPC or someone else reveals it. Nothing less than a				<em>wish</em> spell or divine intervention can end the NPC's hostility toward you.</p>
+				<p class="indent"><strong><em>Ruin.</em></strong> All forms of wealth that you carry or own, other than magic items, are lost to you. Portable property vanishes. Businesses, buildings, and land you own are lost in a way that alters reality the least. Any documentation that proves you should own something lost to this card also disappears.</p>
+				<p class="indent"><strong><em>Skull.</em></strong> You summon an avatar of death -- a ghostly humanoid skeleton clad in a tattered black robe and carrying a spectral scythe. It appears in a space of the GM's choice within 10 feet of you and attacks you, warning all others that you must win the battle alone. The avatar fights until you die or it drops to 0 hit points, whereupon it disappears. If anyone tries to help you, the helper summons its own avatar of death. A creature slain by an avatar of death can't be restored to life.</p>
+				<h1>Avatar of Death</h1>
+				<p class="indent"><strong><em>Star.</em></strong> Increase one of your ability scores by 2. The score can exceed 20 but can't exceed 24.</p>
+				<p class="indent"><strong><em>Sun.</em></strong> You gain 50,000 XP, and a wondrous item (which the GM determines randomly) appears in your hands.</p>
+				<p class="indent"><strong><em>Talons.</em></strong> Every magic item you wear or carry disintegrates. Artifacts in your possession aren't destroyed but do vanish.</p>
+				<p class="indent"><strong><em>Throne.</em></strong> You gain proficiency in the Persuasion skill, and you double your proficiency bonus on checks made with that skill. In addition, you gain rightful ownership of a small keep somewhere in the world. However, the keep is currently in the hands of monsters, which you must clear out before you can claim the keep as yours.</p>
+				<p class="indent"><strong><em>Vizier.</em></strong> At any time you choose within one year of drawing this card, you can ask a question in meditation and mentally receive a truthful answer to that question. Besides information, the answer helps you solve a puzzling problem or other dilemma. In other words, the knowledge comes with wisdom on how to apply it.</p>
+				<p class="indent"><strong><em>The Void.</em></strong> This black card spells disaster. Your soul is drawn from your body and contained in an object in a place of the GM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is incapacitated. A <em>wish</em> spell can't restore your soul, but the spell reveals the location of the object that holds it. You draw no more cards.</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Legendary</set>
 			</setters>
 		</element>
 	<!--E-->
@@ -173,6 +390,32 @@
 				<set name="slot">neck</set>
 				<set name="attunement" addition="by a cleric or paladin of good alignment">true</set>
 				<set name="charges">10</set>
+			</setters>
+		</element>
+		<element name="Horn of Valhalla, Iron" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_HORN_OF_VALHALLA_IRON">
+			<description>
+				<p>You can use an action to blow this horn. In response, warrior spirits from the Valhalla appear within 60 feet of you. They use the statistics of a berserker. They return to Valhalla after 1 hour or when they drop to 0 hit points. Once you use the horn, it can't be used again until 7 days have passed.</p>
+				<p>Four types of <em>horn of Valhalla</em> are known to exist, each made of a different metal. The horn's type determines how many berserkers answer its summons, as well as the requirement for its use. The GM chooses the horn's type or determines it randomly.</p>
+				<table>
+					<thead>
+						<tr><td>d100</td><td>Horn Type</td><td>Berserkers Summoned</td><td>Requirement</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>01-40</td><td>Silver</td><td>2d4 + 2</td><td>None</td></tr>
+						<tr><td>41-75</td><td>Brass</td><td>3d4 + 3</td><td>Proficiency with all simple weapons</td></tr>
+						<tr><td>76-90</td><td>Bronze</td><td>4d4 + 4</td><td>Proficiency with all medium armor</td></tr>
+						<tr><td>91-00</td><td>Iron</td><td>5d4 + 5</td><td>Proficiency with all martial weapons</td></tr>
+					</tbody>
+				</table>
+				<p>If you blow the horn without meeting its requirement, the summoned berserkers attack you. If you meet the requirement, they are friendly to you and your companions and follow your commands.</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Legendary</set>
 			</setters>
 		</element>
 	<!--I-->
@@ -280,6 +523,137 @@
 				<set name="attunement">true</set>
 			</setters>
 		</element>
+		<element name="Instrument of the Bard, Ollamh Harp" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_INSTRUMENT_OF_THE_BARDS_OLLAMH_HARP">
+			<description>
+				<p>An instrument of the bards is an exquisite example of it kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. The following table lists the spells common to all instruments, as well as the spells specific to each one and its rarity. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.</p>
+				<p class="indent">You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.</p>
+				<p class="indent">You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.</p>
+				<table>
+					<thead>
+						<tr><td>Instrument</td><td>Rarity</td><td>Spells</td></tr>
+					</thead>
+					<tr><td>All</td><td>-</td><td>Fly, invisibility, levitate, protection from evil and good, plus the spells listed for the particular instrument</td></tr>
+					<tr><td>Anstruth harp</td><td>Very rare</td><td>Control weather, cure wounds (5th level), wall of thorns</td></tr>
+					<tr><td>Canaith mandolin</td><td>Rare</td><td>Cure wounds (3rd level) , dispel magic, protection from energy (lightning only)</td></tr>
+					<tr><td>Cli lyre</td><td>Rare</td><td>Stone shape, wall of fire, wind wall</td></tr>
+					<tr><td>Doss lute</td><td>Uncommon</td><td>Animal friendship, protection from energy (fire only) , protection from poison</td></tr>
+					<tr><td>Fochlucan</td><td>Uncommon</td><td>Entangle, faerie fire, shillelagh, bandore speak with animals</td></tr>
+					<tr><td>Mac-Fuirmidh cittern</td><td>Uncommon</td><td>Barkskin, cure wounds, fog cloud</td></tr>
+					<tr><td>Ollamh harp</td><td>Legendary</td><td>Confusion, control weather, fire storm</td></tr>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords">bard</set>
+				<set name="category">Musical Instruments</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="slot">onehand</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Legendary</set>
+			</setters>
+		</element>
+		<element name="Ioun Stone, Greater Absorption" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_IOUN_STONE_GREATER_ABSORPTION">
+			<description>
+				<p>While this marbled lavender and green ellipsoid orbits your head, you can use your reaction to cancel a spell of 8th level or lower cast by a creature you can see and targeting only you.</p>
+				<p class="indent">Once the stone has canceled 50 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can't cancel it.</p>
+
+				<p>An <em>Ioun stone</em> is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of <em>Ioun stone</em> exist, each type a distinct combination of shape and color.</p>
+				<p class="indent">When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>
+				<p class="indent">A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>
+			</description>
+			<setters>
+				<set name="keywords">ioun</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">misc</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Legendary</set>
+			</setters>
+		</element>
+		<element name="Ioun Stone, Mastery" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_IOUN_STONE_MASTERY">
+			<description>
+				<p>Your proficiency bonus increases by 1 while this pale green prism orbits your head.</p>
+
+				<p>An <em>Ioun stone</em> is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of <em>Ioun stone</em> exist, each type a distinct combination of shape and color.</p>
+				<p class="indent">When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>
+				<p class="indent">A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>
+			</description>
+			<setters>
+				<set name="keywords">proficiency</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Legendary</set>
+			</setters>
+			<rules>
+				<stat name="proficiency" value="1" />
+			</rules>
+		</element>
+		<element name="Ioun Stone, Regeneration" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_IOUN_STONE_REGENERATION">
+			<description>
+				<p>You regain 15 hit points at the end of each hour this pearly white spindle orbits your head, provided that you have at least 1 hit point.</p>
+
+				<p>An <em>Ioun stone</em> is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of <em>Ioun stone</em> exist, each type a distinct combination of shape and color.</p>
+				<p class="indent">When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>
+				<p class="indent">A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>
+			</description>
+			<setters>
+				<set name="keywords">healing</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Legendary</set>
+			</setters>
+		</element>
+		<element name="Iron Flask" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_IRON_FLASK">
+			<description>
+				<p>This iron bottle has a brass stopper. You can use an action to speak the flask's command word, targeting a creature that you can see within 60 feet of you. If the target is native to a plane of existence other than the one you're on, the target must succeed on a DC 17 Wisdom saving throw or be trapped in the flask. If the target has been trapped by the flask before, it has advantage on the saving throw. Once trapped, a creature remains in the flask until released. The flask can hold only one creature at a time. A creature trapped in the flask doesn't need to breathe, eat, or drink and doesn't age.</p>
+				<p class="indent">You can use an action to remove the flask's stopper and release the creature the flask contains. The creature is friendly to you and your companions for 1 hour and obeys your commands for that duration. If you give no commands or give it a command that is likely to result in its death, it defends itself but otherwise takes no actions. At the end of the duration, the creature acts in accordance with its normal disposition and alignment.</p>
+				<p class="indent">An <em>identify</em> spell reveals that a creature is inside the flask, but the only way to determine the type of creature is to open the flask. A newly discovered bottle might already contain a creature chosen by the GM or determined randomly.</p>
+				<table>
+					<thead>
+						<tr><td>d100</td><td>Content</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>01-50</td><td>Empty</td></tr>
+						<tr><td>51-54</td><td>Demon (type 1)</td></tr>
+						<tr><td>55-58</td><td>Demon (type 2)</td></tr>
+						<tr><td>59-62</td><td>Demon (type 3)</td></tr>
+						<tr><td>63-64</td><td>Demon (type 4)</td></tr>
+						<tr><td>65</td><td>Demon (type 5)</td></tr>
+						<tr><td>66</td><td>Demon (type 6)</td></tr>
+						<tr><td>67</td><td>Deva</td></tr>
+						<tr><td>68-69</td><td>Devil (greater)</td></tr>
+						<tr><td>70-73</td><td>Devil (lesser)</td></tr>
+						<tr><td>74-75</td><td>Djinni</td></tr>
+						<tr><td>76-77</td><td>Efreeti</td></tr>
+						<tr><td>78-83</td><td>Elemental (any)</td></tr>
+						<tr><td>84-86</td><td>Invisible stalker</td></tr>
+						<tr><td>87-90</td><td>Night hag</td></tr>
+						<tr><td>91</td><td>Planetar</td></tr>
+						<tr><td>92-95</td><td>Salamander</td></tr>
+						<tr><td>96</td><td>Solar</td></tr>
+						<tr><td>97-99</td><td>Succubus/incubus</td></tr>
+						<tr><td>00</td><td>Xorn</td></tr>
+					</tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Legendary</set>
+			</setters>
+		</element>
 	<!--J-->
 	<!--K-->
 	<!--L-->
@@ -314,7 +688,69 @@
 	<!--P-->
 	<!--Q-->
 	<!--R-->
+		<element name="Robe of the Archmagi" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ROBE_OF_THE_ARCHMAGI">
+			<description>
+				<p>This elegant garment is made from exquisite cloth of white, gray, or black and adorned with silvery runes. The robe's color corresponds to the alignment for which the item was created. A white robe was made for good, gray for neutral, and black for evil. You can't attune to a <em>robe of the archmagi</em> that doesn't correspond to your alignment.</p>
+				<p class="indent">You gain these benefits while wearing the robe:</p>
+				<ul>
+					<li>If you aren't wearing armor, your base Armor Class is 15 + your Dexterity modifier.</li>
+					<li>You have advantage on saving throws against spells and other magical effects.</li>
+					<li>Your spell save DC and spell attack bonus each increase by 2.</li>
+				</ul>
+			</description>
+			<setters>
+				<set name="keywords">cloak, sorcerer, warlock, wizard, armor, saving throw</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">shoulders</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement" addition="by a sorcerer, warlock, or wizard">true</set>
+				<set name="rarity">Legendary</set>
+			</setters>
+			<rules>
+				<stat name="ac:robe of the archmagi" value="15" />
+				<stat name="ac:robe of the archmagi" value="dexterity:modifier" />
+				<stat name="ac:calculation" value="ac:robe of the archmagi" bonus="calculation" equipped="[armor:none]" />
+
+				<stat name="spellcasting:attack" value="2" />
+				<stat name="spellcasting:dc" value="2" />
+			</rules>
+		</element>
 	<!--S-->
+		<element name="Scarab of Protection" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_SCARAB_OF_PROTECTION">
+			<description>
+				<p>If you hold this beetle-shaped medallion in your hand for 1 round, an inscription appears on its surface revealing its magical nature. It provides two benefits while it is on your person:</p>
+				<ul>
+					<li>You have advantage on saving throws against spells.</li>
+					<li>The scarab has 12 charges. If you fail a saving throw against a necromancy spell or a harmful effect originating from an undead creature, you can use your reaction to expend 1 charge and turn the failed save into a successful one. The scarab crumbles into powder and is destroyed when its last charge is expended.</li>
+				</ul>
+			</description>
+			<setters>
+				<set name="keywords">saving throw, necromancy</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Legendary</set>
+				<set name="charges">12</set>
+			</setters>
+		</element>
+		<element name="Sovereign Glue" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_SOVEREIGN_GLUE">
+			<description>
+				<p>This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside with <em>oil of slipperiness.</em> When found, a container contains 1d6 + 1 ounces.</p>
+				<p class="indent">One ounce of the glue can cover a 1-foot square surface. The glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application of <em>universal solvent</em> or <em>oil of etherealness</em>, or with a <em>wish</em> spell.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Legendary</set>
+				<set name="stackable">true</set>
+			</setters>
+		</element>
 		<element name="Spell Bottle" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_SPELL_BOTTLE">
 			<description>
 				<p>This glass bottle can store one spell of up to 5th level at a time. When found, roll a d6 and subtract 1; the total determines the level of spell in the bottle (the DM chooses the spell, and 0 means the bottle is empty). A swirling blue vapor fills the bottle while it contains a spell.</p>
@@ -324,6 +760,32 @@
 			</description>
 			<setters>
 				<set name="category">Wondrous Items</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Legendary</set>
+			</setters>
+		</element>
+		<element name="Sphere of Annihilation" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_SPHERE_OF_ANNIHILATION">
+			<description>
+				<p>This 2-foot-diameter black sphere is a hole in the multiverse, hovering in space and stabilized by a magical field surrounding it.</p>
+				<p class="indent">The sphere obliterates all matter it passes through and all matter that passes through it. Artifacts are the exception. Unless an artifact is susceptible to damage from a <em>sphere of annihilation</em>, it passes through the sphere unscathed. Anything else that touches the sphere but isn't wholly engulfed and obliterated by it takes 4d10 force damage.</p>
+				<p class="indent">The sphere is stationary until someone controls it. If you are within 60 feet of an uncontrolled sphere, you can use an action to make a DC 25 Intelligence (Arcana) check. On a success, the sphere levitates in one direction of your choice, up to a number of feet equal to 5 x your Intelligence modifier (minimum 5 feet). On a failure, the sphere moves 10 feet toward you. A creature whose space the sphere enters must succeed on a DC 13 Dexterity saving throw or be touched by it, taking 4d10 force damage.</p>
+				<p class="indent">If you attempt to control a sphere that is under another creature's control, you make an Intelligence (Arcana) check contested by the other creature's Intelligence (Arcana) check. The winner of the contest gains control of the sphere and can levitate it as normal.</p>
+				<p class="indent">If the sphere comes into contact with a planar portal, such as that created by the <em>gate</em> spell, or an extradimensional space, such as that within a <em>portable hole</em>, the GM determines randomly what happens, using the following table.</p>
+				<table>
+					<thead>
+						<tr><td>d100</td><td>Result</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>01-50</td><td>The sphere is destroyed.</td></tr>
+						<tr><td>51-85</td><td>The sphere moves through the portal or into the extradimensional space.</td></tr>
+						<tr><td>86-00</td><td>A spatial rift sends each creature and object within 180 feet of the sphere, including the sphere, to a random plane of existence.</td></tr>
+					</tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
 				<set name="type">Wondrous Item</set>
 				<set name="rarity">Legendary</set>
 			</setters>
@@ -430,7 +892,164 @@
 			</rules>
 		</element>
 	<!--T-->
+		<element name="Talisman of Pure Good" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_TALISMAN_OF_PURE_GOOD">
+			<description>
+				<p>This talisman is a mighty symbol of goodness. A creature that is neither good nor evil in alignment takes 6d6 radiant damage upon touching the talisman. An evil creature takes 8d6 radiant damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.</p>
+				<p class="indent">If you are a good cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.</p>
+				<p class="indent">The talisman has 7 charges. If you are wearing or holding it, you can use an action to expend 1 charge from it and choose one creature you can see on the ground within 120 feet of you. If the target is of evil alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman disperses into motes of golden light and is destroyed.</p>
+			</description>
+			<setters>
+				<set name="keywords">alignment, radiant</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="1">1 lb.</set>
+				<set name="slot">neck</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement" addition="by a creature of good alignment">true</set>
+				<set name="rarity">Legendary</set>
+				<set name="charges">7</set>
+			</setters>
+			<rules>
+				<stat name="spellcasting:attack" value="2" requirements="(ID_ALIGNMENT_LAWFUL_GOOD||ID_ALIGNMENT_NEUTRAL_GOOD||ID_ALIGNMENT_CHAOTIC_GOOD),(ID_WOTC_PHB_CLASS_CLERIC||ID_WOTC_PHB_CLASS_PALADIN)" />
+			</rules>
+		</element>
+		<element name="Talisman of Ultimate Evil" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_TALISMAN_OF_ULTIMATE_EVIL">
+			<description>
+				<p>This item symbolizes unrepentant evil. A creature that is neither good nor evil in alignment takes 6d6 necrotic damage upon touching the talisman. A good creature takes 8d6 necrotic damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.</p>
+				<p class="indent">If you are an evil cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.</p>
+				<p class="indent">The talisman has 6 charges. If you are wearing or holding it, you can use an action to expend 1 charge from the talisman and choose one creature you can see on the ground within 120 feet of you. If the target is of good alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman dissolves into foul-smelling slime and is destroyed.</p>
+			</description>
+			<setters>
+				<set name="keywords">alignment, necrotic</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="1">1 lb.</set>
+				<set name="slot">neck</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Legendary</set>
+				<set name="charges">6</set>
+			</setters>
+			<rules>
+				<stat name="spellcasting:attack" value="2" requirements="(ID_ALIGNMENT_LAWFUL_EVIL||ID_ALIGNMENT_NEUTRAL_EVIL||ID_ALIGNMENT_CHAOTIC_EVIL),(ID_WOTC_PHB_CLASS_CLERIC||ID_WOTC_PHB_CLASS_PALADIN)" />
+			</rules>
+		</element>
+		<element name="Talisman of the Sphere" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_TALISMAN_OF_THE_SPHERE">
+			<description>
+				<p>When you make an Intelligence (Arcana) check to control a <em>sphere of annihilation</em> while you are holding this talisman, you double your proficiency bonus on the check. In addition, when you start your turn with control over a <em>sphere of annihilation</em>, you can use an action to levitate it 10 feet plus a number of additional feet equal to 10 x your Intelligence modifier.</p>
+			</description>
+			<setters>
+				<set name="keywords">annihilation</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="1">1 lb.</set>
+				<set name="slot">neck</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Legendary</set>
+			</setters>
+		</element>
+		<!-- The Deck of Many Things
+			<element name="The Deck of Many Things" type="Magic Item" source="Mraz Homebrew" id="ID_MRAZ_HB_MAGIC_ITEM_THE_DECK_OF_MANY_THINGS">
+				<description>
+					<p>Usually found in a box or pouch, this deck contains a number of cards made of ivory or vellum. Most (75 percent) of these decks have only thirteen cards, but the rest have twenty-two.</p>
+					<p class="indent">Before you draw a card, you must declare how many cards you intend to draw and then draw them randomly (you can use an altered deck of playing cards to simulate the deck). Any cards drawn in excess of this number have no effect. Otherwise, as soon as you draw a card from the deck, its magic takes effect. You must draw each card no more than 1 hour after the previous draw. If you fail to draw the chosen number, the remaining number of cards fly from the deck on their own and take effect all at once.</p>
+					<p class="indent">Once a card is drawn, it fades from existence. Unless the card is the Fool or the Jester, the card reappears in the deck, making it possible to draw the same card twice.</p>
+					<table>
+						<thead>
+							<tr><td>Playing Card</td><td>Card</td></tr>
+						</thead>
+						<tbody>
+							<tr><td>Ace of diamonds</td><td>Vizier*</td></tr>
+							<tr><td>King of diamonds</td><td>Sun</td></tr>
+							<tr><td>Queen of diamonds</td><td>Moon</td></tr>
+							<tr><td>Jack of diamonds</td><td>Star</td></tr>
+							<tr><td>Two of diamonds</td><td>Comet*</td></tr>
+							<tr><td>Ace of hearts</td><td>The Fates*</td></tr>
+							<tr><td>King of hearts</td><td>Throne</td></tr>
+							<tr><td>Queen of hearts</td><td>Key</td></tr>
+							<tr><td>Jack of hearts</td><td>Knight</td></tr>
+							<tr><td>Two of hearts</td><td>Gem*</td></tr>
+							<tr><td>Ace of clubs</td><td>Talons*</td></tr>
+							<tr><td>King of clubs</td><td>The Void</td></tr>
+							<tr><td>Queen of clubs</td><td>Flames</td></tr>
+							<tr><td>Jack of clubs</td><td>Skull</td></tr>
+							<tr><td>Two of clubs</td><td>Idiot*</td></tr>
+							<tr><td>Ace of spades</td><td>Donjon*</td></tr>
+							<tr><td>King of spades</td><td>Ruin</td></tr>
+							<tr><td>Queen of spades</td><td>Euryale</td></tr>
+							<tr><td>Jack of spades</td><td>Rogue</td></tr>
+							<tr><td>Two of spades</td><td>Balance*</td></tr>
+							<tr><td>Joker (with TM)</td><td>Fool*</td></tr>
+							<tr><td>Joker (without TM)</td><td>Jester</td></tr>
+						</tbody>
+					</table>
+					<p class="indent"><strong><em>Balance.</em></strong> Your mind suffers a wrenching alteration, causing your alignment to change. Lawful becomes chaotic, good becomes evil, and vice versa. If you are true neutral or unaligned, this card has no effect on you.</p>
+					<p class="indent"><strong><em>Comet.</em></strong> If you single-handedly defeat the next hostile monster or group of monsters you encounter, you gain experience points enough to gain one level. Otherwise, this card has no effect.</p>
+					<p class="indent"><strong><em>Donjon.</em></strong> You disappear and become entombed in a state of suspended animation in an extradimensional sphere. Everything you were wearing and carrying stays behind in the space you occupied when you disappeared.  You remain imprisoned until you are found and removed from the sphere.  You can't be located by any divination magic, but a <em>wish</em> spell can reveal the location of your prison. You draw no more cards.</p>
+					<p class="indent"><strong><em>Euryale.</em></strong> The card's medusa-like visage curses you. You take a -2 penalty on saving throws while cursed in this way. Only a god or the magic of The Fates card can end this curse.</p>
+					<p class="indent"><strong><em>The Fates.</em></strong> Reality's fabric unravels and spins anew, allowing you to avoid or erase one event as if it never happened. You can use the card's magic as soon as you draw the card or at any other time before you die.</p>
+					<p class="indent"><strong><em>Flames.</em></strong> A powerful devil becomes your enemy. The devil seeks your ruin and plagues your life, savoring your suffering before attempting to slay you. This enmity lasts until either you or the devil dies.</p>
+					<p class="indent"><strong><em>Fool.</em></strong> You lose 10,000 XP, discard this card, and draw from the deck again, counting both draws as one of your declared draws. If losing that much XP would cause you to lose a level, you instead lose an amount that leaves you with just enough XP to keep your level.</p>
+					<p class="indent"><strong><em>Gem.</em></strong> Twenty-five pieces of jewelry worth 2,000 gp each or fifty gems worth 1,000 gp each appear at your feet.</p>
+					<p class="indent"><strong><em>Idiot.</em></strong> Permanently reduce your Intelligence by 1d4 + 1 (to a minimum score of 1). You can draw one additional card beyond your declared draws.</p>
+					<p class="indent"><strong><em>Jester.</em></strong> You gain 10,000 XP, or you can draw two additional cards beyond your declared draws.</p>
+					<p class="indent"><strong><em>Key.</em></strong> A rare or rarer magic weapon with which you are proficient appears in your hands. The GM chooses the weapon.</p>
+					<p class="indent"><strong><em>Knight.</em></strong> You gain the service of a 4th-level fighter who appears in a space you choose within 30 feet of you. The fighter is of the same race as you and serves you loyally until death, believing the fates have drawn him or her to you. You control this character.</p>
+					<p class="indent"><strong><em>Moon.</em></strong> You are granted the ability to cast the <em>wish</em> spell 1d3 times.</p>
+					<p class="indent"><strong><em>Rogue.</em></strong> A nonplayer character of the GM's choice becomes hostile toward you. The identity of your new enemy isn't known until the NPC or someone else reveals it. Nothing less than a				<em>wish</em> spell or divine intervention can end the NPC's hostility toward you.</p>
+					<p class="indent"><strong><em>Ruin.</em></strong> All forms of wealth that you carry or own, other than magic items, are lost to you. Portable property vanishes. Businesses, buildings, and land you own are lost in a way that alters reality the least. Any documentation that proves you should own something lost to this card also disappears.</p>
+					<p class="indent"><strong><em>Skull.</em></strong> You summon an avatar of death -- a ghostly humanoid skeleton clad in a tattered black robe and carrying a spectral scythe. It appears in a space of the GM's choice within 10 feet of you and attacks you, warning all others that you must win the battle alone. The avatar fights until you die or it drops to 0 hit points, whereupon it disappears. If anyone tries to help you, the helper summons its own avatar of death. A creature slain by an avatar of death can't be restored to life.</p>
+					<h1>Avatar of Death</h1>
+					<p class="indent"><strong><em>Star.</em></strong> Increase one of your ability scores by 2. The score can exceed 20 but can't exceed 24.</p>
+					<p class="indent"><strong><em>Sun.</em></strong> You gain 50,000 XP, and a wondrous item (which the GM determines randomly) appears in your hands.</p>
+					<p class="indent"><strong><em>Talons.</em></strong> Every magic item you wear or carry disintegrates. Artifacts in your possession aren't destroyed but do vanish.</p>
+					<p class="indent"><strong><em>Throne.</em></strong> You gain proficiency in the Persuasion skill, and you double your proficiency bonus on checks made with that skill. In addition, you gain rightful ownership of a small keep somewhere in the world. However, the keep is currently in the hands of monsters, which you must clear out before you can claim the keep as yours.</p>
+					<p class="indent"><strong><em>Vizier.</em></strong> At any time you choose within one year of drawing this card, you can ask a question in meditation and mentally receive a truthful answer to that question. Besides information, the answer helps you solve a puzzling problem or other dilemma. In other words, the knowledge comes with wisdom on how to apply it.</p>
+					<p class="indent"><strong><em>The Void.</em></strong> This black card spells disaster. Your soul is drawn from your body and contained in an object in a place of the GM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is incapacitated. A <em>wish</em> spell can't restore your soul, but the spell reveals the location of the object that holds it. You draw no more cards.</p>
+				</description>
+				<setters>
+					<set name="keywords"></set>
+					<set name="category">Wondrous Items</set>
+					<set name="cost" currency="gp">0</set>
+					<set name="weight" lb="0">0 lb.</set>
+					<set name="type">Wondrous Item</set>
+					<set name="rarity">Artifact</set>
+				</setters>
+			</element>
+		-->
+		<element name="Tome of the Stilled Tongue" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_TOME_OF_THE_STILLED_TONGUE">
+			<description>
+				<p>This thick leather-bound volume has a desiccated tongue pinned to the front cover. Five of these tomes exist, and it's unknown which one is the original. The grisly cover decoration on the first tome of the stilled tongue once belonged to a treacherous former servant of the lich-god Vecna, keeper of secrets. The tongues pinned to the covers of the four copies came from other spellcasters who crossed Vecna. The first few pages of each tome are filled with indecipherable scrawls. The remaining pages are blank and pristine.</p>
+				<p class="indent">If you can attune to this item, you can use it as a spellbook and an arcane focus. In addition, while holding the tome, you can use a bonus action to cast a spell you have written in this tome, without expend in a spell slot or using any verbal or somatic component Once used, this property of the tome can't be used again until the next dawn.</p>
+				<p class="indent">While attuned to the book, you can remove the tongue from the book's cover. If you do so, all spells written in the book are permanently erased.</p>
+				<p class="indent">Vecna watches anyone using this tome. He can also write cryptic messages in the book. These messages appear at midnight and fade away after they are read.</p>
+			</description>
+			<setters>
+				<set name="keywords">spellbook, arcane focus, wizard</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="5">5 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement" addition="by a wizard">true</set>
+				<set name="rarity">Legendary</set>
+			</setters>
+		</element>
 	<!--U-->
+		<element name="Universal Solvent" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_UNIVERSAL_SOLVENT">
+			<description>
+				<p>This tube holds milky liquid with a strong alcohol smell. You can use an action to pour the contents of the tube onto a surface within reach. The liquid instantly dissolves up to 1 square foot of adhesive it touches, including <em>sovereign glue.</em></p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Legendary</set>
+				<set name="stackable">true</set>
+			</setters>
+		</element>
 	<!--V-->
 		<element name="Verminshroud (Dormant)" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_VERMINSHROUD_DORMANT">
 			<compendium display="false" />
@@ -525,6 +1144,20 @@
 			</rules>
 		</element>
 	<!--W-->
+		<element name="Well of Many Worlds" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_WELL_OF_MANY_WORLDS">
+			<description>
+				<p>This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.</p>
+				<p class="indent">You can use an action to unfold and place the <em>well of many worlds</em> on a solid surface, whereupon it creates a two-way portal to another world or plane of existence. Each time the item opens a portal, the GM decides where it leads. You can use an action to close an open portal by taking hold of the edges of the cloth and folding it up. Once the <em>well of many worlds</em> has opened a portal, it can't do so again for 1d8 hours.</p>
+			</description>
+			<setters>
+				<set name="keywords">planar, portal</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Legendary</set>
+			</setters>
+		</element>
 		<element name="Wreath of the Prism (Dormant)" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_WREATH_OF_THE_PRISM_DORMANT">
 			<compendium display="false" />
 			<description>
