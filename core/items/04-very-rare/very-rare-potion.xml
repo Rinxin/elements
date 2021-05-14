@@ -24,6 +24,19 @@
 	<!--M-->
 	<!--N-->
 	<!--O-->
+		<element name="Oil of Sharpness" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_OIL_OF_SHARPNESS">		
+			<description>
+				<p>This clear, gelatinous oil sparkles with tiny, ultrathin silver shards. The oil can coat one slashing or piercing weapon or up to 5 pieces of slashing or piercing ammunition. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +3 bonus to attack and damage rolls.</p>
+			</description>
+			<setters>
+				<set name="category">Potion</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0.5">½ lb.</set>
+				<set name="type">Potion</set>
+				<set name="rarity">Very Rare</set>
+				<set name="stackable">true</set>
+			</setters>
+		</element>
 	<!--P-->
 		<element name="Potion of Possibility" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_POTION_OF_POSSIBILITY">
 			<description>
