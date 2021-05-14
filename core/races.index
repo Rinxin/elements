@@ -11,13 +11,86 @@
 	<files>
 		<file name="dragonborn-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/dragonborn-.xml" />
 		<file name="dryad.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/dryad.xml" />
-        <file name="dwarf-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/dwarf-.xml" />
-        <file name="elf-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/elf-.xml" />
-        <file name="gnome-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/gnome-.xml" />
-        <file name="half-elf.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/half-elf.xml" />
-        <file name="half-orc.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/half-orc.xml" />
-        <file name="halfling-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/halfling-.xml" />
-        <file name="human.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/human.xml" />
-        <file name="tiefling-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/tiefling-.xml" />
+        	<file name="dwarf-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/dwarf-.xml" />
+        	<file name="elf-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/elf-.xml" />
+        	<file name="gnome-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/gnome-.xml" />
+        	<file name="half-elf.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/half-elf.xml" />
+        	<file name="half-orc.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/half-orc.xml" />
+        	<file name="halfling-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/halfling-.xml" />
+        	<file name="human.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/human.xml" />
+        	<file name="tiefling-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/races/tiefling-.xml" />
+	
+	<!--
+	<file name="00-dragonmarks.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/00-dragonmarks.xml" />
+	<file name="aasimar.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/aasimar.xml" />
+	<file name="bugbear.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/bugbear.xml" />
+	<file name="centaur.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/centaur.xml" />
+	<file name="changeling.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/changeling.xml" />
+	<file name="dragonborn-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/dragonborn-.xml" />
+	<file name="dragonborn-variant.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/dragonborn-variant.xml" />
+	<file name="dwarf-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/dwarf-.xml" />
+	<file name="dwarf-mark-of-warding.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/dwarf-mark-of-warding.xml" />
+	<file name="elf-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/elf-.xml" />
+	<file name="elf-dark.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/elf-dark.xml" />
+	<file name="elf-eladrin.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/elf-eladrin.xml" />
+	<file name="elf-high.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/elf-high.xml" />
+	<file name="elf-mark-of-shadow.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/elf-mark-of-shadow.xml" />
+	<file name="elf-pallid.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/elf-pallid.xml" />
+	<file name="elf-sea.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/elf-sea.xml" />
+	<file name="elf-shadarkai.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/elf-shadarkai.xml" />
+	<file name="elf-wood.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/elf-wood.xml" />
+	<file name="firbolg.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/firbolg.xml" />
+	<file name="gith.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/gith.xml" />
+	<file name="gnome-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/gnome-.xml" />
+	<file name="gnome-mark-of-scribing.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/gnome-mark-of-scribing.xml" />
+	<file name="goblin.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/goblin.xml" />
+	<file name="goliath.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/goliath.xml" />
+	<file name="grung.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/grung.xml" />
+	<file name="half-elf.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/half-elf.xml" />
+	<file name="half-elf-mark-of-detection.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/half-elf-mark-of-detection.xml" />
+	<file name="half-elf-mark-of-storm.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/half-elf-mark-of-storm.xml" />
+	<file name="half-orc.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/half-orc.xml" />
+	<file name="halfling-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/halfling-.xml" />
+	<file name="halfling-lotusden.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/halfling-lotusden.xml" />
+	<file name="halfling-mark-of-healing.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/halfling-mark-of-healing.xml" />
+	<file name="halfling-mark-of-hospitality.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/halfling-mark-of-hospitality.xml" />
+	<file name="hobgoblin.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/hobgoblin.xml" />
+	<file name="human.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/human.xml" />
+	<file name="human-mark-of-finding.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/human-mark-of-finding.xml" />
+	<file name="human-mark-of-handling.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/human-mark-of-handling.xml" />
+	<file name="human-mark-of-making.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/human-mark-of-making.xml" />
+	<file name="human-mark-of-passage.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/human-mark-of-passage.xml" />
+	<file name="human-mark-of-sentinel.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/human-mark-of-sentinel.xml" />
+	<file name="kalashtar.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/kalashtar.xml" />
+	<file name="kenku.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/kenku.xml" />
+	<file name="kobold.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/kobold.xml" />
+	<file name="leonin.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/leonin.xml" />
+	<file name="lizardfolk.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/lizardfolk.xml" />
+	<file name="locathah.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/locathah.xml" />
+	<file name="loxodon.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/loxodon.xml" />
+	<file name="minotaur.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/minotaur.xml" />
+	<file name="orc.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/orc.xml" />
+	<file name="rakshasa.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/rakshasa.xml" />
+	<file name="satyr.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/satyr.xml" />
+	<file name="shifter.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/shifter.xml" />
+	<file name="simic-hybrid.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/simi-hybrid.xml" />
+	<file name="tabaxi.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/tabaxi.xml" />
+	<file name="tiefling-.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/tiefling-.xml" />
+	<file name="tiefling-asmodeus.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/tiefling-asmodeus.xml" />
+	<file name="tiefling-baalzebub.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/tiefling-baalzebub.xml" />
+	<file name="tiefling-dispater.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/tiefling-dispater.xml" />
+	<file name="tiefling-fierna.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/tiefling-fierna.xml" />
+	<file name="tiefling-glasya.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/tiefling-glasya.xml" />
+	<file name="tiefling-levistus.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/tiefling-levistus.xml" />
+	<file name="tiefling-mammon.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/tiefling-mammon.xml" />
+	<file name="tiefling-mephistopheles.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/tiefling-mephistopheles.xml" />
+	<file name="tiefling-zariel.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/tiefling-zariel.xml" />
+	<file name="tortle.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/tortle.xml" />
+	<file name="triton.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/triton.xml" />
+	<file name="vedalken.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/vedalken.xml" />
+	<file name="verdan.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/verdan.xml" />
+	<file name="warforged.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/warforged.xml" />
+	<file name="yuanti-pureblood.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/races/yuanti-pureblood.xml" />
+	-->
     </files>
 </index>
