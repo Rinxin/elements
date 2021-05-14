@@ -24,6 +24,20 @@
 	<!--M-->
 	<!--N-->
 	<!--O-->
+		<element name="Oil of Slipperiness" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_OIL_OF_SLIPPERINESS">		
+			<description>
+				<p>This sticky black unguent is thick and heavy in the container, but it flows quickly when poured. The oil can cover a Medium or smaller creature, along with the equipment it’s wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of a <em>freedom of movement</em> spell for 8 hours.</p>
+				<p class="indent">Alternatively, the oil can be poured on the ground as an action, where it covers a 10-foot square, duplicating the effect of the <em>grease</em> spell in that area for 8 hours.</p>
+			</description>
+			<setters>
+				<set name="category">Potion</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0.5">½ lb.</set>
+				<set name="type">Potion</set>
+				<set name="rarity">Uncommon</set>
+				<set name="stackable">true</set>
+			</setters>
+		</element>
 	<!--P-->
 	<!--Q-->
 	<!--R-->
