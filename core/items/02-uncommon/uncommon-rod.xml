@@ -18,6 +18,19 @@
 	<!--G-->
 	<!--H-->
 	<!--I-->
+		<element name="Immovable Rod" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_IMMOVABLE_ROD">
+			<description>
+				<p>This flat iron rod has a button on one end. You can use an action to press the button, which causes the rod to become magically fixed in place. Until you or another creature uses an action to push the button again, the rod doesn't move, even if it is defying gravity. The rod can hold up to 8,000 pounds of weight. More weight causes the rod to deactivate and fall. A creature can use an action to make a DC 30 Strength check, moving the fixed rod up to 10 feet on a success.</p>
+			</description>
+			<setters>
+				<set name="category">Rod</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">onehand</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
 	<!--J-->
 	<!--K-->
 	<!--L-->
