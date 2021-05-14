@@ -10,6 +10,35 @@
 	</info>
 <!--Wondrous Item-->
 	<!--A-->
+		<element name="Alchemy Jug" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ALCHEMY_JUG">
+			<description>
+				<p>This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.</p>
+				<p class="indent">You can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.</p>
+				<p class="indent">Once the jug starts producing a liquid, it can't produce a different one, or more of one that has reached its maximum, until the next dawn.</p>
+				<table>
+					<thead>
+						<tr><td>Liquid</td><td>Max Amount</td></tr>
+					</thead>
+					<tr><td>Acid</td><td>8 ounces</td></tr>
+					<tr><td>Basic poison</td><td>½ ounce</td></tr>
+					<tr><td>Beer</td><td>4 gallons</td></tr>
+					<tr><td>Honey</td><td>1 gallon</td></tr>
+					<tr><td>Mayonnaise</td><td>2 gallons</td></tr>
+					<tr><td>Oil</td><td>1 quart</td></tr>
+					<tr><td>Vinegar</td><td>2 gallon</td></tr>
+					<tr><td>Water, fresh</td><td>8 gallon</td></tr>
+					<tr><td>Water, salt</td><td>12 gallon</td></tr>
+					<tr><td>Wine</td><td>1 gallon</td></tr>
+				</table>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="12">12 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
 		<element name="Amulet of the Drunkard" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_AMULET_OF_THE_DRUNKARD">
 			<description>
 				<p>This amulet smells of old, ale-stained wood. While wearing it, you can regain 4d4 + 4 hit points when you drink a pint of beer, ale, mead, or wine. Once the amulet has restored hit points, it can’t do so again until the next dawn.</p>
@@ -22,7 +51,207 @@
 				<set name="slot">neck</set>
 			</setters>
 		</element>
+		<element name="Amulet of Proof Against Detection and Location" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_AMULET_OF_PROOF_AGAINST_DETECTION_AND_LOCATION">
+			<description>
+				<p>While wearing this amulet, you are hidden from divination magic. You can't be targeted by such magic or perceived through magical scrying sensors.</p>
+			</description>
+			<setters>
+				<set name="keywords">divination, scry</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">neck</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
 	<!--B-->
+		<element name="Bag of Holding" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_BAG_OF_HOLDING">
+			<description>
+				<p>This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action.</p>
+				<p class="indent">If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.</p>
+				<p class="indent">Placing a <em>bag of holding</em> inside an extradimensional space created by a <em>handy haversack</em>, <em>portable hole</em>, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="15">15 lb.</set>
+				<set name="stash" lb="500" weightless="true">true</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Bag of Tricks, Gray" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_BAG_OF_TRICKS_GRAY">
+			<description>
+				<p>This ordinary bag, made from gray, rust, or tan cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object. The bag weighs ½ pound.</p>
+				<p class="indent">You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a d8 and consulting the table that corresponds to the bag's color. The creature vanishes at the next dawn or when it is reduced to 0 hit points.</p>
+				<p class="indent">The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature.</p>
+				<p class="indent">Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.</p>
+				<h5 class="caption">GRAY BAG OF TRICKS</h5>
+				<table>
+					<thead>
+						<tr> <td class="col-20">d8</td> <td>Creature</td> </tr>
+					</thead>
+					<tbody>
+						<tr> <td>1</td> <td>Weasel</td> </tr>
+						<tr> <td>2</td> <td>Giant rat</td> </tr>
+						<tr> <td>3</td> <td>Badger</td> </tr>
+						<tr> <td>4</td> <td>Boar</td> </tr>
+						<tr> <td>5</td> <td>Panther</td> </tr>
+						<tr> <td>6</td> <td>Giant badger</td> </tr>
+						<tr> <td>7</td> <td>Dire wolf</td> </tr>
+						<tr> <td>8</td> <td>Giant elk</td> </tr>
+					</tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0.5">½ lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Bag of Tricks, Rust" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_BAG_OF_TRICKS_RUST">
+			<description>
+				<p>This ordinary bag, made from gray, rust, or tan cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object. The bag weighs ½ pound.</p>
+				<p class="indent">You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a d8 and consulting the table that corresponds to the bag's color. The creature vanishes at the next dawn or when it is reduced to 0 hit points.</p>
+				<p class="indent">The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature.</p>
+				<p class="indent">Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.</p>
+				<h5 class="caption">RUST BAG OF TRICKS</h5>
+				<table>
+					<thead>
+						<tr> <td class="col-20">d8</td> <td>Creature</td> </tr>
+					</thead>
+					<tbody>
+						<tr> <td>1</td> <td>Rat</td> </tr>
+						<tr> <td>2</td> <td>Owl</td> </tr>
+						<tr> <td>3</td> <td>Mastiff</td> </tr>
+						<tr> <td>4</td> <td>Goat</td> </tr>
+						<tr> <td>5</td> <td>Giant goat</td> </tr>
+						<tr> <td>6</td> <td>Giant boar</td> </tr>
+						<tr> <td>7</td> <td>Lion</td> </tr>
+						<tr> <td>8</td> <td>Brown bear</td> </tr>
+					</tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0.5">½ lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Bag of Tricks, Tan" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_BAG_OF_TRICKS_TAN">
+			<description>
+				<p>This ordinary bag, made from gray, rust, or tan cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object. The bag weighs ½ pound.</p>
+				<p class="indent">You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a d8 and consulting the table that corresponds to the bag's color. The creature vanishes at the next dawn or when it is reduced to 0 hit points.</p>
+				<p class="indent">The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature.</p>
+				<p class="indent">Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.</p>
+				<h5 class="caption">TAN BAG OF TRICKS</h5>
+				<table>
+					<thead>
+						<tr> <td class="col-20">d8</td> <td>Creature</td> </tr>
+					</thead>
+					<tbody>
+						<tr> <td>1</td> <td>Jackal</td> </tr>
+						<tr> <td>2</td> <td>Ape</td> </tr>
+						<tr> <td>3</td> <td>Baboon</td> </tr>
+						<tr> <td>4</td> <td>Axe beak</td> </tr>
+						<tr> <td>5</td> <td>Black bear</td> </tr>
+						<tr> <td>6</td> <td>Giant weasel</td> </tr>
+						<tr> <td>7</td> <td>Giant hyena</td> </tr>
+						<tr> <td>8</td> <td>Tiger</td> </tr>
+					</tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0.5">½ lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Boots of Elvenkind" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_BOOTS_OF_ELVENKIND">
+			<description>
+				<p>While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have advantage on Dexterity (Stealth) checks that rely on moving silently.</p>
+			</description>
+			<setters>
+				<set name="keywords">stealth</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">feet</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Boots of Striding and Springing" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_BOOTS_OF_STRIDING_AND_SPRINGING">
+			<description>
+				<p>While you wear these boots, your walking speed becomes 30 feet, unless your walking speed is higher, and your speed isn't reduced if you are encumbered or wearing heavy armor. In addition, you can jump three times the normal distance, though you can't jump farther than your remaining movement would allow.</p>
+			</description>
+			<setters>
+				<set name="keywords">speed, jump</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">feet</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+			<rules>
+				<stat name="speed" value="30" bonus="base" />
+				<!-- todo: ignore encumbered/heavy armor speed reduction -->
+			</rules>
+		</element>
+		<element name="Boots of the Winterlands" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_BOOTS_OF_THE_WINTERLANDS">
+			<description>
+				<p>These furred boots are snug and feel quite warm. While you wear them, you gain the following benefits:</p>
+				<ul>
+					<li>You have resistance to cold damage.</li>
+					<li>You ignore difficult terrain created by ice or snow.</li>
+					<li>You can tolerate temperatures as low as -50 degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as -100 degrees Fahrenheit.</li>
+				</ul>
+			</description>
+			<setters>
+				<set name="keywords">resistance, cold</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">feet</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+			<rules>
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+			</rules>
+		</element>
+		<element name="Bracers of Archery" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_BRACERS_OF_ARCHERY">
+			<description>
+				<p>While wearing these bracers, you have proficiency with the longbow and shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made with such weapons.</p>
+			</description>
+			<setters>
+				<set name="keywords">longbow, shortbow, ranged, damage</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">arms</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+			<rules>
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
+				<stat name="longbow:damage" value="2" />
+				<stat name="shortbow:damage" value="2" />
+			</rules>
+		</element>
 		<element name="Brooch of Living Essence" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_BROOCH_OF_LIVING_ESSENCE">
 			<description>
 				<p>While wearing this nondescript brooch, spells and anything else that would detect or reveal your creature type treat you as humanoid, and those that would reveal your alignment treat it as neutral.</p>
@@ -35,8 +264,207 @@
 				<set name="slot">misc</set>
 			</setters>
 		</element>
+		<element name="Brooch of Shielding" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_BROOCH_OF_SHIELDING">
+			<description>
+				<p>While wearing this brooch, you have resistance to force damage, and you have immunity to damage from the <em>magic missile</em> spell.</p>
+			</description>
+			<setters>
+				<set name="keywords">resistance, force, immunity</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">neck</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+			<rules>
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE" />
+			</rules>
+		</element>
+		<element name="Broom of Flying" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_BROOM_OF_FLYING">
+			<description>
+				<p>This wooden broom, which weighs 3 pounds, functions like a mundane broom until you stand astride it and speak its command word. It then hovers beneath you and can be ridden in the air. It has a flying speed of 50 feet. It can carry up to 400 pounds, but its flying speed becomes 30 feet while carrying over 200 pounds. The broom stops hovering when you land.</p>
+				<p class="indent">You can send the broom to travel alone to a destination within 1 mile of you if you speak the command word, name the location, and are familiar with that place. The broom comes back to you when you speak another command word, provided that the broom is still within 1 mile of you.</p>
+			</description>
+			<setters>
+				<set name="keywords">fly</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="3">3 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
 	<!--C-->
+		<element name="Cap of Water Breathing" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_CAP_OF_WATER_BREATHING">
+			<description>
+				<p>While wearing this cap underwater, you can speak its command word as an action to create a bubble of air around your head. It allows you to breathe normally underwater. This bubble stays with you until you speak the command word again, the cap is removed, or you are no longer underwater.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">head</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Circlet of Blasting" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_CIRCLET_OF_BLASTING">
+			<description>
+				<p>While wearing this circlet, you can use an action to cast the <em>scorching ray</em> spell with it. When you make the spell's attacks, you do so with an attack bonus of +5. The circlet can't be used this way again until the next dawn.</p>
+			</description>
+			<setters>
+				<set name="keywords">fire</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">head</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Cloak of Elvenkind" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_CLOAK_OF_ELVENKIND">
+			<description>
+				<p>While you wear this cloak with its hood up, Wisdom (Perception) checks made to see you have disadvantage, and you have advantage on Dexterity (Stealth) checks made to hide, as the cloak's color shifts to camouflage you. Pulling the hood up or down requires an action.</p>
+			</description>
+			<setters>
+				<set name="keywords">cloak, elvenkind, perception, stealth</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">shoulders</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Cloak of Protection" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_CLOAK_OF_PROTECTION">
+			<description>
+				<p>You gain a +1 bonus to AC and saving throws while you wear this cloak.</p>
+			</description>
+			<setters>
+				<set name="keywords">cloak, armor, saving throw</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">shoulders</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+			<rules>
+				<stat name="ac:misc" value="1" />		
+				<stat name="strength:save:misc" value="1" />
+				<stat name="dexterity:save:misc" value="1" />
+				<stat name="constitution:save:misc" value="1" />
+				<stat name="intelligence:save:misc" value="1" />
+				<stat name="wisdom:save:misc" value="1" />
+				<stat name="charisma:save:misc" value="1" />
+			</rules>
+		</element>
+		<element name="Cloak of the Manta Ray" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_CLOAK_OF_THE_MANTA_RAY">
+			<description>
+				<p>While wearing this cloak with its hood up, you can breathe underwater, and you have a swimming speed of 60 feet. Pulling the hood up or down requires an action.</p>
+			</description>
+			<setters>
+				<set name="keywords">speed, swim</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">shoulders</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
 	<!--D-->
+		<element name="Decanter of Endless Water" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DECANTER_OF_ENDLESS_WATER">
+			<description>
+				<p>This stoppered flask sloshes when shaken, as if it contains water. The decanter weighs 2 pounds.</p>
+				<p class="indent">You can use an action to remove the stopper and speak one of three command words, whereupon an amount of fresh water or salt water (your choice) pours out of the flask. The water stops pouring out at the start of your next turn. Choose from the following options:</p>
+				<ul>
+					<li>"Stream" produces 1 gallon of water.</li>
+					<li>"Fountain" produces 5 gallons of water.</li>
+					<li>"Geyser" produces 30 gallons of water that gushes forth in a geyser 30 feet long and 1 foot wide. As a bonus action while holding the decanter, you can aim the geyser at a creature you can see within 30 feet of you. The target must succeed on a DC 13 Strength saving throw or take 1d4 bludgeoning damage and fall prone. Instead of a creature, you can target an object that isn't being worn or carried and that weighs no more than 200 pounds. The object is either knocked over or pushed up to 15 feet away from you.</li>
+				</ul>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="2">2 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Deck of Illusions" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DECK_OF_ILLUSIONS">
+			<description>
+				<p>This box contains a set of parchment cards. A full deck has 34 cards. A deck found as treasure is usually missing 1d20 - 1 cards.</p>
+				<p class="indent">The magic of the deck functions only if cards are drawn at random (you can use an altered deck of playing cards to simulate the deck). You can use an action to draw a card at random from the deck and throw it to the ground at a point within 30 feet of you.</p>
+				<p class="indent">An illusion of one or more creatures forms over the thrown card and remains until dispelled. An illusory creature appears real, of the appropriate size, and behaves as if it were a real creature except that it can do no harm. While you are within 120 feet of the illusory creature and can see it, you can use an action to move it magically anywhere within 30 feet of its card. Any physical interaction with the illusory creature reveals it to be an illusion, because objects pass through it. Someone who uses an action to visually inspect the creature identifies it as illusory with a successful DC 15 Intelligence (Investigation) check. The creature then appears translucent.</p>
+				<p class="indent">The illusion lasts until its card is moved or the illusion is dispelled.  When the illusion ends, the image on its card disappears, and that card can't be used again.</p>
+				<table>
+					<thead>
+						<tr><td>Playing Card</td><td>Illusion</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>Ace of hearts</td><td>Red dragon</td></tr>
+						<tr><td>King of hearts</td><td>Knight and four guards</td></tr>
+						<tr><td>Queen of hearts</td><td>Succubus or incubus</td></tr>
+						<tr><td>Jack of hearts</td><td>Druid</td></tr>
+						<tr><td>Ten of hearts</td><td>Cloud giant</td></tr>
+						<tr><td>Nine of hearts</td><td>Ettin</td></tr>
+						<tr><td>Eight of hearts</td><td>Bugbear</td></tr>
+						<tr><td>Two of hearts</td><td>Goblin</td></tr>
+						<tr><td>Ace of diamonds</td><td>Beholder</td></tr>
+						<tr><td>King of diamonds</td><td>Archmage and mage apprentice</td></tr>
+						<tr><td>Queen of diamonds</td><td>Night hag</td></tr>
+						<tr><td>Jack of diamonds</td><td>Assassin</td></tr>
+						<tr><td>Ten of diamonds</td><td>Fire giant</td></tr>
+						<tr><td>Nine of diamonds</td><td>Ogre mage</td></tr>
+						<tr><td>Eight of diamonds</td><td>Gnoll</td></tr>
+						<tr><td>Two of diamonds</td><td>Kobold</td></tr>
+						<tr><td>Ace of spades</td><td>Lich</td></tr>
+						<tr><td>King of spades</td><td>Priest and two acolytes</td></tr>
+						<tr><td>Queen of spades</td><td>Medusa</td></tr>
+						<tr><td>Jack of spades</td><td>Veteran</td></tr>
+						<tr><td>Ten of spades</td><td>Frost giant</td></tr>
+						<tr><td>Nine of spades</td><td>Troll</td></tr>
+						<tr><td>Eight of spades</td><td>Hobgoblin</td></tr>
+						<tr><td>Two of spades</td><td>Goblin</td></tr>
+						<tr><td>Ace of clubs</td><td>Iron golem</td></tr>
+						<tr><td>King of clubs</td><td>Bandit captain and three bandits</td></tr>
+						<tr><td>Queen of clubs</td><td>Erinyes</td></tr>
+						<tr><td>Jack of clubs</td><td>Berserker</td></tr>
+						<tr><td>Ten of clubs</td><td>Hill giant</td></tr>
+						<tr><td>Nine of clubs</td><td>Ogre</td></tr>
+						<tr><td>Eight of clubs</td><td>Orc</td></tr>
+						<tr><td>Two of clubs</td><td>Kobold</td></tr>
+						<tr><td>Jokers (2)</td><td>You (the deck's owner)</td></tr>
+					</tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Driftglobe" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DRIFTGLOBE">
+			<description>
+				<p>This small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can speak its command word and cause it to emanate the <em>light</em> or <em>daylight</em> spell. Once used, the <em>daylight</em> effect can't be used again until the next dawn.</p>
+				<p class="indent">You can speak another command word as an action to make the illuminated globe rise into the air and float no more than 5 feet off the ground. The globe hovers in this way until you or another creature grasps it. If you mpve more than 60 feet from the hovering globe, it follows you until it is within 60 feet of you. It takes the shortest route to do so. If prevented from moving, the globe sinks gently to the ground and becomes inactive, and its light winks out.</p>
+			</description>
+			<setters>
+				<set name="keywords">daylight</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="1">1 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
 		<element name="Dust of Deliciousness" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_DUST_OF_DELICIOUSNESS">
 			<description>
 				<p>This reddish brown dust can be sprinkled over any edible substance to greatly improve the flavor. The dust also dulls the eater’s senses: anyone eating food treated with this dust has disadvantage on Wisdom ability checks and Wisdom saving throws for 1 hour. There is enough dust to flavor six servings.</p>
@@ -46,6 +474,46 @@
 				<set name="type">Wondrous Item</set>
 				<set name="rarity">Uncommon</set>
 				<set name="stackable">true</set>
+			</setters>
+		</element>
+		<element name="Dust of Disappearance" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DUST_OF_DISAPPEARANCE">
+			<description>
+				<p>Found in a small packet, this powder resembles very fine sand. There is enough of it for one use. When you use an action to throw the dust into the air, you and each creature and object within 10 feet of you become invisible for 2d4 minutes. The duration is the same for all subjects, and the dust is consumed when its magic takes effect. If a creature affected by the dust attacks or casts a spell, the invisibility ends for that creature.</p>
+			</description>
+			<setters>
+				<set name="keywords">invisible</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Dust of Dryness" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DUST_OF_DRYNESS">
+			<description>
+				<p>This small packet contains 1d6 + 4 pinches of dust. You can use an action to sprinkle a pinch of it over water. The dust turns a cube of water 15 feet on a side into one marble-sized pellet, which floats or rests near where the dust was sprinkled. The pellet's weight is negligible.</p>
+				<p class="indent">Someone can use an action to smash the pellet against a hard surface, causing the pellet to shatter and release the water the dust absorbed. Doing so ends that pellet's magic.</p>
+				<p class="indent">An elemental composed mostly of water that is exposed to a pinch of the dust must make a DC 13 Constitution saving throw, taking 10d6 necrotic damage on a failed save, or half as much damage on a successful one.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Dust of Sneezing and Choking" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_DUST_OF_SNEEZING_AND_CHOKING">
+			<description>
+				<p>Found in a small container, this powder resembles very fine sand. It appears to be <em>dust of disappearance</em>, and an <em>identify</em> spell reveals it to be such. There is enough of it for one use.</p>
+				<p class="indent">When you use an action to throw a handful of the dust into the air, you and each creature that needs to breathe within 30 feet of you must succeed on a DC 15 Constitution saving throw or become unable to breathe, while sneezing uncontrollably. A creature affected in this way is incapacitated and suffocating. As long as it is conscious, a creature can repeat the saving throw at the end of each of its turns, ending the effect on it on a success. The <em>lesser restoration</em> spell can also end the effect on a creature.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
 			</setters>
 		</element>
 	<!--E-->
@@ -68,7 +536,175 @@
 				<grant type="Language" id="ID_LANGUAGE_DEEP_SPEECH" />
 			</rules>
 		</element>
+		<element name="Elemental Gem, Air" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ELEMENTAL_GEM_AIR">
+			<description>
+				<p>This gem contains a mote of elemental energy. When you use an action to break the gem, an elemental is summoned as if you had cast the <em>conjure elemental</em> spell, and the gem's magic is lost. The type of gem determines the elemental summoned by the spell.</p>
+				<table>
+					<thead>
+						<tr><td>Gem</td><td>Summoned Elemental</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>Blue sapphire</td><td>Air elemental</td></tr>
+						<tr><td>Yellow diamond</td><td>Earth elemental</td></tr>
+						<tr><td>Red corundum</td><td>Fire elemental</td></tr>
+						<tr><td>Emerald</td><td>Water elemental</td></tr>
+					</tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords">summon</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Elemental Gem, Earth" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ELEMENTAL_GEM_EARTH">
+			<description>
+				<p>This gem contains a mote of elemental energy. When you use an action to break the gem, an elemental is summoned as if you had cast the <em>conjure elemental</em> spell, and the gem's magic is lost. The type of gem determines the elemental summoned by the spell.</p>
+				<table>
+					<thead>
+						<tr><td>Gem</td><td>Summoned Elemental</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>Blue sapphire</td><td>Air elemental</td></tr>
+						<tr><td>Yellow diamond</td><td>Earth elemental</td></tr>
+						<tr><td>Red corundum</td><td>Fire elemental</td></tr>
+						<tr><td>Emerald</td><td>Water elemental</td></tr>
+					</tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords">summon</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Elemental Gem, Fire" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ELEMENTAL_GEM_FIRE">
+			<description>
+				<p>This gem contains a mote of elemental energy. When you use an action to break the gem, an elemental is summoned as if you had cast the <em>conjure elemental</em> spell, and the gem's magic is lost. The type of gem determines the elemental summoned by the spell.</p>
+				<table>
+					<thead>
+						<tr><td>Gem</td><td>Summoned Elemental</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>Blue sapphire</td><td>Air elemental</td></tr>
+						<tr><td>Yellow diamond</td><td>Earth elemental</td></tr>
+						<tr><td>Red corundum</td><td>Fire elemental</td></tr>
+						<tr><td>Emerald</td><td>Water elemental</td></tr>
+					</tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords">summon</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Elemental Gem, Water" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ELEMENTAL_GEM_WATER">
+			<description>
+				<p>This gem contains a mote of elemental energy. When you use an action to break the gem, an elemental is summoned as if you had cast the <em>conjure elemental</em> spell, and the gem's magic is lost. The type of gem determines the elemental summoned by the spell.</p>
+				<table>
+					<thead>
+						<tr><td>Gem</td><td>Summoned Elemental</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>Blue sapphire</td><td>Air elemental</td></tr>
+						<tr><td>Yellow diamond</td><td>Earth elemental</td></tr>
+						<tr><td>Red corundum</td><td>Fire elemental</td></tr>
+						<tr><td>Emerald</td><td>Water elemental</td></tr>
+					</tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords">summon</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Eversmoking Bottle" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_EVERSMOKING_BOTTLE">
+			<description>
+				<p>Smoke leaks from the lead-stoppered mouth of this brass bottle, which weighs 1 pound. When you use an action to remove the stopper, a cloud of thick smoke pours out in a 60-foot radius from the bottle. The cloud's area is heavily obscured. Each minute the bottle remains open and within the cloud, the radius increases by 10 feet until it reaches its maximum radius of 120 feet.</p>
+				<p>The cloud persists as long as the bottle is open. Closing the bottle requires you to speak its command word as an action. Once the bottle is closed, the cloud disperses after 10 minutes. A moderate wind (11 to 20 miles per hour) can also disperse the smoke after 1 minute, and a strong wind (21 or more miles per hour) can do so after 1 round.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="1">1 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Eyes of Charming" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_EYES_OF_CHARMING">
+			<description>
+				<p>These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 charge as an action to cast the <em>charm person</em> spell (save DC 13) on a humanoid within 30 feet of you, provided that you and the target can see each other. The lenses regain all expended charges daily at dawn.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">head</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+				<set name="charges">3</set>
+			</setters>
+		</element>
+		<element name="Eyes of Minute Seeing" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_EYES_OF_MINUTE_SEEING">
+			<description>
+				<p>These crystal lenses fit over the eyes. While wearing them, you can see much better than normal out to a range of 1 foot. You have advantage on Intelligence (Investigation) checks that rely on sight while searching an area or studying an object within that range.</p>
+			</description>
+			<setters>
+				<set name="keywords">investigation</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">head</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Eyes of the Eagle" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_EYES_OF_THE_EAGLE">
+			<description>
+				<p>These crystal lenses fit over the eyes. While wearing them, you have advantage on Wisdom (Perception) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across.</p>
+			</description>
+			<setters>
+				<set name="keywords">perception</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">head</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
 	<!--F-->
+		<element name="Figurine of Wondrous Power, Silver Raven" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_FIGURINE_OF_WONDROUS_POWER_SILVER_RAVEN">
+			<description>
+				<p>A <em>figurine of wondrous power</em> is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.</p>
+				<p class="indent">The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.</p>
+				<p class="indent">The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.</p>
+				<p class="indent"><strong><em>Silver Raven (Uncommon).</em></strong> This silver statuette of a raven can become a raven for up to 12 hours. Once it has been used, it can't be used again until 2 days have passed. While in raven form, the figurine allows you to cast the <em>animal messenger</em> spell on it at will.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
 		<element name="Finder’s Goggles" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_FINDERS_GOGGLES">
 			<description>
 				<p>The lenses of these garish goggles are carved from Siberys dragonshards. While wearing these lenses, you gain the following benefits:</p>
@@ -86,6 +722,44 @@
 			</setters>
 		</element>
 	<!--G-->
+		<element name="Gauntlets of Ogre Power" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_GAUNTLETS_OF_OGRE_POWER">
+			<description>
+				<p>Your Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is 19 or higher without them.</p>
+			</description>
+			<setters>
+				<set name="keywords">strength</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">hands</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+			<rules>
+				<stat name="strength:score:set" value="19" bonus="base" />
+			</rules>
+		</element>
+		<element name="Gem of Brightness" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_GEM_OF_BRIGHTNESS">
+			<description>
+				<p>This prism has 50 charges. While you are holding it, you can use an action to speak one of three command words to cause one of the following effects:</p>
+				<ul>
+					<li>The first command word causes the gem to shed bright light in a 30-foot radius and dim light for an additional 30 feet. This effect doesn't expend a charge. It lasts until you use a bonus action to repeat the command word or until you use another function of the gem.</li>
+					<li>The second command word expends 1 charge and causes the gem to fire a brilliant beam of light at one creature you can see within 60 feet of you. The creature must succeed on a DC 15 Constitution saving throw or become blinded for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</li>
+					<li>The third command word expends 5 charges and causes the gem to flare with blinding light in a 30-foot cone originating from it. Each creature in the cone must make a saving throw as if struck by the beam created with the second command word.</li>
+				</ul>
+				<p>When all of the gem's charges are expended, the gem becomes a nonmagical jewel worth 50 gp.</p>
+			</description>
+			<setters>
+				<set name="keywords">blinded</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+				<set name="charges">50</set>
+			</setters>
+		</element>
 		<element name="Glamerweave" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_GLAMERWEAVE_UNCOMMON">
 			<description>
 				<p>Glamerweave is clothing imbued with harmless illusory magic. While wearing the common version of these clothes, you can use a bonus action to create a moving illusory pattern within the cloth.</p>
@@ -98,6 +772,70 @@
 				<set name="rarity">Uncommon</set>
 				<set name="slot">misc</set>
 			</setters>
+		</element>
+		<element name="Gloves of Missile Snaring" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_GLOVES_OF_MISSILE_SNARING">
+			<description>
+				<p>These gloves seem to almost meld into your hands when you don them. When a ranged weapon attack hits you while you're wearing them, you can use your reaction to reduce the damage by 1d10 + your Dexterity modifier, provided that you have a free hand. If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in that hand.</p>
+			</description>
+			<setters>
+				<set name="keywords">reaction</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">hands</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Gloves of Swimming and Climbing" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_GLOVES_OF_SWIMMING_AND_CLIMBING">
+			<description>
+				<p>While wearing these gloves, climbing and swimming don't cost you extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.</p>
+			</description>
+			<setters>
+				<set name="keywords">athletics</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">hands</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Gloves of Thievery" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_GLOVES_OF_THIEVERY">
+			<description>
+				<p>These gloves are invisible while worn. While wearing them, you gain a +5 bonus to Dexterity (Sleight of Hand) checks and Dexterity checks made to pick locks.</p>
+			</description>
+			<setters>
+				<set name="keywords">sleight of hand</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">hands</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+			<rules>
+				<stat name="sleight of hand:misc" value="5" />
+			</rules>
+		</element>
+		<element name="Goggles of Night" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_GOGGLES_OF_NIGHT">
+			<description>
+				<p>While wearing these dark lenses, you have darkvision out to a range of 60 feet. If you already have darkvision, wearing the goggles increases its range by 60 feet.</p>
+			</description>
+			<setters>
+				<set name="keywords">darkvision</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">head</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+			<rules>
+				<grant type="Vision" id="ID_VISION_DARKVISION" />
+			</rules>
 		</element>
 		<element name="Goggles of Object Reading" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_GOGGLES_OF_OBJECT_READING">
 			<description>
@@ -116,6 +854,66 @@
 			</setters>
 		</element>
 	<!--H-->
+		<element name="Hat of Disguise" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_HAT_OF_DISGUISE">
+			<description>
+				<p>While wearing this hat, you can use an action to cast the <em>disguise self</em> spell from it at will. The spell ends if the hat is removed.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">head</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Headband of Intellect" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_HEADBAND_OF_INTELLECT">
+			<description>
+				<p>Your Intelligence score is 19 while you wear this headband. It has no effect on you if your Intelligence is 19 or higher without it.</p>
+			</description>
+			<setters>
+				<set name="keywords">intelligence</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">head</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+			<rules>
+				<stat name="intelligence:score:set" value="19" bonus="base" />
+			</rules>
+		</element>
+		<element name="Helm of Comprehending Languages" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_HELM_OF_COMPREHENDING_LANGUAGES">
+			<description>
+				<p>While wearing this helm, you can use an action to cast the <em>comprehend languages</em> spell from it at will.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">head</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Helm of Telepathy" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_HELM_OF_TELEPATHY">
+			<description>
+				<p>While wearing this helm, you can use an action to cast the <em>detect thoughts</em> spell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply -- using a bonus action to do so -- while your focus on it continues.</p>
+				<p class="indent">While focusing on a creature with <em>detect thoughts</em>, you can use an action to cast the <em>suggestion</em> spell (save DC 13) from the helm on that creature. Once used, the <em>suggestion</em> property can't be used again until the next dawn.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">head</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
 	<!--I-->
 		<element name="Infernal Puzzle Box" type="Magic Item" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_MAGIC_ITEM_INFERNAL_PUZZLE_BOX">
 			<description>
@@ -131,9 +929,126 @@
 				<set name="rarity">Uncommon</set>
 			</setters>
 		</element>
+		<element name="Instrument of the Bard, Doss Lute" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_INSTRUMENT_OF_THE_BARDS_DOSS_LUTE">
+			<description>
+				<p>An instrument of the bards is an exquisite example of it kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. The following table lists the spells common to all instruments, as well as the spells specific to each one and its rarity. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.</p>
+				<p class="indent">You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.</p>
+				<p class="indent">You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.</p>
+				<table>
+					<thead>
+						<tr><td>Instrument</td><td>Rarity</td><td>Spells</td></tr>
+					</thead>
+					<tr><td>All</td><td>-</td><td>Fly, invisibility, levitate, protection from evil and good, plus the spells listed for the particular instrument</td></tr>
+					<tr><td>Anstruth harp</td><td>Very rare</td><td>Control weather, cure wounds (5th level), wall of thorns</td></tr>
+					<tr><td>Canaith mandolin</td><td>Rare</td><td>Cure wounds (3rd level) , dispel magic, protection from energy (lightning only)</td></tr>
+					<tr><td>Cli lyre</td><td>Rare</td><td>Stone shape, wall of fire, wind wall</td></tr>
+					<tr><td>Doss lute</td><td>Uncommon</td><td>Animal friendship, protection from energy (fire only) , protection from poison</td></tr>
+					<tr><td>Fochlucan</td><td>Uncommon</td><td>Entangle, faerie fire, shillelagh, bandore speak with animals</td></tr>
+					<tr><td>Mac-Fuirmidh cittern</td><td>Uncommon</td><td>Barkskin, cure wounds, fog cloud</td></tr>
+					<tr><td>Ollamh harp</td><td>Legendary</td><td>Confusion, control weather, fire storm</td></tr>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords">bard</set>
+				<set name="category">Musical Instruments</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="slot">onehand</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Instrument of the Bard, Fochlucan Bandore" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_INSTRUMENT_OF_THE_BARDS_FOCHLUCAN_BANDORE">
+			<description>
+				<p>An instrument of the bards is an exquisite example of it kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. The following table lists the spells common to all instruments, as well as the spells specific to each one and its rarity. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.</p>
+				<p class="indent">You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.</p>
+				<p class="indent">You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.</p>
+				<table>
+					<thead>
+						<tr><td>Instrument</td><td>Rarity</td><td>Spells</td></tr>
+					</thead>
+					<tr><td>All</td><td>-</td><td>Fly, invisibility, levitate, protection from evil and good, plus the spells listed for the particular instrument</td></tr>
+					<tr><td>Anstruth harp</td><td>Very rare</td><td>Control weather, cure wounds (5th level), wall of thorns</td></tr>
+					<tr><td>Canaith mandolin</td><td>Rare</td><td>Cure wounds (3rd level) , dispel magic, protection from energy (lightning only)</td></tr>
+					<tr><td>Cli lyre</td><td>Rare</td><td>Stone shape, wall of fire, wind wall</td></tr>
+					<tr><td>Doss lute</td><td>Uncommon</td><td>Animal friendship, protection from energy (fire only) , protection from poison</td></tr>
+					<tr><td>Fochlucan</td><td>Uncommon</td><td>Entangle, faerie fire, shillelagh, bandore speak with animals</td></tr>
+					<tr><td>Mac-Fuirmidh cittern</td><td>Uncommon</td><td>Barkskin, cure wounds, fog cloud</td></tr>
+					<tr><td>Ollamh harp</td><td>Legendary</td><td>Confusion, control weather, fire storm</td></tr>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords">bard</set>
+				<set name="category">Musical Instruments</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="slot">onehand</set>
+				<set name="attunement" addition="by a bard">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Instrument of the Bard, Mac-Fuirmidh Cittern" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_INSTRUMENT_OF_THE_BARDS_MACFUIRMIDH_CITTERN">
+			<description>
+				<p>An instrument of the bards is an exquisite example of it kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. The following table lists the spells common to all instruments, as well as the spells specific to each one and its rarity. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.</p>
+				<p class="indent">You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.</p>
+				<p class="indent">You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.</p>
+				<table>
+					<thead>
+						<tr><td>Instrument</td><td>Rarity</td><td>Spells</td></tr>
+					</thead>
+					<tr><td>All</td><td>-</td><td>Fly, invisibility, levitate, protection from evil and good, plus the spells listed for the particular instrument</td></tr>
+					<tr><td>Anstruth harp</td><td>Very rare</td><td>Control weather, cure wounds (5th level), wall of thorns</td></tr>
+					<tr><td>Canaith mandolin</td><td>Rare</td><td>Cure wounds (3rd level) , dispel magic, protection from energy (lightning only)</td></tr>
+					<tr><td>Cli lyre</td><td>Rare</td><td>Stone shape, wall of fire, wind wall</td></tr>
+					<tr><td>Doss lute</td><td>Uncommon</td><td>Animal friendship, protection from energy (fire only) , protection from poison</td></tr>
+					<tr><td>Fochlucan</td><td>Uncommon</td><td>Entangle, faerie fire, shillelagh, bandore speak with animals</td></tr>
+					<tr><td>Mac-Fuirmidh cittern</td><td>Uncommon</td><td>Barkskin, cure wounds, fog cloud</td></tr>
+					<tr><td>Ollamh harp</td><td>Legendary</td><td>Confusion, control weather, fire storm</td></tr>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords">bard</set>
+				<set name="category">Musical Instruments</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="slot">onehand</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
 	<!--J-->
 	<!--K-->
+		<element name="Keoghtom’s Ointment" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_KEOGHTOMS_OINTMENT">
+			<description>
+				<p>This glass jar, 3 inches in diameter, contains 1d4 + 1 doses of a thick mixture that smells faintly of aloe. The jar and its contents weigh ½ pound.</p>
+				<p>As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains 2d8 + 2 hit points, ceases to be poisoned, and is cured of any disease.</p>
+			</description>
+			<setters>
+				<set name="keywords">healing, disease</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0.5">½ lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
 	<!--L-->
+		<element name="Lantern of Revealing" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_LANTERN_OF_REVEALING">
+			<description>
+				<p>While lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. Invisible creatures and objects are visible as long as they are in the lantern's bright light. You can use an action to lower the hood, reducing the light to dim light in a 5-foot radius.</p>
+			</description>
+			<setters>
+				<set name="keywords">light, invisible</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
 		<element name="Living Gloves" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_LIVING_GLOVES">
 			<description>
 				<p>These symbiotic gloves-made of thin chitin and sinew-pulse with a life of their own. To attune to them, you must wear them for the entire attunement period, during which the gloves bond with your skin.</p>
@@ -159,12 +1074,229 @@
 			</rules>
 		</element>
 	<!--M-->
+		<element name="Medallion of Thoughts" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_MEDALLION_OF_THOUGHTS">
+			<description>
+				<p>The medallion has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the <em>detect thoughts</em> spell (save DC 13) from it. The medallion regains 1d3 expended charges daily at dawn.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">neck</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+				<set name="charges">3</set>
+			</setters>
+		</element>
 	<!--N-->
+		<element name="Necklace of Adaptation" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_NECKLACE_OF_ADAPTATION">
+			<description>
+				<p>While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as <em>cloudkill</em> and				<em>stinking cloud</em> effects, inhaled poisons, and the breath weapons of some dragons).</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">neck</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
 	<!--O-->
 	<!--P-->
+		<element name="Pearl of Power" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_PEARL_OF_POWER">
+			<description>
+				<p>While this pearl is on your person, you can use an action to speak its command word and regain one expended spell slot. If the expended slot was of 4th level or higher, the new slot is 3rd level. If the expended slot was of 4th level or higher, the new slot is 3rd level. Once you use the pearl, it can't be used again until the next dawn.</p>
+			</description>
+			<setters>
+				<set name="keywords">spellcaster</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Periapt of Health" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_PERIAPT_OF_HEALTH">
+			<description>
+				<p>You are immune to contracting any disease while you wear this pendant. If you are already infected with a disease, the effects of the disease are suppressed you while you wear the pendant.</p>
+			</description>
+			<setters>
+				<set name="keywords">disease</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">neck</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Periapt of Wound Closure" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_PERIAPT_OF_WOUND_CLOSURE">
+			<description>
+				<p>While you wear this pendant, you stabilize whenever you are dying at the start of your turn. In addition, whenever you roll a Hit Die to regain hit points, double the number of hit points it restores.</p>
+			</description>
+			<setters>
+				<set name="keywords">healing</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">neck</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Pipes of Haunting" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_PIPES_OF_HAUNTING">
+			<description>
+				<p>You must be proficient with wind instruments to use these pipes. They have 3 charges. You can use an action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature within 30 feet of you that hears you play must succeed on a DC 15 Wisdom saving throw or become frightened of you for 1 minute. If you wish, all creatures in the area that aren't hostile toward you automatically succeed on the saving throw. A creature that fails the saving throw can repeat it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its saving throw is immune to the effect of these pipes for 24 hours. The pipes regain 1d3 expended charges daily at dawn.</p>
+			</description>
+			<setters>
+				<set name="keywords">wind</set>
+				<set name="category">Musical Instruments</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+				<set name="charges">3</set>
+			</setters>
+		</element>
+		<element name="Pipes of the Sewers" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_PIPES_OF_THE_SEWERS">
+			<description>
+				<p>You must be proficient with wind instruments to use these pipes. While you are attuned to the pipes, ordinary rats and giant rats are indifferent toward you and will not attack you unless you threaten or harm them.</p>
+				<p class="indent">The pipes have 3 charges. If you play the pipes as an action, you can use a bonus action to expend 1 to 3 charges, calling forth one swarm of rats with each expended charge, provided that enough rats are within half a mile of you to be called in this fashion (as determined by the GM). If there aren't enough rats to form a swarm, the charge is wasted. Called swarms move toward the music by the shortest available route but aren't under your control otherwise. The pipes regain 1d3 expended charges daily at dawn.</p>
+				<p class="indent">Whenever a swarm of rats that isn't under another creature's control comes within 30 feet of you while you are playing the pipes, you can make a Charisma check contested by the swarm's Wisdom check. If you lose the contest, the swarm behaves as it normally would and can't be swayed by the pipes' music for the next 24 hours. If you win the contest, the swarm is swayed by the pipes' music and becomes friendly to you and your companions for as long as you continue to play the pipes each round as an action. A friendly swarm obeys your commands. If you issue no commands to a friendly swarm, it defends itself but otherwise takes no actions. If a friendly swarm starts its turn and can't hear the pipes' music, your control over that swarm ends, and the swarm behaves as it normally would and can't be swayed by the pipes' music for the next 24 hours.</p>
+			</description>
+			<setters>
+				<set name="keywords">wind</set>
+				<set name="category">Musical Instruments</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+				<set name="charges">3</set>
+			</setters>
+		</element>
 	<!--Q-->
+		<element name="Quiver of Ehlonna" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_QUIVER_OF_EHLONNA">
+			<description>
+				<p>Each of the quiver's three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to sixty arrows, bolts, or similar objects. The midsize compartment holds up to eighteen javelins or similar objects. The longest compartment holds up to six long objects, such as bows, quarterstaffs, or spears.</p>
+				<p class="indent">You can draw any item the quiver contains as if doing so from a regular quiver or scabbard.</p>
+			</description>
+			<setters>
+				<set name="keywords">ammunition</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="2">2 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
 	<!--R-->
+		<element name="Robe of Useful Items" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ROBE_OF_USEFUL_ITEMS">
+			<description>
+				<p>This robe has cloth patches of various shapes and colors covering it. While wearing the robe, you can use an action to detach one of the patches, causing it to become the object or creature it represents. Once the last patch is removed, the robe becomes an ordinary garment.</p>
+				<p class="indent">The robe has two of each of the following patches:</p>
+				<ul>
+					<li>Dagger</li>
+					<li>Bullseye lantern (filled and lit)</li>
+					<li>Steel mirror</li>
+					<li>10-foot pole</li>
+					<li>Hempen rope (50 feet, coiled)</li>
+					<li>Sack</li>
+				</ul>
+				<p>In addition, the robe has 4d4 other patches. The GM chooses the patches or determines them randomly.</p>
+				<table>
+					<thead>
+						<tr><td>d100</td><td>Patch</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>01-08</td><td>Bag of 100 gp</td></tr>
+						<tr><td>09-15</td><td>Silver coffer (1 foot long, 6 inches wide and deep) worth 500 gp</td></tr>
+						<tr><td>16-22</td><td>Iron door (up to 10 feet wide and 10 feet high, barred on one side of your choice), which you can place in an opening you can reach; it conforms to fit the opening, attaching and hinging itself</td></tr>
+						<tr><td>23-30</td><td>10 gems worth 100 gp each</td></tr>
+						<tr><td>31-44</td><td>Wooden ladder (24 feet long)</td></tr>
+						<tr><td>45-51</td><td>A riding horse with saddle bags</td></tr>
+						<tr><td>52-59</td><td>Pit (a cube 10 feet on a side), which you can place on the ground within 10 feet of you</td></tr>
+						<tr><td>60-68</td><td>4 potions of healing</td></tr>
+						<tr><td>69-75</td><td>Rowboat (12 feet long)</td></tr>
+						<tr><td>76-83</td><td>Spell scroll containing one spell of 1st to 3rd level</td></tr>
+						<tr><td>84-90</td><td>2 mastiffs</td></tr>
+						<tr><td>91-96</td><td>Window (2 feet by 4 feet, up to 2 feet deep), which you can place on a vertical surface you can reach</td></tr>
+						<tr><td>97-00</td><td>Portable ram</td></tr>
+					</tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">shoulders</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Rope of Climbing" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ROPE_OF_CLIMBING">
+			<description>
+				<p>This 60-foot length of silk rope weighs 3 pounds and can hold up to 3,000 pounds. If you hold one end of the rope and use an action to speak the command word, the rope animates. As a bonus action, you can command the other end to move toward a destination you choose. That end moves 10 feet on your turn when you first command it and 10 feet on each of your turns until reaching its destination, up to its maximum length away, or until you tell it to stop. You can also tell the rope to fasten itself securely to an object or to unfasten itself, to knot or unknot itself, or to coil itself for carrying.</p>
+				<p class="indent">If you tell the rope to knot, large knots appear at 1-foot intervals along the rope. While knotted, the rope shortens to a 50-foot length and grants advantage on checks made to climb it.</p>
+				<p class="indent">The rope has AC 20 and 20 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the rope drops to 0 hit points, it is destroyed.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="3">3 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
 	<!--S-->
+		<element name="Saddle of the Cavalier" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_SADDLE_OF_THE_CAVALIER">
+			<description>
+				<p>While in this saddle on a mount, you can't be dismounted against your will if you're conscious, and attack rolls against the mount have disadvantage.</p>
+			</description>
+			<setters>
+				<set name="keywords">mount</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Sending Stones" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_SENDING_STONES">
+			<description>
+				<p>Sending stones come in pairs, with each smooth stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can use an action to cast the <em>sending</em> spell from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone and don't cast the spell.</p>
+				<p class="indent">Once sending is cast through the stones, they can't be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Slippers of Spider Climbing" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_SLIPPERS_OF_SPIDER_CLIMBING">
+			<description>
+				<p>While you wear these light shoes, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You have a climbing speed equal to your walking speed. However, the slippers don't allow you to move this way on a slippery surface, such as one covered by ice or oil.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">feet</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+			<rules>
+				<stat name="speed:climb" value="speed" bonus="base" />
+			</rules>
+		</element>
 		<element name="Soul Coin" type="Magic Item" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_MAGIC_ITEM_SOUL_COIN">
 			<description>
 				<p><em>Soul coins</em> are about 5 inches across and about an inch thick, minted from infernal iron. Each coin weighs one-third of a pound, and is inscribed with Infernal writing and a spell that magically binds a single soul to the coin. Because each <em>soul coin</em> has a unique soul trapped within it, each has a story. A creature might have been imprisoned as a result of defaulting on a deal, while another might be the victim of a night hag’s curse.</p>
@@ -192,6 +1324,49 @@
 				<set name="charges">3</set>
 			</setters>
 		</element>
+		<element name="Stone of Good Luck" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_STONE_OF_GOOD_LUCK">
+			<description>
+				<p>While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws.</p>
+			</description>
+			<setters>
+				<set name="keywords">ability, saving throw</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+			<rules>
+				<stat name="initiative" value="1" />
+
+				<stat name="acrobatics:misc" value="1" />
+				<stat name="animal handling:misc" value="1" />
+				<stat name="arcana:misc" value="1" />
+				<stat name="athletics:misc" value="1" />
+				<stat name="deception:misc" value="1" />
+				<stat name="history:misc" value="1" />
+				<stat name="insight:misc" value="1" />
+				<stat name="intimidation:misc" value="1" />
+				<stat name="investigation:misc" value="1" />
+				<stat name="medicine:misc" value="1" />
+				<stat name="nature:misc" value="1" />
+				<stat name="perception:misc" value="1" />
+				<stat name="performance:misc" value="1" />
+				<stat name="persuasion:misc" value="1" />
+				<stat name="religion:misc" value="1" />
+				<stat name="sleight of hand:misc" value="1" />
+				<stat name="stealth:misc" value="1" />
+				<stat name="survival:misc" value="1" />
+
+				<stat name="strength:save:misc" value="1" />
+				<stat name="dexterity:save:misc" value="1" />
+				<stat name="constitution:save:misc" value="1" />
+				<stat name="intelligence:save:misc" value="1" />
+				<stat name="wisdom:save:misc" value="1" />
+				<stat name="charisma:save:misc" value="1" />
+			</rules>
+		</element>
 	<!--T-->
 	<!--U-->
 	<!--V-->
@@ -206,6 +1381,38 @@
 				<set name="type">Wondrous Item</set>
 				<set name="rarity">Uncommon</set>
 			</setters>
+		</element>
+		<element name="Wind Fan" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_WIND_FAN">
+			<description>
+				<p>While holding this fan, you can use an action to cast the <em>gust of wind</em> spell (save DC 13) from it. Once used, the fan shouldn't be used again until the next dawn. Each time it is used again before then, it has a cumulative 20 percent chance of not working and tearing into useless, nonmagical tatters.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">onehand</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+		</element>
+		<element name="Winged Boots" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_WINGED_BOOTS">
+			<description>
+				<p>While you wear these boots, you have a flying speed equal to your walking speed. You can use the boots to fly for up to 4 hours, all at once or in several shorter flights, each one using a minimum of 1 minute from the duration. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land.</p>
+				<p class="indent">The boots regain 2 hours of flying capability for every 12 hours they aren't in use.</p>
+			</description>
+			<setters>
+				<set name="keywords">fly</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">feet</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Uncommon</set>
+			</setters>
+			<rules>
+				<stat name="speed:fly" value="speed" bonus="base" />
+			</rules>
 		</element>
 	<!--X-->
 	<!--Y-->
