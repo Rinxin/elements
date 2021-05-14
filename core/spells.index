@@ -10,14 +10,14 @@
 	</info>
 	<files>
 		<file name="0-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/0-level.xml" />
-        <file name="1-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/1-level.xml" />
-        <file name="2-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/2-level.xml" />
-        <file name="3-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/3-level.xml" />
-        <file name="4-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/4-level.xml" />
-        <file name="5-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/5-level.xml" />
-        <file name="6-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/6-level.xml" />
-        <file name="7-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/7-level.xml" />
-        <file name="8-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/8-level.xml" />
-        <file name="9-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/9-level.xml" />
-    </files>
+        	<file name="1-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/1-level.xml" />
+        	<file name="2-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/2-level.xml" />
+        	<file name="3-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/3-level.xml" />
+        	<file name="4-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/4-level.xml" />
+        	<file name="5-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/5-level.xml" />
+        	<file name="6-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/6-level.xml" />
+        	<file name="7-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/7-level.xml" />
+        	<file name="8-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/8-level.xml" />
+        	<file name="9-level.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/spells/9-level.xml" />
+    	</files>
 </index>
