@@ -18,6 +18,7 @@
 					<set name="keywords">poison</set>
 					<set name="category">Adventuring Gear</set>
 					<set name="cost" currency="gp">0</set>
+					<set name="rarity">Mundane</set>
 					<set name="weight" lb="1">1 lb.</set>
 					<set name="stackable">true</set>
 				</setters>
@@ -33,6 +34,7 @@
 				<set name="keywords">artificer,alchemist,experimental elixir</set>
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">0</set>
+				<set name="rarity">Mundane</set>
 				<set name="weight" lb="1">1 lb.</set>
 				<set name="stackable">true</set>
 			</setters>
@@ -46,6 +48,7 @@
 				<set name="keywords">blightshore contraband</set>
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">300</set>
+				<set name="rarity">Mundane</set>
 				<set name="weight" lb="0">0 lb.</set>
 				<set name="stackable">true</set>
 			</setters>
@@ -58,6 +61,7 @@
 				<set name="keywords">blightshore contraband</set>
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">200</set>
+				<set name="rarity">Mundane</set>
 				<set name="weight" lb="0">0 lb.</set>
 				<set name="stackable">true</set>
 			</setters>
@@ -99,7 +103,7 @@
 				<setters>
 					<set name="keywords">currency</set>
 					<set name="category">Coins</set>
-					<set name="cost" currency="cp">100</set>
+					<set name="cost" currency="sp">10</set>
 					<set name="weight" lb="0.02">1/50 lb.</set>
 					<set name="type">Coin</set>
 					<set name="rarity">Mundane</set>
@@ -113,7 +117,7 @@
 				<setters>
 					<set name="keywords">currency</set>
 					<set name="category">Coins</set>
-					<set name="cost" currency="cp">1000</set>
+					<set name="cost" currency="ep">10</set>
 					<set name="weight" lb="0.02">1/50 lb.</set>
 					<set name="type">Coin</set>
 					<set name="rarity">Mundane</set>
@@ -127,7 +131,7 @@
 				<setters>
 					<set name="keywords">currency</set>
 					<set name="category">Coins</set>
-					<set name="cost" currency="cp">10000</set>
+					<set name="cost" currency="gp">10</set>
 					<set name="weight" lb="0.02">1/50 lb.</set>
 					<set name="type">Coin</set>
 					<set name="rarity">Mundane</set>
@@ -141,7 +145,7 @@
 				<setters>
 					<set name="keywords">currency</set>
 					<set name="category">Coins</set>
-					<set name="cost" currency="cp">100000</set>
+					<set name="cost" currency="pp">10</set>
 					<set name="weight" lb="0.02">1/50 lb.</set>
 					<set name="type">Coin</set>
 					<set name="rarity">Mundane</set>
@@ -157,6 +161,7 @@
 				<set name="category">Treasure</set>
 				<set name="cost" currency="gp">25</set>
 				<set name="weight" lb="0">0 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 				<set name="valuable">true</set>
 			</setters>
@@ -173,6 +178,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">50</set>
 				<set name="weight" lb="1">1 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
@@ -186,6 +192,7 @@
 				<set name="category">Treasure</set>
 				<set name="cost" currency="gp">50</set>
 				<set name="weight" lb="0">0 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 				<set name="valuable">true</set>
 			</setters>
@@ -199,6 +206,7 @@
 					<set name="category">Adventuring Gear</set>
 					<set name="cost" currency="gp">0</set>
 					<set name="weight" lb="0">0 lb.</set>
+					<set name="rarity">Mundane</set>
 					<set name="stackable">true</set>
 				</setters>
 			</element>
@@ -210,6 +218,7 @@
 					<set name="category">Adventuring Gear</set>
 					<set name="cost" currency="gp">0</set>
 					<set name="weight" lb="0">0 lb.</set>
+					<set name="rarity">Mundane</set>
 					<set name="stackable">true</set>
 				</setters>
 			</element>
@@ -221,6 +230,7 @@
 					<set name="category">Adventuring Gear</set>
 					<set name="cost" currency="gp">0</set>
 					<set name="weight" lb="0">0 lb.</set>
+					<set name="rarity">Mundane</set>
 					<set name="stackable">true</set>
 				</setters>
 			</element>
@@ -238,6 +248,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">0</set>
 				<set name="weight" lb="0">0 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
@@ -251,6 +262,7 @@
 					<set name="category">Equipment Packs</set>
 					<set name="cost" currency="gp">33</set>
 					<set name="weight" lb="10">10 lbs.</set>
+					<set name="rarity">Mundane</set>
 				</setters>
 				<extract>
 					<item>ID_WOTC_PHB_ITEM_CHEST</item>
@@ -279,6 +291,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">75</set>
 				<set name="weight" lb="1">1 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
@@ -293,6 +306,7 @@
 				<set name="category">Treasure</set>
 				<set name="cost" currency="gp">15</set>
 				<set name="weight" lb="1">1 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 				<set name="valuable">true</set>
 			</setters>
@@ -308,6 +322,7 @@
 				<set name="category">Treasure</set>
 				<set name="cost" currency="gp">25</set>
 				<set name="weight" lb="0">0 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 				<set name="valuable">true</set>
 			</setters>
@@ -326,6 +341,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">50</set>
 				<set name="weight" lb="1">1 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
@@ -346,6 +362,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">1</set>
 				<set name="weight" lb="0">0 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
@@ -359,6 +376,7 @@
 					<set name="category">Musical Instruments</set>
 					<set name="cost" currency="gp">12</set>
 					<set name="weight" lb="2">2 lbs.</set>
+					<set name="rarity">Mundane</set>
 					<set name="slot">onehand</set>
 					<set name="proficiency">ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_BIRDPIPES</set>
 				</setters>
@@ -372,6 +390,7 @@
 					<set name="category">Musical Instruments</set>
 					<set name="cost" currency="gp">3</set>
 					<set name="weight" lb="2">2 lbs.</set>
+					<set name="rarity">Mundane</set>
 					<set name="slot">onehand</set>
 					<set name="proficiency">ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_GLAUR</set>
 				</setters>
@@ -385,6 +404,7 @@
 					<set name="category">Musical Instruments</set>
 					<set name="cost" currency="gp">3</set>
 					<set name="weight" lb="3">3 lbs.</set>
+					<set name="rarity">Mundane</set>
 					<set name="slot">onehand</set>
 					<set name="proficiency">ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_HAND_DRUM</set>
 				</setters>
@@ -398,6 +418,7 @@
 					<set name="category">Musical Instruments</set>
 					<set name="cost" currency="gp">3</set>
 					<set name="weight" lb="2">2 lbs.</set>
+					<set name="rarity">Mundane</set>
 					<set name="slot">onehand</set>
 					<set name="proficiency">ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_LONGHORN</set>
 				</setters>
@@ -411,6 +432,7 @@
 					<set name="category">Musical Instruments</set>
 					<set name="cost" currency="gp">2</set>
 					<set name="weight" lb="1">1 lbs.</set>
+					<set name="rarity">Mundane</set>
 					<set name="slot">onehand</set>
 					<set name="proficiency">ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_SHAWM</set>
 				</setters>
@@ -424,6 +446,7 @@
 					<set name="category">Musical Instruments</set>
 					<set name="cost" currency="gp">2</set>
 					<set name="weight" lb="1">1 lbs.</set>
+					<set name="rarity">Mundane</set>
 					<set name="slot">onehand</set>
 					<set name="proficiency">ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_SONGHORN</set>
 				</setters>
@@ -437,6 +460,7 @@
 					<set name="category">Musical Instruments</set>
 					<set name="cost" currency="gp">3</set>
 					<set name="weight" lb="2">2 lbs.</set>
+					<set name="rarity">Mundane</set>
 					<set name="slot">onehand</set>
 					<set name="proficiency">ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_TANTAN</set>
 				</setters>
@@ -450,6 +474,7 @@
 					<set name="category">Musical Instruments</set>
 					<set name="cost" currency="gp">2</set>
 					<set name="weight" lb="1">1 lbs.</set>
+					<set name="rarity">Mundane</set>
 					<set name="slot">onehand</set>
 					<set name="proficiency">ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_THELARR</set>
 				</setters>
@@ -463,6 +488,7 @@
 					<set name="category">Musical Instruments</set>
 					<set name="cost" currency="gp">2</set>
 					<set name="weight" lb="2">2 lbs.</set>
+					<set name="rarity">Mundane</set>
 					<set name="slot">onehand</set>
 					<set name="proficiency">ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_TOCKEN</set>
 				</setters>
@@ -476,6 +502,7 @@
 					<set name="category">Musical Instruments</set>
 					<set name="cost" currency="gp">6</set>
 					<set name="weight" lb="3">3 lbs.</set>
+					<set name="rarity">Mundane</set>
 					<set name="slot">onehand</set>
 					<set name="proficiency">ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_WARGONG</set>
 				</setters>
@@ -489,6 +516,7 @@
 					<set name="category">Musical Instruments</set>
 					<set name="cost" currency="gp">35</set>
 					<set name="weight" lb="2">2 lbs.</set>
+					<set name="rarity">Mundane</set>
 					<set name="slot">onehand</set>
 					<set name="proficiency">ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_YARTING</set>
 				</setters>
@@ -502,6 +530,7 @@
 					<set name="category">Musical Instruments</set>
 					<set name="cost" currency="gp">30</set>
 					<set name="weight" lb="6">6 lbs.</set>
+					<set name="rarity">Mundane</set>
 					<set name="slot">onehand</set>
 					<set name="proficiency">ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_ZULKOON</set>
 				</setters>
@@ -522,6 +551,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">50</set>
 				<set name="weight" lb="0">0 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
@@ -537,28 +567,35 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">35</set>
 				<set name="weight" lb="1">1 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
 	<!--P-->
 		<!--Poisons-->
-			<element name="Assassin's Blood" type="Item" source="Player's Handbook" id="ID_WOTC_PHB_ITEM_ASSASSINS_BLOOD">
-				<description>
-					<p>A creature subjected to this poison must make a DC 10 Constitution saving throw. On a failed save, it takes 6 (1d12) poison damage and is poisoned for 24 hours. On a successful save, the creature takes half damage and isn't poisoned.</p>
-					<p class="indent"><b>Ingested.</b> A creature must swallow an entire dose of ingested poison to suffer its effects. The dose can be delivered in food or a liquid. You may decide that a partial dose has a reduced effect, such as allowing advantage on the saving throw or dealing only half damage on a failed save.</p>
-				</description>
-				<setters>
-					<set name="keywords">poison</set>
-					<set name="category">Adventuring Gear</set>
-					<set name="cost" currency="gp">150</set>
-					<set name="weight" lb="1">1 lb.</set>
-					<set name="stackable">true</set>
-				</setters>
-			</element>
+			<element name="Assassin’s Blood" type="Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_ITEM_POISON_ASSASSINS_BLOOD">
+		<description>
+			<p>A creature subjected to this poison must make a DC 10 Constitution saving throw. On a failed save, it takes 6 (1d12) poison damage and is poisoned for 24 hours. On a successful save, the creature takes half damage and isn't poisoned.</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INGESTED" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,ingest</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">150</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="rarity">Mundane</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Assassin’s Blood (Ingested)" />
+	</element>
 			<element name="Blood of the Lycanthrope" type="Item" source="Player's Handbook" id="ID_WOTC_PHB_ITEM_BLOOD_OF_THE_LYCANTHROPE">
 				<description>
 					<p>This poison is created from blood harvested from a dead or incapacitated lycanthrope in its animal or hybrid form. A creature subjected to this poison must succeed on a DC 12 Constitution saving throw or be cursed with lycanthropy (see the Monster Manual). The curse lasts until removed by the remove curse spell or similar magic.</p>
-					<p class="indent"><b>Injury.</b> Injury poison can be applied to weapons, ammunition, trap components, and other objects that deal piercing or slashing damage and remains potent until delivered through a wound or washed off. A creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.</p>
+					<div class="reference">
+						<div element="ID_INTERNAL_SUPPORT_POISON_INJURY" />
+					</div>
 					<p class="indent">The type of lycanthropy depends on the lycanthrope used to create the poison. To determine the type of lycanthropy randomly, roll a d6:</p>
 					<table>
 						<tr><th>d6</th><th>type of lycanthropy</th></tr>
@@ -568,50 +605,62 @@
 					</table>
 				</description>
 				<setters>
-					<set name="keywords">poison</set>
-					<set name="category">Adventuring Gear</set>
+					<set name="keywords">poison,injury</set>
+					<set name="category">Poison</set>
 					<set name="cost" currency="gp">500</set>
 					<set name="weight" lb="1">1 lb.</set>
+					<set name="rarity">Mundane</set>
 					<set name="stackable">true</set>
 				</setters>
+				<sheet alt="Blood of the Lycantrhope (Injury)" />
 			</element>
-			<element name="Burnt Othur Fumes" type="Item" source="Player's Handbook" id="ID_WOTC_PHB_ITEM_BURNT_OTHUR_FUMES">
-				<description>
-					<p>A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or take 10 (3d6) poison damage, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the character takes 3 (1d6) poison damage. After three successful saves, the poison ends.</p>
-					<p class="indent"><b>Inhaled.</b> These poisons are powders or gases that take effect when inhaled. Blowing the powder or releasing the gas subjects creatures in a 5-foot cube to its effect. The resulting cloud dissipates immediately afterward. Holding one's breath is ineffective against inhaled poisons, as they affect nasal membranes, tear ducts, and other parts of the body.</p>
-				</description>
-				<setters>
-					<set name="keywords">poison</set>
-					<set name="category">Adventuring Gear</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="1">1 lb.</set>
-					<set name="stackable">true</set>
-				</setters>
-			</element>
-			<element name="Crawler Mucus" type="Item" source="Player's Handbook" id="ID_WOTC_PHB_ITEM_CRAWLER_MUCUS">
-				<description>
-					<p>This poison must be harvested from a dead or incapacitated crawler. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. The poisoned creature is paralyzed. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
-					<p class="indent">Contact. Contact poison can be smeared on an object and remains potent until it is touched or washed off. A creature that touches contact poison with exposed skin suffers its effects.</p>
-				</description>
-				<setters>
-					<set name="keywords">poison</set>
-					<set name="category">Adventuring Gear</set>
-					<set name="cost" currency="gp">200</set>
-					<set name="weight" lb="1">1 lb.</set>
-					<set name="stackable">true</set>
-				</setters>
-			</element>
+			<element name="Burnt Othur Fumes" type="Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_ITEM_POISON_BURNT_OTHUR_FUMES">
+		<description>
+			<p>A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or take 10 (3d6) poison damage, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the character takes 3 (1d6) poison damage. After three successful saves, the poison ends.</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INHALED" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,inhale</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">500</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="rarity">Mundane</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Burnt Othur Fumes (Inhaled)" />
+	</element>
+			<element name="Carrion Crawler Mucus" type="Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_ITEM_POISON_CARRION_CRAWLER_MUCUS">
+		<description>
+			<p>This poison must be harvested from a dead or incapacitated carrion crawler. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. The poisoned creature is paralyzed. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_CONTACT" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,contact</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">200</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="rarity">Mundane</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Carrion Crawler Mucus (Contact)" />
+	</element>
 			<element name="Dragon's Blood" type="Item" source="Player's Handbook" id="ID_WOTC_PHB_ITEM_DRAGONS_BLOOD">
 				<description>
 					<p>Introduced into Sharn by Daask, dragon’s blood is a potent and highly addictive stimulant. In addition to inducing euphoria, it can enhance spellcasting ability or even temporarily imbue a user with the ability to cast sorcerer spells. The drug’s effects are potentially dangerous and always unpredictable. This isn’t something a player character should want to use; adventurers are more likely to interfere with Daask smugglers or deal with an addict who accidentally casts a fireball in a crowded street. The specific effects of dragon’s blood are up to you, but you can take inspiration from the Wild Magic Surge table in the Player’s Handbook.</p>
 				</description>
 				<setters>
 					<set name="keywords">poison</set>
-					<set name="category">Adventuring Gear</set>
+					<set name="category">Poison</set>
 					<set name="cost" currency="gp">0</set>
 					<set name="weight" lb="1">1 lb.</set>
+					<set name="rarity">Mundane</set>
 					<set name="stackable">true</set>
 				</setters>
+				
 			</element>
 			<element name="Dreamlily" type="Item" source="Player's Handbook" id="ID_WOTC_PHB_ITEM_DREAMLILY">
 				<description>
@@ -622,22 +671,220 @@
 					<set name="category">Adventuring Gear</set>
 					<set name="cost" currency="gp">1</set>
 					<set name="weight" lb="1">1 lb.</set>
+					<set name="rarity">Mundane</set>
 					<set name="stackable">true</set>
 				</setters>
 			</element>
-			<element name="Drow Poison" type="Item" source="Player's Handbook" id="ID_WOTC_PHB_ITEM_DROW_POISON">
-				<description>
-					<p>This poison is typically made only by the drow, and only in a place far removed from sunlight. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the creature is also unconscious while poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</p>
-					<p class="indent"><b>Injury.</b> Injury poison can be applied to weapons, ammunition, trap components, and other objects that deal piercing or slashing damage and remains potent until delivered through a wound or washed off. A creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.</p>
-				</description>
-				<setters>
-					<set name="keywords">poison</set>
-					<set name="category">Adventuring Gear</set>
-					<set name="cost" currency="gp">200</set>
-					<set name="weight" lb="1">1 lb.</set>
-					<set name="stackable">true</set>
-				</setters>
-			</element>
+			<element name="Drow Poison" type="Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_ITEM_POISON_DROW_POISON">
+		<description>
+			<p>This poison is typically made only by the draw, and only in a place far removed from sunlight. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the creature is also unconscious while poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INJURY" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,injure,injury</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">200</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="rarity">Mundane</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Drow Poison (Injury)" />
+	</element>
+		<element name="Essence of Ether" type="Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_ITEM_POISON_ESSENCE_OF_ETHER">
+		<description>
+			<p>A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 8 hours. The poisoned creature is unconscious. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INHALED" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,inhale</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="rarity">Mundane</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Essence of Ether (Inhaled)" />
+	</element>
+	<element name="Malice" type="Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_ITEM_POISON_MALICE">
+		<description>
+			<p>A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 1 hour. The poisoned creature is blinded.</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INHALED" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,inhale</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">250</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="rarity">Mundane</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Malice (Inhaled)" />
+	</element>
+	<element name="Midnight Tears" type="Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_ITEM_POISON_MIDNIGHT_TEARS">
+		<description>
+			<p>A creature that ingests this poison suffers no effect until the stroke of midnight. If the poison has not been neutralized before then, the creature must succeed on a DC 17 Constitution saving throw, taking 31 (9d6) poison damage on a failed save, or half as much damage on a successful one.</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INGESTED" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,ingest</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">1500</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="rarity">Mundane</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Midnight Tears (Ingested)" />
+	</element>
+	<element name="Oil of Taggit" type="Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_ITEM_POISON_OIL_OF_TAGGIT">
+		<description>
+			<p>A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or become poisoned for 24 hours. The poisoned creature is unconscious. The creature wakes up if it takes damage.</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_CONTACT" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,contact</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">400</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="rarity">Mundane</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Oil of Taggit (Contact)" />
+	</element>
+	<element name="Pale Tincture" type="Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_ITEM_POISON_PALE_TINCTURE">
+		<description>
+			<p>A creature subjected to this poison must succeed on a DC 16 Constitution saving throw or take 3 (1d6) poison damage and become poisoned. The poisoned creature must repeat the saving throw every 24 hours, taking 3 (1d6) poison damage on a failed save. Until this poison ends, the damage the poison deals can’t be healed by any means. After seven successful saving throws, the effect ends and the creature can heal normally.</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INGESTED" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,ingest</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">250</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="rarity">Mundane</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Pale Tincture (Ingested)" />
+	</element>
+	<element name="Purple Worm Poison" type="Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_ITEM_POISON_PURPLE_WORM_POISON">
+		<description>
+			<p>This poison must be harvested from a dead or incapacitated purple worm. A creature subjected to this poison must make a DC 19 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one.</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INJURY" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,injure,injury</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">2000</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="rarity">Mundane</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Purple Worm Poison (Injury)" />
+	</element>
+	<element name="Serpent Venom" type="Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_ITEM_POISON_SERPENT_VENOM">
+		<description>
+			<p>This poison must be harvested from a dead or incapacitated giant poisonou snake. A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INJURY" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,injure,injury</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">200</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="rarity">Mundane</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Serpent Venom (Injury)" />
+	</element>
+	<element name="Torpor" type="Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_ITEM_POISON_TORPOR">
+		<description>
+			<p>A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or become poisoned for 4d6 hours. The poisoned creature is incapacitated.</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INGESTED" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,ingest</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">600</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="rarity">Mundane</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Torpor (Ingested)" />
+	</element>
+	<element name="Truth Serum" type="Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_ITEM_POISON_TRUTH_SERUM">
+		<description>
+			<p>creature subjected to thi poison must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour. The poisoned creature can't knowingly speak a lie, as if under the effect of a zone of truth spell.</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INGESTED" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,ingest</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">150</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="rarity">Mundane</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Truth Serum (Ingested)" />
+	</element>
+	<element name="Wyvern Poison" type="Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_ITEM_POISON_WYVERN_POISON">
+		<description>
+			<p>This poison must be harvested from a dead or incapacitated wyvern. A creature subjected to this poison must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.</p>
+			<div class="reference">
+				<div element="ID_INTERNAL_SUPPORT_POISON_INJURY" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">poison,injure,injury</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">1200</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="rarity">Mundane</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Wyvern Poison (Injury)" />
+	</element>
+
+	<!-- poison types -->
+	<element name="Contact" type="Support" source="Internal" id="ID_INTERNAL_SUPPORT_POISON_CONTACT">
+		<description>
+			<p>Contact poison can be smeared on an object and remains potent until it is touched or washed off. A creature that touches contact poison with exposed skin suffers its effects.</p>
+		</description>
+	</element>
+	<element name="Ingested" type="Support" source="Internal" id="ID_INTERNAL_SUPPORT_POISON_INGESTED">
+		<description>
+			<p>A creature must swallow an entire dose of ingested poison to suffer its effects. The dose can be delivered in food or a liquid. You might decide that a partial dose has a reduced effect, such as allowing advantage on the saving throw or dealing only half damage on a failed save.</p>
+		</description>
+	</element>
+	<element name="Inhaled" type="Support" source="Internal" id="ID_INTERNAL_SUPPORT_POISON_INHALED">
+		<description>
+			<p>These poisons are powders or gases that take effect when inhaled. Blowing the powder or releasing the gas subjects creatures in a 5-foot cube to its effect. The resulting cloud dissipates immediately afterward. Holding one’s breath is ineffective against inhaled poisons, as they affect nasal membranes, tear ducts, and other parts of the body.</p>
+		</description>
+	</element>
+	<element name="Injury" type="Support" source="Internal" id="ID_INTERNAL_SUPPORT_POISON_INJURY">
+		<description>
+			<p>Injury poison can be applied to weapons, ammunition, trap components, and other objects that deal piercing or slashing damage and remains potent until delivered through a wound or washed off. A creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.</p>
+		</description>
+	</element>
+	<!--/Poison Types-->
 		<!--/Poisons-->
 		<element name="Pride Silk (1 square yard)" type="Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_ITEM_PRIDE_SILK_SQUARD_YARD">
 			<description>
@@ -651,6 +898,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">100</set>
 				<set name="weight" lb="1">1 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
@@ -667,6 +915,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">500</set>
 				<set name="weight" lb="4">4 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="slot">misc</set>			
 			</setters>
 			<rules>
@@ -689,6 +938,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">40</set>
 				<set name="weight" lb="1">1 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
@@ -705,6 +955,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">60</set>
 				<set name="weight" lb="1">1 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
@@ -720,6 +971,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">30</set>
 				<set name="weight" lb="1">1 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
@@ -732,6 +984,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">150</set>
 				<set name="weight" lb="0">0 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
@@ -745,6 +998,7 @@
 					<set name="category">Spellcasting Focus</set>
 					<set name="cost" currency="gp">0</set>
 					<set name="weight" lb="1">1 lb.</set>
+					<set name="rarity">Mundane</set>
 					<set name="slot">onehand</set>
 				</setters>
 			</element>
@@ -757,6 +1011,7 @@
 					<set name="category">Spellcasting Focus</set>
 					<set name="cost" currency="gp">0</set>
 					<set name="weight" lb="1">1 lb.</set>
+					<set name="rarity">Mundane</set>
 					<set name="slot">onehand</set>
 				</setters>
 			</element>
@@ -773,6 +1028,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">85</set>
 				<set name="weight" lb="1">1 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
@@ -788,6 +1044,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">45</set>
 				<set name="weight" lb="1">1 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
@@ -805,6 +1062,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">3</set>
 				<set name="weight" lb="0">0 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
@@ -819,6 +1077,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">0</set>
 				<set name="weight" lb="5">5 lb.</set>
+				<set name="rarity">Mundane</set>
 			</setters>
 		</element>
 	<!--U-->
@@ -838,6 +1097,7 @@
 					<set name="category">Mounts &amp; Vehicles</set>
 					<set name="cost" currency="gp">0</set>
 					<set name="weight" lb="0">0 lb.</set>
+					<set name="rarity">Mundane</set>
 					<set name="type">Vehicle</set>
 				</setters>
 			</element>
@@ -851,6 +1111,7 @@
 					<set name="category">Mounts &amp; Vehicles</set>
 					<set name="cost" currency="gp">0</set>
 					<set name="weight" lb="0">0 lb.</set>
+					<set name="rarity">Mundane</set>
 					<set name="type">Vehicle</set>
 				</setters>
 			</element>
@@ -870,6 +1131,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">0</set>
 				<set name="weight" lb="1">1 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
@@ -886,6 +1148,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">65</set>
 				<set name="weight" lb="1">1 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
@@ -902,6 +1165,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">30</set>
 				<set name="weight" lb="0">0 lb.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
@@ -911,6 +1175,7 @@
 				<set name="category">Adventuring Gear</set>
 				<set name="cost" currency="gp">0</set>
 				<set name="weight" lb="0">0 lbs.</set>
+				<set name="rarity">Mundane</set>
 				<set name="stackable">true</set>
 			</setters>
 		</element>
