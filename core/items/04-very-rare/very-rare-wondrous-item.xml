@@ -37,6 +37,21 @@
 				<stat name="constitution:max" value="2" />
 			</rules>
 		</element>
+		<element name="Amulet of the Planes" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_AMULET_OF_THE_PLANES">
+			<description>
+				<p>While wearing this amulet, you can use an action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence check. On a successful check, you cast the Plane Shift spell. On a failure, you and each creature and object within 15 feet of you travel to a random destination. Roll a d100. On a 1-60, you travel to a random location on the plane you named. On a 61-100, you travel to a randomly determined plane of existence.</p>
+			</description>
+			<setters>
+				<set name="keywords">necklace</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="1">1 lb.</set>
+				<set name="slot">neck</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
 		<element name="Amulet of the Sea of Stars" type="Magic Item" source="Relics of the Realms - Volume 5" id="ID_BONUSACTION_ROTR5_MAGIC_ITEM_AMULET_OF_THE_SEA_OF_STARS">
 			<description>
 				<p><b>Star-Eyed. </b>While attuned to this amulet you have Darkvision out to a range of 120ft. Additionally you can use a bonus action to channel the energy from this amulet to gain Truesight for 1 hour out to a range of 120ft. You can use this feature once per day.</p>
@@ -112,6 +127,22 @@
 			</setters>
 		</element>
 	<!--B-->
+		<element name="Bag of Devouring" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_BAG_OF_DEVOURING">
+			<description>
+				<p>This bag superficially resembles a <em>bag of holding</em> but is a feeding orifice for a gigantic extradimensional creature. Turning the bag inside out closes the orifice.</p>
+				<p class="indent">The extradimensional creature attached to the bag can sense whatever is placed inside the bag. Animal or vegetable matter placed wholly in the bag is devoured and lost forever. When part of a living creature is placed in the bag, as happens when someone reaches inside it, there is a 50 percent chance that the creature is pulled inside the bag. A creature inside the bag can use its action to try to escape with a successful DC 15 Strength check. Another creature can use its action to reach into the bag to pull a creature out, doing so with a successful DC 20 Strength check (provided it isn't pulled inside the bag first). Any creature that starts its turn inside the bag is devoured, its body destroyed.</p>
+				<p class="indent">Inanimate objects can be stored in the bag, which can hold a cubic foot of such material. However, once each day, the bag swallows any objects inside it and spits them out into another plane of existence. The GM determines the time and plane.</p>
+				<p class="indent">If the bag is pierced or torn, it is destroyed, and anything contained within it is transported to a random location on the Astral Plane.</p>
+			</description>
+			<setters>
+				<set name="keywords">extradimensional</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
 		<element name="Battle Standard of Infernal Power" type="Magic Item" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_MAGIC_ITEM_BATTLE_STANDARD_OF_INFERNAL_POWER">
 			<description>
 				<p>This hell-forged battle standard is made of infernal iron and fitten with a small, unopenable cage containing a quasit. The trapped quasit is incapacitated, and its cage has AC 19, 10 hit points, and immunity to all types of damage except force damage. If killed or somehow released, the quasit disappears in a cloud of smoke, and a new one appears in the cage, provided the cage is intact.</p>
@@ -127,7 +158,154 @@
 				<set name="attunement">true</set>
 			</setters>
 		</element>
+		<element name="Belt of Stone Giant Strength" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_BELT_OF_STONE_GIANT_STRENGTH">
+			<description>
+				<p>While wearing this belt, your Strength score changes to a score granted by the belt. The item has no effect on you if your Strength without the belt is equal to or greater than the belt’s score.</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">waist</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+			<rules>
+				<stat name="strength:score:set" value="23" bonus="base" />
+			</rules>
+		</element>
+		<element name="Belt of Frost Giant Strength" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_BELT_OF_FROST_GIANT_STRENGTH">
+			<description>
+				<p>While wearing this belt, your Strength score changes to a score granted by the belt. The item has no effect on you if your Strength without the belt is equal to or greater than the belt’s score.</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">waist</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+			<rules>
+				<stat name="strength:score:set" value="23" bonus="base" />
+			</rules>
+		</element>
+		<element name="Belt of Fire Giant Strength" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_BELT_OF_FIRE_GIANT_STRENGTH">
+			<description>
+				<p>While wearing this belt, your Strength score changes to a score granted by the belt. The item has no effect on you if your Strength without the belt is equal to or greater than the belt’s score.</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">waist</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+			<rules>
+				<stat name="strength:score:set" value="25" bonus="base" />
+			</rules>
+		</element>
 	<!--C-->
+		<element name="Candle of Invocation" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_CANDLE_OF_INVOCATION">
+			<description>
+				<p>This slender taper is dedicated to a deity and shares that deity's alignment. The candle's alignment can be detected with the <em>detect evil and good</em> spell. The GM chooses the god and associated alignment or determines the alignment randomly.</p>
+				<table>
+					<thead>
+						<tr><td class="col-20">d20</td><td>Alignment</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>1-2</td><td>Chaotic evil</td></tr>
+						<tr><td>3-4</td><td>Chaotic neutral</td></tr>
+						<tr><td>5-7</td><td>Chaotic good</td></tr>
+						<tr><td>8-9</td><td>Neutral evil</td></tr>
+						<tr><td>10-11</td><td>Neutral</td></tr>
+						<tr><td>12-13</td><td>Neutral good</td></tr>
+						<tr><td>14-15</td><td>Lawful evil</td></tr>
+						<tr><td>16-17</td><td>Lawful neutral</td></tr>
+						<tr><td>18-20</td><td>Lawful good</td></tr>
+					</tbody>
+				</table>
+				<p class="indent">The candle's magic is activated when the candle is lit, which requires an action. After burning for 4 hours, the candle is destroyed. You can snuff it out early for use at a later time. Deduct the time it burned in increments of 1 minute from the candle's total burn time.</p>
+				<p class="indent">While lit, the candle sheds dim light in a 30-foot radius. Any creature within that light whose alignment matches that of the candle makes attack rolls, saving throws, and ability checks with advantage. In addition, a cleric or druid in the light whose alignment matches the candle's can cast 1st-level spells he or she has prepared without expending spell slots, though the spell's effect is as if cast with a 1st-level slot.</p>
+				<p class="indent">Alternatively, when you light the candle for the first time, you can cast the <em>gate</em> spell with it. Doing so destroys the candle.</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
+		<element name="Carpet of Flying, 3ft. x 5ft." type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_CARPET_OF_FLYING_3_5">
+			<description>
+				<p>You can speak the carpet's command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.</p>
+				<p class="indent">This carpet is 3ft. by 5ft. and can carry upto 200 lb. Its fly speed is 80 ft.</p>
+				<p class="indent">A carpet can carry up to twice the weight shown on the table, but it flies at half speed if it carries more than its normal capacity.</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
+		<element name="Carpet of Flying, 4ft. x 6ft." type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_CARPET_OF_FLYING_4_6">
+			<description>
+				<p>You can speak the carpet's command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.</p>
+				<p class="indent">This carpet is 4ft. by 6ft. and can carry upto 400 lb. Its fly speed is 60 ft.</p>
+				<p class="indent">A carpet can carry up to twice the weight shown on the table, but it flies at half speed if it carries more than its normal capacity.</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
+		<element name="Carpet of Flying, 5ft. x 7ft." type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_CARPET_OF_FLYING_5_7">
+			<description>
+				<p>You can speak the carpet's command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.</p>
+				<p class="indent">This carpet is 5ft. by 7ft. and can carry upto 600 lb. Its fly speed is 40 ft.</p>
+				<p class="indent">A carpet can carry up to twice the weight shown on the table, but it flies at half speed if it carries more than its normal capacity.</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
+		<element name="Carpet of Flying, 6ft. x 9ft." type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_CARPET_OF_FLYING_6_9">
+			<description>
+				<p>You can speak the carpet's command word as an action to make the carpet hover and fly. It moves according to your spoken directions, provided that you are within 30 feet of it.</p>
+				<p class="indent">This carpet is 6ft. by 9ft. and can carry upto 800 lb. Its fly speed is 30 ft.</p>
+				<p class="indent">A carpet can carry up to twice the weight shown on the table, but it flies at half speed if it carries more than its normal capacity.</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
 		<element name="Chronolometer" type="Magic Item" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_MAGIC_ITEM_CHRONOLOMETER">
 			<description>
 				<p>While attuned to this device, you have a +1 bonus to Intelligence saving throws. The first time you attune to the chronolometer, you choose one language you don’t know. You subsequently know that language while attuned to the device.</p>
@@ -147,6 +325,46 @@
 				<stat name="intelligence:save:misc" value="1" />
 				<select type="Language" name="Language, Chronolometer" supports="Standard||Exotic||Secret" />		
 			</rules>
+		</element>
+		<element name="Cloak of Arachnida" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_CLOAK_OF_ARACHNIDA">
+			<description>
+				<p>This fine garment is made of black silk interwoven with faint silvery threads. While wearing it, you gain the following benefits:</p>
+				<ul>
+					<li>You have resistance to poison damage.</li>
+					<li>You have a climbing speed equal to your walking speed.</li>
+					<li>You can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</li>
+					<li>You can't be caught in webs of any sort and can move through webs as if they were difficult terrain.</li>
+					<li>You can use an action to cast the <em>web</em> spell (save DC 13). The web created by the spell fills twice its normal area. Once used, this property of the cloak can't be used again until the next dawn.</li>
+				</ul>
+			</description>
+			<setters>
+				<set name="keywords">resistance, poison</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">shoulders</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+			<rules>
+				<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+				<stat name="speed:climb" value="speed" bonus="base" />
+			</rules>
+		</element>
+		<element name="Crystal Ball" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_CRYSTAL_BALL">
+			<description>
+				<p>The typical <em>crystal ball</em>, a very rare item, is about 6 inches in diameter. While touching it, you can cast the <em>scrying</em> spell (save DC 17) with it.</p>
+			</description>
+			<setters>
+				<set name="keywords">scry</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
 		</element>
 	<!--D-->
 		<element name="Dimensional Loop" type="Magic Item" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_MAGIC_ITEM_DIMENSIONAL_LOOP">
@@ -181,6 +399,30 @@
 			</setters>
 		</element>
 	<!--E-->
+		<element name="Efreeti Bottle" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_EFREETI_BOTTLE">
+			<description>
+				<p>This painted brass bottle weighs 1 pound. When you use an action to remove the stopper, a cloud of thick smoke flows out of the bottle. At the end of your turn, the smoke disappears with a flash of harmless fire, and an efreeti appears in an unoccupied space within 30 feet of you.</p>
+				<p class="indent">The first time the bottle is opened, the GM rolls to determine what happens.</p>
+				<table>
+					<thead>
+						<tr><td>d100</td><td>Effect</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>01-10</td><td>The efreeti attacks you. After fighting for 5 rounds, the efreeti disappears, and the bottle loses its magic.</td></tr>
+						<tr><td>11-90</td><td>The efreeti serves you for 1 hour, doing as you command. Then the efreeti returns to the bottle, and a new stopper contains it. The stopper can't be removed for 24 hours. The next two times the bottle is opened, the same effect occurs. If the bottle is opened a fourth time, the efreeti escapes and disappears, and the bottle loses its magic.</td></tr>
+						<tr><td>91-00</td><td>The efreeti can cast the wish spell three times for you. It disappears when it grants the final wish or after 1 hour, and the bottle loses its magic.</td></tr>
+					</tbody>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="1">1 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
 	<!--F-->
 		<element name="Far Gear" type="Magic Item" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_MAGIC_ITEM_FAR_GEAR">
 			<description>
@@ -201,8 +443,52 @@
 				<stat name="charisma:save:misc" value="1" />			
 			</rules>
 		</element>
+		<element name="Figurine of Wondrous Power, Obsidian Steed" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_FIGURINE_OF_WONDROUS_POWER_OBSIDIAN_STEED">
+			<description>
+				<p>This polished obsidian horse can become a nightmare for up to 24 hours. The nightmare fights only to defend itself. Once it has been used, it can't be used again until 5 days have passed.</p>
+				<p class="indent">If you have a good alignment, the figurine has a 10 percent chance each time you use it to ignore your orders, including a command to revert to figurine form. If you mount the nightmare while it is ignoring your orders, you and the nightmare are instantly transported to a random location on the plane of Hades, where the nightmare reverts to figurine form.</p>
+				<p>A <em>figurine of wondrous power</em> is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.</p>
+				<p class="indent">The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.</p>
+				<p class="indent">The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
 	<!--G-->
 	<!--H-->
+		<element name="Helm of Brilliance" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_HELM_OF_BRILLIANCE">
+			<description>
+				<p>This dazzling helm is set with 1d10 diamonds, 2d10 rubies, 3d10 fire opals, and 4d10 opals. Any gem pried from the helm crumbles to dust. When all the gems are removed or destroyed, the helm loses its magic.</p>
+				<p class="indent">You gain the following benefits while wearing it:</p>
+				<ul>
+					<li>You can use an action to cast one of the following spells (save DC 18), using one of the helm's gems of the specified type as a component: <em>daylight</em> (opal), <em>fireball</em> (fire opal),	 <em>prismatic spray</em> (diamond), or <em>wall of fire</em> (ruby). The gem is destroyed when the spell is cast and disappears from the helm.
+					</li>
+					<li>As long as it has at least one diamond, the helm emits dim light in a 30-foot radius when at least one undead is within that area. Any undead that starts its turn in that area takes 1d6 radiant damage.</li>
+					<li>As long as the helm has at least one ruby, you have resistance to fire damage.</li>
+					<li>As long as the helm has at least one fire opal, you can use an action and speak a command word to cause one weapon you are holding to burst into flames. The flames emit bright light in a 10-foot radius and dim light for an additional 10 feet. The flames are harmless to you and the weapon. When you hit with an attack using the blazing weapon, the target takes an extra 1d6 fire damage. The flames last until you use a bonus action to speak the command word again or until you drop or stow the weapon.</li>
+				</ul>
+				<p>Roll a d20 if you are wearing the helm and take fire damage as a result of failing a saving throw against a spell. On a roll of 1, the helm emits beams of light from its remaining gems. Each creature within 60 feet of the helm other than you must succeed on a DC 17 Dexterity saving throw or be struck by a beam, taking radiant damage equal to the number of gems in the helm. The helm and its gems are then destroyed.</p>
+			</description>
+			<setters>
+				<set name="keywords">radiant</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="slot">head</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+			<rules>
+				<!-- <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" /> -->
+			</rules>
+		</element>
 		<element name="Helm of Devil Command" type="Magic Item" source="Baldur’s Gate: Descent into Avernus" id="ID_WOCT_BGDIA_MAGIC_ITEM_HELM_OF_DEVIL_COMMAND">
 			<description>
 				<p>This bulky, eyeless helmet is made for a pit fiend but magically resizes to fit the heads of other wearers.</p>
@@ -221,7 +507,221 @@
 				<set name="charges">3</set>
 			</setters>
 		</element>
+		<element name="Horn of Valhalla, Bronze" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_HORN_OF_VALHALLA_BRONZE">
+			<description>
+				<p>You can use an action to blow this horn. In response, warrior spirits from the Valhalla appear within 60 feet of you. They use the statistics of a berserker. They return to Valhalla after 1 hour or when they drop to 0 hit points. Once you use the horn, it can't be used again until 7 days have passed.</p>
+				<p>Four types of <em>horn of Valhalla</em> are known to exist, each made of a different metal. The horn's type determines how many berserkers answer its summons, as well as the requirement for its use. The GM chooses the horn's type or determines it randomly.</p>
+				<table>
+					<thead>
+						<tr><td>d100</td><td>Horn Type</td><td>Berserkers Summoned</td><td>Requirement</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>01-40</td><td>Silver</td><td>2d4 + 2</td><td>None</td></tr>
+						<tr><td>41-75</td><td>Brass</td><td>3d4 + 3</td><td>Proficiency with all simple weapons</td></tr>
+						<tr><td>76-90</td><td>Bronze</td><td>4d4 + 4</td><td>Proficiency with all medium armor</td></tr>
+						<tr><td>91-00</td><td>Iron</td><td>5d4 + 5</td><td>Proficiency with all martial weapons</td></tr>
+					</tbody>
+				</table>
+				<p>If you blow the horn without meeting its requirement, the summoned berserkers attack you. If you meet the requirement, they are friendly to you and your companions and follow your commands.</p>
+			</description>
+			<setters>
+				<set name="keywords">summon</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
+		<element name="Horseshoes of a Zephyr" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_HORSESHOES_OF_A_ZEPHYR">
+			<description>
+				<p>These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they allow the creature to move normally while floating 4 inches above the ground. This effect means the creature can cross or stand above nonsolid or unstable surfaces, such as water or lava. The creature leaves no tracks and ignores difficult terrain. In addition, the creature can move at normal speed for up to 12 hours a day without suffering exhaustion from a forced march.</p>
+			</description>
+			<setters>
+				<set name="keywords">mount</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
 	<!--I-->
+		<element name="Ioun Stone, Absorption" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_IOUN_STONE_ABSORPTION">
+			<description>
+				<p>While this pale lavender ellipsoid orbits your head, you can use your reaction to cancel a spell of 4th level or lower cast by a creature you can see and targeting only you.</p>
+				<p class="indent">Once the stone has canceled 20 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can't cancel it.</p>
+
+				<p>An <em>Ioun stone</em> is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of <em>Ioun stone</em> exist, each type a distinct combination of shape and color.</p>
+				<p class="indent">When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>
+				<p class="indent">A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>
+			</description>
+			<setters>
+				<set name="keywords"></set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
+		<element name="Ioun Stone, Agility" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_IOUN_STONE_AGILITY">
+			<description>
+				<p>Your Dexterity score increases by 2, to a maximum of 20, while this deep red sphere orbits your head.</p>
+
+				<p>An <em>Ioun stone</em> is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of <em>Ioun stone</em> exist, each type a distinct combination of shape and color.</p>
+				<p class="indent">When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>
+				<p class="indent">A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>
+			</description>
+			<setters>
+				<set name="keywords">dexterity</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+			<rules>
+				<stat name="dexterity" value="2" />
+			</rules>
+		</element>
+		<element name="Ioun Stone, Fortitude" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_IOUN_STONE_FORTITUDE">
+			<description>
+				<p>Your Constitution score increases by 2, to a maximum of 20, while this pink rhomboid orbits your head.</p>
+
+				<p>An <em>Ioun stone</em> is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of <em>Ioun stone</em> exist, each type a distinct combination of shape and color.</p>
+				<p class="indent">When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>
+				<p class="indent">A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>
+			</description>
+			<setters>
+				<set name="keywords">constitution</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+			<rules>
+				<stat name="constitution" value="2" />
+			</rules>
+		</element>
+		<element name="Ioun Stone, Insight" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_IOUN_STONE_INSIGHT">
+			<description>
+				<p>Your Wisdom score increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head.</p>
+
+				<p>An <em>Ioun stone</em> is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of <em>Ioun stone</em> exist, each type a distinct combination of shape and color.</p>
+				<p class="indent">When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>
+				<p class="indent">A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>
+			</description>
+			<setters>
+				<set name="keywords">wisdom</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+			<rules>
+				<stat name="wisdom" value="2" />
+			</rules>
+		</element>
+		<element name="Ioun Stone, Intellect" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_IOUN_STONE_INTELLECT">
+			<description>
+				<p>Your Intelligence score increases by 2, to a maximum of 20, while this marbled scarlet and blue sphere orbits your head.</p>
+
+				<p>An <em>Ioun stone</em> is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of <em>Ioun stone</em> exist, each type a distinct combination of shape and color.</p>
+				<p class="indent">When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>
+				<p class="indent">A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>
+			</description>
+			<setters>
+				<set name="keywords">intelligence</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+			<rules>
+				<stat name="intelligence" value="2" />
+			</rules>
+		</element>
+		<element name="Ioun Stone, Leadership" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_IOUN_STONE_LEADERSHIP">
+			<description>
+				<p>Your Charisma score increases by 2, to a maximum of 20, while this marbled pink and green sphere orbits your head.</p>
+
+				<p>An <em>Ioun stone</em> is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of <em>Ioun stone</em> exist, each type a distinct combination of shape and color.</p>
+				<p class="indent">When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>
+				<p class="indent">A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>
+			</description>
+			<setters>
+				<set name="keywords">charisma</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+			<rules>
+				<stat name="charisma" value="2" />
+			</rules>
+		</element>
+		<element name="Ioun Stone, Strength" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_IOUN_STONE_STRENGTH">
+			<description>
+				<p>Your Strength score increases by 2, to a maximum of 20, while this pale blue rhomboid orbits your head.</p>
+
+				<p>An <em>Ioun stone</em> is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of <em>Ioun stone</em> exist, each type a distinct combination of shape and color.</p>
+				<p class="indent">When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of 1d3 feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity (Acrobatics) check. You can use an action to seize and stow the stone, ending its effect.</p>
+				<p class="indent">A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.</p>
+			</description>
+			<setters>
+				<set name="keywords">strength</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+			<rules>
+				<stat name="strength" value="2" />
+			</rules>
+		</element>
+		<element name="Instrument of the Bard, Anstruth Harp" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_INSTRUMENT_OF_THE_BARDS_ANSTRUTH_HARP">
+			<description>
+				<p>An instrument of the bards is an exquisite example of it kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. The following table lists the spells common to all instruments, as well as the spells specific to each one and its rarity. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.</p>
+				<p class="indent">You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.</p>
+				<p class="indent">You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.</p>
+				<table>
+					<thead>
+						<tr><td>Instrument</td><td>Rarity</td><td>Spells</td></tr>
+					</thead>
+					<tr><td>All</td><td>-</td><td>Fly, invisibility, levitate, protection from evil and good, plus the spells listed for the particular instrument</td></tr>
+					<tr><td>Anstruth harp</td><td>Very rare</td><td>Control weather, cure wounds (5th level), wall of thorns</td></tr>
+					<tr><td>Canaith mandolin</td><td>Rare</td><td>Cure wounds (3rd level) , dispel magic, protection from energy (lightning only)</td></tr>
+					<tr><td>Cli lyre</td><td>Rare</td><td>Stone shape, wall of fire, wind wall</td></tr>
+					<tr><td>Doss lute</td><td>Uncommon</td><td>Animal friendship, protection from energy (fire only) , protection from poison</td></tr>
+					<tr><td>Fochlucan</td><td>Uncommon</td><td>Entangle, faerie fire, shillelagh, bandore speak with animals</td></tr>
+					<tr><td>Mac-Fuirmidh cittern</td><td>Uncommon</td><td>Barkskin, cure wounds, fog cloud</td></tr>
+					<tr><td>Ollamh harp</td><td>Legendary</td><td>Confusion, control weather, fire storm</td></tr>
+				</table>
+			</description>
+			<setters>
+				<set name="keywords">bard</set>
+				<set name="category">Musical Instruments</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="0">0 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="slot">onehand</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
 	<!--J-->
 	<!--K-->
 		<element name="Kyrzin’s Ooze" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_KYRZINS_OOZE">
@@ -246,7 +746,199 @@
 		</element>
 	<!--L-->
 	<!--M-->
+		<element name="Manual of Bodily Health" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_MANUAL_OF_BODILY_HEALTH">
+			<description>
+				<p>This book contains health and diet tips, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Constitution score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.</p>
+			</description>
+			<setters>
+				<set name="keywords">constitution</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="5">5 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+				<!-- consumable items that apply rules not implemented, equip this item as alternative to activate it -->
+				<set name="slot">misc</set>
+			</setters>
+			<rules>
+				<stat name="constitution" value="2" />
+				<stat name="constitution:max" value="2" />
+			</rules>
+		</element>
+		<element name="Manual of Gainful Exercise" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_MANUAL_OF_GAINFUL_EXERCISE">
+			<description>
+				<p>This book describes fitness exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Strength score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.</p>
+			</description>
+			<setters>
+				<set name="keywords">strength</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="5">5 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+				<!-- consumable items that apply rules not implemented, equip this item as alternative to activate it -->
+				<set name="slot">misc</set>
+			</setters>
+			<rules>
+				<stat name="strength" value="2" />
+				<stat name="strength:max" value="2" />
+			</rules>
+		</element>
+		<element name="Manual of Clay Golems" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_MANUAL_OF_CLAY_GOLEMS">
+			<description>
+				<p>This tome contains information and incantations necessary to make a particular type of golem. The GM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a <em>manual of golems</em> and attempts to read it takes 6d6 psychic damage.</p>
+				<table>
+					<thead>
+						<tr><td>d20</td><td>Golem</td><td>Time</td><td>Cost</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>1-5</td><td>Clay</td><td>30 days</td><td>65,000 gp</td></tr>
+						<tr><td>6-17</td><td>Flesh</td><td>60 days</td><td>50,000 gp</td></tr>
+						<tr><td>18</td><td>Iron</td><td>120 days</td><td>100,000 gp</td></tr>
+						<tr><td>19-20</td><td>Stone</td><td>90 days</td><td>80,000 gp</td></tr>
+					</tbody>
+				</table>
+				<p>To create a golem, you must spend the time shown on the table, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay the specified cost to purchase supplies.</p>
+				<p class="indent">Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="5">5 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
+		<element name="Manual of Flesh Golems" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_MANUAL_OF_FLESH_GOLEMS">
+			<description>
+				<p>This tome contains information and incantations necessary to make a particular type of golem. The GM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a <em>manual of golems</em> and attempts to read it takes 6d6 psychic damage.</p>
+				<table>
+					<thead>
+						<tr><td>d20</td><td>Golem</td><td>Time</td><td>Cost</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>1-5</td><td>Clay</td><td>30 days</td><td>65,000 gp</td></tr>
+						<tr><td>6-17</td><td>Flesh</td><td>60 days</td><td>50,000 gp</td></tr>
+						<tr><td>18</td><td>Iron</td><td>120 days</td><td>100,000 gp</td></tr>
+						<tr><td>19-20</td><td>Stone</td><td>90 days</td><td>80,000 gp</td></tr>
+					</tbody>
+				</table>
+				<p>To create a golem, you must spend the time shown on the table, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay the specified cost to purchase supplies.</p>
+				<p class="indent">Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="5">5 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
+		<element name="Manual of Iron Golems" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_MANUAL_OF_IRON_GOLEMS">
+			<description>
+				<p>This tome contains information and incantations necessary to make a particular type of golem. The GM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a <em>manual of golems</em> and attempts to read it takes 6d6 psychic damage.</p>
+				<table>
+					<thead>
+						<tr><td>d20</td><td>Golem</td><td>Time</td><td>Cost</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>1-5</td><td>Clay</td><td>30 days</td><td>65,000 gp</td></tr>
+						<tr><td>6-17</td><td>Flesh</td><td>60 days</td><td>50,000 gp</td></tr>
+						<tr><td>18</td><td>Iron</td><td>120 days</td><td>100,000 gp</td></tr>
+						<tr><td>19-20</td><td>Stone</td><td>90 days</td><td>80,000 gp</td></tr>
+					</tbody>
+				</table>
+				<p>To create a golem, you must spend the time shown on the table, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay the specified cost to purchase supplies.</p>
+				<p class="indent">Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="5">5 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
+		<element name="Manual of Stone Golems" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_MANUAL_OF_STONE_GOLEMS">
+			<description>
+				<p>This tome contains information and incantations necessary to make a particular type of golem. The GM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a <em>manual of golems</em> and attempts to read it takes 6d6 psychic damage.</p>
+				<table>
+					<thead>
+						<tr><td>d20</td><td>Golem</td><td>Time</td><td>Cost</td></tr>
+					</thead>
+					<tbody>
+						<tr><td>1-5</td><td>Clay</td><td>30 days</td><td>65,000 gp</td></tr>
+						<tr><td>6-17</td><td>Flesh</td><td>60 days</td><td>50,000 gp</td></tr>
+						<tr><td>18</td><td>Iron</td><td>120 days</td><td>100,000 gp</td></tr>
+						<tr><td>19-20</td><td>Stone</td><td>90 days</td><td>80,000 gp</td></tr>
+					</tbody>
+				</table>
+				<p>To create a golem, you must spend the time shown on the table, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay the specified cost to purchase supplies.</p>
+				<p class="indent">Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands.</p>
+			</description>
+			<setters>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="5">5 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
+		<element name="Manual of Quickness of Action" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_MANUAL_OF_QUICKNESS_OF_ACTION">
+			<description>
+				<p>This book contains coordination and balance exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Dexterity score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.</p>
+			</description>
+			<setters>
+				<set name="keywords">dexterity</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="5">5 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+				<!-- consumable items that apply rules not implemented, equip this item as alternative to activate it -->
+				<set name="slot">misc</set>
+			</setters>
+			<rules>
+				<stat name="dexterity" value="2" />
+				<stat name="dexterity:max" value="2" />
+			</rules>
+		</element>
+		<element name="Mirror of Life Trapping" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_MIRROR_OF_LIFE_TRAPPING">
+			<description>
+				<p>When this 4-foot-tall mirror is viewed indirectly, its surface shows faint images of creatures. The mirror weighs 50 pounds, and it has AC 11, 10 hit points, and vulnerability to bludgeoning damage. It shatters and is destroyed when reduced to 0 hit points.</p>
+				<p class="indent">If the mirror is hanging on a vertical surface and you are within 5 feet of it, you can use an action to speak its command word and activate it.  It remains activated until you use an action to speak the command word again.</p>
+				<p class="indent">Any creature other than you that sees its reflection in the activated mirror while within 30 feet of it must succeed on a DC 15 Charisma saving throw or be trapped, along with anything it is wearing or carrying, in one of the mirror's twelve extradimensional cells. This saving throw is made with advantage if the creature knows the mirror's nature, and constructs succeed on the saving throw automatically.</p>
+				<p class="indent">An extradimensional cell is an infinite expanse filled with thick fog that reduces visibility to 10 feet. Creatures trapped in the mirror's cells don't age, and they don't need to eat, drink, or sleep. A creature trapped within a cell can escape using magic that permits planar travel.  Otherwise, the creature is confined to the cell until freed.</p>
+				<p class="indent">If the mirror traps a creature but its twelve extradimensional cells are already occupied, the mirror frees one trapped creature at random to accommodate the new prisoner. A freed creature appears in an unoccupied space within sight of the mirror but facing away from it. If the mirror is shattered, all creatures it contains are freed and appear in unoccupied spaces near it.</p>
+				<p class="indent">While within 5 feet of the mirror, you can use an action to speak the name of one creature trapped in it or call out a particular cell by number. The creature named or contained in the named cell appears as an image on the mirror's surface. You and the creature can then communicate normally.</p>
+				<p class="indent">In a similar way, you can use an action to speak a second command word and free one creature trapped in the mirror. The freed creature appears, along with its possessions, in the unoccupied space nearest to the mirror and facing away from it.</p>
+			</description>
+			<setters>
+				<set name="keywords">extradimensional</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="50">50 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+		</element>
 	<!--N-->
+		<element name="Nolzur’s Marvelous Pigments" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_NOLZURS_MARVELOUS_PIGMENTS">
+		<description>
+			<p>Typically found in 1d4 pots inside a fine wooden box with a brush (weighing 1 pound in total), these pigments allow you to create three-dimensional objects by painting them in two dimensions. The paint flows from the brush to form the desired object as you concentrate on its image.</p>
+			<p class="indent">Each pot of paint is sufficient to cover 1,000 square feet of a surface, which lets you create inanimate objects or terrain features -- such as a door, a pit, flowers, trees, cells, rooms, or weapons -- that are up to 10,000 cubic feet. It takes 10 minutes to cover 100 square feet.</p>
+			<p class="indent">When you complete the painting, the object or terrain feature depicted becomes a real, nonmagical object. Thus, painting a door on a wall creates an actual door that can be opened to whatever is beyond. Painting a pit on a floor creates a real pit, and its depth counts against the total area of objects you create.</p>
+			<p class="indent">Nothing created by the pigments can have a value greater than 25 gp. If you paint an object of greater value (such as a diamond or a pile of gold), the object looks authentic, but close inspection reveals it is made from paste, bone, or some other worthless material.</p>
+			<p class="indent">If you paint a form of energy such as fire or lightning, the energy appears but dissipates as soon as you complete the painting, doing no harm to anything.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
 	<!--O-->
 		<element name="Orb of the Veil" type="Magic Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_MAGIC_ITEM_ORB_OF_THE_VEIL">
 			<description>
@@ -288,6 +980,47 @@
 				<set name="rarity">Very Rare</set>
 				<set name="stackable">true</set>
 			</setters>
+		</element>
+		<element name="Robe of Scintillating Colors" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ROBE_OF_SCINTILLATING_COLORS">
+			<description>
+				<p>This robe has 3 charges, and it regains 1d3 expended charges daily at dawn. While you wear it, you can use an action and expend 1 charge to cause the garment to display a shifting pattern of dazzling hues until the end of your next turn. During this time, the robe sheds bright light in a 30-foot radius and dim light for an additional 30 feet. Creatures that can see you have disadvantage on attack rolls against you. In addition, any creature in the bright light that can see you when the robe's power is activated must succeed on a DC 15 Wisdom saving throw or become stunned until the effect ends.</p>
+			</description>
+			<setters>
+				<set name="keywords">cloak</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="4">4 lb.</set>
+				<set name="slot">shoulders</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+				<set name="charges">3</set>
+			</setters>
+		</element>
+		<element name="Robe of Stars" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ROBE_OF_STARS">
+			<description>
+				<p>This black or dark blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it.</p>
+				<p class="indent">Six stars, located on the robe's upper front portion, are particularly large. While wearing this robe, you can use an action to pull off one of the stars and use it to cast <em>magic missile</em> as a 5th-level spell. Daily at dusk, 1d6 removed stars reappear on the robe.</p>
+				<p class="indent">While you wear the robe, you can use an action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you use an action to return to the plane you were on. You reappear in the last space you occupied, or if that space is occupied, the nearest unoccupied space.</p>
+			</description>
+			<setters>
+				<set name="keywords">cloak, saving throw, astral plane</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="4">4 lb.</set>
+				<set name="slot">shoulders</set>
+				<set name="type">Wondrous Item</set>
+				<set name="attunement">true</set>
+				<set name="rarity">Very Rare</set>
+			</setters>
+			<rules>
+				<stat name="strength:save:misc" value="1" />
+				<stat name="dexterity:save:misc" value="1" />
+				<stat name="constitution:save:misc" value="1" />
+				<stat name="intelligence:save:misc" value="1" />
+				<stat name="wisdom:save:misc" value="1" />
+				<stat name="charisma:save:misc" value="1" />
+			</rules>
 		</element>
 		<element name="Rotor of Return" type="Magic Item" source="Acquisitions Incorporated" id="ID_WOTC_ACQINC_MAGIC_ITEM_ROTOR_OF_RETURN">
 			<description>
@@ -339,6 +1072,63 @@
 			</setters>
 			<rules>
 				<stat name="dexterity:save:misc" value="1" />			
+			</rules>
+		</element>
+		<element name="Tome of Clear Thought" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_TOME_OF_CLEAR_THOUGHT">
+			<description>
+				<p>This book contains memory and logic exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Intelligence score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.</p>
+			</description>
+			<setters>
+				<set name="keywords">intelligence</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="5">5 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+				<!-- consumable items that apply rules not implemented, equip this item as alternative to activate it -->
+				<set name="slot">misc</set>
+			</setters>
+			<rules>
+				<stat name="intelligence" value="2" />
+				<stat name="intelligence:max" value="2" />
+			</rules>
+		</element>
+		<element name="Tome of Leadership and Influence" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_TOME_OF_LEADERSHIP_AND_INFLUENCE">
+			<description>
+				<p>This book contains guidelines for influencing and charming others, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Charisma score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.</p>
+			</description>
+			<setters>
+				<set name="keywords">charisma</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="5">5 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+				<!-- consumable items that apply rules not implemented, equip this item as alternative to activate it -->
+				<set name="slot">misc</set>
+			</setters>
+			<rules>
+				<stat name="charisma" value="2" />
+				<stat name="charisma:max" value="2" />
+			</rules>
+		</element>
+		<element name="Tome of Understanding" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_TOME_OF_UNDERSTANDING">
+			<description>
+				<p>This book contains intuition and insight exercises, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Wisdom score increases by 2, as does your maximum for that score. The manual then loses its magic, but regains it in a century.</p>
+			</description>
+			<setters>
+				<set name="keywords">wisdom</set>
+				<set name="category">Wondrous Items</set>
+				<set name="cost" currency="gp">0</set>
+				<set name="weight" lb="5">5 lb.</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Very Rare</set>
+				<!-- consumable items that apply rules not implemented, equip this item as alternative to activate it -->
+				<set name="slot">misc</set>
+			</setters>
+			<rules>
+				<stat name="wisdom" value="2" />
+				<stat name="wisdom:max" value="2" />
 			</rules>
 		</element>
 	<!--U-->
