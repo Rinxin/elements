@@ -13,20 +13,20 @@
 		<file name="00-background-options.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/00-background-options.xml" />
 	<!--A-->
 		<file name="acolyte.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/acolyte.xml" />
-        	<file name="anthropologist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/anthropologist.xml" />
-		<file name="ashari.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/backgrounds/ashari.xml" />
+        <file name="anthropologist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/anthropologist.xml" />
+		<file name="ashari.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/ashari.xml" />
         	<file name="athlete.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/athlete.xml" />
         	<file name="azorius-functionary.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/azorius-functionary.xml" />
-        <!--B-->
-        	<file name="black-fist-double-agent.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/black-fist-double-agent.xml" />
-        	<file name="boros-legionnaire.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/boros-legionnaire.xml" />
-        <!--C-->
-        	<file name="caravan-specialist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/caravan-specialist.xml" />
-        	<file name="celebrity-adventurers-scion.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/celebrity-adventurers-scion.xml" />
-        	<file name="charlatan.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/charlatan.xml" />
+	<!--B-->
+       	<file name="black-fist-double-agent.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/black-fist-double-agent.xml" />
+       	<file name="boros-legionnaire.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/boros-legionnaire.xml" />
+    <!--C-->
+       	<file name="caravan-specialist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/caravan-specialist.xml" />
+       	<file name="celebrity-adventurers-scion.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/celebrity-adventurers-scion.xml" />
+       	<file name="charlatan.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/charlatan.xml" />
 		<file name="city-watch.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/city-watch.xml" />
 		<file name="clan-crafter.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/clan-crafter.xml" />
-		<file name="clasp-member.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/backgrounds/clasp-member.xml" />
+		<file name="clasp-member.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/clasp-member.xml" />
 		<file name="cloistered-scholar.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/cloistered-scholar.xml" />
 		<file name="courtier.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/courtier.xml" />
 		<file name="criminal.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/criminal.xml" />
@@ -64,7 +64,7 @@
 	<!--K-->
 		<file name="knight-of-the-order.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/knight-of-the-order.xml" />
 	<!--L-->
-		<file name="lyceum-student.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/backgrounds/lyceum-student.xml" />
+		<file name="lyceum-student.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/lyceum-student.xml" />
 	<!--M-->
 		<file name="marine.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/marine.xml" />
 		<file name="mercenary-veteran.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/mercenary-veteran.xml" />
@@ -80,7 +80,7 @@
 		<file name="plaintiff.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/plaintiff.xml" />
 	<!--R-->
 		<file name="rakdos-cultist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/rakdos-cultist.xml" />
-		<file name="recovered-cultist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/main/core/backgrounds/recovered-cultist.xml" />
+		<file name="recovered-cultist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/recovered-cultist.xml" />
 		<file name="rival-intern.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/rival-intern.xml" />
 	<!--S-->
 		<file name="sage.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/sage.xml" />
