@@ -7,30 +7,30 @@
 		</update>
 	</info>
 
-	<element name="Time Domain" type="Archetype" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_ARCHETYPE_TIME_DOMAIN">
+	<element name="Time Domain" type="Archetype" source="Deep Magic 16: Time Magic" id="ID_KBP_DM_ARCHETYPE_TIME_DOMAIN">
 		<supports>Divine Domain</supports>
 		<description>
 			<p>Most spellcasters and sages agree that significant alterations to time are undesirable, but they disagree strongly on what constitutes a significant alteration. As might be expected, those of Good alignment typically try to protect time from those who seek to make significant changes or bend time to their will, while those of Evil alignment try to change what’s passed for their own selfish purposes.</p>
-			<div element="ID_KBP_DMTM_ARCHETYPE_FEATURE_TIME_DOMAIN_SPELLS" />
-			<div element="ID_KBP_DMTM_ARCHETYPE_FEATURE_TIME_DOMAIN_STEWARD_OF_TIME" />
-			<div element="ID_KBP_DMTM_ARCHETYPE_FEATURE_TIME_DOMAIN_CD_TIMES_EMBRACE" />
-			<div element="ID_KBP_DMTM_ARCHETYPE_FEATURE_TIME_DOMAIN_TIMES_GUARDIAN" />
+			<div element="ID_KBP_DM_ARCHETYPE_FEATURE_TIME_DOMAIN_SPELLS" />
+			<div element="ID_KBP_DM_ARCHETYPE_FEATURE_TIME_DOMAIN_STEWARD_OF_TIME" />
+			<div element="ID_KBP_DM_ARCHETYPE_FEATURE_TIME_DOMAIN_CD_TIMES_EMBRACE" />
+			<div element="ID_KBP_DM_ARCHETYPE_FEATURE_TIME_DOMAIN_TIMES_GUARDIAN" />
 			<div element="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TIME_DOMAIN_DIVINE_BLESSING" />
-			<div element="ID_KBP_DMTM_ARCHETYPE_FEATURE_TIME_DOMAIN_CD_MASTERY_OF_TIME" />
+			<div element="ID_KBP_DM_ARCHETYPE_FEATURE_TIME_DOMAIN_CD_MASTERY_OF_TIME" />
 		</description>
 		<sheet display="false">
 			<description>Most spellcasters and sages agree that significant alterations to time are undesirable, but they disagree strongly on what constitutes a significant alteration.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_KBP_DMTM_ARCHETYPE_FEATURE_TIME_DOMAIN_SPELLS" level="1" />
-			<grant type="Archetype Feature" id="ID_KBP_DMTM_ARCHETYPE_FEATURE_TIME_DOMAIN_STEWARD_OF_TIME" level="1" />
-			<grant type="Archetype Feature" id="ID_KBP_DMTM_ARCHETYPE_FEATURE_TIME_DOMAIN_CD_TIMES_EMBRACE" level="2" />
-			<grant type="Archetype Feature" id="ID_KBP_DMTM_ARCHETYPE_FEATURE_TIME_DOMAIN_TIMES_GUARDIAN" level="6" />
+			<grant type="Archetype Feature" id="ID_KBP_DM_ARCHETYPE_FEATURE_TIME_DOMAIN_SPELLS" level="1" />
+			<grant type="Archetype Feature" id="ID_KBP_DM_ARCHETYPE_FEATURE_TIME_DOMAIN_STEWARD_OF_TIME" level="1" />
+			<grant type="Archetype Feature" id="ID_KBP_DM_ARCHETYPE_FEATURE_TIME_DOMAIN_CD_TIMES_EMBRACE" level="2" />
+			<grant type="Archetype Feature" id="ID_KBP_DM_ARCHETYPE_FEATURE_TIME_DOMAIN_TIMES_GUARDIAN" level="6" />
 			<grant type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TIME_DOMAIN_DIVINE_BLESSING" level="8" />
-			<grant type="Archetype Feature" id="ID_KBP_DMTM_ARCHETYPE_FEATURE_TIME_DOMAIN_CD_MASTERY_OF_TIME" level="17" />
+			<grant type="Archetype Feature" id="ID_KBP_DM_ARCHETYPE_FEATURE_TIME_DOMAIN_CD_MASTERY_OF_TIME" level="17" />
 		</rules>
 	</element>
-	<element name="Domain Spells" type="Archetype Feature" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_ARCHETYPE_FEATURE_TIME_DOMAIN_SPELLS">
+	<element name="Domain Spells" type="Archetype Feature" source="Deep Magic 16: Time Magic" id="ID_KBP_DM_ARCHETYPE_FEATURE_TIME_DOMAIN_SPELLS">
 		<description>
 			<p>You gain domain spells at the cleric levels listed in the Time Domain Spells table. See the Divine Domain class feature in the Player’s Handbook for how domain spells work.</p>
 			<h5 class="caption">TIME DOMAIN SPELLS</h5>
@@ -48,18 +48,18 @@
 		<sheet display="false"/>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_EXPEDITIOUS_RETREAT" level="1" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_KBP_DMTM_SPELL_WITHERED_SIGHT" level="1" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_KBP_DMTM_SPELL_DECELERATE" level="3" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_KBP_DMTM_SPELL_TIME_STEP" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_KBP_DM_SPELL_WITHERED_SIGHT" level="1" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_KBP_DM_SPELL_DECELERATE" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_KBP_DM_SPELL_TIME_STEP" level="3" spellcasting="Cleric" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_HASTE" level="5" spellcasting="Cleric" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_SLOW" level="5" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_KBP_DMTM_SPELL_RESET" level="7" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_KBP_DMTM_SPELL_TIME_VORTEX" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_KBP_DM_SPELL_RESET" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_KBP_DM_SPELL_TIME_VORTEX" level="7" spellcasting="Cleric" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_LEGEND_LORE" level="9" spellcasting="Cleric" prepared="true" />
-			<grant type="Spell" id="ID_KBP_DMTM_SPELL_WALL_OF_TIME" level="9" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_KBP_DM_SPELL_WALL_OF_TIME" level="9" spellcasting="Cleric" prepared="true" />
 		</rules>
 	</element>
-	<element name="Steward of Time" type="Archetype Feature" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_ARCHETYPE_FEATURE_TIME_DOMAIN_STEWARD_OF_TIME">
+	<element name="Steward of Time" type="Archetype Feature" source="Deep Magic 16: Time Magic" id="ID_KBP_DM_ARCHETYPE_FEATURE_TIME_DOMAIN_STEWARD_OF_TIME">
 		<description>
 			<p>At 1st level, you learn two of the following languages: Ankeshelian, Illyrian, Morphoi, Northern Tongue, or Vos’Ghaen. You become proficient in the History skill. In addition, you learn the quicken cantrip, which does not count against the number of cleric cantrips you know.</p>
 		</description>
@@ -69,10 +69,10 @@
 		<rules>
 			<select type="Language" name="Language, Steward of Time" supports="Exotic" number="2" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
-			<grant type="Spell" id="ID_KBP_DMTM_SPELL_QUICKEN" spellcasting="Cleric" />
+			<grant type="Spell" id="ID_KBP_DM_SPELL_QUICKEN" spellcasting="Cleric" />
 		</rules>
 	</element>
-	<element name="Channel Divinity: Time’s Embrace" type="Archetype Feature" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_ARCHETYPE_FEATURE_TIME_DOMAIN_CD_TIMES_EMBRACE">
+	<element name="Channel Divinity: Time’s Embrace" type="Archetype Feature" source="Deep Magic 16: Time Magic" id="ID_KBP_DM_ARCHETYPE_FEATURE_TIME_DOMAIN_CD_TIMES_EMBRACE">
 		<description>
 			<p>Starting at 2nd level, you can react quickly to dangerous situations. When you are surprised at the beginning of an encounter, you can use your Channel Divinity to not be surprised. When you need to make a Dexterity saving throw, you can use your Channel Divinity to make the saving throw with advantage.</p>
 		</description>
@@ -80,7 +80,7 @@
 			<description>When you are surprised at the beginning of an encounter, you can use your Channel Divinity to not be surprised. When you need to make a Dexterity saving throw, you can use your Channel Divinity to make the saving throw with advantage.</description>
 		</sheet>
 	</element>
-	<element name="Time’s Guardian" type="Archetype Feature" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_ARCHETYPE_FEATURE_TIME_DOMAIN_TIMES_GUARDIAN">
+	<element name="Time’s Guardian" type="Archetype Feature" source="Deep Magic 16: Time Magic" id="ID_KBP_DM_ARCHETYPE_FEATURE_TIME_DOMAIN_TIMES_GUARDIAN">
 		<description>
 			<p>At 6th level, you can use your reaction to gain a +3 bonus to AC against an attack made against you. You can use this ability a number of times equal to your Wisdom modifier (minimum of 1). You regain all uses of this ability after a long rest. Additionally, you never suffer the negative aftereffect of the haste spell and can act normally when the spell ends.</p>
 		</description>
@@ -104,7 +104,7 @@
 			<select type="Class Feature" name="Divine Blessing" supports="Divine Blessing" />
 		</rules>
 	</element>
-	<element name="Channel Divinity: Mastery of Time" type="Archetype Feature" source="Deep Magic 16: Time Magic" id="ID_KBP_DMTM_ARCHETYPE_FEATURE_TIME_DOMAIN_CD_MASTERY_OF_TIME">
+	<element name="Channel Divinity: Mastery of Time" type="Archetype Feature" source="Deep Magic 16: Time Magic" id="ID_KBP_DM_ARCHETYPE_FEATURE_TIME_DOMAIN_CD_MASTERY_OF_TIME">
 		<description>
 			<p>At 17th level, you can use your Channel Divinity to stop the flow of time. The effect is identical to the time stop spell: you can take 3 turns in a row when the effect is triggered. You must complete a long rest before using this ability again.</p>
 			<p class="indent">You can also use your Channel Divinity to allow you and your allies to ignore the effects of a temporal anomaly such as a time storm or a time rift for one minute. This effect is centered on you with a radius of 20 feet.</p>
