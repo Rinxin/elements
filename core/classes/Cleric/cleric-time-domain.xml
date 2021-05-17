@@ -46,8 +46,8 @@
 			</table>
 		</description>
 		<sheet display="false"/>
-		<spellcasting>
-			<list>Dunamancy</list>
+		<spellcasting name="Cleric" extend="true">
+			<extend>Dunamancy</extend>
 		</spellcasting>
 		<rules>
 			<grant type="Spell" id="ID_KBP_DM_SPELL_AUSPICIOUS_WARNING" level="1" spellcasting="Cleric" prepared="true" />

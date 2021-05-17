@@ -1789,14 +1789,14 @@ Thorn cage (conjuration) - Druid, Warlock
 Thunderous stampede (transmutation) [labyrinth] - Warlock, Wizard
 Thunderous stampede (transmutation) [labyrinth] - , Sorcerer
     <element name="Time Step" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_TIME_STEP">
-		<supports>Bard,Cleric,Ranger,Warlock,Wizard, Dunamancy</supports>
+		<supports>Bard, Cleric, Ranger, Warlock, Wizard, Clockwork, Dunamancy</supports>
 		<description>
 			<p>You briefly step forward in time. You disappear from your location and reappear at the beginning of your next turn in a location within 30 feet of the space you disappeared from. You can’t be affected by anything that happens during the interval you’re missing, and you aren’t aware of anything that happens during that time.</p>
 		</description>
 		<setters>
-			<set name="keywords">dunamancy</set>
+			<set name="keywords">clockwork, dunamancy</set>
 			<set name="level">2</set>
-			<set name="school" addition="Dunamancy">Conjuration</set>
+			<set name="school" addition="Clockwork, Dunamancy">Conjuration</set>
 			<set name="time">1 action</set>
 			<set name="range">Self</set>
 			<set name="duration">Instantaneous</set>
@@ -1809,7 +1809,6 @@ Thunderous stampede (transmutation) [labyrinth] - , Sorcerer
 		</setters>
 	</element>
 Timely distraction (evocation) [chaos] - Bard, Sorcerer, Wizard
-Time step (conjuration) [Dunamancy] [clockwork] - Bard, Cleric, Ranger, Warlock, Wizard
 Tree running (transmutation) - Druid, Ranger
 Treasure Chasm (enchantment) [dragon] - , Sorcerer
 Trench (transmutation) - Bard, Cleric, Druid, Paladin, Sorcerer, Wizard
