@@ -112,7 +112,7 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
-Amplify light (transmutation) [illumination] - Wizard
+    Amplify light (transmutation) [illumination] - Wizard
     <element name="Anchoring Rope" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_ANCHORING_ROPE">
         <supports>Bard, Druid, Ranger</supports>
         <description>
@@ -217,8 +217,8 @@ Amplify light (transmutation) [illumination] - Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Angelic guardian (conjuration) [angelic] - Cleric, Paladin, Wizard
-Anticipate weakness (divination) [Dunamancy] - Bard, Cleric, Druid, Ranger, Sorcerer, Warlock, Wizard
+    Angelic guardian (conjuration) [angelic] - Cleric, Paladin, Wizard
+    Anticipate weakness (divination) [Dunamancy] - Bard, Cleric, Druid, Ranger, Sorcerer, Warlock, Wizard
 
     <element name="Armor of Agathys" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS">
         <supports>Warlock</supports>
@@ -262,7 +262,26 @@ Anticipate weakness (divination) [Dunamancy] - Bard, Cleric, Druid, Ranger, Sorc
             <set name="isRitual">false</set>
         </setters>
     </element>
-Auspicious warning (enchantment) [Dunamancy] - Bard, Sorcerer, Wizard
+    <element name="Auspicious Warning" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_AUSPICIOUS_WARNING">
+        <supports>Bard, Sorcerer, Wizard, Dunamancy</supports>
+        <description>
+            <p>Just in time, you call out a fortunate warning to a creature within range. The target rolls a d4 and adds the number rolled to an attack roll, ability check, or saving throw that it has just made and uses the new result for determining success or failure.</p>
+        </description>
+        <setters>
+            <set name="keywords">dunamancy</set>
+            <set name="level">1</set>
+            <set name="school" addition="Dunamancy">Enchantment</set>
+            <set name="time">1 reaction, which you take when an ally makes an attack roll, ability check, or saving throw</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">false</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Avoid Grievous Injury" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_AVOID_GRIEVOUS_INJURY">
         <supports>Bard, Cleric, Druid, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -325,7 +344,7 @@ Auspicious warning (enchantment) [Dunamancy] - Bard, Sorcerer, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Black ribbons (conjuration) [shadow] - , Sorcerer, Warlock, Wizard
+    Black ribbons (conjuration) [shadow] - , Sorcerer, Warlock, Wizard
     <element name="Bleed" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BLEED">
         <supports>Ranger, Warlock</supports>
         <description>
@@ -389,7 +408,7 @@ Black ribbons (conjuration) [shadow] - , Sorcerer, Warlock, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Blood scarab (necromancy) [blood] - Cleric, Warlock
+    Blood scarab (necromancy) [blood] - Cleric, Warlock
     <element name="Bloodhound" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BLOODHOUND">
         <supports>Druid, Ranger, Sorcerer, Wizard</supports>
         <description>
@@ -411,8 +430,8 @@ Blood scarab (necromancy) [blood] - Cleric, Warlock
             <set name="isRitual">false</set>
         </setters>
     </element>
-Bloody Hands (necromancy) [blood] - , Sorcerer, Warlock, Wizard
-Bloody smite (necromancy) [blood] - Cleric, Druid, Ranger, Wizard
+    Bloody Hands (necromancy) [blood] - , Sorcerer, Warlock, Wizard
+    Bloody smite (necromancy) [blood] - Cleric, Druid, Ranger, Wizard
     <element name="Bolster Undead" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BOLSTER_UNDEAD">
         <supports>Cleric, Sorcerer, Warlock, Wizard</supports>
         <description>
@@ -435,7 +454,7 @@ Bloody smite (necromancy) [blood] - Cleric, Druid, Ranger, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Bottomless stomach (transmutation) [alkemancy] - Wizard
+    Bottomless stomach (transmutation) [alkemancy] - Wizard
     <element name="Bottomless Stomach" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BOTTOMLESS_STOMACH">
         <supports>Wizard, Alkemancy</supports>
         <description>
@@ -459,8 +478,8 @@ Bottomless stomach (transmutation) [alkemancy] - Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Breathtaking wind (evocation) [winter] - Druid, Ranger, Sorcerer, Warlock, Wizard
-Brimstone (conjuration) [apocalypse] - Cleric, Sorcerer, Warlock, Wizard
+    Breathtaking wind (evocation) [winter] - Druid, Ranger, Sorcerer, Warlock, Wizard
+    Brimstone (conjuration) [apocalypse] - Cleric, Sorcerer, Warlock, Wizard
     <element name="Broken Charge" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_BROKEN_CHARGE">
         <supports>Bard, Warlock, Wizard, Labyrinth</supports>
         <description>
@@ -670,7 +689,7 @@ Brimstone (conjuration) [apocalypse] - Cleric, Sorcerer, Warlock, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Chronal Lance (transmutation) [Dunamancy] [clockwork] - , Sorcerer, Wizard
+    Chronal Lance (transmutation) [Dunamancy] [clockwork] - , Sorcerer, Wizard
     <element name="Chronal Lance" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DMTM_SPELL_CHRONAL_LANCE">
 		<supports>Sorcerer,Wizard, Dunamancy</supports>
 		<description>
@@ -692,8 +711,8 @@ Chronal Lance (transmutation) [Dunamancy] [clockwork] - , Sorcerer, Wizard
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-Circle of wind (abjuraton) [ring] - , Sorcerer, Warlock, Wizard
-Cloak of shadow (illusion) [shadow] - Wizard
+    Circle of wind (abjuraton) [ring] - , Sorcerer, Warlock, Wizard
+    Cloak of shadow (illusion) [shadow] - Wizard
     <element name="Cobra Fangs" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_COBRA_FANGS">
         <supports>Ranger</supports>
         <description>
@@ -826,7 +845,7 @@ Cloak of shadow (illusion) [shadow] - Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Converse with dragon (divination) [dragon] - Bard, Cleric, Ranger, Sorcerer, Wizard
+    Converse with dragon (divination) [dragon] - Bard, Cleric, Ranger, Sorcerer, Wizard
     <element name="Create or Destroy Water" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CREATE_OR_DESTROY_WATER">
         <supports>Cleric, Druid</supports>
         <description>
@@ -994,7 +1013,7 @@ Converse with dragon (divination) [dragon] - Bard, Cleric, Ranger, Sorcerer, Wiz
             <set name="isRitual">false</set>
         </setters>
     </element>
-Disquieting Gaze (necromancy) - , Sorcerer, Warlock, Wizard
+    Disquieting Gaze (necromancy) - , Sorcerer, Warlock, Wizard
     <element name="Dissonant Whispers" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DISSONANT_WHISPERS">
         <supports>Bard</supports>
         <description>
@@ -1057,10 +1076,10 @@ Disquieting Gaze (necromancy) - , Sorcerer, Warlock, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Doom of the cracked shield (transmutation) - Druid
-Draconic smite (evocation) [dragon] - Druid, Paladin
+    Doom of the cracked shield (transmutation) - Druid
+    Draconic smite (evocation) [dragon] - Druid, Paladin
 <!--E-->
-Earworm melody (enchantment) - Bard
+    Earworm melody (enchantment) - Bard
     <element name="Earth Tremor" type="Spell" source="Xanathar’s Guide to Everything" id="ID_XGTE_SPELL_EARTH_TREMOR">
         <supports>Bard, Druid, Sorcerer, Wizard, Fighter (Eldritch Knight)</supports>
         <description>
@@ -1143,7 +1162,7 @@ Earworm melody (enchantment) - Bard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Extract essence (transmutation) [elven ritual] - Bard, Druid, Warlock, Wizard
+    Extract essence (transmutation) [elven ritual] - Bard, Druid, Warlock, Wizard
 <!--F-->
     <element name="Faerie Fire" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FAERIE_FIRE">
         <supports>Bard, Druid, Artificer</supports>
@@ -2114,25 +2133,24 @@ Wind Tunnel (evocation) - , Sorcerer, Warlock, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Withered sight (necromancy) - Bard, Cleric, Druid, Ranger
     <element name="Withered Sight" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_WITHERED_SIGHT">
 		<supports>Bard, Cleric, Druid, Ranger, Warlock, Wizard, Dunamancy</supports>
 		<description>
-			<p>You cause the eyes of a creature you can see within range to age rapidly. The target must make a Constitution saving throw. If it fails, the creature has disadvantage on Perception rolls and attack rolls. An affected creature repeats the saving throw at the end of its turn, ending the effect with a success. This spell has no effect on a creature that is blind or that doesn’t use its eyes to see.</p>
-			<p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p>
+			<p>You cause the eyes of a creature you can see within range to lose acuity. The target must make a Constitution saving throw. On a failed save, the creature has disadvantage on Wisdom (Perception) checks and all attack rolls for the duration of the spell. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. This spell has no effect on a creature that is blind or that doesn’t use its eyes to see.</p>
+			<p class="indent"><b>At Higher Levels.</b> When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p>
 		</description>
 		<setters>
 			<set name="keywords">dunamancy</set>
 			<set name="level">1</set>
 			<set name="school" addition="Dunamancy">Necromancy</set>
 			<set name="time">1 action</set>
-			<set name="range">Touch</set>
-			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="duration">Conentration, up to 1 minute</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
 			<set name="hasMaterialComponent">true</set>
 			<set name="materialComponent">a dried lizard’s eye</set>
-			<set name="isConcentration">false</set>
+			<set name="isConcentration">true</set>
 			<set name="isRitual">false</set>
 		</setters>
 	</element>

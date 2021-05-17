@@ -2190,6 +2190,27 @@
 			</rules>
 		</element>
 	<!-- /ritual caster -->
+	<element name="Runesmith Adept" type="Feat" source="The Complete Armorers Handbook" id="ID_HEAVYARMOR_TCAH_FEAT_RUNESMITH_ADEPT">
+        <description>
+            <p>You have excelled in your study of runesmithing and are regarded as a prodigy by your peers, gaining the following benefits:</p>
+            <ul>
+                <li>Increase your Dexterity or Intelligence score by 1, to a maximum of 20.</li>
+                <li>Your proficiency bonus is doubled for any ability check you make with runesmith's tools.</li>
+				<li>Over the course of a short rest, you can attempt to remove a runestone affixed to a piece of equipment without destroying it. At the end of the short rest, make a check with your runesmith's tools, where the DC is equal to the DC to create the runestone. On a success, the runestone is recovered.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>
+				<ul>
+					<li>Your proficiency bonus is doubled for any ability check you make with runesmith's tools.</li>
+					<li>Over the course of a short rest, you can attempt to remove a runestone affixed to a piece of equipment without destroying it. At the end of the short rest, make a check with your runesmith's tools, where the DC is equal to the DC to create the runestone. On a success, the runestone is recovered.</li>
+				</ul>
+			</description>
+        </sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Improvement (Runesmith Adept)" supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_INTELLIGENCE" />
+		</rules>
+    </element>
 <!--S-->
 	<element name="Savage Attacker" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_SAVAGEATTACKER">
 		<description>
@@ -3952,22 +3973,22 @@
 		</rules>
 	</element>
 	<!-- Replaced with Tenacious
-	<element name="Tough" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_TOUGH">
-		<description>
-			<p>Your hit points maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit points maximum increases by an additional 2 hit points.</p>
-		</description>
-		<sheet>
-			<description>Your hit points maximum increases by {{tough:hp}}.</description>
-		</sheet>
-		<setters>
-			<set name="allow duplicate">true</set>
-		</setters>
-		<rules>
-			<stat name="tough:hp" value="level" />
-			<stat name="tough:hp" value="level" />
-			<stat name="hp" value="tough:hp" />
-		</rules>
-	</element>
+		<element name="Tough" type="Feat" source="Player’s Handbook" id="ID_PHB_FEAT_TOUGH">
+			<description>
+				<p>Your hit points maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit points maximum increases by an additional 2 hit points.</p>
+			</description>
+			<sheet>
+				<description>Your hit points maximum increases by {{tough:hp}}.</description>
+			</sheet>
+			<setters>
+				<set name="allow duplicate">true</set>
+			</setters>
+			<rules>
+				<stat name="tough:hp" value="level" />
+				<stat name="tough:hp" value="level" />
+				<stat name="hp" value="tough:hp" />
+			</rules>
+		</element>
 	-->
 	<element name="Thrown Arms Master" type="Feat" source="Critical Role: Tal’Dorei Campaign Setting" id="ID_CRIT_TCS_FEAT_THROWN_ARMS_MASTER">
         <description>
@@ -3986,8 +4007,6 @@
             <select type="Ability Score Improvement" name="Ability Score Improvement (Thrown Arms Master)" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY" />
         </rules>
     </element>
-<!---->
-	
 <!--U-->
 	<element name="Unthreatening" type="Feat" source="Deep Magic: Collection" id="ID_KBP_DM_FEAT_UNTHREATENING">
 		<prerequisite>Charisma 13 or higher</prerequisite>

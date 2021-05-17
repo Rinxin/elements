@@ -406,6 +406,22 @@
 			This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder’s hand immediately after it is used to make a ranged attack.</description> -->
 		</sheet>
 	</element>
+
+	Enhanced Runic Defense
+Prerequisite: Proficiency with runesmith's tools
+Item: A suit of armor or a shield with the runic tag
+The maximum number of runestones that can be affixed
+to this suit of armor or shield is increased by 1. If this
+infusion ends, a number of affixed runestones exceeding
+one are immediately destroyed (your choice).
+
+Enhanced Runic Weapon
+Prerequisite: Proficiency with runesmith's tools
+Item: A simple or martial weapon with the runic tag
+The maximum number of runestones that can be affixed
+to this weapon is increased by 1. If this infusion ends, a
+number of affixed runestones exceeding one are immediately
+destroyed (your choice).
 	
 	<element name="" type="Internal" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_INFUSION_REPLICATE_MAGIC_ITEM_TABLES">
 		<compendium display="false" />

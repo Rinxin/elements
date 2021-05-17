@@ -864,26 +864,26 @@
 			</element>
 		<!--/Poisons-->
 		<!-- poison types -->
-		<element name="Contact" type="Support" source="Internal" id="ID_INTERNAL_SUPPORT_POISON_CONTACT">
-			<description>
-				<p>Contact poison can be smeared on an object and remains potent until it is touched or washed off. A creature that touches contact poison with exposed skin suffers its effects.</p>
-			</description>
-		</element>
-		<element name="Ingested" type="Support" source="Internal" id="ID_INTERNAL_SUPPORT_POISON_INGESTED">
-			<description>
-				<p>A creature must swallow an entire dose of ingested poison to suffer its effects. The dose can be delivered in food or a liquid. You might decide that a partial dose has a reduced effect, such as allowing advantage on the saving throw or dealing only half damage on a failed save.</p>
-			</description>
-		</element>
-		<element name="Inhaled" type="Support" source="Internal" id="ID_INTERNAL_SUPPORT_POISON_INHALED">
-			<description>
-				<p>These poisons are powders or gases that take effect when inhaled. Blowing the powder or releasing the gas subjects creatures in a 5-foot cube to its effect. The resulting cloud dissipates immediately afterward. Holding one’s breath is ineffective against inhaled poisons, as they affect nasal membranes, tear ducts, and other parts of the body.</p>
-			</description>
-		</element>
-		<element name="Injury" type="Support" source="Internal" id="ID_INTERNAL_SUPPORT_POISON_INJURY">
-			<description>
-				<p>Injury poison can be applied to weapons, ammunition, trap components, and other objects that deal piercing or slashing damage and remains potent until delivered through a wound or washed off. A creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.</p>
-			</description>
-		</element>
+			<element name="Contact" type="Support" source="Internal" id="ID_INTERNAL_SUPPORT_POISON_CONTACT">
+				<description>
+					<p>Contact poison can be smeared on an object and remains potent until it is touched or washed off. A creature that touches contact poison with exposed skin suffers its effects.</p>
+				</description>
+			</element>
+			<element name="Ingested" type="Support" source="Internal" id="ID_INTERNAL_SUPPORT_POISON_INGESTED">
+				<description>
+					<p>A creature must swallow an entire dose of ingested poison to suffer its effects. The dose can be delivered in food or a liquid. You might decide that a partial dose has a reduced effect, such as allowing advantage on the saving throw or dealing only half damage on a failed save.</p>
+				</description>
+			</element>
+			<element name="Inhaled" type="Support" source="Internal" id="ID_INTERNAL_SUPPORT_POISON_INHALED">
+				<description>
+					<p>These poisons are powders or gases that take effect when inhaled. Blowing the powder or releasing the gas subjects creatures in a 5-foot cube to its effect. The resulting cloud dissipates immediately afterward. Holding one’s breath is ineffective against inhaled poisons, as they affect nasal membranes, tear ducts, and other parts of the body.</p>
+				</description>
+			</element>
+			<element name="Injury" type="Support" source="Internal" id="ID_INTERNAL_SUPPORT_POISON_INJURY">
+				<description>
+					<p>Injury poison can be applied to weapons, ammunition, trap components, and other objects that deal piercing or slashing damage and remains potent until delivered through a wound or washed off. A creature that takes piercing or slashing damage from an object coated with the poison is exposed to its effects.</p>
+				</description>
+			</element>
 		<!--/Poison Types-->
 		<!--/Poisons-->
 		<element name="Pride Silk (1 square yard)" type="Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_ITEM_PRIDE_SILK_SQUARD_YARD">
@@ -1067,6 +1067,29 @@
 			</setters>
 		</element>
 		<!--Tools-->
+			<element name="Runesmith's Tools" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_RUNESMITHS_TOOLS">
+				<description>
+					<p>Proficiency with runesmith's tools allows you to etch magical runes into precious stones, as well as identify aspects of their lore when encountered in the world. A set of runesmith's tools costs 25 gp and weighs 5 lb.</p>
+					<p class="indent"><b>Components.</b> Runesmith's tools include a hammer, a set of chisels and needle files, a fine-haired brush, a pouch of powdered mithral, and a special alchemical lacquer.
+					<p class="indent"><b>Arcana and History.</b> Your expertise lends you additional insights about lore associated with runes or other sigils carved into stone or other surface.
+					<p class="indent"><b>Investigation.</b> You can spot clues and make deductions that others might overlook when inspecting items or surfaces carved with runes or other sigils.</p>
+					<h5>Runesmith's Tools</h5>
+					<table>
+						<thead>
+							<tr><td>Activity</td><td>DC</td></tr>
+						</thead>
+						<tr><td>Identify the properties of a runestone</td><td>15</td></tr>
+						<tr><td>Determine the creator of a runestone</td><td>20</td></tr>
+					</table>
+				</description>
+				<setters>
+					<set name="category">Tools</set>
+					<set name="cost" currency="gp">50</set>
+					<set name="weight" lb="8">8 lbs.</set>
+					<set name="type">Tool</set>
+					<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_RUNESMITH_TOOLS</set>
+				</setters>
+			</element>
 		<!--/Tools-->
 		<element name="Tome of Strahd" type="Item" source="Curse of Strahd" id="ID_WOTC_COS_MAGIC_ITEM_TOME_OF_STRAHD">		
 			<description>

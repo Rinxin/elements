@@ -348,6 +348,7 @@
 				<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
 				<description>
 					<p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>
+					<div element="ID_HEAVYARMS_TCAH_INTERNAL_ARMOR_PROPERTY_SPECIAL_TOWER_SHIELD" />
 				</description>
 				<setters>
 					<set name="category">Armor</set>
@@ -389,4 +390,11 @@
 			<p>† Heavy armor can be upgraded to the next tier up for the difference in cost. For example, you can upgrade a suit of half plate to plate at a cost of 450 gp.</p>
 		</description>
 	</element>
+
+	<!-- Armor Properties-->
+		<element name="Special (Tower Shield)" type="Armor Property" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_INTERNAL_ARMOR_PROPERTY_SPECIAL_TOWER_SHIELD">
+			<description>
+				<p>You can't make opportunity attacks while holding this shield.</p>
+			</description>
+		</element>
 </elements>

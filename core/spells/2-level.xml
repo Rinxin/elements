@@ -479,17 +479,16 @@ Darkbolt (evocation) [shadow] - , Sorcerer, Warlock, Wizard
     </element>
 Dark Path (conjuration) [shadow] - , Sorcerer, Warlock, Wizard
 Dead Walking (illusion) - Ranger, Sorcerer, Warlock, Wizard
-Decelerate (transmutation) [Dunamancy] [clockwork] - Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard
-    <element name="Decelerate" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DMTM_SPELL_DECELERATE">
-		<supports>Druid,Paladin,Ranger,Sorcerer,Warlock,Wizard, Dunamancy</supports>
+    <element name="Decelerate" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_DECELERATE">
+		<supports>Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard, Clockwork, Dunamancy</supports>
 		<description>
-			<p>You slow the flow of time around a creature. The creature must make a successful Wisdom saving throw or its speed is halved (rounded up to the nearest 5-foot increment). Until the effect ends, the creature’s speed is halved again at the start of each of your turns. For example, a character with a speed of 30 feet fails its saving throw, dropping its speed to 15 feet. At the start of your next turn, the creature’s speed drops to 10 feet, then to 5 feet on the following round. Decelerate can’t reduce a creature’s speed to less than 5 feet. The spell ends after 1 minute or when the target uses its action to make a successful Wisdom saving throw.</p>
-			<p class="indent">When you cast this spell using a spell slot of 3rd level or higher, you can affect an additional creature for each slot level above 3rd.</p>
+			<p>You slow the flow of time around a creature within range that you can see. The creature must make a successful Wisdom saving throw, or its walking speed is halved (round up to the nearest 5-foot increment). The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. Until the spell ends, on a failed save the target’s speed is halved again at the start of each of your turns. For example, if a creature with a speed of 30 feet fails its initial saving throw, its speed drops to 15 feet. At the start of your next turn, the creature’s speed drops to 10 feet on a failed save, then to 5 feet on the following round on another failed save. Decelerate can’t reduce a creature’s speed to less than 5 feet.</p>
+			<p class="indent"><b>At Higher Levels.</b> When you cast this spell using a spell slot of 3rd level or higher, you can affect an additional creature for each slot level above 2nd.</p>
 		</description>
 		<setters>
-			<set name="keywords">dunamancy</set>
+			<set name="keywords">clockwork, dunamancy</set>
 			<set name="level">2</set>
-			<set name="school" addition="Dunamancy">Transmutation</set>
+			<set name="school" addition="Clockwork, Dunamancy">Transmutation</set>
 			<set name="time">1 action</set>
 			<set name="range">60 feet</set>
 			<set name="duration">1 minute</set>
@@ -1789,7 +1788,7 @@ Stench of rot (necromancy) - Bard, Cleric, Druid, Ranger, Sorcerer, Warlock
 Thorn cage (conjuration) - Druid, Warlock
 Thunderous stampede (transmutation) [labyrinth] - Warlock, Wizard
 Thunderous stampede (transmutation) [labyrinth] - , Sorcerer
-    <element name="Time Step" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DMTM_SPELL_TIME_STEP">
+    <element name="Time Step" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_TIME_STEP">
 		<supports>Bard,Cleric,Ranger,Warlock,Wizard, Dunamancy</supports>
 		<description>
 			<p>You briefly step forward in time. You disappear from your location and reappear at the beginning of your next turn in a location within 30 feet of the space you disappeared from. You can’t be affected by anything that happens during the interval you’re missing, and you aren’t aware of anything that happens during that time.</p>

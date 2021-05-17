@@ -520,7 +520,26 @@ Evercold (necromancy) [winter] - Cleric, Sorcerer, Warlock, Wizard
         </setters>
     </element>
 Flame wave (evocation) - Sorcerer, Warlock, Wizard
-Flickering fate (divination) [Dunamancy] - Wizard
+    <element name="Flickering Fate" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_FLICKERING_FATE">
+		<supports>Wizard, Dunamancy</supports>
+		<description>
+			<p>You or a creature that you touch can see a few seconds into the future. When the spell is cast, each other creature within 30 feet of the target must make a Wisdom saving throw. Those that fail must declare, in initiative order, what their next action will be. The target of the spell declares his or her action last, after hearing what all other creatures will do. Each creature that declared an action must follow its declaration as closely as possible when its turn comes. For the duration of the spell, the target has advantage on attack rolls, ability checks, and saving throws, and creatures that declared their actions have disadvantage on attack rolls against the target.</p>
+		</description>
+		<setters>
+			<set name="keywords">dunamancy</set>
+			<set name="level">4</set>
+			<set name="school" addition="Dunamancy">Divination</set>
+			<set name="time">1 action</set>
+			<set name="range">Touch</set>
+			<set name="duration">1 round</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
 Fluctuating alignment (enchantment) [chaos] - Bard, Sorcerer, Wizard
 Fog of war (illusion) - Bard, Sorcerer, Warlock, Wizard
     <element name="Freedom of Movement" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT">
@@ -959,21 +978,21 @@ Ray of life suppression (necromancy) - Druid, Sorcerer, Warlock, Wizard
 Reposition (conjuration) - Bard, Sorcerer, Warlock, Wizard
 Reset (transmutation) [Dunamancy] [clockwork] - Bard, Cleric, Druid, Paladin, Wizard
     <element name="Reset" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_RESET">
-		<supports>Bard, Cleric, Druid, Paladin, Wizard, Dunamancy, Clockwork</supports>
+		<supports>Bard, Cleric, Druid, Paladin, Wizard, Dunamancy</supports>
 		<description>
 			<p>Dunamantic energy bursts from you to bathe the battlefield. Choose up to four creatures within range. If the creature is your ally, it can reroll its initiative check twice, keeping whichever of the two results it prefers. If the target is your enemy, it must make a successful Wisdom saving throw or reroll its initiative check twice, keeping whichever of the two results you prefer. New initiative results go into effect at the start of the next round.</p>
 			<p class="indent"><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 5th level or higher, you can affect one additional creature for each slot level above 4th.</p>
 		</description>
 		<setters>
-			<set name="keywords">clockwork, dunamancy</set>
+			<set name="keywords">dunamancy</set>
 			<set name="level">4</set>
-			<set name="school" addition="Clockwork, Dunamancy">Transmutation</set>
+			<set name="school" addition="Dunamancy">Transmutation</set>
 			<set name="time">1 action</set>
 			<set name="range">60 feet</set>
 			<set name="duration">Instantaneous</set>
 			<set name="hasVerbalComponent">true</set>
 			<set name="hasSomaticComponent">true</set>
-			<set name="hasMaterialComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
 			<set name="materialComponent"></set>
 			<set name="isConcentration">false</set>
 			<set name="isRitual">false</set>

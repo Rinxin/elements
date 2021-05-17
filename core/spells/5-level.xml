@@ -1493,16 +1493,15 @@ Tongue tied (enchantment) - Bard, Cleric, Warlock, Wizard
             <set name="isRitual">false</set>
         </setters>
     </element>
-Wall of time (abjuration) [Dunamancy] [clockwork] - Cleric, Sorcerer, Wizard
     <element name="Wall of Time" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_WALL_OF_TIME">
-		<supports>Cleric,Sorcerer,Wizard, clockwork, Dunamancy</supports>
+		<supports>Cleric, Sorcerer, Wizard, Clockwork, Dunamancy</supports>
 		<description>
 			<p>You create a wall of shimmering, transparent blocks and rotating but intangible gears on a solid surface within range. You can make a straight wall up to 60 feet long, 20 feet high, and 1 foot thick, or a circular wall up to 20 feet high, 1 foot thick, and forming a closed circle 20 feet in diameter. Nonmagical ranged attacks that cross the wall vanish into time with no other effect. Ranged spell attacks and ranged weapon attacks made with magical weapons that pass through the wall are made with disadvantage. A creature that intentionally enters or passes through the wall is affected as if they had just failed their initial saving throw against the slow spell.</p>
 		</description>
 		<setters>
 			<set name="keywords">clockwork, dunamancy</set>
 			<set name="level">5</set>
-			<set name="school" addition="clockwork, Dunamancy">Abjuration</set>
+			<set name="school" addition="Clockwork, Dunamancy">Abjuration</set>
 			<set name="time">1 action</set>
 			<set name="range">120 feet</set>
 			<set name="duration">Concentration, up to 1 minute</set>
