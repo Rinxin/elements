@@ -25,6 +25,17 @@
 				<tr><td>Start a fire</td><td>15</td></tr>
 				<tr><td>Neutralize acid</td><td>20</td></tr>
 			</table>
+			<h5>Item Crafting</h5>
+			<table>
+				<thead>
+					<tr><td>Alchemist’s Kit (Artisan’s Tools)</td><td>Craft DC</td><td>Material Cost</td><td>Craft Time</td></tr>
+				</thead>
+				<tr><td>Acid</td><td>INT 11</td><td>10 gp</td><td>1 Hour</td></tr>
+				<tr><td>Alchemist’s Fire</td><td>INT 14</td><td>25 gp</td><td>2 Hours</td></tr>
+				<tr><td>Liquid Ice</td><td>INT 14</td><td>25 gp</td><td>2 Hours</td></tr>
+				<tr><td>Pus Potion (4d4 Poison)</td><td>INT 17</td><td>50 gp</td><td>4 Hours</td></tr>
+				<tr><td>Bomb (3d6 Fire)</td><td>INT 20</td><td>75 gp</td><td>4 Hours</td></tr>
+			</table>
 		</description>
 		<setters>
 			<set name="category">Tools</set>
@@ -290,6 +301,17 @@
 				<tr><td>Find plants</td><td>15</td></tr>
 				<tr><td>Identify poison</td><td>20</td></tr>
 			</table>
+			<h5>Item Crafting</h5>
+			<table>
+				<thead>
+					<tr><td>Herbalism Kit</td><td>Craft DC</td><td>Material Cost</td><td>Craft Time</td></tr>
+				</thead>
+				<tr><td>Lesser Potion of Healing (1d4+1)</td><td>INT 11</td><td> 10 gp</td><td>1 Hour</td></tr>
+				<tr><td>Potion of Healing (2d4+2)</td><td>INT 14</td><td>25 gp</td><td>2 Hours</td></tr>
+				<tr><td>Greater Potion of Healing (4d4+4)</td><td>INT 17</td><td>50 gp</td><td>4 Hours</td></tr>
+				<tr><td>Antitoxin (Advantage vs. Poisons)</td><td>INT 14</td><td>25 gp</td><td>2 Hours</td></tr>
+				<tr><td>Antiviral (Advantage vs. Diseases)</td><td>INT 17</td><td>50 gp</td><td>4 Hours</td></tr>
+			</table>
 		</description>
 		<setters>
 			<set name="category">Tools</set>
@@ -485,6 +507,14 @@
 				<tr><td>Sharpen a dull blade</td><td>10</td></tr>
 				<tr><td>Repair a suit of armor</td><td>15</td></tr>
 				<tr><td>Sunder a nonmagical metal object</td><td>20</td></tr>
+			</table>
+			<h5>Item Crafting</h5>
+			<table>
+				<thead>
+					<tr><td>Blacksmith’s Tools (Artisan’s Tools)</td><td>Craft DC</td><td>Material Cost</td><td>Craft Time</td></tr>
+				</thead>
+				<tr><td>Weapon</td><td>STR or INT 14</td><td>Cost of the Item</td><td>4 Hours</td></tr>
+				<tr><td>Armor</td><td>STR or INT 14</td><td>Cost of the Item</td><td>8 Hours</td></tr>
 			</table>
 		</description>
 		<setters>

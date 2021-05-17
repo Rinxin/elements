@@ -8,6 +8,99 @@
 			<file name="feats.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/players-handbook/feats.xml" />
 		</update>
 	</info>
+
+Tenacious
+This feat replaces the Durable and Tough feats
+Hardy and resilient, you gain the following benefits:
+• Increase your Constitution score by 1, to a maximum
+of 20.
+• When you roll a Hit Die to regain hit points, the
+minimum number of hit points you regain from
+the roll equals twice your Constitution modifier
+(minimum of 2).
+• Your hit point maximum increases by an amount equal
+to twice your level when you gain this feat. Whenever
+you gain a level thereafter, your hit point maximum
+increases by an additional 2 hit points.
+Weapon Master
+This feat replaces the current Weapon Master feat
+You have practiced extensively with a variety of weapons,
+gaining the following benefits:
+• Increase your Strength or Dexterity score by 1, to a
+maximum of 20.
+• Choose four weapons. You may add your proficiency
+bonus to damage rolls using these weapons.
+New Feats
+The following feats are new.
+Attunement Expert
+You have gained a great familiarity with magic items and
+how they work.
+• Increase your Intelligence score by 1 (maximum of 20).
+• Attuning to a magic item only requires 1 minute of
+uninterrupted focus, instead of a short rest.
+• You can be attuned to four items, instead of three.
+• When regaining charges from magic items, you can
+reroll if the result is a 1, taking the new result.
+Big for Your Race
+Prerequisite: Must be a member of a Small-sized race
+
+Increase your Strength or Dexterity score by 1, to a max-
+imum of 20. You may now ignore the heavy property of
+
+weapons, and your size counts as Medium for the purpose
+of grappling.
+
+
+Force of Destiny
+The gods have smiled on you. The forces of the universe
+conspire to bring you success, granting you the following
+benefits: You can retain a number of marks of destiny
+equal to your proficiency bonus (up from the usual 1);
+you can gift your marks of destiny to any party member
+without them; if you roll a 1 using your destiny die, you
+may roll again, taking the new number.
+Friend of the Wild
+Prerequisite: 8th level
+You gain an animal companion that can be trained and
+which improves as long as you travel together. Choose a
+beast of CR 1 or lower. This new animal companion adds
+a number of extra Hit Die to its health equal to 1/2 your
+level and adds half of your proficiency bonus to its attack
+and damage rolls, Armor Class, and saving throws. These
+numbers increase as your level and proficiency bonus
+increases. The GM must approve your choice.
+Reactionary
+You are acutely aware of the movements and actions of
+your foes in combat and can react quickly to capitalize
+on their slightest mistakes. In addition to your normal
+reaction, you gain a number of reactions equal to half of
+your proficiency bonus. These reactions must be used
+for additional attacks of opportunity, and a foe may be
+attacked only once with this reaction.
+Silver Tongued
+
+You have a way with words, gaining the following bene-
+fits:
+
+• Increase your Charisma score by 1, to a maximum of
+20.
+• You have advantage on Charisma (Deception) and
+Charisma (Persuasion) checks.
+• When buying or selling items, you can do so at 75%
+of their value (down from 100% and up from 50%). If
+the base percentage is different than the standard, your
+impact on the price is +/- 25%. 
+
+Sale Discount: Distance/75 + (Persuation-NPC d20 roll) = Discount percent (round to better whole number)
+purchase: Advantange on your (Persuastion-NPC d20 Roll) = Purchase price discount (round to better whole number)
+
+Example - 100mi / 75 + (10-8) = 1%
+Spellrager
+
+You’ve learned to push your magic to its utmost, extracting every drop of damage possible from the Weave.
+
+Before you make a spell attack, you can choose to take a -5 penalty to the attack roll. If the spell hits, you add +10 to its damage.
+
 <!--A-->
 	<element name="Aberrant Dragonmark" type="Feat" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_FEAT_ABERRANT_DRAGONMARK">
 		<requirements>!ID_INTERNAL_GRANTS_DRAGONMARK,!ID_WOTC_WGTE_GRANTS_DARKMARKED</requirements>
@@ -346,6 +439,15 @@
 			</rules>
 		</element>
 	<!--/Clairvoyant Warrior-->
+	<element name="Clear-Mined" type="Feat" source="Dawnforged" id="ID_DF_FEAT_CLEAR_MINDED">
+		<description>
+			<p>You’ve mastered the basic spells to such a degree that you can cast and concentrate on them with little effort. You can maintain concentration on up to two spells at a time, as long as those spells are of 3rd level or lower. During a turn when you are concentrating on two spells, you can only move at half speed. Additionally, you have disadvantage on constitution saving throws that you make to maintain your concentration on spells. If you fail such a saving throw, all spells you were concentrating on end.</p>
+		</description>
+		<sheet>
+			<description>You can maintain concentration on up to two spells at a time, as long as those spells are of 3rd level or lower. During a turn when you are concentrating on two spells, you can only move at half speed. Additionally, you have disadvantage on constitution saving throws that you make to maintain your concentration on spells. If you fail such a saving throw, all spells you were concentrating on end.</description>
+		</sheet>
+	</element>
+	
 	<element name="Circle Spellcaster" type="Feat" source="Deep Magic: Collection" id="ID_KBP_DM_FEAT_CIRCLE_SPELLCASTER">
 		<prerequisite>The ability to cast at least one spell.</prerequisite>
 		<requirements>[type:spell]</requirements>
