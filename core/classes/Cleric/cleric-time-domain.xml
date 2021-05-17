@@ -46,6 +46,9 @@
 			</table>
 		</description>
 		<sheet display="false"/>
+		<spellcasting>
+			<list>Dunamancy</list>
+		</spellcasting>
 		<rules>
 			<grant type="Spell" id="ID_KBP_DM_SPELL_AUSPICIOUS_WARNING" level="1" spellcasting="Cleric" prepared="true" />
 			<grant type="Spell" id="ID_PHB_SPELL_FEATHER_FALL" level="1" spellcasting="Cleric" prepared="true" />
