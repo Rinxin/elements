@@ -1236,6 +1236,26 @@
             <set name="isRitual">false</set>
         </setters>
     </element>
+    <element name="Mark / Recall" type="Spell" source="DnDBeyond: Condre369" id="ID_DNDB_HB_SPELL_MARK_RECALL">
+        <supports>Bard, Cleric, Druid, Sorcerer, Wizard</supports>
+        <description>
+            <p>With the Mark / Recall spell, the caster can mark the exact location of which they are standing-- that is both unobstructed and stationary. The location can be recalled allowing the caster to teleport to the location instantly. The caster can teleport with nothing more than the equipment and objects that they can carry while not encumbered. Only one location can be marked at a time and once the location is marked it cannot be changed until after a long rest. After a recall, the location is still marked until after a long rest and until the caster marks a new location.</p>
+        </description>
+        <setters>
+            <set name="keywords"></set>
+            <set name="level">0</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
     <element name="Memento Mori" type="Spell" source="Deep Magic: Collection" id="ID_KBP_DM_SPELL_MEMENTO_MORI">
         <supports>Cleric, Druid, Sorcerer, Warlock, Wizard</supports>
         <description>
