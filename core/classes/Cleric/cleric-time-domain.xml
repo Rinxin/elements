@@ -10,7 +10,7 @@
 	<element name="Time Domain" type="Archetype" source="Deep Magic: Collection" id="ID_KBP_DM_ARCHETYPE_TIME_DOMAIN">
 		<supports>Divine Domain</supports>
 		<description>
-			</p class="indent">The gods that deal with time are varied. Some see into the future and past; others deal with the cycles of life that mark the passage of time—birth and death, the seasons, or renewal and decay—or have some particular connection to the timeline, such as gods of creation or apocalypse do. The clerics of such gods are often granted powers that allow them to see through or manipulate time, emulating their deities and enabling them to alter events as their gods see fit.</p>
+			<p>The gods that deal with time are varied. Some see into the future and past; others deal with the cycles of life that mark the passage of time—birth and death, the seasons, or renewal and decay—or have some particular connection to the timeline, such as gods of creation or apocalypse do. The clerics of such gods are often granted powers that allow them to see through or manipulate time, emulating their deities and enabling them to alter events as their gods see fit.</p>
 			<div element="ID_KBP_DM_ARCHETYPE_FEATURE_TIME_DOMAIN_SPELLS" />
 			<div element="ID_KBP_DM_ARCHETYPE_FEATURE_TIME_DOMAIN_PRECIENT_GLIMPSES" />
 			<div element="ID_KBP_DM_ARCHETYPE_FEATURE_TIME_DOMAIN_CD_TIME_SHIFT" />
