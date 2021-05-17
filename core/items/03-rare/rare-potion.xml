@@ -29,7 +29,7 @@
 				<p>Beads of this cloudy gray oil form on the outside of its container and quickly evaporate. The oil can cover a Medium or smaller creature, along with the equipment it’s wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the <em>etherealness</em> spell for 1 hour.</p>
 			</description>
 			<setters>
-				<set name="category">Potion</set>
+				<set name="category">Potions</set>
 				<set name="cost" currency="gp">0</set>
 				<set name="weight" lb="0.5">½ lb.</set>
 				<set name="type">Potion</set>

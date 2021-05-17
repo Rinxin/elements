@@ -8,8 +8,252 @@
 			<file name="01-common.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common.xml" />
 		</update>
 	</info>
+	<!--
+		<element name="Armor Proofing - Tier 1" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_">
+				<description>
+					<p>While wearing this armor, you  reduce nonmagical slashing damage by 6 before resistance is applied. If the damage is reduced below 0 you take none of that damage instead.</p>
+				</description>
+				<setters>
+					<set name="category">Magic Armor</set>
+					<set name="cost" currency="gp">0</set>
+					<set name="slot">body</set>
+					<set name="type" addition="light, medium, or heavy">Armor</set>
+					<set name="rarity">Rare</set>
+					<set name="enhancement">1</set>
+					<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+					<set name="name-format">{{parent}} +{{enhancement}}</set>
+				</setters>
+				<rules>
+					<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+				</rules>
+			</element>
+		-->
 <!--Armor-->
 	<!--A-->
+		<!--Ammunition-->
+			Firecracker (5)
+			Shadow (5)
+			Blunt (10)
+			Bodkin (10)
+			Broadhead (10)
+			Silvered (10)
+			Berserk Dart (5)
+			Sleep Dart (5)
+		<!--Ammuntion-->
+		<!--Armor Upgrades-->
+			<element name="Armor Proofing - Tier 1" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_ARMOR_PROFFING_TIER_1">
+				<description>
+					<p>While wearing this armor, you  reduce nonmagical slashing damage by 6 before resistance is applied. If the damage is reduced below 0 you take none of that damage instead.</p>
+				</description>
+				<setters>
+					<set name="category">Magic Armor</set>
+					<set name="cost" currency="gp">1000</set>
+					<set name="slot">body</set>
+					<set name="type" addition="light, medium, or heavy">Armor</set>
+					<set name="rarity">Common</set>
+					
+					<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+					<set name="name-format">{{parent}}, Tier 1 Armor Proofing</set>
+				</setters>
+			</element>
+			<element name="Armor Proofing - Tier 2" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_ARMOR_PROFFING_TIER_2">
+				<description>
+					<p>While wearing this armor, you reduce nonmagical piercing or slashing damage by 7 before resistance is applied. If the damage is reduced below 0 you take none of that damage instead.</p>
+				</description>
+				<setters>
+					<set name="category">Magic Armor</set>
+					<set name="cost" currency="gp">2000</set>
+					<set name="slot">body</set>
+					<set name="type" addition="medium, or heavy armor with the 1st tier armor proofing tag">Armor</set>
+					<set name="rarity">Common</set>
+					
+					<set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+					<set name="name-format">{{parent}}, Tier 2 Armor Proofing</set>
+				</setters>
+			</element>
+			<element name="Armor Proofing - Tier 3" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_ARMOR_PROFFING_TIER_3">
+				<description>
+					<p>While wearing this armor, you reduce nonmagical bludgeoning, piercing or slashing damage by 8 before resistance is applied. If the damage is reduced below 0 you take none of that damage instead.</p>
+				</description>
+				<setters>
+					<set name="category">Magic Armor</set>
+					<set name="cost" currency="gp">3000</set>
+					<set name="slot">body</set>
+					<set name="type" addition="heavy armor with the 2nd tier armor proofing tag">Armor</set>
+					<set name="rarity">Common</set>
+					
+					<set name="armor">ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+					<set name="name-format">{{parent}}, Tier 3 Armor Proofing</set>
+				</setters>
+			</element>
+			<element name="Breathable" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_BREATHABLE">
+				<description>
+					<p>While wearing this armor, you have advantage on saving throws you make against exhaustion effects due to extreme heat, as described in chapter 5 of the Dungeon Master's Guide.</p>
+				</description>
+				<setters>
+					<set name="category">Magic Armor</set>
+					<set name="cost" currency="gp">100</set>
+					<set name="slot">body</set>
+					<set name="type" addition="medium, heavy armor. Incompatible with insulated tag.">Armor</set>
+					<set name="rarity">Common</set>
+					
+					<set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+					<set name="name-format">{{parent}}, Breathable</set>
+				</setters>
+			</element>
+			<element name="Burnished" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_BURNISHED">
+				<description>
+					<p>This armor has been polished to a mirror finish. While wearing it, you may have advantage on Charisma-based skill checks when interacting with certain humanoids, as determined by the DM. This tag is automatically removed after 24 hours of wear or at the end of a combat.</p>
+				</description>
+				<setters>
+					<set name="category">Magic Armor</set>
+					<set name="cost" currency="gp">10</set>
+					<set name="slot">body</set>
+					<set name="type" addition="heavy armor">Armor</set>
+					<set name="rarity">Common</set>
+					
+					<set name="armor">ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+					<set name="name-format">{{parent}}, Burnished</set>
+				</setters>
+			</element>
+			<element name="Climbing Harnes" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_BURNISHED">
+				<description>
+					<p>This armor has been affixed with a climbing harness around the midriff, comprising leather straps and quickdraws. While wearing it, you make Strength (Athletics) checks to scale vertical surfaces with advantage when using a rope or similar aid.</p>
+				</description>
+				<setters>
+					<set name="category">Magic Armor</set>
+					<set name="cost" currency="gp">100</set>
+					<set name="slot">body</set>
+					<set name="type" addition="light, medium, heavy armor">Armor</set>
+					<set name="rarity">Common</set>
+					
+					<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+					<set name="name-format">{{parent}}, Climbing Harnes</set>
+				</setters>
+			</element>
+			<element name="Decorated" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_DECORATED">
+				<description>
+					<p>This armor or shield is adorned with a holy symbol and can be used as a spellcasting focus for cleric and paladin spells.</p>
+				</description>
+				<setters>
+					<set name="category">Magic Armor</set>
+					<set name="cost" currency="gp">5</set>
+					<set name="slot">body</set>
+					<set name="type" addition="medium, heavy armor and shields">Armor</set>
+					<set name="rarity">Common</set>
+					
+					<set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY|ID_INTERNAL_ARMOR_GROUP_SHIELD"</set>
+					<set name="name-format">{{parent}}, Decorated</set>
+				</setters>
+			</element>
+			<element name="Insulated" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_INSULATED">
+				<description>
+					<p>This armor counts as cold weather gear in conditions of extreme cold, as described in chapter 5 of the Dungeon Master's Guide.</p>
+				</description>
+				<setters>
+					<set name="category">Magic Armor</set>
+					<set name="cost" currency="gp">100</set>
+					<set name="slot">body</set>
+					<set name="type" addition="light, medium. Incompatible with breathable tag">Armor</set>
+					<set name="rarity">Common</set>
+					
+					<set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY"</set>
+					<set name="name-format">{{parent}}, Insulated</set>
+				</setters>
+			</element>
+			<element name="Locking Joints" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_LOCKING_JOINTS">
+				<description>
+					<p>This armor is made with hinged joints that can be locked by a quick motion from the wearer. While wearing it, you make Strength (Athletics) checks to oppose attempts to shove you with advantage.</p>
+				</description>
+				<setters>
+					<set name="category">Magic Armor</set>
+					<set name="cost" currency="gp">150</set>
+					<set name="slot">body</set>
+					<set name="type" addition="Half Plate or Plate Armor">Armor</set>
+					<set name="rarity">Common</set>
+					
+					<set name="armor">ID_WOTC_ARMOR_HEAVY_SPLINT|ID_WOTC_ARMOR_HEAVY_PLATE"</set>
+					<set name="name-format">{{parent}}, Locking Joints</set>
+				</setters>
+			</element>
+			<element name="Muffled" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_MUFFLED">
+				<description>
+					<p>This armor no longer confers disadvantage on Dexterity (Stealth) checks.</p>
+				</description>
+				<setters>
+					<set name="category">Magic Armor</set>
+					<set name="cost" currency="gp">50</set>
+					<set name="slot">body</set>
+					<set name="type" addition="Brigandine Armor">Armor</set>
+					<set name="rarity">Common</set>
+					
+					<set name="armor">ID_WOTC_ARMOR_MEDIUM_HALF_PLATE"</set>
+					<set name="name-format">{{parent}}, Muffled</set>
+				</setters>
+			</element>
+			<element name="Quick-release Clasps" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_QUICK_RELEASE_CLASPS">
+				<description>
+					<p>You can doff this armor as an action.</p>
+				</description>
+				<setters>
+					<set name="category">Magic Armor</set>
+					<set name="cost" currency="gp">200</set>
+					<set name="slot">body</set>
+					<set name="type" addition="light, medium, or heavy armor">Armor</set>
+					<set name="rarity">Common</set>
+					
+					<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY"</set>
+					<set name="name-format">{{parent}}, Quick-release Clasps</set>
+				</setters>
+			</element>
+			<element name="Reinforced" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_REINFORCED">
+				<description>
+					<p>This armor or shield has been reinforced at the joints and other weak points. While wearing it, critical damage you take from nonmagical attacks is reduced by 3.</p>
+				</description>
+				<setters>
+					<set name="category">Magic Armor</set>
+					<set name="cost" currency="gp">300</set>
+					<set name="slot">body</set>
+					<set name="type" addition="heavy armor or shield">Armor</set>
+					<set name="rarity">Common</set>
+					
+					<set name="armor">ID_INTERNAL_ARMOR_GROUP_HEAVY|ID_INTERNAL_ARMOR_GROUP_SHIELD"</set>
+					<set name="name-format">{{parent}}, Reinforced</set>
+				</setters>
+			</element>
+			<!--Runic Magic-->
+				<element name="Runic:" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_RUNIC_1">
+					<description>
+						<p>This armor or shield can be imbued with rune magic.*</p>
+					</description>
+					<setters>
+						<set name="category">Magic Armor</set>
+						<set name="cost" currency="gp">400</set>
+						<set name="slot">body</set>
+						<set name="type" addition="Armor proofing tag (any tier) or a shield. Can only be applied by a runesmith.*">Armor</set>
+						<set name="rarity">Common</set>
+						
+						<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY|ID_INTERNAL_ARMOR_GROUP_SHIELD"</set>
+						<set name="name-format">{{parent}}, Reinforced</set>
+					</setters>
+				</element>
+			<!--/Runic Magic-->
+			<element name="Spiked" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_SPIKED">
+				<description>
+					<p>This armor has been modified with spikes, barbs, or other similar feature, and deals 1d4 piercing damage to creatures attacking with unarmed strikes or natural weapons that aren't magical.</p>
+				</description>
+				<setters>
+					<set name="category">Magic Armor</set>
+					<set name="cost" currency="gp">250</set>
+					<set name="slot">body</set>
+					<set name="type" addition="medium or heavy armor">Armor</set>
+					<set name="rarity">Common</set>
+					
+					<set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY"</set>
+					<set name="name-format">{{parent}}, Spiked</set>
+				</setters>
+			</element>
+		<!--/Armor Upgrades-->
 	<!--B-->
 	<!--C-->
 	<!--D-->
@@ -35,4 +279,28 @@
 	<!--X-->
 	<!--Y-->
 	<!--Z-->
+
+	<!--Speical Materials-->
+	
+	Adamantine. An ultra-hard alloy of adamant, silver,  and electrum. Adamantine is black with a green tinge that sharpens to purple-white under light from most magical sources. Armor made of adamantine reduces incoming bludgeoning, piercing, and slashing damage by 3 if it's heavy armor, or 2 if it's medium armor. Shields made of adamantium have a +1 bonus to AC. Equipment made of adamantine can't be destroyed, damaged or suffer from wear.
+
+	Cold Iron. A rare pure-formed iron, mined deep underground and forged at lower temperatures to preserve its delicate properties. Weapons made of cold iron deal an additional weapon damage die against fey creatures. 
+
+	Darkwood (Zalantar). This rare magical wood has similar properties to beech, oak and yew for bow-making while being extremely light and durable. Longbows and heavy crossbows made of darkwood don't have the heavy property.
+
+	Deep Crystal. Deep crystal is a mineral of above-average quality found at the heart of large veins or deposits, and is renowned for its strength and magically resonant nature. Weapons made of deep crystal can be used as a spellcasting focus.
+
+	Dragonhide. A rare type of leather armor made from the supple underbelly hide of a dragon. While wearing dragonhide armor you have resistance to the damage type associated with the dragon from which it is made (for example, blue dragonhide armor confers resistance to lightning damage).
+
+	Ironwood. Ironwood is a magical substance created from normal wood by druids. While remaining natural wood in almost every way, ironwood is as strong, heavy, and resistant to fire as steel. Spells and effects that affect metal do not affect ironwood, whereas spells that affect wood do—although ironwood will not burn.
+
+	Mithral. Known to the dwarves as truemetal, this shining silvery-blue metal is lighter than steel yet just as durable. Equipment made of mithral weighs only half as much as the same item made of normal metals, and has no Strength requirement. Additionally, armor made of mithral can be worn under normal clothes, and doesn't impose disadvantage on Dexterity (Stealth) checks when it otherwise would. Small creatures do not have disadvantage on attack rolls with heavy weapons made of mithral.
+
+	Shadowsilk. Highly prized by assassins and cutpurses, shadowsilk is cloth made from magically woven shadowstuff. While wearing normal clothing or a gambeson made of shadowsilk and no other armor, you have advantage on Dexterity (Stealth) checks when attempting to hide in dim light or darkness.
+
+Rules for Special Materials
+The following general rules apply to arms and armor constructed using special materials:
+	• Armor and shields constructed using adamantine or dragonhide have a base cost equal to twenty times that of the same item made exclusively of normal materials. Armor and shields constructed using other special materials have a base cost equal to ten times as much.
+	
+	• Weapons made of special materials vary in price, typically costing upwards of 2,000 gp. In addition, weapons made of special materials automatically possess the silvered and magical tags, which count when determining the cost of any subsequent upgrades.
 </elements>
