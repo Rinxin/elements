@@ -1464,10 +1464,10 @@
 				<set name="category">Magic Armor</set>
 				<set name="cost" currency="gp">0</set>
 				<set name="slot">body</set>
-				<set name="type" addition="chain mail">Armor</set>
+				<set name="type" addition="Cuirass (chain mail)">Armor</set>
 				<set name="attunement">true</set>
 				<set name="rarity">Legendary</set>
-				<set name="armor">Chain Mail</set>
+				<set name="armor">ID_WOTC_ARMOR_HEAVY_CHAIN_MAIL</set>
 			</setters>
 			<rules>
 				<stat name="ac:armored:enhancement" value="3" bonus="enhancement" />
