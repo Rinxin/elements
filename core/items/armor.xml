@@ -122,10 +122,10 @@
 			</rules>
 		</element>
 	<!--A-->
-		<element name="Adamantine Armor" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ADAMANTINE_ARMOR_HEAVY">
+		<element name="Adamantine Armor" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ADAMANTINE_ARMOR">
 			<supports>Armor</supports>
 			<description>
-				<p><b>Adamantine.</b> An ultra-hard alloy of adamant, silver,  and electrum. Adamantine is black with a green tinge that sharpens to purple-white under light from most magical sources. Equipment made of adamantine can't be destroyed, damaged or suffer from wear.</p>
+				<p><b>Adamantine.</b> An ultra-hard alloy of adamant, silver,  and electrum. Adamantine is black with a green tinge that sharpens to purple-white under light from most magical sources. Armor made of adamantine reduces incoming bludgeoning, piercing, and slashing damage by 3 if it's heavy armor, or 2 if it's medium armor. Shields made of adamantium have a +1 bonus to AC. Equipment made of adamantine can't be destroyed, damaged or suffer from wear.</p>
 			</description>
 			<setters>
 				<set name="keywords">heavy</set>
@@ -134,23 +134,7 @@
 				<set name="slot">body</set>
 				<set name="type" addition="heavy">Armor</set>
 				<set name="rarity">Uncommon</set>
-				<set name="armor">ID_INTERNAL_ARMOR_GROUP_HEAVY,!Hide</set>
-				<set name="name-format">Adamantine {{parent}}</set>
-			</setters>
-		</element>
-		<element name="Adamantine Armor" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ADAMANTINE_ARMOR_MEDIUM">
-			<supports>Armor</supports>
-			<description>
-				<p><b>Adamantine.</b> An ultra-hard alloy of adamant, silver,  and electrum. Adamantine is black with a green tinge that sharpens to purple-white under light from most magical sources. Equipment made of adamantine can't be destroyed, damaged or suffer from wear.</p>
-			</description>
-			<setters>
-				<set name="keywords">medium</set>
-				<set name="category">Magic Armor</set>
-				<set name="cost" currency="gp">0</set>
-				<set name="slot">body</set>
-				<set name="type" addition="medium, but not hide">Armor</set>
-				<set name="rarity">Uncommon</set>
-				<set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM,!Hide</set>
+				<set name="armor">(ID_INTERNAL_ARMOR_GROUP_MEDIUM||ID_INTERNAL_ARMOR_GROUP_HEAVY),!Hide</set>
 				<set name="name-format">Adamantine {{parent}}</set>
 			</setters>
 		</element>
@@ -458,7 +442,7 @@
 				<set name="attunement">true</set>
 				<set name="rarity">Rare</set>
 				<set name="cursed">true</set>
-				<set name="armor">Plate†</set>
+				<set name="armor">ID_WOTC_ARMOR_HEAVY_PLATE</set>
 			</setters>
 		</element>
 		<!--Armor Upgrades-->
@@ -1100,7 +1084,7 @@
 				<set name="attunement">true</set>
 				<set name="rarity">Very Rare</set>
 				<set name="cursed">true</set>
-				<set name="armor">Plate†</set>
+				<set name="armor">ID_WOTC_ARMOR_HEAVY_PLATE</set>
 				<set name="enhancement">1</set>
 			</setters>
 			<rules>
@@ -1121,7 +1105,7 @@
 				<set name="type" addition="scale mail">Armor</set>
 				<set name="attunement">true</set>
 				<set name="rarity">Very Rare</set>
-				<set name="armor">Scale Mail</set>
+				<set name="armor">ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL</set>
 				<set name="enhancement">1</set>
 			</setters>
 			<rules>
@@ -1157,7 +1141,7 @@
 				<set name="type" addition="scale mail">Armor</set>
 				<set name="attunement">true</set>
 				<set name="rarity">Very Rare</set>
-				<set name="armor">Scale Mail</set>
+				<set name="armor">ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL</set>
 				<set name="enhancement">1</set>
 			</setters>
 			<rules>
@@ -1193,7 +1177,7 @@
 				<set name="type" addition="scale mail">Armor</set>
 				<set name="attunement">true</set>
 				<set name="rarity">Very Rare</set>
-				<set name="armor">Scale Mail</set>
+				<set name="armor">ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL</set>
 				<set name="enhancement">1</set>
 			</setters>
 			<rules>
@@ -1229,7 +1213,7 @@
 				<set name="type" addition="scale mail">Armor</set>
 				<set name="attunement">true</set>
 				<set name="rarity">Very Rare</set>
-				<set name="armor">Scale Mail</set>
+				<set name="armor">ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL</set>
 				<set name="enhancement">1</set>
 			</setters>
 			<rules>
@@ -1265,7 +1249,7 @@
 				<set name="type" addition="scale mail">Armor</set>
 				<set name="attunement">true</set>
 				<set name="rarity">Very Rare</set>
-				<set name="armor">Scale Mail</set>
+				<set name="armor">ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL</set>
 				<set name="enhancement">1</set>
 			</setters>
 			<rules>
@@ -1301,7 +1285,7 @@
 				<set name="type" addition="scale mail">Armor</set>
 				<set name="attunement">true</set>
 				<set name="rarity">Very Rare</set>
-				<set name="armor">Scale Mail</set>
+				<set name="armor">ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL</set>
 				<set name="enhancement">1</set>
 			</setters>
 			<rules>
@@ -1337,7 +1321,7 @@
 				<set name="type" addition="scale mail">Armor</set>
 				<set name="attunement">true</set>
 				<set name="rarity">Very Rare</set>
-				<set name="armor">Scale Mail</set>
+				<set name="armor">ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL</set>
 				<set name="enhancement">1</set>
 			</setters>
 			<rules>
@@ -1373,7 +1357,7 @@
 				<set name="type" addition="scale mail">Armor</set>
 				<set name="attunement">true</set>
 				<set name="rarity">Very Rare</set>
-				<set name="armor">Scale Mail</set>
+				<set name="armor">ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL</set>
 				<set name="enhancement">1</set>
 			</setters>
 			<rules>
@@ -1409,7 +1393,7 @@
 				<set name="type" addition="scale mail">Armor</set>
 				<set name="attunement">true</set>
 				<set name="rarity">Very Rare</set>
-				<set name="armor">Scale Mail</set>
+				<set name="armor">ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL</set>
 				<set name="enhancement">1</set>
 			</setters>
 			<rules>
@@ -1445,7 +1429,7 @@
 				<set name="type" addition="scale mail">Armor</set>
 				<set name="attunement">true</set>
 				<set name="rarity">Very Rare</set>
-				<set name="armor">Scale Mail</set>
+				<set name="armor">ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL</set>
 				<set name="enhancement">1</set>
 			</setters>
 			<rules>
@@ -1464,7 +1448,7 @@
 				<set name="slot">body</set>
 				<set name="type" addition="plate">Armor</set>
 				<set name="rarity">Very Rare</set>
-				<set name="armor">Plate†</set>
+				<set name="armor">ID_WOTC_ARMOR_HEAVY_PLATE</set>
 			</setters>
 			<rules>
 				<stat name="ac:armored:enhancement" value="2" bonus="enhancement" />
@@ -1483,7 +1467,7 @@
 				<set name="type" addition="chain mail">Armor</set>
 				<set name="attunement">true</set>
 				<set name="rarity">Legendary</set>
-				<set name="armor">Chain Mail</set>
+				<set name="armor">ID_WOTC_ARMOR_HEAVY_CHAIN_MAIL</set>
 			</setters>
 			<rules>
 				<stat name="ac:armored:enhancement" value="3" bonus="enhancement" />
@@ -1501,7 +1485,7 @@
 				<set name="slot">body</set>
 				<set name="type" addition="chain shirt">Armor</set>
 				<set name="rarity">Rare</set>
-				<set name="armor">Chain Shirt</set>
+				<set name="armor">ID_WOTC_ARMOR_MEDIUM_CHAIN_SHIRT</set>
 				<set name="enhancement">1</set>
 				<set name="name-format">Elven {{parent}}</set>
 			</setters>
@@ -1523,7 +1507,7 @@
 				<set name="slot">body</set>
 				<set name="type" addition="studded leather">Armor</set>
 				<set name="rarity">Rare</set>
-				<set name="armor">Studded Leather</set>
+				<set name="armor">ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER</set>
 				<set name="enhancement">1</set>
 			</setters>
 			<rules>
@@ -1663,7 +1647,7 @@
 				<set name="cost" currency="gp">0</set>
 				<set name="type" addition="studded leather">Armor</set>
 				<set name="rarity">Legendary</set>
-				<set name="armor">Studded Leather</set>
+				<set name="armor">ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER</set>
 				<set name="name-format">Hide of the Feral Guardian, +{{enhancement}}</set>
 				<set name="enhancement">1</set>
 			</setters>
@@ -1699,7 +1683,7 @@
 				<set name="cost" currency="gp">0</set>
 				<set name="type" addition="studded leather">Armor</set>
 				<set name="rarity">Legendary</set>
-				<set name="armor">Studded Leather</set>
+				<set name="armor">ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER</set>
 				<set name="name-format">Hide of the Feral Guardian, +{{enhancement}}</set>
 				<set name="enhancement">2</set>
 			</setters>
@@ -1734,7 +1718,7 @@
 				<set name="cost" currency="gp">0</set>
 				<set name="type" addition="studded leather">Armor</set>
 				<set name="rarity">Legendary</set>
-				<set name="armor">Studded Leather</set>
+				<set name="armor">ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER</set>
 				<set name="name-format">Hide of the Feral Guardian, +{{enhancement}}</set>
 				<set name="enhancement">3</set>
 			</setters>
@@ -1753,7 +1737,7 @@
 				<set name="cost" currency="gp">0</set>
 				<set name="type" addition="light">Armor</set>
 				<set name="rarity">Very Rare</set>
-				<set name="armor">Leather||Studded Leather</set>
+				<set name="armor">ID_WOTC_ARMOR_LIGHT_LEATHER||ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER</set>
 				<set name="name-format">Hunter’s {{parent}} Coat, +{{enhancement}}</set>
 				<set name="enhancement">1</set>
 				<set name="charges">3</set>
@@ -2049,7 +2033,7 @@
 				<set name="type" addition="plate">Armor</set>
 				<set name="attunement">true</set>
 				<set name="rarity">Legendary</set>
-				<set name="armor">Plate†</set>
+				<set name="armor">ID_WOTC_ARMOR_HEAVY_PLATE</set>
 			</setters>
 		</element>
 	<!--Q-->
