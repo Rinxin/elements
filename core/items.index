@@ -8,15 +8,19 @@
 			<file name="items.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items.index" />
 		</update>
 	</info>
-	<files>
-		<file name="00-mundane.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/00-mundane.index" />
-		<file name="01-common.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/01-common.index" />
-		<file name="02-uncommon.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/02-uncommon.index" />
-		<file name="03-rare.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/03-rare.index" />
-		<file name="04-very-rare.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/04-very-rare.index" />
-		<file name="05-legendary.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/05-legendary.index" />
-		<file name="06-artifact.index" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/06-artifact.index" />
-		
+	<files>		
 		<file name="supernatural-gifts.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/supernatural-gifts.xml" />
+
+		<file name="armor.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/armor.xml" />
+        <file name="potion.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/potion.xml" />
+        <file name="ring.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/ring.xml" />
+        <file name="rod.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/rod.xml" />
+        <file name="scroll.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/scroll.xml" />
+        <file name="staff.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items//staff.xml" />
+        <file name="wand.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/wand.xml" />
+        <file name="weapon.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items/weapon.xml" />
+        <file name="wondrous-item.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items//wondrous-item.xml" />
     </files>
 </index>
+
+		

@@ -1369,517 +1369,519 @@
 		</element>
 	<!--T-->
 		<!--Tatoo-->
-			<element name="Apprenticeship Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_APRENTICESHIP_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo is composed of a set of bold lines that frame a concentrated point on the brow, representing knowledge.</p>
-					<p class="indent">As a reaction when you observe another creature within 10 feet using a tool, musical instrument, vehicle, weapon, or armor with which they are proficient, you can speak the tattoo’s command word to gain the observed proficiency for as long as this tattoo is applied on your skin. Your tattoo glows and you feel a slight pinch upon your forehead as you absorb the skill and knowledge. When you gain a proficiency using this tattoo, you lose any other proficiencies gained using this tattoo. Once this property of the tattoo has been used, it can’t be used again until 7 days have passed.</p>
-					<h5>Lore</h5>
-					<p>This tattoo was developed during a brief war between two kingdoms as an accelerant for the training required by fledgling knights, doctors, mages, and vehicle operators. After the war ended, it was quickly adopted by prestigious guilds looking to boost their apprenticeship programs. Guilds often embedded their own iconography into the design, yielding more than a few unintended side-effects.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Uncommon</set>
-				</setters>
-			</element>
-			<element name="Attraction Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_ATTRACTION_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo is composed of sloping lines that obscure the face’s natural features.</p>
-					<p class="indent">While this tattoo is applied on your skin, whenever a creature looks at your face, the tattoo’s illusion magically changes its appearance to best please the creature who observes it. A creature that uses its action to examine your face can discern that it is being magically altered with a successful DC 15 Intelligence (Investigation) check.</p>
-					<p class="indent">You can also use an action to speak the tattoo’s command word and amplify its effects. Until the start of your next turn, each creature that can see you and is within 30 feet of you must succeed on a DC 15 Wisdom saving throw at the start of its turn or become charmed by you for 1 minute. Once used, this property of the tattoo can’t be used again until the next dawn.</p>
-					<h5>Lore</h5>
-					<p>This tattoo carries some taboo; it was historically used in common practice by spies, rogues, escorts, and those who rely on charming their quarry. When a nefarious guild started branding their underlings, the tattoo became associated with their minions and went out of fashion due to its limitations. In recent times, the tattoo has undergone a renaissance, newly associated with aristocrats and the leisure class as a glamour tool.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Rare</set>
-				</setters>
-			</element>
-			<element name="Beastly Sense Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_BEASTLY_SENSE_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo represents wild beasts.</p>
-					<p class="indent">As an action, you can speak the tattoo’s command word and activate one of the following properties for 1 hour. Once you activate this property, the tattoo can’t be used again until the next dawn.</p>
-					<p class="indent"><b>Hawk.</b> The tattoo reforms around your eyes and you have advantage on Wisdom (Perception) checks that rely on sight.</p>
-					<p class="indent"><b>Bat.</b> The tattoo reforms around your ears and you have advantage on Wisdom (Perception) checks that rely on hearing.</p>
-					<p class="indent"><b>Rat.</b> The tattoo reforms around your nose and you have advantage on Wisdom (Perception) checks that rely on smell.</p>
-					<h5>Lore</h5>
-					<p>This tattoo was the product of a collaboration between a tattooist and a druid. Together, they sought to design a tattoo that would aid adventurers that had lost some of their hearing, smell, or sight, for some reason or another. Today, it is a tattoo that is popular among those particularly vulnerable to monster attacks while traveling.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Common</set>
-				</setters>
-			</element>
-			<element name="Cannibal's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_CANNIBALS_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo symbolizes the sanctity of flesh.</p>
-					<p class="indent">While this tattoo is applied on your skin, it magically wraps around your teeth to create sharp fangs that allow you to turn your unarmed strikes into a savage bite. Your fanged maw is a natural magic weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You have a +1 bonus to attack and damage rolls you make with this bite.</p>
-					<h5>Lore</h5>
-					<p>This tattoo was created by a troupe of vampireworshiping performers known as The Sanguine Company. They sought to emulate the creatures of their admiration. At first a purely cosmetic pursuit, it eventually grew into a violent obsession with consuming the flesh of others. As the troupe continued their travels, word spread about the nature of their tattoos and it would eventually be quietly adopted by animalistic and humanoidsacrificing cults.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Rare</set>
-				</setters>
-			</element>
-			<element name="Copycat's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_COPYCATS_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo is composed of curved lines that symbolize fluidity and adaptability.</p>
-					<p class="indent">As an action, you can speak the tattoo’s command word to make your face look exactly like that of another creature’s for 1 hour, or until you end the effect as a bonus action. You must have clear vision and be within 30 feet of the creature’s face you wish to copy.</p>
-					<p class="indent">While you are disguised in this way, a creature can make a DC 13 Investigation (Intelligence) check to inspect your appearance. On a success, the creature is able to see through your disguise.</p>
-					<h5>Lore</h5>
-					<p>This tattoo was commissioned by a wizard that wanted to enable their network of spies to operate in the field for extended periods of time without carrying bulky disguise kits. The tattoo was successfully kept a closely guarded secret for over a century due to carefully worded geas and contingency spells designed to prevent it from falling into the hands of their enemies. Eventually, the tattoo’s design was leaked by the wizard’s apprentice. Many years after, the tattoo was popularized among bards and other street performers.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Uncommon</set>
-				</setters>
-			</element>
-			<element name="Discerning Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_DISCERNING_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo symbolizes enlightenment.</p>
-					<p class="indent">While this tattoo is applied on your skin, your Wisdom score increases by 2, to a maximum of 20. You also have advantage on all Wisdom (Perception) checks relying on sight and can see invisible creatures and objects out to a range of 30 feet.</p>
-					<h5>Lore</h5>
-					<p>Druids that watch over dead forests, the sites of forgotten civilizations, and portals to planes of death, created this tattoo to better enable them to deal with the undead and extraplanar threats that stalk such places. The intricacies of the tattoo’s design are a well kept secret among such druids. There are plenty of fakes, however, as the effects of the tattoo are difficult to immediately discern, allowing con artists to make off with some quick coin.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Legendary</set>
-				</setters>
-			</element>
-			<element name="Double Vision Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_DOUBLE_VISION_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo represents symmetry.</p>
-					<p class="indent">As an action, you can speak the tattoo’s command word to cause the tattoo to detach from your skin and reform as a tiny floating orb for 1 hour. As a bonus action, you can move the orb up to 30 feet in any direction.</p>
-					<p class="indent">For the duration, you can close your eyes and see through the orb’s perspective (no action required). It grants you darkvision up to 60 feet, and is able to see through both magical and nonmagical darkness. During this time, you are blind with regard to your own senses.</p>
-					<p class="indent">The orb is absorbed back into your skin if it is ever more than 60 feet away from you, becomes the target of an attack or spell, or if you use a bonus action to siphon it back onto your skin. Once used, the tattoo can’t be used again until the next dawn.</p>
-					<h5>Lore</h5>
-					<p>Cave spelunkers often find themselves exploring regions where it is impractical to carry traditional sources of light. Water-logged cave systems tend to make short work of torches and combustible gases make short work of spelunkers. Similarly, many dungeon delvers can expect to run into magical sources of darkness or other mystical impediments. This tattoo was designed to circumvent these issues by allowing the tattooed individual to produce a floating orb to see in darkness, without putting themselves at much risk.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Uncommon</set>
-				</setters>
-			</element>
-			<element name="Empath's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_EMPATHS_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo is composed of symbols that symbolize gateways into one’s soul.</p>
-					<p class="indent">This tattoo has 4 charges and regains 1d2 + 1 expended charges daily at dawn.</p>
-					<p class="indent">As a bonus action, you can expend 1 charge to magically augment your ability to connect with others. For 1 minute, you gain advantage on Wisdom (Insight and Perception) checks directed at one humanoid creature within 10 feet of you that you can see and that can see or hear you.</p>
-					<h5>Lore</h5>
-					<p>Subtle games of deception are popular among the high courts of nobility. Tattoos applied in discrete places on the body (or using invisible ink) are a common tactic to gain an upper hand during these situations because there’s nothing that tips the scales more than magical assistance. This tattoo is one such discrete magic that’s used to gain an edge in conversations. Merchants and traders are also known to utilize the tattoo to gain the upper hand when negotiating deals.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="charges">4></set>
-					<set name="rarity">Uncommon</set>
-				</setters>
-			</element>
-			<element name="Hurricane Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_HURRICANE_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo represents mighty winds.</p>
-					<p class="indent">This tattoo has 6 charges and regains 1d3 + 1 expended charges daily at dawn.</p>
-					<p class="indent">As an action, you can expend 1 or more charges to unleash an extraordinary volume of air, in a 30-foot cone. Each object that weighs 200 lbs or less and that isn’t being worn or carried, as well as each creature of a size equal to or less than your own, must make a DC 15 Strength saving throw. On a failure, for each charge expended, a creature takes 1d6 bludgeoning damage and is pushed 10 feet away from you.</p>
-					<h5>Lore</h5>
-					<p>This tattoo was a gift from a god of chaos to the Sisterhood of the Cataclysm, a cult of havocwreaking women who recognized that many individuals simply did not respect personal space. The tattoo’s design is known by only a handful of tattooists, most of whom are either affiliated with the sisterhood or have defected. Those that have defected don’t share the design with strangers easily, for fear of its misuse.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="charges">6</set>
-					<set name="rarity">Rare</set>
-				</setters>
-			</element>
-			<element name="Librarian's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_LIBRARIANS_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo symbolizes wisdom.</p>
-					<p class="indent">As an action, you can hold your finger up against your lips and release an invisible 60-foot cone of magical energy. Each creature in the cone must succeed on a DC 13 Constitution saving throw or become unable to produce a sound from their mouth for 1 minute. The tattoo can’t be used this way again until the next dawn.</p>
-					<h5>Lore</h5>
-					<p>The staff of the Vade Mecum Athenaeum, a revered interplanar library, created this tattoo to forcefully silence guests causing a disturbance. The tattoo has since been provided to a wide variety of institutions seeking ways to mitigate auditory disruption. Notably, guards in large cities are given the tattoo to help control rowdy crowds.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Uncommon</set>
-				</setters>
-			</element>
-			<element name="Linking Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_LINKING_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo is comprised of linked shapes representing a strong mental bond.</p>
-					<p class="indent">As a bonus action, you can speak the tattoo’s command word and create a telepathic link between you and a creature of your choice within 60 feet of you. You cannot create a telepathic link with a creature that has an Intelligence score of 3 or lower, or creatures that don’t understand any language. If the creature is unwilling to create a telepathic link with you, you must make an Intelligence check contested by its Intelligence check. On a success, you successfully create a telepathic link as described. On a failure, no telepathic link is created.</p>
-					<p class="indent">Until you select another creature to create a telepathic link with or use a bonus action to end the effect, you and the target can communicate telepathically whether or not you have a common language. The communication is only possible as long as you and the target remain within 120 feet of each other.</p>
-					<h5>Lore</h5>
-					<p>This tattoo was created by an industrious wizard that wanted to build a humanoid-based communications array across multiple cities and regions. After designing the tattoo, the wizard invested a significant amount of gold into hiring workers, getting them tattooed, and then sending them off to various corners of the world. Unfortunately, they didn’t test the tattoos at a distance greater than 120 feet and only realized that the tattoos wouldn’t be capable of forming a long-distance communication network after investing a significant amount of gold into the project. The wizard’s investors were not pleased.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Common</set>
-				</setters>
-			</element>
-			<element name="Magekiller Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_MAGEKILLER_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo symbolizes a blinded mystical eye.</p>
-					<p class="indent">As an action, you can speak the tattoo’s command word and make the ink separate from your skin. For the next minute, or until you use a bonus action to end the effect, it surges around as a stormy, ink-filled, 20-foot-radius sphere. Within the area, spells can’t be cast, summoned creatures disappear, and magic items (other than the tattoo itself) become mundane. Any spells and other magical effects can’t extend through the storm or be cast through it. Until the effect ends, the storm moves with you, centered on you. Once used, the tattoo can’t be used again until the next dawn.</p>
-					<h5>Lore</h5>
-					<p>This tattoo’s origins can be traced back to the Cult of the Unraveled, a group fixated on extinguishing magic users and unmaking the gods of magic. Their tattoo gave them a lethal edge in close-quarters combat against magic users and items. After quietly sowing dissent towards magic among the common folk, they conducted a joint strike against powerful mage guilds in several cities. The clashes were brutal, but the cult lost and was forcefully disbanded. So thoroughly did the mages quell the uprising that the tattoo has become nearly impossible to find.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Legendary</set>
-				</setters>
-			</element>
-			<element name="Midas Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_MIDAS_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo is fashioned after a heavy crown once worn by a being that commanded terrible power.</p>
-					<p class="indent">As an action, you can speak the tattoo’s command word, causing small globules of magical golden ink to leak from your tattoo and travel down your body onto your fingertips. For the next minute or until you use a bonus action to end this effect, any object you touch turns into solid gold until the next dawn.</p>
-					<p class="indent">If you touch a creature, it must make a DC 17 Constitution saving throw. On a failed save, the target is restrained and begins to turn to gold. While restrained in this way, the target must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. A creature petrified in this way must make a DC 17 Constitution saving throw at the start of each of its turns or remain petrified. On a success, the creature is no longer petrified.</p>
-					<p class="indent">Once used, the tattoo can’t be used this way again until the next dawn.</p>
-					<h5>Lore</h5>
-					<p>This tattoo was created by a powerful witch with a golden touch. She spent decades studying her innate abilities, trying to reproduce them in others. After a significant amount of experimentation with embarrassing outcomes, she was able to create a semblance of her petrifying powers through a magical tattoo. Though it lacks permanence, it is extremely effective nonetheless.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Legendary</set>
-				</setters>
-			</element>
-			<element name="Mindbending Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_MINDBENDING_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo symbolizes mental domination.</p>
-					<p class="indent">This tattoo has 6 charges and regains 1d3 + 1 expended charges daily at dawn.</p>
-					<p class="indent">As an action, you can spend 1 charge to cast the suggestion spell (save DC 15). As part of the action to cast suggestion, you can spend 2 additional charges to target a second creature within the spell’s range with the same spell.</p>
-					<h5>Lore</h5>
-					<p>This tattoo was created by a vindictive, controlling bard. They used the tattoo to command a small herd of awakened shrubs, which were forced to follow the bard and cheer for them. Eventually, the bard met their end against a group of unimpressed adventurers. The tattoo was repurposed by the adventurers for commanding people to behave and evacuate in an orderly manner during monster attacks. While effective at keeping people under duress alive, its use is considered controversial and dangerous by most.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="charges">6</set>
-					<set name="rarity">Rare</set>
-				</setters>
-			</element>
-			<element name="Miner's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_MINERS_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo represents the act of opening one’s eyes.</p>
-					<p class="indent">This tattoo has 3 charges and regains 1d2 + 1 expended charges daily at dawn.</p>
-					<p class="indent">As an action, you can speak the tattoo’s command word and expend 1 charge. For the next minute, you have darkvision and can see into and through solid matter, out to a range of 30 feet. While this property is being used, solid objects within that radius appear ghostly and transparent.</p>
-					<h5>Lore</h5>
-					<p>While mostly applied for rather dubious uses nowadays, this tattoo was initially designed for more noble purposes. Countless miners often faced avoidable accidents in their line of work, most of which were a result of sudden loss of light or vision in tunnels. A particularly concerned foreman sought to remedy this issue. They contacted an acquaintance who was able to design a tattoo that would ultimately reduce the loss of life in this line of work by more than fifty percent.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="charges">3</set>
-					<set name="rarity">Uncommon</set>
-				</setters>
-			</element>
-			<element name="Mouthpiece Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_MOUTHPIECE_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo represents the influence of another upon your words.</p>
-					<p class="indent">This tattoo has 3 charges and regains 1d2 + 1 expended charges daily at dawn.</p>
-					<p class="indent">As an action, you can expend 1 charge to point your finger towards a creature you can see within 120 feet of you and speak a message of ten words or less. The target is magically compelled to relay that message as you speak it. Aspects of your message such as tone and inflection are retained. An unwilling creature must succeed on a DC 15 Charisma saving throw, or be unable to resist relaying your message. Creatures that can’t be charmed are immune to this effect. After the message is relayed, the creature knows it was manipulated by you.</p>
-					<h5>Lore</h5>
-					<p>This tattoo was originally created by underworld crime lords to conceal their identities and protect themselves from assassination. The tattoo is responsible for several high-profile raids coming up dry. As its reputation for flouting city guards has grown, so too has its adoption among nobles and merchants well-connected enough to find an underworld tattooist willing to apply it upon them.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="charges">3</set>
-					<set name="rarity">Rare</set>
-				</setters>
-			</element>
-			<element name="Proclamation Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_PROCLAMATION_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo symbolizes a set of royal gates.</p>
-					<p class="indent">As an action, you can speak a short message of twenty words or less. Each creature of your choice that you can see within 120 feet of you hears the message in its mind and recognizes you as the sender if it knows you. After you activate the tattoo, it can’t be activated again until the next dawn.</p>
-					<h5>Lore</h5>
-					<p>This tattoo is a long-time favorite among bards, originally designed by a half-orc woman with a sense of flair. She was known for telling terrifying, skin-crawling stories. As a room would grow still with tension, she would use the tattoo to deliver a bone-chilling line directly into the minds of everyone listening. The effect would scare people out of their minds and she often had to pick up the tab for furniture damaged by startled crowds.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Uncommon</set>
-				</setters>
-			</element>
-			<element name="Projection Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_PROJECTING_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo represents the dissemination of information.</p>
-					<p class="indent">As an action, you can invoke the tattoo to conjure a magical glass surface up to 30 feet wide and 30 feet long on a point that you can see. The surface lasts for 10 minutes or until you end the effect as a bonus action. For the duration of the effect, everything you see appears on the glass surface and all sounds you hear project from the glass at five times the volume you hear them. The image is translucent but recreates exactly what you are seeing and hearing at the moment. After you activate the tattoo, it can’t be used again until the next dawn.</p>
-					<h5>Lore</h5>
-					<p>This tattoo was created by an especially talented and resourceful wizard that wanted to find a way to entertain others with images from the battlefield. They devised a way to beam the contents of their sight to an illusory glass surface. The effect was short-lived, but the wizard found that rich nobles thoroughly enjoyed the live visual feed far more than other static modes of imagery.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Uncommon</set>
-				</setters>
-			</element>
-			<element name="Recycling Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_RECYCLING_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo symbolizes renewed purpose.</p>
-					<p class="indent">This tattoo has 6 charges, and it regains 1 charge for each leveled spell you cast.</p>
-					<p class="indent">As an action, you can expend any number of charges and regain one expended spell slot of 2nd level or higher, equal to the number of charges expended. When this property of the tattoo is used, it releases a small blast of air that can cause leaves to rustle, windows to shut, or clothing to ripple.</p>
-					<h5>Lore</h5>
-					<p>This tattoo was created by a paladin with an intense obsession with recycling. She embodied the ethos of “leave it better than you found it” to such an extreme that a new divine magic was born within her, recognizing her devotion to the ideal. Eventually, she decided to work with a tattooist to examine her newfound powers, creating a tattoo that would help others recycle magic well.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="charges">6</set>
-					<set name="rarity">Legendary</set>
-				</setters>
-			</element>
-			<element name="Repulsive Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_REPULSIVE_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo represents an utterly disgusting creature.</p>
-					<p class="indent">While this tattoo is applied on your skin, whenever a creature looks at your face, the tattoo’s illusion magically changes its appearance to best repulse the creature who observes it. A creature that uses its action to examine your face can discern that it is being magically altered with a successful DC 15 Intelligence (Investigation) check.</p>
-					<p class="indent">You can also use an action to speak the tattoo’s command word and amplify its effects until the start of your next turn. At the start of its turn, each creature that can see you must succeed on a DC 15 Wisdom saving throw or become frightened of you for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the creature ends its turn in a location where it doesn’t have line of sight to you, the effect ends for that creature. Once used, this property of the tattoo can’t be used again until the next dawn.</p>
-					<h5>Lore</h5>
-					<p>Many fall festivals are centered around death and ghouls, providing an opportunity for people to dress up in costumes and make light of the horrors that stalk the land. Naturally, an overzealous tattooist took this to the extreme by crafting a design that invokes genuine fear in others. While the magic is incredibly effective, the design is considered meanspirited, thus making it difficult to acquire.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Rare</set>
-				</setters>
-			</element>
-			<element name="Revealing Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_REVEALING_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo represents loss of sight.</p>
-					<p class="indent">As an action, you can speak the tattoo’s command word and cause its magics to seal your eyes shut for 1 hour. For the duration, you lose your normal visual senses and gain blindsight out to 60 feet. You are blind beyond this radius. You can perceive all creatures and objects within that range unless their presence is completely obscured by magical means.</p>
-					<h5>Lore</h5>
-					<p>Orryn Jefor was a wealthy philanthropist that lost his sight at a young age. He spent some of his immense wealth on the development of a tattoo designed to give him a brief burst of sight and employed it in hand-to-hand combat against thugs in back-alley city streets. Before he died, his reputation as a heroic vigilante among the general population led to the proliferation of this design.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Uncommon</set>
-				</setters>
-			</element>
-			<element name="Sage's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_SAGES_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo is composed of interconnected spheres and lines representing the laws for equivalent exchange.</p>
-					<p class="indent">While this tattoo is applied on your skin, your Intelligence score is 19. It has no effect on you if your Intelligence is already 19 or higher. You can use an action to cast the levitate spell at will on one object not being worn or carried by another creature that you can see within 60 feet of you.</p>
-					<h5>Lore</h5>
-					<p>This tattoo was designed by an engineer named Rocca Elmara who grew frustrated with her aides’ misunderstanding of the intent of her requests, hampering their ability to work quickly. With the tattoo, she was able to move heavy pieces of her projects without the “interference” of others. The tattoo has attracted the interest of dockworkers and other laborers, but the expense of having it applied is out of reach for regular individuals.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Rare</set>
-				</setters>
-			</element>
-			<element name="Scent Sleuth Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_SCENT_SLEUTH_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo represents one’s sense of smell.</p>
-					<p class="indent">While this tattoo is applied on your skin, you have advantage on Wisdom (Perception) checks that rely on smell. Your smell is so acute you can detect the presence of any corporeal creature whose scent isn’t magically masked within 60 feet of you. You don’t know their exact location, just that they are within that proximity.</p>
-					<h5>Lore</h5>
-					<p>This tattoo was originally used by nomadic tribes to more closely connect with their surroundings. After a chance encounter with some merchants moving through the land, the tattoo’s design was sketched and sold to a nearby kingdom. The king’s bodyguard used the tattoo to sniff out spies and assassins, which proved to be an effective application of its powers. Since then, the tattoo has become a popular choice among the powerful and the paranoid.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Uncommon</set>
-				</setters>
-			</element>
-			<element name="Speed Reader's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_SPEED_READERS_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo represents unparalleled dominance over the written word.</p>
-					<p class="indent">While this tattoo is applied on your skin, your Intelligence score increases by 2, to a maximum of 20. You can also understand and read any written language you see. Additionally, you are able to read and process written information at ten times the average speed.</p>
-					<h5>Lore</h5>
-					<p>This tattoo was a gift from a god to an unwitting child in the form of an unusual birthmark. The blessed prodigy developed a talent for linguistic magics and went on to write several revolutionary treaties on the applications of magic and language. It wasn’t until after their death that tattooists unearthed records of the wizard’s birthmark and discovered that it was a powerful magical tattoo. The discovery that the child may have been a kind of warlock was divisive within the wizarding community. To this day, clear information on the subject is difficult to come by.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Very Rare</set>
-				</setters>
-			</element>
-			<element name="Star-Crossed Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_STARCROSSED_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo always comes in pairs with indistinguishable designs representing two spirits forever intertwined.</p>
-					<p class="indent">While this tattoo is applied on your skin and its matching pair is also applied upon another creature, you both gain a +1 bonus to your ACs and saving throws while you are within 30 feet of each other. In addition, while you are within 5 feet of each other, you both gain a +1 bonus to attack rolls and damage rolls.</p>
-					<p class="indent">You are also able to communicate telepathically with each other whether or not you share a common language, unless either of you has an Intelligence of 3 or lower or doesn’t speak any language. The communication is possible over any distance, though it can’t extend to other planes of existence.</p>
-					<h5>Lore</h5>
-					<p>When bards tell stories about this tattoo, they sing of a tiefling woman named Crying in the Sun and a human woman named Leanna. The two were lovers embroiled in tribulation due to their respective families who did not approve of their union. Together they bore a divine marking that made their bond unbreakable no matter how many obstacles were thrown their way. This tale of their endurance and the mark that gave them their strength is a source of hope for many and the primary inspiration for this tattoo.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Rare</set>
-				</setters>
-			</element>
-			<element name="Summer's Rays Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_SUMMERS_RAYS_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo is comprised of wavy lines representing descending flames.</p>
-					<p class="indent">This tattoo has 3 charges regains 1d2 + 1 expended charges daily at dawn.</p>
-					<p class="indent">As an action, you can expend 1 or more charges to emit two crimson beams of lights from your eyes in 5-foot-wide, 30-foot-long line. Each creature in the line must succeed on a DC 15 Dexterity saving throw or take 3d6 fire damage for each charge you spend and be pushed back 5 feet.</p>
-					<p class="indent">You can also expend 3 charges as an action to expel the energy stored within the tattoo in a haphazard manner. Each creature within 30 feet of you must succeed on a DC 15 Dexterity saving throw or be struck by this energy, taking 8d6 force damage and becoming blinded until the end of its next turn.</p>
-					<h5>Lore</h5>
-					<p>This tattoo was created by a gnome tinkerer named Alston Thistlemask who discovered that light could be concentrated into beams through glass. They hoped that replicating the process with magic would allow them to start small fires, but were surprised to discover that the magic beams they produced were several factors more powerful and destructive. They hired the help of an artist to translate the magic into the form of a tattoo so that it was more easily transferable to others.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="charges">3</set>
-					<set name="rarity">Rare</set>
-				</setters>
-			</element>
-			<element name="Survivor's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_SURVIVORS_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo symbolizes focus and determination.</p>
-					<p class="indent">While this tattoo is applied on your skin, whenever you have less than half your maximum hit points, the tattoo flows along your veins and wraps around your equipped weapon for the duration that you continue holding that weapon. When you hit a creature with a melee attack using this equipped weapon, the target takes an additional 1d6 force damage.</p>
-					<p class="indent">When you have less than a quarter of your maximum hit points, the tattoo begins to flash in time with your heartbeat, granting you advantage on all attack rolls.</p>
-					<h5>Lore</h5>
-					<p>This tattoo was created by a warmongering human empire that used magic to enhance the lethality of their common soldiers. This tattoo enabled them to fight with vigor even after they’d sustained dreadful wounds. The empire eventually collapsed into obscurity and the design was lost for a long time. Only recently have archaeologists rediscovered the tattoo.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Rare</set>
-				</setters>
-			</element>
-			<element name="The Chosen One's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_THE_CHOSEN_ONES_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo represents a common tool used to decide one’s fate.</p>
-					<p class="indent">While this tattoo is applied on your skin, you can call on the divine magic imbued within its design (no action required) to reroll one attack roll, ability check, or saving throw. You must use the second roll. The tattoo emits a bright white light in a 40-foot radius and dim light for an additional 40 feet for 1 minute after this property is used. The tattoo can’t be used again until the next dawn.</p>
-					<h5>Lore</h5>
-					<p>This tattoo was a divine gift from a goddess of fates, bestowed to a group of her clerics as they defended a town from a werewolf insurgence. With the power to change their fates, the clerics were able to stem the tide of the conflict without significant loss of life. Following those events, the faithful proliferated and brought their goddess’ blessing with them. Now, the tattoo can be found applied on many of the devout near most of the goddess’ major cathedrals and large temples, but the faithful do not turn it over to just anyone.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Uncommon</set>
-				</setters>
-			</element>
-			<element name="Truthseeker's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_TRUTHSEEKERS_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo represents divine sight.</p>
-					<p class="indent">This tattoo has 3 charges and regains 1d2 + 1 expended charges daily at dawn.</p>
-					<p class="indent">While this tattoo is applied on your skin, when you hear a creature within 5 feet of you make a statement, you can use your reaction to expend 1 charge and cause the creature to make a DC 16 Wisdom saving throw. On a failed save, if the statement they had just spoken contained any lies, they must repeat the statement containing only truths. The creature can be evasive in its second statement as long as it directly corrects any lies it had previously told. You know whether the creature succeeds or fails on its saving throw and your eyes glow brightly as this property is used.</p>
-					<h5>Lore</h5>
-					<p>This tattoo originated from the Order of the Maskless, a monk order founded on the pursuit of absolute truth by a young woman that had an encounter with a deva. Many believed she was blessed with divine insight and could see through the lies that other creatures told. She is said to have passed on her gift in the form of a tattoo towards the end of her life. The order only shares the tattoo with those that demonstrate their devotion to the truth through years of study and practice.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="charges">3</set>
-					<set name="rarity">Very Rare</set>
-				</setters>
-			</element>
-			<element name="Unhealthy Fixation Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_UNHEALTHY_FIXATION_TATTOO">
-				<description>
-					<p>Produced by a special needle, this magic tattoo represents a guarded secret.</p>
-					<p class="indent">While this tattoo is applied on your skin, whenever you take damage while you are concentrating on a spell, you have advantage on the Constitution saving throw made to maintain your concentration.</p>
-					<p class="indent"><b>Fortitude.</b> If you fail a Constitution saving throw made to maintain your concentration after taking damage, you can choose to double the damage you received and succeed instead (no action needed). Once this property of the tattoo is used, it can’t be used again until the next dawn.</p>
-					<h5>Lore</h5>
-					<p>This tattoo was created in a single, frustration fueled night by a tattooist that was tired of being interrupted at inopportune times by their overzealous apprentice. Imbuing this particular tattoo design with magic is a complex, error-prone process, but the results speak for themselves. No longer does the user have to live in fear of being interrupted and losing track of what they were doing.</p>
-				</description>
-				<setters>
-					<set name="category">Tattoo Parlor</set>
-					<set name="cost" currency="gp">0</set>
-					<set name="weight" lb="0">0 lb.</set>
-					<set name="type" addition="face tattoo">Wondrous Item</set>
-					<set name="attunement">true</set>
-					<set name="rarity">Rare</set>
-				</setters>
-			</element>
+			<!--Face Tattoo-->
+				<element name="Apprenticeship Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_APRENTICESHIP_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo is composed of a set of bold lines that frame a concentrated point on the brow, representing knowledge.</p>
+						<p class="indent">As a reaction when you observe another creature within 10 feet using a tool, musical instrument, vehicle, weapon, or armor with which they are proficient, you can speak the tattoo’s command word to gain the observed proficiency for as long as this tattoo is applied on your skin. Your tattoo glows and you feel a slight pinch upon your forehead as you absorb the skill and knowledge. When you gain a proficiency using this tattoo, you lose any other proficiencies gained using this tattoo. Once this property of the tattoo has been used, it can’t be used again until 7 days have passed.</p>
+						<h5>Lore</h5>
+						<p>This tattoo was developed during a brief war between two kingdoms as an accelerant for the training required by fledgling knights, doctors, mages, and vehicle operators. After the war ended, it was quickly adopted by prestigious guilds looking to boost their apprenticeship programs. Guilds often embedded their own iconography into the design, yielding more than a few unintended side-effects.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Uncommon</set>
+					</setters>
+				</element>
+				<element name="Attraction Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_ATTRACTION_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo is composed of sloping lines that obscure the face’s natural features.</p>
+						<p class="indent">While this tattoo is applied on your skin, whenever a creature looks at your face, the tattoo’s illusion magically changes its appearance to best please the creature who observes it. A creature that uses its action to examine your face can discern that it is being magically altered with a successful DC 15 Intelligence (Investigation) check.</p>
+						<p class="indent">You can also use an action to speak the tattoo’s command word and amplify its effects. Until the start of your next turn, each creature that can see you and is within 30 feet of you must succeed on a DC 15 Wisdom saving throw at the start of its turn or become charmed by you for 1 minute. Once used, this property of the tattoo can’t be used again until the next dawn.</p>
+						<h5>Lore</h5>
+						<p>This tattoo carries some taboo; it was historically used in common practice by spies, rogues, escorts, and those who rely on charming their quarry. When a nefarious guild started branding their underlings, the tattoo became associated with their minions and went out of fashion due to its limitations. In recent times, the tattoo has undergone a renaissance, newly associated with aristocrats and the leisure class as a glamour tool.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Rare</set>
+					</setters>
+				</element>
+				<element name="Beastly Sense Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_BEASTLY_SENSE_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo represents wild beasts.</p>
+						<p class="indent">As an action, you can speak the tattoo’s command word and activate one of the following properties for 1 hour. Once you activate this property, the tattoo can’t be used again until the next dawn.</p>
+						<p class="indent"><b>Hawk.</b> The tattoo reforms around your eyes and you have advantage on Wisdom (Perception) checks that rely on sight.</p>
+						<p class="indent"><b>Bat.</b> The tattoo reforms around your ears and you have advantage on Wisdom (Perception) checks that rely on hearing.</p>
+						<p class="indent"><b>Rat.</b> The tattoo reforms around your nose and you have advantage on Wisdom (Perception) checks that rely on smell.</p>
+						<h5>Lore</h5>
+						<p>This tattoo was the product of a collaboration between a tattooist and a druid. Together, they sought to design a tattoo that would aid adventurers that had lost some of their hearing, smell, or sight, for some reason or another. Today, it is a tattoo that is popular among those particularly vulnerable to monster attacks while traveling.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Common</set>
+					</setters>
+				</element>
+				<element name="Cannibal's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_CANNIBALS_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo symbolizes the sanctity of flesh.</p>
+						<p class="indent">While this tattoo is applied on your skin, it magically wraps around your teeth to create sharp fangs that allow you to turn your unarmed strikes into a savage bite. Your fanged maw is a natural magic weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You have a +1 bonus to attack and damage rolls you make with this bite.</p>
+						<h5>Lore</h5>
+						<p>This tattoo was created by a troupe of vampireworshiping performers known as The Sanguine Company. They sought to emulate the creatures of their admiration. At first a purely cosmetic pursuit, it eventually grew into a violent obsession with consuming the flesh of others. As the troupe continued their travels, word spread about the nature of their tattoos and it would eventually be quietly adopted by animalistic and humanoidsacrificing cults.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Rare</set>
+					</setters>
+				</element>
+				<element name="Copycat's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_COPYCATS_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo is composed of curved lines that symbolize fluidity and adaptability.</p>
+						<p class="indent">As an action, you can speak the tattoo’s command word to make your face look exactly like that of another creature’s for 1 hour, or until you end the effect as a bonus action. You must have clear vision and be within 30 feet of the creature’s face you wish to copy.</p>
+						<p class="indent">While you are disguised in this way, a creature can make a DC 13 Investigation (Intelligence) check to inspect your appearance. On a success, the creature is able to see through your disguise.</p>
+						<h5>Lore</h5>
+						<p>This tattoo was commissioned by a wizard that wanted to enable their network of spies to operate in the field for extended periods of time without carrying bulky disguise kits. The tattoo was successfully kept a closely guarded secret for over a century due to carefully worded geas and contingency spells designed to prevent it from falling into the hands of their enemies. Eventually, the tattoo’s design was leaked by the wizard’s apprentice. Many years after, the tattoo was popularized among bards and other street performers.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Uncommon</set>
+					</setters>
+				</element>
+				<element name="Discerning Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_DISCERNING_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo symbolizes enlightenment.</p>
+						<p class="indent">While this tattoo is applied on your skin, your Wisdom score increases by 2, to a maximum of 20. You also have advantage on all Wisdom (Perception) checks relying on sight and can see invisible creatures and objects out to a range of 30 feet.</p>
+						<h5>Lore</h5>
+						<p>Druids that watch over dead forests, the sites of forgotten civilizations, and portals to planes of death, created this tattoo to better enable them to deal with the undead and extraplanar threats that stalk such places. The intricacies of the tattoo’s design are a well kept secret among such druids. There are plenty of fakes, however, as the effects of the tattoo are difficult to immediately discern, allowing con artists to make off with some quick coin.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Legendary</set>
+					</setters>
+				</element>
+				<element name="Double Vision Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_DOUBLE_VISION_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo represents symmetry.</p>
+						<p class="indent">As an action, you can speak the tattoo’s command word to cause the tattoo to detach from your skin and reform as a tiny floating orb for 1 hour. As a bonus action, you can move the orb up to 30 feet in any direction.</p>
+						<p class="indent">For the duration, you can close your eyes and see through the orb’s perspective (no action required). It grants you darkvision up to 60 feet, and is able to see through both magical and nonmagical darkness. During this time, you are blind with regard to your own senses.</p>
+						<p class="indent">The orb is absorbed back into your skin if it is ever more than 60 feet away from you, becomes the target of an attack or spell, or if you use a bonus action to siphon it back onto your skin. Once used, the tattoo can’t be used again until the next dawn.</p>
+						<h5>Lore</h5>
+						<p>Cave spelunkers often find themselves exploring regions where it is impractical to carry traditional sources of light. Water-logged cave systems tend to make short work of torches and combustible gases make short work of spelunkers. Similarly, many dungeon delvers can expect to run into magical sources of darkness or other mystical impediments. This tattoo was designed to circumvent these issues by allowing the tattooed individual to produce a floating orb to see in darkness, without putting themselves at much risk.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Uncommon</set>
+					</setters>
+				</element>
+				<element name="Empath's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_EMPATHS_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo is composed of symbols that symbolize gateways into one’s soul.</p>
+						<p class="indent">This tattoo has 4 charges and regains 1d2 + 1 expended charges daily at dawn.</p>
+						<p class="indent">As a bonus action, you can expend 1 charge to magically augment your ability to connect with others. For 1 minute, you gain advantage on Wisdom (Insight and Perception) checks directed at one humanoid creature within 10 feet of you that you can see and that can see or hear you.</p>
+						<h5>Lore</h5>
+						<p>Subtle games of deception are popular among the high courts of nobility. Tattoos applied in discrete places on the body (or using invisible ink) are a common tactic to gain an upper hand during these situations because there’s nothing that tips the scales more than magical assistance. This tattoo is one such discrete magic that’s used to gain an edge in conversations. Merchants and traders are also known to utilize the tattoo to gain the upper hand when negotiating deals.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="charges">4></set>
+						<set name="rarity">Uncommon</set>
+					</setters>
+				</element>
+				<element name="Hurricane Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_HURRICANE_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo represents mighty winds.</p>
+						<p class="indent">This tattoo has 6 charges and regains 1d3 + 1 expended charges daily at dawn.</p>
+						<p class="indent">As an action, you can expend 1 or more charges to unleash an extraordinary volume of air, in a 30-foot cone. Each object that weighs 200 lbs or less and that isn’t being worn or carried, as well as each creature of a size equal to or less than your own, must make a DC 15 Strength saving throw. On a failure, for each charge expended, a creature takes 1d6 bludgeoning damage and is pushed 10 feet away from you.</p>
+						<h5>Lore</h5>
+						<p>This tattoo was a gift from a god of chaos to the Sisterhood of the Cataclysm, a cult of havocwreaking women who recognized that many individuals simply did not respect personal space. The tattoo’s design is known by only a handful of tattooists, most of whom are either affiliated with the sisterhood or have defected. Those that have defected don’t share the design with strangers easily, for fear of its misuse.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="charges">6</set>
+						<set name="rarity">Rare</set>
+					</setters>
+				</element>
+				<element name="Librarian's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_LIBRARIANS_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo symbolizes wisdom.</p>
+						<p class="indent">As an action, you can hold your finger up against your lips and release an invisible 60-foot cone of magical energy. Each creature in the cone must succeed on a DC 13 Constitution saving throw or become unable to produce a sound from their mouth for 1 minute. The tattoo can’t be used this way again until the next dawn.</p>
+						<h5>Lore</h5>
+						<p>The staff of the Vade Mecum Athenaeum, a revered interplanar library, created this tattoo to forcefully silence guests causing a disturbance. The tattoo has since been provided to a wide variety of institutions seeking ways to mitigate auditory disruption. Notably, guards in large cities are given the tattoo to help control rowdy crowds.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Uncommon</set>
+					</setters>
+				</element>
+				<element name="Linking Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_LINKING_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo is comprised of linked shapes representing a strong mental bond.</p>
+						<p class="indent">As a bonus action, you can speak the tattoo’s command word and create a telepathic link between you and a creature of your choice within 60 feet of you. You cannot create a telepathic link with a creature that has an Intelligence score of 3 or lower, or creatures that don’t understand any language. If the creature is unwilling to create a telepathic link with you, you must make an Intelligence check contested by its Intelligence check. On a success, you successfully create a telepathic link as described. On a failure, no telepathic link is created.</p>
+						<p class="indent">Until you select another creature to create a telepathic link with or use a bonus action to end the effect, you and the target can communicate telepathically whether or not you have a common language. The communication is only possible as long as you and the target remain within 120 feet of each other.</p>
+						<h5>Lore</h5>
+						<p>This tattoo was created by an industrious wizard that wanted to build a humanoid-based communications array across multiple cities and regions. After designing the tattoo, the wizard invested a significant amount of gold into hiring workers, getting them tattooed, and then sending them off to various corners of the world. Unfortunately, they didn’t test the tattoos at a distance greater than 120 feet and only realized that the tattoos wouldn’t be capable of forming a long-distance communication network after investing a significant amount of gold into the project. The wizard’s investors were not pleased.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Common</set>
+					</setters>
+				</element>
+				<element name="Magekiller Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_MAGEKILLER_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo symbolizes a blinded mystical eye.</p>
+						<p class="indent">As an action, you can speak the tattoo’s command word and make the ink separate from your skin. For the next minute, or until you use a bonus action to end the effect, it surges around as a stormy, ink-filled, 20-foot-radius sphere. Within the area, spells can’t be cast, summoned creatures disappear, and magic items (other than the tattoo itself) become mundane. Any spells and other magical effects can’t extend through the storm or be cast through it. Until the effect ends, the storm moves with you, centered on you. Once used, the tattoo can’t be used again until the next dawn.</p>
+						<h5>Lore</h5>
+						<p>This tattoo’s origins can be traced back to the Cult of the Unraveled, a group fixated on extinguishing magic users and unmaking the gods of magic. Their tattoo gave them a lethal edge in close-quarters combat against magic users and items. After quietly sowing dissent towards magic among the common folk, they conducted a joint strike against powerful mage guilds in several cities. The clashes were brutal, but the cult lost and was forcefully disbanded. So thoroughly did the mages quell the uprising that the tattoo has become nearly impossible to find.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Legendary</set>
+					</setters>
+				</element>
+				<element name="Midas Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_MIDAS_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo is fashioned after a heavy crown once worn by a being that commanded terrible power.</p>
+						<p class="indent">As an action, you can speak the tattoo’s command word, causing small globules of magical golden ink to leak from your tattoo and travel down your body onto your fingertips. For the next minute or until you use a bonus action to end this effect, any object you touch turns into solid gold until the next dawn.</p>
+						<p class="indent">If you touch a creature, it must make a DC 17 Constitution saving throw. On a failed save, the target is restrained and begins to turn to gold. While restrained in this way, the target must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. A creature petrified in this way must make a DC 17 Constitution saving throw at the start of each of its turns or remain petrified. On a success, the creature is no longer petrified.</p>
+						<p class="indent">Once used, the tattoo can’t be used this way again until the next dawn.</p>
+						<h5>Lore</h5>
+						<p>This tattoo was created by a powerful witch with a golden touch. She spent decades studying her innate abilities, trying to reproduce them in others. After a significant amount of experimentation with embarrassing outcomes, she was able to create a semblance of her petrifying powers through a magical tattoo. Though it lacks permanence, it is extremely effective nonetheless.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Legendary</set>
+					</setters>
+				</element>
+				<element name="Mindbending Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_MINDBENDING_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo symbolizes mental domination.</p>
+						<p class="indent">This tattoo has 6 charges and regains 1d3 + 1 expended charges daily at dawn.</p>
+						<p class="indent">As an action, you can spend 1 charge to cast the suggestion spell (save DC 15). As part of the action to cast suggestion, you can spend 2 additional charges to target a second creature within the spell’s range with the same spell.</p>
+						<h5>Lore</h5>
+						<p>This tattoo was created by a vindictive, controlling bard. They used the tattoo to command a small herd of awakened shrubs, which were forced to follow the bard and cheer for them. Eventually, the bard met their end against a group of unimpressed adventurers. The tattoo was repurposed by the adventurers for commanding people to behave and evacuate in an orderly manner during monster attacks. While effective at keeping people under duress alive, its use is considered controversial and dangerous by most.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="charges">6</set>
+						<set name="rarity">Rare</set>
+					</setters>
+				</element>
+				<element name="Miner's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_MINERS_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo represents the act of opening one’s eyes.</p>
+						<p class="indent">This tattoo has 3 charges and regains 1d2 + 1 expended charges daily at dawn.</p>
+						<p class="indent">As an action, you can speak the tattoo’s command word and expend 1 charge. For the next minute, you have darkvision and can see into and through solid matter, out to a range of 30 feet. While this property is being used, solid objects within that radius appear ghostly and transparent.</p>
+						<h5>Lore</h5>
+						<p>While mostly applied for rather dubious uses nowadays, this tattoo was initially designed for more noble purposes. Countless miners often faced avoidable accidents in their line of work, most of which were a result of sudden loss of light or vision in tunnels. A particularly concerned foreman sought to remedy this issue. They contacted an acquaintance who was able to design a tattoo that would ultimately reduce the loss of life in this line of work by more than fifty percent.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="charges">3</set>
+						<set name="rarity">Uncommon</set>
+					</setters>
+				</element>
+				<element name="Mouthpiece Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_MOUTHPIECE_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo represents the influence of another upon your words.</p>
+						<p class="indent">This tattoo has 3 charges and regains 1d2 + 1 expended charges daily at dawn.</p>
+						<p class="indent">As an action, you can expend 1 charge to point your finger towards a creature you can see within 120 feet of you and speak a message of ten words or less. The target is magically compelled to relay that message as you speak it. Aspects of your message such as tone and inflection are retained. An unwilling creature must succeed on a DC 15 Charisma saving throw, or be unable to resist relaying your message. Creatures that can’t be charmed are immune to this effect. After the message is relayed, the creature knows it was manipulated by you.</p>
+						<h5>Lore</h5>
+						<p>This tattoo was originally created by underworld crime lords to conceal their identities and protect themselves from assassination. The tattoo is responsible for several high-profile raids coming up dry. As its reputation for flouting city guards has grown, so too has its adoption among nobles and merchants well-connected enough to find an underworld tattooist willing to apply it upon them.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="charges">3</set>
+						<set name="rarity">Rare</set>
+					</setters>
+				</element>
+				<element name="Proclamation Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_PROCLAMATION_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo symbolizes a set of royal gates.</p>
+						<p class="indent">As an action, you can speak a short message of twenty words or less. Each creature of your choice that you can see within 120 feet of you hears the message in its mind and recognizes you as the sender if it knows you. After you activate the tattoo, it can’t be activated again until the next dawn.</p>
+						<h5>Lore</h5>
+						<p>This tattoo is a long-time favorite among bards, originally designed by a half-orc woman with a sense of flair. She was known for telling terrifying, skin-crawling stories. As a room would grow still with tension, she would use the tattoo to deliver a bone-chilling line directly into the minds of everyone listening. The effect would scare people out of their minds and she often had to pick up the tab for furniture damaged by startled crowds.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Uncommon</set>
+					</setters>
+				</element>
+				<element name="Projection Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_PROJECTING_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo represents the dissemination of information.</p>
+						<p class="indent">As an action, you can invoke the tattoo to conjure a magical glass surface up to 30 feet wide and 30 feet long on a point that you can see. The surface lasts for 10 minutes or until you end the effect as a bonus action. For the duration of the effect, everything you see appears on the glass surface and all sounds you hear project from the glass at five times the volume you hear them. The image is translucent but recreates exactly what you are seeing and hearing at the moment. After you activate the tattoo, it can’t be used again until the next dawn.</p>
+						<h5>Lore</h5>
+						<p>This tattoo was created by an especially talented and resourceful wizard that wanted to find a way to entertain others with images from the battlefield. They devised a way to beam the contents of their sight to an illusory glass surface. The effect was short-lived, but the wizard found that rich nobles thoroughly enjoyed the live visual feed far more than other static modes of imagery.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Uncommon</set>
+					</setters>
+				</element>
+				<element name="Recycling Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_RECYCLING_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo symbolizes renewed purpose.</p>
+						<p class="indent">This tattoo has 6 charges, and it regains 1 charge for each leveled spell you cast.</p>
+						<p class="indent">As an action, you can expend any number of charges and regain one expended spell slot of 2nd level or higher, equal to the number of charges expended. When this property of the tattoo is used, it releases a small blast of air that can cause leaves to rustle, windows to shut, or clothing to ripple.</p>
+						<h5>Lore</h5>
+						<p>This tattoo was created by a paladin with an intense obsession with recycling. She embodied the ethos of “leave it better than you found it” to such an extreme that a new divine magic was born within her, recognizing her devotion to the ideal. Eventually, she decided to work with a tattooist to examine her newfound powers, creating a tattoo that would help others recycle magic well.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="charges">6</set>
+						<set name="rarity">Legendary</set>
+					</setters>
+				</element>
+				<element name="Repulsive Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_REPULSIVE_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo represents an utterly disgusting creature.</p>
+						<p class="indent">While this tattoo is applied on your skin, whenever a creature looks at your face, the tattoo’s illusion magically changes its appearance to best repulse the creature who observes it. A creature that uses its action to examine your face can discern that it is being magically altered with a successful DC 15 Intelligence (Investigation) check.</p>
+						<p class="indent">You can also use an action to speak the tattoo’s command word and amplify its effects until the start of your next turn. At the start of its turn, each creature that can see you must succeed on a DC 15 Wisdom saving throw or become frightened of you for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the creature ends its turn in a location where it doesn’t have line of sight to you, the effect ends for that creature. Once used, this property of the tattoo can’t be used again until the next dawn.</p>
+						<h5>Lore</h5>
+						<p>Many fall festivals are centered around death and ghouls, providing an opportunity for people to dress up in costumes and make light of the horrors that stalk the land. Naturally, an overzealous tattooist took this to the extreme by crafting a design that invokes genuine fear in others. While the magic is incredibly effective, the design is considered meanspirited, thus making it difficult to acquire.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Rare</set>
+					</setters>
+				</element>
+				<element name="Revealing Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_REVEALING_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo represents loss of sight.</p>
+						<p class="indent">As an action, you can speak the tattoo’s command word and cause its magics to seal your eyes shut for 1 hour. For the duration, you lose your normal visual senses and gain blindsight out to 60 feet. You are blind beyond this radius. You can perceive all creatures and objects within that range unless their presence is completely obscured by magical means.</p>
+						<h5>Lore</h5>
+						<p>Orryn Jefor was a wealthy philanthropist that lost his sight at a young age. He spent some of his immense wealth on the development of a tattoo designed to give him a brief burst of sight and employed it in hand-to-hand combat against thugs in back-alley city streets. Before he died, his reputation as a heroic vigilante among the general population led to the proliferation of this design.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Uncommon</set>
+					</setters>
+				</element>
+				<element name="Sage's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_SAGES_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo is composed of interconnected spheres and lines representing the laws for equivalent exchange.</p>
+						<p class="indent">While this tattoo is applied on your skin, your Intelligence score is 19. It has no effect on you if your Intelligence is already 19 or higher. You can use an action to cast the levitate spell at will on one object not being worn or carried by another creature that you can see within 60 feet of you.</p>
+						<h5>Lore</h5>
+						<p>This tattoo was designed by an engineer named Rocca Elmara who grew frustrated with her aides’ misunderstanding of the intent of her requests, hampering their ability to work quickly. With the tattoo, she was able to move heavy pieces of her projects without the “interference” of others. The tattoo has attracted the interest of dockworkers and other laborers, but the expense of having it applied is out of reach for regular individuals.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Rare</set>
+					</setters>
+				</element>
+				<element name="Scent Sleuth Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_SCENT_SLEUTH_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo represents one’s sense of smell.</p>
+						<p class="indent">While this tattoo is applied on your skin, you have advantage on Wisdom (Perception) checks that rely on smell. Your smell is so acute you can detect the presence of any corporeal creature whose scent isn’t magically masked within 60 feet of you. You don’t know their exact location, just that they are within that proximity.</p>
+						<h5>Lore</h5>
+						<p>This tattoo was originally used by nomadic tribes to more closely connect with their surroundings. After a chance encounter with some merchants moving through the land, the tattoo’s design was sketched and sold to a nearby kingdom. The king’s bodyguard used the tattoo to sniff out spies and assassins, which proved to be an effective application of its powers. Since then, the tattoo has become a popular choice among the powerful and the paranoid.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Uncommon</set>
+					</setters>
+				</element>
+				<element name="Speed Reader's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_SPEED_READERS_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo represents unparalleled dominance over the written word.</p>
+						<p class="indent">While this tattoo is applied on your skin, your Intelligence score increases by 2, to a maximum of 20. You can also understand and read any written language you see. Additionally, you are able to read and process written information at ten times the average speed.</p>
+						<h5>Lore</h5>
+						<p>This tattoo was a gift from a god to an unwitting child in the form of an unusual birthmark. The blessed prodigy developed a talent for linguistic magics and went on to write several revolutionary treaties on the applications of magic and language. It wasn’t until after their death that tattooists unearthed records of the wizard’s birthmark and discovered that it was a powerful magical tattoo. The discovery that the child may have been a kind of warlock was divisive within the wizarding community. To this day, clear information on the subject is difficult to come by.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Itemsr</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Very Rare</set>
+					</setters>
+				</element>
+				<element name="Star-Crossed Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_STARCROSSED_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo always comes in pairs with indistinguishable designs representing two spirits forever intertwined.</p>
+						<p class="indent">While this tattoo is applied on your skin and its matching pair is also applied upon another creature, you both gain a +1 bonus to your ACs and saving throws while you are within 30 feet of each other. In addition, while you are within 5 feet of each other, you both gain a +1 bonus to attack rolls and damage rolls.</p>
+						<p class="indent">You are also able to communicate telepathically with each other whether or not you share a common language, unless either of you has an Intelligence of 3 or lower or doesn’t speak any language. The communication is possible over any distance, though it can’t extend to other planes of existence.</p>
+						<h5>Lore</h5>
+						<p>When bards tell stories about this tattoo, they sing of a tiefling woman named Crying in the Sun and a human woman named Leanna. The two were lovers embroiled in tribulation due to their respective families who did not approve of their union. Together they bore a divine marking that made their bond unbreakable no matter how many obstacles were thrown their way. This tale of their endurance and the mark that gave them their strength is a source of hope for many and the primary inspiration for this tattoo.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Rare</set>
+					</setters>
+				</element>
+				<element name="Summer's Rays Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_SUMMERS_RAYS_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo is comprised of wavy lines representing descending flames.</p>
+						<p class="indent">This tattoo has 3 charges regains 1d2 + 1 expended charges daily at dawn.</p>
+						<p class="indent">As an action, you can expend 1 or more charges to emit two crimson beams of lights from your eyes in 5-foot-wide, 30-foot-long line. Each creature in the line must succeed on a DC 15 Dexterity saving throw or take 3d6 fire damage for each charge you spend and be pushed back 5 feet.</p>
+						<p class="indent">You can also expend 3 charges as an action to expel the energy stored within the tattoo in a haphazard manner. Each creature within 30 feet of you must succeed on a DC 15 Dexterity saving throw or be struck by this energy, taking 8d6 force damage and becoming blinded until the end of its next turn.</p>
+						<h5>Lore</h5>
+						<p>This tattoo was created by a gnome tinkerer named Alston Thistlemask who discovered that light could be concentrated into beams through glass. They hoped that replicating the process with magic would allow them to start small fires, but were surprised to discover that the magic beams they produced were several factors more powerful and destructive. They hired the help of an artist to translate the magic into the form of a tattoo so that it was more easily transferable to others.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="charges">3</set>
+						<set name="rarity">Rare</set>
+					</setters>
+				</element>
+				<element name="Survivor's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_SURVIVORS_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo symbolizes focus and determination.</p>
+						<p class="indent">While this tattoo is applied on your skin, whenever you have less than half your maximum hit points, the tattoo flows along your veins and wraps around your equipped weapon for the duration that you continue holding that weapon. When you hit a creature with a melee attack using this equipped weapon, the target takes an additional 1d6 force damage.</p>
+						<p class="indent">When you have less than a quarter of your maximum hit points, the tattoo begins to flash in time with your heartbeat, granting you advantage on all attack rolls.</p>
+						<h5>Lore</h5>
+						<p>This tattoo was created by a warmongering human empire that used magic to enhance the lethality of their common soldiers. This tattoo enabled them to fight with vigor even after they’d sustained dreadful wounds. The empire eventually collapsed into obscurity and the design was lost for a long time. Only recently have archaeologists rediscovered the tattoo.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Rare</set>
+					</setters>
+				</element>
+				<element name="The Chosen One's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_THE_CHOSEN_ONES_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo represents a common tool used to decide one’s fate.</p>
+						<p class="indent">While this tattoo is applied on your skin, you can call on the divine magic imbued within its design (no action required) to reroll one attack roll, ability check, or saving throw. You must use the second roll. The tattoo emits a bright white light in a 40-foot radius and dim light for an additional 40 feet for 1 minute after this property is used. The tattoo can’t be used again until the next dawn.</p>
+						<h5>Lore</h5>
+						<p>This tattoo was a divine gift from a goddess of fates, bestowed to a group of her clerics as they defended a town from a werewolf insurgence. With the power to change their fates, the clerics were able to stem the tide of the conflict without significant loss of life. Following those events, the faithful proliferated and brought their goddess’ blessing with them. Now, the tattoo can be found applied on many of the devout near most of the goddess’ major cathedrals and large temples, but the faithful do not turn it over to just anyone.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Uncommon</set>
+					</setters>
+				</element>
+				<element name="Truthseeker's Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_TRUTHSEEKERS_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo represents divine sight.</p>
+						<p class="indent">This tattoo has 3 charges and regains 1d2 + 1 expended charges daily at dawn.</p>
+						<p class="indent">While this tattoo is applied on your skin, when you hear a creature within 5 feet of you make a statement, you can use your reaction to expend 1 charge and cause the creature to make a DC 16 Wisdom saving throw. On a failed save, if the statement they had just spoken contained any lies, they must repeat the statement containing only truths. The creature can be evasive in its second statement as long as it directly corrects any lies it had previously told. You know whether the creature succeeds or fails on its saving throw and your eyes glow brightly as this property is used.</p>
+						<h5>Lore</h5>
+						<p>This tattoo originated from the Order of the Maskless, a monk order founded on the pursuit of absolute truth by a young woman that had an encounter with a deva. Many believed she was blessed with divine insight and could see through the lies that other creatures told. She is said to have passed on her gift in the form of a tattoo towards the end of her life. The order only shares the tattoo with those that demonstrate their devotion to the truth through years of study and practice.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="charges">3</set>
+						<set name="rarity">Very Rare</set>
+					</setters>
+				</element>
+				<element name="Unhealthy Fixation Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_UNHEALTHY_FIXATION_TATTOO">
+					<description>
+						<p>Produced by a special needle, this magic tattoo represents a guarded secret.</p>
+						<p class="indent">While this tattoo is applied on your skin, whenever you take damage while you are concentrating on a spell, you have advantage on the Constitution saving throw made to maintain your concentration.</p>
+						<p class="indent"><b>Fortitude.</b> If you fail a Constitution saving throw made to maintain your concentration after taking damage, you can choose to double the damage you received and succeed instead (no action needed). Once this property of the tattoo is used, it can’t be used again until the next dawn.</p>
+						<h5>Lore</h5>
+						<p>This tattoo was created in a single, frustration fueled night by a tattooist that was tired of being interrupted at inopportune times by their overzealous apprentice. Imbuing this particular tattoo design with magic is a complex, error-prone process, but the results speak for themselves. No longer does the user have to live in fear of being interrupted and losing track of what they were doing.</p>
+					</description>
+					<setters>
+						<set name="category">Wondrous Items</set>
+						<set name="cost" currency="gp">0</set>
+						<set name="weight" lb="0">0 lb.</set>
+						<set name="type" addition="face tattoo">Wondrous Item</set>
+						<set name="attunement">true</set>
+						<set name="rarity">Rare</set>
+					</setters>
+				</element>
+			<!--/Face Tattoo-->
 			<element name=" Tattoo" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_#_TATTOO">
 				<description>
 					<p></p>
@@ -1888,7 +1890,7 @@
 					<p></p>
 				</description>
 				<setters>
-					<set name="category">Tattoo Parlor</set>
+					<set name="category">Wondrous Items</set>
 					<set name="cost" currency="gp">0</set>
 					<set name="weight" lb="0">0 lb.</set>
 					<set name="type" addition="neck tattoo">Wondrous Item</set>
