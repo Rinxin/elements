@@ -1049,6 +1049,158 @@
 			</setters>
 		</element>
 	<!--T-->
+		<!--Tatoo Ink-->
+			<element name="Base Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_BASE_INK">
+				<description>
+					<p>An interesting liquid that can be easily combined with various pigments or materials. This forms the base for all known inks and allows for the creation of homebrew variants.</p>
+					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
+				</description>
+				<setters>
+					<set name="keywords">tattoo ink</set>
+					<set name="category">Tattoo Parlor</set>
+					<set name="type">Adventuring Gear</set>
+					<set name="cost" currency="gp">10</set>
+					<set name="rarity">Mundane</set>
+					<set name="weight" lb="0.2">0.2 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Colored Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_COLORED_INK">
+				<description>
+					<p>An ink that is mixed with pigments to obtain a particular color. You can usually attain any shade imaginable if properly described to a vendor.</p>
+					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
+				</description>
+				<setters>
+					<set name="keywords">tattoo ink</set>
+					<set name="category">Tattoo Parlor</set>
+					<set name="type">Adventuring Gear</set>
+					<set name="cost" currency="gp">20</set>
+					<set name="rarity">Mundane</set>
+					<set name="weight" lb="0.2">0.2 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Dancing Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_DANCING_INK">
+				<description>
+					<p>Tattoos sketched with this black ink will be in constant motion. Individuals have noted that their tattoos dance more jubilantly when the bearer of the tattoo finds themselves enjoying the music they hear.</p>
+					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
+				</description>
+				<setters>
+					<set name="keywords">tattoo ink</set>
+					<set name="category">Tattoo Parlor</set>
+					<set name="type">Adventuring Gear</set>
+					<set name="cost" currency="gp">30</set>
+					<set name="rarity">Mundane</set>
+					<set name="weight" lb="0.2">0.2 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Glowing Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_GLOWING_INK">
+				<description>
+					<p>A prevalent choice for both new and experienced tattooists alike. Nothing sets mystical tattoos apart from the mundane, quite like a classic glow that comes in a multitude of colors.</p>
+					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
+				</description>
+				<setters>
+					<set name="keywords">tattoo ink</set>
+					<set name="category">Tattoo Parlor</set>
+					<set name="type">Adventuring Gear</set>
+					<set name="cost" currency="gp">80</set>
+					<set name="rarity">Mundane</set>
+					<set name="weight" lb="0.2">0.2 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Hell's Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_HELLS_INK">
+				<description>
+					<p>Crimson red ink that causes tattoos to emanate persistent, harmless flames. This can be quite intimidating when such tattoos are applied throughout the body. The light from these flames is too dim to be of help in the dark.</p>
+					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
+				</description>
+				<setters>
+					<set name="keywords">tattoo ink</set>
+					<set name="category">Tattoo Parlor</set>
+					<set name="type">Adventuring Gear</set>
+					<set name="cost" currency="gp">90</set>
+					<set name="rarity">Mundane</set>
+					<set name="weight" lb="0.2">0.2 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Invisible Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_INVISIBLE_INK">
+				<description>
+					<p>Exactly as advertised, this ink causes a tattoo applied to your skin to appear completely invisible unless looked at by magical means. This is a sneaky bestseller.</p>
+					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
+				</description>
+				<setters>
+					<set name="keywords">tattoo ink</set>
+					<set name="category">Tattoo Parlor</set>
+					<set name="type">Adventuring Gear</set>
+					<set name="cost" currency="gp">50</set>
+					<set name="rarity">Mundane</set>
+					<set name="weight" lb="0.2">0.2 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Mood Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_MOOD_INK">
+				<description>
+					<p>The colors of tattoos sketched with this ink change to reflect the emotions of the individual on which they are applied. This is very popular with the younger crowd.</p>
+					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
+				</description>
+				<setters>
+					<set name="keywords">tattoo ink</set>
+					<set name="category">Tattoo Parlor</set>
+					<set name="type">Adventuring Gear</set>
+					<set name="cost" currency="gp">100</set>
+					<set name="rarity">Mundane</set>
+					<set name="weight" lb="0.2">0.2 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Reflective Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_REFLECTIVE_INK">
+				<description>
+					<p>All tattoos sketched with this ink reflect the scenery around them.</p>
+					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
+				</description>
+				<setters>
+					<set name="keywords">tattoo ink</set>
+					<set name="category">Tattoo Parlor</set>
+					<set name="type">Adventuring Gear</set>
+					<set name="cost" currency="gp">50</set>
+					<set name="rarity">Mundane</set>
+					<set name="weight" lb="0.2">0.2 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Regulating Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_REGULATING_INK">
+				<description>
+					<p>This ink appears matted black but changes color to match the internal temperature of the creature the tattoo is applied to.</p>
+					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
+				</description>
+				<setters>
+					<set name="keywords">tattoo ink</set>
+					<set name="category">Tattoo Parlor</set>
+					<set name="type">Adventuring Gear</set>
+					<set name="cost" currency="gp">25</set>
+					<set name="rarity">Mundane</set>
+					<set name="weight" lb="0.2">0.2 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+			<element name="Stardust Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_STARDUST_INK">
+				<description>
+					<p>This ink has an undeniable sparkle to it. All tattoos sketched using this ink glimmer like the night sky once the sun goes down.</p>
+					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
+				</description>
+				<setters>
+					<set name="keywords">tattoo ink</set>
+					<set name="category">Tattoo Parlor</set>
+					<set name="type">Adventuring Gear</set>
+					<set name="cost" currency="gp">100</set>
+					<set name="rarity">Mundane</set>
+					<set name="weight" lb="0.2">0.2 lb.</set>
+					<set name="stackable">true</set>
+				</setters>
+			</element>
+		<!--/Tatoo Ink-->
 		<element name="Theki Root" type="Item" source="Explorer’s Guide to Wildemount" id="ID_WOTC_EGTW_ITEM_THEKI_ROOT">
 			<description>
 				<p>This thick marsh root tastes bitter but is thought to aid digestive health. When you use an action to consume a dose, you gain advantage on saving throws against the effects of poisonous or toxic substances for 8 hours.</p>
@@ -1067,7 +1219,7 @@
 			</setters>
 		</element>
 		<!--Tools-->
-			<element name="Runesmith's Tools" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_TOOL_RUNESMITHS_TOOLS">
+			<element name="Runesmith's Tools" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_TOOL_RUNESMITHS_TOOLS">
 				<description>
 					<p>Proficiency with runesmith's tools allows you to etch magical runes into precious stones, as well as identify aspects of their lore when encountered in the world. A set of runesmith's tools costs 25 gp and weighs 5 lb.</p>
 					<p class="indent"><b>Components.</b> Runesmith's tools include a hammer, a set of chisels and needle files, a fine-haired brush, a pouch of powdered mithral, and a special alchemical lacquer.</p>
@@ -1088,6 +1240,20 @@
 					<set name="weight" lb="8">8 lbs.</set>
 					<set name="type">Tool</set>
 					<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_RUNESMITH_TOOLS</set>
+				</setters>
+			</element>
+			<element name="Tattooist's Tools" type="Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_ITEM_TOOL_TATTOOISTS_TOOLS">
+				<description>
+					<p>The tattooist’s tools are a type of artisan’s tools consisting of two main components - the hammer and chisel. The chisel contains a simple mechanism that can twist to clasp onto needles of various widths. The hammer can act as an activator when it strikes the chisel, temporarily applying a magnetic property unique to magically-imbued inks into the needle.</p>
+					<p class="indent">One of the main uses of tattooist’s tools in regards to magic tattoos is extraction. An individual holds the chisel affixed with an empty needle against an enchanted sketchbook page or skin upon which a magic tattoo is applied. The wielder then taps the opposite end of the chisel, drawing the tattoo design inside of the affixed, empty needle.</p>
+					<p class="indent">The tattooist’s tools also include plenty of needles and medical supplies for sterilization. This is necessary in case the tattooist’s tools are used to apply mundane tattoos as well. For non-magical tattoo applications, the chisel’s needle can be dipped into the appropriate pigments and then hammered against an individual’s skin, scales, or feathers to ink a tattoo.</p>
+				</description>
+				<setters>
+					<set name="category">Tools</set>
+					<set name="cost" currency="gp">50</set>
+					<set name="weight" lb="8">8 lbs.</set>
+					<set name="type">Tool</set>
+					<set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_TATTOOIST_TOOLS</set>
 				</setters>
 			</element>
 		<!--/Tools-->

@@ -175,10 +175,11 @@
 					<p>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p>
 				</description>
 				<setters>
-					<set name="category">Armor</set>
+					<set name="category">Blacksmith/Armory</set>
 					<set name="cost" currency="gp">45</set>
 					<set name="weight" lb="10">10 lb.</set>
 					<set name="slot">body</set>
+					<set name="type">Armor</set>
 					<set name="armor">Light</set>
 					<set name="armorClass">12 + Dex modifier</set>
 					<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_STUDDED_LEATHER</set>
@@ -351,7 +352,7 @@
 					<div element="ID_HEAVYARMS_TCAH_INTERNAL_ARMOR_PROPERTY_SPECIAL_TOWER_SHIELD" />
 				</description>
 				<setters>
-					<set name="category">Armor</set>
+					<set name="category">Blacksmith/Armory</set>
 					<set name="cost" currency="gp">75</set>
 					<set name="weight" lb="15">15 lb.</set>
 					<set name="slot">onehand,secondary</set>

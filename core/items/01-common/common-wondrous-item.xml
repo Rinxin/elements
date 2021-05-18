@@ -52,6 +52,18 @@
 	<!--D-->
 		
 	<!--E-->
+		<element name="Enchanted Sketchbook" type="Magic Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_MAGIC_ITEM_ENCHANTED_SKETCHBOOK">
+			<description>
+				<p>Essential for tattooists, an enchanted sketchbook is a tome with 100 blank magically treated vellum pages suitable for sketching tattoo designs and preserving the magic which flows through them.</p>
+			</description>
+			<setters>
+				<set name="category">Tatoo Parlor</set>
+				<set name="type">Wondrous Item</set>
+				<set name="rarity">Common</set>
+				<set name="cost" currency="gp">50</set>
+				<set name="weight" lb="3">3 lb.</set>
+			</setters>
+		</element>
 		<element name="Everbright Lantern" type="Magic Item" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_MAGIC_ITEM_EVERBRIGHT_LANTERN">
 			<description>
 				<p>This bullseye lantern contains an Eberron dragonshard that sheds light comparable to that produced by a continual flame spell. An everbright lantern sheds light in a 120-foot cone; the closest 60 feet is bright light, and the farthest 60 feet is dim light.</p>
