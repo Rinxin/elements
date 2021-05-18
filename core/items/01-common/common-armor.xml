@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	<!--
-		<element name="Armor Proofing - Tier 1" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_">
+		<element name="Armor Proofing - Tier 1" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_">
 				<description>
 					<p>While wearing this armor, you  reduce nonmagical slashing damage by 6 before resistance is applied. If the damage is reduced below 0 you take none of that damage instead.</p>
 				</description>
@@ -41,7 +41,7 @@
 			Sleep Dart (5)
 		<!--Ammuntion-->
 		<!--Armor Upgrades-->
-			<element name="Armor Proofing - Tier 1" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_ARMOR_PROFFING_TIER_1">
+			<element name="Armor Proofing - Tier 1" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_ARMOR_PROFFING_TIER_1">
 				<description>
 					<p>While wearing this armor, you  reduce nonmagical slashing damage by 6 before resistance is applied. If the damage is reduced below 0 you take none of that damage instead.</p>
 				</description>
@@ -56,7 +56,7 @@
 					<set name="name-format">{{parent}}, Tier 1 Armor Proofing</set>
 				</setters>
 			</element>
-			<element name="Armor Proofing - Tier 2" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_ARMOR_PROFFING_TIER_2">
+			<element name="Armor Proofing - Tier 2" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_ARMOR_PROFFING_TIER_2">
 				<description>
 					<p>While wearing this armor, you reduce nonmagical piercing or slashing damage by 7 before resistance is applied. If the damage is reduced below 0 you take none of that damage instead.</p>
 				</description>
@@ -71,7 +71,7 @@
 					<set name="name-format">{{parent}}, Tier 2 Armor Proofing</set>
 				</setters>
 			</element>
-			<element name="Armor Proofing - Tier 3" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_ARMOR_PROFFING_TIER_3">
+			<element name="Armor Proofing - Tier 3" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_ARMOR_PROFFING_TIER_3">
 				<description>
 					<p>While wearing this armor, you reduce nonmagical bludgeoning, piercing or slashing damage by 8 before resistance is applied. If the damage is reduced below 0 you take none of that damage instead.</p>
 				</description>
@@ -86,7 +86,7 @@
 					<set name="name-format">{{parent}}, Tier 3 Armor Proofing</set>
 				</setters>
 			</element>
-			<element name="Breathable" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_BREATHABLE">
+			<element name="Breathable" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_BREATHABLE">
 				<description>
 					<p>While wearing this armor, you have advantage on saving throws you make against exhaustion effects due to extreme heat, as described in chapter 5 of the Dungeon Master's Guide.</p>
 				</description>
@@ -101,7 +101,7 @@
 					<set name="name-format">{{parent}}, Breathable</set>
 				</setters>
 			</element>
-			<element name="Burnished" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_BURNISHED">
+			<element name="Burnished" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_BURNISHED">
 				<description>
 					<p>This armor has been polished to a mirror finish. While wearing it, you may have advantage on Charisma-based skill checks when interacting with certain humanoids, as determined by the DM. This tag is automatically removed after 24 hours of wear or at the end of a combat.</p>
 				</description>
@@ -116,7 +116,7 @@
 					<set name="name-format">{{parent}}, Burnished</set>
 				</setters>
 			</element>
-			<element name="Climbing Harnes" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_BURNISHED">
+			<element name="Climbing Harnes" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_BURNISHED">
 				<description>
 					<p>This armor has been affixed with a climbing harness around the midriff, comprising leather straps and quickdraws. While wearing it, you make Strength (Athletics) checks to scale vertical surfaces with advantage when using a rope or similar aid.</p>
 				</description>
@@ -131,7 +131,7 @@
 					<set name="name-format">{{parent}}, Climbing Harnes</set>
 				</setters>
 			</element>
-			<element name="Decorated" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_DECORATED">
+			<element name="Decorated" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_DECORATED">
 				<description>
 					<p>This armor or shield is adorned with a holy symbol and can be used as a spellcasting focus for cleric and paladin spells.</p>
 				</description>
@@ -146,7 +146,7 @@
 					<set name="name-format">{{parent}}, Decorated</set>
 				</setters>
 			</element>
-			<element name="Insulated" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_INSULATED">
+			<element name="Insulated" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_INSULATED">
 				<description>
 					<p>This armor counts as cold weather gear in conditions of extreme cold, as described in chapter 5 of the Dungeon Master's Guide.</p>
 				</description>
@@ -161,7 +161,7 @@
 					<set name="name-format">{{parent}}, Insulated</set>
 				</setters>
 			</element>
-			<element name="Locking Joints" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_LOCKING_JOINTS">
+			<element name="Locking Joints" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_LOCKING_JOINTS">
 				<description>
 					<p>This armor is made with hinged joints that can be locked by a quick motion from the wearer. While wearing it, you make Strength (Athletics) checks to oppose attempts to shove you with advantage.</p>
 				</description>
@@ -176,7 +176,7 @@
 					<set name="name-format">{{parent}}, Locking Joints</set>
 				</setters>
 			</element>
-			<element name="Muffled" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_MUFFLED">
+			<element name="Muffled" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_MUFFLED">
 				<description>
 					<p>This armor no longer confers disadvantage on Dexterity (Stealth) checks.</p>
 				</description>
@@ -191,7 +191,7 @@
 					<set name="name-format">{{parent}}, Muffled</set>
 				</setters>
 			</element>
-			<element name="Quick-release Clasps" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_QUICK_RELEASE_CLASPS">
+			<element name="Quick-release Clasps" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_QUICK_RELEASE_CLASPS">
 				<description>
 					<p>You can doff this armor as an action.</p>
 				</description>
@@ -206,7 +206,7 @@
 					<set name="name-format">{{parent}}, Quick-release Clasps</set>
 				</setters>
 			</element>
-			<element name="Reinforced" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_REINFORCED">
+			<element name="Reinforced" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_REINFORCED">
 				<description>
 					<p>This armor or shield has been reinforced at the joints and other weak points. While wearing it, critical damage you take from nonmagical attacks is reduced by 3.</p>
 				</description>
@@ -222,7 +222,7 @@
 				</setters>
 			</element>
 			<!--Runic Magic-->
-				<element name="Runic:" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_RUNIC_1">
+				<element name="Runic:" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_RUNIC_1">
 					<description>
 						<p>This armor or shield can be imbued with rune magic.*</p>
 					</description>
@@ -237,7 +237,7 @@
 						<set name="name-format">{{parent}}, Reinforced</set>
 					</setters>
 				</element>
-				<element name="Runic: Alchemist" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_RUNIC_ALCHEMIST">
+				<element name="Runic: Alchemist" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_RUNIC_ALCHEMIST">
 					<description>
 						<p>While you are wearing this armor, you regain 2 additional hit points when you drink a potion of healing.</p>
 					</description>
@@ -252,7 +252,7 @@
 						<set name="name-format">{{parent}}, Runic: Alchemist</set>
 					</setters>
 				</element>
-				<element name="Runic: Arrow-Catcher" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_RUNIC_ARROW_CATCHER">
+				<element name="Runic: Arrow-Catcher" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_RUNIC_ARROW_CATCHER">
 					<description>
 						<p>This runestone has three charges. While you are wielding this shield, when you or a friendly creature within 10 feet of you are the target of a ranged weapon attack you can expend a charge as a reaction to impose disadvantage on the attack. You must choose to do so before the roll. The runestone regains 1d3 charges daily at dawn.</p>
 					</description>
@@ -267,7 +267,7 @@
 						<set name="name-format">{{parent}}, Runic: Arrow-Catcher</set>
 					</setters>
 				</element>
-				<element name="Runic: Bastion" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_RUNIC_BASTION">
+				<element name="Runic: Bastion" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_RUNIC_BASTION">
 					<description>
 						<p>While you are wearing (armor) or wielding (shield) this item, you can use a bonus action to press your fist to the ground and speak its command word, causing a 10-foot radius immobile dome of force to spring into existence around and above you that remains stationary and lasts for 1 minute. The dome automatically repels nonmagical ranged attacks attempting to pass through it, and the area inside the dome is considered difficult terrain for hostile creatures. Once used, this property can’t be used again until the following dawn.</p>
 					</description>
@@ -282,7 +282,7 @@
 						<set name="name-format">{{parent}}, Bastion</set>
 					</setters>
 				</element>
-				<element name="Runic: Berserker" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_RUNIC_BERSERKER">
+				<element name="Runic: Berserker" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_RUNIC_BERSERKER">
 					<description>
 						<p>When you hit a creature with this weapon, you can expend a number of Hit Dice up to half your character level (rounded down). For each Hit Die spent this way, roll the die and add it to the damage of the attack. You take an amount of damage equal to the damage dealt in this way, including any extra damage from a critical hit. This damage to you can’t be reduced or prevented in any way. Once used, this property can’t be used again until the following dawn.</p>
 					</description>
@@ -612,7 +612,7 @@
 				end of its next turn.
 
 			<!--/Runic Magic-->
-			<element name="Spiked" type="Magic Item" source="The Complete Armoreres Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_SPIKED">
+			<element name="Spiked" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_SPIKED">
 				<description>
 					<p>This armor has been modified with spikes, barbs, or other similar feature, and deals 1d4 piercing damage to creatures attacking with unarmed strikes or natural weapons that aren't magical.</p>
 				</description>
