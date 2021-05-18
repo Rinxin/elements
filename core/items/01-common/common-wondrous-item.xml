@@ -57,7 +57,7 @@
 				<p>Essential for tattooists, an enchanted sketchbook is a tome with 100 blank magically treated vellum pages suitable for sketching tattoo designs and preserving the magic which flows through them.</p>
 			</description>
 			<setters>
-				<set name="category">Tatoo Parlor</set>
+				<set name="category">Tattoo Parlor</set>
 				<set name="type">Wondrous Item</set>
 				<set name="rarity">Common</set>
 				<set name="cost" currency="gp">50</set>

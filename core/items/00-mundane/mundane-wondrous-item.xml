@@ -1050,7 +1050,7 @@
 		</element>
 	<!--T-->
 		<!--Tatoo Ink-->
-			<element name="Base Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_BASE_INK">
+			<element name="Base Ink" type="Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_ITEM_BASE_INK">
 				<description>
 					<p>An interesting liquid that can be easily combined with various pigments or materials. This forms the base for all known inks and allows for the creation of homebrew variants.</p>
 					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
@@ -1065,7 +1065,7 @@
 					<set name="stackable">true</set>
 				</setters>
 			</element>
-			<element name="Colored Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_COLORED_INK">
+			<element name="Colored Ink" type="Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_ITEM_COLORED_INK">
 				<description>
 					<p>An ink that is mixed with pigments to obtain a particular color. You can usually attain any shade imaginable if properly described to a vendor.</p>
 					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
@@ -1080,7 +1080,7 @@
 					<set name="stackable">true</set>
 				</setters>
 			</element>
-			<element name="Dancing Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_DANCING_INK">
+			<element name="Dancing Ink" type="Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_ITEM_DANCING_INK">
 				<description>
 					<p>Tattoos sketched with this black ink will be in constant motion. Individuals have noted that their tattoos dance more jubilantly when the bearer of the tattoo finds themselves enjoying the music they hear.</p>
 					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
@@ -1095,7 +1095,7 @@
 					<set name="stackable">true</set>
 				</setters>
 			</element>
-			<element name="Glowing Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_GLOWING_INK">
+			<element name="Glowing Ink" type="Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_ITEM_GLOWING_INK">
 				<description>
 					<p>A prevalent choice for both new and experienced tattooists alike. Nothing sets mystical tattoos apart from the mundane, quite like a classic glow that comes in a multitude of colors.</p>
 					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
@@ -1110,7 +1110,7 @@
 					<set name="stackable">true</set>
 				</setters>
 			</element>
-			<element name="Hell's Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_HELLS_INK">
+			<element name="Hell's Ink" type="Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_ITEM_HELLS_INK">
 				<description>
 					<p>Crimson red ink that causes tattoos to emanate persistent, harmless flames. This can be quite intimidating when such tattoos are applied throughout the body. The light from these flames is too dim to be of help in the dark.</p>
 					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
@@ -1125,7 +1125,7 @@
 					<set name="stackable">true</set>
 				</setters>
 			</element>
-			<element name="Invisible Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_INVISIBLE_INK">
+			<element name="Invisible Ink" type="Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_ITEM_INVISIBLE_INK">
 				<description>
 					<p>Exactly as advertised, this ink causes a tattoo applied to your skin to appear completely invisible unless looked at by magical means. This is a sneaky bestseller.</p>
 					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
@@ -1140,7 +1140,7 @@
 					<set name="stackable">true</set>
 				</setters>
 			</element>
-			<element name="Mood Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_MOOD_INK">
+			<element name="Mood Ink" type="Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_ITEM_MOOD_INK">
 				<description>
 					<p>The colors of tattoos sketched with this ink change to reflect the emotions of the individual on which they are applied. This is very popular with the younger crowd.</p>
 					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
@@ -1155,7 +1155,7 @@
 					<set name="stackable">true</set>
 				</setters>
 			</element>
-			<element name="Reflective Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_REFLECTIVE_INK">
+			<element name="Reflective Ink" type="Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_ITEM_REFLECTIVE_INK">
 				<description>
 					<p>All tattoos sketched with this ink reflect the scenery around them.</p>
 					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
@@ -1170,7 +1170,7 @@
 					<set name="stackable">true</set>
 				</setters>
 			</element>
-			<element name="Regulating Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_REGULATING_INK">
+			<element name="Regulating Ink" type="Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_ITEM_REGULATING_INK">
 				<description>
 					<p>This ink appears matted black but changes color to match the internal temperature of the creature the tattoo is applied to.</p>
 					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
@@ -1185,7 +1185,7 @@
 					<set name="stackable">true</set>
 				</setters>
 			</element>
-			<element name="Stardust Ink" type="Item" source="Tome of Mystical Tattos" id="ID_NATWUNS_TOMT_ITEM_STARDUST_INK">
+			<element name="Stardust Ink" type="Item" source="Tome of Mystical Tattoos" id="ID_NATWUNS_TOMT_ITEM_STARDUST_INK">
 				<description>
 					<p>This ink has an undeniable sparkle to it. All tattoos sketched using this ink glimmer like the night sky once the sun goes down.</p>
 					<p class="indent">Each 1-ounce bottle contains enough ink to create one chest or back tattoo, or two face, neck, arm, or leg tattoos.</p>
