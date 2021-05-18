@@ -1464,10 +1464,10 @@
 				<set name="category">Magic Armor</set>
 				<set name="cost" currency="gp">0</set>
 				<set name="slot">body</set>
-				<set name="type" addition="Cuirass (chain mail)">Armor</set>
+				<set name="type" addition="chain mail">Armor</set>
 				<set name="attunement">true</set>
 				<set name="rarity">Legendary</set>
-				<set name="armor">ID_WOTC_ARMOR_HEAVY_CHAIN_MAIL</set>
+				<set name="armor">Chain Mail</set>
 			</setters>
 			<rules>
 				<stat name="ac:armored:enhancement" value="3" bonus="enhancement" />
@@ -1537,7 +1537,7 @@
 				</rules>
 				</element>
 			-->
-			<element name="Cuirass (chain mail)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_HEAVY_CHAIN_MAIL">
+			<element name="Chain Mail" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_HEAVY_CHAIN_MAIL">
 				<supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
 				<description>
 					<p>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p>
@@ -1555,6 +1555,7 @@
 					<set name="stealth">Disadvantage</set>
 					<set name="armorClass">16</set>
 					<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_CHAIN_MAIL</set>
+					<set name="name-format">Cuirass (chain mail)</set>
 				</setters>
 				<rules>
 					<grant type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
