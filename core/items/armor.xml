@@ -1791,7 +1791,7 @@
 					</rules>
 				</element>
 			-->
-			<element name="Gambeson* (leather)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_LIGHT_LEATHER">
+			<element name="Gambeson* (leather)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_LIGHT_LEATHER_2">
 				<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
 				<description>
 					<p>A gambeson is a padded defensive jacket, either worn separately or as an underlay for heavier types of armor. It can also double as a winter coat.</p>
@@ -1812,6 +1812,24 @@
 					<stat name="ac:armored:armor" value="11" />
 				</rules>
 				<!--Name, Price and Weight modified to match Souce homebrew-->
+			</element>
+			<element name="Leather" type="Armor" source="Player’s Handbook" id="ID_WOTC_ARMOR_LIGHT_LEATHER">
+				<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
+				<description>
+					<p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p>
+				</description>
+				<setters>
+					<set name="category">Armor</set>
+					<set name="cost" currency="gp">10</set>
+					<set name="weight" lb="10">10 lb.</set>
+					<set name="slot">body</set>
+					<set name="armor">Light</set>
+					<set name="armorClass">11 + Dex modifier</set>
+					<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER</set>
+				</setters>
+				<rules>
+					<stat name="ac:armored:armor" value="11" />
+				</rules>
 			</element>
 			<element name="Leather Jerkin (studded leather)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER">
 				<supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
