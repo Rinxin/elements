@@ -23008,7 +23008,7 @@
     <!--Paetreon-->
         <!--BonusAction-->
             <!--Relics of the Realms - Volume 1-->
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_">
                     <description>
                     </description>
                     <setters>
@@ -23079,9 +23079,6 @@
                             <tr><td>5</td><td>Hold Monster (5th level)</td></tr>
                             <tr><td>10</td><td>Bigby's Hand (5th level)</td></tr>
                         </table>
-                        <div element="ID_PHB_SPELL_HOLD_PERSON" />
-                        <div element="ID_PHB_SPELL_HOLD_MONSTER" />
-                        <div element="ID_PHB_SPELL_BIGBYS_HAND" />
                         <p class="indent"><b>Hold Tight (Curse).</b> When you attune to the ring it clasps tighter around your finger. You are unable to take it off. It can only be removed by the spells Wish and Remove Curse or severing the finger itself. You can not lose attunement to this ring as long as it is on your finger.</p>
                     </description>
                     <setters>
@@ -23095,54 +23092,21 @@
                         <set name="charges">10</set>
                     </setters>
                 </element>
-                Blackout Candle Uncommon Wondrous Item
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Blackout Candle" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BLACKOUT_CANDLE">
                     <description>
-                        Blackout Candle
-                        Uncommon Wondrous Item
-                        Pitch Black. When it is lit, the candle has an affect similar to
-                        the Darkness spell. Magical darkness spreads from the candle
-                        in a 20ft. radius sphere for 5 hours. The darkness spreads
-                        around corners. A creature with darkvision can’t see through
-                        this darkness, and non-magical light can’t illuminate it.
-                        Completely covering the candle with an opaque object, such
-                        as a bowl or a helm, blocks the darkness. If any of this spell’s
-                        area overlaps with an area of light created by a spell of 2nd
-                        level or lower, the spell that created the light is dispelled.
-
-                        Aegis of the Abyss
-                        Amulet
-                        of the
-                        Frog
-
-                        Band of the
-                        Firm Grip
-
-                        Blackout Candle
-
-                        Relics of the Realms - Volume 1 2 Bonus Action
+                        <p><b>Pitch Black.</b> When it is lit, the candle has an affect similar to the Darkness spell. Magical darkness spreads from the candle in a 20ft. radius sphere for 5 hours. The darkness spreads around corners. A creature with darkvision can’t see through this darkness, and non-magical light can’t illuminate it. Completely covering the candle with an opaque object, such as a bowl or a helm, blocks the darkness. If any of this spell’s area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity">Uncommon</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
-                Blade of the Empire Uncommon Shortsword
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Blade of the Empire" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BLADE_OF_THE_EMPIRE">
                     <description>
                         Blade of the Empire
                         Uncommon Shortsword (Finesse, Light)
@@ -23173,8 +23137,7 @@
                     <rules>
                     </rules>
                 </element>
-                Blade of the Northern Tribe Uncommon Longsword
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Blade of the Northern Tribe" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BLADE_OF_THE_NORTHERN_TRIBE">
                     <description>
                         Blade of the Northern Tribe
                         Uncommon Longsword (Versatile)
@@ -23216,8 +23179,7 @@
                     <rules>
                     </rules>
                 </element>
-                Bladestaff Uncommon Quarterstaff
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Bladestaff" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BLADESTAFF">
                     <description>
                         Bladestaff
                         Uncommon Quarterstaff (Versatile)
@@ -23247,8 +23209,7 @@
                     <rules>
                     </rules>
                 </element>
-                Bolas Common Ranged Weapon
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Bolas" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BOLAS">
                     <description>
                         Bolas
                         Common Ranged Weapon (Martial)
@@ -23282,8 +23243,7 @@
                     <rules>
                     </rules>
                 </element>
-                Boom-erang Rare Ranged Weapon
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Boom-erang" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BOOM_ERANG">
                     <description>
                         Boom-erang
                         Rare Ranged Weapon,
@@ -23322,8 +23282,7 @@
                     <rules>
                     </rules>
                 </element>
-                Close Quarters Bow Common Shortbow
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Close Quarters Bow" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_CLOSE_QUARTERS_BOW">
                     <description>
                         Close Quarters Bow
                         Common Shortbow
@@ -23366,116 +23325,50 @@
                     <rules>
                     </rules>
                 </element>
-                Coinbox of Holding Uncommon Wondrous Item
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Coinbox of Holding" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_COINBOX_OF_HOLDING">
                     <description>
-                        Coinbox of Holding
-                        Uncommon Wondrous Item
-
-                        Piggy Bank. This magically enchanted coin box has an extra-
-                        dimensional space in which it can store up to 50 000 coins
-
-                        of any type in any combination. Coins can be stored into the
-                        box using the slot on top. The box is sealed shut but can be
-                        opened by speaking a command word, revealing the amount
-                        of currency wanted. When opened the interior of the box is as
-                        deep as required to fit all the coins that will be taken from it.
+                        <p><b>Piggy Bank.</b> This magically enchanted coin box has an extra-dimensional space in which it can store up to 50,000 coins of any type in any combination. Coins can be stored into the box using the slot on top. The box is sealed shut but can be opened by speaking a command word, revealing the amount of currency wanted. When opened the interior of the box is as deep as required to fit all the coins that will be taken from it.
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity">Uncommon</set>
+                    </setters>
+                </element>
+                <element name="Cornucopeia of the Harvest" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Cornucopeia_of_the_Harvest">
+                    <description>
+                        <p>><b>Healthy Diet.</b> As an action you can make this Cornucopia filland overflow with enough vegetables and fruits to sustain 5 people for a whole day. This feature can be used only once per day.
+                        <p class="indent"><b>Bountiful Harvest.</b> Once per year you can spend an action to also conjure a selection of pumpkin pies, cranberry sauce, sweet potato dishes and a large cooked turkey. 12 medium sized creatues may spend an hour to eat from this buffet. For the next 12 hours they have advantage on Wisdom and Intelligence saving throws and they are immune to being Frightened. Additionally their maximum hit points increases by 4d6 and they heal for the same amount.</p>
+                    </description>
+                    <setters>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity">Uncommon</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
-                Cornucopeia of the Harvest Uncommon Wondrous Item
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Crimson Amplifier" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Crimson_Amplifier">
                     <description>
-                        Cornucopeia of the Harvest
-                        Uncommon Wondrous Item
-                        Healthy Diet. As an action you can make this Cornucopia fill
-                        and overflow with enough
-                        vegetables and fruits to sustain 5 people for a whole day. This
-                        feature can be used only once per day.
-                        Bountiful Harvest. Once per year you can spend an action
-                        to also conjure a selection of pumpkin pies, cranberry sauce,
-                        sweet potato dishes and a large cooked turkey. 12 medium
-                        sized creatues may spend an hour to eat from this buffet.
-                        For the next 12 hours they have advantage on Wisdom and
-                        Intelligence saving throws and they are immune to being
-                        Frightened. Additionally their maximum hit points increases
-                        by 4d6 and they heal for the same amount.
+                        <p><b>A Tiny Drop.</b> As a bonus action you can push your finger on the needle on top of this pendant, this drains a single drop of blood into the pendant and deals 1 Piercing damage. The first Evocation or Necromancy spell you cast within an hour deals an extra 3d4 damage or if it has a save, the DC increases by 2. Only amplifies spells of the attuned creature when it’s own blood is used. You can use this feature twice per day.
+                        <p class="indent"><b>Blood Sacrifice (Curse).</b> When the amplifier accumulates 50 drops of blood it shatters and summons a Horned Devil and 3d4 Imps. The summoned creatures are hostile towards you and and anyone else that is not innately their ally.
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type" addition="cursed">Wondrous Item</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="attunement" addition="by a spellcaster">true</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
-                Crimson Amplifier Very Rare Wondrous Item (Jewelry)
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
-                    <description>
-                        Crimson Amplifier
-                        Very Rare Wondrous Item (Cursed)
-                        Requires attunement by a Spellcaster
-                        A Tiny Drop. As a bonus action you can push your finger on
-                        the needle on top of this pendant, this drains a single drop of
-                        blood into the pendant and deals 1 Piercing damage. The first
-                        Evocation or Necromancy spell you cast within an hour deals
-                        an extra 3d4 damage or if it has a save, the DC increases by 2.
-                        Only amplifies spells of the attuned creature when it’s own
-                        blood is used. You can use this feature twice per day.
-                        Blood Sacrifice (Curse). When the amplifier accumulates
-                        50 drops of blood it shatters and summons a Horned Devil
-                        and 3d4 Imps. The summoned creatures are hostile towards
-                        you and and anyone else that is not innately their ally.
-                    </description>
-                    <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
-                    </setters>
-                    <rules>
-                    </rules>
-                </element>
-                Crystalline Crusher Uncommon Mace
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Crystalline Crusher" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Crystalline_Crusher">
                     <description>
                         Crystalline Crusher
                         Uncommon Mace
@@ -23508,8 +23401,7 @@
                     <rules>
                     </rules>
                 </element>
-                Dagger of the Red Dragon Very Rare Dagger
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Dagger of the Red Dragon" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Dagger_of_the_Red_Dragon">
                     <description>
                         Dagger of the Red Dragon
                         Very Rare Dagger (Finesse, Light, Range, Thrown, Cursed)
@@ -23530,23 +23422,6 @@
                         have more than 10000 gold in your possession and you use
                         Essence of Fire, roll a D100, if you roll between 95-99 you get
                         an insatiable urge to set your own equipment on fire.
-
-                        Cornucopeia
-                        of the Harvest
-
-                        Crystalline
-                        Crusher
-
-                        Dagger of the
-                        Red Dragon
-
-                        Crimson
-                        Amplifier
-
-                        Coinbox of
-                        Holding
-
-                        Relics of the Realms - Volume 1 4 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -23567,8 +23442,7 @@
                     <rules>
                     </rules>
                 </element>
-                Dance Rare Dagger
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Dance" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_DANCE">
                     <description>
                         Dance
                         Rare Dagger (Finesse, Light, Range, Thrown)
@@ -23607,45 +23481,21 @@
                     <rules>
                     </rules>
                 </element>
-                Death Knight's Helmet Very Rare Wondrous Item (Head)
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Death Knight's Helmet" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_DEATH_KNIGHTS_HELMET">
                     <description>
-                        Death Knight’s Helmet
-                        Very Rare Wondrous Item (Cursed)
-                        Requires attunement
-                        Knight’s Stamina. When attuned to this helmet you have
-                        resistance to Necrotic and Poison damage and are immune to
-                        being frightened. You gain a +1 bonus to your
-                        Constitution score every day up to a
-                        maximum of +4.
-                        Death’s Call (Curse). Every day you wear this helmet you
-                        make a Wisdom saving throw (DC 12). The DC increases
-                        by 2 every for every subsequent day you wear this helmet.
-                        On a failed save you take 2d8 Psychic damage and lose all
-                        Constitution bonuses from this item. Every time you fail the
-                        save, the damage increases by 2d8.
+                        <p><b>Knight’s Stamina.</b> When attuned to this helmet you have resistance to Necrotic and Poison damage and are immune to being frightened. You gain a +1 bonus to your Constitution score every day up to a maximum of +4.</p>
+                        <p class="indent"><b>Death’s Call (Curse).</b> Every day you wear this helmet you make a Wisdom saving throw (DC 12). The DC increases by 2 every for every subsequent day you wear this helmet. On a failed save you take 2d8 Psychic damage and lose all Constitution bonuses from this item. Every time you fail thesave, the damage increases by 2d8.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type" addition="cursed">Wondrous Item</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="attunement">true</set>
                     </setters>
-                    <rules>
-                    </rules>
                 </element>
-                Executioner's Remorse Rare Greatsword
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Executioner's Remorse" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Executioners_Remorse">
                     <description>
                         Executioner’s Remorse
                         Rare Greatsword (Heavy, Two-handed)
@@ -23685,8 +23535,7 @@
                     <rules>
                     </rules>
                 </element>
-                Explosive Arrow Uncommon Ammunition
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Explosive Arrow" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Explosive_Arrow">
                     <description>
                         Explosive Arrow
                         Rare Ammunition (Longbow, Shortbow)
@@ -23722,8 +23571,7 @@
                     <rules>
                     </rules>
                 </element>
-                Forgemaster's Warhammer Very Rare Warhammer
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Forgemaster's Warhammer" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Forgemasters_Warhammer">
                     <description>
                         Forgemaster’s Warhammer
                         Very Rare Warhammer (Heavy)
@@ -23774,8 +23622,7 @@
                     <rules>
                     </rules>
                 </element>
-                Fuzzy Teddy Common Wondrous Item
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Fuzzy Teddy" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Fuzzy_Teddy">
                     <description>
                         Fuzzy Teddy
                         Common Wondrous Item
@@ -23805,8 +23652,7 @@
                     <rules>
                     </rules>
                 </element>
-                Grapple Arrow Common Ammunition
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Grapple Arrow" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Grapple_Arrow">
                     <description>
                         Grapple Arrow
                         Common Ammunition (Longbow, Shortbow)
@@ -23841,8 +23687,7 @@
                     <rules>
                     </rules>
                 </element>
-                Gravedigger's Staff Rare Staff
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Gravedigger's Staff" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Gravediggers_Staff">
                     <description>
                         Gravedigger’s Staff
                         Rare Staff (Cursed),
@@ -23885,8 +23730,7 @@
                     <rules>
                     </rules>
                 </element>
-                Hand Wraps of the Gathering Storm Rare Wondrous item (Hands)
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Hand Wraps of the Gathering Storm" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Hand_Wraps_of_the_Gathering_Storm">
                     <description>
                         Hand Wraps of the Gathering Storm
                         Rare Wondrous Item
@@ -23935,8 +23779,7 @@
                     <rules>
                     </rules>
                 </element>
-                Hood of the Deceiver Rare Wondrous item (Head)
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Hood of the Deceiver" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Hood_of_the_Deceiver">
                     <description>
                         Hood of the Deceiver
                         Rare Wondrous Item
@@ -23968,8 +23811,7 @@
                     <rules>
                     </rules>
                 </element>
-                Ikrian Gloves Uncommon Wondrous item (Hands)
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Ikrian Gloves" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Ikrian_Gloves">
                     <description>
                         Ikrian Gloves
                         Uncommon Wondrous Item
@@ -23998,8 +23840,7 @@
                     <rules>
                     </rules>
                 </element>
-                Injection Arrow Uncommon Ammunition
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Injection Arrow" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Injection_Arrow">
                     <description>
                         Injection Arrow
                         Uncommon Ammunition (Longbow, Shortbow)
@@ -24030,8 +23871,7 @@
                     <rules>
                     </rules>
                 </element>
-                Jade Xiphos Uncommon Shortsword
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Jade Xiphos" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Jade_Xiphos">
                     <description>
                         Jade Xiphos
                         Uncommon Shortsword (Finesse, Light)
@@ -24065,8 +23905,7 @@
                     <rules>
                     </rules>
                 </element>
-                Knife of the Vampire Lord Very Rare Dagger
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Knife of the Vampire Lord" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Knife_of_the_Vampire_Lord">
                     <description>
                         Knife of the Vampire Lord
                         Very Rare Dagger (Finesse, Light, Range, Thrown)
@@ -24120,8 +23959,7 @@
                     <rules>
                     </rules>
                 </element>
-                Kobold's Lucky Tooth Common Wondrous Item
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Kobold's Lucky Tooth" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Kobolds_Lucky_Tooth">
                     <description>
                         Kobold’s Lucky Tooth
                         Common Wondrous Item
@@ -24152,8 +23990,7 @@
                     <rules>
                     </rules>
                 </element>
-                Lightflask Common Wondrous Item
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Lightflask" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Lightflask">
                     <description>
                         Lightflask
                         Common Wondrous Item
@@ -24188,8 +24025,7 @@
                     <rules>
                     </rules>
                 </element>
-                Lockcrawler Rare Wondrous Item
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Lockcrawler" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Lockcrawler">
                     <description>
                         Lockcrawler
                         Rare Wondrous Item
@@ -24225,8 +24061,7 @@
                     <rules>
                     </rules>
                 </element>
-                Lunar Scimitar Uncommon Scimitar
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Lunar Scimitar" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Lunar_Scimitar">
                     <description>
                         Lunar Scimitar
                         Uncommon Scimitar (Finesse, Light)
@@ -24257,8 +24092,7 @@
                     <rules>
                     </rules>
                 </element>
-                Luxurious Satin Bedroll Common Wondrous Item
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Luxurious Satin Bedroll" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Luxurious_Satin_Bedroll">
                     <description>
                         Luxurious Satin Bedroll
                         Common Wondrous Item
@@ -24304,8 +24138,7 @@
                     <rules>
                     </rules>
                 </element>
-                Mail of the Riverlands Uncommon Medium Armor
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Mail of the Riverlands" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Mail_of_the_Riverlands">
                     <description>
                         Mail of the Riverlands
                         Common Medium Armor
@@ -24335,8 +24168,7 @@
                     <rules>
                     </rules>
                 </element>
-                Mask of the Witchdoctor Very Rare Wondrous item (Head)
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Mask of the Witchdoctor" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Mask_of_the_Witchdoctor">
                     <description>
                         Mask of the Witchdoctor
                         Very Rare Wondrous Item,
@@ -24375,8 +24207,7 @@
                     <rules>
                     </rules>
                 </element>
-                Port-a-Boulder Uncommon Wondrous Item
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Port-a-Boulder" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Port_a_Boulder">
                     <description>
                         Port-a-Boulder
                         Uncommon Wondrous Item
@@ -24413,8 +24244,7 @@
                     <rules>
                     </rules>
                 </element>
-                Ruby Evertorch Uncommon Wondrous Item
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Ruby Evertorch" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Ruby_Evertorch">
                     <description>
                         Ruby Evertorch
                         Uncommon Wondrous Item
@@ -24457,8 +24287,9 @@
                     <rules>
                     </rules>
                 </element>
-                Song Rare Rapier
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Song &amp; Dance" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Song_AND_DANCE">
+                </element>
+                <element name="Song" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Song">
                     <description>
                         Song
                         Rare Rapier (Finesse, Light) .
@@ -24497,8 +24328,7 @@
                     <rules>
                     </rules>
                 </element>
-                Stalker's Dart Uncommon Dart
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Stalker's Dart" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Stalkers_Dart">
                     <description>
                         Stalker’s Dart
                         Uncommon Dart (Finesse, Range, Thrown)
@@ -24530,8 +24360,7 @@
                     <rules>
                     </rules>
                 </element>
-                Talisman of the Satyr Uncommon Wondrous Item (Jewelry)
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Talisman of the Satyr" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Talisman_of_the_Satyr">
                     <description>
                         Talisman of the Satyr
                         Uncommon Wondrous Item
@@ -24566,8 +24395,7 @@
                     <rules>
                     </rules>
                 </element>
-                The Northern Winds Very Rare Staff
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="The Northern Winds" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_The_Northern_Winds">
                     <description>
                         The Northern Winds
                         Very Rare Staff
@@ -24605,8 +24433,7 @@
                     <rules>
                     </rules>
                 </element>
-                Thorn of the North Rare Longbow
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Thorn of the North" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Thorn_of_the_North">
                     <description>
                         Thorn of the North
                         Rare Longbow
@@ -24640,8 +24467,7 @@
                     <rules>
                     </rules>
                 </element>
-                Totem of Tongues Uncommon Wondrous Item
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Totem of Tongues" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Totem_of_Tongues">
                     <description>
                         Totem of Tongues
                         Uncommon Wondrous Item
@@ -24684,8 +24510,7 @@
                     <rules>
                     </rules>
                 </element>
-                Tunic of the Warmage's Apprentice Very Rare Light Armor
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Tunic of the Warmage's Apprentice" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Tunic_of_the_Warmages_Apprentice">
                     <description>
                         Tunic of the Warmage’s Apprentice
                         Very Rare Armor (Light)
@@ -24718,8 +24543,7 @@
                     <rules>
                     </rules>
                 </element>
-                Twin Hook Swords Uncommon Shortsword
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Twin Hook Swords" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Twin_Hook_Swords">
                     <description>
                         Twin Hook Swords
                         Uncommon Shortswords (Finesse, Light, Dual Wield)
@@ -24755,8 +24579,7 @@
                     <rules>
                     </rules>
                 </element>
-                Twin Serpent Staff Uncommon Staff
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Twin Serpent Staff " type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Twin_Serpent_Staff ">
                     <description>
                         Twin Serpent Staff
                         Uncommon Staff
@@ -24789,8 +24612,7 @@
                     <rules>
                     </rules>
                 </element>
-                Violin of the Afterlife Rare Musical Instrument
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Violin of the Afterlife" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Violin_of_the_Afterlife">
                     <description>
                         Violin of the Afterlife
                         Rare Wondrous Item (Musical Instrument, Viol)
@@ -24829,8 +24651,7 @@
                     <rules>
                     </rules>
                 </element>
-                Wand of the Kitten Rare Wand
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Wand of the Kitten" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Wand_of_the_Kitten">
                     <description>
                         Wand of the Kitten
                         Rare Wand
@@ -24882,8 +24703,7 @@
                     <rules>
                     </rules>
                 </element>
-                Waterwalkers Uncommon Wondrous item (Feet)
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Waterwalkers" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Waterwalkers">
                     <description>
                         Waterwalkers
                         Uncommon Wondrous Item
@@ -24919,8 +24739,7 @@
                     <rules>
                     </rules>
                 </element>
-                Wavecaller Rare Musical Instrument
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Wavecaller" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Wavecaller">
                     <description>
                         Wavecaller
                         Rare Wondrous Item (Musical Instrument, Horn)
@@ -24954,8 +24773,7 @@
                     <rules>
                     </rules>
                 </element>
-                Willows Whisper Uncommon Musical Instrument
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
+                <element name="Willows Whisper" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Willows_Whisper">
                     <description>
                         Willow’s Whisper
                         Uncommon Wondrous Item (Musical Instrument, Flute)
@@ -24999,30 +24817,6 @@
                     </rules>
                 </element>
             <!--Relics of the Realms - Volume 2-->
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 2" id="ID_BONUSACTION_ROTR2_MAGIC_ITEM_">
-                    <description>
-                    </description>
-                    <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
-                    </setters>
-                    <rules>
-                    </rules>
-                </element>
-                
-                <!---->
                 Ardent Enforcer Very Rare Warhammer
                 <element name="" type="Magic Item" source="Relics of the Realms - Volume 2" id="ID_BONUSACTION_ROTR2_MAGIC_ITEM_">
                     <description>
@@ -27100,30 +26894,6 @@
                     </rules>
                 </element>
             <!--Relics of the Realms - Volume 3-->
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 3" id="ID_BONUSACTION_ROTR3_MAGIC_ITEM_">
-                    <description>
-                    </description>
-                    <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
-                    </setters>
-                    <rules>
-                    </rules>
-                </element>
-                
-                <!---->
                 Amulet of the Huntress Rare Wondrous Item (Jewelry)
                 <element name="" type="Magic Item" source="Relics of the Realms - Volume 3" id="ID_BONUSACTION_ROTR3_MAGIC_ITEM_">
                     <description>
@@ -29160,13 +28930,9 @@
                     <rules>
                     </rules>
                 </element>
-                Warmage's Spellglaive Very Rare Glaive
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 3" id="ID_BONUSACTION_ROTR3_MAGIC_ITEM_">
+                <element name="Warmage's Spellglaive" type="Magic Item" source="Relics of the Realms - Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_WARMAGES_SPELLGLAIVE">
                     <description>
-                        Warmage’s Spellglaive
-                        Very Rare Glaive (Heavy, Reach, Two-handed)
-                        Requires attunement
-                        Damage. 1d10+2 Slashing
+
                         Arcane Forged. You gain a +2 bonus to attack rolls you make
                         with this weapon.
                         Strike of Force. This glaive can hold a maximum of 3
@@ -29187,11 +28953,11 @@
                         <set name="cost" currency="gp"></set>
                         <set name="weight" lb="0">lb.</set>
                         <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="enhancement">2</set>
                         <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
+                        <set name="attunement" addition="">true</set>
+                        <set name="weapon">Glaive</set>
                         <set name="armor"></set>
                         <set name="name-format"></set>
                         <set name="stackable"></set>
@@ -29200,38 +28966,20 @@
                     <rules>
                     </rules>
                 </element>
-                Wildfire Bowstring Very Rare Wondrous Item
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 3" id="ID_BONUSACTION_ROTR3_MAGIC_ITEM_">
+                <element name="Bowstring, Wildfire" type="Magic Item" source="Relics of the Realms - Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_WILDFIRE_BOWSTRING">
                     <description>
-                        Wildfire Bowstring
-                        Very Rare Wondrous Item
-                        Fire up the Bow. It takes 30 seconds to replace the
-                        bowstring on a regular longbow or shortbow with this
-                        enchanted bowstring.
-                        Green Flame Arrow. This bowstring has 3 charges which
-                        recharge at dawn. Whenever you take the attack action with
-                        the bow this string is on, you can expend a charge that causes
-                        the arrow to burn with a green fire. Make a ranged attack
-                        roll, on a hit the target takes an extra 2d4 Fire damage. After
-                        impacting, the fire leaps to the nearest creature within 10ft.
-                        and deals 1d4 Fire damage. If you miss your attack the charge
-                        is also expended.
+                        <p><b>Fire up the Bow.</b> It takes 30 seconds to replace the bowstring on a regular longbow or shortbow with this enchanted bowstring.
+                        <p><b>Green Flame Arrow.</b> This bowstring has 3 charges which recharge at dawn. Whenever you take the attack action with the bow this string is on, you can expend a charge that causes the arrow to burn with a green fire. Make a ranged attack roll, on a hit the target takes an extra 2d4 Fire damage. After impacting, the fire leaps to the nearest creature within 10ft. and deals 1d4 Fire damage. If you miss your attack the charge is also expended.
                     </description>
                     <setters>
                         <set name="keywords"></set>
-                        <set name="category"></set>
+                        <set name="category">Wondrous Items</set>
                         <set name="cost" currency="gp"></set>
                         <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
+                        <set name="type" addition="">Wondrous Item</set>
+                        <set name="rarity">Very Rare</set>
                         <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="charges">3</set>
                     </setters>
                     <rules>
                     </rules>
@@ -33923,9 +33671,14 @@
                     </setters>
                 </element>
             <!--Weapon Upgrades-->
+    <!--Personal Homebrew-->
+        <!--Scythe Simple Melee Weapons
+        Weapon	Cost	Damage	Weight	Properties
+        Scythe	2 gp	2d4 slashing	4 lb.	Heavy, two-handed
+        This weapon is inspired by the common farming implement used to cut swaths of grown hay, but it has a straight handle and a heavier blade. Despite its humble origins, the scythe is recognized as a symbol of death in many cultures because of its use in reaping. Rather than being too heavy for most smaller creatures, the scythe is too long for Small sized creatures to wield effectively.-->
+        <!--Bad Omen-->
     <!--Unknow Location-->
         <!--Knight of Vasteel-->
-            Scythe
-            Death
+            
         <!---->
 </elements>
