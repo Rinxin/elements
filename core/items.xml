@@ -3643,7 +3643,7 @@
                     <set name="type" addition="Lamellar (scale mail)">Armor</set>
                     <set name="attunement">true</set>
                     <set name="rarity">Very Rare</set>
-                    <set name="armor">Lamellar</set>
+                    <set name="armor">scale mail</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
@@ -3679,7 +3679,7 @@
                     <set name="type" addition="scale mail">Armor</set>
                     <set name="attunement">true</set>
                     <set name="rarity">Very Rare</set>
-                    <set name="armor">ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL</set>
+                    <set name="armor">scale mail</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
