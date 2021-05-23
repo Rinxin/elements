@@ -22805,7 +22805,7 @@
                     <div class="reference">
                             <div element="ID_CRIT_WEAPON_PROPERTY_MISFIRE" />
                             <div element="ID_CRIT_WEAPON_PROPERTY_RELOAD" />
-                            <div element="ID_WOTC_WEAPON_PROPERTY_TWOHANDED" />
+                            <div element="ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED" />
                     </div>
                 </description>
                 <setters>
@@ -22822,7 +22822,12 @@
             </element>
             <element name="Pepperbox" type="Weapon" source="Critical Role" id="ID_CRIT_WEAPON_PEPPERBOX">
                 <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_CRIT_WEAPON_PROPERTY_RELOAD_6, ID_CRIT_WEAPON_PROPERTY_MISFIRE_2</supports>
-                <description />
+                <description>
+                    <div class="reference">
+                            <div element="ID_CRIT_WEAPON_PROPERTY_MISFIRE" />
+                            <div element="ID_CRIT_WEAPON_PROPERTY_RELOAD" />
+                    </div>
+                </description>
                 <setters>
                     <set name="category">Weapons</set>
                     <set name="cost" currency="gp">450</set>
@@ -22837,7 +22842,13 @@
             </element>
             <element name="Scattergun" type="Weapon" source="Critical Role" id="ID_CRIT_WEAPON_SCATTERGUN">
                 <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_CRIT_WEAPON_PROPERTY_RELOAD_2, ID_CRIT_WEAPON_PROPERTY_MISFIRE_3, ID_CRIT_WEAPON_PROPERTY_SCATTER</supports>
-                <description />
+                <description>
+                    <div class="reference">
+                            <div element="ID_CRIT_WEAPON_PROPERTY_MISFIRE" />
+                            <div element="ID_CRIT_WEAPON_PROPERTY_RELOAD" />
+                            <div element="ID_CRIT_WEAPON_PROPERTY_SCATTER" />
+                    </div>
+                </description>
                 <setters>
                     <set name="category">Weapons</set>
                     <set name="cost" currency="gp">500</set>
