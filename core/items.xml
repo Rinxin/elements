@@ -103,589 +103,6 @@
                     <set name="stackable">true</set>
                 </setters>
             </element>
-            <!--Armor Upgrades-->
-                    <element name="Armor Proofing - Tier 1" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_ARMOR_PROFFING_TIER_1">
-                        <description>
-                            <p>While wearing this armor, you  reduce nonmagical slashing damage by 6 before resistance is applied. If the damage is reduced below 0 you take none of that damage instead.</p>
-                        </description>
-                        <setters>
-                            <set name="category">Armor Upgrade</set>
-                            <set name="cost" currency="gp">1000</set>
-                            <set name="rarity" addition="light, medium, or heavy">Common</set>
-                        </setters>
-                    </element>
-                    <element name="Armor Proofing - Tier 2" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_ARMOR_PROFFING_TIER_2">
-                        <description>
-                            <p>While wearing this armor, you reduce nonmagical piercing or slashing damage by 7 before resistance is applied. If the damage is reduced below 0 you take none of that damage instead.</p>
-                        </description>
-                        <setters>
-                            <set name="category">Magic Armor</set>
-                            <set name="cost" currency="gp">2000</set>
-                            <set name="slot">body</set>
-                            <set name="type" addition="medium, or heavy armor with the 1st tier armor proofing tag">Armor</set>
-                            <set name="rarity">Common</set>
-                            
-                            <set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
-                            <set name="name-format">{{parent}}, Tier 2 Armor Proofing</set>
-                        </setters>
-                    </element>
-                    <element name="Armor Proofing - Tier 3" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_ARMOR_PROFFING_TIER_3">
-                        <description>
-                            <p>While wearing this armor, you reduce nonmagical bludgeoning, piercing or slashing damage by 8 before resistance is applied. If the damage is reduced below 0 you take none of that damage instead.</p>
-                        </description>
-                        <setters>
-                            <set name="category">Magic Armor</set>
-                            <set name="cost" currency="gp">3000</set>
-                            <set name="slot">body</set>
-                            <set name="type" addition="heavy armor with the 2nd tier armor proofing tag">Armor</set>
-                            <set name="rarity">Common</set>
-                            
-                            <set name="armor">ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
-                            <set name="name-format">{{parent}}, Tier 3 Armor Proofing</set>
-                        </setters>
-                    </element>
-                    <element name="Breathable" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_BREATHABLE">
-                        <description>
-                            <p>While wearing this armor, you have advantage on saving throws you make against exhaustion effects due to extreme heat, as described in chapter 5 of the Dungeon Master's Guide.</p>
-                        </description>
-                        <setters>
-                            <set name="category">Magic Armor</set>
-                            <set name="cost" currency="gp">100</set>
-                            <set name="slot">body</set>
-                            <set name="type" addition="medium, heavy armor. Incompatible with insulated tag.">Armor</set>
-                            <set name="rarity">Common</set>
-                            
-                            <set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
-                            <set name="name-format">{{parent}}, Breathable</set>
-                        </setters>
-                    </element>
-                    <element name="Burnished" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_BURNISHED">
-                        <description>
-                            <p>This armor has been polished to a mirror finish. While wearing it, you may have advantage on Charisma-based skill checks when interacting with certain humanoids, as determined by the DM. This tag is automatically removed after 24 hours of wear or at the end of a combat.</p>
-                        </description>
-                        <setters>
-                            <set name="category">Magic Armor</set>
-                            <set name="cost" currency="gp">10</set>
-                            <set name="slot">body</set>
-                            <set name="type" addition="heavy armor">Armor</set>
-                            <set name="rarity">Common</set>
-                            
-                            <set name="armor">ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
-                            <set name="name-format">{{parent}}, Burnished</set>
-                        </setters>
-                    </element>
-                    <element name="Climbing Harnes" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_BURNISHED">
-                        <description>
-                            <p>This armor has been affixed with a climbing harness around the midriff, comprising leather straps and quickdraws. While wearing it, you make Strength (Athletics) checks to scale vertical surfaces with advantage when using a rope or similar aid.</p>
-                        </description>
-                        <setters>
-                            <set name="category">Magic Armor</set>
-                            <set name="cost" currency="gp">100</set>
-                            <set name="slot">body</set>
-                            <set name="type" addition="light, medium, heavy armor">Armor</set>
-                            <set name="rarity">Common</set>
-                            
-                            <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
-                            <set name="name-format">{{parent}}, Climbing Harnes</set>
-                        </setters>
-                    </element>
-                    <element name="Decorated" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_DECORATED">
-                        <description>
-                            <p>This armor or shield is adorned with a holy symbol and can be used as a spellcasting focus for cleric and paladin spells.</p>
-                        </description>
-                        <setters>
-                            <set name="category">Magic Armor</set>
-                            <set name="cost" currency="gp">5</set>
-                            <set name="slot">body</set>
-                            <set name="type" addition="medium, heavy armor and shields">Armor</set>
-                            <set name="rarity">Common</set>
-                            
-                            <set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY|ID_INTERNAL_ARMOR_GROUP_SHIELD"</set>
-                            <set name="name-format">{{parent}}, Decorated</set>
-                        </setters>
-                    </element>
-                    <element name="Insulated" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_INSULATED">
-                        <description>
-                            <p>This armor counts as cold weather gear in conditions of extreme cold, as described in chapter 5 of the Dungeon Master's Guide.</p>
-                        </description>
-                        <setters>
-                            <set name="category">Magic Armor</set>
-                            <set name="cost" currency="gp">100</set>
-                            <set name="slot">body</set>
-                            <set name="type" addition="light, medium. Incompatible with breathable tag">Armor</set>
-                            <set name="rarity">Common</set>
-                            
-                            <set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY"</set>
-                            <set name="name-format">{{parent}}, Insulated</set>
-                        </setters>
-                    </element>
-                    <element name="Locking Joints" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_LOCKING_JOINTS">
-                        <description>
-                            <p>This armor is made with hinged joints that can be locked by a quick motion from the wearer. While wearing it, you make Strength (Athletics) checks to oppose attempts to shove you with advantage.</p>
-                        </description>
-                        <setters>
-                            <set name="category">Magic Armor</set>
-                            <set name="cost" currency="gp">150</set>
-                            <set name="slot">body</set>
-                            <set name="type" addition="Half Plate or Plate Armor">Armor</set>
-                            <set name="rarity">Common</set>
-                            
-                            <set name="armor">ID_WOTC_ARMOR_HEAVY_SPLINT|ID_WOTC_ARMOR_HEAVY_PLATE"</set>
-                            <set name="name-format">{{parent}}, Locking Joints</set>
-                        </setters>
-                    </element>
-                    <element name="Muffled" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_MUFFLED">
-                        <description>
-                            <p>This armor no longer confers disadvantage on Dexterity (Stealth) checks.</p>
-                        </description>
-                        <setters>
-                            <set name="category">Magic Armor</set>
-                            <set name="cost" currency="gp">50</set>
-                            <set name="slot">body</set>
-                            <set name="type" addition="Brigandine Armor">Armor</set>
-                            <set name="rarity">Common</set>
-                            
-                            <set name="armor">ID_WOTC_ARMOR_MEDIUM_HALF_PLATE"</set>
-                            <set name="name-format">{{parent}}, Muffled</set>
-                        </setters>
-                    </element>
-                    <element name="Quick-release Clasps" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_QUICK_RELEASE_CLASPS">
-                        <description>
-                            <p>You can doff this armor as an action.</p>
-                        </description>
-                        <setters>
-                            <set name="category">Magic Armor</set>
-                            <set name="cost" currency="gp">200</set>
-                            <set name="slot">body</set>
-                            <set name="type" addition="light, medium, or heavy armor">Armor</set>
-                            <set name="rarity">Common</set>
-                            
-                            <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY"</set>
-                            <set name="name-format">{{parent}}, Quick-release Clasps</set>
-                        </setters>
-                    </element>
-                    <element name="Reinforced" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_REINFORCED">
-                        <description>
-                            <p>This armor or shield has been reinforced at the joints and other weak points. While wearing it, critical damage you take from nonmagical attacks is reduced by 3.</p>
-                        </description>
-                        <setters>
-                            <set name="category">Magic Armor</set>
-                            <set name="cost" currency="gp">300</set>
-                            <set name="slot">body</set>
-                            <set name="type" addition="heavy armor or shield">Armor</set>
-                            <set name="rarity">Common</set>
-                            
-                            <set name="armor">ID_INTERNAL_ARMOR_GROUP_HEAVY|ID_INTERNAL_ARMOR_GROUP_SHIELD"</set>
-                            <set name="name-format">{{parent}}, Reinforced</set>
-                        </setters>
-                    </element>
-                    <!--Runic Magic-->
-                        <element name="Runic:" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_RUNIC_1">
-                            <description>
-                                <p>This armor or shield can be imbued with rune magic.*</p>
-                            </description>
-                            <setters>
-                                <set name="category">Magic Armor</set>
-                                <set name="cost" currency="gp">400</set>
-                                <set name="slot">body</set>
-                                <set name="type" addition="Armor proofing tag (any tier) or a shield. Can only be applied by a runesmith.*">Armor</set>
-                                <set name="rarity">Common</set>
-                                
-                                <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY|ID_INTERNAL_ARMOR_GROUP_SHIELD"</set>
-                                <set name="name-format">{{parent}}, Reinforced</set>
-                            </setters>
-                        </element>
-                        <element name="Runic: Alchemist" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_RUNIC_ALCHEMIST">
-                            <description>
-                                <p>While you are wearing this armor, you regain 2 additional hit points when you drink a potion of healing.</p>
-                            </description>
-                            <setters>
-                                <set name="category">Magic Armor</set>
-                                <set name="cost" currency="gp">410</set>
-                                <set name="slot">body</set>
-                                <set name="type" addition="any suit of armor. Can only be applied by a runesmith.*">Armor</set>
-                                <set name="rarity">Common</set>
-                                
-                                <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY"</set>
-                                <set name="name-format">{{parent}}, Runic: Alchemist</set>
-                            </setters>
-                        </element>
-                        <element name="Runic: Arrow-Catcher" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_RUNIC_ARROW_CATCHER">
-                            <description>
-                                <p>This runestone has three charges. While you are wielding this shield, when you or a friendly creature within 10 feet of you are the target of a ranged weapon attack you can expend a charge as a reaction to impose disadvantage on the attack. You must choose to do so before the roll. The runestone regains 1d3 charges daily at dawn.</p>
-                            </description>
-                            <setters>
-                                <set name="category">Magic Armor</set>
-                                <set name="cost" currency="gp">450</set>
-                                <set name="slot">body</set>
-                                <set name="type" addition="a shield. Can only be applied by a runesmith.*">Armor</set>
-                                <set name="rarity">Uncommon</set>
-                                <set name="charges">3</set>
-                                <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD"</set>
-                                <set name="name-format">{{parent}}, Runic: Arrow-Catcher</set>
-                            </setters>
-                        </element>
-                        <element name="Runic: Bastion" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_RUNIC_BASTION">
-                            <description>
-                                <p>While you are wearing (armor) or wielding (shield) this item, you can use a bonus action to press your fist to the ground and speak its command word, causing a 10-foot radius immobile dome of force to spring into existence around and above you that remains stationary and lasts for 1 minute. The dome automatically repels nonmagical ranged attacks attempting to pass through it, and the area inside the dome is considered difficult terrain for hostile creatures. Once used, this property can’t be used again until the following dawn.</p>
-                            </description>
-                            <setters>
-                                <set name="category">Magic Armor</set>
-                                <set name="cost" currency="gp">900</set>
-                                <set name="slot">body</set>
-                                <set name="type" addition="A gauntleted suit of armor or a shield. Can only be applied by a runesmith.*">Armor</set>
-                                <set name="rarity">Rare</set>
-                                
-                                <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY|ID_INTERNAL_ARMOR_GROUP_SHIELD"</set>
-                                <set name="name-format">{{parent}}, Bastion</set>
-                            </setters>
-                        </element>
-                        <element name="Runic: Berserker" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_RUNIC_BERSERKER">
-                            <description>
-                                <p>When you hit a creature with this weapon, you can expend a number of Hit Dice up to half your character level (rounded down). For each Hit Die spent this way, roll the die and add it to the damage of the attack. You take an amount of damage equal to the damage dealt in this way, including any extra damage from a critical hit. This damage to you can’t be reduced or prevented in any way. Once used, this property can’t be used again until the following dawn.</p>
-                            </description>
-                            <setters>
-                                <set name="category">Magic Weapon</set>
-                                <set name="cost" currency="gp">900</set>
-                                <set name="slot">body</set>
-                                <set name="type" addition="A simple or martial weapon. Can only be applied by a runesmith.*">Armor</set>
-                                <set name="rarity">Rare</set>
-                                
-                                <set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY|ID_INTERNAL_ARMOR_GROUP_SHIELD"</set>
-                                <set name="name-format">{{parent}}, Reinforced</set>
-                            </setters>
-                        </element>
-
-                        Blood Weapon
-                        Runestone, very rare
-                        Item: A simple or martial melee weapon
-                        When you score a critical hit with an attack using this
-                        weapon, you regain a number of hit points equal to the
-                        damage dealt to a maximum of the hit points lost by the
-                        target. No effect against constructs or undead.
-                        Bound Armor
-                        Runestone, uncommon
-                        Item: A suit of armor
-                        As a bonus action while you aren't wearing armor, you
-                        can cause this armor to appear in a flash of light around
-                        you—instantly donning it. Also as a bonus action while you
-                        are wearing this armor, you can cause the armor to vanish
-                        entirely, instantly doffing it.
-                        Bound Weapon
-                        Runestone, uncommon
-                        Item: A simple or martial weapon
-                        As a bonus action, you can cause this weapon to disappear
-                        or appear instantly in a free hand.
-                        Cat
-                        Runestone, uncommon
-                        Item: A simple or martial weapon
-                        While wielding this weapon, as a bonus action you can
-                        activate this rune by speaking its command phrase. For
-                        1 hour, you can see normally in darkness to a distance of
-                        120 feet. Once used, this property can’t be used again until
-                        the following dawn.
-                        Chalice
-                        Runestone, rare
-                        Item: Any armor or weapon
-                        This runestone stores spells cast into it, holding them until
-                        the attuned wearer uses them. The rune can store up to
-                        5 levels worth of spells at a time. When found, it contains
-                        1d6 − 1 levels of stored spells chosen by the DM.
-                        Any creature can cast a spell of 1st through 5th level
-                        into the rune by touching the rune as the spell is cast. The
-                        spell has no effect, other than to be stored in the rune. If
-                        the rune can't hold the spell, the spell is expended without
-                        effect. The level of the spell used to cast the spell determines
-                        how much space it uses.
-                        While wearing this armor, you can cast any spell stored
-                        in the rune. The spell uses the slot level, spell save DC,
-                        spell attack bonus, and spellcasting ability of the original
-                        caster, but is otherwise treated as if you cast the spell. The
-                        spell cast from the rune is no longer stored in it, freeing
-                        up space.
-                        Chaos
-                        Runestone, uncommon
-                        Item: A simple or martial weapon
-                        A popular project among apprentice artificers, this rune
-                        embodies the chaos of unbound magic. When you score
-                        a critical hit with an attack using this weapon, roll on the
-                        Wild Magic Surge table in the Player's Handbook to create
-                        a magical effect. If the effect is a spell that requires concentration,
-                        it doesn't require concentration in this case and
-                        lasts for its full duration.
-                        Daywalker
-                        Runestone, uncommon
-                        Item: A suit of armor with a helmet or hood
-                        While wearing this armor with the hood drawn, you are
-                        unaffected by the sunlight sensitivity trait if you have it.
-                        Death
-                        Runestone, rare
-                        Item: A simple or martial weapon
-                        Whenever you kill a Small or Medium humanoid with
-                        an attack using this weapon, it rises immediately as a
-                        zombie under your control with 1 hit point, as per the
-                        animate dead spell. The creature uses the zombie statistics.
-                        It remains animate for 1 minute, after which time it
-                        collapses and dies.
-                        Displacement
-                        Runestone, very rare
-                        Item: A suit of light or medium armor
-                        While you are wearing this armor, whenever you take
-                        damage from an attack, you can teleport up to 30 feet to an
-                        unoccupied space that you can see.
-                        Dragon Slayer
-                        Runestone, very rare
-                        Item: A martial weapon
-                        When you hit a dragon with this weapon, it takes an extra
-                        2d6 damage of the weapon's type and must succeed on a
-                        Strength saving throw or its flying speed (if any) is reduced
-                        to 0 feet until the end of its next turn. If the target is
-                        airborne, it descends at 60 feet per round until it reaches
-                        the ground or the effect ends. For the purpose of this
-                        weapon, "dragon" refers to any creature with the dragon
-                        type, including dragon turtles and wyverns.
-                        Earthshaker
-                        Runestone, very rare
-                        Item: A simple or martial melee weapon with the
-                        heavy property
-                        While you are wielding this weapon, you can use an action
-                        to strike a point on the ground within reach, creating a
-                        seismic disturbance as per the earthquake spell with a
-                        duration of 1 round. Once used, this property can’t be used
-                        again until the following dawn.
-                        Elemental Shield
-                        Runsestone, uncommon
-                        Item: A suit of armor or a shield
-                        When you first affix this rune to a suit of armor or a shield,
-                        choose one of the following damage types: acid, cold, fire,
-                        lightning, or thunder. While wearing (armor) or wielding
-                        (shield) this item, whenever you take damage of the chosen
-                        type you can use your reaction to reduce the damage by an
-                        amount equal to twice your character level + your Constitution
-                        modifier and suffer one level of exhaustion. You can
-                        change the chosen damage type over the course of a short
-                        or long rest by spending at least 30 minutes in contact
-                        with the runestone.
-                        Featherfoot
-                        Runestone, uncommon
-                        Item: Any armor or weapon
-                        While you are wearing (armor) or wielding (weapon or
-                        shield) this item, you have a standing jump distance equal
-                        to your current walking speed. Each foot you clear while
-                        jumping costs a foot of movement, and you can't jump
-                        further than your remaining movement in a turn.
-                        Force of Will
-                        Runestone, legendary
-                        Item: A suit of armor
-                        While you are wearing this armor, you can't be affected by
-                        enchantment magic unless you choose to be.
-                        Giant Slayer
-                        Runestone, very rare
-                        Item: A martial weapon
-                        When you hit a giant with this weapon, it takes an extra
-                        2d6 damage of the weapon's type and must succeed on a
-                        Strength saving throw or fall prone. For the purpose of this
-                        weapon, "giant" refers to any creature with the giant type,
-                        including ettins and trolls.
-                        Hunt
-                        Runestone, rare
-                        Item: A simple of martial weapon with the ammunition
-                        property
-                        While you are wielding this weapon, you can use an action
-                        on your turn to mark a creature you can see within 90 feet
-                        of you. For 1 hour, when you hit the marked creature with
-                        a ranged attack using this weapon you can use a bonus
-                        action to teleport to an unoccupied space within 30 feet of
-                        it that you can see. Once used, this property can’t be used
-                        again until the following dawn.
-                        Journey
-                        Runestone, rare
-                        Item: A suit of armor
-                        While you are wearing this armor, your speed increases
-                        by 10 feet. In addition, you can travel at a fast pace
-                        without suffering the normal penalty to passive Wisdom
-                        (Peception) checks, and your food and water requirements
-                        are halved.
-                        Knock
-                        Runestone, uncommon
-                        Item: A gauntleted suit of armor
-                        While you are wearing this armor, you can rap your fist
-                        on an object to cast the knock spell on it. Once used, this
-                        property can’t be used again until the following dawn.
-                        Magebane
-                        Runestone, rare
-                        Item: A simple or martial weapon
-                        This runestone has three charges. When you hit a creature
-                        with this weapon, you can expend a charge to cause any
-                        spell effects of 3rd level or lower on the target to end. Additionally,
-                        for each spell of 4th level or higher on the target,
-                        make an ability check using your weapon ability. The DC
-                        equals 10 + the spell's level. On a successful check, the
-                        spell ends. The runestone regains 1d3 expended charges
-                        daily at dawn.
-                        Mariner
-                        Runestone, common
-                        Item: A simple or martial weapon
-                        This weapon or ammunition fired with it magically repels
-                        water. Attack rolls you make using it aren't made with
-                        disadvantage for being underwater.
-                        Mark/ Recall
-                        Runestone, very rare
-                        Item: A suit of armor
-                        While you are wearing this armor, you can use an action to
-                        magically mark a surface on which you are standing.
-                        While a location is marked in this way, you can spend 1
-                        minute concentrating on it (as if concentrating on a spell).
-                        At the end of the period, you and up to five willing creatures
-                        within 5 feet of you teleport to the marked location,
-                        and the mark vanishes. Once you mark a location, you
-                        can't do so again until the following dawn. If you mark
-                        another location while you already have a mark, the older
-                        mark vanishes.
-                        Mime
-                        Runestone, legendary
-                        Item: Any armor or weapon
-                        This runestone is able to mimic the properties of magic
-                        items. A creature can spend a short rest spent focusing
-                        on a magic item and this runestone. The magic item must
-                        be of the same type as the type of equipment to which
-                        this rune is affixed. Focus usually takes the form of quiet
-                        meditation or other appropriate activity. If the short rest
-                        is interrupted, the copying process fails. Otherwise, at
-                        the end of the short rest the runestone gains the properties
-                        of the magic item, excluding any fixed bonuses such
-                        as those to attack and damage rolls, spell save DC, and
-                        Armor Class. If a property has charges, it is copied with no
-                        remaining charges.
-                        Only the properties of one magic item can be copied at
-                        a time. The mimicking process overwrites any existing
-                        copied properties. The process automatically fails when
-                        attempting to copy the properties of artifacts.
-                        Nondetection
-                        Runestone, uncommon
-                        Item: Any armor or weapon
-                        While you are wearing (armor) or wielding (weapon or
-                        shield) this item, you are hidden from divination magic.
-                        You can't be targeted by such magic or perceived through
-                        magical scrying sensors.
-                        Overshield
-                        Runestone, very rare
-                        Item: A suit of heavy armor
-                        While you are wearing this armor, you gain 8 temporary hit
-                        points at the start of each of your turns.
-                        Phoenix
-                        Runestone, rare
-                        Item: A suit of armor
-                        When you're reduced to 0 hit points and start dying while
-                        wearing this armor, this rune immediately casts fireball
-                        centered on you. At the start of your next turn, instead of
-                        rolling a death saving throw, you regain 1d6 hit points.
-                        Once used, this property can’t be used again until the
-                        following dawn.
-                        Retribution
-                        Runestone, very rare
-                        Item: A suit of armor or a shield
-                        While you are wearing (armor) or wielding (shield) this
-                        item, whenever you take damage from a creature you have
-                        advantage on your next attack roll against creatures of that
-                        type before the end of your next turn.
-                        Serpent
-                        Runestone, uncommon
-                        Item: A simple or martial weapon
-                        When you hit a creature with this weapon, you can attempt
-                        to poison it. The target must succeed on a Constitution
-                        saving throw or become poisoned for 1 minute. The
-                        creature can repeat the saving throw at the end of each
-                        of its turns. On a success, the effect ends. Once used, this
-                        property can’t be used again until the following dawn.
-                        Soultrap
-                        Runestone, rare
-                        Item: A simple or martial weapon
-                        When you kill a creature with a challenge rating equal to
-                        or higher than your level with this weapon, you regain one
-                        expended spell slot. This spell can't be of a level higher
-                        than your proficiency bonus. Once used, this property can’t
-                        be used again until the following dawn.
-                        Superconductor
-                        Runestone, rare
-                        Item: A simple or martial weapon
-                        This runestone captures and stores magical potential for
-                        short-term use, and can hold a number of spell levels equal
-                        to the proficiency bonus of the creature attuned to it. When
-                        you are targeted by a spell while holding this weapon, the
-                        runestone gains a number of charges equal to the level
-                        of the spell, up to the maximum the runestone can hold.
-                        When you hit a creature with an attack using this weapon,
-                        you can expend a number of charges to deal an extra 1d6
-                        force damage per charge expended.
-                        This item loses any accrued charges when you finish a
-                        short or long rest.
-                        Tempest
-                        Runestone, legendary
-                        Item: A simple or martial weapon
-                        Once on each of your turns, when you hit a creature with
-                        this weapon it takes an extra 1d10 lightning damage. An
-                        arc of lightning then leaps from that target to as many as
-                        three additional creatures of your choice within 30 feet of
-                        it, which also take 1d10 lightning damage.
-                        Thief
-                        Runestone, common
-                        Item: A suit of armor
-                        A favorite of cutpurses and thieves. Once per day while
-                        wearing this armor you can reroll a failed Dexterity check.
-                        If you do so, you must use the new roll.
-                        Volant
-                        Runestone, legendary
-                        Item: A suit of armor
-                        While you are wearing this armor, you gain a flight (hover)
-                        speed equal to twice your walking speed.
-                        Warmage
-                        Runestone, rare
-                        Item: A suit of armor or a shield
-                        This runestone has three charges. While you are wearing
-                        (armor) or wielding (shield) this item and fail a concentration
-                        saving throw that you make to maintain concentration
-                        on a spell due to taking damage, you can expend a charge
-                        as a reaction to reroll the saving throw. If you do so, you
-                        must use the new roll.
-                        You can expend a spell slot of 1st level or higher to
-                        recover an expended charge.
-                        Warrior
-                        Runestone, common
-                        Item: A simple or martial weapon
-                        Popular among mercenaries and soldiers, this runestone
-                        ensures you keep your sword in your hand. While you
-                        are wielding this weapon, you can’t be disarmed of this
-                        weapon while you are conscious.
-                        Wolfsbane
-                        Runestone, very rare
-                        Item: A simple or martial melee weapon
-                        In darkness, the unsheathed blade or head of this weapon
-                        sheds moonlight, creating bright light in a 15-foot radius
-                        and dim light for an additional 15 feet. In addition, when
-                        you hit a shapechanger with this weapon, it takes an extra
-                        2d6 damage and must succeed on a Constitution saving
-                        throw. On a failure, it immediately assumes its true form if
-                        it was shapechanged and it can't shapechange until the
-                        end of its next turn.
-
-                    <!--/Runic Magic-->
-                    <element name="Spiked" type="Magic Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_MAGIC_ITEM_SPIKED">
-                        <description>
-                            <p>This armor has been modified with spikes, barbs, or other similar feature, and deals 1d4 piercing damage to creatures attacking with unarmed strikes or natural weapons that aren't magical.</p>
-                        </description>
-                        <setters>
-                            <set name="category">Magic Armor</set>
-                            <set name="cost" currency="gp">250</set>
-					        <set name="slot">body</set>
-					        <set name="type" addition="medium or heavy armor">Armor</set>
-					        <set name="rarity">Common</set>
-					
-					        <set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY"</set>
-					        <set name="name-format">{{parent}}, Spiked</set>
-                        </setters>
-                    </element>
-		
             <element name="Crystal" type="Item" source="Player’s Handbook" id="ID_WOTC_PHB_ITEM_CRYSTAL">
                 <description>
                     <p>An arcane focus is a special item— an orb, a crystal, a rod, a specially constructed staff, a wand—like length of wood, or some similar item designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus.</p>
@@ -23700,4 +23117,692 @@
             </setters>
         </element>
     <!---->
+<!--Homebrew-->
+    <!--Third Party-->
+        <!--Critical Role-->
+            <!-- weapons (assigned ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED as temporary fix until next build makes a firearm category work) -->
+            <element name="Pistol" type="Weapon" source="Critical Role" id="ID_CRIT_WEAPON_PISTOL">
+                <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_CRIT_WEAPON_PROPERTY_RELOAD_4, ID_CRIT_WEAPON_PROPERTY_MISFIRE_1</supports>
+                <description />
+                <setters>
+                    <set name="category">Weapons</set>
+                    <set name="cost" currency="gp">250</set>
+                    <set name="weight" lb="3">3 lb.</set>
+                    <set name="slot">onehand</set>
+                    <set name="range">100/400</set>
+                    <set name="damage" type="piercing">1d10</set>
+                    <set name="proficiency">ID_CRIT_PROFICIENCY_WEAPON_PISTOL</set>
+                    <!-- <set name="reload">4</set> -->
+                    <!-- <set name="misfire">1</set> -->
+                </setters>
+            </element>
+            <element name="Musket" type="Weapon" source="Critical Role" id="ID_CRIT_WEAPON_MUSKET">
+                <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_CRIT_WEAPON_PROPERTY_RELOAD_1, ID_CRIT_WEAPON_PROPERTY_MISFIRE_2, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+                <description />
+                <setters>
+                    <set name="category">Weapons</set>
+                    <set name="cost" currency="gp">500</set>
+                    <set name="weight" lb="10">10 lb.</set>
+                    <set name="slot">twohand</set>
+                    <set name="range">200/800</set>
+                    <set name="damage" type="piercing">1d12</set>
+                    <set name="proficiency">ID_CRIT_PROFICIENCY_WEAPON_MUSKET</set>
+                    <!-- <set name="reload">1</set> -->
+                    <!-- <set name="misfire">2</set> -->
+                </setters>
+            </element>
+            <element name="Pepperbox" type="Weapon" source="Critical Role" id="ID_CRIT_WEAPON_PEPPERBOX">
+                <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_CRIT_WEAPON_PROPERTY_RELOAD_6, ID_CRIT_WEAPON_PROPERTY_MISFIRE_2</supports>
+                <description />
+                <setters>
+                    <set name="category">Weapons</set>
+                    <set name="cost" currency="gp">450</set>
+                    <set name="weight" lb="5">5 lb.</set>
+                    <set name="slot">onehand</set>
+                    <set name="range">150/600</set>
+                    <set name="damage" type="piercing">1d10</set>
+                    <set name="proficiency">ID_CRIT_PROFICIENCY_WEAPON_PEPPERBOX</set>
+                    <!-- <set name="reload">6</set> -->
+                    <!-- <set name="misfire">2</set> -->
+                </setters>
+            </element>
+            <element name="Scattergun" type="Weapon" source="Critical Role" id="ID_CRIT_WEAPON_SCATTERGUN">
+                <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_CRIT_WEAPON_PROPERTY_RELOAD_2, ID_CRIT_WEAPON_PROPERTY_MISFIRE_3, ID_CRIT_WEAPON_PROPERTY_SCATTER</supports>
+                <description />
+                <setters>
+                    <set name="category">Weapons</set>
+                    <set name="cost" currency="gp">500</set>
+                    <set name="weight" lb="10">10 lb.</set>
+                    <set name="slot">onehand</set>
+                    <set name="range">15/30</set>
+                    <set name="damage" type="piercing">1d8</set>
+                    <set name="proficiency">ID_CRIT_PROFICIENCY_WEAPON_SCATTERGUN</set>
+                    <!-- <set name="reload">2</set> -->
+                    <!-- <set name="misfire">3</set> -->
+                </setters>
+            </element>
+            <element name="Bad News" type="Weapon" source="Critical Role" id="ID_CRIT_WEAPON_BAD_NEWS">
+                <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_CRIT_WEAPON_PROPERTY_RELOAD_1, ID_CRIT_WEAPON_PROPERTY_MISFIRE_3, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
+                <description />
+                <setters>
+                    <set name="category">Weapons</set>
+                    <set name="cost" currency="gp">0</set>
+                    <!-- <set name="cost" currency="">Crafted</set> -->
+                    <set name="weight" lb="25">25 lb.</set>
+                    <set name="slot">twohand</set>
+                    <set name="range">300/1200</set>
+                    <set name="damage" type="piercing">2d12</set>
+                    <set name="proficiency">ID_CRIT_PROFICIENCY_WEAPON_BAD_NEWS</set>
+                    <!-- <set name="reload">1</set> -->
+                    <!-- <set name="misfire">3</set> -->
+                </setters>
+            </element>
+            <element name="Hand Mortar" type="Weapon" source="Critical Role" id="ID_CRIT_WEAPON_HAND_MORTAR">
+                <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_FIRE, ID_CRIT_WEAPON_PROPERTY_RELOAD_1, ID_CRIT_WEAPON_PROPERTY_MISFIRE_3, ID_CRIT_WEAPON_PROPERTY_EXPLOSIVE</supports>
+                <description />
+                <setters>
+                    <set name="category">Weapons</set>
+                    <set name="cost" currency="gp">0</set>
+                    <!-- <set name="cost" currency="">Crafted</set> -->
+                    <set name="weight" lb="10">10 lb.</set>
+                    <set name="slot">onehand</set>
+                    <set name="range">30/60</set>
+                    <set name="damage" type="fire">2d8</set>
+                    <set name="proficiency">ID_CRIT_PROFICIENCY_WEAPON_HAND_MORTAR</set>
+                    <!-- <set name="reload">1</set> -->
+                    <!-- <set name="misfire">3</set> -->
+                </setters>
+            </element> 
+
+            <!-- proficiencies (specific to this archetype) -->
+                <element name="Weapon Proficiency (Firearms)" type="Proficiency" source="Critical Role" id="ID_CRIT_PROFICIENCY_WEAPON_FIREARMS">
+                    <requirements>ID_CRIT_ARCHETYPE_FIGHTER_GUNSLINGER</requirements>
+                    <rules>
+                        <grant type="Proficiency" id="ID_CRIT_PROFICIENCY_WEAPON_PISTOL" />
+                        <grant type="Proficiency" id="ID_CRIT_PROFICIENCY_WEAPON_MUSKET" />
+                        <grant type="Proficiency" id="ID_CRIT_PROFICIENCY_WEAPON_PEPPERBOX" />
+                        <grant type="Proficiency" id="ID_CRIT_PROFICIENCY_WEAPON_SCATTERGUN" />
+                        <grant type="Proficiency" id="ID_CRIT_PROFICIENCY_WEAPON_BAD_NEWS" />
+                        <grant type="Proficiency" id="ID_CRIT_PROFICIENCY_WEAPON_HAND_MORTAR" />
+                    </rules>
+                </element>
+                <element name="Weapon Proficiency (Pistol)" type="Proficiency" source="Critical Role" id="ID_CRIT_PROFICIENCY_WEAPON_PISTOL">
+                    <requirements>ID_CRIT_ARCHETYPE_FIGHTER_GUNSLINGER</requirements>
+                </element>
+                <element name="Weapon Proficiency (Musket)" type="Proficiency" source="Critical Role" id="ID_CRIT_PROFICIENCY_WEAPON_MUSKET">
+                    <requirements>ID_CRIT_ARCHETYPE_FIGHTER_GUNSLINGER</requirements>
+                </element>
+                <element name="Weapon Proficiency (Pepperbox)" type="Proficiency" source="Critical Role" id="ID_CRIT_PROFICIENCY_WEAPON_PEPPERBOX">
+                    <requirements>ID_CRIT_ARCHETYPE_FIGHTER_GUNSLINGER</requirements>
+                </element>
+                <element name="Weapon Proficiency (Scattergun)" type="Proficiency" source="Critical Role" id="ID_CRIT_PROFICIENCY_WEAPON_SCATTERGUN">
+                    <requirements>ID_CRIT_ARCHETYPE_FIGHTER_GUNSLINGER</requirements>
+                </element>
+                <element name="Weapon Proficiency (Bad News)" type="Proficiency" source="Critical Role" id="ID_CRIT_PROFICIENCY_WEAPON_BAD_NEWS">
+                    <requirements>ID_CRIT_ARCHETYPE_FIGHTER_GUNSLINGER</requirements>
+                </element>
+                <element name="Weapon Proficiency (Hand Mortar)" type="Proficiency" source="Critical Role" id="ID_CRIT_PROFICIENCY_WEAPON_HAND_MORTAR">
+                    <requirements>ID_CRIT_ARCHETYPE_FIGHTER_GUNSLINGER</requirements>
+                </element>
+
+            <!-- properties -->
+                <element name="Reload" type="Weapon Property" source="Critical Role" id="ID_CRIT_WEAPON_PROPERTY_RELOAD">
+                    <description>
+                        <p>The weapon can be fired a number of times equal to its Reload score before you must spend 1 attack or 1 action to reload. You must have one free hand to reload a firearm.</p>
+                    </description>
+                </element>
+                <element name="Misfire" type="Weapon Property" source="Critical Role" id="ID_CRIT_WEAPON_PROPERTY_MISFIRE">
+                    <description>
+                        <p>Whenever you make an attack roll with a firearm, and the dice roll is equal to or lower than the weapon's Misfire score, the weapon misfires. The attack misses, and the weapon cannot be used again until you spend an action to try and repair it. To repair your firearm, you must make a successful Tinker's Tools check (DC equal to 8 + misfire score). If your check fails, the weapon is broken and must be repaired out of combat at half the cost of the firearm.</p>
+                    </description>
+                </element>
+                <element name="Scatter" type="Weapon Property" source="Critical Role" id="ID_CRIT_WEAPON_PROPERTY_SCATTER">
+                    <description>
+                        <p>An attack is made against each creature within a 30 ft cone. These attacks are simultaneous. If an affected creature is adjacent to you, they suffer double damage on a hit. This attack cannot be affected by any of your shot features.</p>
+                    </description>
+                </element>
+                <element name="Explosive" type="Weapon Property" source="Critical Role" id="ID_CRIT_WEAPON_PROPERTY_EXPLOSIVE">
+                    <description>
+                        <p>Upon a hit, everything within 5 ft of the target must make a Dexterity saving throw (DC equal to 8 + your proficiency bonus + your Dexterity modifier) or suffer 1d8 fire damage. If the weapon misses, the ammunition fails to detonate, or bounces away harmlessly before doing so.</p>
+                    </description>
+                </element>
+
+            <!-- temporary custom property elements -->
+                <element name="Misfire 1" type="Weapon Property" source="Critical Role" id="ID_CRIT_WEAPON_PROPERTY_MISFIRE_1">
+                    <description>
+                        <p>This misfires on a roll of 1 on the d20.</p>
+                        <div element="ID_CRIT_WEAPON_PROPERTY_MISFIRE" />
+                    </description>
+                </element>
+                <element name="Misfire 2" type="Weapon Property" source="Critical Role" id="ID_CRIT_WEAPON_PROPERTY_MISFIRE_2">
+                    <description>
+                        <p>This misfires on a roll of 2 on the d20.</p>
+                        <div element="ID_CRIT_WEAPON_PROPERTY_MISFIRE" />
+                    </description>
+                </element>
+                <element name="Misfire 3" type="Weapon Property" source="Critical Role" id="ID_CRIT_WEAPON_PROPERTY_MISFIRE_3">
+                    <description>
+                        <p>This misfires on a roll of 3 on the d20.</p>
+                        <div element="ID_CRIT_WEAPON_PROPERTY_MISFIRE" />
+                    </description>
+                </element>
+                <element name="Reload 1" type="Weapon Property" source="Critical Role" id="ID_CRIT_WEAPON_PROPERTY_RELOAD_1">
+                    <description>
+                        <p>This weapon needs to be reloaded after 1 shot.</p>
+                        <div element="ID_CRIT_WEAPON_PROPERTY_RELOAD" />
+                    </description>
+                </element>
+                <element name="Reload 2" type="Weapon Property" source="Critical Role" id="ID_CRIT_WEAPON_PROPERTY_RELOAD_2">
+                    <description>
+                        <p>This weapon needs to be reloaded after 2 shots.</p>
+                        <div element="ID_CRIT_WEAPON_PROPERTY_RELOAD" />
+                    </description>
+                </element>
+                <element name="Reload 4" type="Weapon Property" source="Critical Role" id="ID_CRIT_WEAPON_PROPERTY_RELOAD_4">
+                    <description>
+                        <p>This weapon needs to be reloaded after 4 shots.</p>
+                        <div element="ID_CRIT_WEAPON_PROPERTY_RELOAD" />
+                    </description>
+                </element>
+                <element name="Reload 6" type="Weapon Property" source="Critical Role" id="ID_CRIT_WEAPON_PROPERTY_RELOAD_6">
+                    <description>
+                        <p>This weapon needs to be reloaded after 6 shots.</p>
+                        <div element="ID_CRIT_WEAPON_PROPERTY_RELOAD" />
+                    </description>
+                </element>
+    <!--The DMs Guild-->
+        <!--The Complete Armorers Handbook-->
+            <!--Armor Upgrades-->
+                <element name="Armor Proofing - Tier 1" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_ARMOR_PROFFING_TIER_1">
+                        <description>
+                            <p>While wearing this armor, you  reduce nonmagical slashing damage by 6 before resistance is applied. If the damage is reduced below 0 you take none of that damage instead.</p>
+                        </description>
+                        <setters>
+                            <set name="category">Armor Upgrade</set>
+                            <set name="cost" currency="gp">1000</set>
+                            <set name="rarity" addition="light, medium, or heavy">Common</set>
+                        </setters>
+                </element>
+                <element name="Armor Proofing - Tier 2" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_ARMOR_PROFFING_TIER_2">
+                        <description>
+                            <p>While wearing this armor, you reduce nonmagical piercing or slashing damage by 7 before resistance is applied. If the damage is reduced below 0 you take none of that damage instead.</p>
+                        </description>
+                        <setters>
+                            <set name="category">Armor Upgrade</set>
+                            <set name="cost" currency="gp">2000</set>
+                            <set name="rarity" addition="medium, or heavy armor with the 1st tier armor proofing tag">Common</set>
+                        </setters>
+                </element>
+                <element name="Armor Proofing - Tier 3" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_ARMOR_PROFFING_TIER_3">
+                        <description>
+                            <p>While wearing this armor, you reduce nonmagical bludgeoning, piercing or slashing damage by 8 before resistance is applied. If the damage is reduced below 0 you take none of that damage instead.</p>
+                        </description>
+                        <setters>
+                            <set name="category">Armor Upgrade</set>
+                            <set name="cost" currency="gp">3000</set>
+                            <set name="rarity" addition="heavy armor with the 2nd tier armor proofing tag">Common</set>
+                        </setters>
+                </element>
+                <element name="Breathable" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_BREATHABLE">
+                        <description>
+                            <p>While wearing this armor, you have advantage on saving throws you make against exhaustion effects due to extreme heat, as described in chapter 5 of the Dungeon Master's Guide.</p>
+                        </description>
+                        <setters>
+                            <set name="category">Armor Upgrade</set>
+                            <set name="cost" currency="gp">100</set>
+                            <set name="rarity" addition="medium, heavy armor. Incompatible with insulated tag.">Common</set>
+                        </setters>
+                </element>
+                <element name="Burnished" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_BURNISHED">
+                        <description>
+                            <p>This armor has been polished to a mirror finish. While wearing it, you may have advantage on Charisma-based skill checks when interacting with certain humanoids, as determined by the DM. This tag is automatically removed after 24 hours of wear or at the end of a combat.</p>
+                        </description>
+                        <setters>
+                            <set name="category">Armor Upgrade</set>
+                            <set name="cost" currency="gp">10</set>
+                            <set name="rarity" addition="heavy armor">Common</set>
+                        </setters>
+                </element>
+                <element name="Climbing Harnes" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_BURNISHED">
+                        <description>
+                            <p>This armor has been affixed with a climbing harness around the midriff, comprising leather straps and quickdraws. While wearing it, you make Strength (Athletics) checks to scale vertical surfaces with advantage when using a rope or similar aid.</p>
+                        </description>
+                        <setters>
+                            <set name="category">Armor Upgrade</set>
+                            <set name="cost" currency="gp">100</set>
+                            <set name="rarity" addition="light, medium, heavy armor">Common</set>
+                        </setters>
+                </element>
+                <element name="Decorated" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_DECORATED">
+                        <description>
+                            <p>This armor or shield is adorned with a holy symbol and can be used as a spellcasting focus for cleric and paladin spells.</p>
+                        </description>
+                        <setters>
+                            <set name="category">Armor Upgrade</set>
+                            <set name="cost" currency="gp">5</set>
+                            <set name="rarity" addition="medium, heavy armor and shields">Common</set>
+                        </setters>
+                </element>
+                <element name="Insulated" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_INSULATED">
+                        <description>
+                            <p>This armor counts as cold weather gear in conditions of extreme cold, as described in chapter 5 of the Dungeon Master's Guide.</p>
+                        </description>
+                        <setters>
+                            <set name="category">Armor Upgrade</set>
+                            <set name="cost" currency="gp">100</set>
+                            <set name="rarity" addition="light, medium. Incompatible with breathable tag">Common</set>
+                        </setters>
+                </element>
+                <element name="Locking Joints" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_LOCKING_JOINTS">
+                        <description>
+                            <p>This armor is made with hinged joints that can be locked by a quick motion from the wearer. While wearing it, you make Strength (Athletics) checks to oppose attempts to shove you with advantage.</p>
+                        </description>
+                        <setters>
+                            <set name="category">Armor Upgrade</set>
+                            <set name="cost" currency="gp">150</set>
+                            <set name="rarity" addition="Half Plate or Plate Armor">Common</set>
+                        </setters>
+                </element>
+                <element name="Muffled" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_MUFFLED">
+                        <description>
+                            <p>This armor no longer confers disadvantage on Dexterity (Stealth) checks.</p>
+                        </description>
+                        <setters>
+                            <set name="category">Armor Upgrade</set>
+                            <set name="cost" currency="gp">50</set>
+                            <set name="rarity" addition="Brigandine Armor">Common</set>
+                        </setters>
+                </element>
+                <element name="Quick-release Clasps" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_QUICK_RELEASE_CLASPS">
+                        <description>
+                            <p>You can doff this armor as an action.</p>
+                        </description>
+                        <setters>
+                            <set name="category">Armor Upgrade</set>
+                            <set name="cost" currency="gp">200</set>
+                            <set name="rarity" addition="light, medium, or heavy armor">Common</set>
+                        </setters>
+                </element>
+                <element name="Reinforced" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_REINFORCED">
+                        <description>
+                            <p>This armor or shield has been reinforced at the joints and other weak points. While wearing it, critical damage you take from nonmagical attacks is reduced by 3.</p>
+                        </description>
+                        <setters>
+                            <set name="category">Armor Upgrade</set>
+                            <set name="cost" currency="gp">300</set>
+                            <set name="rarity" addition="heavy armor or shield">Common</set>
+                        </setters>
+                </element>
+                <!--Runic Magic-->
+                        <element name="Runic:" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_RUNIC_1">
+                            <description>
+                                <p>This armor or shield can be imbued with rune magic.*</p>
+                            </description>
+                            <setters>
+                                <set name="category">Armor Upgrade</set>
+                                <set name="cost" currency="gp">400</set>
+                                <set name="rarity" addition="Armor proofing tag (any tier) or a shield. Can only be applied by a runesmith.*">Common</set>
+                            </setters>
+                        </element>
+                        <element name="Runic: Alchemist" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_RUNIC_ALCHEMIST">
+                            <description>
+                                <p>While you are wearing this armor, you regain 2 additional hit points when you drink a potion of healing.</p>
+                            </description>
+                            <setters>
+                                <set name="category">Armor Upgrade</set>
+                                <set name="cost" currency="gp">410</set>
+                                <set name="rarity" addition="any suit of armor. Can only be applied by a runesmith.*">Common</set>
+                            </setters>
+                        </element>
+                        <element name="Runic: Arrow-Catcher" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_RUNIC_ARROW_CATCHER">
+                            <description>
+                                <p>This runestone has three charges. While you are wielding this shield, when you or a friendly creature within 10 feet of you are the target of a ranged weapon attack you can expend a charge as a reaction to impose disadvantage on the attack. You must choose to do so before the roll. The runestone regains 1d3 charges daily at dawn.</p>
+                            </description>
+                            <setters>
+                                <set name="category">Armor Upgrade</set>
+                                <set name="cost" currency="gp">450</set>
+                                <set name="rarity" addition="a shield. Can only be applied by a runesmith.*">Uncommon</set>
+                                <set name="charges">3</set>
+                            </setters>
+                        </element>
+                        <element name="Runic: Bastion" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_RUNIC_BASTION">
+                            <description>
+                                <p>While you are wearing (armor) or wielding (shield) this item, you can use a bonus action to press your fist to the ground and speak its command word, causing a 10-foot radius immobile dome of force to spring into existence around and above you that remains stationary and lasts for 1 minute. The dome automatically repels nonmagical ranged attacks attempting to pass through it, and the area inside the dome is considered difficult terrain for hostile creatures. Once used, this property can’t be used again until the following dawn.</p>
+                            </description>
+                            <setters>
+                                <set name="category">Armor Upgrade</set>
+                                <set name="cost" currency="gp">900</set>
+                                <set name="rarity" addition="A gauntleted suit of armor or a shield. Can only be applied by a runesmith.*">Rare</set>
+                            </setters>
+                        </element>
+                        <element name="Runic: Berserker" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_RUNIC_BERSERKER">
+                            <description>
+                                <p>When you hit a creature with this weapon, you can expend a number of Hit Dice up to half your character level (rounded down). For each Hit Die spent this way, roll the die and add it to the damage of the attack. You take an amount of damage equal to the damage dealt in this way, including any extra damage from a critical hit. This damage to you can’t be reduced or prevented in any way. Once used, this property can’t be used again until the following dawn.</p>
+                            </description>
+                            <setters>
+                                <set name="category">Weapon Upgrade</set>
+                                <set name="cost" currency="gp">900</set>
+                                <set name="rarity" addition="A simple or martial weapon. Can only be applied by a runesmith.*">Rare</set>
+                            </setters>
+                        </element>
+
+                        Blood Weapon
+                        Runestone, very rare
+                        Item: A simple or martial melee weapon When you score a critical hit with an attack using this weapon, you regain a number of hit points equal to the damage dealt to a maximum of the hit points lost by the target. No effect against constructs or undead.
+                        
+                        Bound Armor
+                        Runestone, uncommon
+                        Item: A suit of armor
+                        As a bonus action while you aren't wearing armor, you can cause this armor to appear in a flash of light around you—instantly donning it. Also as a bonus action while you are wearing this armor, you can cause the armor to vanish entirely, instantly doffing it.
+                        
+                        Bound Weapon
+                        Runestone, uncommon
+                        Item: A simple or martial weapon
+                        As a bonus action, you can cause this weapon to disappear
+                        or appear instantly in a free hand.
+                        
+                        Cat
+                        Runestone, uncommon
+                        Item: A simple or martial weapon
+                        While wielding this weapon, as a bonus action you can
+                        activate this rune by speaking its command phrase. For
+                        1 hour, you can see normally in darkness to a distance of
+                        120 feet. Once used, this property can’t be used again until
+                        the following dawn.
+                        
+                        Chalice
+                        Runestone, rare
+                        Item: Any armor or weapon
+                        This runestone stores spells cast into it, holding them until
+                        the attuned wearer uses them. The rune can store up to
+                        5 levels worth of spells at a time. When found, it contains
+                        1d6 − 1 levels of stored spells chosen by the DM.
+                        Any creature can cast a spell of 1st through 5th level
+                        into the rune by touching the rune as the spell is cast. The
+                        spell has no effect, other than to be stored in the rune. If
+                        the rune can't hold the spell, the spell is expended without
+                        effect. The level of the spell used to cast the spell determines
+                        how much space it uses.
+                        While wearing this armor, you can cast any spell stored
+                        in the rune. The spell uses the slot level, spell save DC,
+                        spell attack bonus, and spellcasting ability of the original
+                        caster, but is otherwise treated as if you cast the spell. The
+                        spell cast from the rune is no longer stored in it, freeing
+                        up space.
+                        Chaos
+                        Runestone, uncommon
+                        Item: A simple or martial weapon
+                        A popular project among apprentice artificers, this rune
+                        embodies the chaos of unbound magic. When you score
+                        a critical hit with an attack using this weapon, roll on the
+                        Wild Magic Surge table in the Player's Handbook to create
+                        a magical effect. If the effect is a spell that requires concentration,
+                        it doesn't require concentration in this case and
+                        lasts for its full duration.
+                        Daywalker
+                        Runestone, uncommon
+                        Item: A suit of armor with a helmet or hood
+                        While wearing this armor with the hood drawn, you are
+                        unaffected by the sunlight sensitivity trait if you have it.
+                        Death
+                        Runestone, rare
+                        Item: A simple or martial weapon
+                        Whenever you kill a Small or Medium humanoid with
+                        an attack using this weapon, it rises immediately as a
+                        zombie under your control with 1 hit point, as per the
+                        animate dead spell. The creature uses the zombie statistics.
+                        It remains animate for 1 minute, after which time it
+                        collapses and dies.
+                        Displacement
+                        Runestone, very rare
+                        Item: A suit of light or medium armor
+                        While you are wearing this armor, whenever you take
+                        damage from an attack, you can teleport up to 30 feet to an
+                        unoccupied space that you can see.
+                        Dragon Slayer
+                        Runestone, very rare
+                        Item: A martial weapon
+                        When you hit a dragon with this weapon, it takes an extra
+                        2d6 damage of the weapon's type and must succeed on a
+                        Strength saving throw or its flying speed (if any) is reduced
+                        to 0 feet until the end of its next turn. If the target is
+                        airborne, it descends at 60 feet per round until it reaches
+                        the ground or the effect ends. For the purpose of this
+                        weapon, "dragon" refers to any creature with the dragon
+                        type, including dragon turtles and wyverns.
+                        Earthshaker
+                        Runestone, very rare
+                        Item: A simple or martial melee weapon with the
+                        heavy property
+                        While you are wielding this weapon, you can use an action
+                        to strike a point on the ground within reach, creating a
+                        seismic disturbance as per the earthquake spell with a
+                        duration of 1 round. Once used, this property can’t be used
+                        again until the following dawn.
+                        Elemental Shield
+                        Runsestone, uncommon
+                        Item: A suit of armor or a shield
+                        When you first affix this rune to a suit of armor or a shield,
+                        choose one of the following damage types: acid, cold, fire,
+                        lightning, or thunder. While wearing (armor) or wielding
+                        (shield) this item, whenever you take damage of the chosen
+                        type you can use your reaction to reduce the damage by an
+                        amount equal to twice your character level + your Constitution
+                        modifier and suffer one level of exhaustion. You can
+                        change the chosen damage type over the course of a short
+                        or long rest by spending at least 30 minutes in contact
+                        with the runestone.
+                        Featherfoot
+                        Runestone, uncommon
+                        Item: Any armor or weapon
+                        While you are wearing (armor) or wielding (weapon or
+                        shield) this item, you have a standing jump distance equal
+                        to your current walking speed. Each foot you clear while
+                        jumping costs a foot of movement, and you can't jump
+                        further than your remaining movement in a turn.
+                        Force of Will
+                        Runestone, legendary
+                        Item: A suit of armor
+                        While you are wearing this armor, you can't be affected by
+                        enchantment magic unless you choose to be.
+                        Giant Slayer
+                        Runestone, very rare
+                        Item: A martial weapon
+                        When you hit a giant with this weapon, it takes an extra
+                        2d6 damage of the weapon's type and must succeed on a
+                        Strength saving throw or fall prone. For the purpose of this
+                        weapon, "giant" refers to any creature with the giant type,
+                        including ettins and trolls.
+                        Hunt
+                        Runestone, rare
+                        Item: A simple of martial weapon with the ammunition
+                        property
+                        While you are wielding this weapon, you can use an action
+                        on your turn to mark a creature you can see within 90 feet
+                        of you. For 1 hour, when you hit the marked creature with
+                        a ranged attack using this weapon you can use a bonus
+                        action to teleport to an unoccupied space within 30 feet of
+                        it that you can see. Once used, this property can’t be used
+                        again until the following dawn.
+                        Journey
+                        Runestone, rare
+                        Item: A suit of armor
+                        While you are wearing this armor, your speed increases
+                        by 10 feet. In addition, you can travel at a fast pace
+                        without suffering the normal penalty to passive Wisdom
+                        (Peception) checks, and your food and water requirements
+                        are halved.
+                        Knock
+                        Runestone, uncommon
+                        Item: A gauntleted suit of armor
+                        While you are wearing this armor, you can rap your fist
+                        on an object to cast the knock spell on it. Once used, this
+                        property can’t be used again until the following dawn.
+                        Magebane
+                        Runestone, rare
+                        Item: A simple or martial weapon
+                        This runestone has three charges. When you hit a creature
+                        with this weapon, you can expend a charge to cause any
+                        spell effects of 3rd level or lower on the target to end. Additionally,
+                        for each spell of 4th level or higher on the target,
+                        make an ability check using your weapon ability. The DC
+                        equals 10 + the spell's level. On a successful check, the
+                        spell ends. The runestone regains 1d3 expended charges
+                        daily at dawn.
+                        Mariner
+                        Runestone, common
+                        Item: A simple or martial weapon
+                        This weapon or ammunition fired with it magically repels
+                        water. Attack rolls you make using it aren't made with
+                        disadvantage for being underwater.
+                        Mark/ Recall
+                        Runestone, very rare
+                        Item: A suit of armor
+                        While you are wearing this armor, you can use an action to
+                        magically mark a surface on which you are standing.
+                        While a location is marked in this way, you can spend 1
+                        minute concentrating on it (as if concentrating on a spell).
+                        At the end of the period, you and up to five willing creatures
+                        within 5 feet of you teleport to the marked location,
+                        and the mark vanishes. Once you mark a location, you
+                        can't do so again until the following dawn. If you mark
+                        another location while you already have a mark, the older
+                        mark vanishes.
+                        Mime
+                        Runestone, legendary
+                        Item: Any armor or weapon
+                        This runestone is able to mimic the properties of magic
+                        items. A creature can spend a short rest spent focusing
+                        on a magic item and this runestone. The magic item must
+                        be of the same type as the type of equipment to which
+                        this rune is affixed. Focus usually takes the form of quiet
+                        meditation or other appropriate activity. If the short rest
+                        is interrupted, the copying process fails. Otherwise, at
+                        the end of the short rest the runestone gains the properties
+                        of the magic item, excluding any fixed bonuses such
+                        as those to attack and damage rolls, spell save DC, and
+                        Armor Class. If a property has charges, it is copied with no
+                        remaining charges.
+                        Only the properties of one magic item can be copied at
+                        a time. The mimicking process overwrites any existing
+                        copied properties. The process automatically fails when
+                        attempting to copy the properties of artifacts.
+                        Nondetection
+                        Runestone, uncommon
+                        Item: Any armor or weapon
+                        While you are wearing (armor) or wielding (weapon or
+                        shield) this item, you are hidden from divination magic.
+                        You can't be targeted by such magic or perceived through
+                        magical scrying sensors.
+                        Overshield
+                        Runestone, very rare
+                        Item: A suit of heavy armor
+                        While you are wearing this armor, you gain 8 temporary hit
+                        points at the start of each of your turns.
+                        Phoenix
+                        Runestone, rare
+                        Item: A suit of armor
+                        When you're reduced to 0 hit points and start dying while
+                        wearing this armor, this rune immediately casts fireball
+                        centered on you. At the start of your next turn, instead of
+                        rolling a death saving throw, you regain 1d6 hit points.
+                        Once used, this property can’t be used again until the
+                        following dawn.
+                        Retribution
+                        Runestone, very rare
+                        Item: A suit of armor or a shield
+                        While you are wearing (armor) or wielding (shield) this
+                        item, whenever you take damage from a creature you have
+                        advantage on your next attack roll against creatures of that
+                        type before the end of your next turn.
+                        Serpent
+                        Runestone, uncommon
+                        Item: A simple or martial weapon
+                        When you hit a creature with this weapon, you can attempt
+                        to poison it. The target must succeed on a Constitution
+                        saving throw or become poisoned for 1 minute. The
+                        creature can repeat the saving throw at the end of each
+                        of its turns. On a success, the effect ends. Once used, this
+                        property can’t be used again until the following dawn.
+                        Soultrap
+                        Runestone, rare
+                        Item: A simple or martial weapon
+                        When you kill a creature with a challenge rating equal to
+                        or higher than your level with this weapon, you regain one
+                        expended spell slot. This spell can't be of a level higher
+                        than your proficiency bonus. Once used, this property can’t
+                        be used again until the following dawn.
+                        Superconductor
+                        Runestone, rare
+                        Item: A simple or martial weapon
+                        This runestone captures and stores magical potential for
+                        short-term use, and can hold a number of spell levels equal
+                        to the proficiency bonus of the creature attuned to it. When
+                        you are targeted by a spell while holding this weapon, the
+                        runestone gains a number of charges equal to the level
+                        of the spell, up to the maximum the runestone can hold.
+                        When you hit a creature with an attack using this weapon,
+                        you can expend a number of charges to deal an extra 1d6
+                        force damage per charge expended.
+                        This item loses any accrued charges when you finish a
+                        short or long rest.
+                        Tempest
+                        Runestone, legendary
+                        Item: A simple or martial weapon
+                        Once on each of your turns, when you hit a creature with
+                        this weapon it takes an extra 1d10 lightning damage. An
+                        arc of lightning then leaps from that target to as many as
+                        three additional creatures of your choice within 30 feet of
+                        it, which also take 1d10 lightning damage.
+                        Thief
+                        Runestone, common
+                        Item: A suit of armor
+                        A favorite of cutpurses and thieves. Once per day while
+                        wearing this armor you can reroll a failed Dexterity check.
+                        If you do so, you must use the new roll.
+                        Volant
+                        Runestone, legendary
+                        Item: A suit of armor
+                        While you are wearing this armor, you gain a flight (hover)
+                        speed equal to twice your walking speed.
+                        Warmage
+                        Runestone, rare
+                        Item: A suit of armor or a shield
+                        This runestone has three charges. While you are wearing
+                        (armor) or wielding (shield) this item and fail a concentration
+                        saving throw that you make to maintain concentration
+                        on a spell due to taking damage, you can expend a charge
+                        as a reaction to reroll the saving throw. If you do so, you
+                        must use the new roll.
+                        You can expend a spell slot of 1st level or higher to
+                        recover an expended charge.
+                        Warrior
+                        Runestone, common
+                        Item: A simple or martial weapon
+                        Popular among mercenaries and soldiers, this runestone
+                        ensures you keep your sword in your hand. While you
+                        are wielding this weapon, you can’t be disarmed of this
+                        weapon while you are conscious.
+                        Wolfsbane
+                        Runestone, very rare
+                        Item: A simple or martial melee weapon
+                        In darkness, the unsheathed blade or head of this weapon
+                        sheds moonlight, creating bright light in a 15-foot radius
+                        and dim light for an additional 15 feet. In addition, when
+                        you hit a shapechanger with this weapon, it takes an extra
+                        2d6 damage and must succeed on a Constitution saving
+                        throw. On a failure, it immediately assumes its true form if
+                        it was shapechanged and it can't shapechange until the
+                        end of its next turn.
+                <element name="Spiked" type="Item" source="The Complete Armorers Handbook" id="ID_HEAVYARMS_TCAH_ITEM_SPIKED">
+                    <description>
+                        <p>This armor has been modified with spikes, barbs, or other similar feature, and deals 1d4 piercing damage to creatures attacking with unarmed strikes or natural weapons that aren't magical.</p>
+                    </description>
+                    <setters>
+                        <set name="category">Armor Upgrade</set>
+                        <set name="cost" currency="gp">250</set>
+					    <set name="rarity" addition="medium or heavy armor">Common</set>
+                    </setters>
+                </element>
+            <!--Weapon Upgrades-->
 </elements>
