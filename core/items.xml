@@ -23082,7 +23082,7 @@
                         <div id="ID_PHB_SPELL_HOLD_PERSON" />
                         <div id="ID_PHB_SPELL_HOLD_MONSTER" />
                         <div id="ID_PHB_SPELL_BIGBYS_HAND" />
-                        <p class="indent"><b>Hold Tight (Curse).</b> When you attune to the ring it clasps tighter around your finger. You are unable to take it off. It can only be removed by the spells Wish and Remove Curse or severing the finger itself. You can not lose attunement to this ring as long as it is on your finger.
+                        <p class="indent"><b>Hold Tight (Curse).</b> When you attune to the ring it clasps tighter around your finger. You are unable to take it off. It can only be removed by the spells Wish and Remove Curse or severing the finger itself. You can not lose attunement to this ring as long as it is on your finger.</p>
                     </description>
                     <setters>
                         <set name="category">Rings</set>
