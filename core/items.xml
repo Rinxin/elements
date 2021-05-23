@@ -1935,7 +1935,7 @@
                     </rules>
                 </element>
             <!--shield-->
-                <element name="Buckler" type="Armor" source="Player’s Handbook" id="ID_WOTC_GEAR_BUCKLER">
+                <element name="Buckler" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_GEAR_BUCKLER">
                     <supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
                     <description>
                         <p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>
@@ -1954,7 +1954,7 @@
                         <stat name="ac:shield" value="1" bonus="shield" />
                     </rules>
                 </element>
-                <element name="Heater Shield" type="Armor" source="Player’s Handbook" id="ID_WOTC_GEAR_SHIELD">
+                <element name="Heater Shield" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_GEAR_SHIELD">
                     <supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
                     <description>
                         <p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>
@@ -1973,7 +1973,7 @@
                         <stat name="ac:shield" value="2" bonus="shield" />
                     </rules>
                 </element>
-                <element name="Tower Shield" type="Armor" source="Player’s Handbook" id="ID_WOTC_GEAR_TOWER_SHIELD">
+                <element name="Tower Shield" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_GEAR_TOWER_SHIELD">
                     <supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
                     <description>
                         <p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>
@@ -1990,7 +1990,7 @@
                         <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
                     </setters>
                     <rules>
-                        <stat name="ac:shield" value="2" bonus="shield" />
+                        <stat name="ac:shield" value="3" bonus="shield" />
                     </rules>
                 </element>
             <!--Armor Properties-->
