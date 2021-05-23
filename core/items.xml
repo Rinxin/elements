@@ -1170,7 +1170,6 @@
                     </rules>
                 </element>
             <!--medium armor -->
-            ID_INTERNAL_ARMOR_GROUP_MEDIUM,!Hide
                 <element name="Hide" type="Armor" source="Player’s Handbook" id="ID_WOTC_ARMOR_MEDIUM_HIDE_ARMOR">
                     <supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
                     <description>
@@ -3680,7 +3679,7 @@
                     <set name="type" addition="scale mail">Armor</set>
                     <set name="attunement">true</set>
                     <set name="rarity">Very Rare</set>
-                    <set name="armor">Lamellar (scale mail)</set>
+                    <set name="armor">ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
