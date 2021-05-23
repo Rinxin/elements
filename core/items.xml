@@ -1133,7 +1133,7 @@
                         <stat name="ac:armored:armor" value="11" />
                     </rules>
                 </element>
-                <element name="Gambeson (leather)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_LIGHT_LEATHER">
+                <element name="Gambeson" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_LIGHT_LEATHER">
                     <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
                     <description>
                         <p>A gambeson is a padded defensive jacket, either worn separately or as an underlay for heavier types of armor. It can also double as a winter coat.</p>
@@ -1151,7 +1151,7 @@
                         <stat name="ac:armored:armor" value="11" />
                     </rules>
                 </element>
-                <element name="Leather Jerkin (studded leather)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER">
+                <element name="Leather Jerkin" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER">
                     <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
                     <description>
                         <p>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p>
@@ -1188,7 +1188,7 @@
                         <stat name="ac:armored:armor" value="12" />
                     </rules>
                 </element>
-                <element name="Mail Shirt (chain shirt)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_MEDIUM_CHAIN_SHIRT">
+                <element name="Mail Shirt" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_MEDIUM_CHAIN_SHIRT">
                     <supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
                     <description>
                         <p>Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer’s upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.</p>
@@ -1206,7 +1206,7 @@
                         <stat name="ac:armored:armor" value="13" />
                     </rules>
                 </element>
-                <element name="Lamellar (scale mail)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL">
+                <element name="Lamellar" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL">
                     <supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
                     <description>
                         <p>This is a type of body armor made from small rectangular plates (scales or lamellae) of iron, leather, or bronze laced into horizontal rows.</p>
@@ -1226,7 +1226,7 @@
                         <stat name="ac:armored:armor" value="14" />
                     </rules>
                 </element>
-                <element name="Hauberk (breastplate)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_MEDIUM_BREASTPLATE">
+                <element name="Hauberk" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_MEDIUM_BREASTPLATE">
                     <supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
                     <description>
                         <p>A hauberk is a shirt of mail that reaches at least to mid-thigh and includes sleeves.</p>
@@ -1244,7 +1244,7 @@
                         <stat name="ac:armored:armor" value="14" />
                     </rules>
                 </element>
-                <element name="Brigandine (half plate)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_MEDIUM_HALF_PLATE">
+                <element name="Brigandine" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_MEDIUM_HALF_PLATE">
                     <supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
                     <description>
                         <p>Brigandine is a sturdy coat of layered linen or leather lined with small steel plates riveted to the fabric.</p>
@@ -1285,7 +1285,7 @@
                         <stat name="ac:armored:armor" value="14" />
                     </rules>
                 </element>
-                <element name="Cuirass (chain mail)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_HEAVY_CHAIN_MAIL">
+                <element name="Cuirass" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_HEAVY_CHAIN_MAIL">
                     <supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
                     <description>
                         <p>A type of armor formed of a single or multiple pieces of metal that cover the torso. A cuirass generally refers to both a chest plate and back piece together.</p>
@@ -1307,7 +1307,7 @@
                         <stat name="speed" value="-10" bonus="armor" requirements="![str:13]" />
                     </rules>
                 </element>
-                <element name="Half Plate (splint)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_HEAVY_SPLINT">
+                <element name="Half Plate" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_HEAVY_SPLINT">
                     <supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
                     <description>
                         <p>This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.</p>
@@ -3579,9 +3579,9 @@
                     <set name="category">Magic Armor</set>
                     <set name="cost" currency="gp">0</set>
                     <set name="slot">body</set>
-                    <set name="type" addition="chain shirt">Armor</set>
+                    <set name="type" addition="Mail Shirt (chain shirt)">Armor</set>
                     <set name="rarity">Rare</set>
-                    <set name="armor">Chain Shirt</set>
+                    <set name="armor">Mail Shirt</set>
                     <set name="enhancement">1</set>
                     <set name="name-format">Elven {{parent}}</set>
                 </setters>
@@ -3599,9 +3599,9 @@
                     <set name="category">Magic Armor</set>
                     <set name="cost" currency="gp">0</set>
                     <set name="slot">body</set>
-                    <set name="type" addition="studded leather">Armor</set>
+                    <set name="type" addition="Leather Jerkin (studded leather)">Armor</set>
                     <set name="rarity">Rare</set>
-                    <set name="armor">Studded Leather</set>
+                    <set name="armor">Leather Jerkin</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
@@ -3643,7 +3643,7 @@
                     <set name="type" addition="Lamellar (scale mail)">Armor</set>
                     <set name="attunement">true</set>
                     <set name="rarity">Very Rare</set>
-                    <set name="armor">Lamellar &lpar;scale mail&rpar;</set>
+                    <set name="armor">Lamellar</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
@@ -3676,10 +3676,10 @@
                     <set name="category">Magic Armor</set>
                     <set name="cost" currency="gp">0</set>
                     <set name="slot">body</set>
-                    <set name="type" addition="scale mail">Armor</set>
+                    <set name="type" addition="Lamellar (scale mail)">Armor</set>
                     <set name="attunement">true</set>
                     <set name="rarity">Very Rare</set>
-                    <set name="armor">scale mail</set>
+                    <set name="armor">Lamellar</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
@@ -3712,10 +3712,10 @@
                     <set name="category">Magic Armor</set>
                     <set name="cost" currency="gp">0</set>
                     <set name="slot">body</set>
-                    <set name="type" addition="scale mail">Armor</set>
+                    <set name="type" addition="Lamellar (scale mail)">Armor</set>
                     <set name="attunement">true</set>
                     <set name="rarity">Very Rare</set>
-                    <set name="armor">Scale Mail</set>
+                    <set name="armor">Lamellar</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
@@ -3748,10 +3748,10 @@
                     <set name="category">Magic Armor</set>
                     <set name="cost" currency="gp">0</set>
                     <set name="slot">body</set>
-                    <set name="type" addition="scale mail">Armor</set>
+                    <set name="type" addition="Lamellar (scale mail)">Armor</set>
                     <set name="attunement">true</set>
                     <set name="rarity">Very Rare</set>
-                    <set name="armor">Scale Mail</set>
+                    <set name="armor">Lamellar</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
@@ -3784,10 +3784,10 @@
                     <set name="category">Magic Armor</set>
                     <set name="cost" currency="gp">0</set>
                     <set name="slot">body</set>
-                    <set name="type" addition="scale mail">Armor</set>
+                    <set name="type" addition="Lamellar (scale mail)">Armor</set>
                     <set name="attunement">true</set>
                     <set name="rarity">Very Rare</set>
-                    <set name="armor">Scale Mail</set>
+                    <set name="armor">Lamellar</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
@@ -3820,10 +3820,10 @@
                     <set name="category">Magic Armor</set>
                     <set name="cost" currency="gp">0</set>
                     <set name="slot">body</set>
-                    <set name="type" addition="scale mail">Armor</set>
+                    <set name="type" addition="Lamellar (scale mail)">Armor</set>
                     <set name="attunement">true</set>
                     <set name="rarity">Very Rare</set>
-                    <set name="armor">Scale Mail</set>
+                    <set name="armor">Lamellar</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
@@ -3856,10 +3856,10 @@
                     <set name="category">Magic Armor</set>
                     <set name="cost" currency="gp">0</set>
                     <set name="slot">body</set>
-                    <set name="type" addition="scale mail">Armor</set>
+                    <set name="type" addition="Lamellar (scale mail)">Armor</set>
                     <set name="attunement">true</set>
                     <set name="rarity">Very Rare</set>
-                    <set name="armor">Scale Mail</set>
+                    <set name="armor">Lamellar</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
@@ -3892,10 +3892,10 @@
                     <set name="category">Magic Armor</set>
                     <set name="cost" currency="gp">0</set>
                     <set name="slot">body</set>
-                    <set name="type" addition="scale mail">Armor</set>
+                    <set name="type" addition="Lamellar (scale mail)">Armor</set>
                     <set name="attunement">true</set>
                     <set name="rarity">Very Rare</set>
-                    <set name="armor">Scale Mail</set>
+                    <set name="armor">Lamellar</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
@@ -3928,10 +3928,10 @@
                     <set name="category">Magic Armor</set>
                     <set name="cost" currency="gp">0</set>
                     <set name="slot">body</set>
-                    <set name="type" addition="scale mail">Armor</set>
+                    <set name="type" addition="Lamellar (scale mail)">Armor</set>
                     <set name="attunement">true</set>
                     <set name="rarity">Very Rare</set>
-                    <set name="armor">Scale Mail</set>
+                    <set name="armor">Lamellar</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
@@ -3964,10 +3964,10 @@
                     <set name="category">Magic Armor</set>
                     <set name="cost" currency="gp">0</set>
                     <set name="slot">body</set>
-                    <set name="type" addition="scale mail">Armor</set>
+                    <set name="type" addition="Lamellar (scale mail)">Armor</set>
                     <set name="attunement">true</set>
                     <set name="rarity">Very Rare</set>
-                    <set name="armor">Scale Mail</set>
+                    <set name="armor">Lamellar</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
@@ -4021,10 +4021,10 @@
                     <set name="category">Magic Armor</set>
                     <set name="cost" currency="gp">0</set>
                     <set name="slot">body</set>
-                    <set name="type" addition="chain mail">Armor</set>
+                    <set name="type" addition="Cuirass (chain mail)">Armor</set>
                     <set name="attunement">true</set>
                     <set name="rarity">Legendary</set>
-                    <set name="armor">Chain Mail</set>
+                    <set name="armor">Cuirass</set>
                 </setters>
                 <rules>
                     <stat name="ac:armored:enhancement" value="3" bonus="enhancement" />
@@ -4059,7 +4059,7 @@
                         <set name="type" addition="shield">Armor</set>
                         <set name="rarity">Uncommon</set>
                         <set name="enhancement">1</set>
-                        <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+                        <set name="armor">Buckler, Heater Shield, Tower Shield</set>
                         <set name="name-format">{{parent}} +{{enhancement}}</set>
                     </setters>
                     <rules>
