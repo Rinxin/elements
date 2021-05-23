@@ -1133,7 +1133,7 @@
                         <stat name="ac:armored:armor" value="11" />
                     </rules>
                 </element>
-                <element name="Gambeson" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_LIGHT_LEATHER">
+                <element name="Gambeson &#x00028;leather&#x00028;" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_LIGHT_LEATHER">
                     <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
                     <description>
                         <p>A gambeson is a padded defensive jacket, either worn separately or as an underlay for heavier types of armor. It can also double as a winter coat.</p>
@@ -1151,7 +1151,7 @@
                         <stat name="ac:armored:armor" value="11" />
                     </rules>
                 </element>
-                <element name="Leather Jerkin" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER">
+                <element name="Leather Jerkin &#x00028;studded leather&#x00028;" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER">
                     <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
                     <description>
                         <p>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p>
@@ -3636,7 +3636,7 @@
                     <set name="slot">body</set>
                     <set name="type" addition="Leather Jerkin (studded leather)">Armor</set>
                     <set name="rarity">Rare</set>
-                    <set name="armor">Leather Jerkin</set>
+                    <set name="armor">Leather Jerkin (studded leather)</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
@@ -22863,7 +22863,13 @@
             </element>
             <element name="Bad News" type="Weapon" source="Critical Role" id="ID_CRIT_WEAPON_BAD_NEWS">
                 <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_CRIT_WEAPON_PROPERTY_RELOAD_1, ID_CRIT_WEAPON_PROPERTY_MISFIRE_3, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED</supports>
-                <description />
+                <description>
+                    <div class="reference">
+                            <div element="ID_CRIT_WEAPON_PROPERTY_MISFIRE" />
+                            <div element="ID_CRIT_WEAPON_PROPERTY_RELOAD" />
+                            <div element="ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED" />
+                    </div>
+                </description>
                 <setters>
                     <set name="category">Weapons</set>
                     <set name="cost" currency="gp">0</set>
@@ -22879,7 +22885,13 @@
             </element>
             <element name="Hand Mortar" type="Weapon" source="Critical Role" id="ID_CRIT_WEAPON_HAND_MORTAR">
                 <supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_FIRE, ID_CRIT_WEAPON_PROPERTY_RELOAD_1, ID_CRIT_WEAPON_PROPERTY_MISFIRE_3, ID_CRIT_WEAPON_PROPERTY_EXPLOSIVE</supports>
-                <description />
+                <description>
+                    <div class="reference">
+                            <div element="ID_CRIT_WEAPON_PROPERTY_MISFIRE" />
+                            <div element="ID_CRIT_WEAPON_PROPERTY_RELOAD" />
+                            <div element="ID_CRIT_WEAPON_PROPERTY_EXPLOSIVE" />
+                    </div>
+                </description>
                 <setters>
                     <set name="category">Weapons</set>
                     <set name="cost" currency="gp">0</set>
