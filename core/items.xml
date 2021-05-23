@@ -1716,7 +1716,7 @@
                         <stat name="ac:armored:armor" value="11" />
                     </rules>
                 </element>
-                <element name="Leather" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_LIGHT_LEATHER">
+                <element name="Gambeson* (leather)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_LIGHT_LEATHER">
                     <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
                     <description>
                         <p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p>
@@ -1729,7 +1729,6 @@
                         <set name="armor">Light</set>
                         <set name="armorClass">11 + Dex modifier</set>
                         <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER</set>
-                         <set name="name-format">Gambeson* (leather)</set>
                     </setters>
                     <rules>
                         <stat name="ac:armored:armor" value="11" />
