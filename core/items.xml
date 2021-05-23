@@ -3644,7 +3644,7 @@
                     <set name="type" addition="Lamellar (scale mail)">Armor</set>
                     <set name="attunement">true</set>
                     <set name="rarity">Very Rare</set>
-                    <set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM,!Hide, !Spiked Armor</set>
+                    <set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM,!Hide, !Spiked Armor, !Mail Shirt (chain shirt), !Hauberk (breastplate), !Brigandine (half plate)</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
