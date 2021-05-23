@@ -3643,7 +3643,7 @@
                     <set name="type" addition="Lamellar (scale mail)">Armor</set>
                     <set name="attunement">true</set>
                     <set name="rarity">Very Rare</set>
-                    <set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM,!Hide, !ID_WOTC_ARMOR_MEDIUM_CHAIN_SHIRT</set>
+                    <set name="armor">ID_INTERNAL_ARMOR_GROUP_MEDIUM,!Hide, !Mail Shirt (chain shirt)</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
