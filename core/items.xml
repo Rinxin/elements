@@ -1206,7 +1206,7 @@
                         <stat name="ac:armored:armor" value="13" />
                     </rules>
                 </element>
-                <element name="Lamellar" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL">
+                <element name="Lamellar (scale mail)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL">
                     <supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
                     <description>
                         <p>This is a type of body armor made from small rectangular plates (scales or lamellae) of iron, leather, or bronze laced into horizontal rows.</p>
@@ -3643,7 +3643,7 @@
                     <set name="type" addition="Lamellar (scale mail)">Armor</set>
                     <set name="attunement">true</set>
                     <set name="rarity">Very Rare</set>
-                    <set name="armor">Lamellar</set>
+                    <set name="armor">Lamellar &lpar;scale mail&rpar;</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
