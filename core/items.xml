@@ -1716,10 +1716,10 @@
                         <stat name="ac:armored:armor" value="11" />
                     </rules>
                 </element>
-                <element name="Gambeson* (leather)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_LIGHT_LEATHER">
+                <element name="Gambeson (leather)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_LIGHT_LEATHER">
                     <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
                     <description>
-                        <p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p>
+                        <p>A gambeson is a padded defensive jacket, either worn separately or as an underlay for heavier types of armor. It can also double as a winter coat.</p>
                     </description>
                     <setters>
                         <set name="category">Armor</set>
@@ -1734,7 +1734,7 @@
                         <stat name="ac:armored:armor" value="11" />
                     </rules>
                 </element>
-                <element name="Studded Leather" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER">
+                <element name="Leather Jerkin (studded leather)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER">
                     <supports>ID_INTERNAL_ARMOR_GROUP_LIGHT</supports>
                     <description>
                         <p>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p>
@@ -1771,7 +1771,7 @@
                         <stat name="ac:armored:armor" value="12" />
                     </rules>
                 </element>
-                <element name="Chain Shirt" type="Armor" source="Player’s Handbook" id="ID_WOTC_ARMOR_MEDIUM_CHAIN_SHIRT">
+                <element name="Mail Shirt (chain shirt)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_MEDIUM_CHAIN_SHIRT">
                     <supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
                     <description>
                         <p>Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer’s upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers.</p>
@@ -1789,10 +1789,10 @@
                         <stat name="ac:armored:armor" value="13" />
                     </rules>
                 </element>
-                <element name="Scale Mail" type="Armor" source="Player’s Handbook" id="ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL">
+                <element name="Lamellar (scale mail)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL">
                     <supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
                     <description>
-                        <p>This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets.</p>
+                        <p>This is a type of body armor made from small rectangular plates (scales or lamellae) of iron, leather, or bronze laced into horizontal rows.</p>
                     </description>
                     <setters>
                         <set name="category">Armor</set>
@@ -1809,10 +1809,10 @@
                         <stat name="ac:armored:armor" value="14" />
                     </rules>
                 </element>
-                <element name="Breastplate" type="Armor" source="Player’s Handbook" id="ID_WOTC_ARMOR_MEDIUM_BREASTPLATE">
+                <element name="Hauberk (breastplate)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_MEDIUM_BREASTPLATE">
                     <supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
                     <description>
-                        <p>This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer’s vital organs while leaving the wearer relatively unencumbered.</p>
+                        <p>A hauberk is a shirt of mail that reaches at least to mid-thigh and includes sleeves.</p>
                     </description>
                     <setters>
                         <set name="category">Armor</set>
@@ -1827,10 +1827,10 @@
                         <stat name="ac:armored:armor" value="14" />
                     </rules>
                 </element>
-                <element name="Half Plate" type="Armor" source="Player’s Handbook" id="ID_WOTC_ARMOR_MEDIUM_HALF_PLATE">
+                <element name="Brigandine (half plate)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_MEDIUM_HALF_PLATE">
                     <supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
                     <description>
-                        <p>Half plate consists of shaped metal plates that cover most of the wearer’s body. It does not include leg protection beyond simple greaves that are attached with leather straps.</p>
+                        <p>Brigandine is a sturdy coat of layered linen or leather lined with small steel plates riveted to the fabric.</p>
                     </description>
                     <setters>
                         <set name="category">Armor</set>
@@ -1868,10 +1868,10 @@
                         <stat name="ac:armored:armor" value="14" />
                     </rules>
                 </element>
-                <element name="Chain Mail" type="Armor" source="Player’s Handbook" id="ID_WOTC_ARMOR_HEAVY_CHAIN_MAIL">
+                <element name="Cuirass (chain mail)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_HEAVY_CHAIN_MAIL">
                     <supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
                     <description>
-                        <p>Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets.</p>
+                        <p>A type of armor formed of a single or multiple pieces of metal that cover the torso. A cuirass generally refers to both a chest plate and back piece together.</p>
                     </description>
                     <setters>
                         <set name="category">Armor</set>
@@ -1890,7 +1890,7 @@
                         <stat name="speed" value="-10" bonus="armor" requirements="![str:13]" />
                     </rules>
                 </element>
-                <element name="Splint" type="Armor" source="Player’s Handbook" id="ID_WOTC_ARMOR_HEAVY_SPLINT">
+                <element name="Half Plate (splint)" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_HEAVY_SPLINT">
                     <supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
                     <description>
                         <p>This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints.</p>
@@ -1912,7 +1912,7 @@
                         <stat name="speed" value="-10" bonus="armor" requirements="![str:15]" />
                     </rules>
                 </element>
-                <element name="Plate" type="Armor" source="Player’s Handbook" id="ID_WOTC_ARMOR_HEAVY_PLATE">
+                <element name="Plate" type="Armor" source="The Complete Armorers Handbook" id="ID_WOTC_ARMOR_HEAVY_PLATE">
                     <supports>ID_INTERNAL_ARMOR_GROUP_HEAVY</supports>
                     <description>
                         <p>Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.</p>
@@ -1943,26 +1943,26 @@
                     <setters>
                         <set name="category">Armor</set>
                         <set name="cost" currency="gp">10</set>
-                        <set name="weight" lb="6">6 lb.</set>
+                        <set name="weight" lb="3">3 lb.</set>
                         <set name="slot">onehand,secondary</set>
                         <set name="type">Shield</set>
                         <set name="armor">Shield</set>
-                        <set name="armorClass">+2</set>
+                        <set name="armorClass">+1</set>
                         <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
                     </setters>
                     <rules>
-                        <stat name="ac:shield" value="2" bonus="shield" />
+                        <stat name="ac:shield" value="1" bonus="shield" />
                     </rules>
                 </element>
-                <element name="Shield" type="Armor" source="Player’s Handbook" id="ID_WOTC_GEAR_SHIELD">
+                <element name="Heater Shield" type="Armor" source="Player’s Handbook" id="ID_WOTC_GEAR_SHIELD">
                     <supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
                     <description>
                         <p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>
                     </description>
                     <setters>
                         <set name="category">Armor</set>
-                        <set name="cost" currency="gp">10</set>
-                        <set name="weight" lb="6">6 lb.</set>
+                        <set name="cost" currency="gp">20</set>
+                        <set name="weight" lb="8">8 lb.</set>
                         <set name="slot">onehand,secondary</set>
                         <set name="type">Shield</set>
                         <set name="armor">Shield</set>
@@ -1977,21 +1977,27 @@
                     <supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
                     <description>
                         <p>A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>
+                        <p class="indent"><b>Special (Tower Shield).</b> You can't make opportunity attacks while holding this shield.</p>
                     </description>
                     <setters>
                         <set name="category">Armor</set>
-                        <set name="cost" currency="gp">10</set>
-                        <set name="weight" lb="6">6 lb.</set>
+                        <set name="cost" currency="gp">75</set>
+                        <set name="weight" lb="15">15 lb.</set>
                         <set name="slot">onehand,secondary</set>
                         <set name="type">Shield</set>
                         <set name="armor">Shield</set>
-                        <set name="armorClass">+2</set>
+                        <set name="armorClass">+3</set>
                         <set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
                     </setters>
                     <rules>
                         <stat name="ac:shield" value="2" bonus="shield" />
                     </rules>
                 </element>
+            <!--Armor Properties-->
+                <!--All medium and heavy armors require a gambeson underlay. If you already possess a gambeson you can deduct 15 gp from the cost of purchasing a suit of medium or heavy armor.
+                
+                Heavy armor can be upgraded to the next tier up for the difference in cost. For example, you can upgrade a suit of half plate to plate at a cost of 450 gp.
+                -->
         <!--Equipment Packs-->
             <element name="Burglar’s Pack" type="Item" source="Player’s Handbook" id="ID_WOTC_ITEM_BURGLARS_PACK">
                 <description>
