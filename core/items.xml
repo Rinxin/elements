@@ -4059,7 +4059,7 @@
                         <set name="type" addition="shield">Armor</set>
                         <set name="rarity">Uncommon</set>
                         <set name="enhancement">1</set>
-                        <set name="armor">Buckler, Heater Shield, Tower Shield</set>
+                        <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
                         <set name="name-format">{{parent}} +{{enhancement}}</set>
                     </setters>
                     <rules>
@@ -15536,7 +15536,7 @@
                     <set name="cost" currency="gp">0</set>
                     <set name="type" addition="studded leather">Armor</set>
                     <set name="rarity">Legendary</set>
-                    <set name="armor">Studded Leather</set>
+                    <set name="armor">Leather Jerkin</set>
                     <set name="name-format">Hide of the Feral Guardian, +{{enhancement}}</set>
                     <set name="enhancement">1</set>
                 </setters>
@@ -15572,7 +15572,7 @@
                     <set name="cost" currency="gp">0</set>
                     <set name="type" addition="studded leather">Armor</set>
                     <set name="rarity">Legendary</set>
-                    <set name="armor">Studded Leather</set>
+                    <set name="armor">Leather Jerkin</set>
                     <set name="name-format">Hide of the Feral Guardian, +{{enhancement}}</set>
                     <set name="enhancement">2</set>
                 </setters>
@@ -15607,7 +15607,7 @@
                     <set name="cost" currency="gp">0</set>
                     <set name="type" addition="studded leather">Armor</set>
                     <set name="rarity">Legendary</set>
-                    <set name="armor">Studded Leather</set>
+                    <set name="armor">Leather Jerkin</set>
                     <set name="name-format">Hide of the Feral Guardian, +{{enhancement}}</set>
                     <set name="enhancement">3</set>
                 </setters>
@@ -18192,7 +18192,7 @@
                 <set name="type" addition="breastplate">Armor</set>
                 <set name="rarity">Uncommon</set>
                 <set name="enhancement">1</set>
-                <set name="armor">Breastplate</set>
+                <set name="armor">Hauberk</set>
             </setters>
             <rules>
                 <stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
@@ -22436,7 +22436,7 @@
                 <set name="category">Magic Armor</set>
                 <set name="type" addition="chain shirt">Armor</set>
                 <set name="rarity">Uncommon</set>
-                <set name="armor">Chain Shirt</set>
+                <set name="armor">Mail Shirt</set>
             </setters>
             <rules>
                 <grant type="Vision" id="ID_VISION_DARKVISION" />
