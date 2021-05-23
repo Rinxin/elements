@@ -4223,10 +4223,10 @@
                     <set name="category">Magic Armor</set>
                     <set name="cost" currency="gp">0</set>
                     <set name="slot">body</set>
-                    <set name="type" addition="scale mail">Armor</set>
+                    <set name="type" addition="Lamellar (scale mail)">Armor</set>
                     <set name="attunement">true</set>
                     <set name="rarity">Very Rare</set>
-                    <set name="armor">Scale Mail</set>
+                    <set name="armor">Lamellar (scale mail)</set>
                     <set name="enhancement">1</set>
                 </setters>
                 <rules>
