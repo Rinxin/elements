@@ -22,6 +22,7 @@
 
 		<file name="character-options.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/character-options.xml" />
 		<file name="feats.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/feats.xml" />
+		<file name="items.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/items.xml" />
 		<file name="languages.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/languages.xml" />
 		<file name="proficiencies.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/proficiencies.xml" />
 		<file name="sources.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/sources.xml" />		
