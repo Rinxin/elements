@@ -23094,11 +23094,6 @@
                         <set name="attunement" addition="by a spellcaster">true</set>
                         <set name="charges">10</set>
                     </setters>
-                    <rules>
-                        <grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" />
-                        <grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" />
-                        <grant type="Spell" id="ID_PHB_SPELL_BIGBYS_HAND" />
-                    </rules>
                 </element>
                 Blackout Candle Uncommon Wondrous Item
                 <element name="" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR1_MAGIC_ITEM_">
