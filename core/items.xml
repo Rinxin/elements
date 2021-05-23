@@ -29201,7 +29201,7 @@
                     </rules>
                 </element>
                 Wildfire Bowstring Very Rare Wondrous Item
-                <element>
+                <element name="" type="Magic Item" source="Relics of the Realms - Volume 3" id="ID_BONUSACTION_ROTR3_MAGIC_ITEM_">
                     <description>
                         Wildfire Bowstring
                         Very Rare Wondrous Item
