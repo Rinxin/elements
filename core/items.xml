@@ -23160,39 +23160,20 @@
                     <rules>
                     </rules>
                 </element>
-                <element name="Bolas" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BOLAS">
+                <element name="Bolas" type="Weapon" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BOLAS">
+                    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
                     <description>
-                        Bolas
-                        Common Ranged Weapon (Martial)
-                        Damage. 1d4 Bludgeoning
-                        Range. 30/60
-                        Tripping Balls. The bolas are mainly used to trip foes from
-                        a distance. A Large or smaller bipedal creature hit with bolas
-                        must make a Dexterity saving throw (DC 15) or be restrained.
-                        A creature can attempt to snap the cords to break free with a
-                        successful Athletics check (DC 15). A creature can also try to
-                        untangle them. They can do so after using their action to pass
-                        an Investigation check (DC 12), after which they can use an
-                        action to untangle the cords.
+                        <p><b>Tripping Balls.</b> The bolas are mainly used to trip foes from a distance. A Large or smaller bipedal creature hit with bolas must make a Dexterity saving throw (DC 15) or be restrained. A creature can attempt to snap the cords to break free with a successful Athletics check (DC 15). A creature can also try to untangle them. They can do so after using their action to pass an Investigation check (DC 12), after which they can use an action to untangle the cords.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Weapons</set>
+                        <set name="cost" currency="sp">1</set>
+                        <set name="weight" lb="0">—</set>
+                        <set name="slot">onehand</set>
+                        <set name="range">30/600</set>
+                        <set name="damage" type="bludgeoning">1d4</set>
+                        <set name="proficiency">ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
                     </setters>
-                    <rules>
-                    </rules>
                 </element>
                 <element name="Boom-erang" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BOOM_ERANG">
                     <description>
