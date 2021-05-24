@@ -23108,104 +23108,55 @@
                 </element>
                 <element name="Blade of the Empire" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BLADE_OF_THE_EMPIRE">
                     <description>
-                        Blade of the Empire
-                        Uncommon Shortsword (Finesse, Light)
-                        Damage. 1d6+1 Slashing
-                        Military Precision. You gain a +1 bonus to attack rolls you
-                        make with this weapon.
-                        Lawkeeper. If you are of a Lawful alignment you deal
-                        an extra 1d6 Slashing damage to creatures with a Chaotic
-                        alignment whenever you make a successful attack using this
-                        sword.
+                        <p><b>Military Precision.</b> You gain a +1 bonus to attack rolls you make with this weapon.</p>
+                        <p class="indent"<b>Lawkeeper.</b> If you are of a Lawful alignment you deal an extra 1d6 Slashing damage to creatures with a Chaotic alignment whenever you make a successful attack using this sword.</p>
                     </description>
                     <setters>
                         <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="shortsword">Weapon</set>
+                        <set name="rarity">Uncommon</set>
+                        <set name="weapon">Short sword</set>
+                        <set name="enhancement">1</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Blade of the Northern Tribe" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BLADE_OF_THE_NORTHERN_TRIBE">
                     <description>
-                        Blade of the Northern Tribe
-                        Uncommon Longsword (Versatile)
-                        Requires attunement
-                        Damage. 1d8+1 (1d10+1)
-                        Northern Smithing. You gain a +1 bonus to attack rolls you
-                        make with this weapon.
-                        Frost Edge. Every day at dawn this sword forms a thin layer
-                        of razor sharp ice on it’s edge. The first five successful attacks
-                        you make deal an extra 1d4 Cold damage. After five hits the
-                        layer of ice melts.
-                        A Touch of Cold. Once per day as an action you can stick
-                        the sword in a surface of water to create a layer of ice in a
-                        15ft. radius. All creatures in this area have to make a Strength
-                        saving throw (DC 12) on a failure they are locked in the ice
-                        and considered restrained, on a success the ice layer breaks
-                        completely and quickly melts away. The ice is strong enough
-                        to hold the weight of approximately 4 small creatures, 2
-                        medium creatures or 1 large creature. When a creature steps
-                        on the ice they have to make a Dexterity saving throw (DC 8)
-                        or be knocked prone. The ice is considered rough terrain.
+                        <p><b>Northern Smithing.</b> You gain a +1 bonus to attack rolls you make with this weapon.</p>
+                        <p class="indent"><b>Frost Edge.</b> Every day at dawn this sword forms a thin layer of razor sharp ice on it’s edge. The first five successful attacks you make deal an extra 1d4 Cold damage. After five hits the layer of ice melts.</p>
+                        <p class="indent"><b>A Touch of Cold.</b> Once per day as an action you can stick the sword in a surface of water to create a layer of ice in a 15ft. radius. All creatures in this area have to make a Strength saving throw (DC 12) on a failure they are locked in the ice and considered restrained, on a success the ice layer breaks completely and quickly melts away. The ice is strong enough to hold the weight of approximately 4 small creatures, 2 medium creatures or 1 large creature. When a creature steps on the ice they have to make a Dexterity saving throw (DC 8) or be knocked prone. The ice is considered rough terrain.</p>
                     </description>
                     <setters>
                         <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="longsword">Weapon</set>
+                        <set name="attunement">true</set>
+                        <set name="rarity">Uncommon</set>
+                        <set name="weapon">Longsword</set>
+                        <set name="enhancement">1</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Bladestaff" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BLADESTAFF">
                     <description>
-                        Bladestaff
-                        Uncommon Quarterstaff (Versatile)
-                        Damage. 1d6 (1d8) +1 Slashing
-                        Bladestorm. As an action you can twirl the staff. Sharp,
-                        cutting winds swirl around you in a 5ft. radius. All creatures
-                        of your choice have to make a Dexterity saving throw (DC
-                        15). On a failed save they take 2d6 Slashing damage. On a
-                        successful save they take half damage.
+                        <p><b>Bladestorm.</b> As an action you can twirl the staff. Sharp, cutting winds swirl around you in a 5ft. radius. All creatures of your choice have to make a Dexterity saving throw (DC 15). On a failed save they take 2d6 Slashing damage. On a successful save they take half damage.</p>
                     </description>
                     <setters>
                         <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="quarterstaff">Weapon</set>
+                        <set name="attunement">true</set>
+                        <set name="rarity">Uncommon</set>
+                        <set name="weapon">Quarterstaff</set>
+                        <set name="enhancement">1</set>
                     </setters>
+                    <!--need to change damage to slashing-->
                     <rules>
                     </rules>
                 </element>
@@ -23245,89 +23196,38 @@
                 </element>
                 <element name="Boom-erang" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BOOM_ERANG">
                     <description>
-                        Boom-erang
-                        Rare Ranged Weapon,
-                        Requires attunement
-                        Damage. 1d4 Bludgeoning
-                        Range. 60/120
-                        Returning. When you throw the Boom-erang you can catch
-                        it in the same round as part of the attack, alternatively you
-                        can choose to catch it in the following round as a bonus
-                        action. If you throw it further than 60ft. you can only catch it
-                        in the following round.
-                        Arcane Blast. When you make a successful attack with this
-                        weapon you can choose to activate a blast of arcane energy.
-                        The blast is centered on your target. Every creature in a 10 ft
-                        radius has to make a Dexterity saving throw (DC 15). On a
-                        failed save the target takes 2d6 Force and 2d4 Fire damage.
-                        On a successful save the target takes half damage. You can use
-                        this feature up to two times per day.
+                        <p><b>Returning.</b> When you throw the Boom-erang you can catch it in the same round as part of the attack, alternatively you can choose to catch it in the following round as a bonus action. If you throw it further than 60ft. you can only catch it in the following round.</p>
+                        <p class="indent"><b>Arcane Blast.</b> When you make a successful attack with this weapon you can choose to activate a blast of arcane energy. The blast is centered on your target. Every creature in a 10 ft radius has to make a Dexterity saving throw (DC 15). On a failed save the target takes 2d6 Force and 2d4 Fire damage. On a successful save the target takes half damage. You can use this feature up to two times per day.</p>
                     </description>
                     <setters>
                         <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="boomerang">Weapon</set>
+                        <set name="attunement">true</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Boomerang</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Close Quarters Bow" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_CLOSE_QUARTERS_BOW">
                     <description>
-                        Close Quarters Bow
-                        Common Shortbow
-                        Damage. 1d6 Piercing
-                        Range. 50/150
-                        Ranger’s Defense. When you have this bow in your hands
-                        you gain a +1 bonus to your AC.
-                        Shield Stab. As an action you can stab the pointy end of the
-                        shield on this bow into an enemy. Make a melee attack roll.
-                        You use your Strength modifier for this attack. On a successful
-                        attack you deal 1d4 Piercing damage.
-
-                        Boom-erang Blade of the Empire Blade of the
-                        Northern Tribe
-
-                        Bolas
-                        Bladestsaff
-
-                        Close Quarters
-                        Bow
-
-                        Relics of the Realms - Volume 1 3 Bonus Action
+                        <p><b>Ranger’s Defense.</b> When you have this bow in your hands you gain a +1 bonus to your AC.</p>
+                        <p><b>Shield Stab.</b> As an action you can stab the pointy end of the shield on this bow into an enemy. Make a melee attack roll. You use your Strength modifier for this attack. On a successful attack you deal 1d4 Piercing damage.</p>
                     </description>
                     <setters>
                         <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="shortbow">Weapon</set>
+                        <set name="rarity">Common</set>
+                        <set name="weapon">Shortbow</set>
                     </setters>
-                    <rules>
-                    </rules>
                 </element>
                 <element name="Coinbox of Holding" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_COINBOX_OF_HOLDING">
                     <description>
-                        <p><b>Piggy Bank.</b> This magically enchanted coin box has an extra-dimensional space in which it can store up to 50,000 coins of any type in any combination. Coins can be stored into the box using the slot on top. The box is sealed shut but can be opened by speaking a command word, revealing the amount of currency wanted. When opened the interior of the box is as deep as required to fit all the coins that will be taken from it.
+                        <p><b>Piggy Bank.</b> This magically enchanted coin box has an extra-dimensional space in which it can store up to 50,000 coins of any type in any combination. Coins can be stored into the box using the slot on top. The box is sealed shut but can be opened by speaking a command word, revealing the amount of currency wanted. When opened the interior of the box is as deep as required to fit all the coins that will be taken from it.</p>
                     </description>
                     <setters>
                         <set name="category">Wondrous Items</set>
@@ -23339,7 +23239,7 @@
                 </element>
                 <element name="Cornucopeia of the Harvest" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Cornucopeia_of_the_Harvest">
                     <description>
-                        <p>><b>Healthy Diet.</b> As an action you can make this Cornucopia filland overflow with enough vegetables and fruits to sustain 5 people for a whole day. This feature can be used only once per day.
+                        <p>><b>Healthy Diet.</b> As an action you can make this Cornucopia filland overflow with enough vegetables and fruits to sustain 5 people for a whole day. This feature can be used only once per day.</p>
                         <p class="indent"><b>Bountiful Harvest.</b> Once per year you can spend an action to also conjure a selection of pumpkin pies, cranberry sauce, sweet potato dishes and a large cooked turkey. 12 medium sized creatues may spend an hour to eat from this buffet. For the next 12 hours they have advantage on Wisdom and Intelligence saving throws and they are immune to being Frightened. Additionally their maximum hit points increases by 4d6 and they heal for the same amount.</p>
                     </description>
                     <setters>
@@ -23354,8 +23254,8 @@
                 </element>
                 <element name="Crimson Amplifier" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Crimson_Amplifier">
                     <description>
-                        <p><b>A Tiny Drop.</b> As a bonus action you can push your finger on the needle on top of this pendant, this drains a single drop of blood into the pendant and deals 1 Piercing damage. The first Evocation or Necromancy spell you cast within an hour deals an extra 3d4 damage or if it has a save, the DC increases by 2. Only amplifies spells of the attuned creature when it’s own blood is used. You can use this feature twice per day.
-                        <p class="indent"><b>Blood Sacrifice (Curse).</b> When the amplifier accumulates 50 drops of blood it shatters and summons a Horned Devil and 3d4 Imps. The summoned creatures are hostile towards you and and anyone else that is not innately their ally.
+                        <p><b>A Tiny Drop.</b> As a bonus action you can push your finger on the needle on top of this pendant, this drains a single drop of blood into the pendant and deals 1 Piercing damage. The first Evocation or Necromancy spell you cast within an hour deals an extra 3d4 damage or if it has a save, the DC increases by 2. Only amplifies spells of the attuned creature when it’s own blood is used. You can use this feature twice per day.</p>
+                        <p class="indent"><b>Blood Sacrifice (Curse).</b> When the amplifier accumulates 50 drops of blood it shatters and summons a Horned Devil and 3d4 Imps. The summoned creatures are hostile towards you and and anyone else that is not innately their ally.</p>
                     </description>
                     <setters>
                         <set name="category">Wondrous Items</set>
@@ -23370,113 +23270,57 @@
                 </element>
                 <element name="Crystalline Crusher" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Crystalline_Crusher">
                     <description>
-                        Crystalline Crusher
-                        Uncommon Mace
-                        Damage. 1d6+1 Bludgeoning
-                        Crystal Clear. You receive a +1 bonus to attack rolls you
-                        make with this weapon. This weapon can also be used as a
-                        spellcasting focus.
-                        Smooth or Sharp. When you make an attack
-                        using this weapon you can choose to deal
-                        Piercing damage or Bludgeoning damage.
-                        Arcane Mineral. You can cast the spell Guiding Bolt (3rd
-                        level) from this weapon once per long rest.
+                        <p><b>Crystal Clear.</b> You receive a +1 bonus to attack rolls you make with this weapon. This weapon can also be used as a spellcasting focus.</p>
+                        <p class="indnet"><b>Smooth or Sharp.</b> When you make an attack using this weapon you can choose to deal Piercing damage or Bludgeoning damage.</p>
+                        <p class="indent"><b>Arcane Mineral.</b> You can cast the spell Guiding Bolt (3rd level) from this weapon once per long rest.</p>
                     </description>
                     <setters>
                         <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="mace">Weapon</set>
+                        <set name="attunement">true</set>
+                        <set name="rarity">Uncommon</set>
+                        <set name="weapon">Mace</set>
+                        <set name="enhancement">1</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Dagger of the Red Dragon" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Dagger_of_the_Red_Dragon">
                     <description>
-                        Dagger of the Red Dragon
-                        Very Rare Dagger (Finesse, Light, Range, Thrown, Cursed)
-                        Requires attunement
-                        Damage. 1d4+2 Piercing
-                        Range. 20/60
-                        Essence of Fire. Once per day you cast a pillar of dragon fire
-                        from this dagger. A vertical column of fire roars down from
-                        the sky in a location you specify. Each creature in a 15ft. radius
-                        50ft. high cylinder centered on a point within a 120ft range
-                        must make a Dexterity saving throw (DC 18). On a failed save
-                        a creature takes 9d8 Fire damage. On a successful save they
-                        take half damage.
-                        Greed of the Red. Whenever you are near at least 5000 gold
-                        pieces that are not in your
-                        possession this blade begins to glow a soft red.
-                        Consumed by Fire and Greed. (Curse)Whenever you
-                        have more than 10000 gold in your possession and you use
-                        Essence of Fire, roll a D100, if you roll between 95-99 you get
-                        an insatiable urge to set your own equipment on fire.
+                        <p><b>Essence of Fire.</b> Once per day you cast a pillar of dragon fire from this dagger. A vertical column of fire roars down from the sky in a location you specify. Each creature in a 15ft. radius 50ft. high cylinder centered on a point within a 120ft range must make a Dexterity saving throw (DC 18). On a failed save a creature takes 9d8 Fire damage. On a successful save they take half damage.</p>
+                        <p class="indent"><b>Greed of the Red.</b> Whenever you are near at least 5000 gold pieces that are not in your possession this blade begins to glow a soft red.</p>
+                        <p class="indent"><b>Consumed by Fire and Greed. (Curse)</b> Whenever you have more than 10,000 gold in your possession and you use Essence of Fire, roll a D100, if you roll between 95-99 you get an insatiable urge to set your own equipment on fire.</p>
                     </description>
                     <setters>
                         <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="dagger">Weapon</set>
+                        <set name="attunement">true</set>
+                        <set name="rarity" addition="cursed">Very Rare</set>
+                        <set name="weapon">Dagger</set>
+                        <set name="enhancement">2</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Dance" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_DANCE">
                     <description>
-                        Dance
-                        Rare Dagger (Finesse, Light, Range, Thrown)
-                        Requires attunement
-                        Damage. 1d4+1 Piercing
-                        Range. 20/60
-                        Damage. 1d4+1 Piercing
-                        Range. 20/60
-                        Choreography of Returning. As a bonus action you can
-                        call back Dance to your hand, it flies in large loops, twirls and
-                        spins through the air. It dodges and weaves past any objects
-                        in it’s path. You can use this feature up to a range of 200ft.
-                        Song and Dance. When you make successful attacks with
-                        both Song (the rapier of this set) and Dance in one round, you
-                        deal an extra 2
-                        Piercing damage with the weapon you attack with last.
-                        Two of a Kind. Attunement to both Song and Dance counts
-                        as a single attunement as they are a set.
+                        <p><b>Choreography of Returning.</b> As a bonus action you can call back Dance to your hand, it flies in large loops, twirls and spins through the air. It dodges and weaves past any objects in it’s path. You can use this feature up to a range of 200ft.</p>
+                        <p>Song and Dance. When you make successful attacks with both Song (the rapier of this set) and Dance in one round, you deal an extra 2 Piercing damage with the weapon you attack with last.</p>
+                        <p><b>Two of a Kind.</b> Attunement to both Song and Dance counts as a single attunement as they are a set.</p>
                     </description>
                     <setters>
                         <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="dagger">Weapon</set>
+                        <set name="attunement">true</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Dagger</set>
+                        <set name="enhancement">1</set>
                     </setters>
                     <rules>
                     </rules>
@@ -23497,40 +23341,18 @@
                 </element>
                 <element name="Executioner's Remorse" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Executioners_Remorse">
                     <description>
-                        Executioner’s Remorse
-                        Rare Greatsword (Heavy, Two-handed)
-                        Requires attunement
-                        Damage. 2d6+2 Slashing
-                        Executioner’s Mercy. When making a successful attack
-                        using this sword you can choose to heal the target for
-                        3d6. The damage of the sword is applied first. If a target is
-                        unconscious it fails a death save before the healing is applied.
-                        When attacking an undead creature this effect can be applied
-                        as Radiant damage instead. You can use this feature twice per
-                        day.
-                        Executioner’s Burden (Curse). When Executioners’ Mercy
-                        is used you start hearing the maddening voices from the
-                        dead for 1d8 hours. If there are more than 5 dead or undead
-                        creatures in a 200ft. radius you have to make a Wisdom
-                        saving throw (DC 15) every minute. On a failed save you take
-                        2d4+2 psychic damage, on a successful save you are able to
-                        shut out the voices for 1 hour.
+                        <p><b>Executioner’s Mercy.</b> When making a successful attack using this sword you can choose to heal the target for 3d6. The damage of the sword is applied first. If a target is unconscious it fails a death save before the healing is applied. When attacking an undead creature this effect can be applied as Radiant damage instead. You can use this feature twice per day.</p>
+                        <p><b>Executioner’s Burden (Curse).</b> When Executioners’ Mercy is used you start hearing the maddening voices from the dead for 1d8 hours. If there are more than 5 dead or undead creatures in a 200ft. radius you have to make a Wisdom saving throw (DC 15) every minute. On a failed save you take 2d4+2 psychic damage, on a successful save you are able to shut out the voices for 1 hour.</p>
                     </description>
                     <setters>
                         <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="greatsword">Weapon</set>
+                        <set name="attunement">true</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Greatsword</set>
+                        <set name="enhancement">2</set>
                     </setters>
                     <rules>
                     </rules>
@@ -23573,81 +23395,33 @@
                 </element>
                 <element name="Forgemaster's Warhammer" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Forgemasters_Warhammer">
                     <description>
-                        Forgemaster’s Warhammer
-                        Very Rare Warhammer (Heavy)
-                        Requires attunement and at least 16 Strength
-                        Damage. 1d8+2 (1d10+2) Bludgeoning
-                        Arcane Anvil. 5 times per long rest you can cast the Mending
-                        cantrip using this hammer.
-                        Fire of the Forge. The warhammer holds 8 charges which it
-                        regains at dawn. As an action you can release up to 4 bolts of
-                        flame. You expend a single charge for each bolt. You can send
-                        them to one or multiple targets you can see within 120ft. of
-                        you. The target has to make a Dexterity saving throw (DC 15).
-                        On a failed save they take 2d6 Fire damage for each bolt that
-                        hits them. On a successful save they take half damage.
-
-                        Forgemaster’s
-                        Warhammer
-
-                        Dance
-
-                        Executioner’s
-                        Remorse
-
-                        Explosive
-                        Arrow
-
-                        Death Knight’s
-                        Helmet
-
-                        Relics of the Realms - Volume 1 5 Bonus Action
+                        <p><b>Arcane Anvil.</b> 5 times per long rest you can cast the Mending cantrip using this hammer.</p>
+                        <p><b>Fire of the Forge.</b> The warhammer holds 8 charges which it regains at dawn. As an action you can release up to 4 bolts of flame. You expend a single charge for each bolt. You can send them to one or multiple targets you can see within 120ft. of you. The target has to make a Dexterity saving throw (DC 15). On a failed save they take 2d6 Fire damage for each bolt that hits them. On a successful save they take half damage.</p>
                     </description>
                     <setters>
                         <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="warhammer">Weapon</set>
+                        <set name="attunement" additional="at least 16 Strength">true</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Warhammer</set>
+                        <set name="enhancement">2</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Fuzzy Teddy" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Fuzzy_Teddy">
                     <description>
-                        Fuzzy Teddy
-                        Common Wondrous Item
-                        Soft, Warm and Fuzzy. This teddy has been enchanted
-                        to always feel warm to the touch. Cuddling the teddy is
-                        extremely comforting. It is often used to comfort distressed
-                        children in situations of extreme panic.
-                        Keeper of Secrets. Teddy is a great listener. You can tell all
-                        your secrets to Teddy, he’s never going to tell anyone.
+                        <p><b>Soft, Warm and Fuzzy.</b> This teddy has been enchanted to always feel warm to the touch. Cuddling the teddy is extremely comforting. It is often used to comfort distressed children in situations of extreme panic.</p>
+                        <p class="indnet"><b>Keeper of Secrets.</b> Teddy is a great listener. You can tell all your secrets to Teddy, he’s never going to tell anyone.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity">Common</set>
                     </setters>
                     <rules>
                     </rules>
@@ -23732,110 +23506,48 @@
                 </element>
                 <element name="Hand Wraps of the Gathering Storm" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Hand_Wraps_of_the_Gathering_Storm">
                     <description>
-                        Hand Wraps of the Gathering Storm
-                        Rare Wondrous Item
-                        Requires attunement by a Monk
-                        Fast as Lightning. You gain a +1 bonus to attack rolls and
-                        damage rolls when making
-                        Unarmed Strikes.
-                        Electrifying. These hand wraps can hold 10 charges. You can
-                        expend 5 charges whenever you make unarmed strike to deal
-                        an extra 2d4+2 Lightning damage. You gain one charge on
-                        every (non-electrified) unarmed strike you land on a hostile
-                        creature. You gain two charges when you land a critical hit.
-                        The charges deplete to 0 when you have not hit a hostile
-                        creature in 10 minutes.
-
-                        Gravedigger’s
-                        Staff
-
-                        Grapple
-                        Arrow
-
-                        Hand Wraps
-                        of the
-                        Gathering Storm
-
-                        Fuzzy Teddy
-
-                        Relics of the Realms - Volume 1 6 Bonus Action
+                        <p><b>Fast as Lightning.</b> You gain a +1 bonus to attack rolls and damage rolls when making Unarmed Strikes.</p>
+                        <p class="indent"><b>Electrifying.</b> These hand wraps can hold 10 charges. You can expend 5 charges whenever you make unarmed strike to deal an extra 2d4+2 Lightning damage. You gain one charge on every (non-electrified) unarmed strike you land on a hostile creature. You gain two charges when you land a critical hit. The charges deplete to 0 when you have not hit a hostile creature in 10 minutes.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity">Rare</set>
+                        <set name="attunement" addition="by a Monk">true</set>
+                        <set name="charges">10</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Hood of the Deceiver" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Hood_of_the_Deceiver">
                     <description>
-                        Hood of the Deceiver
-                        Rare Wondrous Item
-                        Requires attunement by a Warlock
-                        Gift of the Pact. After a long rest, roll a d4. The entity you
-                        have a pact with grants you an extra spell slot of the level that
-                        you rolled. This spell slot lasts untill you finish another long
-                        rest.
-                        Master’s Voice. The hood allows you to channel the
-                        otherwordly charisma of your patron. You gain a +3 bonus to
-                        Deception and Persuasion checks.
+                        <p><b>Gift of the Pact.</b> After a long rest, roll a d4. The entity you have a pact with grants you an extra spell slot of the level that you rolled. This spell slot lasts untill you finish another long rest.</p>
+                        <p class="indent"><b>Master’s Voice.</b> The hood allows you to channel the otherwordly charisma of your patron. You gain a +3 bonus to Deception and Persuasion checks.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity">Rare</set>
+                        <set name="attunement" addition="by a Warlock">true</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Ikrian Gloves" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Ikrian_Gloves">
                     <description>
-                        Ikrian Gloves
-                        Uncommon Wondrous Item
-                        Requires attunement
-                        Herbologist’s Fingers. These gloves grant
-                        resistance against Poison and Necrotic damage. Furthermore,
-                        when wearing these gloves you gain a +5 bonus to any rolls
-                        you make that include making use of a Herbalism kit.
+                        <p><b>Herbologist’s Fingers.</b> These gloves grant resistance against Poison and Necrotic damage. Furthermore, when wearing these gloves you gain a +5 bonus to any rolls you make that include making use of a Herbalism kit.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity">Uncommon</set>
+                        <set name="attunement">true</set>
                     </setters>
                     <rules>
                     </rules>
@@ -23873,267 +23585,110 @@
                 </element>
                 <element name="Jade Xiphos" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Jade_Xiphos">
                     <description>
-                        Jade Xiphos
-                        Uncommon Shortsword (Finesse, Light)
-                        Damage. 1d6+1 Piercing
-                        Fine Balance. You gain a +1 bonus to attack rolls you make
-                        with this weapon.
-                        Shards of Glass. If exposed to more than 30 points of Force
-                        or Thunder damage the blade violently vibrates itself into
-                        pieces. If the blade is stuck in a creature the shards deal 6d10
-                        Piercing damage. The sword itself is destroyed beyond repair
-                        in the process. A skilled bard might also be able to shatter the
-                        sword by singing a high note with a successful Performance
-                        check (DC 25).
+                        <p><b>Fine Balance.</b> You gain a +1 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Shards of Glass.</b> If exposed to more than 30 points of Force or Thunder damage the blade violently vibrates itself into pieces. If the blade is stuck in a creature the shards deal 6d10 Piercing damage. The sword itself is destroyed beyond repair in the process. A skilled bard might also be able to shatter the sword by singing a high note with a successful Performance check (DC 25).</p>
                     </description>
                     <setters>
                         <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="shortsword">Weapon</set>
+                        <set name="rarity">Uncommon</set>
+                        <set name="weapon">Shortsword</set>
+                        <set name="enhancement">1</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Knife of the Vampire Lord" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Knife_of_the_Vampire_Lord">
                     <description>
-                        Knife of the Vampire Lord
-                        Very Rare Dagger (Finesse, Light, Range, Thrown)
-                        Requires attunement
-                        Damage. 1d4+2 Piercing
-                        Range. 20/60
-                        Bloodmagic. As an action you can regain the spell slot of the
-                        last spell you have cast by wounding yourself with this dagger.
-                        You deal yourself 1d4+2 Piercing damage and an
-                        additional 1d6 Necrotic damage per spell slot level.
-                        E.g. regaining a 5th level spell slot deals 1d4+2 Piercing
-                        damage and 5d6 Necrotic damage. You can regain any spell
-                        slot from 1st level to a maximum of 6th level. If the last spell
-                        you cast was of 7th slot or higher you regain a 6th level spell
-                        slot instead, you roll 6d6 for this. You can use this feature only
-                        once per long rest and can only use it on yourself.
-
-                        Hood
-                        of the
-                        Deceiver
-
-                        Ikrian
-                        Gloves
-
-                        Jade
-                        Xiphos
-
-                        Knife of the
-                        Vampire Lord
-                        Injection
-                        Arrow
-
-                        Relics of the Realms - Volume 1 7 Bonus Action
+                        <p><b>Bloodmagic.</b> As an action you can regain the spell slot of the last spell you have cast by wounding yourself with this dagger. You deal yourself 1d4+2 Piercing damage and an additional 1d6 Necrotic damage per spell slot level. E.g. regaining a 5th level spell slot deals 1d4+2 Piercing damage and 5d6 Necrotic damage. You can regain any spell slot from 1st level to a maximum of 6th level. If the last spell you cast was of 7th slot or higher you regain a 6th level spell slot instead, you roll 6d6 for this. You can use this feature only once per long rest and can only use it on yourself.</p>
                     </description>
                     <setters>
                         <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="dagger">Weapon</set>
+                        <set name="attunement">true</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Dagger</set>
+                        <set name="enhancement">2</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Kobold's Lucky Tooth" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Kobolds_Lucky_Tooth">
                     <description>
-                        Kobold’s Lucky Tooth
-                        Common Wondrous Item
-                        Lost and Found. Every day at any time you can roll a d4. You
-                        somehow find this amount of gold coins. These coins can be
-                        found in your pocket, bags or inventory. (you probably forgot
-                        about them). Sometimes you find them in your surroundings,
-                        some extra coins in the loot you find or just in the mud on
-                        street right outside of the tavern you’ve been staying in. You
-                        can use this feature only once per day.
+                        <p><b>Lost and Found.</b> Every day at any time you can roll a d4. You somehow find this amount of gold coins. These coins can be found in your pocket, bags or inventory. (you probably forgot about them). Sometimes you find them in your surroundings, some extra coins in the loot you find or just in the mud on street right outside of the tavern you’ve been staying in. You can use this feature only once per day.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity">Common</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Lightflask" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Lightflask">
                     <description>
-                        Lightflask
-                        Common Wondrous Item
-                        Light collector. As an action you can swing the flask
-                        overhead using the chain. It will absorb 3 charges of light per
-                        round up to a maximum of 15 charges. There can only be one
-                        type of light in the flask, the light retains all it’s properties
-                        (like sun or moonlight. The flask will absorb the strongest
-                        light if not defined by the user (e.g. sunlight over torchlight).
-                        Lightshedder. As a bonus action you can activate the flask
-                        by speaking a chosen command word to shed the light
-                        captured. Every round one charge is spent. No matter which
-                        type, the light is shed in a 30ft. radius as bright light and 60ft.
-                        as dim light.
+                        <p><b>Light collector.</b> As an action you can swing the flask overhead using the chain. It will absorb 3 charges of light per round up to a maximum of 15 charges. There can only be one type of light in the flask, the light retains all it’s properties (like sun or moonlight. The flask will absorb the strongest light if not defined by the user (e.g. sunlight over torchlight).</p>
+                        <p class="indent"><b>Lightshedder.</b> As a bonus action you can activate the flask by speaking a chosen command word to shed the light captured. Every round one charge is spent. No matter which type, the light is shed in a 30ft. radius as bright light and 60ft. as dim light.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity">Common</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Lockcrawler" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Lockcrawler">
                     <description>
-                        Lockcrawler
-                        Rare Wondrous Item
-                        Requires proficiency with Thieves’ Tools
-                        Tiny Thief. This arcane powered bug is able to unlock most
-                        mechanical locks without effort.
-                        You can spend a bonus action to activate it and order it to do
-                        so. The crawler has a movement of 10ft., 5 hit points and is
-                        able to climb vertical surfaces. It can not carry anything.
-                        When unlocking a lock, roll a d20. On a 1 the crawler makes
-                        a fatal mistake and gets crushed by the lock mechanism, any
-                        subsequent rolls to attempt to pick this lock are made with
-                        disadvantage. If the lock has a DC of 20 or higher you roll
-                        with disadvantage. If the lock has a DC of 30 or higher a 2 also
-                        causes a fatal mistake.
+                        <p><b>Tiny Thief.</b> This arcane powered bug is able to unlock most mechanical locks without effort.</p>
+                        <p class="indent">You can spend a bonus action to activate it and order it to do so. The crawler has a movement of 10ft., 5 hit points and is able to climb vertical surfaces. It can not carry anything. When unlocking a lock, roll a d20. On a 1 the crawler makes a fatal mistake and gets crushed by the lock mechanism, any subsequent rolls to attempt to pick this lock are made with disadvantage. If the lock has a DC of 20 or higher you roll with disadvantage. If the lock has a DC of 30 or higher a 2 also causes a fatal mistake.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type" addition="Requires proficiency with Thieves' Tools">Wondrous Item</set>
+                        <set name="rarity">Rare</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Lunar Scimitar" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Lunar_Scimitar">
                     <description>
-                        Lunar Scimitar
-                        Uncommon Scimitar (Finesse, Light)
-                        Damage. 1d6+1 Slashing
-                        Lunar Essence. You gain a +1 bonus to attack rolls you make
-                        with this weapon.
-                        Power of the Moonlight. If you can see a
-                        night-sky while using this scimitar you deal an additional 1
-                        Radiant damage. This damage is doubled when there is a full
-                        moon.
+                        <p><b>Lunar Essence.</b> You gain a +1 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Power of the Moonlight.</b> If you can see a night-sky while using this scimitar you deal an additional 1 Radiant damage. This damage is doubled when there is a full moon.</p>
                     </description>
                     <setters>
                         <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="scimitar">Weapon</set>
+                        <set name="rarity">Uncommon</set>
+                        <set name="weapon">Scimitar</set>
+                        <set name="enhancement">1</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Luxurious Satin Bedroll" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Luxurious_Satin_Bedroll">
                     <description>
-                        Luxurious Satin Bedroll
-                        Common Wondrous Item
-                        Comfortable Climate. The interior of this thin bedroll is
-                        always at the perfect temperature to sleep no matter which
-                        climate you are in. However, the soft pillows and fabrics of the
-                        bedroll do not protect you against extreme heat (Fire damage)
-                        or extreme cold (Frost damage).
-                        Well Rested. When sleeping in this bedroll during a long
-                        rest you regain one extra hit die on top of the usual you regain.
-
-                        Lockcrawler
-
-                        Kobold’s
-                        Lucky Tooth
-
-                        Lightflask
-
-                        Lunar
-                        Scimitar
-
-                        Luxurious
-                        Satin bedroll
-
-                        Relics of the Realms - Volume 1 8 Bonus Action
+                        <p><b>Comfortable Climate.</b> The interior of this thin bedroll is always at the perfect temperature to sleep no matter which climate you are in. However, the soft pillows and fabrics of the bedroll do not protect you against extreme heat (Fire damage) or extreme cold (Frost damage).</p>
+                        <p class="indent"><b>Well Rested.</b> When sleeping in this bedroll during a long rest you regain one extra hit die on top of the usual you regain.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity">Common</set>
                     </setters>
                     <rules>
                     </rules>
@@ -24170,119 +23725,54 @@
                 </element>
                 <element name="Mask of the Witchdoctor" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Mask_of_the_Witchdoctor">
                     <description>
-                        Mask of the Witchdoctor
-                        Very Rare Wondrous Item,
-                        Requires attunement by a Cleric or a Paladin
-                        Voodoo Remedy. As an action you can cast a random spell
-                        from the gem in the mask, the range for all these spells is 60ft.
-                        You can use this feature twice per day Choose a target and Roll
-                        a d4, the result determines the spell you cast.
-                        Witchdoctor Tricks
-                        d4 Spells
-                        1 Charm Person (DC 15)
-                        2 Bestow Curse (DC 15)
-                        3 Polymorph (Frog, DC 15)
-                        4 Hypnotic Pattern (DC 15)
-                        Immunity. You have advantage on saving throws against
-                        the effects of Bestow Curse, Polymorph and Hypnotic Pattern.
-                        Additionally you have resistance against Poison damage and
-                        are immune to Diseases.
+                        <p><b>Voodoo Remedy.</b> As an action you can cast a random spell from the gem in the mask, the range for all these spells is 60ft. You can use this feature twice per day Choose a target and Roll a d4, the result determines the spell you cast.</p>
+                        <h5>Witchdoctor Tricks</h5>
+                        <table>
+                            <th><tr><td>d4</td><td>Spells</td></tr></th>
+                            <tr><td>1</td><td>Charm Person (DC 15)</td></tr>
+                            <tr><td>2</td><td>Bestow Curse (DC 15)</td></tr>
+                            <tr><td>3</td><td>Polymorph (Frog, DC 15)</td></tr>
+                            <tr><td>4</td><td>Hypnotic Pattern (DC 15)</td></tr>
+                        </table>
+                        <p><b>Immunity.</b> You have advantage on saving throws against the effects of Bestow Curse, Polymorph and Hypnotic Pattern. Additionally you have resistance against Poison damage and are immune to Diseases.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="attunement" addition="by a Cleric or a Paladin">true</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Port-a-Boulder" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Port_a_Boulder">
                     <description>
-                        Port-a-Boulder
-                        Uncommon Wondrous Item
-                        Strange Stone. This 1 inch cube of stone weights next to
-                        nothing but it looks like it is very dense. It has a weird dim
-                        blue glow to it.
-                        When it touches any type of earthen surface of at least 5ft.
-                        by 5ft. it rapidly expands to a 10ft. cube of solid rock. Any
-                        creatures in the 10ft. cube are pushed outward and take 1d10
-                        Bludgeoning damage. The 10ft. cube boulder weighs 1500 Ibs
-                        and does not glow.
-                        The rock instantly returns to it’s original size when it is no
-                        longer in contact with an earthen surface. Alternatively it
-                        can be returned to it’s smaller state by speaking a command
-                        word which will make it shrink back to size over the course of
-                        1 minute.
+                        <p><b>Strange Stone.</b> This 1 inch cube of stone weights next to nothing but it looks like it is very dense. It has a weird dim blue glow to it.</p>
+                        <p class="indent">When it touches any type of earthen surface of at least 5ft. by 5ft. it rapidly expands to a 10ft. cube of solid rock. Any creatures in the 10ft. cube are pushed outward and take 1d10 Bludgeoning damage. The 10ft. cube boulder weighs 1500 Ibs and does not glow.</p>
+                        <p class="indent">The rock instantly returns to it’s original size when it is no longer in contact with an earthen surface. Alternatively it can be returned to it’s smaller state by speaking a command word which will make it shrink back to size over the course of 1 minute.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity">Uncommon</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Ruby Evertorch" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Ruby_Evertorch">
                     <description>
-                        Ruby Evertorch
-                        Uncommon Wondrous Item
-                        Lightbringer. This torch can burn infinitely. As a bonus
-                        action you can speak the command word of this torch. Doing
-                        so will make an unnaturally red flame appear. Providing
-                        bright light in a 30ft. radius and dim light for an additional
-                        40ft. If you make a melee attack with the flame active, it deals
-                        1d4 fire damage.
-
-                        Mail of the
-                        Riverlands
-
-                        Mask of the
-                        Witchdoctor
-
-                        Ruby
-                        Evertorch
-
-                        Port--a-Boulder
-
-                        Relics of the Realms - Volume 1 9 Bonus Action
+                        <p><b>Lightbringer.</b> This torch can burn infinitely. As a bonus action you can speak the command word of this torch. Doing so will make an unnaturally red flame appear. Providing bright light in a 30ft. radius and dim light for an additional 40ft. If you make a melee attack with the flame active, it deals 1d4 fire damage.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity">Uncommon</set>
                     </setters>
                     <rules>
                     </rules>
@@ -24291,106 +23781,51 @@
                 </element>
                 <element name="Song" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Song">
                     <description>
-                        Song
-                        Rare Rapier (Finesse, Light) .
-                        Requires attunement.
-                        Damage. 1d8+1 Piercing
-                        Charming. You can use this rapier to cast Charm Person.
-                        The target has to make a Wisdom saving throw (DC 17). The
-                        creature makes the saving throw with advantage if you are
-                        currently fighting it, or it becomes charmed by you until the
-                        spell ends or someone in your party harms it. It will know
-                        it has been charmed when the spell ends. You can use this
-                        feature once every 3 days.
-                        Song and Dance. When you make successful attacks with
-                        both Song and Dance (the dagger of this set), in one round,
-                        you deal an extra 2 Piercing damage with the weapon you
-                        attack with last.
-                        Two of a Kind Attunement to both Song and Dance counts
-                        as a single attunement as they are a set.
+                        <p><b>Charming.</b> You can use this rapier to cast Charm Person. The target has to make a Wisdom saving throw (DC 17). The creature makes the saving throw with advantage if you are currently fighting it, or it becomes charmed by you until the spell ends or someone in your party harms it. It will know it has been charmed when the spell ends. You can use this feature once every 3 days.</p>
+                        <p><b>Song and Dance.</b> When you make successful attacks with both Song and Dance (the dagger of this set), in one round, you deal an extra 2 Piercing damage with the weapon you attack with last.</p>
+                        <p><b>Two of a Kind.</b> Attunement to both Song and Dance counts as a single attunement as they are a set.</p>
                     </description>
                     <setters>
                         <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="rapier">Weapon</set>
+                        <set name="attunement">true</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Rapier</set>
+                        <set name="enhancement">1</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Stalker's Dart" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Stalkers_Dart">
                     <description>
-                        Stalker’s Dart
-                        Uncommon Dart (Finesse, Range, Thrown)
-                        Single use
-                        Damage. 1d4+1 Piercing
-                        Range. 20/60
-                        Mark of the Prey. Upon a succesfull attack this dart releases
-                        an arcane mark. For the next 6 hours, if the creature is within
-                        1000 ft of you, you sense the direction it is in, if it is in motion
-                        you know the direction of it’s movement. This effect can be
-                        dispelled. This is a single use effect.
+                        <p><b>Mark of the Prey.</b> Upon a succesfull attack this dart releases an arcane mark. For the next 6 hours, if the creature is within 1000 ft of you, you sense the direction it is in, if it is in motion you know the direction of it’s movement. This effect can be dispelled. This is a single use effect.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">consumable</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="dart">Weapon</set>
+                        <set name="rarity">Uncommon</set>
+                        <set name="weapon">Dart</set>
+                        <set name="enhancement">1</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Talisman of the Satyr" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Talisman_of_the_Satyr">
                     <description>
-                        Talisman of the Satyr
-                        Uncommon Wondrous Item
-                        Requires attunement by a Bard, Druid or Ranger
-                        Master of the Bow. When you attack a creature that is
-                        within 5ft. range of you with a shortbow, longbow or any
-                        type of crossbow, you do not suffer from disadvantage on the
-                        ranged attack roll. Additionally you gain 10 ft on your range
-                        (minimum and maximum) with these weapons.
-                        Sounds of the Forest. When attuned to this item you gain
-                        proficiency with Panflutes. With a successful Performance
-                        check (DC 15) when playing a panflute, you can attract 1d8
-                        birds from the surroundings. Most types of birds will happily
-                        tweet along to your song.
+                        <p><b>Master of the Bow.</b> When you attack a creature that is within 5ft. range of you with a shortbow, longbow or any type of crossbow, you do not suffer from disadvantage on the ranged attack roll. Additionally you gain 10 ft on your range (minimum and maximum) with these weapons.</p>
+                        <p class="indent"><b>Sounds of the Forest.</b> When attuned to this item you gain proficiency with Panflutes. With a successful Performance check (DC 15) when playing a panflute, you can attract 1d8 birds from the surroundings. Most types of birds will happily tweet along to your song.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity">Uncommon</set>
+                        <set name="attunement" addition="by a Bard, Druid or Ranger">true</set>
                     </setters>
                     <rules>
                     </rules>
@@ -24435,77 +23870,33 @@
                 </element>
                 <element name="Thorn of the North" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Thorn_of_the_North">
                     <description>
-                        Thorn of the North
-                        Rare Longbow
-                        Requires attunement
-                        Damage. 1d8+1 Piercing
-                        Range. 150/600
-                        Flexible Vine. You gain a +1 bonus to attack rolls you make
-                        with this weapon.
-                        Barbed Shots. This bow holds 8 charges, every day at dawn
-                        it regains 1d6+2 charges. Before making an attack with this
-                        weapon you can expend 1 charge to add sharp thorns to the
-                        arrow you are shooting. On a successful attack this you deal
-                        1d4 extra Piercing damage.
+                        <p><b>Flexible Vine.</b> You gain a +1 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Barbed Shots.</b> This bow holds 8 charges, every day at dawn it regains 1d6+2 charges. Before making an attack with this weapon you can expend 1 charge to add sharp thorns to the arrow you are shooting. On a successful attack this you deal 1d4 extra Piercing damage.</p>
                     </description>
                     <setters>
                         <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="longbow">Weapon</set>
+                        <set name="attunement">true</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Longbow</set>
+                        <set name="enhancement">1</set>
+                        <set name="charges">8</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Totem of Tongues" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Totem_of_Tongues">
                     <description>
-                        Totem of Tongues
-                        Uncommon Wondrous Item
-                        Sharp Tongue. You can perform a 10 minute ritual with this
-                        totem. At the end you choose one creature within 10ft. of you
-                        and a language of your choice. The creature gains the ability
-                        to understand and speak this language for 1 hour. You can use
-                        this feature once per long rest.
-
-                        Talisman of
-                        the Satyr
-
-                        Stalker’s
-                        Dart
-
-                        Song
-
-                        The Northern Winds
-
-                        Thorn of the North
-
-                        Relics of the Realms - Volume 1 10 Bonus Action
+                        <p><b>Sharp Tongue.</b> You can perform a 10 minute ritual with this totem. At the end you choose one creature within 10ft. of you and a language of your choice. The creature gains the ability to understand and speak this language for 1 hour. You can use this feature once per long rest.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity">Uncommon</set>
                     </setters>
                     <rules>
                     </rules>
@@ -24545,36 +23936,17 @@
                 </element>
                 <element name="Twin Hook Swords" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Twin_Hook_Swords">
                     <description>
-                        Twin Hook Swords
-                        Uncommon Shortswords (Finesse, Light, Dual Wield)
-                        Damage. 1d6 Slashing (per sword)
-                        Sweep the Leg. When you make a succesfull attack with
-                        one of these swords, you can choose to try and hook one
-                        of the legs of a creature as a bonus action. Make a Athletics
-                        check contested against the creature’s Athletics check. If you
-                        succeed you deal an extra 1d4 Piercing damage and pull the
-                        creature prone. If you fail the contest the creature remains to
-                        stand upright. This feature only works on bipedal creatures or
-                        winged flying creatures.
-                        Climber’s Hook. You can use the swords to anchor yourself
-                        when climbing vertical surfaces. This grants you advantage
-                        on Strength (Athletics) checks for climbing.
+                        <!--Dual Wield-->
+                        <p><b>Sweep the Leg.</b> When you make a succesfull attack with one of these swords, you can choose to try and hook one of the legs of a creature as a bonus action. Make a Athletics check contested against the creature’s Athletics check. If you succeed you deal an extra 1d4 Piercing damage and pull the creature prone. If you fail the contest the creature remains to stand upright. This feature only works on bipedal creatures or winged flying creatures.</p>
+                        <p><b>Climber’s Hook.</b> You can use the swords to anchor yourself when climbing vertical surfaces. This grants you advantage on Strength (Athletics) checks for climbing.</p>
                     </description>
                     <setters>
                         <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="shortsword (two swords)">Weapon</set>
+                        <set name="rarity">Uncommon</set>
+                        <set name="weapon">Shortsword</set>
                     </setters>
                     <rules>
                     </rules>
@@ -24614,39 +23986,16 @@
                 </element>
                 <element name="Violin of the Afterlife" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Violin_of_the_Afterlife">
                     <description>
-                        Violin of the Afterlife
-                        Rare Wondrous Item (Musical Instrument, Viol)
-                        Requires attunement and proficiency with Viols
-                        Language of the Dead. A bard casting spells against any
-                        Undead creature using this instrument makes all spell attack
-                        rolls with advantage.
-                        Shriek of the Afterlife. As an action you can play a
-                        succession of notes on the violin that cause a mist of black
-                        smoke to erupt from the violin. The mist takes the form of
-                        a face and shrieks a terrifying scream. Every creature you
-                        choose within 30 feet of you must succeed on a Wisdom
-                        saving throw (DC 15) or be frightened of you. The creature can
-                        repeat it’s Wisdom saving throw at the beginning of it’s turn
-                        if it does not have a line of sight on you. A frightened creature
-                        has disadvantage on all Ability checks, attack rolls and can’t
-                        willingly move closer to you. You can use this feature only
-                        once every 3 days.
+                        <p><b>Language of the Dead.</p> A bard casting spells against any Undead creature using this instrument makes all spell attack rolls with advantage.</p>
+                        <p class="indnet"><b>Shriek of the Afterlife.</b> As an action you can play a succession of notes on the violin that cause a mist of black smoke to erupt from the violin. The mist takes the form of a face and shrieks a terrifying scream. Every creature you choose within 30 feet of you must succeed on a Wisdom saving throw (DC 15) or be frightened of you. The creature can repeat it’s Wisdom saving throw at the beginning of it’s turn if it does not have a line of sight on you. A frightened creature has disadvantage on all Ability checks, attack rolls and can’t willingly move closer to you. You can use this feature only once every 3 days.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity" adition="Musical Instrument, Viol">Rare</set>
+                        <set name="attunement" addition="and proficiency with Viols">true</set>
                     </setters>
                     <rules>
                     </rules>
@@ -24664,25 +24013,6 @@
                         a short rest and can spend hit die to regain hit points. All hit
                         dice that they roll a one or two on may be rerolled. A creature
                         can only benefit from this effect once per long rest.
-
-                        Violin of the
-                        Afterlife
-
-                        Twin Hook
-                        Swords
-
-                        Twin Serpent Staff
-
-                        Wand of
-                        Catnap
-
-                        Totem of
-                        Tongues
-
-                        Tunic of the
-                        Warmage’s Apprentice
-
-                        Relics of the Realms - Volume 1 11 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -24705,118 +24035,53 @@
                 </element>
                 <element name="Waterwalkers" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Waterwalkers">
                     <description>
-                        Waterwalkers
-                        Uncommon Wondrous Item
-                        Liquid to Solid. As a bonus action you can
-                        activate these boots to walk on any surface of water as if it
-                        were solid ground. If you decide you want to swim, you can
-                        spend a bonus action to de-activate the boots.
-                        If the body of water has waves you may have to make a
-                        Dexterity saving throw to keep yourself steady. The DC for
-                        this saving throw depends on the intensity of the waves
-                        and is at your GM’s discretion. If you fail the save the boots
-                        deactivate and you fall down into the water.
-                        Aquatic Booster Boots. These boots propel you forward
-                        when you are underwater. You receive a 10ft. bonus to your
-                        swimming speed.
+                        <p><b>Liquid to Solid.</b> As a bonus action you can activate these boots to walk on any surface of water as if it were solid ground. If you decide you want to swim, you can spend a bonus action to de-activate the boots.</p>
+                        <p class="indent">If the body of water has waves you may have to make a Dexterity saving throw to keep yourself steady. The DC for this saving throw depends on the intensity of the waves and is at your GM’s discretion. If you fail the save the boots deactivate and you fall down into the water.</p>
+                        <p class="indent"><b>Aquatic Booster Boots.</b> These boots propel you forward when you are underwater. You receive a 10ft. bonus to your swimming speed.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity">Uncommon</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Wavecaller" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Wavecaller">
                     <description>
-                        Wavecaller
-                        Rare Wondrous Item (Musical Instrument, Horn)
-                        Song of the Sea. When sounding this horn at sea (or on an
-                        ocean) a gentle wave pushes your vessel forward, increasing
-                        the maximum speed of the vessel by 1 mile per hour for 12
-                        hours.
-                        Fog of War. As an action you summon a cloud of fog. A 50ft.-
-                        radius sphere of fog appears within 300ft. of you until a wind
-                        of at least 10 miles per hour blows it away, or after 1 hour has
-                        passed. The fog is centered on a point you choose, spreading
-                        around corners and heavily obscuring the area it fills. You can
-                        use this feature once per day.
+                        <p><b>Song of the Sea.</b> When sounding this horn at sea (or on an ocean) a gentle wave pushes your vessel forward, increasing the maximum speed of the vessel by 1 mile per hour for 12 hours.</p>
+                        <p class="indent"><b>Fog of War.</b> As an action you summon a cloud of fog. A 50ft.-radius sphere of fog appears within 300ft. of you until a wind of at least 10 miles per hour blows it away, or after 1 hour has passed. The fog is centered on a point you choose, spreading around corners and heavily obscuring the area it fills. You can use this feature once per day.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity" addition="Musical Instrument, Horn">Rare</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Willows Whisper" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Willows_Whisper">
                     <description>
-                        Willow’s Whisper
-                        Uncommon Wondrous Item (Musical Instrument, Flute)
-                        Requires proficiency with Flutes
-                        Melody of the Willow’s Bark. Once per day (as an action)
-                        you can play a soft song on this flute, laced with the healing
-                        essence of the willow’s bark. Anyone within a 30ft. radius
-                        that can hear you play receives 1d8+2 healing. This song also
-                        cures most fevers and relieves pain.
-                        Way of the Willows. Once per week you can cast the spell
-                        Tree Stride. You gain the ability to enter a tree and move from
-                        inside it to inside another tree of the same kind within 500
-                        feet. Both trees must be living and at least the same size as
-                        you. You must use 5 feet of movement to enter a tree. You
-                        instantly know the location of all other trees of the same kind
-                        within 500 feet and, as part of the move used to enter the tree,
-                        can either pass into one of those trees or step out of the tree
-                        you’re in. You appear in a spot of your choice within 5 feet of
-                        the destination tree, using another 5 feet of movement. If you
-                        have no movement left, you appear within 5 feet of the tree
-                        you entered. You can use this ability once per round for the
-                        duration. You must end each turn outside a tree.
+                        <p><b>Melody of the Willow’s Bark.</b> Once per day (as an action) you can play a soft song on this flute, laced with the healing essence of the willow’s bark. Anyone within a 30ft. radius that can hear you play receives 1d8+2 healing. This song also cures most fevers and relieves pain.</p>
+                        <p class="indnet"><b>Way of the Willows.</b> Once per week you can cast the spell Tree Stride. You gain the ability to enter a tree and move from inside it to inside another tree of the same kind within 500 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You instantly know the location of all other trees of the same kind within 500 feet and, as part of the move used to enter the tree, can either pass into one of those trees or step out of the tree you’re in. You appear in a spot of your choice within 5 feet of the destination tree, using another 5 feet of movement. If you have no movement left, you appear within 5 feet of the tree you entered. You can use this ability once per round for the duration. You must end each turn outside a tree.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wondrous Items</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type">Wondrous Item</set>
+                        <set name="rarity" addition="Musical Instrument, Flute">Very Rare</set>
+                        <set name="attunement" addition="Requires proficiency with Flutes"></set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
             <!--Relics of the Realms - Volume 2-->
+                <!--
                 Ardent Enforcer Very Rare Warhammer
                 <element name="" type="Magic Item" source="Relics of the Realms - Volume 2" id="ID_BONUSACTION_ROTR2_MAGIC_ITEM_">
                     <description>
@@ -24956,20 +24221,6 @@
                         by 3ft. The interior of the chest however can expand to a 10ft.
                         cube. The chest can not close if any living creature is inside of
                         it. Any spells cast inside of the chest have no effect.
-
-                        Ardent
-                        Enforcer
-
-                        Arm of the
-                        fire Genasi
-                        Veteran
-
-                        Bifocals of the Basilisk
-
-                        Black Market
-                        Exchange Chest
-
-                        Relics of the Realms - Volume 2 2 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -25162,17 +24413,6 @@
                         Leaves Purple Poison
                         Sand Yellow Lightning
                         Snow Blue Cold
-
-                        Chop
-
-                        Delilah
-
-                        Dragon
-                        Satchel
-
-                        Circlet of the Phoenix Curse Jar
-
-                        Relics of the Realms - Volume 2 3 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -25362,19 +24602,6 @@
                         will no longer grow any berries. The berries will only start
                         growing again if the bush is watered with water from the
                         Feywild.
-
-                        Frost Reaper
-
-                        Duality Blade
-
-                        Gapcloser 2000
-
-                        Goodberry Sapling
-
-                        Earring
-                        of Whisper
-
-                        Relics of the Realms - Volume 2 4 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -25519,17 +24746,6 @@
                         with these robes. You can use this feature twice per long rest.
                         Ashes to Ashes. You can cast the spell Firestorm using this
                         robe. You can use this feature once per long rest.
-
-                        La Guillotina
-
-                        Luminous Vestments
-                        of the Phoenix
-
-                        Lash of the Hydra
-
-                        L’Arcana 23
-
-                        Relics of the Realms - Volume 2 5 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -25677,17 +24893,6 @@
                         equal to 10+ your level. When the spell ends, all the creatures
                         lose any remaining temporary hit points. You can use this
                         feature once per day.
-
-                        Mantle of Vitalis
-                        Mountainguard’s
-                        Greataxe
-
-                        Mask of the
-                        Raven Disciple
-
-                        Map Beacons
-
-                        Relics of the Realms - Volume 2 6 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -25873,19 +25078,6 @@
                         end of your next turn. Any creature that willingly enters the
                         portal instantly appears within 5 feet of the destination or in
                         the nearest unoccupied space.
-
-                        Plate of the Sun and Stars
-
-                        Permafrost
-                        Axe
-
-                        Nightliner
-
-                        Orb of the Dryad
-
-                        Pocket Portal
-
-                        Relics of the Realms - Volume 2 7 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -26084,13 +25276,6 @@
                         Cross. Casts a small display of Prestidigitation fireworks
                         when stepped on by any creature. Charisma (Perfomance)
                         checks by 3.
-
-                        Repurposed
-                        Eyestalk
-
-                        Ring of the Fey Alabaster White Bright Yellow Charming Pink
-
-                        Relics of the Realms - Volume 2 8 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -26515,16 +25700,6 @@
                         your hands become one with the weapon. Nothing short of a
                         Wish spell will make you able to remove the gauntlets from
                         your hands.
-
-                        Vine Green Warm Orange Sanctified
-                        Gilded Skull
-
-                        Sapphire
-                        Claws
-
-                        Swamp Green
-
-                        Relics of the Realms - Volume 2 10 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -26675,17 +25850,6 @@
                         hour. You can use this feature once per day. If the shield has
                         been in the elemental plane of air for over a day this feature
                         can be used on any other plane and turns it into a Rare Shield.
-
-                        Scout’s Arrow
-                        Shadowborn’s Second Skin
-
-                        Shadowglass
-                        Dagger
-
-                        Shield
-                        of the Roc
-
-                        Relics of the Realms - Volume 2 11 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -26893,7 +26057,9 @@
                     <rules>
                     </rules>
                 </element>
+                -->
             <!--Relics of the Realms - Volume 3-->
+                <!--
                 Amulet of the Huntress Rare Wondrous Item (Jewelry)
                 <element name="" type="Magic Item" source="Relics of the Realms - Volume 3" id="ID_BONUSACTION_ROTR3_MAGIC_ITEM_">
                     <description>
@@ -27023,18 +26189,6 @@
                         rest. Additionally you gain temporary hit points equal to 10 +
                         your character level for 24 hours whenever you finish a long
                         rest.
-
-                        Amulet of the Huntress
-
-                        Amulet of the Warmage
-
-                        Angel’s
-                        Sorrow
-
-                        Armor of
-                        Atomlesztes
-
-                        Relics of the Realms - Volume 3 2 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -27221,19 +26375,6 @@
                         swirl around you as you move. No attack of opportunity can
                         be made against you while this is active. This effect lasts for 3
                         rounds and can be used up to 2 times per day.
-
-                        Axe of the
-                        Chromatic Queen
-
-                        Cloak of the First Snow
-                        Blade of the
-                        Corrupted Lotus
-
-                        Collar of the Chromatic Queen
-
-                        Beauty Sleep Mask
-
-                        Relics of the Realms - Volume 3 3 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -27383,18 +26524,6 @@
                         advantage. When you first grapple the creature it receives 1d6
                         Fire damage. The creature receives another 1d6 Fire damage at
                         the end of each of its turns if it remains grappled.
-
-                        Coin of Draconic Luck
-
-                        Downfall
-
-                        Edge of the
-                        Zephyr
-
-                        Efreeti’s
-                        Kusarigama
-
-                        Relics of the Realms - Volume 3 4 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -27520,16 +26649,6 @@
                         seconds.
                         5-6 Light in a 10ft. radius around you seems to
                         darken for a few seconds
-
-                        Elderam’s Gift
-
-                        Elianim
-                        The Dawnspark
-
-                        Fang of the
-                        Gatekeeper
-
-                        Relics of the Realms - Volume 3 5 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -27680,20 +26799,6 @@
                         this weapon.
                         Over-axe-tend. Before making an attack roll with this
                         weapon you can choose to take a -3 penalty on your attack
-
-                        Gauntlet
-                        of Adni
-
-                        Gauntlet
-                        of Vesz
-
-                        Greataxe
-                        of the Hills
-
-                        Gloves of the
-                        Verdant Sentry
-
-                        Relics of the Realms - Volume 3 6 Bonus Action
                         roll to add 5ft. of reach. Making the reach of this weapon 10ft.
                     </description>
                     <setters>
@@ -27879,23 +26984,6 @@
                         it doesn’t make a saving throw, it simply withers and dies.
                         This feature has no effect on Undead or Constructs. You can
                         use this feature once per long rest.
-
-                        Halberd of the
-                        Northern Tribe
-
-                        Hood of the
-                        Dragonturtle
-
-                        Javelin
-                        of Blight
-
-                        Horselord’s
-                        Curved Blade
-
-                        Inawanic
-                        Shortbow
-
-                        Relics of the Realms - Volume 3 7 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -28078,20 +27166,6 @@
                         statuette form.
                         Dealmaker’s Chair. While sitting on the chair you can
                         neither be Charmed nor be put to sleep by magic. Additionally
-
-                        Nomad’s
-                        Satin Scarf
-
-                        Marble Mallet
-
-                        Onyx Throne
-                        Statuette
-
-                        Mask of the Martyr
-
-                        Merfolk Blade
-
-                        Relics of the Realms - Volume 3 8 Bonus Action
                         you gain Truesight up to 20ft. and have advantage on Insight,
                         Persuasion and Intimidation checks.
                     </description>
@@ -28245,17 +27319,6 @@
                         spectral bees that attack one creature of your choice that you
                         can see within 90 ft. Make a ranged spell attack. On a hit,
                         the creature takes 3d6 Piercing damage and has to make a
-
-                        Primal Staff of the Queen Bee
-                        Phoenix Arrow
-                        Piercer of the Purple Rose
-
-                        Piercer of the Purple Rose
-
-                        Pit Fiend’s
-                        Bladed Fist
-
-                        Relics of the Realms - Volume 3 9 Bonus Action
                         Constitution saving throw (DC 15) or suffer an additional 2d4
                         Poison damage. You can use this feature twice per long rest.
                     </description>
@@ -28446,18 +27509,6 @@
                         Flaming Failure. If you roll a 1 on your attack roll you must
                         roll a d6. On another 1 the handle overheats and the flame
                         blade fizzles out for 1d4 minutes.
-
-                        Quill of Lies
-
-                        Ring of Divination
-
-                        Searing Edge
-
-                        Quiver of
-                        the Forest Robe of the
-                        Warmage
-
-                        Relics of the Realms - Volume 3 10 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -28648,23 +27699,6 @@
                         throw (DC 14). On a failure you do not gain the benefits of the
                         rest as your dreams are filled with visions of the souls. The DC
                         increases by one for every extra charge the ring holds.
-
-                        Tangleseed
-                        Arrow
-
-                        Spire of the
-                        Warmage
-
-                        Spear of
-                        Shifting Sands
-
-                        Spiritwalker’s
-                        Flail
-
-                        The Black
-                        Seal
-
-                        Relics of the Realms - Volume 3 11 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -28816,20 +27850,6 @@
                         per long rest.
                         Energizing Blow. Whenever you deal a critical hit with
                         this hammer you regain one use of Invocation of Vitality.
-
-                        Tightrope
-                        Treads
-                        Warden’s
-                        Hammer
-                        of Life
-
-                        Volantes
-                        Vitaelum
-
-                        Trenox
-                        Harbinger of Fate
-
-                        Relics of the Realms - Volume 3 12 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -28984,31 +28004,9 @@
                     <rules>
                     </rules>
                 </element>
+                -->
             <!--Relics of the Realms - Volume 4-->
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 4" id="ID_BONUSACTION_ROTR4_MAGIC_ITEM_">
-                    <description>
-                    </description>
-                    <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
-                    </setters>
-                    <rules>
-                    </rules>
-                </element>
-                
-                <!---->
+                <!--
                 Alchemist's Syringe Common Melee Weapon
                 <element name="" type="Magic Item" source="Relics of the Realms - Volume 4" id="ID_BONUSACTION_ROTR4_MAGIC_ITEM_">
                     <description>
@@ -31172,32 +30170,9 @@
                     <rules>
                     </rules>
                 </element>
-
+                -->
             <!--Relics of the Realms - Volume 5-->
-                1
-                <element name="" type="Magic Item" source="Relics of the Realms - Volume 2" id="ID_BONUSACTION_ROTR2_MAGIC_ITEM_">
-                    <description>
-                    </description>
-                    <!--setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
-                    </setters-->
-                    <rules>
-                    </rules>
-                </element>
-                <!--****************************************************************************************************-->
+                <!--
                 <element name="Astralis - The Eye of the Universe" type="Magic Item" source="Relics of the Realms - Volume 5" id="ID_BONUSACTION_ROTR5_MAGIC_ITEM_ASTALIS_THE_EYE_OF_THE_UNIVERSE">
                     <description>
                         <p><b>Arcana Astra. </b>You gain a +1 bonus to your spell attack modifier and your spell save DC.</p>
@@ -31420,21 +30395,6 @@
                         saving throw (DC 17). On a failed save they are pushed 5ft.
                         back and knocked prone. You can use this feature once per
                         round and 3 times per long rest.
-
-                        Banshee Arrow
-                        Bola Arrow
-                        Barbazu’s Glyphed Glaive
-
-                        Cannonshot
-                        Sling
-
-                        Boots of the
-                        Fiendish Deceiver
-
-                        Brineheart’s
-                        Favorite Coat
-
-                        Relics of the Realms - Volume 5 3 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -31581,20 +30541,6 @@
                         If the compartment is empty, filled with any other type of
                         material, or material taken from another plane of existence,
                         the needle slowly spins around aimlessly.
-
-                        Capt’n Mike’s
-                        Peg Leg
-
-                        Cloak of
-                        Solitude
-
-                        Cloak of the
-                        Scarlet Macaw
-
-                        Compass of
-                        the Homesick
-
-                        Relics of the Realms - Volume 5 4 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -31740,19 +30686,6 @@
                         revolver and decrease the damage dealt by a projectile from
                         either a ranged weapon attack or a ranged spell attack by
                         2d8+3. You can use this feature twice per long rest.
-
-                        Cursebreaker’s
-                        Cutlass
-
-                        El’zharis
-                        Hope’s End
-
-                        Dubloonblaster
-
-                        Eldrinova
-                        Ruin of the Stars
-
-                        Relics of the Realms - Volume 5 5 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -31942,23 +30875,6 @@
                         Intelligence score equal to half your Intelligence modifier
                         (rounded up). This bonus lasts for 12 hours, you can use this
                         feature once per long rest.
-
-                        Gauntlet
-                        of Midas
-
-                        Headmaster’s
-                        Ring
-
-                        Forceclasp
-                        Glypherine
-
-                        Frostnova
-                        Glypherine
-
-                        Flashfire
-                        Glypherine
-
-                        Relics of the Realms - Volume 5 6 Bonus Action
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -32104,20 +31020,6 @@
                         Force damage and lose concentration on any spells they are
                         casting. If the target failed the save by 5 or more they are also
                         unable to cast spells until the end of their next turn.
-
-                        Katana of the
-                        Crimson Shogun
-
-                        Kraken Seer’s
-                        Eyepatch
-
-                        Lute of the
-                        Ruby Verdict
-
-                        Manablock
-                        Arrow
-
-                        Relics of the Realms - Volume 5 7 Bonus Action
                     </description>
                     <!--setters>
                         <set name="keywords"></set>
@@ -32297,26 +31199,6 @@
                         (Finesse, Light, Range, Thrown) do not apply in this form. The
                         weapon remains in this form until you speak the command
                         word again.
-
-                        Manablock
-                        Arrow
-
-                        Ol’
-                        Shipwrecker
-
-                        Powerpunch
-                        Arrow
-
-                        Remnant of
-                        the Defeated
-
-                        Plate of the
-                        Demonstalker
-
-                        Poisonburst
-                        Glypherine
-
-                        Relics of the Realms - Volume 5 8 Bonus Action
                     </description>
                     <!--setters>
                         <set name="keywords"></set>
@@ -32472,17 +31354,6 @@
                         1) and regain all uses when you finish a long rest. Additionally
                         you are not impaired by extreme (non-magical) weather
                         conditions such as storms, blizzards and tornadoes.
-
-                        Ring of the
-                        lone Captain
-
-                        Satchel of
-                        Sustenance
-                        Scepter of the
-                        Blue Nebula Ring of the
-                        Everlasting Eclipse
-
-                        Relics of the Realms - Volume 5 9 Bonus Action
                     </description>
                     <!--setters>
                         <set name="keywords"></set>
@@ -32638,20 +31509,6 @@
                         disadvantage on all saving throws and attack rolls until the
                         end of their next turn. On a successful save they only take half
                         damage. You can use this feature once per long rest.
-
-                        Seafarer’s
-                        Maptable
-
-                        Sinistorix
-                        The Iron Corrupter
-
-                        Silver Tongued
-                        Lyre
-
-                        Shadow of
-                        the Mimic
-
-                        Relics of the Realms - Volume 5 10 Bonus Action
                     </description>
                     <!--setters>
                         <set name="keywords"></set>
@@ -32797,19 +31654,6 @@
                         and all creatures of your choosing that travel with you are not
                         affected by any negative side-effects this travel may have on
                         you (e.g. loss of memory).
-
-                        Solarex
-                        The Piercer of Suns
-
-                        Spider Bullets
-
-                        Spyglass of
-                        the Seaspecter
-
-                        Suit of the
-                        Astral Overseer
-
-                        Relics of the Realms - Volume 5 11 Bonus Action
                     </description>
                     <!--setters>
                         <set name="keywords"></set>
@@ -32927,15 +31771,6 @@
                         number of hit points the creature had at the beginning of your
                         turn. You can only heal in this way from a single creature per
                         turn and can use this feature three times per long rest.
-
-                        Suit of the
-                        Immortal Judge
-                        Suit of the
-                        Eternal Storm
-
-                        Suit of the
-                        Golden Shadow
-                        Relics of the Realms - Volume 5 12 Bonus Action
                     </description>
                     <!--setters>
                         <set name="keywords"></set>
@@ -33097,83 +31932,7 @@
                     <rules>
                     </rules>
                 </element>
-
-
-                
-                
-                
-
-                
-                
-                
-                
-                
-                
-
-                
-                
-                
-
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-
-                
-                
-                
-                
-                
-                
-                
-
-                
-                
-
-                
-                
-                
-                
-                
-
-                
-                
-                
-                
-                
-
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-
+                -->
             <!--Relics of the Realms - Volume 6-->
         <!--Catilus-->
     <!--The DMs Guild-->
