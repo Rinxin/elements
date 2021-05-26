@@ -23109,7 +23109,7 @@
                 <element name="Blade of the Empire" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BLADE_OF_THE_EMPIRE">
                     <description>
                         <p><b>Military Precision.</b> You gain a +1 bonus to attack rolls you make with this weapon.</p>
-                        <p class="indent"<b>Lawkeeper.</b> If you are of a Lawful alignment you deal an extra 1d6 Slashing damage to creatures with a Chaotic alignment whenever you make a successful attack using this sword.</p>
+                        <p class="indent"><b>Lawkeeper.</b> If you are of a Lawful alignment you deal an extra 1d6 Slashing damage to creatures with a Chaotic alignment whenever you make a successful attack using this sword.</p>
                     </description>
                     <setters>
                         <set name="keywords"></set>
