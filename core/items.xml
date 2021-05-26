@@ -23340,39 +23340,19 @@
                 </element>
                 <element name="Explosive Arrow" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Explosive_Arrow">
                     <description>
-                        Explosive Arrow
-                        Rare Ammunition (Longbow, Shortbow)
-                        Single Use
-                        Red Button. This arrow deals 1d4 (+ Dexterity modifier)
-                        Bludgeoning damage to a single target upon impact
-                        regardless of what bow it is shot from. All creatures in a 10ft.
-                        radius from the point of impact have to make a Dexterity
-                        saving throw (DC 18) or take 2d8 Thunder and 2d8 Fire
-                        damage and be knocked prone. On a successful save they
-                        remain standing and only take half damage
-                        Delayed Blast. As a bonus action before firing, you can twist
-                        the head of this arrow. In doing so you can set a timer for the
-                        blast to go off. You can choose a time between a minimum of 6
-                        and a maximum of 30 seconds with increments of 6 seconds.
+                        <p>Single Use</p>
+                        <p><b>Red Button.</b> This arrow deals 1d4 (+ Dexterity modifier) Bludgeoning damage to a single target upon impact regardless of what bow it is shot from. All creatures in a 10ft. radius from the point of impact have to make a Dexterity saving throw (DC 18) or take 2d8 Thunder and 2d8 Fire damage and be knocked prone. On a successful save they remain standing and only take half damage.</p>
+                        <p><b>Delayed Blast.</b> As a bonus action before firing, you can twist the head of this arrow. In doing so you can set a timer for the blast to go off. You can choose a time between a minimum of 6 and a maximum of 30 seconds with increments of 6 seconds.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keyword">consumable</set>
+                        <set name="category">Ammunition</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type" addition="arrow">Weapon</set>
+                        <set name="rarity">Rare</set>
+                        <set name="stackable">true</set>
                     </setters>
-                    <rules>
-                    </rules>
                 </element>
                 <element name="Forgemaster's Warhammer" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Forgemasters_Warhammer">
                     <description>
@@ -23409,78 +23389,37 @@
                 </element>
                 <element name="Grapple Arrow" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Grapple_Arrow">
                     <description>
-                        Grapple Arrow
-                        Common Ammunition (Longbow, Shortbow)
-                        Single Use
-                        Hooked. When you make a successful attack using this arrow
-                        it lodges into your target and grabs into it with metal hooks
-                        dealing an extra 1d4 damage.
-                        Ropeshot. You can attach up to 90 feet of rope to this arrow
-                        without affecting the shot. If you successfully attack a small,
-                        medium, large or huge creature with this arrow it has to make
-                        a Athletics check against your Athletics check. On a failure it
-                        is considered Grappled. You can choose to climb the rope. If
-                        the arrow holds your weight, the Athletics DC for the climb
-                        and any (dis)advantage are at the DM’s discretion.
+                        <p>Single Use</p>
+                        <p><b>Hooked.</b> When you make a successful attack using this arrow it lodges into your target and grabs into it with metal hooks dealing an extra 1d4 damage.</p>
+                        <p><b>Ropeshot.</b> You can attach up to 90 feet of rope to this arrow without affecting the shot. If you successfully attack a small, medium, large or huge creature with this arrow it has to make a Athletics check against your Athletics check. On a failure it is considered Grappled. You can choose to climb the rope. If the arrow holds your weight, the Athletics DC for the climb and any (dis)advantage are at the DM’s discretion.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keyword">consumable</set>
+                        <set name="category">Ammunition</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type" addition="arrow">Weapon</set>
+                        <set name="rarity">Common</set>
+                        <set name="stackable">true</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Gravedigger's Staff" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Gravediggers_Staff">
                     <description>
-                        Gravedigger’s Staff
-                        Rare Staff (Cursed),
-                        Requires attunement by a Cleric, Wizard, Sorcerer or Warlock
-                        Final Hour. You can cast the cantrip Toll the Dead using this
-                        staff. You can cast use this feature 3 times per long rest.
-                        Buried Alive. As an action you can cause the ground of a 5ft.
-                        by 10ft. rectangle (6ft. deep) to dissolve. Creatures standing
-                        in the area have to make a Dexterity saving throw. On a
-                        failed save they fall into the grave and take 6d10 Bludgeoning
-                        damage as the earth reappears and buries them. A buried
-                        creature is considered blinded, restrained and has total cover.
-                        It can escape by magical means, excavation by an ally (1
-                        minute of digging) or a DC 20 strength check. The creature
-                        has air for (1+Constitution Modifier) minutes. On a successful
-                        save they only take half damage. You can use this feature once
-                        per day.
-                        Grave Consequences (Curse). Whenever you deal a killing
-                        blow, make a Wisdom saving throw (DC 15), on a fail the
-                        spirit of the gravedigger compels you to bury the creature you
-                        have killed if it is not yet buried. Ignoring this will cause 1d8
-                        Psychic damage every hour.
+                        <p><b>Final Hour.</b> You can cast the cantrip Toll the Dead using this staff. You can cast use this feature 3 times per long rest.</p>
+                        <p><b>Buried Alive.</b> As an action you can cause the ground of a 5ft. by 10ft. rectangle (6ft. deep) to dissolve. Creatures standing in the area have to make a Dexterity saving throw. On a failed save they fall into the grave and take 6d10 Bludgeoning damage as the earth reappears and buries them. A buried creature is considered blinded, restrained and has total cover. It can escape by magical means, excavation by an ally (1 minute of digging) or a DC 20 strength check. The creature has air for (1 + Constitution Modifier) minutes. On a successful save they only take half damage. You can use this feature once per day.</p>
+                        <p><b>Grave Consequences (Curse).</b> Whenever you deal a killing blow, make a Wisdom saving throw (DC 15), on a fail the spirit of the gravedigger compels you to bury the creature you have killed if it is not yet buried. Ignoring this will cause 1d8 Psychic damage every hour.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Staffs</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="4">4 lb.</set>
+                        <set name="type">Staff</set>
+                        <set name="rarity" addition="cursed">Rare</set>
+                        <set name="slot">onehand</set>
+                        <set name="weapon">Quarterstaff</set>
+                        <set name="attunement" addition="by a Cleric, Sorcerer, Warlock, or Wizard">true</set>
                     </setters>
                     <rules>
                     </rules>
@@ -23535,31 +23474,17 @@
                 </element>
                 <element name="Injection Arrow" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Injection_Arrow">
                     <description>
-                        Injection Arrow
-                        Uncommon Ammunition (Longbow, Shortbow)
-                        Thin Needle. When firing this arrow you may choose to deal
-                        the normal damage (of the bow it is shot from) or deal only 1
-                        Piercing damage, as you aim for a soft spot on your target.
-                        Reservoir. You can fill the reservoir with one potion, poison
-                        or other liquid. It is injected directly into your target upon
-                        a hit, any effects take immediate effect. Filling the reservoir
-                        takes one minute.
+                        <p><b>Thin Needle.</b> When firing this arrow you may choose to deal the normal damage (of the bow it is shot from) or deal only 1 Piercing damage, as you aim for a soft spot on your target.</p>
+                        <p><b>Reservoir.</b> You can fill the reservoir with one potion, poison or other liquid. It is injected directly into your target upon a hit, any effects take immediate effect. Filling the reservoir takes one minute.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keyword">consumable</set>
+                        <set name="category">Ammunition</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type" addition="arrow">Weapon</set>
+                        <set name="rarity">Uncommon</set>
+                        <set name="stackable">true</set>
                     </setters>
                     <rules>
                     </rules>
@@ -23676,32 +23601,19 @@
                 </element>
                 <element name="Mail of the Riverlands" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Mail_of_the_Riverlands">
                     <description>
-                        Mail of the Riverlands
-                        Common Medium Armor
-                        Requires attunement
-                        AC. 14
-                        Scales of the Trout. This armor does not weigh you down
-                        in water and even makes you a more potent swimmer. Your
-                        movement speed when swimming is not halved. Additionally
-                        you make Athletics checks for swimming with advantage.
+                       <p><b>Scales of the Trout.</b> This armor does not weigh you down in water and even makes you a more potent swimmer. Your movement speed when swimming is not halved. Additionally you make Athletics checks for swimming with advantage.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Magic Armor</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="slot">body</set>
+                        <set name="type" addition="Hauberk">Armor</set>
+                        <set name="rarity">Common</set>
+                        <set name="armor">Hauberk</set>
+                        <set name="attunement">true</set>
                     </setters>
                     <rules>
+                        <stat name="speed:swim" value="speed" bonus="base" />
                     </rules>
                 </element>
                 <element name="Mask of the Witchdoctor" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Mask_of_the_Witchdoctor">
@@ -23813,38 +23725,19 @@
                 </element>
                 <element name="The Northern Winds" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_The_Northern_Winds">
                     <description>
-                        The Northern Winds
-                        Very Rare Staff
-                        Requires attunement by a Druid, Monk, Ranger, Sorcerer or Wizard
-                        Arctic Storm. A swirling storm of glittering ice appears
-                        within a 20ft. tall 50ft. radius cilinder centered on a point
-                        you can see within a 120ft. range. When a creature enters the
-                        storm they have to make a constitution saving throw
-                        (DC 18). On a failed save they take 3d6 Frost damage, on a
-                        successful save the damage is halved. Every time a creature
-                        ends it’s round in the storm they repeat the saving throw The
-                        effect lasts for 1 minute and requires concentration. You can
-                        use this feature once per day.
-                        Go with the Wind. You can cast the spell Wind Walk once
-                        per long rest from this staff.
-                        Frozen Fingers. When holding this staff in at least one hand
-                        you are resistant against Frost damage.
+                        <p><b>Arctic Storm.</b> A swirling storm of glittering ice appears within a 20ft. tall 50ft. radius cilinder centered on a point you can see within a 120ft. range. When a creature enters the storm they have to make a constitution saving throw (DC 18). On a failed save they take 3d6 Frost damage, on a successful save the damage is halved. Every time a creature ends it’s round in the storm they repeat the saving throw The effect lasts for 1 minute and requires concentration. You can use this feature once per day.</p>
+                        <p><b>Go with the Wind.</b> You can cast the spell Wind Walk once per long rest from this staff.</p>
+                        <p><b>Frozen Fingers.</b> When holding this staff in at least one hand you are resistant against Frost damage.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Staffs</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="4">4 lb.</set>
+                        <set name="type">Staff</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="slot">onehand</set>
+                        <set name="weapon">Quarterstaff</set>
+                        <set name="attunement" addition="by a Druid, Monk, Ranger, Sorcerer, or Wizard">true</set>
                     </setters>
                     <rules>
                     </rules>
@@ -23884,36 +23777,19 @@
                 </element>
                 <element name="Tunic of the Warmage's Apprentice" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Tunic_of_the_Warmages_Apprentice">
                     <description>
-                        Tunic of the Warmage’s Apprentice
-                        Very Rare Armor (Light)
-                        Requires attunement by a Spellcaster
-                        AC. 13 + Dexterity modifier
-                        Spell Infused. This armor is infused with the spell Mage
-                        Armor. This enchantment can be dispelled, this will make the
-                        AC 11 + your dexterity modifier. If dispelled, the enchantment
-                        will be automatically restored afte 24 hours have passed.
-                        Apprentice of the Arcane. This armor grants a +1 bonus to
-                        all ranged spell attacks you make. Additionally you deal +2
-                        bonus damage on Evocation spells that deal damage.
+                        <p><b>Spell Infused.</b> This armor is infused with the spell Mage Armor. This enchantment can be dispelled, this will make the AC 11 + your dexterity modifier. If dispelled, the enchantment will be automatically restored afte 24 hours have passed.</p>
+                        <p><b>Apprentice of the Arcane.</b> This armor grants a +1 bonus to all ranged spell attacks you make. Additionally you deal +2 bonus damage on Evocation spells that deal damage.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">studded, leather</set>
+                        <set name="category">Magic Armor</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="slot">body</set>
+                        <set name="type" addition="Leather Jerkin (studded leather)">Armor</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="armor">Leather</set>
+                        <set name="attunement" addition="by a spellcaster">true</set>
                     </setters>
-                    <rules>
-                    </rules>
                 </element>
                 <element name="Twin Hook Swords" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Twin_Hook_Swords">
                     <description>
@@ -23934,33 +23810,18 @@
                 </element>
                 <element name="Twin Serpent Staff " type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Twin_Serpent_Staff ">
                     <description>
-                        Twin Serpent Staff
-                        Uncommon Staff
-                        Requires attunement by a Druid, Sorcerer, Warlock or Wizard
-                        Acid Bolt. As an action you can cast Acid Arrow (3rd level)
-                        using this staff. You can use this feature twice per day.
-                        Lifetransfer. As an action you can make the two snake heads
-                        of this staff bite down on two creatures. The creature with the
-                        least missing hit points takes 3d8 necrotic damage. The other
-                        creature heals the amount of damage dealt +4. Any poisons or
-                        diseases are transferred as well. This feature can be used once
-                        per long rest.
+                        <p><b>Acid Bolt.</b> As an action you can cast Acid Arrow (3rd level) using this staff. You can use this feature twice per day.</p>
+                        <p><b>Lifetransfer.</b> As an action you can make the two snake heads of this staff bite down on two creatures. The creature with the least missing hit points takes 3d8 necrotic damage. The other creature heals the amount of damage dealt +4. Any poisons or diseases are transferred as well. This feature can be used once per long rest.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Staffs</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="4">4 lb.</set>
+                        <set name="type">Staff</set>
+                        <set name="rarity">Uncommon</set>
+                        <set name="slot">onehand</set>
+                        <set name="weapon">Quarterstaff</set>
+                        <set name="attunement" addition="by a Druid, Sorcerer, Warlock, or Wizard">true</set>
                     </setters>
                     <rules>
                     </rules>
@@ -23983,33 +23844,17 @@
                 </element>
                 <element name="Wand of the Kitten" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Wand_of_the_Kitten">
                     <description>
-                        Wand of the Kitten
-                        Rare Wand
-                        Soft Kitty, Warm Kitty. This wand holds 6 charges, it
-                        regains all charges at dawn. As an action you can expend a
-                        charge and point this wand at a willing creature you can see
-                        within 30ft. of you. The creature falls asleep and becomes
-                        unconscious for 15 minutes. If they remain sleeping for the
-                        full duration, they regain any features they would regain on
-                        a short rest and can spend hit die to regain hit points. All hit
-                        dice that they roll a one or two on may be rerolled. A creature
-                        can only benefit from this effect once per long rest.
+                        <p><b>Soft Kitty, Warm Kitty.</b> This wand holds 6 charges, it regains all charges at dawn. As an action you can expend a charge and point this wand at a willing creature you can see within 30ft. of you. The creature falls asleep and becomes unconscious for 15 minutes. If they remain sleeping for the full duration, they regain any features they would regain on a short rest and can spend hit die to regain hit points. All hit dice that they roll a one or two on may be rerolled. A creature can only benefit from this effect once per long rest.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Wands</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="1">1 lb.</set>
+                        <set name="slot">onehand</set>
+                        <set name="type">Wand</set>
+                        <set name="attunement" addition="by a spellcaster">true</set>
+                        <set name="rarity">Rare</set>
+                        <set name="charges">6</set>
                     </setters>
                     <rules>
                     </rules>
