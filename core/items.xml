@@ -23828,7 +23828,7 @@
                 </element>
                 <element name="Violin of the Afterlife" type="Magic Item" source="Relics of the Realms - Volume 1" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Violin_of_the_Afterlife">
                     <description>
-                        <p><b>Language of the Dead.</p> A bard casting spells against any Undead creature using this instrument makes all spell attack rolls with advantage.</p>
+                        <p><b>Language of the Dead.</b> A bard casting spells against any Undead creature using this instrument makes all spell attack rolls with advantage.</p>
                         <p class="indnet"><b>Shriek of the Afterlife.</b> As an action you can play a succession of notes on the violin that cause a mist of black smoke to erupt from the violin. The mist takes the form of a face and shrieks a terrifying scream. Every creature you choose within 30 feet of you must succeed on a Wisdom saving throw (DC 15) or be frightened of you. The creature can repeat it’s Wisdom saving throw at the beginning of it’s turn if it does not have a line of sight on you. A frightened creature has disadvantage on all Ability checks, attack rolls and can’t willingly move closer to you. You can use this feature only once every 3 days.</p>
                     </description>
                     <setters>
