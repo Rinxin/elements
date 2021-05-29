@@ -24062,12 +24062,12 @@
                         <p><b>Essence of the Dragon.</b> You can fill this small satchel with two handfuls of one of the materials listed in the Dragon Satchel table below. Over the course of 24 hours the material turns to a fine crystal powder. You can use an action to throw one handful of powder. The powder erupts in a 10ft. cone. All creatures in it have to make a Dexterity saving throw (DC 15). On a fail they take 3d4 damage, on a successful save they take half damage. The damage type depends on the original material. Doing this twice empties the satchel after which you can fill it with new material.</p>
                         <h5>Dragon Satchel</h5>
                         <table>
-                            <th>Material Powder Color Damage type</th>
-                            Ash Red Fire
-                            Grass Green Acid
-                            Leaves Purple Poison
-                            Sand Yellow Lightning
-                            Snow Blue Cold
+                            <th><tr><td>Material</td><td>Powder Color</td><td>Damage type</td></tr></th>
+                            <tr><td>Ash</td><td>Red</td><td>Fire</td></tr>
+                            <tr><td>Grass</td><td>Green</td><td>Acid</td></tr>
+                            <tr><td>Leaves</td><td>Purple</td><td>Poison</td></tr>
+                            <tr><td>Sand</td><td>Yellow</td><td>Lightning</td></tr>
+                            <tr><td>Snow</td><td>Blue</td><td>Cold</td></tr>
                         </table>
                     </description>
                     <setters>
@@ -24138,16 +24138,16 @@
                 </element>
                 <element name="Gapcloser 2000" type="Magic Item" source="Relics of the Realms: Volume 2" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_GAPCLOSER_2000">
                     <description>
-                        Damage. 1d4-1 (2x)Piercing
-                        Range. 50 (Both ways)
+                        <p>Damage. 1d4-1 (2x)Piercing</p>
+                        <p>Range. 50 (Both ways)</p>
                         <p><b>Tightrope.</b> As an action you lift the Gapcloser 2000 overhead and shoot 2 bolts attached to a 50ft. steel wire in opposite directions. Make a ranged attack roll for both bolts. On two successful hits you can hold on to the device and use your movement to travel between the two points at 50ft. per round. As a bonus action you can make the device detach and reel in both bolts. If you hit a creature with one of the bolts it can release itself by making a successful Strength saving throw (DC 10). When shooting at a material you can add a +2 bonus to your attack roll. Refer to the AC’s below to determine whether you hit or miss.</p>
                         <h5>Material AC’s</h5>
                         <table>
-                            Material AC
-                            Crystal, Ice 13
-                            Wood, Bone 15
-                            Stone 17
-                            Iron, Steel 19
+                            <th><tr><td>Material</td><td>AC</td></tr></th>
+                            <tr><td>Crystal, Ice</td><td>13</td></tr>
+                            <tr><td>Wood, Bone</td><td>15</td></tr>
+                            <tr><td>Stone</td><td>17</td></tr>
+                            <tr><td>Iron, Steel</td><td>19</td></tr>
                         </table>
                     </description>
                     <setters>
@@ -25139,41 +25139,19 @@
                 </element>
                 <element name="Axe of the Chromatic Queen" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_AXE_OF_THE_CHROMATIC_QUEEN">
                     <description>
-                        
-                        Very Rare Battleaxe (Versatile)
-                        Requiress attunement
-                        Damage. 1d8 (1d10) +2 Slashing
-                        Forged in Dragonbreath. You gain a +2 bonus to attack rolls
-                        you make with this weapon.
-                        Heads of the Queen. On a successful hit you may choose to
-                        deal 1d4+1 extra damage. You may choose to have the damage
-                        type be Lightning, Acid, Poison, Fire or Cold damage. You can
-                        use this feature once per turn.
-                        Audience with the Queen. A ritual that takes 10 minutes
-                        can be performed by placing an amethyst, emerald, ruby,
-                        sapphire and diamond in the open maws of the dragonheads
-                        on the axe. Over the course of the ritual the gemstones
-                        crumble into a fine dust and swirl in a 10ft. radius around the
-                        axe. When the ritual is finished a portal opens inside the 10ft.
-                        radius for one minute, any willing creatures that enter the
-                        portal are teleported to a location of their choice in the first
-                        circle of Hell.
+                        <p><b>Forged in Dragonbreath.</b> You gain a +2 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Heads of the Queen.</b> On a successful hit you may choose to deal 1d4+1 extra damage. You may choose to have the damage type be Lightning, Acid, Poison, Fire or Cold damage. You can use this feature once per turn.</p>
+                        <p><b>Audience with the Queen.</b> A ritual that takes 10 minutes can be performed by placing an amethyst, emerald, ruby, sapphire and diamond in the open maws of the dragonheads on the axe. Over the course of the ritual the gemstones crumble into a fine dust and swirl in a 10ft. radius around the axe. When the ritual is finished a portal opens inside the 10ft. radius for one minute, any willing creatures that enter the portal are teleported to a location of their choice in the first circle of Hell.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">battleaxe</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="battleaxe">Weapon</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Batleaxe</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">2</set>
                     </setters>
                     <rules>
                     </rules>
@@ -25197,41 +25175,19 @@
                 </element>
                 <element name="Blade of the Corrupted Lotus" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BLADE_OF_THE_CORRUPTED_LOTUS">
                     <description>
-                        
-                        Very Rare Greatsword (Heavy, Two-handed)
-                        Requires attunement
-                        Damage. 2d6+2 Slashing
-                        Dark Essence. You gain a +2 bonus to attack rolls you make
-                        with this weapon.
-                        Power of the Lotus. As part of your attack with this sword
-                        you can drain the creature of its life power. You deal 1d10 extra
-                        Necrotic damage and receive this number in healing. You can
-                        use this feature twice per day.
-                        Corruption. The sword can hold up to 8 charges and has 0
-                        charges when you first attune to it. For every 2 charges the
-                        sword holds you gain a +1 bonus to your Strength score.
-                        Whenever you land a killing blow on an enemy, you may
-                        choose to roll a Constitution saving throw (DC 10 + the
-                        current amount of charges). On a successful save you gain
-                        one charge, on a failed save you take 1d4 Necrotic damage for
-                        each charge in the sword. You lose 2d4 charges whenever you
-                        finish a long rest.
+                        <p><b>Dark Essence.</b> You gain a +2 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Power of the Lotus.</b> As part of your attack with this sword you can drain the creature of its life power. You deal 1d10 extra Necrotic damage and receive this number in healing. You can use this feature twice per day.</p>
+                        <p><b>Corruption.</b> The sword can hold up to 8 charges and has 0 charges when you first attune to it. For every 2 charges the sword holds you gain a +1 bonus to your Strength score. Whenever you land a killing blow on an enemy, you may choose to roll a Constitution saving throw (DC 10 + the current amount of charges). On a successful save you gain one charge, on a failed save you take 1d4 Necrotic damage for each charge in the sword. You lose 2d4 charges whenever you finish a long rest.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">greatsword</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="greatsword">Weapon</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Greatsword</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">2</set>
                     </setters>
                     <rules>
                     </rules>
@@ -25298,79 +25254,38 @@
                 </element>
                 <element name="Downfall" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_DOWNFALL">
                     <description>
-                        
-                        Uncommon Greatsword (Heavy, Two-handed, Cursed)
-                        Requires attunement
-                        Damage. 2d6+1 Slashing
-                        Infernal Steel. You gain a +1 bonus to attack rolls you make
-                        with this weapon.
-                        Brought Back. When you are attuned to this sword and fail
-                        at least one death save you are healed for an amount equal to
-                        half of your maximum hit points. This effect can only
-                        happen once ever to the attuned.
-                        Infernal Pact (Curse). When you are Brought Back as
-                        described above you owe your life to an infernal creature
-                        or entity of the choice of your GM. How and when this will
-                        become clear, the motivation and character of this being and
-                        all other details will be determined by the GM.
+                        <p><b>Infernal Steel.</b> You gain a +1 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Brought Back.</b> When you are attuned to this sword and fail at least one death save you are healed for an amount equal to half of your maximum hit points. This effect can only happen once ever to the attuned.</p>
+                        <p><b>Infernal Pact (Curse).</b> When you are Brought Back as described above you owe your life to an infernal creature or entity of the choice of your GM. How and when this will become clear, the motivation and character of this being and all other details will be determined by the GM.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">greatsword</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="greatsword">Weapon</set>
+                        <set name="rarity">Uncommon</set>
+                        <set name="weapon">Greatsword</set>
+                        <set name="attunement" addition="cursed">true</set>
+                        <set name="enhancement">1</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Edge of the Zephyr" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_EDGE_OF_THE_ZEPHYR">
                     <description>
-                        
-                        Very Rare Rapier (Finesse)
-                        Requires attunement
-                        Damage. 1d8 Piercing +2 Lightning
-                        Stormforged. You gain a +2 bonus to attack rolls you make
-                        with this weapon.
-                        Last Spark of Life. When you land a killing blow on a
-                        creature with a melee weapon attack with this rapier, the
-                        creature’s last energy is
-                        conducted along the blade of the rapier and amplified in a
-                        lightning bolt. All creatures in a 15ft. line behind the creature
-                        (in the direction you stab) have to make a Dexterity saving
-                        throw (DC 15). On a failed save they take 3d6+2 Lightning
-                        damage, on a success they take half.
-                        Lightning Conductor. As an action you can call down a
-                        bolt of lightning to a creature or object you can see within
-                        100ft. The creature has to make a Dexterity saving throw (DC
-                        15). On a failed save they take 4d6+2 Lightning damage. On a
-                        successful save they take half. You can use this feature once
-                        per day.
+                        <p><b>Stormforged.</b> You gain a +2 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Last Spark of Life.</b> When you land a killing blow on a creature with a melee weapon attack with this rapier, the creature’s last energy is conducted along the blade of the rapier and amplified in a lightning bolt. All creatures in a 15ft. line behind the creature (in the direction you stab) have to make a Dexterity saving throw (DC 15). On a failed save they take 3d6+2 Lightning damage, on a success they take half.</p>
+                        <p><b>Lightning Conductor.</b> As an action you can call down a bolt of lightning to a creature or object you can see within 100ft. The creature has to make a Dexterity saving throw (DC 15). On a failed save they take 4d6+2 Lightning damage. On a successful save they take half. You can use this feature once per day.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">rapier</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="rapier">Weapon</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Rapier</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement" addition="lightning">2</set>
                     </setters>
                     <rules>
                     </rules>
@@ -25378,111 +25293,59 @@
                 <element name="Efreeti's Kusarigama" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_EFREETIS_KUSARIGAMA">
                     <description>
                         
-                        Rare Sickle (Reach, Two-handed)
-                        Requires attunement
-                        Damage. 1d6 Slashing +2 Fire
-                        Solid Flame Blade. You gain a +2 bonus to attack rolls you
-                        make with this weapon.
-                        Grip of the Fire Genie. As an action you can attempt to
-                        grapple a creature using the counterweight and chain of this
-                        weapon. You make the Athletics check for this grapple with
-                        advantage. When you first grapple the creature it receives 1d6
-                        Fire damage. The creature receives another 1d6 Fire damage at
-                        the end of each of its turns if it remains grappled.
+                        <p>Added properties-(Reach, Two-handed)</p>
+                        <p><b>Solid Flame Blade.</b> You gain a +2 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Grip of the Fire Genie.</b> As an action you can attempt to grapple a creature using the counterweight and chain of this weapon. You make the Athletics check for this grapple with advantage. When you first grapple the creature it receives 1d6 Fire damage. The creature receives another 1d6 Fire damage at the end of each of its turns if it remains grappled.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">sickle</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="sickle">Weapon</set>
+                        <set name="rarity">Legendary</set>
+                        <set name="weapon">Sickle</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement" addition="fire">2</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Elderam's Gift" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_ELDERAMS_GIFT">
                     <description>
-                        
-                        Very Rare Dagger (Finesse, Light, Range, Thrown)
-                        Requires attunement
-                        Damage. 1d4+2 Piercing (Magical)
-                        Range. 20/60
-                        Plane-wrought. You gain a +2 bonus to attack rolls you
-                        make with this weapon.
-                        Emerald Eruption. As an action you can stab this dagger
-                        into the ground and speak a command word. 2ft tall green
-                        crystal spikes erupt from the ground. All creatures in a 15ft.
-                        cone outward from the dagger have to make a Dexterity
-                        saving throw (DC 17). On a failed save they take 3d10 Piercing
-                        damage, on a successful save they take half damage.
-                        The area is considered rough terrain, if a creature steps onto
-                        or moves within the area they have to make a Dexterity saving
-                        throw (DC 12). On a failure they take 1d4 Piercing damage per
-                        5ft. moved, on a success they take no damage.
-                        The crystals can be destroyed, but also instantly
-                        disappear when you pull the dagger from the ground. You can
-                        use this feature twice per day.
+                        <p><b>Plane-wrought.</b> You gain a +2 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Emerald Eruption.</b> As an action you can stab this dagger into the ground and speak a command word. 2ft tall green crystal spikes erupt from the ground. All creatures in a 15ft. cone outward from the dagger have to make a Dexterity saving throw (DC 17). On a failed save they take 3d10 Piercing damage, on a successful save they take half damage. The area is considered rough terrain, if a creature steps onto or moves within the area they have to make a Dexterity saving throw (DC 12). On a failure they take 1d4 Piercing damage per 5ft. moved, on a success they take no damage. The crystals can be destroyed, but also instantly disappear when you pull the dagger from the ground. You can use this feature twice per day.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">dagger</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="dagger">Weapon</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Dagger</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">2</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Elianim, The Dawnspark" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_ELIANIM_THE_DAWNSPARK">
                     <description>
-                        
-                        Legendary Warhammer (Heavy, Versatile)
-                        Requires attunement by a Cleric or Paladin
-                        Damage. 1d8 (1d10) +1d4 Lightning +1d4 Thunder damage
-                        Forge of the Morning Sun. You gain a +4 bonus to attack
-                        rolls you make with this weapon.
-                        Heart of the Sun. While attuned to this weapon you gain a
-                        +2 bonus to your Constitution score.
-                        Aura of Dawn. You and all allies within 15ft. of you have
-                        advantage on all saving throws against Fear effects.
-                        Crystallized Light. This hammer holds 3 charges of
-                        Crystalized Light. Whenever you cast any type of healing spell
-                        you can expend one charge to heal one target for an extra 2d6.
-                        All charges are restored at dawn.
+                        <p>Damage. 1d8 (1d10) +1d4 Lightning +1d4 Thunder damage</p>
+                        <p><b>Forge of the Morning Sun.</b> You gain a +4 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Heart of the Sun.</b> While attuned to this weapon you gain a +2 bonus to your Constitution score.</p>
+                        <p><b>Aura of Dawn.</b> You and all allies within 15ft. of you have advantage on all saving throws against Fear effects.</p>
+                        <p><b>Crystallized Light.</b> This hammer holds 3 charges of Crystalized Light. Whenever you cast any type of healing spell you can expend one charge to heal one target for an extra 2d6. All charges are restored at dawn.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">warhammer</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="warhammer">Weapon</set>
+                        <set name="rarity">Legendary</set>
+                        <set name="weapon">Warhammer</set>
+                        <set name="attunement" addition="by a Cleric or Paladin">true</set>
+                        <set name="enhancement" addition="necrotic">4</set>
+                        <set name="charges">3</set>
                     </setters>
                     <rules>
                     </rules>
