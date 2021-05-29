@@ -24895,52 +24895,25 @@
                 </element>
                 <element name="Shield of the Roc" type="Magic Item" source="Relics of the Realms: Volume 2" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_SHIELD_OF_THE_ROC">
                     <description>
-                        
-                        Uncommon Shield
-                        AC. +2
-                        Light as a Feather. While holding the shield you can cast
-                        Feather Fall on yourself as a reaction. You can use this feature
-                        twice per long rest.
-                        Elemental Origin. With this shield when you are in the
-                        elemental plane of Air, you can spend an action to gain a
-                        Flying speed equal to your movement speed for up to one
-                        hour. You can use this feature once per day. If the shield has
-                        been in the elemental plane of air for over a day this feature
-                        can be used on any other plane and turns it into a Rare Shield.
+                        <p><b>Light as a Feather.</b> While holding the shield you can cast Feather Fall on yourself as a reaction. You can use this feature twice per long rest.</p>
+                        <p><b>Elemental Origin.</b> With this shield when you are in the elemental plane of Air, you can spend an action to gain a Flying speed equal to your movement speed for up to one hour. You can use this feature once per day. If the shield has been in the elemental plane of air for over a day this feature can be used on any other plane and turns it into a Rare Shield.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">shield</set>
+                        <set name="category">Magic Armor</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="shield">Armor</set>
+                        <set name="attunement">true</set>
+                        <set name="rarity">Uncommon</set>
+                        <set name="armor">Tower Shield</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Staff of Amplification" type="Magic Item" source="Relics of the Realms: Volume 2" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_STAFF_OF_AMPLIFICATION">
                     <description>
-                        
-                        Rare Staff (Instrument)
-                        Arcane Volume Enhancer. Using this staff, Whenever you
-                        cast a spell with a Verbal component that requires your target
-                        to make a saving throw, the DC increases by 2.
-                        Reverberating Performance. When you bestow Bardic
-                        Inspiration upon a creature using this staff, the inspired
-                        creature can add +1 to their inspiration die roll. You can use
-                        this feature twice per long rest
-                        Loud Presence. As an action, you can make your voice boom
-                        up to three times as loud as normal for 1 minute. You can use
-                        this feature up to 5 times per long rest.
+                        <p><b>Arcane Volume Enhancer.</b> Using this staff, Whenever you cast a spell with a Verbal component that requires your target to make a saving throw, the DC increases by 2.</p>
+                        <p><b>Reverberating Performance.</b> When you bestow Bardic Inspiration upon a creature using this staff, the inspired creature can add +1 to their inspiration die roll. You can use this feature twice per long rest Loud Presence. As an action, you can make your voice boom up to three times as loud as normal for 1 minute. You can use this feature up to 5 times per long rest.</p>
                     </description>
                     <setters>
                         <set name="keywords"></set>
@@ -24949,9 +24922,9 @@
                         <set name="weight" lb="4">4 lb.</set>
                         <set name="slot">onehand</set>
                         <set name="weapon">Quarterstaff</set>
-                        <set name="type">Staff</set>
+                        <set name="type" addition="instrument">Staff</set>
                         <set name="attunement" addition="by a sorcerer, warlock, or wizard">true</set>
-                        <set name="rarity">Very Rare</set>
+                        <set name="rarity">Rare</set>
                         <set name="enhancement">2</set>
                     </setters>
                     <rules>
@@ -25999,40 +25972,20 @@
                 </element>
                 <element name="Warlute" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_WARLUTE">
                     <description>
-                        
-                        Rare Wondrous Item (Musical Instrument, Lute)
-                        Requires attunement by a Bard and proficiency with Lutes
-                        Blade Damage. 1d6 Slashing
-                        Crossbow Damage. 1d6 Piercing
-                        Crossbow Range. 30/90
-                        Chord of Valor. As an action you can strike a special chord
-                        on the warlute. One creature of your choice has advantage on
-                        their next roll. You can not use this feature on yourself and a
-                        creature can only be affected by it once per long rest. You can
-                        use this feature a number of times equal to your Charisma
-                        modifier (a minimum of once). You regain all expended uses
-                        when you finish a Long Rest.
-                        Rhythm of Battle. Whenever you grant someone Bardic
-                        Inspiration the die receives a +1 bonus. If you inspire an ally
-                        in the same turn as you make a successful weapon attack
-                        against a creature using this lute the inspiration die receives a
-                        +2 bonus instead.
+                        <p><b>Chord of Valor.<b> As an action you can strike a special chord on the warlute. One creature of your choice has advantage on their next roll. You can not use this feature on yourself and a creature can only be affected by it once per long rest. You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain all expended uses when you finish a Long Rest.</p>
+                        <p><b>Rhythm of Battle.</b> Whenever you grant someone Bardic Inspiration the die receives a +1 bonus. If you inspire an ally in the same turn as you make a successful weapon attack against a creature using this lute the inspiration die receives a +2 bonus instead.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">bard</set>
+                        <set name="category">Musical Instruments</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type" addition="musical instrument, Lute">Wondrous Item</set>
+                        <set name="slot">onehand</set>
+                        <set name="attunement" addition="by a Bard and proficiency with Lutes">true</set>
+                        <set name="rarity">Rare</set>
+                        <!--Damage 1d6-->
+                        <!--range 30/90-->
                     </setters>
                     <rules>
                     </rules>
@@ -27027,36 +26980,18 @@
                 </element>
                 <element name="Pyralite Aegis" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_PYRALITE_AEGIS">
                     <description>
-                        
-                        Very Rare Shield
-                        Requires attunement
-                        AC. +2
-                        Flameward. While holding this shield you have resistance
-                        against Fire damage.
-                        Blazeward. While holding this shield you can use your
-                        reaction to gain immunity to Fire damage. This immunity
-                        lasts until the start of your next turn. You can use this feature
-                        once per long rest.
-                        Crystalized Fire. Whenever a creature within 5 feet of you
-                        hits you with a melee attack, the shield erupts with flames.
-                        The attacker takes 1d6 Fire damage. If this happens while
-                        Blazeward is active the attacker takes 2d6 Fire damage.
+                        <p><b>Flameward.</b> While holding this shield you have resistance against Fire damage.</p>
+                        <p><b>Blazeward.</b> While holding this shield you can use your reaction to gain immunity to Fire damage. This immunity lasts until the start of your next turn. You can use this feature once per long rest.</p>
+                        <p><b>Crystalized Fire.</b> Whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flames. The attacker takes 1d6 Fire damage. If this happens while Blazeward is active the attacker takes 2d6 Fire damage.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">shield</set>
+                        <set name="category">Magic Armor</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="shield">Armor</set>
+                        <set name="attunement">true</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
                     </setters>
                     <rules>
                     </rules>
@@ -27293,43 +27228,16 @@
                 </element>
                 <element name="Shield of the Deep One" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_SHIELD_OF_THE_DEEP_ONE">
                     <description>
-                        
-                        Very Rare Shield
-                        Requires attunement
-                        AC. +2
-                        Grasp of the Dreamer. As an action, you can cause dark
-                        eldritch tentacles to sprout from the shield and attack a large
-                        or smaller creature within 10 ft. of you. The target must make
-                        a Dexterity saving throw (DC 12 + your Strength modifier).
-                        The target takes 1d6 Bludgeoning damage on a successful save.
-                        On a failed save, the target takes 3d6 Bludgeoning damage
-                        and is Restrained. If the targetstarts their turn restrained
-                        due to this effect, they take an additional 1d6 Bludgeoning
-                        damage. The target can use its action to make a Strength or
-                        Dexterity check against the shield’s DC. On a success, it is
-                        no longer restrained. If the target is reduced to 0 hit points
-                        while Restrained due to the effect, they are enveloped by the
-                        tentacles and their body disappears to an unknown plane
-                        of existence or location. The tentacles last for 1 minute and
-                        release if you move further than 15 ft. away from the target.
-                        You can also release them as a free action. You can use this
-                        feature 3 times per day.
+                        <p><b>Grasp of the Dreamer.</b> As an action, you can cause dark eldritch tentacles to sprout from the shield and attack a large or smaller creature within 10 ft. of you. The target must make a Dexterity saving throw (DC 12 + your Strength modifier). The target takes 1d6 Bludgeoning damage on a successful save. On a failed save, the target takes 3d6 Bludgeoning damage and is Restrained. If the targetstarts their turn restrained due to this effect, they take an additional 1d6 Bludgeoning damage. The target can use its action to make a Strength or Dexterity check against the shield’s DC. On a success, it is no longer restrained. If the target is reduced to 0 hit points while Restrained due to the effect, they are enveloped by the tentacles and their body disappears to an unknown plane of existence or location. The tentacles last for 1 minute and release if you move further than 15 ft. away from the target. You can also release them as a free action. You can use this feature 3 times per day.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">shield</set>
+                        <set name="category">Magic Armor</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="shield">Armor</set>
+                        <set name="attunement">true</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
                     </setters>
                     <rules>
                     </rules>
@@ -28157,39 +28065,19 @@
                 </element>
                 <element name="Lute of the Ruby Verdict" type="Magic Item" source="Relics of the Realms: Volume 5" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_LUTE_OF_THE_RUBY_VERDICT">
                     <description>
-                        Lute of the Ruby Verdict
-                        Very Rare Wondrous Item(Musical Instrument, Lute)
-                        Requires attunement by a Spellcaster
-                        Secret Sonata. You can spend 10 minutes playing a
-                        hauntingly beautiful sonata on this lute. When you complete
-                        the song, choose 2 spells of 7th level or lower from the Bard
-                        spell list. You can cast each of these spells at 7th level once
-                        without consuming a spell slot before your next long rest. You
-                        can play this song once per long rest.
-                        Melody of the Meteor. As an action, you may play a short
-                        tune on this lute. A sparkling meteor crashes into a point
-                        you can see within 300ft. of you. All creatures within a 30ft.
-                        radius of the point of impact have to make a Dexterity saving
-                        throw or take 3d6 Force damage and 3d6 Psychic damage.
-                        On a successful save they take half damage. You can use this
-                        feature once per long rest.
+                        <p><b>Secret Sonata.</b> You can spend 10 minutes playing a hauntingly beautiful sonata on this lute. When you complete the song, choose 2 spells of 7th level or lower from the Bard spell list. You can cast each of these spells at 7th level once without consuming a spell slot before your next long rest. You can play this song once per long rest.</p>
+                        <p><b>Melody of the Meteor.</b> As an action, you may play a short tune on this lute. A sparkling meteor crashes into a point you can see within 300ft. of you. All creatures within a 30ft. radius of the point of impact have to make a Dexterity saving throw or take 3d6 Force damage and 3d6 Psychic damage. On a successful save they take half damage. You can use this feature once per long rest.</p>
                     </description>
-                    <!--setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition="">Musical Instrument</set>
+                    <setters>
+                        <set name="keywords">bard</set>
+                        <set name="category">Musical Instruments</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type" addition="musical instrument, lute">Wondrous Item</set>
+                        <set name="slot">onehand</set>
+                        <set name="attunement" addition="by a spellcaster">true</set>
                         <set name="rarity">Very Rare</set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
-                    </setters-->
+                    </setters>
                     <rules>
                     </rules>
                 </element>
@@ -28520,40 +28408,20 @@
                 </element>
                 <element name="Silver Tongued Lyre" type="Magic Item" source="Relics of the Realms: Volume 5" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_SILVER_TONGUED_LYRE">
                     <description>
-                        Silver Tongued Lyre
-                        Rare Wondrous Item (Musical Instrument, Lyre)
-                        Requires attunement by a Bard
-                        Infernal Muse. You gain a +1 bonus to your spell attack
-                        modifier when you cast a spell using this lyre.
-                        Devil’s Grin. While you are attuned to this lyre the spell
-                        Hideous Laughter is added to your list of known spells.
-                        Additionally, the range of this spell is increased by 30ft. for
-                        you.
-                        Hellish Dissonance. As an action, you can play a dissonant
-                        tune on this lyre. All hostile Celestial and Humanoid creatures
-                        that can hear you and are within 90 ft. of you have to make
-                        a Wisdom saving throw. A Celestial has disadvantage on this
-                        saving throw. On a failed save, they take 4d6 Necrotic damage
-                        and have disadvantage on all attack rolls until the end of their
-                        next turn. On a successful save, they only take half damage.
-                        You can use this feature once per long rest.
+                        <p><b>Infernal Muse.</b> You gain a +1 bonus to your spell attack modifier when you cast a spell using this lyre.</p>
+                        <p><b>Devil’s Grin.</b> While you are attuned to this lyre the spell Hideous Laughter is added to your list of known spells. Additionally, the range of this spell is increased by 30ft. for you.</p>
+                        <p><b>Hellish Dissonance.</b> As an action, you can play a dissonant tune on this lyre. All hostile Celestial and Humanoid creatures that can hear you and are within 90 ft. of you have to make a Wisdom saving throw. A Celestial has disadvantage on this saving throw. On a failed save, they take 4d6 Necrotic damage and have disadvantage on all attack rolls until the end of their next turn. On a successful save, they only take half damage. You can use this feature once per long rest.</p>
                     </description>
-                    <!--setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition="">Musical Instrument</set>
+                    <setters>
+                        <set name="keywords">bard</set>
+                        <set name="category">Musical Instruments</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="weight" lb="0">0 lb.</set>
+                        <set name="type" addition="musical intrument, lyre">Wondrous Item</set>
+                        <set name="slot">onehand</set>
+                        <set name="attunement" addition="by a Bard">true</set>
                         <set name="rarity">Rare</set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
-                    </setters-->
+                    </setters>
                     <rules>
                     </rules>
                 </element>
