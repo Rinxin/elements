@@ -25489,44 +25489,26 @@
                 </element>
                 <element name="Fang of the Gatekeeper" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_FANG_OF_THE_GATEKEEPER">
                     <description>
-                        
-                        Legendary Dagger (Finesse, Light, Range, Thrown)
-                        Requires attunement
-                        Damage. 1d4 Piercing +3 Necrotic
-                        Range. 20/60
-                        Bite of the Hound. You gain a +3 bonus to attack rolls you
-                        make with this weapon.
-                        Hell’s Guard. You deal 1d4 extra Piercing damage to
-                        creatures that are either Humanoids or Undead.
-                        Commands of the Master. Whenever you make an
-                        Intimidation check, you are allowed to roll 1d6 and add the
-                        number to your roll. Additionally, depending on the roll, you
-                        receive one of the following features for a brief moment while
-                        intimidating.
-                        Fang of the Gatekeeper Effects
-                        d6 Effect
-                        1-2 Your voice turns unnaturaly more ominous as
-                        you speak.
-                        3-4 Your eyes turn completely black for only a few
-                        seconds.
-                        5-6 Light in a 10ft. radius around you seems to
-                        darken for a few seconds
+                        <p><b>Bite of the Hound.</b> You gain a +3 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Hell’s Guard.</b> You deal 1d4 extra Piercing damage to creatures that are either Humanoids or Undead.</p>
+                        <p><b>Commands of the Master.</b> Whenever you make an Intimidation check, you are allowed to roll 1d6 and add the number to your roll. Additionally, depending on the roll, you receive one of the following features for a brief moment while intimidating.</p>
+                        <h5>Fang of the Gatekeeper Effects</h5>
+                        <table>
+                            d6 Effect
+                            1-2 Your voice turns unnaturaly more ominous as you speak.
+                            3-4 Your eyes turn completely black for only a few seconds.
+                            5-6 Light in a 10ft. radius around you seems to darken for a few seconds
+                        </table>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">dagger</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="dagger">Weapon</set>
+                        <set name="rarity">Legendary</set>
+                        <set name="weapon">Dagger</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement" addition="necrotic">3</set>
                     </setters>
                     <rules>
                     </rules>
@@ -25592,65 +25574,37 @@
                 </element>
                 <element name="Greataxe of the Hills" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_GREATAXE_OF_THE_HILLS">
                     <description>
-                        
-                        Uncommon Greataxe (Heavy, Two-handed)
-                        Damage. 1d12+1 Slashing
-                        Big Hitter. You gain a +1 bonus to attack rolls you make with
-                        this weapon.
-                        Over-axe-tend. Before making an attack roll with this
-                        weapon you can choose to take a -3 penalty on your attack
-                        roll to add 5ft. of reach. Making the reach of this weapon 10ft.
+                        <p><b>Big Hitter.</b> You gain a +1 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Over-axe-tend.</b> Before making an attack roll with this weapon you can choose to take a -3 penalty on your attack roll to add 5ft. of reach. Making the reach of this weapon 10ft.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">greataxe</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="greataxe">Weapon</set>
+                        <set name="rarity">Uncommon</set>
+                        <set name="weapon">Greataxe</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">1</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Halberd of the Northern Tribe" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_HALBERD_OF_THE_NORTHERN_TRIBE">
                     <description>
-                        
-                        Rare Halberd (Heavy, Reach, Two-handed )
-                        Requires attunement
-                        Damage. 1d10+1 Slashing
-                        Northern Smithing. You gain a +1 bonus to attack rolls you
-                        make with this weapon.
-                        Frost Guardian. While attuned to this halberd you have
-                        resistance to Cold damage and do not suffer from any
-                        impairments from cold weather conditions.
-                        Frostbite. When you successfully attack with this weapon
-                        your target has to make a Constitution saving throw (DC 15)
-                        On a failed save they suffer an additional 1d4 Cold damage.
-                        On a successful save they do not take any extra damage.
+                        <p><b>Northern Smithing.</b> You gain a +1 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Frost Guardian.</b> While attuned to this halberd you have resistance to Cold damage and do not suffer from any impairments from cold weather conditions.</p>
+                        <p><b>Frostbite.</b> When you successfully attack with this weapon your target has to make a Constitution saving throw (DC 15) On a failed save they suffer an additional 1d4 Cold damage. On a successful save they do not take any extra damage.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">halberd</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="halberd">Weapon</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Halberd</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">1</set>
                     </setters>
                     <rules>
                     </rules>
@@ -25679,136 +25633,74 @@
                 </element>
                 <element name="Horselord's Curved Blade" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_HORSELORDS_CURVED_BLADE">
                     <description>
-                        
-                        Rare Scimitar (Finesse, Versatile)
-                        Requires attunement
-                        Damage. 1d6+2 (1d8+2) Slashing
-                        Lord of the Grass Sea. While mounted on any type of horse
-                        you gain a +2 to attack rolls you make with this weapon.
-                        Aura of the Stallion. When attuned to this blade you gain
-                        a +4 bonus to any Animal Handling checks you make. You
-                        also gain a +2 bonus to Survival checks that relate to tracking
-                        animals.
+                        <p><b>Lord of the Grass Sea.</b> While mounted on any type of horse you gain a +2 to attack rolls you make with this weapon.</p>
+                        <p><b>Aura of the Stallion.</b> When attuned to this blade you gain a +4 bonus to any Animal Handling checks you make. You also gain a +2 bonus to Survival checks that relate to tracking animals.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">scimitar</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="scimitar">Weapon</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Scimitar</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">2</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Inawanic Shortbow" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_INAWANIC_SHORTBOW">
                     <description>
-                        
-                        Uncommon Shortbow
-                        Damage. 1d6+1 Piercing
-                        Range. 120/360
-                        Woven Wood. You gain a +1 bonus to attack rolls you make
-                        with this weapon.
-                        Double Recurve. When you roll a 19 on the die for the attack
-                        roll with this weapon it is also considered a critical hit.
-                        Small Game Hunter. You have advantage on attack Rolls
-                        against Tiny and Small Beasts.
+                        <p><b>Woven Wood.</b> You gain a +1 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Double Recurve.</b> When you roll a 19 on the die for the attack roll with this weapon it is also considered a critical hit.</p>
+                        <p><b>Small Game Hunter.</b> You have advantage on attack Rolls against Tiny and Small Beasts.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">shortbow</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="shortbow">Weapon</set>
+                        <set name="rarity">Uncommon</set>
+                        <set name="weapon">Shortbow</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">1</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Javelin of Blight" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_JAVELIN_OF_BLIGHT">
                     <description>
+                        <p>Damage. 1d6 Piercing + 1d4 Necrotic</p>
                         
-                        Very Rare Javelin (Thrown)
-                        Requires attunement
-                        Damage. 1d6 Piercing + 1d4 Necrotic
-                        Range. 60/180
-                        Blightstrike. After you successfully attack a creature with
-                        this javelin, you may spend a bonus action to unleash a
-                        torrent of Necromantic energy on the creature you have hit
-                        with the attack. If the target is a creature it has to make a
-                        Constitution saving throw (DC 16). They take 8d8 Necrotic
-                        damage on a failed save, or half as much on a successful save.
-                        If the target is a Plant creature or a magical plant, it makes the
-                        saving throw with disadvantage. The strike deals 64 damage
-                        on a failed save and 32 on a succesful save. If you target a
-                        nonmagical plant that isn’t a creature, such as a tree or shrub,
-                        it doesn’t make a saving throw, it simply withers and dies.
-                        This feature has no effect on Undead or Constructs. You can
-                        use this feature once per long rest.
+                        <p><b>Blightstrike.</b> After you successfully attack a creature with this javelin, you may spend a bonus action to unleash a torrent of Necromantic energy on the creature you have hit with the attack. If the target is a creature it has to make a Constitution saving throw (DC 16). They take 8d8 Necrotic damage on a failed save, or half as much on a successful save. If the target is a Plant creature or a magical plant, it makes the saving throw with disadvantage. The strike deals 64 damage on a failed save and 32 on a succesful save. If you target a nonmagical plant that isn’t a creature, such as a tree or shrub, it doesn’t make a saving throw, it simply withers and dies. This feature has no effect on Undead or Constructs. You can use this feature once per long rest.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">javelin</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="javelin">Weapon</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Javelin</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement" addition="necrotic">1d4</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Marble Mallet" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_MARBLE_MALLET">
                     <description>
-                        
-                        Rare Mace
-                        Damage. 1d6+2 Bludgeoning
-                        Heavy but Balanced. You gain a +2 bonus to attack rolls you
-                        make with this weapon.
-                        Forceful Blow. Before you attack with this weapon you can
-                        speak a command word, if your attack is successful it deals
-                        1d8 extra damage and pushes your target 10ft. backward. You
-                        can use this feature twice per day. The use is also expended if
-                        you miss your attack.
+                        <p><b>Heavy but Balanced.</b> You gain a +2 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Forceful Blow.</b> Before you attack with this weapon you can speak a command word, if your attack is successful it deals 1d8 extra damage and pushes your target 10ft. backward. You can use this feature twice per day. The use is also expended if you miss your attack.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">mace</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="mace">Weapon</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Mace</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">2</set>
                     </setters>
                     <rules>
                     </rules>
@@ -25834,35 +25726,18 @@
                 </element>
                 <element name="Merfolk Blade" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_MERFOLK_BLADE">
                     <description>
-                        
-                        Rare Scimitar (Finesse, Light)
-                        Damage. 1d6 Slashing +2 Piercing
-                        Waterslicer.You gain a +1 bonus to attack rolls you make
-                        with this weapon. Additionaly, you do not have disadvantage
-                        when attacking underwater.
-                        Cruel Wound. A critical hit made against a creature with this
-                        serrated weapon causes a bleeding wound. They suffer 1d4-1,
-                        (minimum of 1) Necrotic damage every round at the start of
-                        their turn for one minute, or until they are healed or make a
-                        successful Medicine check (DC 15). This effect does not work
-
-                        on Undead or Constructs that lack any sort of blood or ichor.
+                        <p><b>Waterslicer.You gain a +1 bonus to attack rolls you make with this weapon. Additionaly, you do not have disadvantage when attacking underwater.</p>
+                        <p><b>Cruel Wound.</b> A critical hit made against a creature with this serrated weapon causes a bleeding wound. They suffer 1d4-1, (minimum of 1) Necrotic damage every round at the start of their turn for one minute, or until they are healed or make a successful Medicine check (DC 15). This effect does not work on Undead or Constructs that lack any sort of blood or ichor.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">scimitar</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="scimitar">Weapon</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Scimitar</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">2</set>
                     </setters>
                     <rules>
                     </rules>
@@ -25918,40 +25793,22 @@
                 </element>
                 <element name="Piercer of the Purple Rose" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_PIERCER_OF_THE_PURPLE_ROSE">
                     <description>
-                        
-                        Rare Dagger (Finesse, Light, Range, Thrown)
-                        Damage. 1d4+2 Piercing
-                        Range. 20/60
-                        Return of the Rose. As a bonus action, while you are
-                        within 200 feet of the dagger you can speak a command
-                        word to recall it to you. The blade twists shortly in a flurry
-                        of rosepetals and then returns to your open hand instantly.
-                        If it was lodged into a creature it deals 1d4 damage to that
-                        creature as the dagger twists out of it.
-                        Toxic Thorns. If you apply a damaging poison to this dagger,
-
-                        you deal an extra 1d6 Poison damage on the first time you deal
-                        damage to a creature with this dagger.
+                        <p><b>Return of the Rose.</b> As a bonus action, while you are within 200 feet of the dagger you can speak a command word to recall it to you. The blade twists shortly in a flurry of rosepetals and then returns to your open hand instantly. If it was lodged into a creature it deals 1d4 damage to that creature as the dagger twists out of it.</p>
+                        <p><b>Toxic Thorns.</b> If you apply a damaging poison to this dagger, you deal an extra 1d6 Poison damage on the first time you deal damage to a creature with this dagger.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">dagger</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="dagger">Weapon</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Dagger</set>
+                        <set name="enhancement">2</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
+                <!--Fist Weapon (dagger?)-->
                 <element name="Pit Fiend's Bladed Fist" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_PIT_FIENDS_BLADED_FIST">
                     <description>
                         
@@ -26088,79 +25945,38 @@
                 </element>
                 <element name="Searing Edge" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_SEARING_EDGE">
                     <description>
-                        
-                        Very Rare Longsword (Versatile)
-                        Requires attunement
-                        Damage. 1d8 (1d10) +3 Fire
-                        White Hot. You gain a +3 bonus to attack rolls you make with
-                        this weapon.
-                        Overcharge. As an action you can point the sword into a
-                        direction of your choosing. A 5ft. wide 30ft. long line of fire
-                        bursts out. All creatures in the line have to make a Dexterity
-                        saving throw (DC 18). On a failed save they take 4d8+4 Fire
-                        damage, on a successful save they take half. When you use
-                        this ability, roll a d6 afterwards, on a 1 the handle overheats
-                        and the flame blade fizzles out for 1d4 minutes. You can use
-                        this feature once per long rest.
-                        Flaming Failure. If you roll a 1 on your attack roll you must
-                        roll a d6. On another 1 the handle overheats and the flame
-                        blade fizzles out for 1d4 minutes.
+                        <p><b>White Hot.</b> You gain a +3 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Overcharge.</b> As an action you can point the sword into a direction of your choosing. A 5ft. wide 30ft. long line of fire bursts out. All creatures in the line have to make a Dexterity saving throw (DC 18). On a failed save they take 4d8+4 Fire damage, on a successful save they take half. When you use this ability, roll a d6 afterwards, on a 1 the handle overheats and the flame blade fizzles out for 1d4 minutes. You can use this feature once per long rest.</p>
+                        <p><b>Flaming Failure.</b> If you roll a 1 on your attack roll you must roll a d6. On another 1 the handle overheats and the flame blade fizzles out for 1d4 minutes.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">longsword</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="longsword">Weapon</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Longsword</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement" addition="fire">3</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Spear of Shifting Sands" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_SPEAR_OF_SHIFTING_SANDS">
                     <description>
-                        
-                        Very Rare Spear (Thrown, Versatile)
-                        Requires attunement
-                        Damage. 1d6 (1d8) +2 Piercing
-                        Range. 20/60
-                        Remnant of Naz’thul. You gain a +2 bonus to attack rolls you
-                        make with this weapon.
-                        Strike of the Sun. When you successfully hit a creature with
-                        this weapon you can speak a command word which invokes
-                        the essence of the desert sun as part of your attack. The
-                        creature has to make a Constitution saving throw (DC 14). On
-                        a failed save they take 2d4+2 Radiant damage and are blinded
-                        until the end of their next turn. On a successful save they take
-                        no damage. You can use this feature twice per day.
-                        Sandshift. After making a successful ranged attack against
-                        a creature with this spear you can instantly teleport to its
-                        location. This is a free action that is part of the attack and can
-                        be used once per round.
+                        <p><b>Remnant of Naz’thul.</b> You gain a +2 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Strike of the Sun.</b> When you successfully hit a creature with this weapon you can speak a command word which invokes the essence of the desert sun as part of your attack. The creature has to make a Constitution saving throw (DC 14). On a failed save they take 2d4+2 Radiant damage and are blinded until the end of their next turn. On a successful save they take no damage. You can use this feature twice per day.</p>
+                        <p><b>Sandshift.</b> After making a successful ranged attack against a creature with this spear you can instantly teleport to its location. This is a free action that is part of the attack and can be used once per round.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">spear</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="spear">Weapon</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Spear</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">2</set>
                     </setters>
                     <rules>
                     </rules>
@@ -26190,33 +26006,20 @@
                 </element>
                 <element name="Spiritwalker's Flail" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_SPIRITWALKERS_FLAIL">
                     <description>
-                        
-                        Rare Flail
-                        Requires attunement
-                        Damage. 1d8 Bludgeoning +1d6 Radiant
-                        Elders’ Guidance. You gain a +2 bonus to attack rolls you
-                        make with this weapon.
-                        Strengthened Blow. When you critically hit a creature you
-                        may choose to knock it prone or push it 5ft. away from you.
-                        Protection from Beyond. Twice per long rest you can cast
-                        the spell Sanctuary using this flail. (Wisdom saving throw DC
-                        16)
+                        <p>Damage. 1d8 Bludgeoning +1d6 Radiant</>
+                        <p><b>Elders’ Guidance.</b> You gain a +2 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Strengthened Blow.</b> When you critically hit a creature you may choose to knock it prone or push it 5ft. away from you.</p>
+                        <p><b>Protection from Beyond.</p> Twice per long rest you can cast the spell Sanctuary using this flail. (Wisdom saving throw DC 16)</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">flail</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="flail">Weapon</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Flail</set>
+                        <set name="attunement">true</set>
+                        <!--+1d6 radiant damage-->>
                     </setters>
                     <rules>
                     </rules>
@@ -26275,115 +26078,58 @@
                 </element>
                 <element name="Trenox, The Harbinger of Fate" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_TRENOX_THE_HARBINGER_OF_FATE">
                     <description>
-                        
-                        Very Rare Longbow (Heavy, Two-handed)
-                        Requires attunement
-                        Damage. 1d8+2 Piercing
-                        Range. 150/600
-                        Forceful Shots. You gain a +2 bonus to attack rolls you make
-                        with this weapon.
-                        Deflection. If you are the target of a melee attack, you
-                        can use your reaction to try and deflect the blow with this
-                        reinforced, metal bow. You add +2 to your AC against that
-                        attack.
-                        Guided Arrow. When you finish a long rest, roll two d20’s,
-                        add the +2 bonus and your Dexterity and record the numbers
-                        You can use these numbers instead of making an attack roll for
-                        any attack you want to make with this bow. You must choose
-                        to use one of these numbers before making an attack roll. You
-                        can use a Guided roll only once per turn. Each of these rolls
-                        can be used only once. When you finish a long rest, you lose
-                        any unused rolls. On a successful attack a Guided Arrow deals
-                        an additional 1d6 Thunder damage.
+                        <p><b>Forceful Shots.</b> You gain a +2 bonus to attack rolls you make with this weapon.</p>
+                        <p class="indent"><b>Deflection.</b> If you are the target of a melee attack, you can use your reaction to try and deflect the blow with this reinforced, metal bow. You add +2 to your AC against that attack.</p>
+                        <p class="indent"><b>Guided Arrow.</b> When you finish a long rest, roll two d20’s, add the +2 bonus and your Dexterity and record the numbers You can use these numbers instead of making an attack roll for any attack you want to make with this bow. You must choose to use one of these numbers before making an attack roll. You can use a Guided roll only once per turn. Each of these rolls can be used only once. When you finish a long rest, you lose any unused rolls. On a successful attack a Guided Arrow deals an additional 1d6 Thunder damage.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">longbow</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="longbow">Weapon</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Longbow</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">2</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Volantes Vitaelum" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_VOLANTES_VITAELUM">
                     <description>
-                        
-                        Very Rare Dart (Finesse, Thrown)
-                        Requires attunement by a Spellcaster
-                        Damage. 1d4 Piercing +3 Force
-                        Range. 45/90
-                        Flight of the Hummingbird. As you throw this dart it
-                        seems to become alive and fly on its own. You gain a +3 bonus
-                        to attack rolls you make with this weapon. Because it flies on
-                        its own, it ignores both half-cover and three-quarters cover.
-                        Returning. As part of your attack, you can make the bird fly
-                        back to your empty hand. You can call the bird back to you
-                        from up to 200ft.
-                        Nectar Harvester. Every time you deal damage to a creature
-                        with this weapon you heal 1 hitpoint. When you critical hit a
-                        creature you heal 2 hit points instead.
+                        <p>Range. 45/90</p>
+                        <p><b>Flight of the Hummingbird.</b> As you throw this dart it seems to become alive and fly on its own. You gain a +3 bonus to attack rolls you make with this weapon. Because it flies on its own, it ignores both half-cover and three-quarters cover.</p>
+                        <p><b>Returning.</b> As part of your attack, you can make the bird fly back to your empty hand. You can call the bird back to you from up to 200ft.</p>
+                        <p><b>Nectar Harvester.</b> Every time you deal damage to a creature with this weapon you heal 1 hitpoint. When you critical hit a creature you heal 2 hit points instead.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">dart</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="dart">Weapon</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Dart</set>
+                        <set name="attunement" addition="by a spellcaster">true</set>
+                        <set name="enhancement" addition="force damage">3</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Warden's Hammer of Life" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_Warden's Hammer of Life">
                     <description>
-                        
-                        Rare Warhammer (Heavy)
-                        Requires attunement
-                        Damage. 1d8 (1d10) +2 Bludgeoning
-                        Soul of the Wild. You gain a +2 bonus to attack rolls you
-                        make with this weapon.
-                        Invocation of Vitality. Whenever you use your action to cast
-                        a spell that heals hit points and does not deal any damage,
-                        you can spend your bonus action to strengthen it with a
-                        special invocation. When you do this, add 2d6 to the amount
-                        of hit points restored. You can use this feature up to two times
-                        per long rest.
-                        Energizing Blow. Whenever you deal a critical hit with
-                        this hammer you regain one use of Invocation of Vitality.
+                        <p><b>Soul of the Wild.</b> You gain a +2 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Invocation of Vitality.<b> Whenever you use your action to cast a spell that heals hit points and does not deal any damage, you can spend your bonus action to strengthen it with a special invocation. When you do this, add 2d6 to the amount of hit points restored. You can use this feature up to two times per long rest.</p>
+                        <p><b>Energizing Blow.</b> Whenever you deal a critical hit with this hammer you regain one use of Invocation of Vitality.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">warhammer</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="warhammer">Weapon</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Warhammer</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">2</set>
                     </setters>
                     <rules>
                     </rules>
@@ -26449,36 +26195,19 @@
                 </element>
                 <element name="Warmage's Spellglaive" type="Magic Item" source="Relics of the Realms: Volume 3" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_WARMAGES_SPELLGLAIVE">
                     <description>
-
-                        Arcane Forged. You gain a +2 bonus to attack rolls you make
-                        with this weapon.
-                        Strike of Force. This glaive can hold a maximum of 3
-                        charges. When you make a successful attack with this glaive
-                        you may choose to release all the charges. You deal an extra
-                        1d8 Force damage for each charge expended. A charge is
-                        gained when you cast a spell of 2nd level or higher. For
-                        each level of spell slot you expend above 2nd you gain one
-                        additional charge.
-                        Magical Rhythm. When you deal a critical hit with this
-                        glaive you may choose to attack the same target a second
-                        time as part of your attack action (for which you roll a second
-                        Attack roll). You can use this feature only once per round.
+                        <p><b>Arcane Forged.</b> You gain a +2 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Strike of Force.</b> This glaive can hold a maximum of 3 charges. When you make a successful attack with this glaive you may choose to release all the charges. You deal an extra 1d8 Force damage for each charge expended. A charge is gained when you cast a spell of 2nd level or higher. For each level of spell slot you expend above 2nd you gain one additional charge.</p>
+                        <p><b>Magical Rhythm.</b> When you deal a critical hit with this glaive you may choose to attack the same target a second time as part of your attack action (for which you roll a second Attack roll). You can use this feature only once per round.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
+                        <set name="keywords">glaive</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="glaive">Weapon</set>
                         <set name="rarity">Very Rare</set>
-                        <set name="enhancement">2</set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition="">true</set>
                         <set name="weapon">Glaive</set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">2</set>
                     </setters>
                     <rules>
                     </rules>
@@ -26504,36 +26233,18 @@
             <!--Relics of the Realms: Volume 4-->
                 <element name="Alchemist's Syringe" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_ALCHEMISTS_SYRINGE">
                     <description>
-                        
-                        Common Melee Weapon (Simple, Light, Finesse)
-                        Damage. 1 Piercing
-                        Filling the Syringe. You can use an action to fill the syringe
-                        with any type of liquid.
-                        Into the Bloodstream. On a successfull attack you may
-                        inject the contents of the syringe into the bloodstream of
-                        a creature. Alternatively, as an action you can inject the
-                        contents into the bloodstream of a willing creature without
-                        having to make an attack roll.
-                        Intravenous Healing. When you administer a healing
-                        potion in this way you may reroll all the dice you rolled a 1 on.
-                        Intravenous Poison. When you administer a poison in this
-                        way and it has a saving throw DC, it is increased by 2.
+                        <p><b>Filling the Syringe.</b> You can use an action to fill the syringe with any type of liquid.</p>
+                        <p><b>Into the Bloodstream.</b> On a successfull attack you may inject the contents of the syringe into the bloodstream of a creature. Alternatively, as an action you can inject the contents into the bloodstream of a willing creature without having to make an attack roll.</p>
+                        <p><b>Intravenous Healing.</b> When you administer a healing potion in this way you may reroll all the dice you rolled a 1 on.</p>
+                        <p><b>Intravenous Poison.</b> When you administer a poison in this way and it has a saving throw DC, it is increased by 2.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">dart</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="dart">Weapon</set>
+                        <set name="rarity">Common</set>
+                        <set name="weapon">Dart</set>
                     </setters>
                     <rules>
                     </rules>
@@ -26597,39 +26308,20 @@
                 </element>
                 <element name="Avialuroa, Blessing of the Doves" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_AVIALUROA_BLESSING_OF_THE_DOVES">
                     <description>
-                        
-                        Legendary Longsword (Silvered)
-                        Requires attunement
-                        Damage. 1d8 (1d10) Slashing +3 Radiant
-                        Skyblessed. You gain a +3 bonus to attack rolls you make
-                        with this weapon.
-                        Silver Dove. As a bonus action you can grow silver wings.
-                        You gain a flying speed of 60ft. and your AC increases by 1. The
-                        wings last for 1 hour. You can use this feature once per long
-                        rest.
-                        Symbol of Hope. You can use an action to raise the sword
-                        up and cause magical silver feathers to softly swirl around
-                        you. Until the start of your next turn all allies that can see you
-                        within 30ft. of you have advantage on their next attack roll
-                        and are immune to being frightened for 1 minute. You can use
-                        this feature once and can use it again after you finish a short
-                        or a long rest.
+                        <p>silvered</p>
+                        <p><b>Skyblessed.</b> You gain a +3 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Silver Dove.</b> As a bonus action you can grow silver wings. You gain a flying speed of 60ft. and your AC increases by 1. The wings last for 1 hour. You can use this feature once per long rest.</p>
+                        <p><b>Symbol of Hope.</b> You can use an action to raise the sword up and cause magical silver feathers to softly swirl around you. Until the start of your next turn all allies that can see you within 30ft. of you have advantage on their next attack roll and are immune to being frightened for 1 minute. You can use this feature once and can use it again after you finish a short or a long rest.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">longsword</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="longsword">Weapon</set>
+                        <set name="rarity">Legendary</set>
+                        <set name="weapon">Longsword</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement" addition="radiant damage">3</set>
                     </setters>
                     <rules>
                     </rules>
@@ -26666,74 +26358,42 @@
                 </element>
                 <element name="Blade of the Deep One" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BLADE_OF_THE_DEEP_ONE">
                     <description>
-                        
-                        Rare Longsword
-                        Requires attunement
-                        Damage. 1d8 (1d10) +2 Slashing
-                        Elder Metal. You gain a +2 bonus to attack rolls you make
-                        with this weapon.
-                        Mind Speaker. While holding this sword you can speak and
-                        understand the following languages. Deep Speech, Abyssal
-                        and the Tongue of the Great Old Ones. Additionally, while you
-                        are holding the sword you can communicate telepathically
-                        with a creature you can see within 100ft. of you.
-                        Eldritch Slash. When you roll a critical hit on the attack roll
-                        for this sword, you deal an additional 1d6 Psychic damage on
-                        top of the usual critical damage.
+                        <p><b>Elder Metal.</b> You gain a +2 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Mind Speaker.</b> While holding this sword you can speak and understand the following languages. Deep Speech, Abyssal and the Tongue of the Great Old Ones. Additionally, while you are holding the sword you can communicate telepathically with a creature you can see within 100ft. of you.</p>
+                        <p><b>Eldritch Slash.</b> When you roll a critical hit on the attack roll for this sword, you deal an additional 1d6 Psychic damage on top of the usual critical damage.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">longsword</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="longsword">Weapon</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Longsword</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">2</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Bloodbinder's Whip" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BLOODBINDERS_WHIP">
                     <description>
-                        
-                        Very Rare Whip (Finesse, Reach)
-                        Requires attunement
-                        Damage. 1d4 Slashing
-                        Sanguine Potential. You can fill the receptacle in the handle
-                        of this whip with blood of a creature. The whip gains a bonus
-                        to attack rolls equal to the Constitution modifier of the
-                        creature up to a maximum of +3.
-                        The whip gains a bonus to Damage rolls equal to the
-                        Strength modifier of the creature up to +5. This extra damage
-                        is considered Necrotic damage.
-                        Demander of Answers. When a creature you have damaged
-                        with this whip dies, you can cast Speak with Dead on them.
-                        You can use this feature once per day.
+                        <p><b>Sanguine Potential.</b> You can fill the receptacle in the handle of this whip with blood of a creature. The whip gains a bonus to attack rolls equal to the Constitution modifier of the creature up to a maximum of +3.</p>
+                        <p>The whip gains a bonus to Damage rolls equal to the Strength modifier of the creature up to +5. This extra damage is considered Necrotic damage.</p>
+                        <p><b>Demander of Answers.</b> When a creature you have damaged with this whip dies, you can cast Speak with Dead on them. You can use this feature once per day.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">whip</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="whip">Weapon</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Whip</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement" addition="radiant damage">1</set>
+                        <set name="damage" type="slashing">1d4</set>
                     </setters>
                     <rules>
+
                     </rules>
                 </element>
                 <element name="Bond of the Red Queen" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BOND_OF_THE_RED_QUEEN">
@@ -26822,38 +26482,18 @@
                 </element>
                 <element name="Brightwood Warrior's Blade" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_BRIGHTWOOD_WARRIORS_BLADE">
                     <description>
-                        
-                        Rare Scimitar (Finesse, Light)
-                        Requires attunement
-                        Damage. 1d6+1 Slashing
-                        Forest Forged. You gain a +1 bonus to attack rolls you make
-                        with this weapon.
-                        Slice of Sunlight. As an action you can slash the scimitar
-                        in an arc in front of you. A wave of sunlight burst outward
-                        from you in a 20ft. cone. All creatures in the area have to
-                        make a Constitution saving throw (DC 10 + your proficiency
-                        modifier). A creature with Sunlight Sensitivity has
-                        disadvantage on this saving throw. On a failed save a creature
-                        takes 2d6+2 Radiant damage. If a creature critically fails their
-                        saving throw they are also blinded until the end of their next
-                        turn. On a successful save a creature takes half damage. You
-                        can use this feature once per long rest.
+                        <p><b>Forest Forged.</b> You gain a +1 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Slice of Sunlight.</b> As an action you can slash the scimitar in an arc in front of you. A wave of sunlight burst outward from you in a 20ft. cone. All creatures in the area have to make a Constitution saving throw (DC 10 + your proficiency modifier). A creature with Sunlight Sensitivity has disadvantage on this saving throw. On a failed save a creature takes 2d6+2 Radiant damage. If a creature critically fails their saving throw they are also blinded until the end of their next turn. On a successful save a creature takes half damage. You can use this feature once per long rest.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">scimitar</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="scimitar">Weapon</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Scimitar</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">1</set>
                     </setters>
                     <rules>
                     </rules>
@@ -26912,116 +26552,57 @@
                 </element>
                 <element name="Dragrønnor, Legacy of the Jarl" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_DRAGRONNOR_LEGACY_OF_THE_JARL">
                     <description>
-
-                        Legendary Greataxe (Heavy, Two-handed)
-                        Requires attunement by a Barbarian
-                        Damage. 1d12 Slashing +3 Force
-                        Dragonblessed. You gain a +3 bonus to attack rolls you make
-                        with this weapon.
-                        Warrior’s Health. When you are attuned to this Greataxe
-                        you have Resistance against Poison damage and are immune
-                        to being Poisoned.
-                        Poisonous Wrath. As an action you can expend one use
-                        of your rage to channel a blast of energy through this axe. A
-                        poisonous cloud of gas blasts outward in a 60-foot cone from
-                        you. Each creature in that area must make a Constitution
-                        saving throw (DC 18). On a failed save a creature takes 15d6
-                        Poison damage and is Poisoned until the end of their next
-                        turn. On a successful save they take half damage. You can use
-                        this feature once per long rest.
+                        <p><<b>Dragonblessed.</b> You gain a +3 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Warrior’s Health.</b> When you are attuned to this Greataxe you have Resistance against Poison damage and are immune to being Poisoned.</p>
+                        <p><b>Poisonous Wrath.</b> As an action you can expend one use of your rage to channel a blast of energy through this axe. A poisonous cloud of gas blasts outward in a 60-foot cone from you. Each creature in that area must make a Constitution saving throw (DC 18). On a failed save a creature takes 15d6 Poison damage and is Poisoned until the end of their next turn. On a successful save they take half damage. You can use this feature once per long rest.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">greataxe</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="greataxe">Weapon</set>
+                        <set name="rarity">Legendary</set>
+                        <set name="weapon">Greataxe</set>
+                        <set name="attunement" addition="by a Barbarian">true</set>
+                        <set name="enhancement" addition="force damage">3</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Edge of the Onyx Sands" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_EDGE_OF_THE_ONYX_SANDS">
                     <description>
-                        
-                        Very Rare Dagger (Finesse, Light, Range, Thrown)
-                        Requires attunement
-                        Damage. 1d4 Piercing +2 Necrotic
-                        Range. 30/90
-                        Desert Steel. You gain a +2 bonus to attack rolls you make
-                        with this weapon.
-                        Dark Return. After throwing this dagger you may speak a
-                        command word. The dagger disperses into glittering black
-                        sand and reappears in your hand.
-                        Onyx Transformation. When you are the target of an attack,
-                        spell or ability you can use your reaction to turn yourself into
-                        a being of glittering black sand. This state has 50 hit points.
-                        You remain in this state until the start of your next turn or
-                        when the hit points are reduced to 0. During this time you can
-                        not be healed. All damage surpassing this pool of hit points is
-                        carried over to your own hit points. You can use this feature
-                        once per long rest
+                        <p><b>Desert Steel.</b> You gain a +2 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Dark Return.</b> After throwing this dagger you may speak a command word. The dagger disperses into glittering black sand and reappears in your hand.</p>
+                        <p><b>Onyx Transformation.</b> When you are the target of an attack, spell or ability you can use your reaction to turn yourself into a being of glittering black sand. This state has 50 hit points. You remain in this state until the start of your next turn or when the hit points are reduced to 0. During this time you can not be healed. All damage surpassing this pool of hit points is carried over to your own hit points. You can use this feature once per long rest</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">dagger</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="dagger">Weapon</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Dagger</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement" addition="necrotic damage">2</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Emberblast" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_EMBERBLAST">
                     <description>
-                        
-                        Rare Pistol (Loading)
-                        Requires attunement
-                        Damage. 1d10 Piercing +1 Fire
-                        Range. 30/90
-                        Fired Up. You gain a +1 bonus to attack rolls you make with
-                        this weapon.
-                        Fiery Barrel. Emberblast spews forth a flurry of sparks and
-                        embers when fired. When you make a successful ranged
-                        attack with this pistol against a target within melee range of
-                        you, you deal an extra 2d4 Fire damage.
-                        Stunning Blast. When you critically hit with this pistol the
-                        target and all creatures in a 10ft. radius from them have to
-                        make a Constitution saving throw (DC 11). On a failed save
-                        they are Stunned until the end of their next turn.
+                        <p><b>Fired Up.</b> You gain a +1 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Fiery Barrel.</b> Emberblast spews forth a flurry of sparks and embers when fired. When you make a successful ranged attack with this pistol against a target within melee range of you, you deal an extra 2d4 Fire damage.</p>
+                        <p><b>Stunning Blast.</b> When you critically hit with this pistol the target and all creatures in a 10ft. radius from them have to make a Constitution saving throw (DC 11). On a failed save they are Stunned until the end of their next turn.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">pistol</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="pistol">Weapon</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Pistol</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement" addition="fire damage">1</set>
                     </setters>
                     <rules>
                     </rules>
@@ -27179,117 +26760,57 @@
                 </element>
                 <element name="Grovekeeper's Sickle" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_GROVEKEEPERS_SICKLE">
                     <description>
-                        
-                        Vere Rare Sickle (Light)
-                        Requires attunement by a Spellcaster
-                        Damage. 1d4+2 Slashing
-                        Oaksteel. You gain a +2 bonus to attack rolls you make with
-                        this weapon.
-                        Culler of Plants. When you are attuned to this sickle you
-                        gain an extra +2 bonus to attack rolls on all weapon and spell
-                        attacks you make against Plant creatures.
-                        Grovekeeper’s Focus. The sickle can be used as a
-                        spellcasting focus and holds one charge of the spell Transport
-                        via Plants. When you cast this spell using this sickle, all
-                        creatures passing through the portal regain 3d6 hit points and
-                        lose 1 point of exhaustion. The sickle regains the charge after
-                        24 hours.
+                        <p><b>Oaksteel.</b> You gain a +2 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Culler of Plants.</b> When you are attuned to this sickle you gain an extra +2 bonus to attack rolls on all weapon and spell attacks you make against Plant creatures.</p>
+                        <p><b>Grovekeeper’s Focus.</b> The sickle can be used as a spellcasting focus and holds one charge of the spell Transport via Plants. When you cast this spell using this sickle, all creatures passing through the portal regain 3d6 hit points and lose 1 point of exhaustion. The sickle regains the charge after 24 hours.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">sickle</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="sickle">Weapon</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Sickle</set>
+                        <set name="attunement" addition="by a spellcaster">true</set>
+                        <set name="enhancement">2</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Heartbreaker" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_HEARTBREAKER">
                     <description>
-                        
-                        Very Rare Maul (Heavy, Two-handed)
-                        Requires attunement
-                        Damage. 2d6+1 Bludgeoning
-                        Forged with Love. You gain a +1 bonus to attack rolls you
-                        make with this weapon
-
-                        Aura of the Heart. When attuned to this hammer the heart-
-                        shaped gem pulses with a soft light. All creatures within 20ft.
-
-                        of the gem gain a +3 bonus to Charisma and Constitution
-                        saving throws. When it shatters the aura fades.
-                        Shattered Heart. When you critically hit a creature with this
-                        maul the gem on top of it shatters in a flash of light. All allies
-                        within 45ft. that can see you regain an amount of hit points
-                        equal to the damage you dealt with the triggering attack +2d6.
-                        They also receive the benefits of Aura of the Heart for 24 hours.
-                        After the gem has been shattered it magically reforms over the
-                        course of 24 hours after which it can be used again.
+                        <p><b>Forged with Love.</b> You gain a +1 bonus to attack rolls you make with this weapon</p>
+                        <p><b>Aura of the Heart.</b> When attuned to this hammer the heart-shaped gem pulses with a soft light. All creatures within 20ft. of the gem gain a +3 bonus to Charisma and Constitution saving throws. When it shatters the aura fades.</p>
+                        <p><b>Shattered Heart.</b> When you critically hit a creature with this maul the gem on top of it shatters in a flash of light. All allies within 45ft. that can see you regain an amount of hit points equal to the damage you dealt with the triggering attack +2d6. They also receive the benefits of Aura of the Heart for 24 hours. After the gem has been shattered it magically reforms over the course of 24 hours after which it can be used again.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">maul</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="maul">Weapon</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Maul</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">1</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Khopesh of Afeldius" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_KHOPESH_OF_AFELDIUS">
                     <description>
-                        
-                        Very Rare Scimitar (Finesse, Light)
-                        Requires attunement
-                        Damage. 1d6 Slashing +2 Fire
-                        Elemental Forged. You gain a +2 bonus to attack rolls you
-                        make with this weapon.
-                        Fire’s Friend. When you are holding this scimitar you have
-                        resistance against Fire damage. Additionally, when you take
-                        more than 5 Fire damage within one round, your next attack
-                        with this scimitar within the next minute deals an extra 1d10
-                        Fire damage.
-                        Elemental Outburst. As an action you can cause flames to
-                        burst outward from you in a 10ft. radius. All creatures in the
-                        area have to make a Dexterity saving throw (DC 14). On a
-                        failed save they take 4d6 Fire damage. On a successful save
-                        they take half damage. You can use this feature once per long
-                        rest.
+                        <p><b>Elemental Forged.</b> You gain a +2 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Fire’s Friend.</b> When you are holding this scimitar you have resistance against Fire damage. Additionally, when you take more than 5 Fire damage within one round, your next attack with this scimitar within the next minute deals an extra 1d10 Fire damage.</p>
+                        <p><b>Elemental Outburst.</b> As an action you can cause flames to burst outward from you in a 10ft. radius. All creatures in the area have to make a Dexterity saving throw (DC 14). On a failed save they take 4d6 Fire damage. On a successful save they take half damage. You can use this feature once per long rest.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">scimitar</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="scimitar">Weapon</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Scimitar</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement" addition="fire damage">2</set>
                     </setters>
                     <rules>
                     </rules>
@@ -27402,42 +26923,36 @@
                     </rules>
                 </element>
                 <!--Chakram Base Weapon-->
-                <element name="Lightforged Chakram" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_LIGHTFORGED_CHAKRAM">
+                <element name="Chakram" type="Weapon" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_WEAPON_CHAKRAM">
+                    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
                     <description>
-                        
-                        Rare Chakram (Ranged, Martial, Light, Thrown)
-                        Requires attunement
-                        Damage. 1d6 Slashing +1 Radiant damage
-                        Range. 30/120
-                        Enchanted Steel. You gain a +1 bonus to attack rolls you
-                        make with this weapon.
-                        Ricocheting Light. When you successfully hit a creature
-                        with this weapon it ricochets onto any target of your choice
-                        within 5ft. of your initial target. If your initial attack roll
-                        beats the second target’s AC they also receive 1d6 Slashing +1
-                        Radiant damage. If it does not hit the second target it does not
-                        ricochet further. The chakram can ricochet onto a new target
-                        in this way up to 2 times per attack, hitting a maximum of 3
-                        creatures.
-                        Flash Return. As a free action you may call the chakram back
-                        to you at the end of your turn. In a flash of light it returns back
-                        to a free hand. It can return from a maximum range of 200ft.
+                        <p></p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="category">Weapons</set>
+                        <set name="cost" currency="gp">2</set>
+                        <set name="weight" lb="2">2 lb.</set>
+                        <set name="slot">onehand</set>
+                        <set name="range">30/120</set>
+                        <set name="damage" type="slashing">1d6</set>
+                        <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CHAKRAM</set>
+                    </setters>
+                </element>
+                <element name="Lightforged Chakram" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_LIGHTFORGED_CHAKRAM">
+                    <description>
+                        <p><b>Enchanted Steel.</b> You gain a +1 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Ricocheting Light.</b> When you successfully hit a creature with this weapon it ricochets onto any target of your choice within 5ft. of your initial target. If your initial attack roll beats the second target’s AC they also receive 1d6 Slashing +1 Radiant damage. If it does not hit the second target it does not ricochet further. The chakram can ricochet onto a new target in this way up to 2 times per attack, hitting a maximum of 3 creatures.</p>
+                        <p><b>Flash Return.</b> As a free action you may call the chakram back to you at the end of your turn. In a flash of light it returns back to a free hand. It can return from a maximum range of 200ft.</p>
+                    </description>
+                    <setters>
+                        <set name="keywords">chakram</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="chakram">Weapon</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Chakram</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement" addition="radiant damage">1</set>
                     </setters>
                     <rules>
                     </rules>
@@ -27481,35 +26996,19 @@
                 </element>
                 <element name="Manticore's Wrath" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_MANTICORES_WRATH">
                     <description>
-                        
-                        Very Rare Greataxe (Heavy, Two-handed, Ranged)
-                        Requires attunement
-                        Damage. 1d12+2 Slashing
-                        Hunter’s Trophy. You gain a +2 bonus to attack rolls you
-                        make with this weapon.
-                        Manticore’s Lash. You can make a ranged attack with this
-                        axe using your Strength modifier. You swing the axe to release
-                        and hurl a spike from it. The range for this attack is 80/120 ft.
-                        On a successful attack the spike deals 1d8+2 Piercing damage
-                        The axe can hold up to 24 spikes and regrows 1d8 spikes every
-                        day. When you release the last spike from this axe, roll a d20.
-                        On a 1 it takes d100 days before the first spikes regrow.
+                        <p><b>Hunter’s Trophy.</b> You gain a +2 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Manticore’s Lash.</b> You can make a ranged attack with this axe using your Strength modifier. You swing the axe to release and hurl a spike from it. The range for this attack is 80/120 ft. On a successful attack the spike deals 1d8+2 Piercing damage The axe can hold up to 24 spikes and regrows 1d8 spikes every day. When you release the last spike from this axe, roll a d20. On a 1 it takes d100 days before the first spikes regrow.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">greataxe</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="greataxe">Weapon</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Greataxe</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">2</set>
+                        <set name="charges">24</set>
                     </setters>
                     <rules>
                     </rules>
@@ -27789,34 +27288,19 @@
                 </element>
                 <element name="Ritual Dagger of the Moon" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_RITUAL_DAGGER_OF_THE_MOON">
                     <description>
-                        
-                        Rare Dagger (Finesse, Light, Range, Thrown)
-                        Requires attunement
-                        Damage. 1d4+1 Piercing
-                        Range. 20/60
-                        Nightforged. You gain a +1 bonus to attack rolls you make
-                        with this weapon.
-                        Moontouched. In darkness, the unsheathed blade of this
-                        dagger sheds moonlight, creating bright light in a 15-foot
-                        radius and dim light for an additional 15 feet.
-                        Lunar Infused Rituals. While attuned to this dagger, the
-                        total time you need to cast a spell as a ritual is halved.
+                        <p><b>Nightforged.</b> You gain a +1 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Moontouched.</b> In darkness, the unsheathed blade of this dagger sheds moonlight, creating bright light in a 15-foot radius and dim light for an additional 15 feet.</p>
+                        <p><b>Lunar Infused Rituals.</b> While attuned to this dagger, the total time you need to cast a spell as a ritual is halved.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">dagger</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="dagger">Weapon</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Dagger</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">1</set>
                     </setters>
                     <rules>
                     </rules>
@@ -27842,40 +27326,27 @@
                 </element>
                 <element name="Ruby Blade" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_RUBY_BLADE">
                     <description>
-                        
-                        Rare Greatsword (Heavy, Two-handed)
-                        Requires attunement
-                        Damage. 2d6 +1 Slashing
-                        Crystal Blade. You gain a +1 bonus to attack rolls you make
-                        with this weapon.
-                        Blessed Edge. When you make an Attack with this sword you
-                        can roll a d100 to add an effect. The bonus to attack rolls and
-                        damage only applies to one attack. The damage only applies if
-                        the attack hits. When you have used this feature you can not
-                        use it again until you finish a short or a long rest.
-                        Ruby Blade Effects
-                        Charges Spell
-                        1 Blade shatters, Damaged beyond repair
-                        2-25 +1 on attack roll
-                        26-70 +2 on attack Roll
-                        71-90 +2d6 damage
-                        91-100 +3d6 damage
+                        <p><b>Crystal Blade.</b> You gain a +1 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Blessed Edge.</b> When you make an Attack with this sword you can roll a d100 to add an effect. The bonus to attack rolls and damage only applies to one attack. The damage only applies if the attack hits. When you have used this feature you can not use it again until you finish a short or a long rest.</p>
+                        <h5>Ruby Blade Effects</h5>
+                        <table>
+                            Charges Spell
+                            1 Blade shatters, Damaged beyond repair
+                            2-25 +1 on attack roll
+                            26-70 +2 on attack Roll
+                            71-90 +2d6 damage
+                            91-100 +3d6 damage
+                        </table>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">greatsword</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="greatsword">Weapon</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Greatsword</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">1</set>
                     </setters>
                     <rules>
                     </rules>
@@ -27922,76 +27393,37 @@
                 </element>
                 <element name="Runebound Star" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_RUNEBOUND_STAR">
                     <description>
-                        
-                        Very Rare Morningstar
-                        Requires attunement by a Spellcaster
-                        Damage. 1d8 Piercing +2 Force
-                        Battle Runes. You gain a +2 bonus to attack rolls you make
-                        with this weapon.
-                        Starburst. Strikes with this weapon give off a bright burst of
-                        blinding light. Once per round, on your first attack, a creature
-                        hit by this weapon must make a Constitution saving throw
-                        (DC 12). On a failed save the creature is blinded until the end
-                        of its next turn.
-                        Rune Ward. You may use your reaction to cast Counterspell
-                        (5th level) using this morningstar. This counterspell only
-                        acts against spells that would affect you. Spells which affect
-                        multiple targets are countered for you but still affect other
-                        targets. You can use this feature twice and regain all uses after
-                        finishing a long rest.
+                        <p><b>Battle Runes.</b> You gain a +2 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Starburst.</b> Strikes with this weapon give off a bright burst of blinding light. Once per round, on your first attack, a creature hit by this weapon must make a Constitution saving throw (DC 12). On a failed save the creature is blinded until the end of its next turn.</p>
+                        <p><b>Rune Ward.</b> You may use your reaction to cast Counterspell (5th level) using this morningstar. This counterspell only acts against spells that would affect you. Spells which affect multiple targets are countered for you but still affect other targets. You can use this feature twice and regain all uses after finishing a long rest.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">morningstar</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="morningstar">Weapon</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Morningstar</set>
+                        <set name="attunement" addition="by a spellcaster">true</set>
+                        <set name="enhancement" addition="force damage">2</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Scalpel of the Bloodrainer" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_SCALPEL_OF_THE_BLOODRAINER">
                     <description>
-                        
-                        Rare Dagger (Finesse, Light, Range, Thrown)
-                        Damage. 1d4 +1 Piercing
-                        Range. 20/60
-                        Surgical Precision. You gain a +1 bonus to attack rolls you
-                        make with this weapon.
-                        Anatomical Insight. If you are proficient in Nature you
-                        may add your Intelligence modifier to the attack roll for this
-                        weapon. If you are proficient in Medicine you may add your
-                        Wisdom modifier to the attack roll for this weapon. If you are
-                        proficient in both Nature and Medicine, choose one modifier
-                        (either Intelligence or Wisdom) to add to the attack roll.
-                        Medical Professional. You make all Ability checks with
-                        advantage when you perform any kind of surgery or medical
-                        procedure which requires the use of this scalpel.
+                        <p><b>Surgical Precision.</b> You gain a +1 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Anatomical Insight.</b> If you are proficient in Nature you may add your Intelligence modifier to the attack roll for this weapon. If you are proficient in Medicine you may add your Wisdom modifier to the attack roll for this weapon. If you are proficient in both Nature and Medicine, choose one modifier (either Intelligence or Wisdom) to add to the attack roll.</p>
+                        <p><b>Medical Professional.</b> You make all Ability checks with advantage when you perform any kind of surgery or medical procedure which requires the use of this scalpel.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">dagger</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="dagger">Weapon</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Dagger</set>
+                        <set name="enhancement">1</set>
                     </setters>
                     <rules>
                     </rules>
@@ -28194,76 +27626,38 @@
                 </element>
                 <element name="Thorns of Greed" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_THORNS_OF_GREED">
                     <description>
-                        
-                        Rare Morningstar
-                        Requires attunement
-                        Damage. 1d8+1 Piercing
-                        Gemfused Steel. You gain a +1 bonus to attack rolls you
-                        make with this weapon.
-                        Pulse of Greed. When you make a succesful attack you may
-                        roll a seperate damage die for an additional 1d8 Force damage.
-                        If this roll is equal or higher than your first roll, you may add
-                        it to the total damage. You may do this up to 5 times, so long
-                        as the new roll is higher than the previous roll. If a new roll
-                        deals less damage than the previous roll, the attack misses
-                        completely and you receive half of the damage you would
-                        have dealt to the target.
+                        <p><b>Gemfused Steel.</b> You gain a +1 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Pulse of Greed.</b> When you make a succesful attack you may roll a seperate damage die for an additional 1d8 Force damage. If this roll is equal or higher than your first roll, you may add it to the total damage. You may do this up to 5 times, so long as the new roll is higher than the previous roll. If a new roll deals less damage than the previous roll, the attack misses completely and you receive half of the damage you would have dealt to the target.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">morningstar</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="morningstar">Weapon</set>
+                        <set name="rarity">Rare</set>
+                        <set name="weapon">Morningstar</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">1</set>
                     </setters>
                     <rules>
                     </rules>
                 </element>
                 <element name="Trident of the Cobalt Divide" type="Magic Item" source="Relics of the Realms: Volume 4" id="ID_BONUSACTION_ROTR_MAGIC_ITEM_TRIDENT_OF_THE_COBALT_DIVIDE">
                     <description>
-                        
-                        Very Rare Trident (Thrown, Versatile)
-                        Requires attunement
-                        Damage. 1d6 (1d8) +2 Piercing
-                        Range. 20/60
-                        Steel of the Sea. You gain a +2 bonus to attack rolls you
-                        make with this weapon.
-                        Might of the Blue. The range of this trident is doubled when
-                        thrown over a body of water that is at least 20ft. wide. The
-                        range is also doubled when you and your target are both
-                        completely under water.
-                        Ebb and Flow. When you make a successful range attack roll
-                        with this weapon you can call it back to a free hand as part of
-                        your attack action.
-                        Lightning Conductor. A creature that is critically hit by
-                        the trident becomes vulnerable to Lightning damage until
-                        the end of its next turn. If a creature is immune it becomes
-                        resistant, if it is resistant it loses the resistance.
+                        <p><b>Steel of the Sea.</b> You gain a +2 bonus to attack rolls you make with this weapon.</p>
+                        <p><b>Might of the Blue.</b> The range of this trident is doubled when thrown over a body of water that is at least 20ft. wide. The range is also doubled when you and your target are both completely under water.</p>
+                        <p><b>Ebb and Flow.</b> When you make a successful range attack roll with this weapon you can call it back to a free hand as part of your attack action.</p>
+                        <p><b>Lightning Conductor.</b> A creature that is critically hit by the trident becomes vulnerable to Lightning damage until the end of its next turn. If a creature is immune it becomes resistant, if it is resistant it loses the resistance.</p>
                     </description>
                     <setters>
-                        <set name="keywords"></set>
-                        <set name="category"></set>
-                        <set name="cost" currency="gp"></set>
-                        <set name="weight" lb="0">lb.</set>
-                        <set name="type" addition=""></set>
-                        <set name="rarity"></set>
-                        <set name="enhancement"></set>
-                        <set name="slot"></set>
-                        <set name="attunement" addition=""></set>
-                        <set name="weapon"></set>
-                        <set name="armor"></set>
-                        <set name="name-format"></set>
-                        <set name="stackable"></set>
-                        <set name="charges"></set>
+                        <set name="keywords">trident</set>
+                        <set name="category">Magic Weapons</set>
+                        <set name="cost" currency="gp">0</set>
+                        <set name="type" addition="trident">Weapon</set>
+                        <set name="rarity">Very Rare</set>
+                        <set name="weapon">Trident</set>
+                        <set name="attunement">true</set>
+                        <set name="enhancement">2</set>
                     </setters>
                     <rules>
                     </rules>
