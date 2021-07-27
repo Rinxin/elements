@@ -11,16 +11,19 @@
 	<files>
         	
 		<file name="00-background-options.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/00-background-options.xml" />
-	<!--A-->
+<!--A-->
 		<file name="acolyte.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/acolyte.xml" />
-        <file name="anthropologist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/anthropologist.xml" />
+		<file name="adventurer.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/adventurer.xml" />
+        	<file name="anthropologist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/anthropologist.xml" />
+		<file name="apothecary.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/apothecary.xml" />
 		<file name="ashari.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/ashari.xml" />
-        <file name="athlete.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/athlete.xml" />
-        <file name="azorius-functionary.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/azorius-functionary.xml" />
-	<!--B-->
+        	<file name="athlete.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/athlete.xml" />
+        	<file name="azorius-functionary.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/azorius-functionary.xml" />
+<!--B-->
        	<file name="black-fist-double-agent.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/black-fist-double-agent.xml" />
        	<file name="boros-legionnaire.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/boros-legionnaire.xml" />
-    <!--C-->
+	<file name="bounty-hunter.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/bounty-hunter.xml" />
+<!--C-->
        	<file name="caravan-specialist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/caravan-specialist.xml" />
        	<file name="celebrity-adventurers-scion.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/celebrity-adventurers-scion.xml" />
        	<file name="charlatan.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/charlatan.xml" />
@@ -60,6 +63,7 @@
 	<!--I-->
 		<file name="inheritor.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/inheritor.xml" />
 		<file name="iron-route-bandit.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/iron-route-bandit.xml" />
+		<file name="islander.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/islander.xml" />
 		<file name="izzet-engineer.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/izzet-engineer.xml" />
 	<!--K-->
 		<file name="knight-of-the-order.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/knight-of-the-order.xml" />
@@ -78,6 +82,7 @@
 		<file name="phlan-insurgent.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/phlan-insurgent.xml" />
 		<file name="phalan-refugee.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/phlan-refugee.xml" />
 		<file name="plaintiff.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/plaintiff.xml" />
+		<file name="prospector.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/prospector.xml" />
 	<!--R-->
 		<file name="rakdos-cultist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/rakdos-cultist.xml" />
 		<file name="recovered-cultist.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/recovered-cultist.xml" />
@@ -104,5 +109,6 @@
 		<file name="volstrucker-agent.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/volstrucker-agent.xml" />
 	<!--W-->
 		<file name="waterdhavian-noble.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/waterdhavian-noble.xml" />
+		<file name="witch-hunter.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/witch-hunter.xml" />
     </files>
 </index>
