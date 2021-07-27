@@ -5,7 +5,7 @@
         <description>5e homebrew</description>
         <author url="http://www.dandwiki.com/wiki/5e_Homebrew">D&amp;D Wiki</author>
         <update version="0.0.3">
-            <file name="adventurer.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/backgrounds/adventurer.xml" />
+            <file name="adventurer.xml" url="https://raw.githubusercontent.com/Rinxin/elements/master/core/backgrounds/adventurer.xml" />
         </update>
     </info>
     <element name="Adventurer" type="Background" source="D&amp;D Wiki" id="ID_WIKI_BACKGROUND_ADVENTURER">
