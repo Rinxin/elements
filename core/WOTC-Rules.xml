@@ -1343,28 +1343,28 @@
 				<h5 class="caption">THE BARBARIAN</h5>
 				<table class="class-features">
 					<thead>
-						<tr><td class="col-10">Level</td><td>Rages</td><td>Rage Damage</td><td class="col-60 left">Features</td></tr>
+						<tr><td class="col-10">Level</td><td class="col-60 left">Core Features</td><td class="col-60 left">Flavor Features</td><td>Rages</td><td>Rage Damage</td></tr>
 					</thead>
-					<tr><td>1st</td><td>2</td><td>+2</td><td class="left">Rage, Unarmored Defense</td></tr>
-					<tr><td>2nd</td><td>2</td><td>+2</td><td class="left">Reckless Attack, Danger Sense</td></tr>
-					<tr><td>3rd</td><td>3</td><td>+2</td><td class="left">Primal Path</td></tr>
-					<tr><td>4th</td><td>3</td><td>+2</td><td class="left">Ability Score Improvement</td></tr>
-					<tr><td>5th</td><td>3</td><td>+2</td><td class="left">Extra Attack, Fast Movement</td></tr>
-					<tr><td>6th</td><td>4</td><td>+2</td><td class="left">Path feature</td></tr>
-					<tr><td>7th</td><td>4</td><td>+2</td><td class="left">Feral Instinct</td></tr>
-					<tr><td>8th</td><td>4</td><td>+2</td><td class="left">Ability Score Improvement</td></tr>
-					<tr><td>9th</td><td>4</td><td>+3</td><td class="left">Brutal Critical (1 die)</td></tr>
-					<tr><td>10th</td><td>4</td><td>+3</td><td class="left">Path feature</td></tr>
-					<tr><td>11th</td><td>4</td><td>+3</td><td class="left">Relentless Rage</td></tr>
-					<tr><td>12th</td><td>5</td><td>+3</td><td class="left">Ability Score Improvement</td></tr>
-					<tr><td>13th</td><td>5</td><td>+3</td><td class="left">Brutal Critical (2 dice)</td></tr>
-					<tr><td>14th</td><td>5</td><td>+3</td><td class="left">Path feature</td></tr>
-					<tr><td>15th</td><td>5</td><td>+3</td><td class="left">Persistent Rage</td></tr>
-					<tr><td>16th</td><td>5</td><td>+4</td><td class="left">Ability Score Improvement</td></tr>
-					<tr><td>17th</td><td>6</td><td>+4</td><td class="left">Brutal Critical (3 dice)</td></tr>
-					<tr><td>18th</td><td>6</td><td>+4</td><td class="left">Indomitable Might</td></tr>
-					<tr><td>19th</td><td>6</td><td>+4</td><td class="left">Ability Score Improvement</td></tr>
-					<tr><td>20th</td><td>Unlimited</td><td>+4</td><td class="left">Primal Champion</td></tr>
+					<tr><td>1st</td><td class="left">Rage, Unarmored Defense</td><td></td><td>2</td><td>+2</td></tr>
+					<tr><td>2nd</td><td class="left">Reckless Attack</td><td>Danger Sense</td><td>2</td><td>+2</td></tr>
+					<tr><td>3rd</td><td class="left">Primal Path</td><td></td><td>3</td><td>+2</td></tr>
+					<tr><td>4th</td><td class="left">Ability Score Improvement</td><td></td><td>3</td><td>+2</td></tr>
+					<tr><td>5th</td><td class="left">Extra Attack, Fast Movement</td><td></td><td>3</td><td>+2</td></tr>
+					<tr><td>6th</td><td class="left">Path feature</td><td></td><td>4</td><td>+2</td></tr>
+					<tr><td>7th</td><td class="left">Feral Instinct</td><td></td><td>4</td><td>+2</td></tr>
+					<tr><td>8th</td><td class="left">Ability Score Improvement</td><td></td><td>4</td><td>+2</td></tr>
+					<tr><td>9th</td><td class="left">Brutal Critical (1 die)</td><td></td><td>4</td><td>+3</td></tr>
+					<tr><td>10th</td><td class="left">Path feature</td><td></td><td>4</td><td>+3</td></tr>
+					<tr><td>11th</td><td class="left">Relentless Rage</td><td></td><td>4</td><td>+3</td></tr>
+					<tr><td>12th</td><td class="left">Ability Score Improvement</td><td></td><td>5</td><td>+3</td></tr>
+					<tr><td>13th</td><td class="left">Brutal Critical (2 dice)</td><td></td><td>5</td><td>+3</td></tr>
+					<tr><td>14th</td><td class="left">Path feature</td><td></td><td>5</td><td>+3</td></tr>
+					<tr><td>15th</td><td class="left">Persistent Rage</td><td></td><td>5</td><td>+3</td></tr>
+					<tr><td>16th</td><td class="left">Ability Score Improvement</td><td></td><td>5</td><td>+4</td></tr>
+					<tr><td>17th</td><td class="left">Brutal Critical (3 dice)</td><td></td><td>6</td><td>+4</td></tr>
+					<tr><td>18th</td><td class="left">Indomitable Might</td><td></td><td>6</td><td>+4</td></tr>
+					<tr><td>19th</td><td class="left">Ability Score Improvement</td><td></td><td>6</td><td>+4</td></tr>
+					<tr><td>20th</td><td class="left">Primal Champion</td><td></td><td>Unlimited</td><td>+4</td></tr>
 				</table>
 				<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RAGE" />
 				<div element="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_UNARMORED_DEFENCE" />
@@ -1890,28 +1890,28 @@
 				<h5 class="caption">THE BARD</h5>
 				<table class="class-features">
 					<thead>
-						<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-5">Cantrips Known</td><td class="col-5">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+						<tr><td class="col-5">Level</td><td class="left">Core Features</td><td class="left">Flavor Features</td><td class="col-5">Cantrips Known</td><td class="col-5">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
 					</thead>
-					<tr><td> 1st</td><td class="left">Spellcasting, Bardic Inspiration (d6)</td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-					<tr><td> 2nd</td><td class="left">Jack of All Trades, Song of Rest (d6)</td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-					<tr><td> 3rd</td><td class="left">Bard College, Expertise</td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-					<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-					<tr><td> 5th</td><td class="left">Bardic Inspiration (d8), Font of Inspiration</td><td>3</td><td>8</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-					<tr><td> 6th</td><td class="left">Countercharm, Bard College feature</td><td>3</td><td>9</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-					<tr><td> 7th</td><td class="left">—</td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-					<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-					<tr><td> 9th</td><td class="left">Song of Rest (d8)</td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-					<tr><td>10th</td><td class="left">Bardic Inspiration (d10), Expertise, Magical Secrets</td><td>4</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-					<tr><td>11th</td><td class="left">—</td><td>4</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
-					<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>4</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
-					<tr><td>13th</td><td class="left">Song of Rest (d10) </td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
-					<tr><td>14th</td><td class="left">Magical Secrets, Bard College feature</td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
-					<tr><td>15th</td><td class="left">Bardic Inspiration (d12)</td><td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
-					<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
-					<tr><td>17th</td><td class="left">Song of Rest (d12)</td><td>4</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
-					<tr><td>18th</td><td class="left">Magical Secrets</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
-					<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
-					<tr><td>20th</td><td class="left">Superior Inspiration</td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
+					<tr><td> 1st</td><td class="left">Spellcasting, Bardic Inspiration (d6)</td><td></td><td>2</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+					<tr><td> 2nd</td><td class="left">Jack of All Trades, Song of Rest (d6)</td><td></td><td>2</td><td>5</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+					<tr><td> 3rd</td><td class="left">Bard College, Expertise</td><td></td><td>2</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+					<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td></td><td>3</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+					<tr><td> 5th</td><td class="left">Bardic Inspiration (d8), Font of Inspiration</td><td></td><td>3</td><td>8</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+					<tr><td> 6th</td><td class="left">Countercharm, Bard College feature</td><td></td><td>3</td><td>9</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+					<tr><td> 7th</td><td class="left">—</td><td></td><td>3</td><td>10</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+					<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td></td><td>3</td><td>11</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+					<tr><td> 9th</td><td class="left">Song of Rest (d8)</td><td></td><td>3</td><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+					<tr><td>10th</td><td class="left">Bardic Inspiration (d10), Expertise, Magical Secrets</td><td></td><td>4</td><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+					<tr><td>11th</td><td class="left">—</td><td></td><td>4</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+					<tr><td>12th</td><td class="left">Ability Score Improvement</td><td></td><td>4</td><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr>
+					<tr><td>13th</td><td class="left">Song of Rest (d10) </td><td></td><td>4</td><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+					<tr><td>14th</td><td class="left">Magical Secrets, Bard College feature</td><td></td><td>4</td><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr>
+					<tr><td>15th</td><td class="left">Bardic Inspiration (d12)</td><td></td><td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+					<tr><td>16th</td><td class="left">Ability Score Improvement</td><td></td><td>4</td><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr>
+					<tr><td>17th</td><td class="left">Song of Rest (d12)</td><td></td><td>4</td><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+					<tr><td>18th</td><td class="left">Magical Secrets</td><td></td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+					<tr><td>19th</td><td class="left">Ability Score Improvement</td><td></td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr>
+					<tr><td>20th</td><td class="left">Superior Inspiration</td><td></td><td>4</td><td>22</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr>
 				</table>
 				<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARDIC_INSPIRATION" />
 				<div element="ID_WOTC_PHB_CLASS_FEATURE_BARD_SPELLCASTING_BARD" />
@@ -2364,7 +2364,7 @@
 				<h5 class="caption">THE CLERIC</h5>
 				<table class="class-features">
 					<thead>
-						<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td><td>Spell Points</td><td>Safe Spell Levels</td></tr>
+						<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td><td>Spell Points</td><td>Max Spell Level</td></tr>
 					</thead>
 					<tr><td> 1st</td><td class="left">Spellcasting, Divine Domain</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td>																	<td>2</td><td>1st</td></tr>
 					<tr><td> 2nd</td><td class="left">Channel Divinity (1/rest), Divine Domain feature</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td>												<td>3</td><td>1st</td></tr>
@@ -31382,7 +31382,9 @@
 			</setters>
 			<rules>
 				<stat name="strength" value="2" requirements="!ID_WOTC_EGTW_GRANTS_DRAGONBORN_VARIANT,!ID_INTERNAL_GRANTS_DRAGONBORN_LINEAGE_VARIANT" />
+				<stat name="strength:max" value="2" requirements="!ID_WOTC_EGTW_GRANTS_DRAGONBORN_VARIANT,!ID_INTERNAL_GRANTS_DRAGONBORN_LINEAGE_VARIANT" />
 				<stat name="charisma" value="1" requirements="!ID_WOTC_EGTW_GRANTS_DRAGONBORN_VARIANT,!ID_INTERNAL_GRANTS_DRAGONBORN_LINEAGE_VARIANT" />
+				<stat name="charisma:max" value="1" requirements="!ID_WOTC_EGTW_GRANTS_DRAGONBORN_VARIANT,!ID_INTERNAL_GRANTS_DRAGONBORN_LINEAGE_VARIANT" /> 
 				<stat name="innate speed" value="30" bonus="base" requirements="!ID_INTERNAL_GRANTS_DRAGONBORN_LINEAGE_VARIANT" />
 				<grant type="Size" id="ID_SIZE_MEDIUM" requirements="!ID_INTERNAL_GRANTS_DRAGONBORN_LINEAGE_VARIANT" />
 				<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_INTERNAL_GRANTS_DRAGONBORN_LINEAGE_VARIANT" />
@@ -31646,6 +31648,7 @@
 			</setters>
 			<rules>
 				<stat name="constitution" value="2" />
+				<stat name="constitution:max" value="2" />
 				<stat name="innate speed" value="25" bonus="base" />
 				<grant type="Grants" id="ID_INTERNAL_GRANTS_IGNORE_HEAVY_ARMOR_SPEED_REDUCTION" />
 				<grant type="Size" id="ID_SIZE_MEDIUM" />
@@ -31731,6 +31734,7 @@
 				</setters>
 				<rules>
 					<stat name="wisdom" value="1" />
+					<stat name="wisdom:max" value="1" />
 					<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_TOUGHNESS" />
 				</rules>
 			</element>
@@ -31760,6 +31764,7 @@
 				</setters>
 				<rules>
 					<stat name="strength" value="2" />
+					<stat name="strength:max" value="2" />
 					<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_ARMOR_TRAINING" />
 				</rules>
 			</element>
@@ -31825,6 +31830,7 @@
 			</setters>
 			<rules>
 				<stat name="dexterity" value="2" requirements="!ID_UA_PSK_GRANTS_ELF_SUBRACE" />
+				<stat name="dexterity:max" value="2" requirements="!ID_UA_PSK_GRANTS_ELF_SUBRACE" />
 				<stat name="innate speed" value="30" bonus="base" />
 				<grant type="Size" id="ID_SIZE_MEDIUM" />
 				<grant type="Vision" id="ID_VISION_DARKVISION" />
@@ -31889,6 +31895,7 @@
 				</setters>
 				<rules>
 					<stat name="intelligence" value="1" />
+					<stat name="intelligence:max" value="1" />
 					<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING" />
 					<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CANTRIP" />
 					<grant type="Racial Trait" id="ID_RACIAL_TRAIT_EXTRA_LANGUAGE" />
@@ -31945,6 +31952,7 @@
 				</setters>
 				<rules>
 					<stat name="wisdom" value="1" />
+					<stat name="wisdom:max" value="1" />
 					<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING" />
 					<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FLEET_OF_FOOT" />
 					<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MASK_OF_THE_WILD" />
@@ -31988,6 +31996,7 @@
 				</setters>
 				<rules>
 					<stat name="charisma" value="1" />
+					<stat name="charisma:max" value="1" />
 					<grant type="Vision" id="ID_VISION_SUPERIORDARKVISION" />
 					<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SUNLIGHT_SENSITIVITY" />
 					<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DROW_MAGIC" />
@@ -32042,6 +32051,7 @@
 				<sheet display="false" />
 				<rules>
 					<stat name="intelligence" value="1" />
+					<stat name="intelligence:max" value="1" />
 					<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELF_WEAPON_TRAINING" />
 					<grant type="Racial Trait" id="ID_DMG_RACIAL_TRAIT_FEY_STEP" />
 				</rules>
@@ -32114,6 +32124,7 @@
 			</setters>
 			<rules>
 				<stat name="intelligence" value="2" />
+				<stat name="intelligence:max" value="2" />
 				<stat name="innate speed" value="25" bonus="base" />
 				<grant type="Size" id="ID_SIZE_SMALL" />
 				<grant type="Vision" id="ID_VISION_DARKVISION" />
@@ -32155,6 +32166,7 @@
 				<sheet display="false" />
 				<rules>
 				<stat name="dexterity" value="1" />
+				<stat name="dexterity:max" value="1" />
 				<grant type="Racial Trait" id="ID_RACIAL_TRAIT_NATURAL_ILLUSIONIST" />
 				<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SPEAK_WITH_SMALL_BEASTS" />
 				</rules>
@@ -32198,6 +32210,7 @@
 				<sheet display="false" />
 				<rules>
 				<stat name="constitution" value="1" />
+				<stat name="constitution:max" value="1" />
 				<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ARTIFICERS_LORE" />
 				<grant type="Racial Trait" id="ID_RACIAL_TRAIT_TINKER" />
 				</rules>
@@ -32255,6 +32268,7 @@
 			</setters>
 			<rules>
 				<stat name="charisma" value="2" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED,!ID_INTERNAL_GRANTS_DRAGONMARK"/>
+				<stat name="charisma:max" value="2" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED,!ID_INTERNAL_GRANTS_DRAGONMARK"/>
 				<select type="Racial Trait" name="Ability Score Increase (Half-Elf)" supports="Half-Elf" number="2" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED,!ID_INTERNAL_GRANTS_DRAGONMARK"/>
 				<stat name="innate speed" value="30" bonus="base"/>
 				<grant type="Size" id="ID_SIZE_MEDIUM" />
@@ -32293,6 +32307,7 @@
 			</description>
 			<rules>
 				<stat name="strength" value="1"/>
+				<stat name="strength:max" value="1"/>
 			</rules>
 		</element>
 		<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HALFELF_DEXTERITY">
@@ -32303,6 +32318,7 @@
 			</description>
 			<rules>
 				<stat name="dexterity" value="1"/>
+				<stat name="dexterity:max" value="1"/>
 			</rules>
 		</element>
 		<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HALFELF_CONSTITUTION">
@@ -32313,6 +32329,7 @@
 			</description>
 			<rules>
 				<stat name="constitution" value="1"/>
+				<stat name="constitution:max" value="1"/>
 			</rules>
 		</element>
 		<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HALFELF_INTELLIGENCE">
@@ -32323,6 +32340,7 @@
 			</description>
 			<rules>
 				<stat name="intelligence" value="1"/>
+				<stat name="intelligence:max" value="1"/>
 			</rules>
 		</element>
 		<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HALFELF_WISDOM">
@@ -32333,6 +32351,7 @@
 			</description>
 			<rules>
 				<stat name="wisdom" value="1"/>
+				<stat name="wisdom:max" value="1"/>
 			</rules>
 		</element>
 	<!--Halfling-->
@@ -32394,6 +32413,7 @@
 			</setters>
 			<rules>
 				<stat name="dexterity" value="2"/>
+				<stat name="dexterity:max" value="2"/>
 				<stat name="innate speed" value="25" bonus="base"/>
 				<grant type="Size" id="ID_SIZE_SMALL" />
 				<grant type="Language" id="ID_LANGUAGE_COMMON" />
@@ -32451,6 +32471,7 @@
 				<sheet display="false" />
 				<rules>
 					<stat name="charisma" value="1" />
+					<stat name="charisma:max" value="1" />
 					<grant type="Racial Trait" id="ID_RACIAL_TRAIT_NATURALLY_STEALTHY" />
 				</rules>
 			</element>
@@ -32475,6 +32496,7 @@
 				<sheet display="false" />
 				<rules>
 					<stat name="constitution" value="1" />
+					<stat name="constitution:max" value="1" />
 					<grant type="Racial Trait" id="ID_RACIAL_TRAIT_STOUT_RESILIENCE" />
 				</rules>
 			</element>
@@ -32531,6 +32553,8 @@
 			<rules>
 				<stat name="strength" value="2" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED,!ID_INTERNAL_GRANTS_DRAGONMARK"/>
 				<stat name="constitution" value="1" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED,!ID_INTERNAL_GRANTS_DRAGONMARK"/>
+				<stat name="strength:max" value="2" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED,!ID_INTERNAL_GRANTS_DRAGONMARK"/>
+				<stat name="constitution:max" value="1" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED,!ID_INTERNAL_GRANTS_DRAGONMARK"/>
 				<stat name="innate speed" value="30" bonus="base"/>
 				<grant type="Size" id="ID_SIZE_MEDIUM" />
 				<grant type="Vision" id="ID_VISION_DARKVISION" requirements="!ID_INTERNAL_GRANTS_DRAGONMARK" />
@@ -32656,6 +32680,14 @@
 				<stat name="wisdom" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />
 				<stat name="charisma" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />      
 				<grant type="Size" id="ID_SIZE_MEDIUM"/>
+
+				<stat name="strength:max" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />
+				<stat name="dexterity:max" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />
+				<stat name="constitution:max" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />
+				<stat name="intelligence:max" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />
+				<stat name="wisdom:max" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />
+				<stat name="charisma:max" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />      
+
 				<stat name="innate speed" value="30" bonus="base"/>
 				<grant type="Language" id="ID_LANGUAGE_COMMON"/>	  
 				<select type="Language" name="Language (Human)" supports="Standard||Exotic" requirements="!ID_UA_PS_GRANTS_HUMAN_VARIANT,!ID_WOTC_ERLW_DRAGONMARK_MARK_OF_FINDING"/>
@@ -32702,6 +32734,7 @@
 				<sheet display="false" />
 				<rules>
 				<stat name="strength" value="1" alt="Human Variant" />
+				<stat name="strength:max" value="1" alt="Human Variant" />
 				</rules>
 			</element>
 			<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_DEXTERITY">
@@ -32713,6 +32746,7 @@
 				<sheet display="false" />
 				<rules>
 				<stat name="dexterity" value="1" alt="Human Variant" />
+				<stat name="dexterity:max" value="1" alt="Human Variant" />
 				</rules>
 			</element>
 			<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_CONSTITUTION">
@@ -32724,6 +32758,7 @@
 				<sheet display="false" />
 				<rules>
 				<stat name="constitution" value="1" alt="Human Variant" />
+				<stat name="constitution:max" value="1" alt="Human Variant" />
 				</rules>
 			</element>
 			<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_INTELLIGENCE">
@@ -32735,6 +32770,7 @@
 				<sheet display="false" />
 				<rules>
 				<stat name="intelligence" value="1" alt="Human Variant" />
+				<stat name="intelligence:max" value="1" alt="Human Variant" />
 				</rules>
 			</element>
 			<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_WISDOM">
@@ -32746,6 +32782,7 @@
 				<sheet display="false" />
 				<rules>
 				<stat name="wisdom" value="1" alt="Human Variant" />
+				<stat name="wisdom:max" value="1" alt="Human Variant" />
 				</rules>
 			</element>
 			<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_CHARISMA">
@@ -32757,6 +32794,7 @@
 				<sheet display="false" />
 				<rules>
 				<stat name="charisma" value="1" alt="Human Variant" />
+				<stat name="charisma:max" value="1" alt="Human Variant" />
 				</rules>
 			</element>
 	<!--Tiefling-->
@@ -32799,6 +32837,10 @@
 			<rules>
 				<stat name="intelligence" value="1" requirements="!ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
 				<stat name="charisma" value="2" requirements="!ID_INTERNAL_GRANTS_TIEFLING_SUBRACE"/>
+
+				<stat name="intelligence:max" value="1" requirements="!ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
+				<stat name="charisma:max" value="2" requirements="!ID_INTERNAL_GRANTS_TIEFLING_SUBRACE"/>
+
 				<stat name="innate speed" value="30" bonus="base"/>
 				<grant type="Size" id="ID_SIZE_MEDIUM" />
 				<grant type="Vision" id="ID_VISION_DARKVISION" />
@@ -32839,6 +32881,28 @@
 			<element name="Tiefling Subrace" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
 <!--Spells-->
 	<!--0-Level Spells-->
+		<element name="Acid Splash" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ACID_SPLASH">
+			<supports>Sorcerer, Wizard, Artificer</supports>
+			<description>
+				<p>You hurl a bubble of acid. Choose one creature you can see within range, or choose two creatures you can see within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.</p>
+				<p class="indent">This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
+			</description>
+			<setters>
+				<set name="keywords">acid</set>
+				<set name="level">0</set>
+				<set name="school">Conjuration</set>
+				<set name="time">1 action</set>
+				<set name="duration">Instantaneous</set>
+				<set name="range">60 feet</set>
+				<set name="hasVerbalComponent">true</set>
+				<set name="hasSomaticComponent">true</set>
+				<set name="hasMaterialComponent">false</set>
+				<set name="materialComponent" />
+				<set name="isConcentration">false</set>
+				<set name="isRitual">false</set>
+			</setters>
+		</element>
+
 	<!--1-Level Spells-->
 	<!--2-Level Spells-->
 	<!--3-Level Spells-->
@@ -32849,27 +32913,7 @@
 	<!--8-Level Spells-->
 	<!--9-Level Spells-->
 
-	<element name="Acid Splash" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ACID_SPLASH">
-		<supports>Sorcerer, Wizard, Artificer</supports>
-		<description>
-		<p>You hurl a bubble of acid. Choose one creature you can see within range, or choose two creatures you can see within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.</p>
-		<p class="indent">This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>
-		</description>
-		<setters>
-		<set name="keywords">acid</set>
-		<set name="level">0</set>
-		<set name="school">Conjuration</set>
-		<set name="time">1 action</set>
-		<set name="duration">Instantaneous</set>
-		<set name="range">60 feet</set>
-		<set name="hasVerbalComponent">true</set>
-		<set name="hasSomaticComponent">true</set>
-		<set name="hasMaterialComponent">false</set>
-		<set name="materialComponent" />
-		<set name="isConcentration">false</set>
-		<set name="isRitual">false</set>
-		</setters>
-	</element>
+	
 	<element name="Aid" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_AID">
 		<supports>Cleric, Paladin, Artificer</supports>
 		<description>
