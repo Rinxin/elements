@@ -40707,8 +40707,72 @@
 	warlock
 		points = lvl
 
+<!--Spell Points Rules-->
+	## Spell Points
+	In this variant, each spell has a point cost based on its level. Cantrips don’t require spell points.
 
+	Instead of gaining a number of spell slots to cast your spells from the Spellcasting feature, you gain a pool of spell points instead. You expend a number of spell points to cast a spell. You can’t reduce your spell point total to less than 0, and you regain all spent spell points when you finish a long rest.
 
+	Spells of 6th level and higher are particularly taxing to cast. You can use spell points to cast a spell of level of 6th or higher the first time each long rest with the base point cost, but you must make an Constitution Check DC 10 + Spell level (not a saving throw) for each subsequent spell. Failure on the save doubles the cost of the spell and causes the spell to go wild as your control of the magic slips, you regain your points once you finish a long rest. 
+
+	> **DM Note**
+	> 
+	> If your table doesn't use or have luck with wild magic tables. You can just have the caster take either the spell level in damage, or double the level in damage.  This is to represent they pushed their body past what it could handle and hurt themself.
+
+	The number of spell points you have to spend is based on your level as a spellcaster, as shown in the Spell Points by Level table. Your level also determines the maximum-level spell you can cast.
+
+	The Spell Points by Level table shows the given spell points for the class.
+
+	> ##### Spell Cost
+	>
+	> Spells cost a number of spell points equal to the level cast.
+	> 
+	><br>**ie.** Casting a 1st lvl spell costs 1 point or<br> casting a 1st lvl spell up cast at 3rd lvl costs 3 points.
+
+	\columnbreak
+
+	##### Spell Points per level
+	| Class Level  | Full Caster<br>(spell lvl) | 1/2 Caster<br>(spell lvl) | 1/3 Caster<br>(spell lvl) | Warlocks |
+	|:----:|:---------:|:--------:|:--------:|:-:|
+	|  1   | 2 (1st)   | 2 (1st)  | 0        | 1 (1st) |
+	|  2   | 3 (1st)   | 2 (1st)  | 0        | 2 (2nd) |
+	|  3   | 8 (2nd)   | 3 (1st)  | 2 (1st)  | 4 (2nd) |
+	|  4   | 10 (2nd)  | 3 (1st)  | 3 (1st)  | 4 (2nd) |
+	|  5   | 16 (3rd)  | 8 (2nd)  | 3 (1st)  | 6 (3rd) |
+	|  6   | 19 (3rd)  | 8 (2nd)  | 3 (1st)  | 6 (3rd) |
+	|  7   | 23 (4th)  | 10 (2nd) | 8 (2nd)  | 8 (4th) |
+	|  8   | 27 (4th)  | 10 (2nd) | 8 (2nd)  | 8 (4th) |
+	|  9   | 36 (5th)  | 16 (3rd) | 8 (2nd)  | 10 (5th) |
+	|  10  | 41 (5th)  | 16 (3rd) | 10 (2nd) | 10 (5th) |
+	|  11  | 47 (6th)  | 19 (3rd) | 10 (2nd) | 15 (5th) |
+	|  12  | 47 (6th)  | 19 (3rd) | 10 (2nd) | 15 (5th) |
+	|  13  | 54 (7th)  | 23 (4th) | 16 (3rd) | 15 (5th) |
+	|  14  | 54 (7th)  | 23 (4th) | 16 (3rd) | 15 (5th) |
+	|  15  | 62 (8th)  | 27 (4th) | 16 (3rd) | 15 (5th) |
+	|  16  | 62 (8th)  | 27 (4th) | 19 (3rd) | 15 (5th) |
+	|  17  | 71 (9th)  | 36 (5th) | 19 (3rd) | 20 (5th) |
+	|  18  | 76 (9th)  | 36 (5th) | 19 (3rd) | 20 (5th) |
+	|  19  | 82 (9th)  | 41 (5th) | 23 (4th) | 20 (5th) |
+	|  20  | 89 (9th)  | 41 (5th) | 23 (4th) | 20 (5th) |
+	<br>
+
+	***full caster*** = bard, cleric, druid, sorcerer and wizard<br> 
+	***half caster*** = artificer, paladin, ranger<br>
+	***1/3 caster*** = fighter, monk, rouge<br>
+	***pact magic*** = warlocks
+
+	<br>
+
+	These numbers are from the below calculation.<br>
+	1 point per spell slot lvl value.<br>
+	**Example:** 4 lvl 1 spell slots and 2 level 2 spell slots = (4\*1) + (2\*2)= 8 spell points
+	<br><br>
+	This gives casters an easy conversion for casting spells and no lookup table needed for the table. Class specific resources that allow for casting spells should not be changed to allow for the benefit to be limited and not drastically increase the number of extra spells they can cast.
+
+	> expected power this spell point system favors strength in the number of lower lvl spells a caster will have access to per long rest. This is semi balanced by the limited strength of AoE spells and the number of turns needed to obtain maximum damage.  
+	>
+	> For my table I'm looking for a solution for the one fight adventure day. this I feel will give them the resources to have fun and deal with the on average harder encounters I present.
+<!--/Spell Point Rules-->
 <!--DM Granted Stuff-->
 	<element name="Experienced Adventurer" type="Class Feature" source="Homebrew-Mraz" id="ID_HOMEBREW_CLASS_FEATURE_EXPERIENCED_ADVENTURURER">
 		<supports>Artificer,Barbarian,Bard,Cleric,Druid,Fighter,Monk,Paladin,Ranger,Rogue,Sorcerer,Warlock,Wizard</supports>
