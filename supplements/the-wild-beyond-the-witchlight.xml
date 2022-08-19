@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="The Wild Beyond the Witchlight" type="Source" source="Core" id="ID_WOTC_TWBTW_SOURCE_THE_WILD_BEYOND_THE_WITCHLIGHT">
+		<description>
+			<html>&lt;p&gt;A wickedly whimsical adventure for the world’s greatest roleplaying game.&lt;/p&gt;
+&lt;p&gt;Once every eight years, the fantastic Witchlight Carnival touches down on your world, bringing joy to one settlement after the next. Its owners, Mister Witch and Mister Light, know how to put on a good show. But there’s more to this magical extravaganza than meets the eye!&lt;/p&gt;
+&lt;p&gt;The carnival is a gateway to a fantastic Feywild domain unlike anything found on the Material Plane. Time has not been kind to this realm, however, and dark days lie ahead unless someone can thwart the dastardly schemes of the Hourglass Coven.&lt;/p&gt;
+&lt;p&gt;The Wild Beyond the Witchlight takes adventurers from the Witchlight Carnival to Prismeer, a Feywild domain of delight, and is designed for characters of levels 1–8. This book comes with a poster map that shows the carnival on one side and Prismeer on the other.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Explore the Plane of Faerie in the first official D&amp;D adventure set primarily in the Feywild.&lt;/li&gt;
+&lt;li&gt;The adventure begins on a campaign world of the DM’s choice. The Witchlight Carnival, which serves as the means by which the characters enter the Feywild, can be dropped easily into any campaign setting.&lt;/li&gt;
+&lt;li&gt;Adds two new character backgrounds: the Feylost (for characters who grew up in the Feywild) and the Witchlight Hand (for characters who work at the Witchlight Carnival).&lt;/li&gt;
+&lt;li&gt;Introduces two races—play as a fairy or as a harengon, a race of humanoid rabbits.&lt;/li&gt;
+&lt;li&gt;All encounters in the adventure include a non-combat option, allowing players to think and roleplay their way through the adventure if they wish.&lt;/li&gt;
+&lt;li&gt;Classic 1980s Dungeons &amp; Dragons characters return, including Warduke, Strongheart, and Kelek.&lt;/li&gt;
+&lt;/ul&gt;</html>
+		</description>
+		<setters>
+			<set name="abbreviation">TWBTW</set>
+			<set name="image">https://media.wizards.com/2021/dnd/images/dnd_wildbeyondwitchlight_dndlive_th.png</set>
+			<set name="url">https://dnd.wizards.com/products/wild-beyond-witchlight </set>
+			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+			<set name="release">20210921</set>
+			<set name="official">true</set>
+			<set name="supplement">true</set>
+		</setters>
+	</element>
+	<element name="Feywild Trinkets" type="Information" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_INFORMATION_FEYWILD_TRINKETS">
+		<description>
+			<p>The Feywild Trinkets table that follows offers a selection of trinkets appropriate for Feywild-themed adventures such as this one. Players whose characters have the feylost or Witchlight hand background can roll on this table instead of the Trinkets table in the Player’s Handbook to determine what random trinkets the characters find in key locations.</p>
+			<p class="indent"></p>
+			<table>
+				<thead>
+					<tr><td>d100</td><td>Trinket</td></tr>
+				</thead>
+				<tr><td> 1</td><td>Cookie cutter shaped like a unicorn</td></tr>
+				<tr><td> 2</td><td>Two yew rings linked together</td></tr>
+				<tr><td> 3</td><td>Silver hand mirror with a nymph-shaped handle</td></tr>
+				<tr><td> 4</td><td>Painted wooden key whose teeth change configuration every day at dawn</td></tr>
+				<tr><td> 5</td><td>Delicate silver cameo with pictures of twin children opposite one another</td></tr>
+				<tr><td> 6</td><td>Golden pendant charm shaped like a leprechaun</td></tr>
+				<tr><td> 7</td><td>Tiny wooden box containing a croquet set sized for pixies or sprites</td></tr>
+				<tr><td> 8</td><td>Tiny pair of sharp, iron scissors</td></tr>
+				<tr><td> 9</td><td>Chess piece shaped like a dancing satyr wearing a bishop’s hat and clutching a gnarled staff</td></tr>
+				<tr><td>10</td><td>Saltshaker shaped like a wizard’s tower</td></tr>
+				<tr><td>11</td><td>Crystal orb that allows an elf who holds it to sleep</td></tr>
+				<tr><td>12</td><td>Pendant that shows the phases of the moon</td></tr>
+				<tr><td>13</td><td>Large iron fingernail</td></tr>
+				<tr><td>14</td><td>Tiny electrum whistle that only Fey can hear</td></tr>
+				<tr><td>15</td><td>Wooden jigsaw puzzle piece as big as a saucer, with a painted image of a jug on it</td></tr>
+				<tr><td>16</td><td>Spool of glistening silver thread</td></tr>
+				<tr><td>17</td><td>Sheet of music that goblins find upsetting when they hear it played or sung</td></tr>
+				<tr><td>18</td><td>Rotten ogre’s tooth with the Elvish glyph for “moon” etched into it</td></tr>
+				<tr><td>19</td><td>Vitrified eye of a displacer beast</td></tr>
+				<tr><td>20</td><td>Tiny duskwood coffin containing the ashes of a troll</td></tr>
+				<tr><td>21</td><td>Old invitation to a banquet in the Summer Court, written in ink on vellum in Sylvan</td></tr>
+				<tr><td>22</td><td>Gossamer shawl that glows faintly in moonlight</td></tr>
+				<tr><td>23</td><td>Ball-and-cup toy that plays a short, victorious jingle whenever the ball lands in the cup</td></tr>
+				<tr><td>24</td><td>Sprite’s skull covered in ink fingerprints</td></tr>
+				<tr><td>25</td><td>Silver fork with the outer tines bent sideways</td></tr>
+				<tr><td>26</td><td>A soot-stained sock in which a nugget of coal magically appears each day at dawn</td></tr>
+				<tr><td>27</td><td>Tiny wooden stool (sized for a pixie or sprite) that gives splinters to those who hold it</td></tr>
+				<tr><td>28</td><td>Tiny clockwork dragonfly that slowly beats its wings (but can’t fly) when wound up</td></tr>
+				<tr><td>29</td><td>Toy unicorn made of wood, painted with bright colors</td></tr>
+				<tr><td>30</td><td>Pixie plushie that sings when you squeeze it</td></tr>
+				<tr><td>31</td><td>1-inch-square painting of a sleeping elf</td></tr>
+				<tr><td>32</td><td>Thimble that helps you daydream when worn</td></tr>
+				<tr><td>33</td><td>Pumpkin cupcake that magically regenerates itself in its paper cup each day at dawn</td></tr>
+				<tr><td>34</td><td>Fake Three-Dragon Ante card depicting a faerie dragon</td></tr>
+				<tr><td>35</td><td>Teacup made from a varnished mushroom cap that magically keeps its liquid contents lukewarm</td></tr>
+				<tr><td>36</td><td>Rock that floats and is small enough to hide in your closed fist</td></tr>
+				<tr><td>37</td><td>Tiny bottle filled with rainwater collected from the Feywild</td></tr>
+				<tr><td>38</td><td>Opalescent conch shell that laughs when you hold it to your ear</td></tr>
+				<tr><td>39</td><td>Vial of viscous liquid labeled “Fomorian spit. Do not drink!”</td></tr>
+				<tr><td>40</td><td>Wax candle that roars and crackles like a bonfire while lit</td></tr>
+				<tr><td>41</td><td>Potted daffodil that sways when near a source of music</td></tr>
+				<tr><td>42</td><td>8-ounce, glass wine bottle that magically reassembles itself 1 minute after being broken</td></tr>
+				<tr><td>43</td><td>Tiny wooden sylph figurehead from a model ship</td></tr>
+				<tr><td>44</td><td>Tiny pumpkin-shaped cauldron carved out of bog oak</td></tr>
+				<tr><td>45</td><td>Bar of soap that smells like something memorable from your childhood</td></tr>
+				<tr><td>46</td><td>Piece of orange parchment folded to look like a knight astride a unicorn</td></tr>
+				<tr><td>47</td><td>Tinted glasses so dark that they can’t be seen through</td></tr>
+				<tr><td>48</td><td>8-inch-long glass ant figurine</td></tr>
+				<tr><td>49</td><td>Piece of parchment bearing a child’s drawing of an oni</td></tr>
+				<tr><td>50</td><td>Tiny hourglass without sand in it</td></tr>
+				<tr><td>51</td><td>Empty vial with corked ends at the top and bottom</td></tr>
+				<tr><td>52</td><td>Pair of green leprechaun boots tied together by their laces</td></tr>
+				<tr><td>53</td><td>Smoking pipe made from a tree root</td></tr>
+				<tr><td>54</td><td>Red cap that droops down to one’s shoulders when worn</td></tr>
+				<tr><td>55</td><td>Mask that helps you remember your dreams if you wear it while you sleep</td></tr>
+				<tr><td>56</td><td>Notebook that shows what’s written on it only when held upside down</td></tr>
+				<tr><td>57</td><td>Wooden top with four sides, each bearing the image of child enjoying a different season</td></tr>
+				<tr><td>58</td><td>Tiny beehive wig made for sprites or pixies</td></tr>
+				<tr><td>59</td><td>Wooden mouse figurine that squeaks when held</td></tr>
+				<tr><td>60</td><td>Stuffed oni doll with a creepy smile and one missing eye</td></tr>
+				<tr><td>61</td><td>Empty bag labeled “Candy”</td></tr>
+				<tr><td>62</td><td>Tinted glass monocle that makes things look green</td></tr>
+				<tr><td>63</td><td>Black executioner’s hood sized for a pixie or sprite</td></tr>
+				<tr><td>64</td><td>Piano key carved from a satyr’s horn</td></tr>
+				<tr><td>65</td><td>Tiny wooden lute with cat hairs for strings</td></tr>
+				<tr><td>66</td><td>Iron needle with an eye that refuses to let thread pass through it</td></tr>
+				<tr><td>67</td><td>Tiny sundial that casts a shadow only in moonlight</td></tr>
+				<tr><td>68</td><td>Wooden pan flute that attracts harmless local fauna when played</td></tr>
+				<tr><td>69</td><td>Silvered pinecone</td></tr>
+				<tr><td>70</td><td>Flask of spectral glowworms that change color to reflect the mood of the flask’s holder</td></tr>
+				<tr><td>71</td><td>Wooden apple painted blue</td></tr>
+				<tr><td>72</td><td>Tuning fork that sounds the tone for the F key</td></tr>
+				<tr><td>73</td><td>Nunchaku sized for a pixie or sprite</td></tr>
+				<tr><td>74</td><td>Copper coin with a smiling satyr’s face on one side and a satyr’s skull on the other</td></tr>
+				<tr><td>75</td><td>Severed chicken’s foot attached to a leather cord</td></tr>
+				<tr><td>76</td><td>Collection of baby teeth in a tiny wooden box</td></tr>
+				<tr><td>77</td><td>Pinwheel whirligig that spins even when there’s no wind</td></tr>
+				<tr><td>78</td><td>Child’s parasol covered in moss and leaves</td></tr>
+				<tr><td>79</td><td>Wooden magnifying glass missing its lens</td></tr>
+				<tr><td>80</td><td>Glossy mushroom with a red, bell-shaped cap that jingles when shook</td></tr>
+				<tr><td>81</td><td>Pouch of seeds that smell like home</td></tr>
+				<tr><td>82</td><td>Petrified robin’s egg</td></tr>
+				<tr><td>83</td><td>Wooden spoon with a hole in the center</td></tr>
+				<tr><td>84</td><td>Paper wasp nest in a jar</td></tr>
+				<tr><td>85</td><td>Sprig of rosemary wrapped with ribbon at one end</td></tr>
+				<tr><td>86</td><td>Tiny, unfurnished dollhouse sized for a pixie child</td></tr>
+				<tr><td>87</td><td>Paintbrush made entirely of ceramic—even the bristles</td></tr>
+				<tr><td>88</td><td>Candlestick whose candlelight looks like a tiny, dancing fairy made of fire</td></tr>
+				<tr><td>89</td><td>Spectacle frames in the shape of butterfly wings</td></tr>
+				<tr><td>90</td><td>Set of false wooden teeth</td></tr>
+				<tr><td>91</td><td>Tiny book of fairytales</td></tr>
+				<tr><td>92</td><td>Rucksack in which one potato magically appears each day at dawn</td></tr>
+				<tr><td>93</td><td>Pixie’s winter jacket lined with fox fur</td></tr>
+				<tr><td>94</td><td>Tasseled wine charm shaped like a sprite</td></tr>
+				<tr><td>95</td><td>Weak magnetic wand</td></tr>
+				<tr><td>96</td><td>100-sided die the size of a plum, cut from coal</td></tr>
+				<tr><td>97</td><td>Glass slipper, missing its mate</td></tr>
+				<tr><td>98</td><td>Tiny dreamcatcher</td></tr>
+				<tr><td>99</td><td>Barbell sized for a pixie or sprite</td></tr>
+				<tr><td>100</td><td>Music box that plays a sprightly tune you remember from your childhood</td></tr>
+			</table>
+		</description>
+	</element>
+	<element name="Feylost" type="Background" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_BACKGROUND_FEYLOST">
+		<description>
+			<p>You grew up in the Feywild after disappearing from your home plane as a child. Perhaps you were spirited away by kindly Fey who thought you were destined for great things. Perhaps you stumbled through a fey crossing by chance during a twilight stroll in the woods. Perhaps you were kidnapped by evil Fey but escaped from their clutches. Whatever the manner of your disappearance, you gradually fell under the Feywild’s spell and learned a little about the nature of the mercurial tricksters that dwell there.</p>
+			<p class="indent">When you finally returned to your home plane, you did not come back unchanged. You are haunted by the fact that the Feywild—a mirror world hidden behind a mere twist of perception—is only a hair’s breadth away. Although your memories of the Feywild grow fainter with each passing day, your heart swells with a mixture of fear and joy at the prospect of one day venturing back to the Plane of Faerie—your home away from home.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Deception, Survival</li>
+				<li><strong>Tool Proficiencies:</strong> One type of musical instrument</li>
+				<li><strong>Languages:</strong> One of your choice of Elvish, Gnomish, Goblin, or Sylvan</li>
+				<li><strong>Equipment:</strong> A musical instrument (one of your choice), a set of traveler’s clothes, three trinkets (each determined by rolling on the Feywild Trinkets table), and a pouch containing 8 gp</li>
+			</ul>
+			<h5>FEY MARK</h5>
+			<p>You were transformed in some small way by your stay in the Feywild and gained a fey mark, determined by rolling on the Fey Mark table.</p>
+			<h5 class="caption">FEY MARK</h5>
+			<table>
+				<thead>
+					<tr><td>d8</td><td>Fey Mark</td></tr>
+				</thead>
+				<tr><td>1</td><td>Your eyes swirl with iridescent colors.</td></tr>
+				<tr><td>2</td><td>You have a sweet scent, like that of nectar or honey.</td></tr>
+				<tr><td>3</td><td>You have long whiskers like those of a cat.</td></tr>
+				<tr><td>4</td><td>Your ears are covered with soft tufts of fur.</td></tr>
+				<tr><td>5</td><td>Your skin sparkles in moonlight.</td></tr>
+				<tr><td>6</td><td>Flowers either bloom or wilt (your choice) in your presence.</td></tr>
+				<tr><td>7</td><td>Your hair is made of vines or brambles and grows back to normal length within 1 hour of being cut.</td></tr>
+				<tr><td>8</td><td>You have a tail like that of a dog or another animal.</td></tr>
+			</table>
+			<h5>FEYWILD VISITOR</h5>
+			<p>Whenever you’re sound asleep or in a deep trance during a long rest, a spirit of the Feywild might pay you a visit, if the DM wishes it. Determine the spirit’s form by rolling on the Feywild Visitor table. No harm ever comes to you as a result of such visits, which can last for minutes or hours, and you remember each visit when you wake up. Conversations that occur with a visitor can contain any number of things, from messages and insights to nonsense and red herrings, at the DM’s discretion. Such conversations are always conducted in a language you can understand, even if the Feywild visitor can’t speak that language normally.</p>
+			<h5 class="caption">FEYWILD VISITOR</h5>
+			<table>
+				<thead>
+					<tr><td>d8</td><td>Visitor</td></tr>
+				</thead>
+				<tr><td>1</td><td>Awakended creature (a Beast or an ordinary plant that has had the awaken spell cast on it)</td></tr>
+				<tr><td>2</td><td>Centaur</td></tr>
+				<tr><td>3</td><td>Dryad</td></tr>
+				<tr><td>4</td><td>Faerie dragon</td></tr>
+				<tr><td>5</td><td>Pixie</td></tr>
+				<tr><td>6</td><td>Satyr</td></tr>
+				<tr><td>7</td><td>Sprite</td></tr>
+				<tr><td>8</td><td>Unicorn</td></tr>
+			</table>
+			<div element="ID_WOTC_TWBTW_BACKGROUND_FEATURE_FEYLOST_FEYWILD_CONNECTION" />
+			<div class="reference">
+				<div element="ID_WOTC_TWBTW_INFORMATION_FEYWILD_TRINKETS" />
+			</div>
+		</description>
+		<setters>
+			<set name="short">Deception, Survival, Musical Instrument, Elvish / Gnomish / Goblin / Sylvan</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<select type="Proficiency" name="Musical Instrument, Feylost" supports="Musical Instrument" />
+			<select type="Language" name="Language, Feylost" supports="ID_LANGUAGE_ELVISH|ID_LANGUAGE_GNOMISH|ID_LANGUAGE_GOBLIN|ID_LANGUAGE_SYLVAN" />	
+			<grant type="Background Feature" id="ID_WOTC_TWBTW_BACKGROUND_FEATURE_FEYLOST_FEYWILD_CONNECTION" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">I’m haunted by fey laughter that only I can hear, though I know it’s just my mind playing tricks on me.</item>
+				<item id="2">Like a nomad, I can’t settle down in one place for very long.</item>
+				<item id="3">Good music makes me weep like a baby.</item>
+				<item id="4">Wherever I go, I try to bring a little of the warmth and tranquility of home with me.</item>
+				<item id="5">I have never lost my childlike sense of wonder.</item>
+				<item id="6">When I have a new idea, I get wildly excited about it until I come up with another, better idea.</item>
+				<item id="7">I live by my own set of weird and wonderful rules.</item>
+				<item id="8">I can’t bring myself to trust most adults.</item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Friendship. I never leave a friend behind. (Good)</item>
+				<item id="2">Empathy. No creature should be made to suffer. (Good)</item>
+				<item id="3">Wanderlust. I prefer to take the less traveled path. (Chaotic)</item>
+				<item id="4">Changeability. Change is good, which is why I live by an ever-changing set of rules. (Chaotic)</item>
+				<item id="5">Honor. A deal is a deal, and I would never break one. (Lawful)</item>
+				<item id="6">Rule of Three. Everything in the multiverse happens in threes. I see the “rule of three” everywhere. (Lawful)</item>
+				<item id="7">Obsession. I won’t let go of a grudge. (Evil)</item>
+				<item id="8">Greed. I will do whatever it takes to get what I want, regardless of the harm it might cause. (Evil)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">I would never break my word.</item>
+				<item id="2">I find magic in all its forms to be compelling. The more magical a place, the more I am drawn to it.</item>
+				<item id="3">I do what I can to protect the natural world.</item>
+				<item id="4">A trusted friend is the most important thing in the multiverse to me.</item>
+				<item id="5">I can’t bring myself to harm a Fey creature, either because I consider myself one or because I fear the repercussions.</item>
+				<item id="6">The Witchlight Carnival feels like home to me.</item>
+				<item id="7">I’m drawn to the Feywild and long to return there, if only for a short while.</item>
+				<item id="8">I feel indebted to Mister Witch and Mister Light for giving me a home and a purpose.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">I easily lose track of time. My poor sense of time means I’m always late.</item>
+				<item id="2">I think the whole multiverse is out to get me.</item>
+				<item id="3">I’m always operating under a tight timeline, and I’m obsessed with keeping everything on schedule.</item>
+				<item id="4">I’m a kleptomaniac who covets shiny, sparkling treasure.</item>
+				<item id="5">I’m forgetful. Sometimes I can’t remember even the simplest things.</item>
+				<item id="6">I never give away anything for free and always expect something in return.</item>
+				<item id="7">I have many vices and tend to indulge them.</item>
+				<item id="8">I’m always changing my mind—well, almost always.</item>
+			</select>
+		</rules>
+	</element>
+	<element name="Feature: Feywild Connection" type="Background Feature" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_BACKGROUND_FEATURE_FEYLOST_FEYWILD_CONNECTION">
+		<description>
+			<p>Your mannerisms and knowledge of fey customs are recognized by natives of the Feywild, who see you as one of their own. Because of this, friendly Fey creatures are inclined to come to your aid if you are lost or need help in the Feywild.</p>
+		</description>
+		<sheet alt="Feywild Connection" />
+	</element>
+	<element name="Witchlight Hand" type="Background" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_BACKGROUND_WITCHLIGHT_HAND">
+		<description>
+			<p>You crept into the Witchlight Carnival as a child or youth and never looked back, earning a place among those who work behind the scenes to keep the carnival in business. As a hand, you work hard and party hard. The carnival has borne you to many fantastic worlds, circling back around to your home world once every eight years, but you know almost nothing about these worlds because you spend all your time in the carnival. You know the other hands well, but the carnival’s owners—Mister Witch and Mister Light—remain mysterious to you even after all these years.</p>
+			<p class="indent">Maybe you joined the carnival to escape a dismal life at home, or maybe you were enchanted by the idea of visiting new places or the dream of becoming one of the carnival’s star attractions. Now that you’re older, carnival life has lost some of its appeal. The daily routine has grown tedious, the cyclical nature of the carnival’s journey monotonous. The carnival no longer fills your heart with a sense of wonder. Perhaps greater adventures await you beyond the carnival’s gates.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Performance, Sleight of Hand</li>
+				<li><strong>Tool Proficiencies:</strong> Disguise kit or one type of musical instrument</li>
+				<li><strong>Languages:</strong> One of your choice</li>
+				<li><strong>Equipment:</strong> A disguise kit or a musical instrument of your choice, a deck of cards, a carnival uniform or costume, one trinket (determined by rolling on the Feywild Trinkets table), and a pouch containing 8 gp</li>
+			</ul>
+			<h5>CARNIVAL COMPANION</h5>
+			<p>Over the years, you have earned the friendship of another carnival fixture. Roll a d8 and consult the Carnival Companion table to determine whom or what you’ve befriended, or you can choose an option that you like. Work with your DM to flesh out this friendship. This companion hangs around you while you’re in the carnival, but it won’t voluntarily leave the carnival.</p>
+			<p class="indent">The DM can use the Witchlight hand stat block in chapter 1 to represent hands, performers, and animal trainers who serve as carnival companions. Statistics for the other companions appear in the Monster Manual.</p>
+			<h5 class="caption">CARNIVAL COMPANION</h5>
+			<table>
+				<thead>
+					<tr><td>d8</td><td>Companion</td></tr>
+				</thead>
+				<tr><td>1</td><td>Old, cantankerous Witchlight hand</td></tr>
+				<tr><td>2</td><td>Young, impressionable Witchlight hand</td></tr>
+				<tr><td>3</td><td>Performer (such as an acrobat, a clown, or a musician)</td></tr>
+				<tr><td>4</td><td>Retired performer</td></tr>
+				<tr><td>5</td><td>Seasoned animal trainer</td></tr>
+				<tr><td>6</td><td>Old blink dog</td></tr>
+				<tr><td>7</td><td>Cheery sprite</td></tr>
+				<tr><td>8</td><td>Harmless, magical wisp of light (no stat block required) that has a flying speed of 30 feet, can hover, and sheds bright light in a 5-foot radius and dim light for an additional 5 feet</td></tr>
+			</table>
+			<div element="ID_WOTC_TWBTW_BACKGROUND_FEATURE_CARNIVAL_FIXTURE" />
+			<div class="reference">
+				<div element="ID_WOTC_TWBTW_INFORMATION_FEYWILD_TRINKETS" />
+			</div>
+		</description>
+		<setters>
+			<set name="short">Performance, Sleight of Hand, Disguise Kit / Musical Instrument, 1 Language</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+			<select type="Proficiency" name="Tool Proficiency, Witchlight Hand" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT||Musical Instrument" />
+			<select type="Language" name="Language, Witchlight Hand" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_WOTC_TWBTW_BACKGROUND_FEATURE_CARNIVAL_FIXTURE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">I’m haunted by fey laughter that only I can hear, though I know it’s just my mind playing tricks on me.</item>
+				<item id="2">Like a nomad, I can’t settle down in one place for very long.</item>
+				<item id="3">Good music makes me weep like a baby.</item>
+				<item id="4">Wherever I go, I try to bring a little of the warmth and tranquility of home with me.</item>
+				<item id="5">I have never lost my childlike sense of wonder.</item>
+				<item id="6">When I have a new idea, I get wildly excited about it until I come up with another, better idea.</item>
+				<item id="7">I live by my own set of weird and wonderful rules.</item>
+				<item id="8">I can’t bring myself to trust most adults.</item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Friendship. I never leave a friend behind. (Good)</item>
+				<item id="2">Empathy. No creature should be made to suffer. (Good)</item>
+				<item id="3">Wanderlust. I prefer to take the less traveled path. (Chaotic)</item>
+				<item id="4">Changeability. Change is good, which is why I live by an ever-changing set of rules. (Chaotic)</item>
+				<item id="5">Honor. A deal is a deal, and I would never break one. (Lawful)</item>
+				<item id="6">Rule of Three. Everything in the multiverse happens in threes. I see the “rule of three” everywhere. (Lawful)</item>
+				<item id="7">Obsession. I won’t let go of a grudge. (Evil)</item>
+				<item id="8">Greed. I will do whatever it takes to get what I want, regardless of the harm it might cause. (Evil)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">I would never break my word.</item>
+				<item id="2">I find magic in all its forms to be compelling. The more magical a place, the more I am drawn to it.</item>
+				<item id="3">I do what I can to protect the natural world.</item>
+				<item id="4">A trusted friend is the most important thing in the multiverse to me.</item>
+				<item id="5">I can’t bring myself to harm a Fey creature, either because I consider myself one or because I fear the repercussions.</item>
+				<item id="6">The Witchlight Carnival feels like home to me.</item>
+				<item id="7">I’m drawn to the Feywild and long to return there, if only for a short while.</item>
+				<item id="8">I feel indebted to Mister Witch and Mister Light for giving me a home and a purpose.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">I easily lose track of time. My poor sense of time means I’m always late.</item>
+				<item id="2">I think the whole multiverse is out to get me.</item>
+				<item id="3">I’m always operating under a tight timeline, and I’m obsessed with keeping everything on schedule.</item>
+				<item id="4">I’m a kleptomaniac who covets shiny, sparkling treasure.</item>
+				<item id="5">I’m forgetful. Sometimes I can’t remember even the simplest things.</item>
+				<item id="6">I never give away anything for free and always expect something in return.</item>
+				<item id="7">I have many vices and tend to indulge them.</item>
+				<item id="8">I’m always changing my mind—well, almost always.</item>
+			</select>
+		</rules>
+	</element>
+	<element name="Feature: Carnival Fixture" type="Background Feature" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_BACKGROUND_FEATURE_CARNIVAL_FIXTURE">
+		<description>
+			<p>The Witchlight Carnival provides you with free, modest lodging and food. In addition, you may wander about the carnival and partake of its many wonders at no cost to you, provided you don’t disrupt its shows or cause any other trouble.</p>
+		</description>
+		<sheet alt="Carnival Fixture" />
+	</element>
+	<element name="Fairy" type="Race" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_RACE_FAIRY">
+		<description>
+			<p>The Feywild is home to many fantastic peoples, including fairies. Fairies are a wee folk, but not nearly as much so as their pixie and sprite friends. The first fairies spoke Elvish, Goblin, or Sylvan, and encounters with human visitors prompted many of them to learn Common as well.</p>
+			<p class="indent">Infused with the magic of the Feywild, most fairies look like Small elves with insectile wings, but each fairy has a special physical characteristic that sets the fairy apart. For your fairy, roll on the Fey Characteristics table or choose an option from it. You’re also free to come up with your own characteristic if none of the suggestions below fit your character.</p>
+			<h5 class="caption">FEY CHARACTERISTICS</h5>
+			<table>
+				<thead>
+					<tr><td>d8</td><td>Characteristics</td></tr>
+				</thead>
+				<tr><td>1</td><td>Your wings are like those of a bird.</td></tr>
+				<tr><td>2</td><td>You have shimmering, multicolored skin.</td></tr>
+				<tr><td>3</td><td>You have exceptionally large ears.</td></tr>
+				<tr><td>4</td><td>A glittering mist constantly surrounds you.</td></tr>
+				<tr><td>5</td><td>You have a small spectral horn on your forehead, like a little unicorn.</td></tr>
+				<tr><td>6</td><td>You legs are insectile.</td></tr>
+				<tr><td>7</td><td>You smell like fresh brownies.</td></tr>
+				<tr><td>8</td><td>A noticeable, harmless chill surrounds you.</td></tr>
+			</table>		
+			<h4>FAIRY TRAITS</h4>
+			<p>As a fairy, you have the following racial traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> When determining your ability scores, you increase one score by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. The Player’s Handbook offers a list of languages to choose from. The DM is free to modifythat list for a campaign.</p>
+			<p class="indent"><strong><em>Life Span.</em></strong> The typical life span of a player character in the D&amp;D multiverse is about a century, assuming the character doesn’t meet a violent end on an adventure. Members of some races, such as dwarves and elves, can live for centuries. Fairies and harengons, however, have a life span of about a century.</p>
+			<p class="indent"><strong><em>Height and Weight.</em></strong> Player characters, regardless of race, typically fall into the same ranges of height and weight that humans have in our world. If you’d like to determine your character’s height or weight randomly, consult the Random Height and Weight table in the Player’s Handbook, and choose the row in the table that best represents the build you imagine for your character.</p>
+			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Fey.</p>
+			<p class="indent"><strong><em>Size.</em></strong> You are Small.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Fairy Magic.</em></strong> You know the druidcraft cantrip.</p>
+			<p class="indent">Starting at 3rd level, you can cast the faerie fire spell with this trait. Starting at 5th level, you can also cast the enlarge/reduce spell with this trait. Once you cast faerie fire or enlarge/reduce with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
+			<p class="indent"><strong><em>Flight.</em></strong> Because of your wings, you have a flying speed equal to your walking speed. You can’t use this flying speed if you’re wearing medium or heavy armor.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Fairy</set>
+			<set name="names" type="female">Fairy</set>
+			<set name="names-format">{{name}}</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_FEY" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Racial Trait" id="ID_WOTC_TWBTW_RACIAL_TRAIT_FAIRY_FAIRY_MAGIC" />
+			<grant type="Racial Trait" id="ID_WOTC_TWBTW_RACIAL_TRAIT_FAIRY_FLIGHT" />
+		</rules>
+	</element>
+	<element name="Fairy Magic" type="Racial Trait" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_RACIAL_TRAIT_FAIRY_FAIRY_MAGIC">
+		<description>
+			<p>You know the druidcraft cantrip.</p>
+			<p class="indent">Starting at 3rd level, you can cast the faerie fire spell with this trait. Starting at 5th level, you can also cast the enlarge/reduce spell with this trait. Once you cast faerie fire or enlarge/reduce with this trait, you can’t cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.</p>
+			<p class="indent">Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race).</p>
+		</description>
+		<sheet>
+			<description>You know the druidcraft cantrip.</description>
+			<description level="3" usage="1/Long Rest">You know the druidcraft cantrip. You can cast the faerie fire spell with this trait, using {{fairy:fairy-magic:spellcasting-ability}} as your spellcasting ability. You can also cast this spell using any spell slots you have of the appropriate level.</description>
+			<description level="5" usage="1/Long Rest">You know the druidcraft cantrip. You can cast the faerie fire spell and the enlarge/reduce spell with this trait, using {{fairy:fairy-magic:spellcasting-ability}} as your spellcasting ability. You can also cast either of those spells using any spell slots you have of the appropriate level.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DRUIDCRAFT" />
+			<select type="Racial Trait" name="Spellcasting Ability, Fairy Magic" supports="ID_WOTC_TWBTW_RACIAL_TRAIT_FAIRY_FAIRY_MAGIC_INTELLIGENCE|ID_WOTC_TWBTW_RACIAL_TRAIT_FAIRY_FAIRY_MAGIC_WISDOM|ID_WOTC_TWBTW_RACIAL_TRAIT_FAIRY_FAIRY_MAGIC_CHARISMA" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Racial Trait" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_RACIAL_TRAIT_FAIRY_FAIRY_MAGIC_INTELLIGENCE">
+		<compendium display="false" />
+		<description>
+			<p>Intelligence is your spellcasting ability for the fairy magic spells.</p>
+			<div class="reference">
+				<div element="ID_WOTC_TWBTW_RACIAL_TRAIT_FAIRY_FAIRY_MAGIC" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="fairy:fairy-magic:spellcasting-ability" value="Intelligence" inline="true" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Racial Trait" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_RACIAL_TRAIT_FAIRY_FAIRY_MAGIC_WISDOM">
+		<compendium display="false" />
+		<description>
+			<p>Wisdom is your spellcasting ability for the fairy magic spells.</p>
+			<div class="reference">
+				<div element="ID_WOTC_TWBTW_RACIAL_TRAIT_FAIRY_FAIRY_MAGIC" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="fairy:fairy-magic:spellcasting-ability" value="Wisdom" inline="true" />
+		</rules>
+	</element>
+	<element name="Charisma" type="Racial Trait" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_RACIAL_TRAIT_FAIRY_FAIRY_MAGIC_CHARISMA">
+		<compendium display="false" />
+		<description>
+			<p>Charisma is your spellcasting ability for the fairy magic spells.</p>
+			<div class="reference">
+				<div element="ID_WOTC_TWBTW_RACIAL_TRAIT_FAIRY_FAIRY_MAGIC" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="fairy:fairy-magic:spellcasting-ability" value="Charisma" inline="true" />
+		</rules>
+	</element>
+	<element name="Flight" type="Racial Trait" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_RACIAL_TRAIT_FAIRY_FLIGHT">
+		<description>
+			<p>Because of your wings, you have a flying speed equal to your walking speed. You can’t use this flying speed if you’re wearing medium or heavy armor.</p>
+		</description>
+		<sheet>
+			<description>You have a flying speed of {{speed}} feet. You can’t use this flying speed if you’re wearing medium or heavy armor.</description>
+		</sheet>
+		<rules>
+			<stat should="innate" name="speed:fly" value="speed" bonus="base" equipped="![armor:medium],![armor:heavy]" />
+		</rules>
+	</element>
+	<element name="Harengon" type="Race" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_RACE_HARENGON">
+		<description>
+			<p>Harengons originated in the Feywild, where they spoke Sylvan and embodied the spirit of freedom and travel. In time, these rabbitfolk hopped into other worlds, bringing the fey realm’s exuberance with them and learning new languages as they went.</p>
+			<p class="indent">Harengons are bipedal, with the characteristic long feet of the rabbits they resemble and fur in a variety of colors. They share the keen senses and powerful legs of leporine creatures and are full of energy, like a wound-up spring. Harengons are blessed with a little fey luck, and they often find themselves a few fortunate feet away from dangers during adventures.</p>
+			<h4>HARENGON TRAITS</h4>
+			<p>As a harengon, you have the following racial traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> When determining your ability scores, you increase one score by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. The Player’s Handbook offers a list of languages to choose from. The DM is free to modifythat list for a campaign.</p>
+			<p class="indent"><strong><em>Life Span.</em></strong> The typical life span of a player character in the D&amp;D multiverse is about a century, assuming the character doesn’t meet a violent end on an adventure. Members of some races, such as dwarves and elves, can live for centuries. Fairies and harengons, however, have a life span of about a century.</p>
+			<p class="indent"><strong><em>Height and Weight.</em></strong> Player characters, regardless of race, typically fall into the same ranges of height and weight that humans have in our world. If you’d like to determine your character’s height or weight randomly, consult the Random Height and Weight table in the Player’s Handbook, and choose the row in the table that best represents the build you imagine for your character.</p>
+			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid</p>
+			<p class="indent"><strong><em>Size.</em></strong> You are Medium or Small. You choose the size when you select this race.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Hare-Trigger.</em></strong> You can add your proficiency bonus to your initiative rolls.</p>
+			<p class="indent"><strong><em>Leporine Senses.</em></strong> You have proficiency in the Perception skill.</p>
+			<p class="indent"><strong><em>Lucky Footwork.</em></strong> When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the save, potentially turning the failure into a success. You can’t use this reaction if you’re prone or your speed is 0.</p>
+			<p class="indent"><strong><em>Rabbit Hop.</em></strong> As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Harengon</set>
+			<set name="names" type="female">Harengon</set>
+			<set name="names-format">{{name}}</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_LANGUAGE" />		
+			<grant type="Racial Trait" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_HUMANOID" />
+			<select type="Racial Trait" name="Size, Harengon" supports="CORE_LINEAGE_SIZE,(SMALL||MEDIUM)" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Racial Trait" id="ID_WOTC_TWBTW_RACIAL_TRAIT_HARENGON_HARE_TRIGGER" />
+			<grant type="Racial Trait" id="ID_WOTC_TWBTW_RACIAL_TRAIT_HARENGON_LEPORINE_SENSES" />
+			<grant type="Racial Trait" id="ID_WOTC_TWBTW_RACIAL_TRAIT_HARENGON_LUCKY_FOOTWORK" />
+			<grant type="Racial Trait" id="ID_WOTC_TWBTW_RACIAL_TRAIT_HARENGON_RABBIT_HOP" />
+		</rules>
+	</element>
+	<element name="Hare-Trigger" type="Racial Trait" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_RACIAL_TRAIT_HARENGON_HARE_TRIGGER">
+		<description>
+			<p>You can add your proficiency bonus to your initiative rolls.</p>
+		</description>
+		<sheet display="false">
+			<description>You can add your proficiency bonus to your initiative rolls.</description>
+		</sheet>
+		<rules>
+			<stat name="initiative" value="proficiency" bonus="proficiency" />
+		</rules>
+	</element>
+	<element name="Leporine Senses" type="Racial Trait" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_RACIAL_TRAIT_HARENGON_LEPORINE_SENSES">
+		<description>
+			<p>You have proficiency in the Perception skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Perception skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+	</element>
+	<element name="Lucky Footwork" type="Racial Trait" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_RACIAL_TRAIT_HARENGON_LUCKY_FOOTWORK">
+		<description>
+			<p>When you fail a Dexterity saving throw, you can use your reaction to roll a d4 and add it to the save, potentially turning the failure into a success. You can’t use this reaction if you’re prone or your speed is 0.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When you fail a Dexterity save, you can roll a d4 and add it to the save, potentially turning the failure into a success. You can’t use this reaction if you’re prone or your speed is 0.</description>
+		</sheet>
+	</element>
+	<element name="Rabbit Hop" type="Racial Trait" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_RACIAL_TRAIT_HARENGON_RABBIT_HOP">
+		<description>
+			<p>As a bonus action, you can jump a number of feet equal to five times your proficiency bonus, without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
+			<description>You can jump {{harengon:rabbit-hop:feet}} feet without provoking opportunity attacks. You can use this trait only if your speed is greater than 0.</description>
+		</sheet>
+		<rules>
+			<stat name="harengon:rabbit-hop:feet" value="proficiency" />
+			<stat name="harengon:rabbit-hop:feet" value="proficiency" />
+			<stat name="harengon:rabbit-hop:feet" value="proficiency" />
+			<stat name="harengon:rabbit-hop:feet" value="proficiency" />
+			<stat name="harengon:rabbit-hop:feet" value="proficiency" />
+		</rules>
+	</element>
+	
+	<element name="Bobbing Lily Pad" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_BOBBING_LILY_PAD">
+		<description>
+			<p>This magic vehicle is a 10-foot-diameter leaf that floats on water. It has tendrils that propel it across land and across the water’s surface (but not underwater), as well as through the air. It has a walking, flying, and swimming speed of 20 feet, and it can hover. It moves according to your spoken directions while you are riding it.</p>
+			<p class="indent">The lily pad can transport up to 300 pounds without hindrance. It can carry up to twice this weight, but it moves at half speed if it carries more than its normal capacity.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+	<element name="Chromatic Rose" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_CHROMATIC_ROSE">
+		<description>
+			<p>This magic rose comes in one of five colors, as noted in the Chromatic Roses table. While a rose is held, it gains a harmless visual effect as indicated on the table.</p>
+			<p class="indent">While holding the rose by its stem, you gain resistance to damage of the type associated with the rose’s color. If you would take more than 10 damage of this type from a single source (after applying the resistance), the rose disintegrates, and you take no damage instead.</p>
+			<p class="indent">As an action, you can blow the petals from the rose to produce a 20-foot cone of acid, lightning, poisonous gas, fire, or cold, as dictated by the rose’s damage type. Each creature in the cone must make a DC 15 Constitution saving throw, taking 3d10 damage of the appropriate type on a failed save, or half as much damage on a successful one. Using this property destroys the rose.</p>
+			<h5 class="caption">CHROMATIC ROSES</h5>
+			<table>
+				<thead>
+					<tr><td>Color</td><td>Visual Effect</td><td>Damage Type</td></tr>
+				</thead>
+				<tr><td>Black</td><td>Drips acid</td><td>Acid</td></tr>
+				<tr><td>Blue</td><td>Crackles with lightning</td><td>Lightning</td></tr>
+				<tr><td>Green</td><td>Issues green gas</td><td>Poison</td></tr>
+				<tr><td>Red</td><td>Wreathed in fire</td><td>Fire</td></tr>
+				<tr><td>White</td><td>Covered with frost</td><td>Cold</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Cloak of Many Fashions" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_CLOAK_OF_MANY_FASHIONS">
+		<description>
+			<p>While wearing this cloak, you can use a bonus action to change the style, color, and apparent quality of the garment. The cloak’s weight doesn’t change. Regardless of its appearance, the cloak can’t be anything but a cloak. Although it can duplicate the appearance of other magic cloaks, it doesn’t gain their magical properties.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+			<set name="slot">neck</set>
+		</setters>
+	</element>
+	<element name="Dread Helm" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_DREAD_HELM">
+		<description>
+			<p>This fearsome steel helm makes your eyes glow red and hides the rest of your face in shadow while you wear it.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+			<set name="slot">head</set>
+		</setters>
+	</element>
+	<element name="Dust of Corrosion" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_DUST_OF_CORROSION">
+		<description>
+			<p>As an action, you can throw this dust into the air, filling a 10-foot cube that extends out from you. Surfaces and objects made of nonmagical ferrous metal in the area instantly corrode and turn to dust, becoming useless and unsalvageable. Any creature in the area that is made wholly or partly out of ferrous metal must make a DC 13 Constitution saving throw, taking 4d8 necrotic damage on a failed save, or half as much damage on a successful one.</p>
+			<p class="indent">Found in a small packet, this dust is made from finely ground rust monster antennae. There is enough dust in each packet for one use.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Eldritch Staff" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_ELDRITCH_STAFF">
+		<description>
+			<p>This staff can be wielded as a magic quarterstaff that grants a +1 bonus to attack and damage rolls.</p>
+			<p class="indent">The staff has 10 charges and regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff is destroyed in an otherwise harmless burst of eldritch energy.</p>
+			<p class="indent"><strong><em>Eldritch Attack.</em></strong> When you hit with a melee attack using the staff, you can expend up to 3 of its charges. For each charge you expend, the target takes an extra 1d8 lightning damage.</p>
+			<p class="indent"><strong><em>Eldritch Escape.</em></strong> If you take damage while holding the staff, you can use your reaction to expend 3 of the staff’s charges, whereupon you turn invisible and teleport yourself, along with any equipment you are wearing or carrying, up to 60 feet to an unoccupied space that you can see. You remain invisible until the start of your next turn or until you attack, cast a spell, or deal damage.</p>
+		</description>
+		<setters>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="type">Staff</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">1</set>
+			<set name="charges">10</set>
+		</setters>
+	</element>
+	<element name="Instrument of Scribing" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_INSTRUMENT_OF_SCRIBING">
+		<description>
+			<p>This musical instrument has 3 charges. While you are playing it, you can use an action to expend 1 charge from the instrument and write a magical message on a nonmagical object or surface that you can see within 30 feet of you. The message can be up to six words long and is written in a language you know. If you are a bard, you can scribe an additional seven words and choose to make the message glow faintly, allowing it to be seen in nonmagical darkness. Casting dispel magic on the message erases it. Otherwise, the message fades away after 24 hours.</p>
+			<p class="indent">The instrument regains all expended charges daily at dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+			<set name="attunement">true</set>
+			<set name="charges">3</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+	<element name="Orb of Direction" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_ORB_OF_DIRECTION">
+		<description>
+			<p>While holding this orb, you can use an action to determine which way is north. This property functions only on the Material Plane.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+	<element name="Ornithopter of Flying" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_ORNITHOPTER_OF_FLYING">
+		<description>
+			<p>You can use this contraption to fly, provided your weight (including whatever you are wearing or carrying) doesn’t exceed 300 pounds. The ornithopter has a flying speed of 30 feet, and it moves according to your spoken directions while you are riding it. It can’t hover. If the ornithopter loses its rider while airborne, it falls and can’t fly again for 1d6 + 4 days.</p>
+			<p class="indent">The ornithopter is 8 feet long, has a 14-foot wingspan, and weighs 25 pounds.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="25" excludeEncumbrance="true">25 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Pipe of Smoke Monsters" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_PIPE_OF_SMOKE_MONSTERS">
+		<description>
+			<p>While smoking this pipe, you can use an action to exhale a puff of smoke that takes the form of a single creature, such as a dragon, a flumph, or a froghemoth. The form must be small enough to fit in a 1-foot cube and loses its shape after a few seconds, becoming an ordinary puff of smoke.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+	<element name="Pixie Dust" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_PIXIE_DUST">
+		<description>
+			<p>As an action, you can sprinkle this dust on yourself or another creature you can see within 5 feet of you. The recipient gains a flying speed of 30 feet and the ability to hover for 1 minute. If the creature is airborne when this effect ends, it falls safely to the ground, taking no damage and landing on its feet.</p>
+			<p class="indent">A small packet holds enough pixie dust for one use.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Pole of Collapsing" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_POLE_OF_COLLAPSING">
+		<description>
+			<p>While holding this 10-foot pole, you can use an action to speak a command word and cause it to collapse into a 1-foot-long rod for ease of storage. The pole’s weight doesn’t change. You can use an action to speak a different command word and cause the rod to revert to a pole; however, the rod will elongate only as far as the surrounding space allows.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+	<element name="Potion of Advantage" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_POTION_OF_ADVANTAGE">		
+		<description>
+			<p>When you drink this potion, you gain advantage on one ability check, attack roll, or saving throw of your choice that you make within the next hour.</p>
+			<p class="indent">This potion takes the form of a sparkling, golden mist that moves and pours like water.</p>
+		</description>
+		<setters>
+			<set name="keywords">ability,attack,save,saving throw</set>
+			<set name="category">Potions</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="0.5">½ lb.</set>
+			<set name="type">Potion</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Scissors of Shadow Snipping" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_SCISSORS_OF_SHADOW_SNIPPING">
+		<description>
+			<p>As an action, you make a few snips with these iron shears and cause the shadow of a Humanoid creature you can see within 5 feet of you to detach from its source. If the creature is unwilling to give up its shadow, it can make a DC 15 Charisma saving throw, retaining its shadow on a success. Whether or not the shadow is snipped, this property of the scissors can’t be used again until the next dawn.</p>
+			<p class="indent">The detached shadow is rooted to the spot where it was snipped until you use a bonus action to cause it to behave in one of the following ways, either of which is possible only if you can see the shadow:</p>
+			<ul>
+				<li>You control the shadow’s movements and can make the shadow move up to 30 feet across a solid or liquid surface, in any direction you choose (including along vertical surfaces), provided it remains within your sight at all times. The shadow is harmless and unable to be harmed, and it is invisible in darkness. It can’t speak, and it doesn’t require air, sleep, or nourishment.</li>
+				<li>You can relinquish control of the shadow, at which point it becomes autonomous and behaves as the DM wishes. It uses the shadow stat block in the Monster Manual, but its creature type is Fey instead of Undead. A creature whose Strength is reduced to 0 by this shadow’s Strength Drain attack does not die but falls unconscious instead. The creature regains consciousness and all its Strength after finishing a short or long rest.</li>
+			</ul>
+			<p>A creature whose shadow has detached from it is cursed. If a shadowless creature is subjected to any spell that ends a curse, or if its detached shadow is reduced to 0 hit points, the detached shadow disappears, and the creature regains its normal shadow instantly.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement" addition="by a Fey or a Spellcaster">true</set>
+		</setters>
+	</element>
+	<element name="Snicker-Snack" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_SNICKER_SNACK">		
+		<description>
+			<p>You gain a +3 bonus to attack and damage rolls made with this magic vorpal sword. In addition, the weapon ignores resistance to slashing damage.</p>
+			<p class="indent">When you use this weapon to attack a creature that has at least one head and roll a 20 on the attack roll, you cut off one of the creature’s heads. The creature dies if it can’t survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, it doesn’t have or need a head, it has legendary actions, or the DM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit.</p>
+			<p class="indent">While attuned to Snicker-Snack, you have proficiency with greatswords, and you can use your Charisma modifier instead of your Strength modifier for attack and damage rolls made with the weapon.</p>
+			<p class="indent"><strong><em>Sentience.</em></strong> Snicker-Snack is a sentient, chaotic good greatsword with an Intelligence of 9, a Wisdom of 14, and a Charisma of 18. It has hearing and darkvision out to a range of 120 feet. It can speak, read, and understand Common, and its voice sounds silvery and melodic. Snicker-Snack craves the destruction of evil Dragons and urges you to seek out these creatures and slay them.</p>
+			<p class="indent">Snicker-Snack has a fickle personality. It ends its attunement to you if you miss on attack rolls with the weapon three times in a row. Each time you finish a long rest after that happens, you can attempt to regain the sword’s trust by making a contested Charisma check against Snicker-Snack. If you win the contest, your attunement to the weapon is instantly restored. Your attunement to the weapon can’t be restored in any other way.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="greatsword">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="attunement" addition="by a non-evil creature">true</set>
+			<set name="weapon">Greatsword</set>
+			<set name="enhancement">3</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD" />
+		</rules>
+	</element>
+	<element name="Steel" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_STEEL">		
+		<description>
+			<p>You have a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent"><strong><em>Revivify.</em></strong> You can use an action to cast the revivify spell from the sword. You must touch the target with the sword to cast the spell. Once this property of the weapon is used, it can’t be used again until the next dawn.</p>
+			<p class="indent"><strong><em>Sentience.</em></strong> Steel is a sentient, lawful good longsword with an Intelligence of 8, a Wisdom of 11, and a Charisma of 15. It can see and hear out to a range of 60 feet. The sword can speak, read, and understand Common and Draconic. It frets over your well-being while you are attuned to it, and it doesn’t like to back down from a fight.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement" addition="by a good-aligned creature">true</set>
+			<set name="weapon">Longsword</set>
+			<set name="enhancement">2</set>
+		</setters>
+	</element>
+	<element name="Talking Doll" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_Talking_Doll">
+		<description>
+			<p>While this stuffed doll is within 5 feet of you, you can spend a short rest telling it to say up to six phrases, none of which can be more than six words long, and you can set a condition under which the doll speaks each phrase. You can also replace old phrases with new ones. Whatever the condition, it must occur within 5 feet of the doll to make it speak. For example, whenever someone picks up the doll, it might say, “I want a piece of candy.” The doll’s phrases are lost when your attunement to the doll ends.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+	<element name="Wand of Scowls" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_WAND_OF_SCOWLS">
+		<description>
+			<p>This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and target a Humanoid you can see within 30 feet of you. The target must succeed on a DC 10 Charisma saving throw or be forced to scowl for 1 minute.</p>
+			<p class="indent">The wand regains all expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand transforms into a wand of smiles.</p>
+		</description>
+		<setters>
+			<set name="keywords">scowls,smiles</set>
+			<set name="category">Wands</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wand</set>
+			<set name="rarity">Common</set>
+			<set name="charges">3</set>
+		</setters>
+	</element>
+	<element name="Wand of Smiles" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_WAND_OF_SMILES">
+		<description>
+			<p>This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and target a Humanoid you can see within 30 feet of you. The target must succeed on a DC 10 Charisma saving throw or be forced to smile for 1 minute.</p>
+			<p class="indent">The wand regains all expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand transforms into a wand of scowls.</p>
+		</description>
+		<setters>
+			<set name="keywords">scowls,smiles</set>
+			<set name="category">Wands</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wand</set>
+			<set name="rarity">Common</set>
+			<set name="charges">3</set>
+		</setters>
+	</element>
+	<element name="Woodcutter’s Axe" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_WOODCUTTERS_AXE">
+		<description>
+			<p>You have a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">When you use this axe to make an attack against a plant (an ordinary plant or a creature with the Plant type) or a wooden object that isn’t being worn or carried, the attack deals an extra 2d6 slashing damage on a hit.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="greataxe">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">Greataxe</set>
+			<set name="enhancement">1</set>
+		</setters>
+	</element>
+
+	<element name="Clockwork Toad" type="Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_ITEM_CLOCKWORK_TOAD">
+		<description>
+			<p>A Tiny clockwork toad with AC 5 and 1 hit point. If a creature places the toad on the ground, it hops 5 feet across the ground on each of the creature’s turns in a random direction and makes a croaking noise that can be heard out to a range of 30 feet. Any creature that licks the clockwork toad must succeed on a DC 15 Constitution saving throw or be poisoned for 1 hour. While the creature is poisoned in this way, other creatures are invisible to it.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+		</setters>
+	</element>
+	<element name="Onyx Ring" type="Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_ITEM_ONYX_RING">
+		<description>
+			<p>An onyx ring that radiates an aura of illusion magic under the scrutiny of a detect magic spell (when worn, the ring creates illusory butterflies that flutter around the wearer).</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">ring</set>
+		</setters>
+	</element>
+	<element name="Black-Feathered Quill" type="Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_ITEM_TREASURE_BLACK_FEATHERED_QUILL">
+		<description>
+			<p>A black-feathered quill with a bone tip that magically produces its own ink. The ink is the crimson color of fresh blood until it dries, whereupon its color changes to sepia.</p>
+		</description>
+		<setters>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">150</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+	<element name="Opera Glasses" type="Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_ITEM_TREASURE_OPERA_GLASSES">
+		<description>
+			<p>A pair of opera glasses.</p>
+		</description>
+		<setters>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">250</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>	
+	<element name="Zargash’s Amulet" type="Magic Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_MAGIC_ITEM_ZARGASHS_AMULET">
+		<description>
+			<p>When you fall while wearing this amulet, you descend 60 feet per round and take no damage from falling.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="slot">neck</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Mordenkainen’s Chessboard" type="Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_ITEM_TREASURE_MORDENKAINENS_CHESSBOARD">
+		<description>
+			<p>The chessboard was a gift to Iggwilv from the archmage Mordenkainen and is worth 2,500 gp. Its pieces mutter under their breath when they are taken off the board.</p>
+		</description>
+		<setters>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">2500</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+	<element name="Snicker-Snack’s Ornate Scabbard" type="Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_ITEM_TREASURE_SNICKER_SNACKS_ORNATE_SCABBARD">
+		<description>
+			<p>Snicker-Snack’s ornate scabbard, adorned with phoenix feathers.</p>
+		</description>
+		<setters>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+	<element name="Gold Antlers Helmet" type="Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_ITEM_TREASURE_GOLD_ANTLERS_HELMET">
+		<description>
+			<p>A gold helmet decorated with hart antlers.</p>
+		</description>
+		<setters>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">250</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+			<set name="slot">head</set>
+		</setters>
+	</element>
+	<element name="Silver Unicorn Cloak" type="Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_ITEM_TREASURE_SILVER_UNICORN_CLOAK">
+		<description>
+			<p>A shimmering silver cloak, with a unicorn embroidered on it in platinum thread.</p>
+		</description>
+		<setters>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">750</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+			<set name="slot">neck</set>
+		</setters>
+	</element>
+	<element name="Butterfly Saddle" type="Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_ITEM_MUSHROOM_BUTTERFLY_SADDLE">
+		<description>
+			<p>Each of these bright yellow toadstools has a ruffled, saddle-shaped cap properly sized for a pixie or sprite to sit on. They taste like butter and can be used as a substitute for that ingredient in recipes.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Eldercap" type="Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_ITEM_MUSHROOM_ELDERCAP">
+		<description>
+			<p>Eating one of these white and gray mushrooms causes the eater to look much older for 1 hour. This magical effect is an illusion that can be ended with a dispel magic spell.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Executioner’s Hood" type="Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_ITEM_MUSHROOM_EXECUTIONERS_HOOD">
+		<description>
+			<p>Each of these mushrooms has a black, hood-shaped cap. Any creature that consumes an executioner’s hood must succeed on a DC 12 Constitution saving throw or fall into a cataleptic state that is indistinguishable from death. This magical effect is identical to that of the feign death spell (including its duration).</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Hummingbrella" type="Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_ITEM_MUSHROOM_HUMMINGBRELLA">
+		<description>
+			<p>A hummingbrella is a colorful mushroom with a frilly, parasol-shaped cap that drips sweet nectar and attracts hummingbirds. Eating one has the same effect as drinking antitoxin.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+	<element name="Pricklenoggin" type="Item" source="The Wild Beyond the Witchlight" id="ID_WOTC_TWBTW_ITEM_MUSHROOM_PRICKLENOGGIN">
+		<description>
+			<p>Each of these mushrooms has short, prickly spines growing out of its red cap. Hats made from pricklenoggin caps are popular in the fey courts and considered very fashionable. Most tiny Fey would be grateful to receive one as a gift.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+	<element name="Ability Score Increases" type="Grants" source="Core" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI">
+		<description>
+			<p>When determining your ability scores, you increase one score by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.</p>
+			<p class="indent">Your class’s “Quick Build” section offers suggestions on which scores to increase. You’re free to follow those suggestions or to ignore them. Whichever scores you decide to increase, none of the scores can be raised above 20.</p>
+		</description>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase, 1" supports="DEFAULT_RACE_ASI_1A" />
+			<select type="Ability Score Improvement" name="Ability Score Increase, 2" supports="DEFAULT_RACE_ASI_1B" />
+			<select type="Ability Score Improvement" name="Ability Score Increase, 3" supports="DEFAULT_RACE_ASI_1C" />
+		</rules>
+	</element>
+	<element name="Languages" type="Grants" source="Core" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_LANGUAGE">
+		<description>
+			<p>Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. The Player’s Handbook offers a list of languages to choose from. The DM is free to modifythat list for a campaign.</p>
+		</description>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<select type="Language" name="Language" supports="Standard||Exotic" />
+		</rules>
+	</element>
+	<element name="Creature Type" type="Grants" source="Core" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_CREATURE_TYPE">
+		<description>
+			<p>Every creature in D&amp;D, including every player character, has a special tag in the rules that identifies the type of creature they are. Most player characters are of the Humanoid type. A race option presented here tells you what your character’s creature type is.</p>
+			<p class="indent">Here’s a list of the game’s creature types in alphabetical order: Aberration, Beast, Celestial, Construct, Dragon, Elemental, Fey, Fiend, Giant, Humanoid, Monstrosity, Ooze, Plant, Undead. These types don’t have rules themselves, but some rules in the game affect creatures of certain types in different ways. For example, the cure wounds spell doesn’t work on a Construct or Undead.</p>
+		</description>
+		<rules>
+			<select type="Racial Trait" name="Creature Type" supports="CORE_LINEAGE_CREATURE_TYPE" />
+		</rules>
+	</element>
+	<element name="Life Span" type="Grants" source="Core" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_LIFE_SPAN">
+		<description>
+			<p>The typical life span of a player character in the D&amp;D multiverse is about a century, assuming the character doesn’t meet a violent end on an adventure. Members of some races, such as dwarves and elves, can live for centuries. Fairies and harengons, however, have a life span of about a century.</p>
+		</description>
+	</element>
+	<element name="Height and Weight" type="Grants" source="Core" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_HEIGHT_AND_WEIGHT">
+		<description>
+			<p>Player characters, regardless of race, typically fall into the same ranges of height and weight that humans have in our world. If you’d like to determine your character’s height or weight randomly, consult the Random Height and Weight table in the Player’s Handbook, and choose the row in the table that best represents the build you imagine for your character.</p>
+		</description>
+	</element>
+
+	<element name="Strength" type="Ability Score Improvement" source="Player’s Handbook" id="ID_WOTC_ABILITY_SCORE_IMPROVEMENT_DEFAULT_RACE_ASI_STRENGTH_1A">	
+		<compendium display="false" />
+		<supports>DEFAULT_RACE_ASI_1A</supports>
+		<requirements>ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI</requirements>
+		<description>
+			<p>Your Strength score increases by 1.</p>
+			<div class="reference">
+				<div element="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Dexterity" type="Ability Score Improvement" source="Player’s Handbook" id="ID_WOTC_ABILITY_SCORE_IMPROVEMENT_DEFAULT_RACE_ASI_DEXTERITY_1A">	
+		<compendium display="false" />
+		<supports>DEFAULT_RACE_ASI_1A</supports>
+		<requirements>ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI</requirements>
+		<description>
+			<p>Your Dexterity score increases by 1.</p>
+			<div class="reference">
+				<div element="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Constitution" type="Ability Score Improvement" source="Player’s Handbook" id="ID_WOTC_ABILITY_SCORE_IMPROVEMENT_DEFAULT_RACE_ASI_CONSTITUTION_1A">	
+		<compendium display="false" />
+		<supports>DEFAULT_RACE_ASI_1A</supports>
+		<requirements>ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI</requirements>
+		<description>
+			<p>Your Constitution score increases by 1.</p>
+			<div class="reference">
+				<div element="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Ability Score Improvement" source="Player’s Handbook" id="ID_WOTC_ABILITY_SCORE_IMPROVEMENT_DEFAULT_RACE_ASI_INTELLIGENCE_1A">	
+		<compendium display="false" />
+		<supports>DEFAULT_RACE_ASI_1A</supports>
+		<requirements>ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI</requirements>
+		<description>
+			<p>Your Intelligence score increases by 1.</p>
+			<div class="reference">
+				<div element="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Ability Score Improvement" source="Player’s Handbook" id="ID_WOTC_ABILITY_SCORE_IMPROVEMENT_DEFAULT_RACE_ASI_WISDOM_1A">	
+		<compendium display="false" />
+		<supports>DEFAULT_RACE_ASI_1A</supports>
+		<requirements>ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI</requirements>
+		<description>
+			<p>Your Wisdom score increases by 1.</p>
+			<div class="reference">
+				<div element="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Charisma" type="Ability Score Improvement" source="Player’s Handbook" id="ID_WOTC_ABILITY_SCORE_IMPROVEMENT_DEFAULT_RACE_ASI_CHARISMA_1A">	
+		<compendium display="false" />
+		<supports>DEFAULT_RACE_ASI_1A</supports>
+		<requirements>ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI</requirements>
+		<description>
+			<p>Your Charisma score increases by 1.</p>
+			<div class="reference">
+				<div element="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Strength" type="Ability Score Improvement" source="Player’s Handbook" id="ID_WOTC_ABILITY_SCORE_IMPROVEMENT_DEFAULT_RACE_ASI_STRENGTH_1B">	
+		<compendium display="false" />
+		<supports>DEFAULT_RACE_ASI_1B</supports>
+		<requirements>ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI</requirements>
+		<description>
+			<p>Your Strength score increases by 1.</p>
+			<div class="reference">
+				<div element="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Dexterity" type="Ability Score Improvement" source="Player’s Handbook" id="ID_WOTC_ABILITY_SCORE_IMPROVEMENT_DEFAULT_RACE_ASI_DEXTERITY_1B">	
+		<compendium display="false" />
+		<supports>DEFAULT_RACE_ASI_1B</supports>
+		<requirements>ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI</requirements>
+		<description>
+			<p>Your Dexterity score increases by 1.</p>
+			<div class="reference">
+				<div element="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Constitution" type="Ability Score Improvement" source="Player’s Handbook" id="ID_WOTC_ABILITY_SCORE_IMPROVEMENT_DEFAULT_RACE_ASI_CONSTITUTION_1B">	
+		<compendium display="false" />
+		<supports>DEFAULT_RACE_ASI_1B</supports>
+		<requirements>ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI</requirements>
+		<description>
+			<p>Your Constitution score increases by 1.</p>
+			<div class="reference">
+				<div element="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Ability Score Improvement" source="Player’s Handbook" id="ID_WOTC_ABILITY_SCORE_IMPROVEMENT_DEFAULT_RACE_ASI_INTELLIGENCE_1B">	
+		<compendium display="false" />
+		<supports>DEFAULT_RACE_ASI_1B</supports>
+		<requirements>ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI</requirements>
+		<description>
+			<p>Your Intelligence score increases by 1.</p>
+			<div class="reference">
+				<div element="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Ability Score Improvement" source="Player’s Handbook" id="ID_WOTC_ABILITY_SCORE_IMPROVEMENT_DEFAULT_RACE_ASI_WISDOM_1B">	
+		<compendium display="false" />
+		<supports>DEFAULT_RACE_ASI_1B</supports>
+		<requirements>ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI</requirements>
+		<description>
+			<p>Your Wisdom score increases by 1.</p>
+			<div class="reference">
+				<div element="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Charisma" type="Ability Score Improvement" source="Player’s Handbook" id="ID_WOTC_ABILITY_SCORE_IMPROVEMENT_DEFAULT_RACE_ASI_CHARISMA_1B">	
+		<compendium display="false" />
+		<supports>DEFAULT_RACE_ASI_1B</supports>
+		<requirements>ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI</requirements>
+		<description>
+			<p>Your Charisma score increases by 1.</p>
+			<div class="reference">
+				<div element="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Strength" type="Ability Score Improvement" source="Player’s Handbook" id="ID_WOTC_ABILITY_SCORE_IMPROVEMENT_DEFAULT_RACE_ASI_STRENGTH_1C">	
+		<compendium display="false" />	
+		<supports>DEFAULT_RACE_ASI_1C</supports>
+		<requirements>ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI</requirements>
+		<description>
+			<p>Your Strength score increases by 1.</p>
+			<div class="reference">
+				<div element="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Dexterity" type="Ability Score Improvement" source="Player’s Handbook" id="ID_WOTC_ABILITY_SCORE_IMPROVEMENT_DEFAULT_RACE_ASI_DEXTERITY_1C">	
+		<compendium display="false" />	
+		<supports>DEFAULT_RACE_ASI_1C</supports>
+		<requirements>ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI</requirements>
+		<description>
+			<p>Your Dexterity score increases by 1.</p>
+			<div class="reference">
+				<div element="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Constitution" type="Ability Score Improvement" source="Player’s Handbook" id="ID_WOTC_ABILITY_SCORE_IMPROVEMENT_DEFAULT_RACE_ASI_CONSTITUTION_1C">	
+		<compendium display="false" />	
+		<supports>DEFAULT_RACE_ASI_1C</supports>
+		<requirements>ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI</requirements>
+		<description>
+			<p>Your Constitution score increases by 1.</p>
+			<div class="reference">
+				<div element="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Ability Score Improvement" source="Player’s Handbook" id="ID_WOTC_ABILITY_SCORE_IMPROVEMENT_DEFAULT_RACE_ASI_INTELLIGENCE_1C">	
+		<compendium display="false" />	
+		<supports>DEFAULT_RACE_ASI_1C</supports>
+		<requirements>ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI</requirements>
+		<description>
+			<p>Your Intelligence score increases by 1.</p>
+			<div class="reference">
+				<div element="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Ability Score Improvement" source="Player’s Handbook" id="ID_WOTC_ABILITY_SCORE_IMPROVEMENT_DEFAULT_RACE_ASI_WISDOM_1C">	
+		<compendium display="false" />	
+		<supports>DEFAULT_RACE_ASI_1C</supports>
+		<requirements>ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI</requirements>
+		<description>
+			<p>Your Wisdom score increases by 1.</p>
+			<div class="reference">
+				<div element="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Charisma" type="Ability Score Improvement" source="Player’s Handbook" id="ID_WOTC_ABILITY_SCORE_IMPROVEMENT_DEFAULT_RACE_ASI_CHARISMA_1C">	
+		<compendium display="false" />	
+		<supports>DEFAULT_RACE_ASI_1C</supports>
+		<requirements>ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI</requirements>
+		<description>
+			<p>Your Charisma score increases by 1.</p>
+			<div class="reference">
+				<div element="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			</div>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+</elements>

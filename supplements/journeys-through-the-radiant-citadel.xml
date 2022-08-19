@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Journeys through the Radiant Citadel" type="Source" source="Core" id="ID_WOTC_SOURCE_JOURNEYS_THROUGH_THE_RADIANT_CITADEL">
+		<description>
+			<html>&lt;p&gt;&lt;strong&gt;An anthology of thirteen stand-alone adventures set in wondrous lands for the world’s greatest roleplaying game.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Through the mists of the Ethereal Plane shines the Radiant Citadel. Travelers from across the multiverse flock to this mysterious bastion to share their traditions, stories, and calls for heroes. A crossroads of wonders and adventures, the Radiant Citadel is the first step on the path to legend. Where will your journeys take you?&lt;/p&gt;
+&lt;p&gt;Journeys through the Radiant Citadel is a collection of thirteen short, stand-alone D&amp;D adventures featuring challenges for character levels 1–14. Each adventure has ties to the Radiant Citadel, a magical city with connections to lands rich with excitement and danger, and each can be run by itself or as part of an ongoing campaign. Explore this rich and varied collection of adventures in magical lands.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Thirteen new stand-alone adventures spanning levels 1 to 14, each with its own set of maps&lt;/li&gt;
+&lt;li&gt;Introduces the Radiant Citadel, a new location on the Ethereal Plane that connects adventurers to richly detailed and distinct corners of the D&amp;D multiverse&lt;/li&gt;
+&lt;li&gt;Each adventure can be set in any existing D&amp;D campaign setting or on worlds of your own design&lt;/li&gt;
+&lt;li&gt;Introduces eleven new D&amp;D monsters&lt;/li&gt;
+&lt;li&gt;There’s a story for every adventuring party, from whimsical and light to dark and foreboding and everything in between -There’s a story for every adventuring party, from whimsical and light to dark and foreboding and everything in between&lt;/li&gt;
+&lt;/ul&gt;</html>
+		</description>
+		<setters>
+			<set name="abbreviation">JTTRC</set>
+			<set name="image">https://media.dnd.wizards.com/styles/products_thumbnail/public/images/product/2gBic2ygsp4Jc300.png</set>
+			<set name="url">https://dnd.wizards.com/products/journeys-through-radiant-citadel</set>
+			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+			<set name="release">20220621</set>
+			<set name="official">true</set>
+			<set name="supplement">true</set>
+			<set name="information">This source contains no character options.</set>
+		</setters>
+	</element>
+</elements>

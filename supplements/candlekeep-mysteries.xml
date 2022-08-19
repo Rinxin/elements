@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Candlekeep Mysteries" type="Source" source="Core" id="ID_WOTC_SOURCE_CANDLEKEEP_MYSTERIES">
+		<description>
+			<p><strong><em>An anthology of seventeen mystery-themed adventures for the world’s greatest roleplaying game.</em></strong></p>
+			<p>Candlekeep attracts scholars like a flame attracts moths. Historians, sages, and others who crave knowledge flock to this library fortress to peruse its vast collection of books, scribbled into which are the answers to the mysteries that bedevil them. Many of these books contain their own mysteries—each one a doorway to adventure. Dare you cross that threshold?</p>
+			<p>Candlekeep Mysteries is a collection of seventeen short, stand-alone D&amp;D adventures designed for characters of levels 1-16. Each adventure begins with the discovery of a book, and each book is the key to a door behind which danger and glory await. These adventures can be run as one-shot games, plugged into an existing Forgotten Realms campaign, or adapted for other campaign settings.</p>
+			<p>This book also includes a poster map of the library fortress and detailed descriptions of Candlekeep and its inhabitants.</p>
+			<p>Adventure authors include: Graeme Barber, Kelly Lynne D’angelo, Alison Huang, Mark Hulmes, Jennifer Kretchmer, Daniel Kwan, Adam Lee, Ari Levitch, Sarah Madsen, Christopher Perkins, Michael Polkinghorn, Taymoor Rehman, Derek Ruiz, Kienna Shaw, Brandes Stoddard, Amy Vorpahl, and Toni Winslow-Brill.</p>
+		</description>
+		<setters>
+			<set name="abbreviation">CM</set>
+			<set name="url">https://dnd.wizards.com/products/candlekeep-mysteries</set>
+			<set name="image">https://media.dnd.wizards.com/styles/products_thumbnail/public/images/product/jSdb1ck9jb0cb.png</set>
+			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+			<set name="official">true</set>
+			<set name="supplement">true</set>
+			<set name="release">20210316</set>
+		</setters>
+	</element>
+	<element name="Alchemy Jug, Blue" type="Magic Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_MAGIC_ITEM_ALCHEMY_JUG_BLUE">
+		<description>
+			<p>This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.</p>
+			<p class="indent">You can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.</p>
+			<p class="indent">Once the jug starts producing a liquid, it can’t produce a different one, or more of one that has reached its maximum, until the next dawn.</p>
+			<table>
+				<thead>
+					<tr><td>Liquid</td><td>Max Amount</td></tr>
+				</thead>
+				<tr><td>Beer</td><td>4 gallons</td></tr>
+				<tr><td>Boiling Hot Tea</td><td>1 quart</td></tr>
+				<tr><td>Honey</td><td>1 gallon</td></tr>
+				<tr><td>Mayonnaise</td><td>2 gallons</td></tr>
+				<tr><td>Oil</td><td>quart</td></tr>
+				<tr><td>Vinegar</td><td>2 gallons</td></tr>
+				<tr><td>Water, fresh</td><td>8 gallons</td></tr>
+				<tr><td>Water, salt</td><td>12 gallons</td></tr>
+				<tr><td>Wine</td><td>1 gallon</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="12">12 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>	
+	<element name="Alchemy Jug, Orange" type="Magic Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_MAGIC_ITEM_ALCHEMY_JUG_ORANGE">
+		<description>
+			<p>This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.</p>
+			<p class="indent">You can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.</p>
+			<p class="indent">Once the jug starts producing a liquid, it can’t produce a different one, or more of one that has reached its maximum, until the next dawn.</p>
+			<table>
+				<thead>
+					<tr><td>Liquid</td><td>Max Amount</td></tr>
+				</thead>
+				<tr><td>Beer</td><td>4 gallons</td></tr>
+				<tr><td>Honey</td><td>1 gallon</td></tr>
+				<tr><td>Mayonnaise</td><td>2 gallons</td></tr>
+				<tr><td>Oil</td><td>quart</td></tr>
+				<tr><td>Soy Sauce</td><td>1 gallon</td></tr>
+				<tr><td>Vinegar</td><td>2 gallons</td></tr>
+				<tr><td>Water, fresh</td><td>8 gallons</td></tr>
+				<tr><td>Water, salt</td><td>12 gallons</td></tr>
+				<tr><td>Wine</td><td>1 gallon</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="12">12 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Cracked Driftglobe" type="Magic Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_MAGIC_ITEM_CRACKED_DRIFTGLOBE">
+		<description>
+			<p>This small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can speak its command word and cause it to emanate the light spell.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_LIGHT" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">light</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Gloves of Soul Catching" type="Magic Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_MAGIC_ITEM_GLOVES_OF_SOUL_CATCHING">
+		<description>
+			<p>Your Constitution score is 20 while you wear these gloves. This property of the gloves has no effect on you if your Constitution is already 20 or higher.</p>
+			<p class="indent">After making a successful unarmed strike while wearing these gloves, you can use the gloves to deal an extra 2d10 force damage to the target, and you regain a number of hit points equal to the force damage dealt. Alternatively, instead of regaining hit points in this way, you can choose to gain advantage on one attack roll, ability check, or saving throw you make before the end of your next turn.</p>
+		</description>
+		<setters>
+			<set name="keywords">constitution,force,hit points,hp</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Legendary</set>
+			<set name="attunement">true</set>
+			<set name="slot">gloves</set>
+		</setters>
+		<rules>
+			<stat name="constitution:score:set" value="20" bonus="base" />
+		</rules>
+	</element>
+	<element name="Nether Scroll of Azumar" type="Magic Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_MAGIC_ITEM_NETHER_SCROLL_OF_AZUMAR">
+		<description>
+			<p>Unlike most scrolls, a Nether Scroll of Azumar is not a consumable magic item. It takes 30 days of concentrated study—at least 8 hours per day—to attempt to understand this scroll. After completing this study, you must make a DC 25 Intelligence (Arcana) check. If this check fails, you take 16d10 psychic damage, and you can attempt the check again after another 30 days of concentrated study.</p>
+			<p class="indent">When you succeed on the check, you gain the following benefits:</p>
+			<ul>
+				<li>Your Intelligence score increases by 2, to a maximum of 22. Once you gain this benefit, you can’t use this scroll to increase your Intelligence again.</li>
+				<li>You gain advantage on saving throws against spells and other magical effects.</li>
+			</ul>
+			<p>When you gain the scroll’s benefits, a stone golem magically appears in an unoccupied space within 60 feet of you and acts as your ally. If you die, the golem turns to dust.</p>
+		</description>
+		<setters>
+			<set name="category">Scrolls</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Scroll</set>
+			<set name="rarity">Legendary</set>
+			<set name="stackable">true</set>
+			<set name="slot">misc</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="2" />
+			<stat name="intelligence:max" value="2" />
+		</rules>
+	</element>
+	<element name="Orcus Figurine" type="Magic Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_MAGIC_ITEM_ORCUS_FIGURINE">
+		<description>
+			<p>Carved from an ogre’s petrified heart, the gray figurine depicts the Demon Prince of Undeath in ghastly detail, clutching his skull-topped wand in one hand and three severed heads by the hair in the other. The figurine smells like decaying flesh, and this scent is detectable out to a range of 5 feet.</p>
+			<p class="indent">The figurine is a Tiny object with AC 17, 3 hit points, and immunity to all types of damage except radiant damage. A detect evil and good spell or similar magic reveals that the figurine has been desecrated. As long as it has at least 1 hit point, the figurine has the following magical properties:</p>
+			<ul>
+				<li>Undead within 30 feet of the figurine can’t be turned.</li>
+				<li>Dead creatures within 30 feet of the figurine can’t be brought back to life.</li>
+				<li>A creature that holds the figurine while praying to Orcus for at least 1 hour has a 10 percent chance of summoning a smoky avatar of the demon lord. Once this avatar is summoned, it can’t be summoned again for 30 days. Orcus’s avatar has the statistics of a wraith except that it’s chaotic evil. It attacks all non-undead creatures it encounters, and it disappears after 1 hour or when reduced to 0 hit points.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity"></set>
+		</setters>
+	</element>
+	<element name="Radiance" type="Magic Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_MAGIC_ITEM_RADIANCE">
+		<description>
+			<p>While holding this wand, you gain a +1 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack. Radiance is in the form of an exquisite golden hand mirror.</p>
+			<p class="indent">While surrounded by darkness, it sheds dim light in a 5-foot radius. A creature that is attuned to Radiance can use a bonus action while holding the mirror to cast the enhance ability spell, choosing itself and no other creature as the spell’s target. Once this property of the wand is used, it can’t be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wands</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wand</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<stat name="spellcasting:attack" value="1" />
+		</rules>
+	</element>
+	<!-- <element name="Serpent Scale Armor" type="Armor" source="Candlekeep Mysteries" id="ID_CM_WOTC_ARMOR_MEDIUM_SERPENT_SCALE_ARMOR">
+		<supports>ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+		<description>
+			<p>This suit of magic armor is made from shimmering scales. While wearing it, you can apply your full Dexterity modifier (instead of a maximum of +2) when determining your Armor Class. In addition, this armor does not impose disadvantage on your Dexterity (Stealth) checks.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">75</set>
+			<set name="weight" lb="45">45 lb.</set>
+			<set name="armor">Medium</set>
+			<set name="slot">armor</set>
+			<set name="armorClass">14 + Dex modifier</set>
+			<set name="proficiency">ID_CM_WOTC_PROFICIENCY_ARMOR_PROFICIENCY_SERPENT_SCALE_ARMOR</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:armor" value="14" />
+			<stat name="ac:armored:dexterity:cap" value="99" bonus="base" />
+		</rules>
+	</element> -->
+	<element name="Serpent Scale Armor" type="Magic Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_MAGIC_ITEM_ARMOR_SERPENT_SCALE_ARMOR">
+		<description>
+			<p>This suit of magic armor is made from shimmering scales. While wearing it, you can apply your full Dexterity modifier (instead of a maximum of +2) when determining your Armor Class. In addition, this armor does not impose disadvantage on your Dexterity (Stealth) checks.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="type" addition="scale mail">Armor</set>
+			<set name="rarity">Uncommon</set>
+			<set name="armor">Scale Mail</set>
+		</setters>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_IGNORE_STEALTH_DISADVANTAGE" />
+			<stat name="ac:armored:dexterity:cap" value="99" bonus="base" />
+		</rules>
+	</element>
+	<element name="Serpent’s Fang" type="Magic Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_MAGIC_ITEM_SERPENTS_FANG">
+		<description>
+			<p>This single-edged magic sword is made from the scrimshawed fang of a giant serpent. Its hilt changes shape to adjust to the grasp of any creature that picks it up. The weapon deals an extra 1d10 poison damage to any target it hits.</p>
+		</description>
+		<setters>
+			<set name="keywords">longsword,poison</set>
+			<set name="category">Magic Weapons</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">Longsword</set>
+		</setters>
+	</element>
+	<element name="Staff of Fate" type="Magic Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_MAGIC_ITEM_STAFF_OF_FATE">
+		<description>
+			<p>This transparent crystal staff can be wielded as a magic quarterstaff that grants a +3 bonus to attack and damage rolls made with it.</p>
+			<p class="indent"><strong><em>Altered Outcome.</em></strong> The staff has 6 charges. As a bonus action, you can expend 1 of the staff’s charges to give yourself or one other creature that you can see a d4. The recipient can roll this d4 and add the number rolled to one ability check, attack roll, damage roll, or saving throw it makes before the start of your next turn. If this extra die is not used before then, it is lost.</p>
+			<p class="indent">If you expend the staff’s last charge, roll a d20. On a roll of 9 or lower, the staff becomes a nonmagical quarterstaff that breaks the first time it scores a hit and deals damage. On a roll of 10 or higher, the staff regains 1d6 of its expended charges.</p>
+		</description>
+		<setters>
+			<set name="category">Staffs</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="weapon">Quarterstaff</set>
+			<set name="type">Staff</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">3</set>
+			<set name="charges">6</set>
+		</setters>
+	</element>
+	<element name="Stonky’s ring" type="Magic Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_MAGIC_ITEM_STONKYS_RING">
+		<description>
+			<p>While wearing this ring, you can cast the telekinesis spell at will, but you can target only objects that aren’t being worn or carried.</p>
+			<p class="indent">Any character who attunes to the ring gains control of Stonky’s creations, though the skitterwidgets ignore commands spoken more than 30 feet away from them.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_TELEKINESIS" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">ring</set>
+			<set name="type">Ring</set>
+			<set name="rarity"></set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+	<element name="Watchful Helm" type="Magic Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_MAGIC_ITEM_WATCHFUL_HELM">
+		<description>
+			<p>While you wear this helm, you gain a +1 bonus to AC and remain aware of your surroundings even while you’re asleep, and you have advantage on Wisdom (Perception) checks that rely on sight.</p>
+			<p class="indent">As a bonus action, you can cast the see invisibility spell from the helm. Once this property of the helm is used, it can’t be used again until the next dawn.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_INVISIBILITY" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+			<set name="slot">head</set>
+		</setters>
+		<rules>
+			<stat name="ac:misc" value="1" />
+		</rules>
+	</element>	
+	<element name="Charm of the Mirage" type="Magic Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_MAGIC_ITEM_CHARM_OF_THE_MIRAGE">
+		<description>
+			<p>This charm allows you to cast the hallucinatory terrain spell (save DC 15) as an action. Once used, this charm vanishes from you.</p>
+			<div class="reference">
+				<div element="ID_PHB_SPELL_HALLUCINATORY_TERRAIN" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="type">Charm</set>
+			<set name="slot">gift</set>
+		</setters>
+	</element>
+	<element name="Charm of the Water Bearer" type="Magic Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_MAGIC_ITEM_CHARM_OF_THE_WATER_BEARER">
+		<description>
+			<p>This charm allows you to create up to 1 gallon of fresh water, which fills one or more empty containers in your possession. You can do this up to thrice per day for 10 days, after which this charm vanishes from you.</p>
+		</description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="type">Charm</set>
+			<set name="slot">gift</set>
+		</setters>
+	</element>
+	<element name="Jeweled Letter Opener" type="Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_ITEM_TREASURE_JEWELED_LETTER_OPENER">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">20</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+	<element name="Ivory Drinking Horn" type="Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_ITEM_TREASURE_IVORY_DRINKING_HORN">
+		<description>
+			<p>An ivory drinking horn with platinum filigree.</p>
+		</description>
+		<setters>
+			<set name="keywords">platinum,filigree</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">120</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+	<element name="Golden Medallion" type="Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_ITEM_TREASURE_GOLDEN_MEDALLION">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">125</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+	<element name="Book Collection" type="Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_ITEM_TREASURE_BOOK_COLLECTION_DEBASED_LITERATURE">
+		<description>
+			<p>A collection of debased literature, dark mythology, studies of aberrant magic, and mad treatises on elder gods.</p>
+		</description>
+		<setters>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+	<element name="Mechanical Owlbear Figurine" type="Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_ITEM_TREASURE_MECHANICAL_OWLBEAR_FIGURINE">
+		<description>
+			<p>A 4-inch-tall mechanical owlbear figurine.</p>
+		</description>
+		<setters>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">750</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+	<element name="Metal Gizmo" type="Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_ITEM_TREASURE_METAL_GIZMO">
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">250</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+	<element name="Gem-Encrusted Necklace" type="Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_ITEM_TREASURE_GEM_ENCRUSTED_NECKLACE">
+		<description>
+			<p>A golden, gem-encrusted necklace.</p>
+		</description>
+		<setters>
+			<set name="keywords">gold</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">2500</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+	<element name="Eye Patch" type="Item" source="Candlekeep Mysteries" id="ID_CM_WOTC_ITEM_TREASURE_EYE_PATCH">
+		<description>
+			<p>An eye patch set with a sapphire-and-moonstone eye.</p>
+		</description>
+		<setters>
+			<set name="keywords">sapphire,moonstone</set>
+			<set name="category">Treasure</set>
+			<set name="cost" currency="gp">2500</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+			<set name="valuable">true</set>
+		</setters>
+	</element>
+	<!-- <element name="Armor Proficiency (Serpent Scale Armor)" type="Proficiency" source="Candlekeep Mysteries" id="ID_CM_WOTC_PROFICIENCY_ARMOR_PROFICIENCY_SERPENT_SCALE_ARMOR">
+		<supports>Medium Armor, ID_INTERNAL_ARMOR_GROUP_MEDIUM</supports>
+	</element>
+	<append id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR">
+		<rules>
+			<grant type="Proficiency" id="ID_CM_WOTC_PROFICIENCY_ARMOR_PROFICIENCY_SERPENT_SCALE_ARMOR" />
+		</rules>
+	</append> -->
+</elements>

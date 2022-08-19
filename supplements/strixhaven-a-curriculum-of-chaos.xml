@@ -1,0 +1,1393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Strixhaven: A Curriculum of Chaos" type="Source" source="Core" id="ID_WOTC_SOURCE_STRIXHAVEN_A_CURRICULUM_OF_CHAOS">
+		<description>
+			<html>&lt;p&gt;&lt;strong&gt;Rollicking campus adventures for the world’s greatest roleplaying game.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The greatest minds in the multiverse meet at Strixhaven University. Professors convey fantastic secrets to eager students, and life on campus is frenetic. But danger lurks even here. Campus hijinks mix with mishaps and sinister plots, and it’s up to you to save the day.&lt;/p&gt;
+&lt;p&gt;Strixhaven: A Curriculum of Chaos introduces the fantastical setting of Strixhaven University, drawn from the multiverse of Magic: The Gathering, and provides rules for creating characters who are students in one of its five colleges. Characters can explore the setting over the course of four adventures, which can be played together or on their own. Each adventure describes an academic year filled with scholarly pursuits, campus shenanigans, exciting friendships, hidden dangers, and perhaps even romance.&lt;/p&gt;
+&lt;p&gt;This book includes a poster map that shows Strixhaven’s campuses on one side and location maps on the other.&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Through the book’s multiyear campaign, players begin as first-year students who study, socialize, and adventure their way to graduation.&lt;/li&gt;
+	&lt;li&gt;Experience D&amp;D in new ways through the academic challenges, extracurricular activities and jobs, and relationships explored on campus.&lt;/li&gt;
+	&lt;li&gt;Includes four adventures that can be played as stand-alones or woven together to create one campaign taking players from level 1 to level 10.&lt;/li&gt;
+	&lt;li&gt;Players can create characters using a new race presented in the book, an owlin, one of the owlfolk who study at the university.&lt;/li&gt;
+	&lt;li&gt;Adds new player character options including feats and backgrounds.&lt;/li&gt;
+	&lt;li&gt;Includes new spells and magic items that help your character feel connected to the college they choose to join.&lt;/li&gt;
+	&lt;li&gt;Encounter over forty magical, mysterious creatures and NPCs in the bestiary.&lt;/li&gt;
+	&lt;li&gt;Strixhaven can easily be dropped into any D&amp;D world or campaign with the provided rules for adventuring as a student of magic.&lt;/li&gt;
+&lt;/ul&gt;</html>
+		</description>
+		<setters>
+			<set name="abbreviation">SCOC</set>
+			<set name="image">https://media.wizards.com/2021/dnd/images/dnd_strixhaven_dndlive_th.png</set>
+			<set name="url">https://dnd.wizards.com/products/strixhaven-curriculum-chaos</set>
+			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+			<set name="release">20211207</set>
+			<set name="official">true</set>
+			<set name="supplement">true</set>
+		</setters>
+	</element>
+	<element name="Owlin" type="Race" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_RACE_OWLIN">
+		<description>
+			<html>&lt;p&gt;Distant kin of giant owls from the Feywild, owlin come in many shapes and sizes, from petite and fluffy to wide-winged and majestic. Owlin have arms and legs like other Humanoids, as well as wings that extend from their back and shoulders.&lt;/p&gt;
+&lt;p class="indent"&gt;Like owls, owlin are graced with feathers that make no sound when they move or fly, making it easy for them to sneak up on you in the library. Your owlin character might be nocturnal. Or perhaps your character is simply prone to rise later, embodying the common nickname of night owl.&lt;/p&gt;
+&lt;h4&gt;OWLIN TRAITS&lt;/h4&gt;
+&lt;p&gt;You have the following racial traits.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Ability Score Increases.&lt;/em&gt;&lt;/strong&gt; When determining your character’s ability scores, increase one of those scores by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Languages.&lt;/em&gt;&lt;/strong&gt; Your character can speak, read, and write Common and one other language that you and your DM agree is appropriate for the character. The Player’s Handbook offers a list of widespread languages to choose from. The DM is free to add or remove languages from that list for a particular campaign.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Creature Type.&lt;/em&gt;&lt;/strong&gt; You are a Humanoid.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Size.&lt;/em&gt;&lt;/strong&gt; You are Medium or Small. You choose the size when you select this race.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Speed.&lt;/em&gt;&lt;/strong&gt; Your walking speed is 30 feet.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Darkvision.&lt;/em&gt;&lt;/strong&gt; You can see in dim light within 120 feet of yourself as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Flight.&lt;/em&gt;&lt;/strong&gt; Thanks to your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Silent Feathers.&lt;/em&gt;&lt;/strong&gt; You have proficiency in the Stealth skill.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_HUMANOID" />
+			<select type="Racial Trait" name="Size, Owlin" supports="CORE_LINEAGE_SIZE,(SMALL||MEDIUM)" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Racial Trait" id="ID_WOTC_SCOC_RACIAL_TRAIT_OWLIN_DARKVISION" />
+			<grant type="Racial Trait" id="ID_WOTC_SCOC_RACIAL_TRAIT_OWLIN_FLIGHT" />
+			<grant type="Racial Trait" id="ID_WOTC_SCOC_RACIAL_TRAIT_OWLIN_SILENT_FEATHERS" />
+		</rules>
+	</element>
+	<element name="Darkvision" type="Racial Trait" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_RACIAL_TRAIT_OWLIN_DARKVISION">
+		<meta>
+			<parent>Owlin</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You can see in dim light within 120 feet of yourself as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false">
+			<description>You can see in dim light within 120 feet of yourself as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<stat name="darkvision:range" value="120" bonus="base" />
+		</rules>
+	</element>
+	<element name="Flight" type="Racial Trait" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_RACIAL_TRAIT_OWLIN_FLIGHT">
+		<meta>
+			<parent>Owlin</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Thanks to your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Thanks to your wings, you have a {{speed}} flying speed. You can't use this flying speed if you're wearing medium or heavy armor.</description>
+		</sheet>
+		<rules>
+			<stat name="speed:fly" value="speed" bonus="base" equipped="![armor:medium],![armor:heavy]" />
+		</rules>
+	</element>
+	<element name="Silent Feathers" type="Racial Trait" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_RACIAL_TRAIT_OWLIN_SILENT_FEATHERS">
+		<meta>
+			<parent>Owlin</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You have proficiency in the Stealth skill.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Stealth skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+		</rules>
+	</element>
+	<element name="Lorehold Student" type="Background" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_BACKGROUND_LOREHOLD_STUDENT">
+		<description>
+			<html>&lt;p&gt;You have spent your youth preparing to be a student of Lorehold College, reading every book on the college's recommended reading list for prospective students. Your academic passions are in the broad field of history. You might dream of using magic to contact great historical figures or your own ancestors or of recreating the mighty magic of a distant age.&lt;/p&gt;
+&lt;ul class="unstyled mb"&gt;
+	&lt;li&gt;&lt;strong&gt;Skill Proficiencies:&lt;/strong&gt; History, Religion&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Two of your choice&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Equipment:&lt;/strong&gt; A bottle of black ink, an ink pen, a hammer, a hooded lantern, a tinderbox, a tome of history, a school uniform, and a pouch containing 15 gp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div element="ID_WOTC_SCOC_BACKGROUND_FEATURE_LOREHOLD_INITIATE" /&gt;
+&lt;h5&gt;BUILDING A LOREHOLD CHARACTER&lt;/h5&gt;
+&lt;p&gt;Any class or subclass that deals with knowledge of the past can be a good fit in Lorehold. Bards thrive in Lorehold, and wizards (particularly those of the School of Divination) are numerous among its students. Clerics (often with the Knowledge or Light domains) are also quite common.&lt;/p&gt;
+&lt;p class="indent"&gt;For a more unusual take on a Lorehold student, you could consider playing a barbarian with a primal connection to the past (perhaps adopting the Path of the Ancestral Guardian from Xanathar's Guide to Everything) or a paladin whose Oath of the Ancients gives a concrete link to history.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Suggested Characteristics.&lt;/em&gt;&lt;/strong&gt; Methodical historians and daring adventurers alike can be found among the ranks of Lorehold college. The Lorehold Personality Traits table suggests a variety of traits you might adopt for your character.&lt;/p&gt;
+&lt;h5 class="caption"&gt;LOREHOLD PERSONALITY TRAITS&lt;/h5&gt;
+&lt;table&gt;
+	&lt;thead&gt;&lt;tr&gt;&lt;td class="center col-5"&gt;&lt;strong&gt;d6&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Personality Traits&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;1&lt;/td&gt;&lt;td&gt;I thrive on esoteric lore. The more obscure the historical references I can include in everyday conversation, the better. &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;2&lt;/td&gt;&lt;td&gt;By searching for these lost artifacts, I hope to find who I really am along the way. &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;3&lt;/td&gt;&lt;td&gt;I can barely go a minute without talking about my research. I have so much knowledge in my head, and it needs to be let out somewhere!&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;4&lt;/td&gt;&lt;td&gt;The spirits of the dead are so much more interesting to talk with than living classmates. &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;5&lt;/td&gt;&lt;td&gt;I can speak eloquently about the historical ramifications of an ancient war. But ask me to add two-digit numbers together, and I'm a mess.&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;6&lt;/td&gt;&lt;td&gt;In the end, it's all just entropy. Everything falls apart someday. &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Lorehold Trinkets.&lt;/em&gt;&lt;/strong&gt; When you make your character, you may roll once on the Lorehold Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket.&lt;/p&gt;
+&lt;h5 class="caption"&gt;LOREHOLD TRINKETS&lt;/h5&gt;
+&lt;table&gt;
+	&lt;thead&gt;&lt;tr&gt;&lt;td class="center col-5"&gt;&lt;strong&gt;d6&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Trinket&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;1&lt;/td&gt;&lt;td&gt;A map made of concentric circles that can be rotated around the page&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;2&lt;/td&gt;&lt;td&gt;A puzzle box bedecked with amber&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;3&lt;/td&gt;&lt;td&gt;A dented brass compass with a red needle!&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;4&lt;/td&gt;&lt;td&gt;The head of a broken statue that houses the consciousness of a snarky sage&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;5&lt;/td&gt;&lt;td&gt;A sheet of parchment embossed with tactile lettering, glowing red.&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;6&lt;/td&gt;&lt;td&gt;A broken dagger with a wavy blade and a serpentine hilt&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="short">History, Religion / 2 Languages / Strixhaven Initiate feat</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
+			<select type="Language" name="Language, Lorehold Student" supports="Standard||Exotic" number="2" />
+			<grant type="Background Feature" id="ID_WOTC_SCOC_BACKGROUND_FEATURE_LOREHOLD_INITIATE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Variant" name="Variant Lorehold Student" supports="Background Variant Lorehold Student" optional="true" />
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">I thrive on esoteric lore. The more obscure the historical references I can include in everyday conversation, the better.</item>
+				<item id="2">By searching for these lost artifacts, I hope to find who I really am along the way.</item>
+				<item id="3">I can barely go a minute without talking about my research. I have so much knowledge in my head, and it needs to be let out somewhere!</item>
+				<item id="4">The spirits of the dead are so much more interesting to talk with than living classmates.</item>
+				<item id="5">I can speak eloquently about the historical ramifications of an ancient war. But ask me to add two-digit numbers together, and I'm a mess.</item>
+				<item id="6">In the end, it's all just entropy. Everything falls apart someday.</item>
+			</select>
+		</rules>
+	</element>
+	<element name="Feature: Lorehold Initiate" type="Background Feature" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_BACKGROUND_FEATURE_LOREHOLD_INITIATE">
+		<meta>
+			<parent>Lorehold Student</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You gain the Strixhaven Initiate feat and must choose Lorehold within it.&lt;/p&gt;
+&lt;p class="indent"&gt;In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Lorehold Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)&lt;/p&gt;
+&lt;h5 class="caption"&gt;LOREHOLD SPELLS&lt;/h5&gt;
+&lt;table&gt;
+	&lt;thead&gt;&lt;tr&gt;&lt;td class="center col-15"&gt;&lt;strong&gt;Spell Level&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Spells&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;1st&lt;/td&gt;&lt;td&gt;&lt;em&gt;Comprehend Languages, Identify&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;2nd&lt;/td&gt;&lt;td&gt;&lt;em&gt;Borrowed Knowledge, Locate Object&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;3rd&lt;/td&gt;&lt;td&gt;&lt;em&gt;Speak with Dead, Spirit Guardians&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;4th&lt;/td&gt;&lt;td&gt;&lt;em&gt;Arcane Eye, Stone Shape&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;5th&lt;/td&gt;&lt;td&gt;&lt;em&gt;Flame Strike, Legend Lore&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p class="indent"&gt;Consider customizing how your spells look when you cast them. Your Lorehold spells might create displays of golden light. You might use a tome or a scroll as a spellcasting focus, and your spell effects might reflect the appearance of the reference books you study.&lt;/p&gt;</html>
+		</description>
+		<sheet alt="Lorehold Initiate">
+			<description>You gain the Strixhaven Initiate feat and must choose Lorehold within it. 
+In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Lorehold Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.) 
+Consider customizing how your spells look when you cast them. Your Lorehold spells might create displays of golden light. You might use a tome or a scroll as a spellcasting focus, and your spell effects might reflect the appearance of the reference books you study.</description>
+		</sheet>
+		<rules>
+			<grant type="Feat" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE" />
+		</rules>
+		<spellcasting all="true" extend="true">
+			<extend>ID_PHB_SPELL_COMPREHEND_LANGUAGES</extend>
+			<extend>ID_PHB_SPELL_IDENTIFY</extend>
+			<extend>ID_WOTC_SCOC_SPELL_BORROWED_KNOWLEDGE</extend>
+			<extend>ID_PHB_SPELL_LOCATE_OBJECT</extend>
+			<extend>ID_PHB_SPELL_SPEAK_WITH_DEAD</extend>
+			<extend>ID_PHB_SPELL_SPIRIT_GUARDIANS</extend>
+			<extend>ID_PHB_SPELL_ARCANE_EYE</extend>
+			<extend>ID_PHB_SPELL_STONE_SHAPE</extend>
+			<extend>ID_PHB_SPELL_FLAME_STRIKE</extend>
+			<extend>ID_PHB_SPELL_LEGEND_LORE</extend>
+		</spellcasting>
+	</element>
+	<element name="Prismari Student" type="Background" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_BACKGROUND_PRISMARI_STUDENT">
+		<description>
+			<html>&lt;p&gt;You are an artist, and you have been preparing to hone your craft according to the traditions of Prismari College. Whatever your medium-sculpture, dance, paint, music, drama, architecture, or any other field-you have grand visions of bringing your art to life in a fusion of magic and creativity.&lt;/p&gt;
+&lt;ul class="unstyled mb"&gt;
+	&lt;li&gt;&lt;strong&gt;Skill Proficiencies:&lt;/strong&gt; Acrobatics, Performance&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tool Proficiencies:&lt;/strong&gt; One type of musical instrument or artisan's tools&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt; One of your choice&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Equipment:&lt;/strong&gt; A bottle of black Ink, an ink pen, a set of artisan's tools or a musical instrument (one of your choice), a school uniform, and a pouch containing 10g&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div element="ID_WOTC_SCOC_BACKGROUND_FEATURE_PRISMARI_INITIATE" /&gt;
+&lt;h5&gt;BUILDING A PRISMARI CHARACTER&lt;/h5&gt;
+&lt;p&gt;Any class or subclass that wields elemental forces of cold, fire, lightning, and wind can be a good fit in Prismari. Druids and sorcerers are common in Prismari, and wizards who study the Schools of Evocation or Transmutation are also well represented. Clerics aren't very common in this school, but some with the Tempest domain end up here.&lt;/p&gt;
+&lt;p class="indent"&gt;Beyond the ranks of traditional spellcasters, Lorehold students also include monks who follow the Way of the Four Elements. Some acrobatic rogues and fighters 
+(including those who emulate the archetype of the Eldritch Knight) also delight in the athleticism of Prismari performance.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Suggested Characteristics.&lt;/em&gt;&lt;/strong&gt; Though the curriculum of Prismari College attracts many outgoing and driven artists, the school has no shortage of shy scholars and lackadaisical blowhards among its ranks. The Prismari Personality Traits table suggests a variety of traits you might adopt for your character.&lt;/p&gt;
+&lt;h5 class="caption"&gt;PRISMARI PERSONALITY TRAITS&lt;/h5&gt;
+&lt;table&gt;
+	&lt;thead&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;d6&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Personality Traits&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;
+	&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;I'm the life of the party, and I expect everyone's attention when I walk into a room. &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;Two weeks ago, I was enthralled with my latest project. Now, I think it's garbage and deserves to be destroyed. &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;I believe everyone has the ability to express their truest selves through art, and I'm happy to quietly push them in the right direction.&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;Everyone is a critic, and I work to win them all over. &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;I'm beset with such an overwhelming sense of ennui regarding my art. Nothing quite captures my attention anymore. &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;Instead of confronting my negative emotions, I channel them into explosive artistic displays. &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Prismari Trinkets.&lt;/em&gt;&lt;/strong&gt; When you make your character, you may roll once on the Prismari Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket.&lt;/p&gt;
+&lt;h5 class="caption"&gt;PRISMARI TRINKETS&lt;/h5&gt;
+&lt;table&gt;
+	&lt;thead&gt;&lt;tr&gt;&lt;td class="center col-5"&gt;&lt;strong&gt;d6&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Trinket&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;1&lt;/td&gt;&lt;td&gt;A map made of concentric circles that can be rotated around the page&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;2&lt;/td&gt;&lt;td&gt;A puzzle box bedecked with amber&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;3&lt;/td&gt;&lt;td&gt;A dented brass compass with a red needle!&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;4&lt;/td&gt;&lt;td&gt;The head of a broken statue that houses the consciousness of a snarky sage&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;5&lt;/td&gt;&lt;td&gt;A sheet of parchment embossed with tactile lettering, glowing red.&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;6&lt;/td&gt;&lt;td&gt;A broken dagger with a wavy blade and a serpentine hilt&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="short">Acrobatics, Performance / Musical Instrument or Artisan Tool / Language / Strixhaven Initiate feat</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+			<select type="Proficiency" name="Musical Instruction or Artisan's Tool, Prismari Student" supports="Musical Instrument||Artisan tools" />
+			<select type="Language" name="Language, Prismari Student" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_WOTC_SCOC_BACKGROUND_FEATURE_PRISMARI_INITIATE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Variant" name="Variant Prismari Student" supports="Background Variant Prismari Student" optional="true" />
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">I'm the life of the party, and I expect everyone's attention when I walk into a room.</item>
+				<item id="2">Two weeks ago, I was enthralled with my latest project. Now, I think it's garbage and deserves to be destroyed.</item>
+				<item id="3">I believe everyone has the ability to express their truest selves through art, and I'm happy to quietly push them in the right direction.</item>
+				<item id="4">Everyone is a critic, and I work to win them all over.</item>
+				<item id="5">I'm beset with such an overwhelming sense of ennui regarding my art. Nothing quite captures my attention anymore.</item>
+				<item id="6">Instead of confronting my negative emotions, I channel them into explosive artistic displays.</item>
+			</select>
+		</rules>
+	</element>
+	<element name="Feature: Prismari Initiate" type="Background Feature" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_BACKGROUND_FEATURE_PRISMARI_INITIATE">
+		<meta>
+			<parent>Prismari Student</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You gain the Strixhaven Initiate feat and must choose Prismari within it.&lt;/p&gt;
+&lt;p class="indent"&gt;In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Prismari Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)&lt;/p&gt;
+&lt;h5 class="caption"&gt;PRISMARI SPELLS&lt;/h5&gt;
+&lt;table&gt;
+	&lt;thead&gt;&lt;tr&gt;&lt;td class="center col-15"&gt;&lt;strong&gt;Spell Level&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Spells&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;1st&lt;/td&gt;&lt;td&gt;&lt;em&gt;Chromatic Orb, Thunderwave &lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;2nd&lt;/td&gt;&lt;td&gt;&lt;em&gt;Flaming Sphere, Kinetic Jaunt&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;3rd&lt;/td&gt;&lt;td&gt;&lt;em&gt;Haste, Water Walk&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;4th&lt;/td&gt;&lt;td&gt;&lt;em&gt;Freedom of Movement, Wall of Fire &lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;5th&lt;/td&gt;&lt;td&gt;&lt;em&gt;Cone of Cold, Conjure Elemental &lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p class="indent"&gt;Consider customizing how your spells look when you cast them. You might wield your Prismari spells with dynamic, gestural movement-as much dance as somatic component. Even a blast of fire in your hands is a sculpted work of art; elemental forces make grand designs as you hurl spells. These forces might linger on your body or in your clothes as decorative elements after your spells are dissipated, as sparks dance in your hair and your touch leaves tracings of frost on whatever you touch.&lt;/p&gt;</html>
+		</description>
+		<sheet alt="Prismari Initiate">
+			<description>You gain the Strixhaven Initiate feat and must choose Prismari within it. 
+In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Prismari Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.) 
+Consider customizing how your spells look when you cast them. You might wield your Prismari spells with dynamic, gestural movement-as much dance as somatic component. Even a blast of fire in your hands is a sculpted work of art; elemental forces make grand designs as you hurl spells. These forces might linger on your body or in your clothes as decorative elements after your spells are dissipated, as sparks dance in your hair and your touch leaves tracings of frost on whatever you touch.</description>
+		</sheet>
+		<rules>
+			<grant type="Feat" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE" />
+		</rules>
+		<spellcasting all="true" extend="true">
+			<extend>ID_PHB_SPELL_CHROMATIC_ORB</extend>
+			<extend>ID_PHB_SPELL_THUNDERWAVE</extend>
+			<extend>ID_PHB_SPELL_FLAMING_SPHERE</extend>
+			<extend>ID_WOTC_SCOC_SPELL_KINETIC_JAUNT</extend>
+			<extend>ID_PHB_SPELL_HASTE</extend>
+			<extend>ID_PHB_SPELL_WATER_WALK</extend>
+			<extend>ID_PHB_SPELL_FREEDOM_OF_MOVEMENT</extend>
+			<extend>ID_PHB_SPELL_WALL_OF_FIRE</extend>
+			<extend>ID_PHB_SPELL_CONE_OF_COLD</extend>
+			<extend>ID_PHB_SPELL_CONJURE_ELEMENTAL</extend>
+		</spellcasting>
+	</element>
+	<element name="Quandrix Student" type="Background" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_BACKGROUND_QUANDRIX_STUDENT">
+		<description>
+			<html>&lt;p&gt;In preparation to become a student of Quandrix College. you have spent years working through the college's math problems for prospective students. Your interests concentrate on the mathematical principles and patterns found in the natural world. You might lean more toward mathematics or physics. or you delve into more abstract studies of metaphysics. arcana, or logic.&lt;/p&gt;
+&lt;ul class="unstyled mb"&gt;
+	&lt;li&gt;&lt;strong&gt;Skill Proficiencies:&lt;/strong&gt; Arcana, Nature&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tool Proficiencies:&lt;/strong&gt; One type of artisan's tools &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt; One of your choice&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Equipment:&lt;/strong&gt; A bottle of black ink, an ink pen, an abacus. a book of arcane theory. a school uniform, and a pouch containing 15 gp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div element="ID_WOTC_SCOC_BACKGROUND_FEATURE_QUANDRIX_INITIATE" /&gt;
+&lt;h5&gt;BUILDING A QUANDRIX CHARACTER&lt;/h5&gt;
+&lt;p&gt;Any spellcasting class or subclass can work well for a Quandrix character. Both the scholarly focus of wizards (especially those who study the Schools of Abjuration, Illusion, or Transmutation) and the metamagic manipulations of sorcerers are welcome in Quandrix, and many druids explore the patterns of nature in Quandrix as well. A few clerics, particularly those with the Knowledge or Nature domains, study in Quandrix as well.&lt;/p&gt;
+&lt;p class="indent"&gt;Aside from traditional spellcasters, a few characters of other classes find homes in Quandrix. Some fighters, monks, rangers, and rogues study here, using Quandrix principles to train their minds.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Suggested Characteristics.&lt;/em&gt;&lt;/strong&gt; With subjects ranging from the physical and tangible to the paradoxical and strange, the student body of Quandrix College includes an eclectic mix of individuals. The Quandrix Personality Traits table suggests a variety of traits you might adopt for your character.&lt;/p&gt;
+&lt;h5 class="caption"&gt;QUANDRIX PERSONALITY TRAITS&lt;/h5&gt;
+&lt;table&gt;
+	&lt;thead&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;d6&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Personality Traits&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;
+	&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;When I find a subject I'm interested in, I won't stop studying until I know everything about it. It keeps me up at night.&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;I hope this all makes sense to me one day. Until then, I'm going to keep faking it. &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;Equations and patterns come naturally to my mind. I wish friendship came just as easily. &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;I believe I'm always the smartest person in the room. And I'll prove it, even if no one asks me to. &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;If these classes have taught me anything, it's that reality is a lie, and nothing matters. So why bother? &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;Before I graduate, I want to achieve something mathematically impossible. I must leave a legacy! &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Prismari Trinkets.&lt;/em&gt;&lt;/strong&gt; When you make your character, you may roll once on the Prismari Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket.&lt;/p&gt;
+&lt;h5 class="caption"&gt;QUANDRIX TRINKETS&lt;/h5&gt;
+&lt;table&gt;
+	&lt;thead&gt;&lt;tr&gt;&lt;td class="center col-5"&gt;&lt;strong&gt;d6&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Trinket&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;1&lt;/td&gt;&lt;td&gt;A small succulent in a dodecahedral clay pot&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;2&lt;/td&gt;&lt;td&gt;A blue knit hat that looks a bit like a bottle folding in on itself&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;3&lt;/td&gt;&lt;td&gt;A model hypercube carved from green crystal, showcasing the fourth dimension&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;4&lt;/td&gt;&lt;td&gt;A crumpled test on the theory of gravity manipulation, with a failing grade on the front and the name of a famous Quandrix professor&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;5&lt;/td&gt;&lt;td&gt;A blue tetrahedron that, when tapped twice, projects a recording of an old mathematics lecture&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;6&lt;/td&gt;&lt;td&gt;A round bread roll cut so that someone could spread bulter on both halves without ever lifting the knife&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="short">Arcana, Nature / Artisan Tool / Language / Strixhaven Initiate feat</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ARCANA" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
+			<select type="Proficiency" name="Artisan’s Tool, Quandrix Student " supports="Tool" />
+			<select type="Language" name="Language, Quandrix Student " supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_WOTC_SCOC_BACKGROUND_FEATURE_QUANDRIX_INITIATE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Variant" name="Variant Quandrix Student" supports="Background Variant Quandrix Student" optional="true" />
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">When I find a subject I'm interested in, I won't stop studying until I know everything about it. It keeps me up at night.</item>
+				<item id="2">I hope this all makes sense to me one day. Until then, I'm going to keep faking it.</item>
+				<item id="3">Equations and patterns come naturally to my mind. I wish friendship came just as easily.</item>
+				<item id="4">I believe I'm always the smartest person in the room. And I'll prove it, even if no one asks me to.</item>
+				<item id="5">If these classes have taught me anything, it's that reality is a lie, and nothing matters. So why bother?</item>
+				<item id="6">Before I graduate, I want to achieve something mathematically impossible. I must leave a legacy!</item>
+			</select>
+		</rules>
+	</element>
+	<element name="Feature: Quandrix Initiate" type="Background Feature" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_BACKGROUND_FEATURE_QUANDRIX_INITIATE">
+		<meta>
+			<parent>Quandrix Student </parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You gain the Strixhaven Initiate feat and must choose Quandrix within it.&lt;/p&gt;
+&lt;p class="indent"&gt;In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Quandrix Spells table are added to the spell list of your spellcasting class. {If you are a multiclass character with multiple spell lists, these spells are added to all of them.)&lt;/p&gt;
+&lt;h5 class="caption"&gt;QUANDRIX SPELLS&lt;/h5&gt;
+&lt;table&gt;
+	&lt;thead&gt;&lt;tr&gt;&lt;td class="center col-15"&gt;&lt;strong&gt;Spell Level&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Spells&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;1st&lt;/td&gt;&lt;td&gt;&lt;em&gt;Entangle, Guiding Bolt&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;2nd&lt;/td&gt;&lt;td&gt;&lt;em&gt;Enlarge/Reduce, Vortex Warp&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;3rd&lt;/td&gt;&lt;td&gt;&lt;em&gt;Aura of Vitality, Haste&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;4th&lt;/td&gt;&lt;td&gt;&lt;em&gt;Control Water, Freedom of Movement&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;5th&lt;/td&gt;&lt;td&gt;&lt;em&gt;Circle of Power, Passwall&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p class="indent"&gt;Consider customizing how your spells look when you cast them. Your Quandrix spells might manifest amid kaleidoscopic swirls of fractal patterns, amplifying the tiniest movements of your somatic components. When your magic creates or alters creatures, it might briefly surround the targets with shimmering fractal designs or tessellated patterns.&lt;/p&gt;</html>
+		</description>
+		<sheet alt="Quandrix Initiate">
+			<description>You gain the Strixhaven Initiate feat and must choose Quandrix within it. 
+In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Quandrix Spells table are added to the spell list of your spellcasting class. {If you are a multiclass character with multiple spell lists, these spells are added to all of them.) 
+Consider customizing how your spells look when you cast them. Your Quandrix spells might manifest amid kaleidoscopic swirls of fractal patterns, amplifying the tiniest movements of your somatic components. When your magic creates or alters creatures, it might briefly surround the targets with shimmering fractal designs or tessellated patterns.</description>
+		</sheet>
+		<rules>
+			<grant type="Feat" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE" />
+		</rules>
+		<spellcasting all="true" extend="true">
+			<extend>ID_PHB_SPELL_ENTANGLE</extend>
+			<extend>ID_PHB_SPELL_GUIDING_BOLT</extend>
+			<extend>ID_PHB_SPELL_ENLARGE_REDUCE</extend>
+			<extend>ID_WOTC_SCOC_SPELL_VORTEX_WARP</extend>
+			<extend>ID_PHB_SPELL_AURA_OF_VITALITY</extend>
+			<extend>ID_PHB_SPELL_HASTE</extend>
+			<extend>ID_PHB_SPELL_CONTROL_WATER</extend>
+			<extend>ID_PHB_SPELL_FREEDOM_OF_MOVEMENT</extend>
+			<extend>ID_PHB_SPELL_CIRCLE_OF_POWER</extend>
+			<extend>ID_PHB_SPELL_PASSWALL</extend>
+		</spellcasting>
+	</element>
+	<element name="Silverquill Student" type="Background" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_BACKGROUND_SILVERQUILL_STUDENT">
+		<description>
+			<html>&lt;p&gt;You have spent years practicing your writing and oration in the hope of becoming a student of Silverquill College. Your studies focus on language, literature, and the power of words, both magical and otherwise. The metaphorical power of words to illuminate or conceal is joined with the literal ability of magic to do the same in your academic pursuits.&lt;/p&gt;
+&lt;ul class="unstyled mb"&gt;
+	&lt;li&gt;&lt;strong&gt;Skill Proficiencies:&lt;/strong&gt; Intimidation, Persuasion &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Two of your choice&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Equipment:&lt;/strong&gt; A bottle of black ink, an ink pen, a book of poetry, a school uniform, and a pouch containing 15 gp &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div element="ID_WOTC_SCOC_BACKGROUND_FEATURE_SILVERQUILL_INITIATE" /&gt;
+&lt;h5&gt;BUILDING A SILVERQUILL CHARACTER&lt;/h5&gt;
+&lt;p&gt;Many bards find a home in Silverquill, putting the power of their voices to use with Silverquill magic. Wizards (especially those who study the Schools of Illusion and Enchantment) are common in Silverquill, as are warlocks. Clerics with the Divine Domains of Light and Trickery also fit in well among the mages of Silverquill.&lt;/p&gt;
+&lt;p class="indent"&gt;A number of both paladins and rogues attend Silverquill College as well, highlighting the diversity of the student body.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Suggested Characteristics.&lt;/em&gt;&lt;/strong&gt; With the college's intense standards looming over them, Silverquill students range from cocky and cutthroat to overwhelmed perfectionists. The Silverquill Personality Traits table suggests a variety of traits you might adopt for your character.&lt;/p&gt;
+&lt;h5 class="caption"&gt;SILVERQUILL PERSONALITY TRAITS&lt;/h5&gt;
+&lt;table&gt;
+	&lt;thead&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;d6&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Personality Traits&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;
+	&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;I'll say whatever I need to in order to maintain my high social status. &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;I prefer saying the blunt truth over a pretty lie, and I don't particularly care whose feelings I hurt. &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;I believe that uplifting my peers is the best way to succeed. &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;I've mastered the art of using humor as a defense, and I always have a charming joke ready. &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;I always wait before speaking, analyzing the situation for whichever angle is most advantageous to my goals. &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;No one knows about the all-nighters I've pulled to keep my magic looking effortless, and I'm going to keep it that way. &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Prismari Trinkets.&lt;/em&gt;&lt;/strong&gt; When you make your character, you may roll once on the Prismari Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket.&lt;/p&gt;
+&lt;h5 class="caption"&gt;SILVERQUILL TRINKETS&lt;/h5&gt;
+&lt;table&gt;
+	&lt;thead&gt;&lt;tr&gt;&lt;td class="center col-5"&gt;&lt;strong&gt;d6&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Trinket&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;1&lt;/td&gt;&lt;td&gt;A black leather notebook filled with half-finished poems&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;2&lt;/td&gt;&lt;td&gt;A set of flashcards detailing different colloquialisms and their meanings&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;3&lt;/td&gt;&lt;td&gt;A canteen that makes any liquid drunk from it taste sweet&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;4&lt;/td&gt;&lt;td&gt;A forged permission slip granting access to the special archives of Strixhaven's libraries&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;5&lt;/td&gt;&lt;td&gt;A stylish silver pin that references a famous series of novels about warlocks&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;6&lt;/td&gt;&lt;td&gt;A stack of small pieces of parchment, each enchanted to stick to whatever surface it's pressed against and peel off easily&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="short">Intimidation, Persuasion  / 2 Languages / Strixhaven Initiate feat</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+			<select type="Language" name="Language, Silverquill Student" supports="Standard||Exotic" number="2" />
+			<grant type="Background Feature" id="ID_WOTC_SCOC_BACKGROUND_FEATURE_SILVERQUILL_INITIATE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Variant" name="Variant Silverquill Student" supports="Background Variant Silverquill Student" optional="true" />
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">I'll say whatever I need to in order to maintain my high social status.</item>
+				<item id="2">I prefer saying the blunt truth over a pretty lie, and I don't particularly care whose feelings I hurt.</item>
+				<item id="3">I believe that uplifting my peers is the best way to succeed.</item>
+				<item id="4">I've mastered the art of using humor as a defense, and I always have a charming joke ready.</item>
+				<item id="5">I always wait before speaking, analyzing the situation for whichever angle is most advantageous to my goals.</item>
+				<item id="6">No one knows about the all-nighters I've pulled to keep my magic looking effortless, and I'm going to keep it that way.</item>
+			</select>
+		</rules>
+	</element>
+	<element name="Feature: Silverquill Initiate" type="Background Feature" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_BACKGROUND_FEATURE_SILVERQUILL_INITIATE">
+		<meta>
+			<parent>Silverquill Student</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You gain the Strixhaven Initiate feat and must choose Silverquill within it.&lt;/p&gt;
+&lt;p class="indent"&gt;In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Silverquill Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)&lt;/p&gt;
+&lt;h5 class="caption"&gt;SILVERQUILL SPELLS&lt;/h5&gt;
+&lt;table&gt;
+	&lt;thead&gt;&lt;tr&gt;&lt;td class="center col-15"&gt;&lt;strong&gt;Spell Level&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Spells&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;1st&lt;/td&gt;&lt;td&gt;&lt;em&gt;Dissonant Whispers, Silvery Barbs&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;2nd&lt;/td&gt;&lt;td&gt;&lt;em&gt;Calm Emotions, Darkness&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;3rd&lt;/td&gt;&lt;td&gt;&lt;em&gt;Beacon of Hope, Daylight&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;4th&lt;/td&gt;&lt;td&gt;&lt;em&gt;Compulsion, Confusion&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;5th&lt;/td&gt;&lt;td&gt;&lt;em&gt;Dominate Person, Rary’s Telepathic Bond&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p class="indent"&gt;Consider customizing how your spells look when you cast them. Your Silverquill spells might be accompanied by visual effects resembling splotches of ink or radiating ripples of golden light. Any auditory effects of your spells often sound like amplified echoes of your own voice speaking the spells' verbal components-even amid the crash of lightning or a fiery eruption.&lt;/p&gt;</html>
+		</description>
+		<sheet alt="Silverquill Initiate">
+			<description>You gain the Strixhaven Initiate feat and must choose Silverquill within it. 
+In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Silverquill Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.) 
+Consider customizing how your spells look when you cast them. Your Silverquill spells might be accompanied by visual effects resembling splotches of ink or radiating ripples of golden light. Any auditory effects of your spells often sound like amplified echoes of your own voice speaking the spells' verbal components-even amid the crash of lightning or a fiery eruption.</description>
+		</sheet>
+		<rules>
+			<grant type="Feat" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE" />
+		</rules>
+		<spellcasting all="true" extend="true">
+			<extend>ID_PHB_SPELL_DISSONANT_WHISPERS</extend>
+			<extend>ID_WOTC_SCOC_SPELL_SILVERY_BARBS</extend>
+			<extend>ID_PHB_SPELL_CALM_EMOTIONS</extend>
+			<extend>ID_PHB_SPELL_DARKNESS</extend>
+			<extend>ID_PHB_SPELL_BEACON_OF_HOPE</extend>
+			<extend>ID_PHB_SPELL_DAYLIGHT</extend>
+			<extend>ID_PHB_SPELL_COMPULSION</extend>
+			<extend>ID_PHB_SPELL_CONFUSION</extend>
+			<extend>ID_PHB_SPELL_DOMINATE_PERSON</extend>
+			<extend>ID_PHB_SPELL_RARYS_TELEPATHIC_BOND</extend>
+		</spellcasting>
+	</element>
+	<element name="Witherbloom Student" type="Background" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_BACKGROUND_WITHERBLOOM_STUDENT">
+		<description>
+			<html>&lt;p&gt;You filled your childhood with rudimentary alchemical experiments, all in the hope of becoming a student of Witherbloom College. The life sciences are the focus of your reading, which include biology and necromancy. Brewing strange concoctions with medicinal properties, exploring the anatomies of monsters, and cataloging swamp flora are the kinds of studies you might pursue at Witherbloom College.&lt;/p&gt;
+&lt;ul class="unstyled mb"&gt;
+	&lt;li&gt;&lt;strong&gt;Skill Proficiencies:&lt;/strong&gt; Nature, Survival &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tool Proficiencies:&lt;/strong&gt; Herbalism kit &lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt; One of your choice&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Equipment:&lt;/strong&gt; A bottle of black ink, an ink pen, a book about plant identification, an iron pot, an herbalism kit, a school uniform, and a pouch containing 15 gp &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div element="ID_WOTC_SCOC_BACKGROUND_FEATURE_WITHERBLOOM_INITIATE" /&gt;
+&lt;h5&gt;BUILDING A WITHERBLOOM CHARACTER&lt;/h5&gt;
+&lt;p&gt;Druids and warlocks make up most of Witherbloom's student body. A few wizards (mostly those who study the School of Necromancy) and clerics (including those with the Divine Domains of Life or Nature) also find their home in Witherbloom.&lt;/p&gt;
+&lt;p class="indent"&gt;A number of rangers and barbarians study at Witherbloom as well, and some rogues learn how to create and use poisons during their studies at this college.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Suggested Characteristics.&lt;/em&gt;&lt;/strong&gt; Students of Witherbloom College are equally likely to be found picking herbs for a healing tincture or riding zombified swamp beasts through the bayou. The Witherbloom Personality Traits table suggests a variety of traits you might adopt for your character.&lt;/p&gt;
+&lt;h5 class="caption"&gt;WITHERBLOOM PERSONALITY TRAITS&lt;/h5&gt;
+&lt;table&gt;
+	&lt;thead&gt;&lt;tr&gt;&lt;td&gt;&lt;strong&gt;d6&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Personality Traits&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;
+	&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;I love brewing up a new recipe, even if some might be repulsed by my choice of ingredients. Or the final product. Or both.&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;My fashion sense is like my garden: withered, black, and weird. &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;I'm going to befriend every single monster in this swamp if it's the last thing I do. &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;Everything in this world dies eventually. The question is, what will you do with the time you have left? &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;I know we just met, but when you die, may I have your bones? For research. &lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;Don't interrupt me; I'm brooding. &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Prismari Trinkets.&lt;/em&gt;&lt;/strong&gt; When you make your character, you may roll once on the Prismari Trinkets table, instead of on the Trinkets table in the Player's Handbook, for your starting trinket.&lt;/p&gt;
+&lt;h5 class="caption"&gt;WITHERBLOOM TRINKETS&lt;/h5&gt;
+&lt;table&gt;
+	&lt;thead&gt;&lt;tr&gt;&lt;td class="center col-5"&gt;&lt;strong&gt;d6&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Trinket&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;1&lt;/td&gt;&lt;td&gt;A black bird-shaped mask, trimmed with glowing green thread&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;2&lt;/td&gt;&lt;td&gt;A set of rabbit bones&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;3&lt;/td&gt;&lt;td&gt;A pair of thick knee-high waders, stained with muck and moss&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;4&lt;/td&gt;&lt;td&gt;A slimy green tentacle, which occasionally wriggles&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;5&lt;/td&gt;&lt;td&gt;A notebook containing waterproof paper&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;6&lt;/td&gt;&lt;td&gt;A necklace of five small vials, each filled with luminescent white liquid&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="short">Nature, Survival / Herbalism Kit / Language / Strixhaven Initiate feat</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_NATURE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT" />
+			<select type="Language" name="Language, Witherbloom Student" supports="Standard||Exotic" />
+			<grant type="Background Feature" id="ID_WOTC_SCOC_BACKGROUND_FEATURE_WITHERBLOOM_INITIATE" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Variant" name="Variant Witherbloom Student" supports="Background Variant Witherbloom Student" optional="true" />
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">I love brewing up a new recipe, even if some might be repulsed by my choice of ingredients. Or the final product. Or both.</item>
+				<item id="2">My fashion sense is like my garden: withered, black, and weird.</item>
+				<item id="3">I'm going to befriend every single monster in this swamp if it's the last thing I do.</item>
+				<item id="4">Everything in this world dies eventually. The question is, what will you do with the time you have left?</item>
+				<item id="5">I know we just met, but when you die, may I have your bones? For research.</item>
+				<item id="6">Don't interrupt me; I'm brooding.</item>
+			</select>
+		</rules>
+	</element>
+	<element name="Feature: Witherbloom Initiate" type="Background Feature" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_BACKGROUND_FEATURE_WITHERBLOOM_INITIATE">
+		<meta>
+			<parent>Witherbloom Student</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You gain the Strixhaven Initiate feat and must choose Witherbloom within it.&lt;/p&gt;
+&lt;p class="indent"&gt;In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Witherbloom Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)&lt;/p&gt;
+&lt;h5 class="caption"&gt;WITHERBLOOM SPELLS&lt;/h5&gt;
+&lt;table&gt;
+	&lt;thead&gt;&lt;tr&gt;&lt;td class="center col-15"&gt;&lt;strong&gt;Spell Level&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Spells&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;1st&lt;/td&gt;&lt;td&gt;&lt;em&gt;Cure Wounds, Inflict Wounds&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;2nd&lt;/td&gt;&lt;td&gt;&lt;em&gt;Lesser Restoration, Wither and Bloom&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;3rd&lt;/td&gt;&lt;td&gt;&lt;em&gt;Revivify, Vampiric Touch&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;4th&lt;/td&gt;&lt;td&gt;&lt;em&gt;Blight, Death Ward&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr&gt;&lt;td class="center"&gt;5th&lt;/td&gt;&lt;td&gt;&lt;em&gt;Antilife Shell, Greater Restoration&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;p class="indent"&gt;Consider customizing how your spells look when you cast them. Your Witherbloom spells might rely on material components or a spellcasting focus drawn from the swamp environment of Witherbloom, and your spells might take on an appearance suggesting those natural elements. Spectral shapes of swamp animals or pla might form amid your spell effects.&lt;/p&gt;</html>
+		</description>
+		<sheet alt="Witherbloom Initiate">
+			<description>You gain the Strixhaven Initiate feat and must choose Witherbloom within it. 
+In addition, if you have the Spellcasting or Pact Magic feature, the spells on the Witherbloom Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.) 
+Consider customizing how your spells look when you cast them. Your Witherbloom spells might rely on material components or a spellcasting focus drawn from the swamp environment of Witherbloom, and your spells might take on an appearance suggesting those natural elements. Spectral shapes of swamp animals or pla might form amid your spell effects.</description>
+		</sheet>
+		<rules>
+			<grant type="Feat" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE" />
+		</rules>
+		<spellcasting all="true" extend="true">
+			<extend>ID_PHB_SPELL_CURE_WOUNDS</extend>
+			<extend>ID_PHB_SPELL_INFLICT_WOUNDS</extend>
+			<extend>ID_PHB_SPELL_LESSER_RESTORATION</extend>
+			<extend>ID_WOTC_SCOC_SPELL_WITHER_AND_BLOOM</extend>
+			<extend>ID_PHB_SPELL_REVIVIFY</extend>
+			<extend>ID_PHB_SPELL_VAMPIRIC_TOUCH</extend>
+			<extend>ID_PHB_SPELL_BLIGHT</extend>
+			<extend>ID_PHB_SPELL_DEATH_WARD</extend>
+			<extend>ID_PHB_SPELL_ANTILIFE_SHELL</extend>
+			<extend>ID_PHB_SPELL_GREATER_RESTORATION</extend>
+		</spellcasting>
+	</element>
+	<element name="Borrowed Knowledge" type="Spell" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_SPELL_BORROWED_KNOWLEDGE">
+		<supports>Bard, Cleric, Wizard, Warlock</supports>
+		<description>
+			<html>&lt;p&gt;You draw on knowledge from spirits of the past. Choose one skill in which you lack proficiency. For the spell's duration, you have proficiency in the chosen skill. The spell ends early if you cast it again.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="level">2</set>
+			<set name="school">Divination</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 hour</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a book worth at least 25 gp</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Kinetic Jaunt" type="Spell" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_SPELL_KINETIC_JAUNT">
+		<supports>Bard, Sorcerer, Wizard, Artificer</supports>
+		<description>
+			<html>&lt;p&gt;You magically empower your movement with dance-like steps, giving yourself the following benefits for the duration:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your walking speed increases by 10 feet.&lt;/li&gt;
+&lt;li&gt;You don't provoke opportunity attacks.&lt;/li&gt;
+&lt;li&gt;You can move through the space of another creature, and it doesn't count as difficult terrain. If you end your turn in another creature's space, you are shunted to the last unoccupied space you occupied, and you take 1d8 force damage.&lt;/li&gt;
+&lt;/ul&gt;</html>
+		</description>
+		<setters>
+			<set name="level">2</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 bonus action</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">true</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Silvery Barbs" type="Spell" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_SPELL_SILVERY_BARBS">
+		<supports>Bard, Sorcerer, Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You magically distract the triggering creature and turn its momentary uncertainty into encouragement for another creature. The triggering creature must reroll the d20 and use the lower roll.&lt;/p&gt;
+&lt;p class="indent"&gt;You can then choose a different creature you can see within range (you can choose yourself). The chosen creature has advantage on the next attack roll, ability check, or saving throw it makes within 1 minute. A creature can be empowered by only one use of this spell at a time.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="level">1</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 reaction, which you take when a creature you can see within 60 feet of yourself succeeds on an attack roll, an ability check, or a saving throw</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Vortex Warp" type="Spell" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_SPELL_VORTEX_WARP">
+		<supports>Sorcerer, Wizard, Artificer</supports>
+		<description>
+			<html>&lt;p&gt;You magically twist space around another creature you can see within range. The target must succeed on a Constitution saving throw (the target can choose to fail), or the target is teleported to an unoccupied space of your choice that you can see within range. The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 3rd level or higher, the range of the spell increases by 30 feet for each slot level above 2nd.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="level">2</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">90 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Wither and Bloom" type="Spell" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_SPELL_WITHER_AND_BLOOM">
+		<supports>Druid, Sorcerer, Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You invoke both death and life upon a 10-foot-radius sphere centered on a point within range. Each creature of your choice in that area must make a Constitution saving throw, taking 2d6 necrotic damage on a failed save, or half as much damage on a successful one. Nonmagical vegetation in that area withers.&lt;/p&gt;
+&lt;p class="indent"&gt;In addition, one creature of your choice in that area can spend and roll one of its unspent Hit Dice and regain a number of hit points equal to the roll plus your spellcasting ability modifier.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot above 2nd, and the number of Hit Dice that can be spent and added to the healing roll increases by one for each slot above 2nd.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="level">2</set>
+			<set name="school">Necromancy</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a withered vine twisted into a loop</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Bottle of Boundless Coffee" type="Magic Item" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_MAGIC_ITEM_BOTTLE_OF_BOUNDLESS_COFFEE">
+		<description>
+			<html>&lt;p&gt;This metal bottle carries delicious, warm coffee. The bottle comes with a stopper, which is attached to the bottle by a little chain. Even when open, the bottle won't accept any liquid other than the coffee it produces. The coffee inside is always comfortably warm, and none of the heat can be felt through the bottle.&lt;/p&gt;
+&lt;p class="indent"&gt;Each time you drink the coffee, roll a d20. On a 1, the bottle refuses to dispense coffee for the next hour. If you pour coffee from the bottle, rather than drinking from it, the coffee vanishes the moment it leaves the bottle.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+	<element name="Cuddly Strixhaven Mascot" type="Magic Item" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_MAGIC_ITEM_CUDDLY_STRIXHAVEN_MASCOT">
+		<description>
+			<html>&lt;p&gt;Representing one of the mascots of Strixhaven, this soft, Tiny, magic toy is perfect for cuddling. If you press it to your arm, shoulder, or leg as an action, the toy stays attached there for 1 hour or until you use an action to remove it.&lt;/p&gt;
+&lt;p class="indent"&gt;This toy can also be used to fight off fear. When you make a saving throw to avoid or end the frightened condition on yourself, you can give yourself advantage on the roll if the toy is on your person. You must decide to do so before rolling the d20. If the save succeeds, you can't use the toy in this way again until you finish a long rest.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+		</setters>
+	</element>
+	<element name="Lorehold Primer" type="Magic Item" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_MAGIC_ITEM_LOREHOLD_PRIMER">
+		<description>
+			<html>&lt;p&gt;The Lorehold Primer is a magic textbook created at Strixhaven's Lorehold College. The primer has 3 charges, and it regains 1d3 expended charges daily at dawn. If you make an Intelligence (History) or an Intelligence (Religion) check while holding the primer, you can expend 1 charge to give yourself a 1d4 bonus to the check, immediately after you roll the d20.&lt;/p&gt;
+&lt;p class="indent"&gt;In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the cleric or wizard spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement" addition="by a spellcaster">true</set>
+			<set name="slot">misc</set>
+		</setters>
+		<rules>
+			<select type="Spell" name="Spell, Lorehold Primer" supports="1,(Cleric||Wizard)" optional="true" />
+		</rules>
+	</element>
+	<element name="Prismari Primer" type="Magic Item" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_MAGIC_ITEM_PRISMARI_PRIMER">
+		<description>
+			<html>&lt;p&gt;The Prismari Primer is a magic textbook created at Strixhaven's Prismari College. The primer has 3 charges, and it regains 1d3 expended charges daily at dawn. If you make a Dexterity (Acrobatics) or a Charisma (Performance) check while holding the primer, you can expend 1 charge to give yourself a 1d4 bonus to the check, immediately after you roll the d20.&lt;/p&gt;
+&lt;p class="indent"&gt;In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the bard or sorcerer spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement" addition="by a spellcaster">true</set>
+			<set name="slot">misc</set>
+		</setters>
+		<rules>
+			<select type="Spell" name="Spell, Prismari Primer" supports="1,(Bard||Sorcerer)" optional="true" />
+		</rules>
+	</element>
+	<element name="Quandrix Primer" type="Magic Item" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_MAGIC_ITEM_QUANDRIX_PRIMER">
+		<description>
+			<html>&lt;p&gt;The Quandrlx Primer is a magic textbook created at Strixhaven's Quandrix College. The primer has 3 charges, and it regains 1d3 expended charges daily at dawn. If you make an Intelligence (Arcana) or an Intelligence (Nature) check while holding the primer, you can expend 1 charge to give yourself a 1d4 bonus to the check, immediately after you roll the d20.&lt;/p&gt;
+&lt;p class="indent"&gt;In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the druid or wizard spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement" addition="by a spellcaster">true</set>
+			<set name="slot">misc</set>
+		</setters>
+		<rules>
+			<select type="Spell" name="Spell, Quandrix Primer" supports="1,(Druid||Wizard)" optional="true" />
+		</rules>
+	</element>
+	<element name="Silverquill Primer" type="Magic Item" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_MAGIC_ITEM_SILVERQUILL_PRIMER">
+		<description>
+			<html>&lt;p&gt;The Silverquill Primer is a magic textbook created at Strixhaven's Silverquill College. The primer has 3 charges, and it regains 1d3 expended charges daily at dawn. If you make a Charisma (Intimidation) or a Charisma (Persuasion) check while holding the primer, you can expend 1 charge to give yourself a 1d4 bonus to the check, immediately after you roll the d20.&lt;/p&gt;
+&lt;p class="indent"&gt;In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the bard or cleric spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement" addition="by a spellcaster">true</set>
+			<set name="slot">misc</set>
+		</setters>
+		<rules>
+			<select type="Spell" name="Spell, Silverquill Primer" supports="1,(Bard||Cleric)" optional="true" />
+		</rules>
+	</element>
+	<element name="Strixhaven Pennant" type="Magic Item" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_MAGIC_ITEM_STRIXHAVEN_PENNANT">
+		<description>
+			<html>&lt;p&gt;This magic pennant bears the symbol of Strixhaven or one of its colleges: Lorehold, Prismari, Quandrix, Silverquill, or Witherbloom. While you wave the pennant, the symbol on it glitters, and the pennant sheds bright light in a 10-foot radius and dim light for an additional 10 feet.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Common</set>
+			<set name="slot">neck</set>
+		</setters>
+	</element>
+	<element name="Witherbloom Primer" type="Magic Item" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_MAGIC_ITEM_WITHERBLOOM_PRIMER">
+		<description>
+			<html>&lt;p&gt;The Witherbloom Primer is a magic textbook created at Strixhaven's Witherbloom College. The primer has 3 charges, and it regains 1d3 expended charges daily at dawn. If you make an Intelligence (Nature) or Wisdom (Survival) check while holding the primer, you can expend 1 charge to give yourself a 1d4 bonus to the check, immediately after you roll the d20.&lt;/p&gt;
+&lt;p class="indent"&gt;In addition, if you study the primer at the end of a long rest, you can choose one 1st-level spell from the druid or wizard spell list. Before you finish your next long rest, you can cast the chosen spell once without a spell slot if you are holding the primer. Your spellcasting ability for this spell is your choice of Intelligence, Wisdom, or Charisma.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+			<set name="attunement" addition="by a spellcaster">true</set>
+			<set name="slot">misc</set>
+		</setters>
+		<rules>
+			<select type="Spell" name="Spell, Witherbloom Primer" supports="1,(Druid||Wizard)" optional="true" />
+		</rules>
+	</element>
+	<element name="Strixhaven Initiate" type="Feat" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE">
+		<description>
+			<html>&lt;p&gt;You have studied some magical theory and have learned a few spells associated with Strixhaven University.&lt;/p&gt;
+&lt;p class="indent"&gt;Choose one of Strixhaven's colleges: Lorehold, Prismari, Quandrix, Silverquill, or Witherbloom. You learn two cantrips and one 1st-level spell based on the college you choose, as specified in the Strixhaven Spells table.&lt;/p&gt;
+&lt;p class="indent"&gt;You can cast the chosen 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have.&lt;/p&gt;
+&lt;p class="indent"&gt;Your spellcasting ability for this feat's spells is Intelligence, Wisdom, or Charisma (choose when you select this feat).&lt;/p&gt;
+&lt;h5 class="caption"&gt;STRIXHAVEN SPELLS&lt;/h5&gt;
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;&lt;td&gt;College&lt;/td&gt;&lt;td&gt;Cantrips&lt;/td&gt;&lt;td&gt;1st-level Spells&lt;/td&gt;&lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tr&gt;&lt;td&gt;Lorehold&lt;/td&gt;&lt;td&gt;Choose two from light, sacred flame, and thaumaturgy.&lt;/td&gt;&lt;td&gt;Choose one 1st-level cleric or wizard spell.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Prismari&lt;/td&gt;&lt;td&gt;Choose two from fire bolt prestidigitation, and ray of frost.&lt;/td&gt;&lt;td&gt;Choose one 1st-level bard or sorcerer spell.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Quandrix&lt;/td&gt;&lt;td&gt;Choose two from druidcraft, guidance, and mage hand.&lt;/td&gt;&lt;td&gt;Choose one 1st-level druid or wizard spell.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Silverquill&lt;/td&gt;&lt;td&gt;Choose two from sacred flame, thaumaturgy. and vicious mockery.&lt;/td&gt;&lt;td&gt;Choose one 1st-level bard or cleric spell.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;Witherbloom&lt;/td&gt;&lt;td&gt;Choose two from chill touch, druidcraft, and spare the dying.&lt;/td&gt;&lt;td&gt;Choose one 1st-level druid or wizard spell.&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<sheet>
+			<description>You can cast the chosen 1st-level spell without a spell slot, and you must finish a long rest before you can cast it in this way again. You can also cast the spell using any spell slots you have. 
+Your spellcasting ability for this feat's spells is {{strixhaven-initiate:spellcasting-ability}}.</description>
+		</sheet>
+		<rules>
+			<select type="Feat Feature" name="Strixhaven College, Strixhaven Initiate" supports="Strixhaven Initiate" />
+			<select type="Feat Feature" name="Spellcasting Ability, Strixhaven Initiate" supports="ID_WOTC_SCOC_FEAT_FEATURE_STRIXHAVEN_INITIATE_INTELLIGENCE|ID_WOTC_SCOC_FEAT_FEATURE_STRIXHAVEN_INITIATE_WISDOM|ID_WOTC_SCOC_FEAT_FEATURE_STRIXHAVEN_INITIATE_CHARISMA" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Feat Feature" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_FEAT_FEATURE_STRIXHAVEN_INITIATE_INTELLIGENCE">
+		<meta>
+			<parent>Strixhaven Initiate</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Your spellcasting ability for Strixhaven Initiate's spells is Intelligence.&lt;/p&gt;
+&lt;div class="reference"&gt;
+	&lt;div element="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet display="false">
+			<description>Your spellcasting ability for Strixhaven Initiate's spells is Intelligence.</description>
+		</sheet>
+		<rules>
+			<stat name="strixhaven-initiate:spellcasting-ability" value="intelligence" inline="true" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Feat Feature" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_FEAT_FEATURE_STRIXHAVEN_INITIATE_WISDOM">
+		<meta>
+			<parent>Strixhaven Initiate</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Your spellcasting ability for Strixhaven Initiate's spells is Wisdom.&lt;/p&gt;
+&lt;div class="reference"&gt;
+	&lt;div element="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet display="false">
+			<description>Your spellcasting ability for Strixhaven Initiate's spells is Wisdom.</description>
+		</sheet>
+		<rules>
+			<stat name="strixhaven-initiate:spellcasting-ability" value="wisdom" inline="true" />
+		</rules>
+	</element>
+	<element name="Charisma" type="Feat Feature" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_FEAT_FEATURE_STRIXHAVEN_INITIATE_CHARISMA">
+		<meta>
+			<parent>Strixhaven Initiate</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Your spellcasting ability for Strixhaven Initiate's spells is Charisma.&lt;/p&gt;
+&lt;div class="reference"&gt;
+	&lt;div element="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet display="false">
+			<description>Your spellcasting ability for Strixhaven Initiate's spells is Charisma.</description>
+		</sheet>
+		<rules>
+			<stat name="strixhaven-initiate:spellcasting-ability" value="charisma" inline="true" />
+		</rules>
+	</element>
+	<element name="Lorehold College" type="Feat Feature" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_FEAT_FEATURE_STRIXHAVEN_INITIATE_LOREHOLD">
+		<meta>
+			<parent>Strixhaven Initiate</parent>
+		</meta>
+		<supports>Strixhaven Initiate</supports>
+		<description>
+			<html>&lt;p&gt;You have learned a few spells associated with Lorehold college.&lt;/p&gt;
+&lt;p class="indent"&gt;You learn two cantrips and one 1st-level spell as specified in the Strixhaven Spells table.&lt;/p&gt;
+&lt;div class="reference"&gt;
+	&lt;div element="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet display="false">
+			<description />
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip, Strixhaven Initiate" supports="ID_PHB_SPELL_LIGHT|ID_PHB_SPELL_SACRED_FLAME|ID_PHB_SPELL_THAUMATURGY" number="2" />
+			<select type="Spell" name="Spell, Strixhaven Initiate" supports="1,(Cleric||Wizard)" />
+		</rules>
+	</element>
+	<element name="Prismari College" type="Feat Feature" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_FEAT_FEATURE_STRIXHAVEN_INITIATE_PRISMARI">
+		<meta>
+			<parent>Strixhaven Initiate</parent>
+		</meta>
+		<supports>Strixhaven Initiate</supports>
+		<description>
+			<html>&lt;p&gt;You have learned a few spells associated with Prismari college.&lt;/p&gt;
+&lt;p class="indent"&gt;You learn two cantrips and one 1st-level spell as specified in the Strixhaven Spells table.&lt;/p&gt;
+&lt;div class="reference"&gt;
+	&lt;div element="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet display="false">
+			<description />
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip, Strixhaven Initiate" supports="ID_PHB_SPELL_FIRE_BOLT|ID_PHB_SPELL_PRESTIDIGITATION|ID_PHB_SPELL_RAY_OF_FROST" number="2" />
+			<select type="Spell" name="Spell, Strixhaven Initiate" supports="1,(Bard||Sorcerer)" />
+		</rules>
+	</element>
+	<element name="Quandrix College" type="Feat Feature" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_FEAT_FEATURE_STRIXHAVEN_INITIATE_QUANDRIX">
+		<meta>
+			<parent>Strixhaven Initiate</parent>
+		</meta>
+		<supports>Strixhaven Initiate</supports>
+		<description>
+			<html>&lt;p&gt;You have learned a few spells associated with Quandrix college.&lt;/p&gt;
+&lt;p class="indent"&gt;You learn two cantrips and one 1st-level spell as specified in the Strixhaven Spells table.&lt;/p&gt;
+&lt;div class="reference"&gt;
+	&lt;div element="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet display="false">
+			<description />
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip, Strixhaven Initiate" supports="ID_PHB_SPELL_DRUIDCRAFT|ID_PHB_SPELL_GUIDANCE|ID_PHB_SPELL_MAGE_HAND" number="2" />
+			<select type="Spell" name="Spell, Strixhaven Initiate" supports="1,(Druid||Wizard)" />
+		</rules>
+	</element>
+	<element name="Silverquill College" type="Feat Feature" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_FEAT_FEATURE_STRIXHAVEN_INITIATE_SILVERQUILL">
+		<meta>
+			<parent>Strixhaven Initiate</parent>
+		</meta>
+		<supports>Strixhaven Initiate</supports>
+		<description>
+			<html>&lt;p&gt;You have learned a few spells associated with Silverquill college.&lt;/p&gt;
+&lt;p class="indent"&gt;You learn two cantrips and one 1st-level spell as specified in the Strixhaven Spells table.&lt;/p&gt;
+&lt;div class="reference"&gt;
+	&lt;div element="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet display="false">
+			<description />
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip, Strixhaven Initiate" supports="ID_PHB_SPELL_SACRED_FLAME|ID_PHB_SPELL_THAUMATURGY|ID_PHB_SPELL_VICIOUS_MOCKERY" number="2" />
+			<select type="Spell" name="Spell, Strixhaven Initiate" supports="1,(Bard||Cleric)" />
+		</rules>
+	</element>
+	<element name="Witherbloom College" type="Feat Feature" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_FEAT_FEATURE_STRIXHAVEN_INITIATE_WITHERBLOOM">
+		<meta>
+			<parent>Strixhaven Initiate</parent>
+		</meta>
+		<supports>Strixhaven Initiate</supports>
+		<description>
+			<html>&lt;p&gt;You have learned a few spells associated with Witherbloom college.&lt;/p&gt;
+&lt;p class="indent"&gt;You learn two cantrips and one 1st-level spell as specified in the Strixhaven Spells table.&lt;/p&gt;
+&lt;div class="reference"&gt;
+	&lt;div element="ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet display="false">
+			<description />
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip, Strixhaven Initiate" supports="ID_PHB_SPELL_CHILL_TOUCH|ID_PHB_SPELL_DRUIDCRAFT|ID_PHB_SPELL_SPARE_THE_DYING" number="2" />
+			<select type="Spell" name="Spell, Strixhaven Initiate" supports="1,(Druid||Wizard)" />
+		</rules>
+	</element>
+	<element name="Strixhaven Mascot" type="Feat" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_FEAT_STRIXHAVEN_MASCOT">
+		<prerequisite>4th-level, Strixhaven Initiate feat</prerequisite>
+		<requirements>[level:4],ID_WOTC_SCOC_FEAT_STRIXHAVEN_INITIATE</requirements>
+		<description>
+			<html>&lt;p&gt;&lt;em&gt;4th-level, Strixhaven Initiate feat&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You have learned how to summon a Strixhaven mascot to assist you, granting you these benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can cast the find familiar spell as a ritual. Your familiar can take the form of the mascot associated with the college you chose for the Strixhaven Initiate feat: a spirit statue mascot (Lorehold), an art elemental mascot (Prismari), a fractal mascot (Quandrix), an inkling mascot (Silverquill), or a pest mascot (Witherbloom). Stat blocks for these creatures appear in chapter 7.&lt;/li&gt;
+&lt;li&gt;When you take the Attack action on your turn, you can forgo one attack to allow your mascot familiar to make one attack of its own with its reaction.&lt;/li&gt;
+&lt;li&gt;If your mascot familiar is within 60 feet of you, you can teleport as an action, swapping places with the familiar. If your destination space is too small for you to occupy, the teleportation fails and is wasted. Once you teleport in this way, you can't do so again until you finish a long rest, unless you expend a spell slot of 2nd level or higher to do it again.&lt;/li&gt;
+&lt;/ul&gt;</html>
+		</description>
+		<sheet>
+			<description>You can cast the find familiar spell as a ritual. Your familiar can take the form of the mascot associated with your Strixhaven college. 
+When you take the Attack action on your turn, you can forgo one attack to allow your mascot familiar to make one attack of its own with its reaction. 
+If your mascot familiar is within 60 feet of you, you can teleport as an action, swapping places with the familiar. If your destination space is too small for you to occupy, the teleportation fails and is wasted. Once you teleport in this way, you can't do so again until you finish a long rest, unless you expend a spell slot of 2nd level or higher to do it again.</description>
+		</sheet>
+	</element>
+	<element name="Art Elemental Mascot" type="Companion" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_STRIXHAVEN_MASCOT_ART_ELEMENTAL_MASCOT">
+		<meta>
+			<parent>Strixhaven Mascot</parent>
+		</meta>
+		<supports>Familiar, Strixhaven Mascot</supports>
+		<description>
+			<html>&lt;p&gt;Often referred to as a "living expression," an art elemental is an aspect of creativity and emotion given physical form-making it the perfect mascot for Prismari College.&lt;/p&gt;
+&lt;p class="indent"&gt;To create an art elemental mascot, a mage draws power from a blend of all the natural elements, extracting their vibrant colors to craft a swirling outer shell before imbuing its core with a planar spirit. As creatures of both precise elemental study and rebellious expression, art elementals can both wreak elemental destruction and emotionally captivate the creatures around them.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="strength">6</set>
+			<set name="dexterity">13</set>
+			<set name="constitution">12</set>
+			<set name="intelligence">8</set>
+			<set name="wisdom">11</set>
+			<set name="charisma">15</set>
+			<set name="ac">11</set>
+			<set name="hp">18</set>
+			<set name="speed">30 ft.</set>
+			<set name="immunities">poison</set>
+			<set name="senses">passive Perception 10</set>
+			<set name="languages">understands the languages of its creator but can't speak</set>
+			<set name="type">Elemental</set>
+			<set name="size">Small</set>
+			<set name="alignment">Typically Neutral</set>
+			<set name="challenge">1/4</set>
+			<set name="proficiency">2</set>
+			<set name="traits">ID_WOTC_SCOC_COMPANION_TRAIT_ART_ELEMENTAL_MASCOT_DEATH_BURST</set>
+			<set name="actions">ID_WOTC_SCOC_COMPANION_ACTION_ART_ELEMENTAL_MASCOT_JOYFUL_FLARE,ID_WOTC_SCOC_COMPANION_ACTION_ART_ELEMENTAL_MASCOT_MELANCHOLIC_BOLT,ID_WOTC_SCOC_COMPANION_ACTION_ART_ELEMENTAL_MASCOT_CAPTIVATING_ARTISTRY</set>
+			<set name="resistances">cold, fire</set>
+			<set name="conditionImmunities">poisoned</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="companion:ac" value="11" bonus="base" />
+			<stat name="companion:hp:max" value="18" />
+			<stat name="companion:speed" value="30" bonus="base" />
+			<stat name="companion:performance:proficiency" value="companion:proficiency" bonus="proficiency" />
+		</rules>
+	</element>
+	<element name="Death Burst" type="Companion Trait" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_TRAIT_ART_ELEMENTAL_MASCOT_DEATH_BURST">
+		<meta>
+			<parent>Art Elemental Mascot</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;When the elemental dies, it explodes in a burst of colored light. Each creature within 5 feet of the elemental must succeed on a DC 11 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the save at the end of each of its turns, ending the effect on itself on a success.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>When the elemental dies, it explodes in a burst of colored light. Each creature within 5 feet of the elemental must succeed on a DC 11 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the save at the end of each of its turns, ending the effect on itself on a success.</description>
+		</sheet>
+	</element>
+	<element name="Joyful Flare" type="Companion Action" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_ART_ELEMENTAL_MASCOT_JOYFUL_FLARE">
+		<meta>
+			<parent>Art Elemental Mascot</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) fire damage.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) fire damage. </description>
+		</sheet>
+	</element>
+	<element name="Melancholic Bolt" type="Companion Action" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_ART_ELEMENTAL_MASCOT_MELANCHOLIC_BOLT">
+		<meta>
+			<parent>Art Elemental Mascot</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Ranged Weapon Attack: +3 to hit, range 30 ft., one target. Hit: 6 (2d4 + 1) cold damage.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Ranged Weapon Attack: +3 to hit, range 30 ft., one target. Hit: 6 (2d4 + 1) cold damage.</description>
+		</sheet>
+	</element>
+	<element name="Captivating Artistry" type="Companion Action" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_ART_ELEMENTAL_MASCOT_CAPTIVATING_ARTISTRY">
+		<meta>
+			<parent>Art Elemental Mascot</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;The elemental targets one creature it can see within 30 feet of itself. The target must succeed on a DC 12 Charisma saving throw or be charmed for 1 minute. The charmed target can repeat the save at the end of each of its turns, ending the effect on itself on a success.&lt;/p&gt;</html>
+		</description>
+		<sheet usage="1/Day">
+			<description>The elemental targets one creature it can see within 30 feet of itself. The target must succeed on a DC 12 Charisma saving throw or be charmed for 1 minute. The charmed target can repeat the save at the end of each of its turns, ending the effect on itself on a success. </description>
+		</sheet>
+	</element>
+	<element name="Fractal Mascot" type="Companion" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_STRIXHAVEN_MASCOT_FRACTAL_MASCOT">
+		<meta>
+			<parent>Strixhaven Mascot</parent>
+		</meta>
+		<supports>Familiar, Strixhaven Mascot</supports>
+		<description>
+			<html>&lt;p&gt;To an untrained eye, a fractal mascot looks like a creature made from facets of hard light. But arithmancers know that these fractals are actually living equations: artificial life forms created by extrapolating magic from the mathematical patterns in nature.&lt;/p&gt;
+&lt;p class="indent"&gt;Because of their arithmetic basis, fractal mascots can alter both their size and density. Quandrix College has adopted the fractal as its mascot, and many a Quandrix student can be found playing fetch with a fractal companion in between lessons.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="strength">12</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">13</set>
+			<set name="intelligence">7</set>
+			<set name="wisdom">10</set>
+			<set name="charisma">5</set>
+			<set name="ac">12</set>
+			<set name="hp">27</set>
+			<set name="speed">30 ft.</set>
+			<set name="immunities">poison</set>
+			<set name="senses">passive Perception 10</set>
+			<set name="languages">understands the languages of its creator but can't speak</set>
+			<set name="type">Construct</set>
+			<set name="size">Small</set>
+			<set name="alignment">Typically Neutral</set>
+			<set name="challenge">1/4</set>
+			<set name="proficiency">2</set>
+			<set name="traits">ID_WOTC_SCOC_COMPANION_TRAIT_FRACTAL_MASCOT_RELATIVE_DENSITY</set>
+			<set name="actions">ID_WOTC_SCOC_COMPANION_ACTION_FRACTAL_MASCOT_QUANTUM_STRIKE,ID_WOTC_SCOC_COMPANION_ACTION_FRACTAL_MASCOT_AUGMENT,ID_WOTC_SCOC_COMPANION_ACTION_FRACTAL_MASCOT_DIMINISH</set>
+			<set name="conditionImmunities">poisoned</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="companion:ac" value="12" bonus="base" />
+			<stat name="companion:hp:max" value="27" />
+			<stat name="companion:speed" value="30" bonus="base" />
+		</rules>
+	</element>
+	<element name="Relative Density" type="Companion Trait" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_TRAIT_FRACTAL_MASCOT_RELATIVE_DENSITY">
+		<meta>
+			<parent>Fractal Mascot</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;The fractal can move through creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage If it ends Its turn inside an object.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>The fractal can move through creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage If it ends Its turn inside an object.</description>
+		</sheet>
+	</element>
+	<element name="Quantum Strike" type="Companion Action" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_FRACTAL_MASCOT_QUANTUM_STRIKE">
+		<meta>
+			<parent>Fractal Mascot</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Melee Weapon Attack:+3 to hit, reach 5 ft., one target. Hit:3 (1d4 + 1) force damage, or 6 (2d4 + 1) force damage if the fractal is Medium or bigger.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack:+3 to hit, reach 5 ft., one target. Hit:3 (1d4 + 1) force damage, or 6 (2d4 + 1) force damage if the fractal is Medium or bigger. </description>
+		</sheet>
+	</element>
+	<element name="Augment" type="Companion Action" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_FRACTAL_MASCOT_AUGMENT">
+		<meta>
+			<parent>Fractal Mascot</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Melee Weapon Attack:+3 to hit, reach 5 ft., one target. Hit:3 (1d4 + 1) force damage, or 6 (2d4 + 1) force damage if the fractal is Medium or bigger.&lt;/p&gt;</html>
+		</description>
+		<sheet alt="Augment (Bonus Action)">
+			<description>Melee Weapon Attack:+3 to hit, reach 5 ft., one target. Hit:3 (1d4 + 1) force damage, or 6 (2d4 + 1) force damage if the fractal is Medium or bigger. </description>
+		</sheet>
+	</element>
+	<element name="Diminish" type="Companion Action" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_FRACTAL_MASCOT_DIMINISH">
+		<meta>
+			<parent>Fractal Mascot</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;The fractal's size decreases by one category. While the fractal is Tiny, it makes attack rolls, Dexterity checks, and Dexterity saving throws with advantage. The fractal can become no smaller than 1 foot in height via this bonus action.&lt;/p&gt;</html>
+		</description>
+		<sheet alt="Diminish (Bonus Action)">
+			<description>The fractal's size decreases by one category. While the fractal is Tiny, it makes attack rolls, Dexterity checks, and Dexterity saving throws with advantage. The fractal can become no smaller than 1 foot in height via this bonus action.</description>
+		</sheet>
+	</element>
+	<element name="Inkling Mascot" type="Companion" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_STRIXHAVEN_MASCOT_INKLING_MASCOT">
+		<meta>
+			<parent>Strixhaven Mascot</parent>
+		</meta>
+		<supports>Familiar, Strixhaven Mascot</supports>
+		<description>
+			<html>&lt;p&gt;Squelching slightly as they wriggle through the air, inklings serve as the mascots for Silverquill College. These living blobs of shadowy ink are often summoned by professors who require assistance in their writing workshops-the inklings provide endless ink-or by lonely students hoping for company as they study. However, inklings can just as readily support mages in combat, disrupting opponents' sight.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="strength">10</set>
+			<set name="dexterity">16</set>
+			<set name="constitution">14</set>
+			<set name="intelligence">6</set>
+			<set name="wisdom">7</set>
+			<set name="charisma">11</set>
+			<set name="ac">13</set>
+			<set name="hp">18</set>
+			<set name="speed">10 ft., fly 30 ft. (hover)</set>
+			<set name="immunities">psychic</set>
+			<set name="senses">blightsight 60 ft., passive Perception 8</set>
+			<set name="languages">understands the languages of its creator but can't speak</set>
+			<set name="type">Ooze</set>
+			<set name="size">Tiny</set>
+			<set name="alignment">Typically Neutral</set>
+			<set name="challenge">1/4</set>
+			<set name="proficiency">2</set>
+			<set name="traits">ID_WOTC_SCOC_COMPANION_TRAIT_INKLING_MASCOT_AMORPHOUS</set>
+			<set name="actions">ID_WOTC_SCOC_COMPANION_ACTION_INKLING_MASCOT_BLOT,ID_WOTC_SCOC_COMPANION_ACTION_INKLING_MASCOT_INK_SPRAY,ID_WOTC_SCOC_COMPANION_ACTION_INKLING_MASCOT_SHADOW_STEALTH</set>
+			<set name="conditionImmunities">blinded, charmed, deafened, exhaustion, prone</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="companion:ac" value="13" bonus="base" />
+			<stat name="companion:hp:max" value="18" />
+			<stat name="companion:speed" value="10" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:speed:fly" value="30" bonus="base" />
+		</rules>
+	</element>
+	<element name="Amorphous" type="Companion Trait" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_TRAIT_INKLING_MASCOT_AMORPHOUS">
+		<meta>
+			<parent>Inkling Mascot</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;The inkling can move through a space as narrow as 1 inch wide without squeezing.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>The inkling can move through a space as narrow as 1 inch wide without squeezing.</description>
+		</sheet>
+	</element>
+	<element name="Blot" type="Companion Action" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_INKLING_MASCOT_BLOT">
+		<meta>
+			<parent>Inkling Mascot</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) psychic damage.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) psychic damage.</description>
+		</sheet>
+	</element>
+	<element name="Ink Spray" type="Companion Action" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_INKLING_MASCOT_INK_SPRAY">
+		<meta>
+			<parent>Inkling Mascot</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;The inkling sprays viscous ink at one creature within 15 feet of itself. The target must succeed on a DC 12 Constitution saving throw or be blinded until the end of the inkling's next turn.&lt;/p&gt;</html>
+		</description>
+		<sheet usage="1/Day">
+			<description>The inkling sprays viscous ink at one creature within 15 feet of itself. The target must succeed on a DC 12 Constitution saving throw or be blinded until the end of the inkling's next turn. </description>
+		</sheet>
+	</element>
+	<element name="Shadow Stealth" type="Companion Action" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_INKLING_MASCOT_SHADOW_STEALTH">
+		<meta>
+			<parent>Inkling Mascot</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;While in dim light or darkness, the inkling takes the Hide action.&lt;/p&gt;</html>
+		</description>
+		<sheet alt="Shadow Stealth (Bonus Action)">
+			<description>While in dim light or darkness, the inkling takes the Hide action.</description>
+		</sheet>
+	</element>
+	<element name="Pest Mascot" type="Companion" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_STRIXHAVEN_MASCOT_PEST_MASCOT">
+		<meta>
+			<parent>Strixhaven Mascot</parent>
+		</meta>
+		<supports>Familiar, Strixhaven Mascot</supports>
+		<description>
+			<html>&lt;p&gt;Grumpy, spiky, and generally irritating, pest mascots inhabit the muggy bayou of Sedgemoor. However, these ferret-sized swamp creatures hold deep wells of life essence, making them convenient fuel sources for the magic of Witherbloom mages. As such, many Witherbloom students have adopted pests from the bayou as pets, and pests, in all their spiny glory, have become the mascots of the college.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="strength">11</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">17</set>
+			<set name="intelligence">5</set>
+			<set name="wisdom">13</set>
+			<set name="charisma">4</set>
+			<set name="ac">13 (natural armor)</set>
+			<set name="hp">22</set>
+			<set name="speed">30 ft.</set>
+			<set name="senses">darkvision 60 ft., passive Perception 13</set>
+			<set name="languages">—</set>
+			<set name="type">Monstrosity</set>
+			<set name="size">Tiny</set>
+			<set name="alignment">Unaligned</set>
+			<set name="challenge">1/4</set>
+			<set name="proficiency">2</set>
+			<set name="traits">ID_WOTC_SCOC_COMPANION_TRAIT_PEST_MASCOT_REGENERATION,ID_WOTC_SCOC_COMPANION_TRAIT_PEST_MASCOT_SPINY_HIDE</set>
+			<set name="actions">ID_WOTC_SCOC_COMPANION_ACTION_PEST_MASCOT_BITE</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="companion:ac" value="13" bonus="base" />
+			<stat name="companion:hp:max" value="22" />
+			<stat name="companion:speed" value="30" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="proficiency" />
+		</rules>
+	</element>
+	<element name="Regeneration" type="Companion Trait" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_TRAIT_PEST_MASCOT_REGENERATION">
+		<meta>
+			<parent>Pest Mascot</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;The pest regains 5 hit points at the start of its turn if it has at least 1 hit point. If it takes fire damage, this trait doesn't function at the start of the pest's next turn.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>The pest regains 5 hit points at the start of its turn if it has at least 1 hit point. If it takes fire damage, this trait doesn't function at the start of the pest's next turn.</description>
+		</sheet>
+	</element>
+	<element name="Spiny Hide" type="Companion Trait" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_TRAIT_PEST_MASCOT_SPINY_HIDE">
+		<meta>
+			<parent>Pest Mascot</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;At the start of each of its turns, the pest deals 2 (1d4) piercing damage to any creature grappling it or that it is grappling.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>At the start of each of its turns, the pest deals 2 (1d4) piercing damage to any creature grappling it or that it is grappling.</description>
+		</sheet>
+	</element>
+	<element name="Bite" type="Companion Action" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_PEST_MASCOT_BITE">
+		<meta>
+			<parent>Pest Mascot</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</description>
+		</sheet>
+	</element>
+	<element name="Spirit Statue Mascot" type="Companion" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_STRIXHAVEN_MASCOT_SPIRIT_STATUE_MASCOT">
+		<meta>
+			<parent>Strixhaven Mascot</parent>
+		</meta>
+		<supports>Familiar, Strixhaven Mascot</supports>
+		<description>
+			<html>&lt;p&gt;To enhance their studies of the past, Lorehold students often call upon the spirits of dead creatures. Mages seeking longer-term assistance from ancient spirits have learned to house these spirits in statues, giving them a more permanent residence from which to assist the living.&lt;/p&gt;
+&lt;p class="indent"&gt;Some of these spirit statues bond with and mentor a specific mage, but most serve in a variety of roles for numerous individuals, ranging from research colleagues to martial tacticians. Regardless, their appearance is so common around the Lorehold campus that they have become the college's mascots.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="strength">14</set>
+			<set name="dexterity">9</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">12</set>
+			<set name="wisdom">13</set>
+			<set name="charisma">8</set>
+			<set name="ac">14 (natural armor)</set>
+			<set name="hp">26</set>
+			<set name="speed">30 ft.</set>
+			<set name="senses">passive Perception 13</set>
+			<set name="languages">any languages it knew in life</set>
+			<set name="type">Construct</set>
+			<set name="size">Medium</set>
+			<set name="alignment">Any Alignment</set>
+			<set name="challenge">1/4</set>
+			<set name="proficiency">2</set>
+			<set name="traits">ID_WOTC_SCOC_COMPANION_TRAIT_SPIRIT_STATUE_MASCOT_DEATH_BURST</set>
+			<set name="actions">ID_WOTC_SCOC_COMPANION_ACTION_SPIRIT_STATUE_MASCOT_SLAM,ID_WOTC_SCOC_COMPANION_ACTION_SPIRIT_STATUE_MASCOT_COUNSEL_OF_THE_PAST</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="companion:ac" value="14" bonus="base" />
+			<stat name="companion:hp:max" value="26" />
+			<stat name="companion:speed" value="30" bonus="base" />
+			<stat name="companion:arcana:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:history:proficiency" value="companion:proficiency" bonus="proficiency" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="proficiency" />
+		</rules>
+	</element>
+	<element name="Death Burst" type="Companion Trait" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_TRAIT_SPIRIT_STATUE_MASCOT_DEATH_BURST">
+		<meta>
+			<parent>Spirit Statue Mascot</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;When the spirit statue is reduced to 0 hit points, the statue crumbles, and the spirit returns to the afterlife in a burst of ghostly white flame. Each creature within 5 feet of it must succeed on a DC 12 Constitution saving throw or take 3 (1d6) radiant damage.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>When the spirit statue is reduced to 0 hit points, the statue crumbles, and the spirit returns to the afterlife in a burst of ghostly white flame. Each creature within 5 feet of it must succeed on a DC 12 Constitution saving throw or take 3 (1d6) radiant damage.</description>
+		</sheet>
+	</element>
+	<element name="Slam" type="Companion Action" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_SPIRIT_STATUE_MASCOT_SLAM">
+		<meta>
+			<parent>Spirit Statue Mascot</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Melee Weapon Attack:+4 to hit, reach 5 ft., one target. Hit:5 (1d6 + 2) bludgeoning damage.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack:+4 to hit, reach 5 ft., one target. Hit:5 (1d6 + 2) bludgeoning damage.</description>
+		</sheet>
+	</element>
+	<element name="Counsel of the Past" type="Companion Action" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_COMPANION_ACTION_SPIRIT_STATUE_MASCOT_COUNSEL_OF_THE_PAST">
+		<meta>
+			<parent>Spirit Statue Mascot</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;The spirit statue touches one creature. Once within the next 10 minutes, that creature can roll a d4 and add the number rolled to one ability check of its choice, Immediately after rolling the d20.&lt;/p&gt;</html>
+		</description>
+		<sheet usage="2/Day">
+			<description>The spirit statue touches one creature. Once within the next 10 minutes, that creature can roll a d4 and add the number rolled to one ability check of its choice, Immediately after rolling the d20.</description>
+		</sheet>
+	</element>
+</elements>

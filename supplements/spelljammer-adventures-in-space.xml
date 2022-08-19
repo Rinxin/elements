@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Spelljammer: Adventures in Space" type="Source" source="Core" id="ID_WOTC_SOURCE_SPELLJAMMER_ADVENTURES_IN_SPACE">
+		<description>
+			<html>&lt;p&gt;&lt;strong&gt;A thrilling space-based adventure setting for the world’s greatest roleplaying game.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Spelljammer: Adventures in Space presents the Astral Plane as a Dungeons &amp; Dragons campaign setting unlike any other. Home of the stars and gateway to the heavens, the Astral Plane teems with excitement and possibility. With the help of magic, spelljammers can cross the oceans of Wildspace, ply the silvery void known as the Astral Sea, and hop between worlds of the D&amp;D multiverse.&lt;/p&gt;
+&lt;p&gt;This set contains everything a Dungeon Master needs to run adventures and campaigns set in the starlit realms of Wildspace and the Astral Sea, as well as new options for players who want to create characters at home in this fantastic setting.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;COMPONENTS:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Astral Adventurer’s Guide, a 64-page hardcover book for players and Dungeon Masters that presents the Astral Plane as a campaign setting and includes space-based character options, spells and magic items, deck plans and descriptions for spelljamming ships, and more&lt;/li&gt;
+&lt;li&gt;Boo’s Astral Menagerie, a 64-page hardcover book for Dungeon Masters that presents game statistics and descriptions for over 60 creatures found in Wildspace and the Astral Sea, including astral elves, cosmic horrors, lunar and solar dragons, murder comets, and space clowns.&lt;/li&gt;
+&lt;li&gt;Light of Xaryxis, a 64-page hardcover adventure for Dungeon Masters that is set in the Astral Plane and designed for characters of levels 5–8&lt;/li&gt;
+&lt;li&gt;Double-sided poster map of the Rock of Bral, an asteroid-city that can serve as both an adventure location and a campaign hub in the Astral Plane&lt;/li&gt;
+&lt;li&gt;Sturdy, four-panel Dungeon Master’s screen designed for use with the books in this set -Sturdy, four-panel Dungeon Master’s screen designed for use with the books in this set&lt;/li&gt;
+&lt;/ul&gt;</html>
+		</description>
+		<setters>
+			<set name="abbreviation">SJAIS</set>
+			<set name="image">https://media.dnd.wizards.com/styles/product_tabletop_left/public/images/product/jbq0x22eCjec_TH.png</set>
+			<set name="url">https://dnd.wizards.com/products/spelljammer</set>
+			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+			<set name="release">20220816</set>
+			<set name="official">true</set>
+			<set name="supplement">true</set>
+		</setters>
+	</element>
+	<element name="Astral Elf" type="Race" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACE_ASTRAL_ELF">
+		<description>
+			<html>&lt;p&gt;Long ago, groups of elves ventured from the Feywild to the Astral Plane to be closer to their gods. Life in the Silver Void has imbued their souls with a spark of divine light. That light manifests as a starry gleam in an astral elf’s eyes.&lt;/p&gt;
+&lt;p class="indent"&gt;Because nothing ages on the Astral Plane, astral elves who inhabit that plane can be very old, and their longevity gives them an unusual perspective on the passage of time. Some are prone to melancholy, while others might display an absence of feeling. Many look for creative ways to occupy themselves. Whether they choose to live in quiet contemplation or strike out to explore the reaches of the multiverse, astral elves tend to see things through the lens of time as having little or no meaning to them. Astral elves who don’t dwell on the Astral Plane can live to be more than 750 years old.&lt;/p&gt;
+&lt;h4&gt;ASTRAL ELF TRAITS&lt;/h4&gt;
+&lt;p&gt;You have the following racial traits.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Ability Score Increases.&lt;/em&gt;&lt;/strong&gt; When determining your character’s ability scores, increase one of those scores by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Languages.&lt;/em&gt;&lt;/strong&gt; You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Creature Type.&lt;/em&gt;&lt;/strong&gt; You are a Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Size.&lt;/em&gt;&lt;/strong&gt; You are Medium.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Speed.&lt;/em&gt;&lt;/strong&gt; Your walking speed is 30 feet.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Astral Fire.&lt;/em&gt;&lt;/strong&gt; You know one of the following cantrips of your choice: dancing lights, light, or sacred flame. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race).&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Darkvision.&lt;/em&gt;&lt;/strong&gt; You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness as shades of gray.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Fey Ancestry.&lt;/em&gt;&lt;/strong&gt; You have advantage on saving throws you make to avoid or end the charmed condition on yourself.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Keen Senses.&lt;/em&gt;&lt;/strong&gt; You have proficiency in the Perception skill.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Starlight Step.&lt;/em&gt;&lt;/strong&gt; As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Astral Trance.&lt;/em&gt;&lt;/strong&gt; You don’t need to sleep, and magic can’t put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious.&lt;/p&gt;
+&lt;p class="indent"&gt;Whenever you finish this trance, you gain proficiency in one skill of your choice and with one weapon or tool of your choice, selected from the Player’s Handbook. You mystically acquire these proficiencies by drawing them from shared elven memory and the experiences of entities on the Astral Plane, and you retain them until you finish your next long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_HUMANOID_ELF" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_FIRE" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_DARKVISION" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_FEY_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_KEEN_SENSES" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_STARLIGHT_STEP" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_TRANCE" />
+		</rules>
+	</element>
+	<element name="Astral Fire" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_FIRE">
+		<meta>
+			<parent>Astral Elf</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You know one of the following cantrips of your choice: dancing lights, light, or sacred flame. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race).&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You can cast the cantrip, using {{astral-fire:spellcasting-ability}} as your spellcasting ability.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip, Astral Fire" supports="ID_PHB_SPELL_DANCING_LIGHTS|ID_PHB_SPELL_LIGHT|ID_PHB_SPELL_SACRED_FLAME" />
+			<select type="Racial Trait" name="Spellcasting Ability, Astral Fire" supports="Astral Fire Spellcasting Ability" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_FIRE_INTELLIGENCE">
+		<meta>
+			<parent>Astral Elf Astral Fire</parent>
+		</meta>
+		<compendium display="false" />
+		<supports>Astral Fire Spellcasting Ability</supports>
+		<requirements>ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_FIRE</requirements>
+		<description>
+			<html>&lt;p&gt;Intelligence is your spellcasting ability when you cast a cantrip with Astral Fire.&lt;/p&gt;
+&lt;div class="reference"&gt;
+	&lt;div element="ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_FIRE" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="astral-fire:spellcasting-ability" value="Intelligence" inline="true" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_FIRE_WISDOM">
+		<meta>
+			<parent>Astral Elf Astral Fire</parent>
+		</meta>
+		<compendium display="false" />
+		<supports>Astral Fire Spellcasting Ability</supports>
+		<requirements>ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_FIRE</requirements>
+		<description>
+			<html>&lt;p&gt;Wisdom is your spellcasting ability when you cast a cantrip with Astral Fire.&lt;/p&gt;
+&lt;div class="reference"&gt;
+	&lt;div element="ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_FIRE" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="astral-fire:spellcasting-ability" value="Wisdom" inline="true" />
+		</rules>
+	</element>
+	<element name="Charisma" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_FIRE_CHARISMA">
+		<meta>
+			<parent>Astral Elf Astral Fire</parent>
+		</meta>
+		<compendium display="false" />
+		<supports>Astral Fire Spellcasting Ability</supports>
+		<requirements>ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_FIRE</requirements>
+		<description>
+			<html>&lt;p&gt;Charisma is your spellcasting ability when you cast a cantrip with Astral Fire.&lt;/p&gt;
+&lt;div class="reference"&gt;
+	&lt;div element="ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_FIRE" /&gt;
+&lt;/div&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="astral-fire:spellcasting-ability" value="Charisma" inline="true" />
+		</rules>
+	</element>
+	<element name="Darkvision" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_DARKVISION">
+		<meta>
+			<parent>Astral Elf</parent>
+		</meta>
+		<compendium display="false" />
+		<description>
+			<html>&lt;p&gt;You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness as shades of gray.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false">
+			<description>You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness as shades of gray.</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+		</rules>
+	</element>
+	<element name="Fey Ancestry" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_FEY_ANCESTRY">
+		<meta>
+			<parent>Astral Elf</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You have advantage on saving throws you make to avoid or end the charmed condition on yourself.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws you make to avoid or end the charmed condition on yourself.</description>
+		</sheet>
+	</element>
+	<element name="Keen Senses" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_KEEN_SENSES">
+		<meta>
+			<parent>Astral Elf</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You have proficiency in the Perception skill.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Perception skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+	</element>
+	<element name="Starlight Step" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_STARLIGHT_STEP">
+		<meta>
+			<parent>Astral Elf</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
+			<description>You can magically teleport up to 30 feet to an unoccupied space you can see.</description>
+		</sheet>
+	</element>
+	<element name="Astral Trance" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_ASTRAL_ELF_ASTRAL_TRANCE">
+		<meta>
+			<parent>Astral Elf</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You don’t need to sleep, and magic can’t put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious.&lt;/p&gt;
+&lt;p class="indent"&gt;Whenever you finish this trance, you gain proficiency in one skill of your choice and with one weapon or tool of your choice, selected from the Player’s Handbook. You mystically acquire these proficiencies by drawing them from shared elven memory and the experiences of entities on the Astral Plane, and you retain them until you finish your next long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You don’t need to sleep, and magic can’t put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious. 
+Whenever you finish this trance, you gain proficiency in one skill of your choice and with one weapon or tool of your choice, selected from the Player’s Handbook. You mystically acquire these proficiencies by drawing them from shared elven memory and the experiences of entities on the Astral Plane, and you retain them until you finish your next long rest.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency, Astral Trance" supports="Skill" optional="true" />
+			<select type="Proficiency" name="Weapon or Tool Proficiency, Astral Trance" supports="Weapon||Tool" optional="true" />
+		</rules>
+	</element>
+	<element name="Autognome" type="Race" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACE_AUTOGNOME">
+		<description>
+			<html>&lt;p&gt;Autognomes are mechanical beings built by rock gnomes. Sometimes, because of a malfunction or a unique circumstance, an autognome becomes separated from its creator and strikes out on its own.&lt;/p&gt;
+&lt;p class="indent"&gt;An autognome bears a resemblance to its creator, and most autognomes are programmed to speak and understand Gnomish. The internal components used in an autognome’s manufacture can vary wildly; one autognome might have an actual beating heart in its chest cavity, while another might be powered by stardust or intricate clockwork gears.&lt;/p&gt;
+&lt;p class="indent"&gt;Roll on the Autognome History table or choose an entry that you like to identify what event set you on the path to adventure. If nothing on the table appeals to you, work with your DM to create an origin story for your character.&lt;/p&gt;
+&lt;p class="indent"&gt;Like gnomes, autognomes can live for centuries, typically up to 500 years.&lt;/p&gt;
+&lt;h5 class="caption"&gt;AUTOGNOME HISTORY&lt;/h5&gt;
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;&lt;td&gt;d6&lt;/td&gt;&lt;td&gt;History&lt;/td&gt;&lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;Your creator gave you autonomy and urged you to follow your dreams.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;Your creator died, leaving you to fend for yourself.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;A glitch caused you to forget your original programming. You don’t remember who made you or where you came from.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;You didn’t like how you were being treated by your creator, so you ran away from home.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;You were built to complete a special mission.&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;You felt trapped in the role for which you were built and abandoned your creator, determined to find a greater purpose.&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h4&gt;AUTOGNOME TRAITS&lt;/h4&gt;
+&lt;p&gt;You have the following racial traits.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Ability Score Increases.&lt;/em&gt;&lt;/strong&gt; When determining your character’s ability scores, increase one of those scores by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Languages.&lt;/em&gt;&lt;/strong&gt; You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Creature Type.&lt;/em&gt;&lt;/strong&gt; You are a Construct.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Size.&lt;/em&gt;&lt;/strong&gt; You are Small.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Speed.&lt;/em&gt;&lt;/strong&gt; Your walking speed is 30 feet.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Armored Casing.&lt;/em&gt;&lt;/strong&gt; You are encased in thin metal or some other durable material. While you aren’t wearing armor, your base Armor Class is 13 + your Dexterity modifier.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Built For Success.&lt;/em&gt;&lt;/strong&gt; You can add a d4 to one attack roll, ability check, or saving throw you make, and you can do so after seeing the d20 roll but before the effects of the roll are resolved. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Healing Machine.&lt;/em&gt;&lt;/strong&gt; If the mending spell is cast on you, you can spend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point).&lt;/p&gt;
+&lt;p class="indent"&gt;In addition, your creator designed you to benefit from several spells that preserve life but that normally don’t affect Constructs: cure wounds, healing word, mass cure wounds, mass healing word, and spare the dying.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Mechanical Nature.&lt;/em&gt;&lt;/strong&gt; You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being paralyzed or poisoned.&lt;/p&gt;
+&lt;p class="indent"&gt;You don’t need to eat, drink, or breathe.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Sentry’s Rest.&lt;/em&gt;&lt;/strong&gt; When you take a long rest, you spend at least 6 hours in an inactive, motionless state, instead of sleeping. In this state, you appear inert, but you remain conscious.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Specialized Design.&lt;/em&gt;&lt;/strong&gt; You gain two tool proficiencies of your choice, selected from the Player’s Handbook.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_CONSTRUCT" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_AUTOGNOME_ARMORED_CASING" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_AUTOGNOME_BUILT_FOR_SUCCESS" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_AUTOGNOME_HEALING_MACHINE" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_AUTOGNOME_MECHANICAL_NATURE" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_AUTOGNOME_SENTRYS_REST" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_AUTOGNOME_SPECIALIZED_DESIGN" />
+		</rules>
+	</element>
+	<element name="Armored Casing" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_AUTOGNOME_ARMORED_CASING">
+		<meta>
+			<parent>Autognome</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You are encased in thin metal or some other durable material. While you aren’t wearing armor, your base Armor Class is 13 + your Dexterity modifier.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>While you aren’t wearing armor, your AC is {{ac:autognome-armored-casing}}.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:autognome-armored-casing" value="13" />
+			<stat name="ac:autognome-armored-casing" value="dexterity:modifier" />
+			<stat name="ac:calculation" value="ac:autognome-armored-casing" bonus="calculation" equipped="[armor:none]" alt="Armored Casing (Autognome)" />
+		</rules>
+	</element>
+	<element name="Built For Success" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_AUTOGNOME_BUILT_FOR_SUCCESS">
+		<meta>
+			<parent>Autognome</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You can add a d4 to one attack roll, ability check, or saving throw you make, and you can do so after seeing the d20 roll but before the effects of the roll are resolved. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet usage="{{proficiency}}/Long Rest">
+			<description>You can add a d4 to one attack roll, ability check, or saving throw you make, and you can do so after seeing the d20 roll but before the effects of the roll are resolved.</description>
+		</sheet>
+	</element>
+	<element name="Healing Machine" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_AUTOGNOME_HEALING_MACHINE">
+		<meta>
+			<parent>Autognome</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;If the mending spell is cast on you, you can spend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point).&lt;/p&gt;
+&lt;p class="indent"&gt;In addition, your creator designed you to benefit from several spells that preserve life but that normally don’t affect Constructs: cure wounds, healing word, mass cure wounds, mass healing word, and spare the dying.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>If the mending spell is cast on you, you can spend a Hit Die, and regain hp equal to the roll + {{autognome:healing-machine-hp}}. 
+In addition, your creator designed you to benefit from several spells that preserve life but that normally don’t affect Constructs: cure wounds, healing word, mass cure wounds, mass healing word, and spare the dying.</description>
+		</sheet>
+		<rules>
+			<stat name="autognome:healing-machine-hp" value="1" bonus="base" />
+			<stat name="autognome:healing-machine-hp" value="constitution:modifier" bonus="base" />
+		</rules>
+	</element>
+	<element name="Mechanical Nature" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_AUTOGNOME_MECHANICAL_NATURE">
+		<meta>
+			<parent>Autognome</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being paralyzed or poisoned.&lt;/p&gt;
+&lt;p class="indent"&gt;You don’t need to eat, drink, or breathe.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being paralyzed or poisoned. 
+You don’t need to eat, drink, or breathe.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+		</rules>
+	</element>
+	<element name="Sentry’s Rest" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_AUTOGNOME_SENTRYS_REST">
+		<meta>
+			<parent>Autognome</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;When you take a long rest, you spend at least 6 hours in an inactive, motionless state, instead of sleeping. In this state, you appear inert, but you remain conscious.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>When you take a long rest, you spend at least 6 hours in an inactive, motionless state, instead of sleeping. In this state, you appear inert, but you remain conscious.</description>
+		</sheet>
+	</element>
+	<element name="Specialized Design" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_AUTOGNOME_SPECIALIZED_DESIGN">
+		<meta>
+			<parent>Autognome</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You gain two tool proficiencies of your choice, selected from the Player’s Handbook.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false">
+			<description>You gain two tool proficiencies of your choice, selected from the Player’s Handbook.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Tool Proficiency, Specialized Design" supports="Tool" number="2" />
+		</rules>
+	</element>
+	<element name="Giff" type="Race" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACE_GIFF">
+		<description>
+			<html>&lt;p&gt;Giff are tall, broad-shouldered folk with hippo-like features. Some have smooth skin, while others have short bristles on their faces and the tops of their heads. As beings of impressive size and unforgettable appearance, giff are noticed wherever they go.&lt;/p&gt;
+&lt;p class="indent"&gt;Most giff believe they originated on one world, but their home world is now the stuff of legend, because no living giff has seen it or knows where it is. The divine beings who created giff have likewise been forgotten. Their titanic petrified bodies drift on the Astral Sea, isolated and unrecognizable in their current forms.&lt;/p&gt;
+&lt;p class="indent"&gt;Although they don’t realize it, giff are drawn to the Astral Plane because, on a deep psychic level, they remain connected to their creator gods, who have just enough divine spark left in them to imbue giff with sparks of their own, which giff have learned to channel through their weapons. Most giff have no idea where this so-called astral spark comes from, but they feel its presence most strongly when they are in Wildspace or the Astral Sea.&lt;/p&gt;
+&lt;p class="indent"&gt;Giff are split into two camps concerning how their name is pronounced. Half of them say it with a hard g, half with a soft g. Disagreements over the correct pronunciation often blossom into hard feelings, loud arguments, and head-butting contests, but they rarely escalate beyond that.&lt;/p&gt;
+&lt;h4&gt;GIFF TRAITS&lt;/h4&gt;
+&lt;p&gt;You have the following racial traits.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Ability Score Increases.&lt;/em&gt;&lt;/strong&gt; When determining your character’s ability scores, increase one of those scores by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Languages.&lt;/em&gt;&lt;/strong&gt; You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Creature Type.&lt;/em&gt;&lt;/strong&gt; You are a Humanoid.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Size.&lt;/em&gt;&lt;/strong&gt; You are Medium.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Speed.&lt;/em&gt;&lt;/strong&gt; Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Astral Spark.&lt;/em&gt;&lt;/strong&gt; Your psychic connection to the Astral Plane enables you to mystically access a spark of divine power, which you can channel through your weapons.&lt;/p&gt;
+&lt;p class="indent"&gt;When you hit a target with a simple or martial weapon, you can cause the target to take extra force damage equal to your proficiency bonus.&lt;/p&gt;
+&lt;p class="indent"&gt;You can use this trait a number of times equal to your proficiency bonus, but you can use it no more than once per turn. You regain all expended uses when you finish a long rest.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Firearms Mastery.&lt;/em&gt;&lt;/strong&gt; You have a mystical connection to firearms that traces back to the gods of the giff, who delighted in such weapons. You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn’t impose disadvantage on your attack roll.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Hippo Build.&lt;/em&gt;&lt;/strong&gt; You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_HUMANOID" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_GIFF_SPEED" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_GIFF_ASTRAL_SPARK" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_GIFF_FIREARMS_MASTERY" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_GIFF_HIPPO_BUILD" />
+		</rules>
+	</element>
+	<element name="Speed" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_GIFF_SPEED">
+		<meta>
+			<parent>Giff</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false">
+			<description>Your walking speed is 30 feet, and you have a swimming speed equal to your walking speed.</description>
+		</sheet>
+		<rules>
+			<stat name="speed:swim" value="speed" bonus="base" />
+		</rules>
+	</element>
+	<element name="Astral Spark" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_GIFF_ASTRAL_SPARK">
+		<meta>
+			<parent>Giff</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Your psychic connection to the Astral Plane enables you to mystically access a spark of divine power, which you can channel through your weapons.&lt;/p&gt;
+&lt;p class="indent"&gt;When you hit a target with a simple or martial weapon, you can cause the target to take extra force damage equal to your proficiency bonus.&lt;/p&gt;
+&lt;p class="indent"&gt;You can use this trait a number of times equal to your proficiency bonus, but you can use it no more than once per turn. You regain all expended uses when you finish a long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>When you hit a target with a simple or martial weapon, you can cause the target to take {{proficiency}} extra force damage.
+You can use this trait no more than once per turn.</description>
+		</sheet>
+	</element>
+	<element name="Firearms Mastery" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_GIFF_FIREARMS_MASTERY">
+		<meta>
+			<parent>Giff</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You have a mystical connection to firearms that traces back to the gods of the giff, who delighted in such weapons. You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn’t impose disadvantage on your attack roll.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn’t impose disadvantage on your attack roll.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_FIREARMS" />
+		</rules>
+	</element>
+	<element name="Hippo Build" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_GIFF_HIPPO_BUILD">
+		<meta>
+			<parent>Giff</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+		</rules>
+	</element>
+	<element name="Hadozee" type="Race" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACE_HADOZEE">
+		<description>
+			<html>&lt;p&gt;The first hadozees were timid mammals no bigger than housecats. Hunted by larger natural predators, the hadozees took to the trees and evolved wing-like flaps that enabled them to glide from branch to branch.&lt;/p&gt;
+&lt;p class="indent"&gt;Several hundred years ago, a wizard visited Yazir, the hadozee home world, with a small fleet of spelljamming ships. Under the wizard’s direction, apprentices laid magic traps and captured dozens of hadozees. The wizard fed the captives an experimental elixir that enlarged them and turned them into sapient, bipedal beings. The elixir had the side effect of intensifying the hadozees’ panic response, making them more resilient when harmed. The wizard’s plan was to create an army of enhanced hadozee warriors for sale to the highest bidder. But instead, the wizard’s apprentices grew fond of the hadozees and helped them escape. The apprentices and the hadozees were forced to kill the wizard, after which they fled, taking with them all remaining vials of the wizard’s experimental elixir.&lt;/p&gt;
+&lt;p class="indent"&gt;With the help of their liberators, the hadozees returned to their home world and used the elixir to create more of their kind. In time, all hadozee newborns came to possess the traits of the enhanced hadozees. Then, centuries ago, hadozees took to the stars, leaving Yazir’s fearsome predators behind.&lt;/p&gt;
+&lt;p class="indent"&gt;In addition to being natural climbers, hadozees have feet that are as dexterous as their hands, even to the extent of having opposable thumbs. Membranes of skin hang loosely from their arms and legs. When stretched taut, these membranes enable hadozees to glide. Hadozees wrap these wings around themselves to keep warm.&lt;/p&gt;
+&lt;h4&gt;HADOZEE TRAITS&lt;/h4&gt;
+&lt;p&gt;You have the following racial traits.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Ability Score Increases.&lt;/em&gt;&lt;/strong&gt; When determining your character’s ability scores, increase one of those scores by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Languages.&lt;/em&gt;&lt;/strong&gt; You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Creature Type.&lt;/em&gt;&lt;/strong&gt; You are a Humanoid.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Size.&lt;/em&gt;&lt;/strong&gt; You are Medium or Small. You choose the size when you select this race.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Speed.&lt;/em&gt;&lt;/strong&gt; Your walking speed is 30 feet, and you have a climbing speed equal to your walking speed.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Dexterous Feet.&lt;/em&gt;&lt;/strong&gt; As a bonus action, you can use your feet to manipulate an object, open or close a door or container, or pick up or set down a Tiny object.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Glide.&lt;/em&gt;&lt;/strong&gt; If you are not incapacitated or wearing heavy armor, you can extend your skin membranes and glide. When you do so, you can perform the following aerial maneuvers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can move up to 5 feet horizontally for every 1 foot you descend in the air, at no movement cost to you.&lt;/li&gt;
+&lt;li&gt;When you would take damage from a fall, you can use your reaction to reduce the fall’s damage to 0.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Hadozee Resilience.&lt;/em&gt;&lt;/strong&gt; The magic that runs in your veins heightens your natural defenses. When you take damage, you can use your reaction to roll a d6. Add your proficiency bonus to the number rolled, and reduce the damage you take by an amount equal to that total (minimum of 0 damage).&lt;/p&gt;
+&lt;p class="indent"&gt;You can use this trait a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_HUMANOID" />
+			<select type="Racial Trait" name="Size, Hadozee" supports="CORE_LINEAGE_SIZE,(SMALL||MEDIUM)" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_HADOZEE_SPEED" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_HADOZEE_DEXTEROUS_FEET" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_HADOZEE_GLIDE" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_HADOZEE_HADOZEE_RESILIENCE" />
+		</rules>
+	</element>
+	<element name="Speed" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_HADOZEE_SPEED">
+		<meta>
+			<parent>Hadozee</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Your walking speed is 30 feet, and you have a climbing speed equal to your walking speed.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false">
+			<description>Your walking speed is 30 feet, and you have a climbing speed equal to your walking speed.</description>
+		</sheet>
+		<rules>
+			<stat name="speed:climb" value="speed" bonus="base" />
+		</rules>
+	</element>
+	<element name="Dexterous Feet" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_HADOZEE_DEXTEROUS_FEET">
+		<meta>
+			<parent>Hadozee</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;As a bonus action, you can use your feet to manipulate an object, open or close a door or container, or pick up or set down a Tiny object.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You can use your feet to manipulate an object, open or close a door or container, or pick up or set down a Tiny object.</description>
+		</sheet>
+	</element>
+	<element name="Glide" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_HADOZEE_GLIDE">
+		<meta>
+			<parent>Hadozee</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;If you are not incapacitated or wearing heavy armor, you can extend your skin membranes and glide. When you do so, you can perform the following aerial maneuvers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can move up to 5 feet horizontally for every 1 foot you descend in the air, at no movement cost to you.&lt;/li&gt;
+&lt;li&gt;When you would take damage from a fall, you can use your reaction to reduce the fall’s damage to 0.&lt;/li&gt;
+&lt;/ul&gt;</html>
+		</description>
+		<sheet>
+			<description>If you are not incapacitated or wearing heavy armor, you can extend your skin membranes and glide. When you do so, you can perform the following aerial maneuvers: 
+You can move up to 5 feet horizontally for every 1 foot you descend in the air, at no movement cost to you. 
+When you would take damage from a fall, you can use your reaction to reduce the fall’s damage to 0.</description>
+		</sheet>
+	</element>
+	<element name="Hadozee Resilience" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_HADOZEE_HADOZEE_RESILIENCE">
+		<meta>
+			<parent>Hadozee</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;The magic that runs in your veins heightens your natural defenses. When you take damage, you can use your reaction to roll a d6. Add your proficiency bonus to the number rolled, and reduce the damage you take by an amount equal to that total (minimum of 0 damage).&lt;/p&gt;
+&lt;p class="indent"&gt;You can use this trait a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Reaction">
+			<description>When you take damage, you can reduce the damage you take by 1d6 + {{proficiency}} (minimum of 0 damage). </description>
+		</sheet>
+	</element>
+	<element name="Plasmoid" type="Race" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACE_PLASMOID">
+		<description>
+			<html>&lt;p&gt;Plasmoids are amorphous beings with no typical shape. In the presence of other folk, they often adopt a similar shape, but there’s little chance of mistaking a plasmoid for anything else. They consume food by osmosis, the way an amoeba does, and excrete waste through tiny pores. They breathe by absorbing oxygen through another set of pores, and their limbs are strong and flexible enough to grasp and manipulate weapons and tools. Although most plasmoids are translucent gray, they can alter their color and translucence by absorbing dyes through their pores.&lt;/p&gt;
+&lt;p class="indent"&gt;Plasmoids don’t have internal organs of the usual sort. Their bodies are composed of cells, fibers, plasma-like ooze, and clusters of nerves. These nerves enable a plasmoid to detect light, heat, texture, sound, pain, and vibrations. Plasmoids can stiffen the outer layers of their bodies to maintain a humanlike shape, so they can wear clothing and accessories. They speak by forcing air out of tubular cavities that constrict to produce sound.&lt;/p&gt;
+&lt;p class="indent"&gt;When plasmoids sleep, they lose their rigidity and spread out and are thus sometimes mistaken for a rock or some other feature of the environment.&lt;/p&gt;
+&lt;h4&gt;PLASMOID TRAITS&lt;/h4&gt;
+&lt;p&gt;You have the following racial traits.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Ability Score Increases.&lt;/em&gt;&lt;/strong&gt; When determining your character’s ability scores, increase one of those scores by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Languages.&lt;/em&gt;&lt;/strong&gt; You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Creature Type.&lt;/em&gt;&lt;/strong&gt; You are an Ooze.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Size.&lt;/em&gt;&lt;/strong&gt; You are Medium or Small. You choose the size when you select this race.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Speed.&lt;/em&gt;&lt;/strong&gt; Your walking speed is 30 feet.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Amorphous.&lt;/em&gt;&lt;/strong&gt; You can squeeze through a space as narrow as 1 inch wide, provided you are wearing and carrying nothing. You have advantage on ability checks you make to initiate or escape a grapple.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Darkvision.&lt;/em&gt;&lt;/strong&gt; You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Hold Breath.&lt;/em&gt;&lt;/strong&gt; You can hold your breath for 1 hour.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Natural Resilience.&lt;/em&gt;&lt;/strong&gt; You have resistance to acid and poison damage, and you have advantage on saving throws against being poisoned.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Shape Self.&lt;/em&gt;&lt;/strong&gt; As an action, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob. While you have a humanlike shape, you can wear clothing and armor made for a Humanoid of your size.&lt;/p&gt;
+&lt;p class="indent"&gt;As a bonus action, you can extrude a pseudopod that is up to 6 inches wide and 10 feet long or reabsorb it into your body. As part of the same bonus action, you can use this pseudopod to manipulate an object, open or close a door or container, or pick up or set down a Tiny object. The pseudopod contains no sensory organs and can’t attack, activate magic items, or lift more than 10 pounds.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_OOZE" />
+			<select type="Racial Trait" name="Size, Plasmoid" supports="CORE_LINEAGE_SIZE,(SMALL||MEDIUM)" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_PLASMOID_AMORPHOUS" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_PLASMOID_DARKVISION" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_PLASMOID_HOLD_BREATH" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_PLASMOID_NATURAL_RESILIENCE" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_PLASMOID_SHAPE_SELF" />
+		</rules>
+	</element>
+	<element name="Amorphous" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_PLASMOID_AMORPHOUS">
+		<meta>
+			<parent>Plasmoid</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You can squeeze through a space as narrow as 1 inch wide, provided you are wearing and carrying nothing. You have advantage on ability checks you make to initiate or escape a grapple.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You can squeeze through a space as narrow as 1 inch wide, provided you are wearing and carrying nothing. You have advantage on ability checks you make to initiate or escape a grapple.</description>
+		</sheet>
+	</element>
+	<element name="Darkvision" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_PLASMOID_DARKVISION">
+		<meta>
+			<parent>Plasmoid</parent>
+		</meta>
+		<compendium display="false" />
+		<description>
+			<html>&lt;p&gt;You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false">
+			<description>You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+		</rules>
+	</element>
+	<element name="Hold Breath" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_PLASMOID_HOLD_BREATH">
+		<meta>
+			<parent>Plasmoid</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You can hold your breath for 1 hour.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You can hold your breath for 1 hour.</description>
+		</sheet>
+	</element>
+	<element name="Natural Resilience" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_PLASMOID_NATURAL_RESILIENCE">
+		<meta>
+			<parent>Plasmoid</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You have resistance to acid and poison damage, and you have advantage on saving throws against being poisoned.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You have resistance to acid and poison damage, and you have advantage on saving throws against being poisoned.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+		</rules>
+	</element>
+	<element name="Shape Self" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_PLASMOID_SHAPE_SELF">
+		<meta>
+			<parent>Plasmoid</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;As an action, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob. While you have a humanlike shape, you can wear clothing and armor made for a Humanoid of your size.&lt;/p&gt;
+&lt;p class="indent"&gt;As a bonus action, you can extrude a pseudopod that is up to 6 inches wide and 10 feet long or reabsorb it into your body. As part of the same bonus action, you can use this pseudopod to manipulate an object, open or close a door or container, or pick up or set down a Tiny object. The pseudopod contains no sensory organs and can’t attack, activate magic items, or lift more than 10 pounds.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Action">
+			<description>You can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob. While you have a humanlike shape, you can wear clothing and armor made for a Humanoid of your size. 
+As a bonus action, you can extrude a pseudopod that is up to 6 inches wide and 10 feet long or reabsorb it into your body. As part of the same bonus action, you can use this pseudopod to manipulate an object, open or close a door or container, or pick up or set down a Tiny object. The pseudopod contains no sensory organs and can’t attack, activate magic items, or lift more than 10 pounds.</description>
+		</sheet>
+	</element>
+	<element name="Thri-Kreen" type="Race" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACE_THRI_KREEN">
+		<description>
+			<html>&lt;p&gt;Thri-kreen have insectile features and two pairs of arms. Their bodies are encased in protective chitin. They can alter the coloration of this carapace to blend in with their natural surroundings.&lt;/p&gt;
+&lt;p class="indent"&gt;Although thri-kreen don’t sleep, they do require periods of inactivity to revitalize themselves. During these periods, they are fully aware of what’s happening around them.&lt;/p&gt;
+&lt;p class="indent"&gt;Thri-kreen speak by clacking their mandibles and waving their antennae, indicating to other thri-kreen what they are thinking and feeling. Other creatures find this method of communication difficult to interpret and impossible to duplicate. To interact with other folk, thri-kreen rely on a form of telepathy.&lt;/p&gt;
+&lt;h4&gt;THRI-KREEN TRAITS&lt;/h4&gt;
+&lt;p&gt;You have the following racial traits.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Ability Score Increases.&lt;/em&gt;&lt;/strong&gt; When determining your character’s ability scores, increase one of those scores by 2 and increase a different score by 1, or increase three different scores by 1. Follow this rule regardless of the method you use to determine the scores, such as rolling or point buy.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Languages.&lt;/em&gt;&lt;/strong&gt; You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Creature Type.&lt;/em&gt;&lt;/strong&gt; You are a Monstrosity.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Size.&lt;/em&gt;&lt;/strong&gt; You are Medium or Small. You choose the size when you select this race.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Speed.&lt;/em&gt;&lt;/strong&gt; Your walking speed is 30 feet.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Chameleon Carapace.&lt;/em&gt;&lt;/strong&gt; While you aren’t wearing armor, your carapace gives you a base Armor Class of 13 + your Dexterity modifier.&lt;/p&gt;
+&lt;p class="indent"&gt;As an action, you can change the color of your carapace to match the color and texture of your surroundings, giving you advantage on Dexterity (Stealth) checks made to hide in those surroundings.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Darkvision.&lt;/em&gt;&lt;/strong&gt; You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Secondary Arms.&lt;/em&gt;&lt;/strong&gt; You have two slightly smaller secondary arms below your primary pair of arms. The secondary arms can manipulate an object, open or close a door or container, pick up or set down a Tiny object, or wield a weapon that has the light property.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Sleepless.&lt;/em&gt;&lt;/strong&gt; You do not require sleep and can remain conscious during a long rest, though you must still refrain from strenuous activity to gain the benefit of the rest.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Thri-Kreen Telepathy.&lt;/em&gt;&lt;/strong&gt; Without the assistance of magic, you can’t speak the non-thri-kreen languages you know. Instead you use telepathy to convey your thoughts. You have the magical ability to transmit your thoughts mentally to willing creatures you can see within 120 feet of yourself. A contacted creature doesn’t need to share a language with you to understand your thoughts, but it must be able to understand at least one language. Your telepathic link to a creature is broken if you and the creature move more than 120 feet apart, if either of you is incapacitated, or if either of you mentally breaks the contact (no action required).&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_ASI" />
+			<grant type="Grants" id="ID_WOTC_GRANTS_DEFAULT_RACIAL_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_MONSTROSITY" />
+			<select type="Racial Trait" name="Size, Thri-Kreen" supports="CORE_LINEAGE_SIZE,(SMALL||MEDIUM)" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_THRI_KREEN_CHAMELEON_CARAPACE" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_THRI_KREEN_DARKVISION" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_THRI_KREEN_SECONDARY_ARMS" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_THRI_KREEN_SLEEPLESS" />
+			<grant type="Racial Trait" id="ID_WOTC_SJAIS_RACIAL_TRAIT_THRI_KREEN_THRI_KREEN_TELEPATHY" />
+		</rules>
+	</element>
+	<element name="Chameleon Carapace" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_THRI_KREEN_CHAMELEON_CARAPACE">
+		<meta>
+			<parent>Thri-Kreen</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;While you aren’t wearing armor, your carapace gives you a base Armor Class of 13 + your Dexterity modifier.&lt;/p&gt;
+&lt;p class="indent"&gt;As an action, you can change the color of your carapace to match the color and texture of your surroundings, giving you advantage on Dexterity (Stealth) checks made to hide in those surroundings.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Action">
+			<description>While you aren’t wearing armor, your AC is {{ac:thri-kreen:chameleon-carapace}}. 
+You can change the color of your carapace to match the color and texture of your surroundings, giving you advantage on Stealth checks made to hide in those surroundings.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:thri-kreen:chameleon-carapace" value="13" />
+			<stat name="ac:thri-kreen:chameleon-carapace" value="dexterity:modifier" />
+			<stat name="ac:calculation" value="ac:thri-kreen:chameleon-carapace" bonus="calculation" equipped="[armor:none]" alt="Chameleon Carapace (Thri-Kreen)" />
+		</rules>
+	</element>
+	<element name="Darkvision" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_THRI_KREEN_DARKVISION">
+		<meta>
+			<parent>Thri-Kreen</parent>
+		</meta>
+		<compendium display="false" />
+		<description>
+			<html>&lt;p&gt;You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.&lt;/p&gt;</html>
+		</description>
+		<sheet display="false">
+			<description>You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</description>
+		</sheet>
+		<rules>
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+		</rules>
+	</element>
+	<element name="Secondary Arms" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_THRI_KREEN_SECONDARY_ARMS">
+		<meta>
+			<parent>Thri-Kreen</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You have two slightly smaller secondary arms below your primary pair of arms. The secondary arms can manipulate an object, open or close a door or container, pick up or set down a Tiny object, or wield a weapon that has the light property.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You have two slightly smaller secondary arms below your primary pair of arms. The secondary arms can manipulate an object, open or close a door or container, pick up or set down a Tiny object, or wield a weapon that has the light property.</description>
+		</sheet>
+	</element>
+	<element name="Sleepless" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_THRI_KREEN_SLEEPLESS">
+		<meta>
+			<parent>Thri-Kreen</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You do not require sleep and can remain conscious during a long rest, though you must still refrain from strenuous activity to gain the benefit of the rest.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You do not require sleep and can remain conscious during a long rest, though you must still refrain from strenuous activity to gain the benefit of the rest.</description>
+		</sheet>
+	</element>
+	<element name="Thri-Kreen Telepathy" type="Racial Trait" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_RACIAL_TRAIT_THRI_KREEN_THRI_KREEN_TELEPATHY">
+		<meta>
+			<parent>Thri-Kreen</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Without the assistance of magic, you can’t speak the non-thri-kreen languages you know. Instead you use telepathy to convey your thoughts. You have the magical ability to transmit your thoughts mentally to willing creatures you can see within 120 feet of yourself. A contacted creature doesn’t need to share a language with you to understand your thoughts, but it must be able to understand at least one language. Your telepathic link to a creature is broken if you and the creature move more than 120 feet apart, if either of you is incapacitated, or if either of you mentally breaks the contact (no action required).&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Without the assistance of magic, you can’t speak the non-thri-kreen languages you know. Instead you use telepathy to convey your thoughts. You have the magical ability to transmit your thoughts mentally to willing creatures you can see within 120 feet of yourself. A contacted creature doesn’t need to share a language with you to understand your thoughts, but it must be able to understand at least one language. Your telepathic link to a creature is broken if you and the creature move more than 120 feet apart, if either of you is incapacitated, or if either of you mentally breaks the contact (no action required).</description>
+		</sheet>
+	</element>
+	<element name="Astral Drifter" type="Background" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_BACKGROUND_ASTRAL_DRIFTER">
+		<description>
+			<html>&lt;p&gt;For longer than you can remember, you have traversed the Astral Sea. There, you experienced firsthand the wonders of the Silver Void: you stopped aging and no longer felt hunger or thirst. Driven by wanderlust, you drifted from one part of the Astral Sea to another, like a mote of dust on the wind. You have lost count of the decades that have passed since you arrived here.&lt;/p&gt;
+&lt;p class="indent"&gt;In your travels, you have camped on the petrified hulks of dead gods and narrowly escaped the psychic winds that sweep across the Astral Sea while also avoiding prolonged contact with the plane’s most dangerous denizens.&lt;/p&gt;
+&lt;ul class="unstyled mb"&gt;
+	&lt;li&gt;&lt;strong&gt;Skill Proficiencies:&lt;/strong&gt; Insight, Religion&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Two of your choice (Celestial or Gith recommended)&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Equipment:&lt;/strong&gt; A set of traveler’s clothes, a diary, an ink pen, a bottle of ink, and a pouch containing 10 gp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;LONGEVITY&lt;/h5&gt;
+&lt;p&gt;You are 20d6 years older than you look, because you have spent that much time in the Astral Sea without aging.&lt;/p&gt;
+&lt;div element="ID_WOTC_SJAIS_BACKGROUND_FEATURE_ASTRAL_DRIFTER_DIVINE_CONTACT" /&gt;</html>
+		</description>
+		<setters>
+			<set name="short">Insight, Religion, 2 Languages</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
+			<select type="Language" name="Language, Astral Drifter" supports="Standard||Exotic" number="2" />
+			<grant type="Background Feature" id="ID_WOTC_SJAIS_BACKGROUND_FEATURE_ASTRAL_DRIFTER_DIVINE_CONTACT" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Variant" name="Variant Astral Drifter" supports="Background Variant Astral Drifter" optional="true" />
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+		</rules>
+	</element>
+	<element name="Feature: Divine Contact" type="Background Feature" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_BACKGROUND_FEATURE_ASTRAL_DRIFTER_DIVINE_CONTACT">
+		<meta>
+			<parent>Astral Drifter</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You gain the Magic Initiate feat from the Player’s Handbook and must choose cleric for the feat.&lt;/p&gt;
+&lt;p class="indent"&gt;In the Astral Sea, you crossed paths with a wandering deity. The encounter was brief and nonviolent, yet it made a lasting impression on you. This deity saw fit to share one secret or obscure bit of cosmic lore with you. Work with your DM to determine the details of this knowledge and its impact on the campaign.&lt;/p&gt;
+&lt;p class="indent"&gt;Roll on the Divine Contact table to determine which deity you encountered, or work with your DM to identify a more suitable choice.&lt;/p&gt;
+&lt;h5 class="caption"&gt;DIVINE CONTACT&lt;/h5&gt;
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;&lt;td class="col-10 center"&gt;d10&lt;/td&gt;&lt;td&gt;Wandering Deity&lt;/td&gt;&lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;1&lt;/td&gt;&lt;td&gt;Corellon, god of art and magic (chaotic good)&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;2&lt;/td&gt;&lt;td&gt;Tymora, god of good fortune (chaotic good)&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;3&lt;/td&gt;&lt;td&gt;Fharlanghn, god of horizons and travel (neutral good)&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;4&lt;/td&gt;&lt;td&gt;Istus, god of fate and destiny (neutral)&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;5&lt;/td&gt;&lt;td&gt;Nuada, god of war and warriors (neutral)&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;6&lt;/td&gt;&lt;td&gt;Zivilyn, god of wisdom (neutral)&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;7&lt;/td&gt;&lt;td&gt;Arawn, god of life and death (neutral evil)&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;8&lt;/td&gt;&lt;td&gt;Hecate, god of magic and moons (chaotic evil)&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;9&lt;/td&gt;&lt;td&gt;Celestian, god of stars and wanderers (neutral)&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;10&lt;/td&gt;&lt;td&gt;Ptah, god of knowledge and secrets (lawful neutral)&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<sheet>
+			<description>You gain the Magic Initiate feat from the Player’s Handbook and must choose cleric for the feat. 
+In the Astral Sea, you crossed paths with a wandering deity. The encounter was brief and nonviolent, yet it made a lasting impression on you. This deity saw fit to share one secret or obscure bit of cosmic lore with you. Work with your DM to determine the details of this knowledge and its impact on the campaign. 
+Roll on the Divine Contact table to determine which deity you encountered, or work with your DM to identify a more suitable choice.</description>
+		</sheet>
+		<rules>
+			<grant type="Feat" id="ID_PHB_FEAT_MAGICINITIATE" />
+		</rules>
+	</element>
+	<element name="Wildspacer" type="Background" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_BACKGROUND_WILDSPACER">
+		<description>
+			<html>&lt;p&gt;You were raised in the void of Wildspace—home to asteroid miners, moon farmers, and other hardy folk. Perhaps you grew up in a far-flung settlement such as the Rock of Bral (described in chapter 3), or you spent your early years on the crew of a spelljamming ship, performing helpful chores such as swabbing the deck, loading and ofloading cargo, and scraping barnacles off the hull.&lt;/p&gt;
+&lt;p class="indent"&gt;Whatever your history, life in Wildspace has toughened you so well that you are as brave as a miniature giant space hamster when it comes to facing the terrors and other challenges of the airless night.&lt;/p&gt;
+&lt;ul class="unstyled mb"&gt;
+	&lt;li&gt;&lt;strong&gt;Skill Proficiencies:&lt;/strong&gt; Athletics, Survival&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Tool Proficiencies:&lt;/strong&gt; Navigator’s tools, vehicles (space)&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Equipment:&lt;/strong&gt; A belaying pin (club), a set of traveler’s clothes, a grappling hook, 50 feet of hempen rope, and a pouch containing 10 gp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;CLOSE ENCOUNTER&lt;/h5&gt;
+&lt;p&gt;You had a harrowing encounter with one of Wildspace’s many terrors. You escaped with your life, but the encounter left you with a scar or two, or perhaps a recurring nightmare. Roll on the Close Encounter table to determine which creature nearly got the best of you. Creatures marked with an asterisk appear in Boo’s Astral Menagerie; the others are described in the Monster Manual.&lt;/p&gt;
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;&lt;td class="col-10 center"&gt;d10&lt;/td&gt;&lt;td&gt;Creature&lt;/td&gt;&lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;1&lt;/td&gt;&lt;td&gt;Beholder&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;2&lt;/td&gt;&lt;td&gt;Cosmic horror*&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;3&lt;/td&gt;&lt;td&gt;Feyr*&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;4&lt;/td&gt;&lt;td&gt;Lunar dragon*&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;5&lt;/td&gt;&lt;td&gt;Mind flayer&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;6&lt;/td&gt;&lt;td&gt;Neh-thalggu*&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;7&lt;/td&gt;&lt;td&gt;Neogi*&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;8&lt;/td&gt;&lt;td&gt;Space clown*&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;9&lt;/td&gt;&lt;td&gt;Vampirate*&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td class="center"&gt;10&lt;/td&gt;&lt;td&gt;Void scavver*&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;div element="ID_WOTC_SJAIS_BACKGROUND_FEATURE_WILDSPACER_WILDSPACE_ADAPTATION" /&gt;</html>
+		</description>
+		<setters>
+			<set name="short">Athletics, Survival, Navigator’s Tools, Vehicles (space)</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_SPACE" />
+			<grant type="Background Feature" id="ID_WOTC_SJAIS_BACKGROUND_FEATURE_WILDSPACER_WILDSPACE_ADAPTATION" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE" />
+			<select type="Background Variant" name="Variant Wildspacer" supports="Background Variant Wildspacer" optional="true" />
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+		</rules>
+	</element>
+	<element name="Feature: Wildspace Adaptation" type="Background Feature" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_BACKGROUND_FEATURE_WILDSPACER_WILDSPACE_ADAPTATION">
+		<meta>
+			<parent>Wildspacer</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;You gain the Tough feat from the Player’s Handbook. In addition, you learned how to adapt to zero gravity. Being weightless doesn’t give you disadvantage on any of your melee attack rolls (see “Weightlessness” in chapter 2).&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You gain the Tough feat from the Player’s Handbook. In addition, you learned how to adapt to zero gravity. Being weightless doesn’t give you disadvantage on any of your melee attack rolls (see “Weightlessness” in chapter 2).</description>
+		</sheet>
+		<rules>
+			<grant type="Feat" id="ID_PHB_FEAT_TOUGH" />
+		</rules>
+	</element>
+	<element name="Tool Proficiency (Vehicles (space))" type="Proficiency" source="Spelljammer: Adventures in Space" id="ID_PROFICIENCY_TOOL_PROFICIENCY_VEHICLES_SPACE">
+		<supports>Tool, Vehicles</supports>
+		<sheet alt="Vehicles (Space)" />
+	</element>
+	<element name="Air Bubble" type="Spell" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_SPELL_AIR_BUBBLE">
+		<supports>Druid, Ranger, Sorcerer, Wizard, Artificer</supports>
+		<description>
+			<html>&lt;p&gt;You create a spectral globe around the head of a willing creature you can see within range. The globe is filled with fresh air that lasts until the spell ends. If the creature has more than one head, the globe of air appears around only one of its heads (which is all the creature needs to avoid suffocation, assuming that all its heads share the same respiratory system).&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 3rd level or higher, you can create two additional globes of fresh air for each slot level above 2nd.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="level">2</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="duration">24 hours</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Create Spelljamming Helm" type="Spell" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_SPELL_CREATE_SPELLJAMMING_HELM">
+		<supports>Wizard, Artificer</supports>
+		<description>
+			<html>&lt;p&gt;Holding the rod used in the casting of the spell, you touch a Large or smaller chair that is unoccupied. The rod disappears, and the chair is transformed into a spelljamming helm.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="level">5</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">Touch</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a crystal rod worth at least 5,000 gp, which the spell consumes</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Fish Suit" type="Magic Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_MAGIC_ITEM_FISH_SUIT">
+		<description>
+			<html>&lt;p&gt;This bulky suit, which fully encases your head and body, takes 1 minute to don or doff. While worn, it enables you to breathe in an airless environment and renders you immune to the harmful effects of any gas that surrounds you. The suit also grants you a swimming speed equal to your walking speed while underwater, or a flying speed equal to your walking speed in an environment with no gravity.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Spelljamming Helm" type="Magic Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_MAGIC_ITEM_SPELLJAMMING_HELM">
+		<description>
+			<html>&lt;p&gt;The function of this ornate chair is to propel and maneuver a ship on which it has been installed through space and air. It can also propel and maneuver a ship on water or underwater, provided the ship is built for such travel. The ship in question must weigh 1 ton or more.&lt;/p&gt;
+&lt;p class="indent"&gt;The sensation of being attuned to a spelljamming helm is akin to the pins-and-needles effect one experiences after one’s arm or leg falls asleep, but not as painful.&lt;/p&gt;
+&lt;p class="indent"&gt;While attuned to a spelljamming helm and sitting in it, you gain the following abilities for as long as you maintain concentration (as if concentrating on a spell):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can use the spelljamming helm to move the ship through space, air, or water up to the ship’s speed. If the ship is in space and no other objects weighing 1 ton or more are within 1 mile of it, you can use the spelljamming helm to move the vessel fast enough to travel 100 million miles in 24 hours.&lt;/li&gt;
+&lt;li&gt;You can steer the vessel, albeit in a somewhat clumsy fashion, in much the way that a rudder or oars can be used to maneuver a seafaring ship.&lt;/li&gt;
+&lt;li&gt;At any time, you can see and hear what’s happening on and around the vessel as though you were standing in a location of your choice aboard it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Transfer Attunement.&lt;/em&gt;&lt;/strong&gt; You can use an action to touch a willing spellcaster. That creature attunes to the spelljamming helm immediately, and your attunement to it ends.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement" addition="by a spellcaster">true</set>
+		</setters>
+	</element>
+	<element name="Wildspace Orrery" type="Magic Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_MAGIC_ITEM_WILDSPACE_ORRERY">
+		<description>
+			<html>&lt;p&gt;Inside a Wildspace system, this portable arcane device automatically tracks the positions and movements of all suns, planets, moons, and comets within that system, projecting a display of all these bodies in the space above its current location. In that display, a white, pulsating pinprick of light marks the orrery’s location.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Bombard" type="Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_ITEM_BOMBARD">
+		<description>
+			<html>&lt;p&gt;Bombards are built by giff. The major feature of each ship is an enormous cannon that fires massive cannon balls capable of blowing other ships to smithereens. (The cannon is included in the cost of the ship.) A bombard can carry up to fourteen giant cannon balls, each of which weighs 10 tons. These cannon balls make up most of the weight of the ship’s cargo. A winch mounted on the aft deck is used to load the cannon balls on board.&lt;/p&gt;
+&lt;p class="indent"&gt;A bombard can float and sail on water, but it can’t land safely on the ground (its keel would cause it to roll on its side).&lt;/p&gt;
+&lt;h5 class="caption"&gt;BOMBARD SUMMARY&lt;/h5&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Armor Class:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15 (wood)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Hit Points:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;300&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Damage Threshold:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Speed:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;fly 35 ft. (4 mph)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cargo:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;150 tons&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Crew:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;12&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Keel/Beam:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;140 ft./30 ft.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cost:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;50,000 gp&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">50000</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Damselfly Ship" type="Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_ITEM_DAMSELFLY_SHIP">
+		<description>
+			<html>&lt;p&gt;This swift but cramped ship is made mostly of metal. It can’t float on water, but its legs enable it to land safely on the ground. A sliding hatch just behind the wings allows access to the ship’s mangonel turret. The ship’s cargo hold can easily be turned into crew cabins or another weapon deck.&lt;/p&gt;
+&lt;p class="indent"&gt;Damselfly ships are often used as courier vessels and armored transports. Explorers and pirates like them because they’re fast and sturdy. Military leaders use them as command ships for the same reasons.&lt;/p&gt;
+&lt;p class="indent"&gt;Damselfly ship owners are a proud lot, fond of painting their ships in colorful patterns as well as customizing their vessels with special equipment. Large, private gatherings of damselfly ship owners are not uncommon; they use these get-togethers to show off their ships and to race one another through asteroid belts and other obstacle courses, either for rewards or bragging rights.&lt;/p&gt;
+&lt;h5 class="caption"&gt;DAMSELFLY SHIP SUMMARY&lt;/h5&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Armor Class:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;19 (metal)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Hit Points:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;200&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Damage Threshold:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Speed:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;fly 70 ft. (8 mph)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cargo:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;5 tons&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Crew:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;9&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Keel/Beam:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;100 ft./20 ft.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cost:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;20,000 gp&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">20000</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Flying Fish Ship" type="Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_ITEM_FLYING_FISH_SHIP">
+		<description>
+			<html>&lt;p&gt;Aside from space galleons, flying fish ships are the most common vessels in Wildspace, favorites among merchants and adventurers alike.&lt;/p&gt;
+&lt;p class="indent"&gt;A flying fish ship can float and sail on water, but it isn’t built to land on the ground (the ventral fins would snap under the weight of the ship during landing, and the keel would cause the ship to roll to one side).&lt;/p&gt;
+&lt;p class="indent"&gt;Typical weapons on a flying fish ship include a forward-mounted mangonel and an aft-mounted ballista.&lt;/p&gt;
+&lt;h5 class="caption"&gt;FLYING FISH SHIP SUMMARY&lt;/h5&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Armor Class:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15 (wood)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Hit Points:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;250&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Damage Threshold:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Speed:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;fly 40 ft. (4½ mph)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cargo:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;13 tons&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Crew:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Keel/Beam:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;120 ft./30 ft.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cost:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;20,000 gp&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">20000</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Hammerhead Ship" type="Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_ITEM_HAMMERHEAD_SHIP">
+		<description>
+			<html>&lt;p&gt;Hammerhead ships are popular craft, especially among pirates and merchants carrying heavy cargo. They can float on water and sail across it, but they aren’t built to land on the ground (their keels would cause them to tip to one side). Standard weapons on a hammerhead ship include fore and aft mangonels, a ballista, and a reinforced bow for ramming.&lt;/p&gt;
+&lt;h5 class="caption"&gt;HAMMERHEAD SHIP SUMMARY&lt;/h5&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Armor Class:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15 (wood)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Hit Points:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;400&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Damage Threshold:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Speed:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;fly 35 ft. (4 mph)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cargo:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;30 tons&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Crew:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Keel/Beam:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;250 ft./25 ft.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cost:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;40,000 gp&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">40000</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Lamprey Ship" type="Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_ITEM_LAMPREY_SHIP">
+		<description>
+			<html>&lt;p&gt;Lamprey ships are antiquated, being among the oldest spelljamming ships still in use. Psurlons (see Boo’s Astral Menagerie) are particularly fond of them.&lt;/p&gt;
+&lt;p class="indent"&gt;Using the metal grappling jaws built into its bow, a lamprey ship can attach itself to another ship, which is a critical feature during boarding actions. Other standard weapons include four ballistae on the main deck.&lt;/p&gt;
+&lt;p class="indent"&gt;A lamprey can float on water, though it can’t land safely on the ground. Lamprey ships that land on the ground have the distressing habit of rolling over, as more than a few crews have discovered to their dismay.&lt;/p&gt;
+&lt;h5 class="caption"&gt;LAMPREY SHIP SUMMARY&lt;/h5&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Armor Class:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15 (wood)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Hit Points:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;250&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Damage Threshold:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Speed:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;fly 35 ft. (4 mph)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cargo:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;6 tons&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Crew:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Keel/Beam:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;115 ft./25 ft.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cost:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;20,000 gp&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">20000</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Living Ship" type="Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_ITEM_LIVING_SHIP">
+		<description>
+			<html>&lt;p&gt;Druids, rangers, and clerics devoted to gods of nature are often found aboard living ships, as are Wildspace explorers who don’t want to have to worry about their ship’s air envelope becoming fouled during a long voyage.&lt;/p&gt;
+&lt;p class="indent"&gt;This ship’s main distinctive feature is the fully grown treant on the aft deck. The treant has a speed of 0 because its roots are woven into the deck; it and the ship are inseparable. If the ship is reduced to 0 hit points, the treant dies of shock. The ship can function if its treant dies, but the treant can never be replaced with another.&lt;/p&gt;
+&lt;p class="indent"&gt;When the treant finishes a long rest, it repairs the ship’s hull, enabling the ship to regain 4d12 hit points, and refreshes the ship’s air envelope (turning deadly air into foul air, or foul air into fresh air).&lt;/p&gt;
+&lt;p class="indent"&gt;A living ship can float on water and sail across it, but it can’t land safely on the ground (its keel would cause it to roll on its side). Its standard weaponry is an aftmounted ballista.&lt;/p&gt;
+&lt;h5 class="caption"&gt;LIVING SHIP SUMMARY&lt;/h5&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Armor Class:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15 (wood)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Hit Points:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;250&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Damage Threshold:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Speed:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;fly 40 ft. (4½ mph)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cargo:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;10 tons&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Crew:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;5 (plus the treant)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Keel/Beam:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;80 ft./20 ft.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cost:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;25,000 gp&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">25000</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Nautiloid" type="Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_ITEM_NAUTILOID">
+		<description>
+			<html>&lt;p&gt;Built and used by mind flayers, nautiloids are designed exclusively for space travel. They can’t float on water, nor can they land safely on the ground.&lt;/p&gt;
+&lt;p class="indent"&gt;As an action, a creature attuned to a nautiloid’s spelljamming helm and in physical contact with the ship can transport the nautiloid and all creatures and objects aboard it to a different plane of existence, at or near a destination envisioned by the spelljammer (or to a random location on the plane if no destination is envisioned).&lt;/p&gt;
+&lt;p class="indent"&gt;This property is a feature of the ship, not the spelljamming helm. Each time this property is used, roll a d6. On a 5–6, the property recharges after 1 minute; otherwise, it can’t be used again for 24 hours.&lt;/p&gt;
+&lt;h5 class="caption"&gt;NAUTILOID SUMMARY&lt;/h5&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Armor Class:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15 (wood)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Hit Points:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;400&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Damage Threshold:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Speed:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;fly 40 ft. (4½ mph)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cargo:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;17 tons&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Crew:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Keel/Beam:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;180 ft./30 ft.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cost:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;50,000 gp&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">50000</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Nightspider" type="Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_ITEM_NIGHTSPIDER">
+		<description>
+			<html>&lt;p&gt;Neogi terrorize Wildspace in ships of their own construction, which others call nightspiders. These vessels often wait in ambush for other ships. Once a target ship is identified, the neogi try to steal its spelljamming helm and capture its crew.&lt;/p&gt;
+&lt;p class="indent"&gt;A nightspider’s crew usually consists of nineteen neogi and up to a half-dozen umber hulks, which the neogi use as shock troops.&lt;/p&gt;
+&lt;p class="indent"&gt;Nightspiders are designed for space travel alone and can’t float on water or land safely on the ground (the weight of the ship would snap its spindly legs, destroying its weblike rigging in the process). Standard weaponry on a nightspider includes four ballistae (two forward-facing and two aft-facing) and a forward-facing mangonel.&lt;/p&gt;
+&lt;h5 class="caption"&gt;NIGHTSPIDER SUMMARY&lt;/h5&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Armor Class:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;19 (metal)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Hit Points:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;300&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Damage Threshold:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Speed:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;fly 40 ft. (4½ mph)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cargo:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;50 tons&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Crew:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Keel/Beam:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;175 ft./50 ft.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cost:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;50,000 gp&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">50000</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Scorpion Ship" type="Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_ITEM_SCORPION_SHIP">
+		<description>
+			<html>&lt;p&gt;Scorpion ships are archaic metal warships that have never lost their popularity, largely because of their versatility. Articulated legs enable a scorpion ship to land safely on the ground and move across a solid surface at a walking speed of 30 feet. The ship can’t float on water, however. A ballista is mounted on the top deck, and a mangonel is perched on the end of the tail. The ship’s two claws are relatively ine􀀄cient in combat, but a claw that grabs a creature can quickly take it out of action.&lt;/p&gt;
+&lt;h5 class="caption"&gt;SCORPION SHIP SUMMARY&lt;/h5&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Armor Class:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;19 (metal)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Hit Points:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;250&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Damage Threshold:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Speed:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;30 ft. (3½ mph), fly 30 ft. (3½ mph)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cargo:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;12 tons&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Crew:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;12&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Keel/Beam:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;75 ft./25 ft.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cost:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;25,000 gp&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">25000</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Shrike Ship" type="Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_ITEM_SHRIKE_SHIP">
+		<description>
+			<html>&lt;p&gt;This swift vessel is a relatively recent design, quickly gaining popularity with merchants and pirates. A shrike ship’s legs enable it to land safely on the ground. The ship can float but isn’t built for traveling on water and sinks quickly in rough seas.&lt;/p&gt;
+&lt;p class="indent"&gt;Standard weaponry on a shrike ship includes three ballistae—one on the forecastle, one in the middle of the top deck, and one on the sterncastle. In a desperate situation, the ship’s reinforced bow can be used as a piercing ram.&lt;/p&gt;
+&lt;h5 class="caption"&gt;SHRIKE SHIP SUMMARY&lt;/h5&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Armor Class:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15 (wood)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Hit Points:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;250&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Damage Threshold:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Speed:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;fly 70 ft. (8 mph)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cargo:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;20 tons&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Crew:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;11&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Keel/Beam:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;100 ft./20 ft.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cost:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;20,000 gp&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">20000</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Space Galleon" type="Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_ITEM_SPACE_GALLEON">
+		<description>
+			<html>&lt;p&gt;The space galleon is a mainstay among the host of vessels that ply Wildspace and the Astral Sea. Space galleons can easily pass for ordinary seafaring galleons.&lt;/p&gt;
+&lt;p class="indent"&gt;Because they can land on water and move across it like their namesakes, they can sail into ports on terrestrial worlds without attracting undue attention. Like an ordinary galleon, a space galleon isn’t built to land on the ground (its keel would cause it to roll on its side). The ship’s standard weaponry includes two forwardmounted ballistae and an aft-mounted mangonel.&lt;/p&gt;
+&lt;h5 class="caption"&gt;SPACE GALLEON SUMMARY&lt;/h5&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Armor Class:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15 (wood)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Hit Points:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;400&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Damage Threshold:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Speed:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;fly 35 ft. (4 mph)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cargo:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;20 tons&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Crew:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Keel/Beam:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;130 ft./30 ft.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cost:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;30,000 gp&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">30000</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Squid Ship" type="Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_ITEM_SQUID_SHIP">
+		<description>
+			<html>&lt;p&gt;Among the oldest types of spelljamming vessels, squid ships are popular with privateers and are often used as patrol ships. Standard weapons on a squid ship include a forward-mounted mangonel, two aft-mounted ballistae, and a reinforced bow for ramming. The tentacles that extend from the bow account for nearly half the ship’s keel length.&lt;/p&gt;
+&lt;p class="indent"&gt;Squid ships can float and sail on water, and they can land on the ground.&lt;/p&gt;
+&lt;h5 class="caption"&gt;SQUID SHIP SUMMARY&lt;/h5&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Armor Class:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15 (wood)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Hit Points:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;300&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Damage Threshold:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Speed:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;fly 30 ft. (3½ mph)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cargo:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;20 tons&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Crew:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;13&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Keel/Beam:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;250 ft./25 ft.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cost:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;25,000 gp&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">25000</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Star Moth" type="Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_ITEM_STAR_MOTH">
+		<description>
+			<html>&lt;p&gt;Star moths are ships constructed and 􀀂own by astral elves, who don’t like it when these ships end up in the hands of others.&lt;/p&gt;
+&lt;p class="indent"&gt;A star moth’s hull is fashioned from a grown and sculpted organic substance, and its enormous, decorative wings are made of shimmering crystal. The vessel is built for space travel, but its design does enable it to float on water or land safely on the ground. Standard weaponry includes two ballistae nestled in the star moth’s eye holes and a mangonel mounted above the bridge.&lt;/p&gt;
+&lt;h5 class="caption"&gt;STAR MOTH SUMMARY&lt;/h5&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Armor Class:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;13 (ceramic)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Hit Points:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;400&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Damage Threshold:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Speed:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;fly 50 ft. (5½ mph)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cargo:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;30 tons&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Crew:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;13&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Keel/Beam:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;200 ft./20 ft.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cost:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;40,000 gp&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">40000</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Turtle Ship" type="Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_ITEM_TURTLE_SHIP">
+		<description>
+			<html>&lt;p&gt;A turtle ship is encased in a protective metal shell, as befits its name, and bristles with weapons. In addition to its roomy quarters, it can carry a decent-sized payload, making it popular among traders and others who need a lot of cargo space. The ship can land on the ground, and it floats on water. Sliding panels can be closed to make the hull airtight, enabling the ship to travel underwater safely, even to great depths. If the ship takes damage while on or under the water, interior hatches can be sealed to prevent the ship from 􀀂ooding completely.&lt;/p&gt;
+&lt;p class="indent"&gt;Standard weaponry on a turtle ship includes three forward-mounted ballistae and a rear-facing mangonel. These weapons can’t be used while the ship is underwater.&lt;/p&gt;
+&lt;h5 class="caption"&gt;TURTLE SHIP SUMMARY&lt;/h5&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Armor Class:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;19 (meteal)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Hit Points:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;300&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Damage Threshold:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Speed:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;fly 25 ft. (3 mph), swim 25 ft. (3 mph)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cargo:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;30 tons&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Crew:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;16&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Keel/Beam:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;95 ft./70 ft.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cost:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;40,000 gp&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">40000</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Tyrant Ship" type="Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_ITEM_TYRANT_SHIP">
+		<description>
+			<html>&lt;p&gt;Beholders carve tyrant ships out of stone using their disintegration rays and use these ships to wander the Astral Plane, looking for worlds to conquer and rival beholders to destroy. No two tyrant ships look alike, but they all have one or more features reminiscent of their creators, such as a bulbous shape and eyestalks.&lt;/p&gt;
+&lt;p class="indent"&gt;A spherical chamber on the ship’s command deck functions as a spelljamming helm that only beholders can attune to. Any beholder that occupies this chamber can attune to it. Reducing a tyrant ship to 0 hit points not only destroys it but also destroys the ship’s spelljamming helm and eyestalk cannons.&lt;/p&gt;
+&lt;p class="indent"&gt;A tyrant ship can’t float on water, but it can safely land on the ground.&lt;/p&gt;
+&lt;h5 class="caption"&gt;TYRANT SHIP SUMMARY&lt;/h5&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Armor Class:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;17 (stone)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Hit Points:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;300&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Damage Threshold:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Speed:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;fly 40 ft. (4½ mph)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cargo:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;20 tons&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Crew:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;10 (beholders)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Keel/Beam:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;100 ft./100 ft.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cost:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+	<element name="Wasp Ship" type="Item" source="Spelljammer: Adventures in Space" id="ID_WOTC_SJAIS_ITEM_WASP_SHIP">
+		<description>
+			<html>&lt;p&gt;Wasp ships are lightweight wooden vessels capable of landing safely on the ground, but not on water. They appeal to adventurers because they’re affordable and don’t require a large crew. Pirates like them because they’re swift. Aristocrats are fond of using them as flying yachts because the ship’s cargo hold can be easily converted into posh living quarters.&lt;/p&gt;
+&lt;p class="indent"&gt;The ship’s raised back provides high ground for a weapon emplacement, which is typically equipped with a ballista.&lt;/p&gt;
+&lt;h5 class="caption"&gt;WASP SHIP SUMMARY&lt;/h5&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Armor Class:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15 (wood)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Hit Points:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;250&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Damage Threshold:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Speed:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;fly 50 ft. (5½ mph)&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cargo:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;10 tons&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Crew:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Keel/Beam:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;80 ft./20 ft.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;strong&gt;Cost:&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;20,000 gp&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;</html>
+		</description>
+		<setters>
+			<set name="category">Mounts &amp; Vehicles</set>
+			<set name="cost" currency="gp">20000</set>
+			<set name="type">Vehicle</set>
+		</setters>
+	</element>
+</elements>
