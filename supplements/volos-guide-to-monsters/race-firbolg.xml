@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Firbolg" type="Race" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACE_FIRBOLG">
+		<description>
+			<html>&lt;p class="flavor"&gt;Firbolg tribes cloister in remote forest strongholds, preferring to spend their days in quiet harmony with the woods. When provoked, firbolgs demonstrate formidable skills with weapons and druidic magic.&lt;/p&gt;
+&lt;h4&gt;HUMBLE GUARDIANS&lt;/h4&gt;
+&lt;p&gt;Firbolgs love nothing more than a peaceful day spent among the trees of an old forest. They see forests as sacred places, representing the heart of the world and monuments to the durability of life.&lt;/p&gt;
+&lt;p class="indent"&gt;In their role as caretakers, firbolgs live off the land while striving to remain in balance with nature. Their methods reflect common sense and remarkable resourcefulness. During a bountiful summer, they store away excess nuts, fruit, and berries. When winter arrives, they scatter everything they can spare to ensure the animals of the wood survive until springtime.&lt;/p&gt;
+&lt;p class="indent"&gt;In a firbolg's eyes, there is no greater fault than greed. The firbolgs believe that the world remains healthiest when each creature takes only what it needs. Material goods, especially precious gems and gold, have little appeal to them. What use are such things when winter lingers and food runs short?&lt;/p&gt;
+&lt;h4&gt;NATURAL DRUIDS&lt;/h4&gt;
+&lt;p&gt;Firbolgs have a talent for druidic magic. Their cultural reverence for nature, combined with their strong and insightful minds, makes learning such magic an instinctive part of their development. Almost every firbolg learns a few spells, typically those used to mask their presence, and many go on to master nature magic.&lt;/p&gt;
+&lt;p class="indent"&gt;Firbolgs who become druids serve as stronghold leaders. With every action the tribe takes, the druids weigh not only the group's needs, but the effect each action will have on the forest and the rest of the natural world. Firbolg tribes would rather go hungry than strain the land during a famine.&lt;/p&gt;
+&lt;h4&gt;HIDDEN SHEPHERDS&lt;/h4&gt;
+&lt;p&gt;As caretakers of the land, firbolgs prefer to remain out of sight and out of mind. They don't try to dominate nature, but rather seek to ensure that it prospers and survives according to its own laws.&lt;/p&gt;
+&lt;p class="indent"&gt;Firbolgs use their magic to keep their presence in a forest secret. This approach allows them to avoid the politics and struggles of elves, humans, and orcs. Such events concern the firbolgs only when the events affect the forest.&lt;/p&gt;
+&lt;p class="indent"&gt;Even in the face of an intrusion, firbolgs prefer a subtle, gentle approach to prevent damage to their territory. They employ their magic to make the forest an unappealing place to explore by temporarily diverting springs, driving away game, stealing critical tools, and altering trails to leave hunting or lumber parties hopelessly lost. The firbolgs' presence is marked by an absence of animals and a strange quiet, as if the forest wishes to avoid attracting attention to itself. The faster travelers decide to move on, the better.&lt;/p&gt;
+&lt;p class="indent"&gt;If these tactics fail, the firbolgs take more direct action. Their observations of a settlement determine what happens next. If the outsiders seem peaceful, the firbolgs approach and gently ask them to leave, even offering food and other supplies to aid their departure. If those who insist on remaining respect nature, take only what they need, and live in harmony with the wood, firbolgs explore the possibility of friendship with them, as long as the outsiders vow to safeguard the forest. If the settlers clearly display evil intentions, however, the firbolgs martial their strength and magic for a single overwhelming attack.&lt;/p&gt;
+&lt;h4&gt;OUTCAST ADVENTURERS&lt;/h4&gt;
+&lt;p&gt;As guardians of the wood, few firbolgs would dream of leaving their homes or attempting to fit into human society. An exiled firbolg, or one whose clan has been destroyed, might not have a choice in the matter. Most adventuring firbolgs fall into this latter category.&lt;/p&gt;
+&lt;p class="indent"&gt;Outcast firbolgs can never return home. They committed some unforgivable deed, usually something that put their homeland at risk, such as starting a forest fire or killing a rare or beautiful wild creature. These firbolgs are loners who wander the world in hope of finding a new place to call home.&lt;/p&gt;
+&lt;p class="indent"&gt;Orphaned firbolgs are those whose clans or homelands have been destroyed. They become crusaders for nature, seeking to avenge their loss and prevent the further destruction of the natural world.&lt;/p&gt;
+&lt;p class="indent"&gt;A few rare firbolgs are entrusted l;&amp;gt;y their clan with an important mission that takes them beyond their homes. These firbolgs feel like pilgrims in a strange land, and usually they wish only to complete their quests and return home as quickly as possible.&lt;/p&gt;
+&lt;p class="indent"&gt;The Firbolg Adventurers table can serve as inspiration for determining why a firbolg character leaves home.&lt;/p&gt;
+&lt;h4&gt;FIRBOLG NAMES&lt;/h4&gt;
+&lt;p&gt;Firbolg adopt elven names when they must deal with outsiders, although the concept of names strikes them as strange. They know the animals and plants of the forest without formal names, and instead identify the forest's children by their deeds, habits, and other actions.&lt;/p&gt;
+&lt;p class="indent"&gt;By the same token, their tribe names merely refer to their homes. When dealing with other races, firbolgs refer to their lands by whatever name the surrounding folk use, as a matter of tact and hospitality, but among their own kind they simply call it "home."&lt;/p&gt;
+&lt;p class="indent"&gt;Sometimes firbolgs adopt the nicknames or titles outsiders give them under the assumption that those who need names can call them whatever they wish.&lt;/p&gt;
+&lt;h4&gt;FIRBOLG TRAITS&lt;/h4&gt;
+&lt;p&gt;Your firbolg character has the following racial traits.&lt;/p&gt;
+      &lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Ability Score Increase.&lt;/em&gt;&lt;/strong&gt; Your Wisdom score increases by 2, and your Strength score increases by 1.&lt;/p&gt;
+      &lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Age.&lt;/em&gt;&lt;/strong&gt; As humanoids related to the fey, firbolg have long lifespans. A firbolg reaches adulthood around 30, and the oldest of them can live for 500 years.&lt;/p&gt;
+      &lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Alignment.&lt;/em&gt;&lt;/strong&gt; As people who follow the rhythm of nature and see themselves as its caretakers, firbolg are typically neutral good. Evil firbolg are rare and are usually the sworn enemies of the rest of their kind.&lt;/p&gt;
+      &lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Size.&lt;/em&gt;&lt;/strong&gt; Firbolg are between 7 and 8 feet tall and weigh between 240 and 300 pounds. Your size is Medium.&lt;/p&gt;
+      &lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Speed.&lt;/em&gt;&lt;/strong&gt; Your base walking speed is 30 feet.&lt;/p&gt;
+      &lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Firbolg Magic.&lt;/em&gt;&lt;/strong&gt; You can cast detect magic and disguise self with this trait, using Wisdom as your spell casting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest. When you use this version of disguise self, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves.&lt;/p&gt;
+      &lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Hidden Step.&lt;/em&gt;&lt;/strong&gt; As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest.&lt;/p&gt;
+      &lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Powerful Build.&lt;/em&gt;&lt;/strong&gt; You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.&lt;/p&gt;
+      &lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Speech of Beast and Leaf.&lt;/em&gt;&lt;/strong&gt; You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.&lt;/p&gt;
+      &lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Languages.&lt;/em&gt;&lt;/strong&gt; You can speak, read, and write Common, Elvish, and Giant.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="names" type="male">Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric , Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis</set>
+			<set name="names" type="female">Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia</set>
+			<set name="names" type="family">Amakiir, Amastacia, Galanodel, Holimion, Ilphelkiir, Liadon, Meliamne, Nai'lo, Siannodel, Xiloscient</set>
+			<set name="names-format">{{name}} {{family}}</set>
+			<set name="height" modifier="2d6">7'0"</set>
+			<set name="weight" modifier="2d10">240 lb.</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="2" />
+			<stat name="strength" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_ELVISH" />
+			<grant type="Language" id="ID_LANGUAGE_GIANT" />
+			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_FIRBOLG_FIRBOLG_MAGIC" />
+			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_FIRBOLG_HIDDEN_STEP" />
+			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_FIRBOLG_POWERFUL_BUILD" />
+			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_FIRBOLG_SPEECH_OF_BEAST_AND_LEAF" />
+		</rules>
+	</element>
+	<element name="Firbolg Magic" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_FIRBOLG_FIRBOLG_MAGIC">
+		<description>
+			<html>&lt;p&gt;You can cast detect magic and disguise self with this trait, using Wisdom as your spell casting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest. When you use this version of disguise self, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves.&lt;/p&gt;</html>
+		</description>
+		<sheet usage="1/Short Rest">
+			<description>You can cast detect magic and disguise self with this trait, using Wisdom as your spell casting ability for them. When you use this version of disguise self, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves.</description>
+		</sheet>
+	</element>
+	<element name="Hidden Step" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_FIRBOLG_HIDDEN_STEP">
+		<description>
+			<html>&lt;p&gt;As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet action="Bonus Action" usage="1/Short Rest">
+			<description>You can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw.</description>
+		</sheet>
+	</element>
+	<element name="Powerful Build" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_FIRBOLG_POWERFUL_BUILD">
+		<description>
+			<html>&lt;p&gt;You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+		</rules>
+	</element>
+	<element name="Speech of Beast and Leaf" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_FIRBOLG_SPEECH_OF_BEAST_AND_LEAF">
+		<description>
+			<html>&lt;p&gt;You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You can communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.</description>
+		</sheet>
+	</element>
+</elements>
