@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Unearthed Arcana: Draconic Options" type="Source" source="Core" id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20210415">
+		<description>
+			<html><p>Harness the power of dragons in this installment of Unearthed Arcana! This playtest document presents race, feat, and spell options related to dragons in Dungeons &amp; Dragons. First is a trio of draconic race options presented as an alternative to the dragonborn race in the Player’s Handbook, as well as a fresh look at the kobold race. Then comes a handful of feat options that reflect a connection to draconic power. Finally, an assortment of spells—many of them bearing the names of famous or infamous dragons—offer a variety of approaches to manifesting dragon magic.</p></html>
+		</description>
+		<setters>
+			<set name="abbreviation">UA20210415</set>
+			<set name="url">https://dnd.wizards.com/articles/unearthed-arcana/draconic-options</set>
+			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+			<set name="official">true</set>
+			<set name="playtest">true</set>
+			<set name="release">20210415</set>
+		</setters>
+	</element>
+	<element name="Chromatic Dragonborn" type="Race Variant" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACE_VARIANT_CHROMATIC_DRAGONBORN">
+		<supports>Dragonborn</supports>
+		<description>
+			<p>Dragonborn with chromatic ancestry claim the raw elemental power of the chromatic dragons. The vibrant colors of the chromatics—black, blue, green, red, and white—gleam in their scaled skin and in the deadly energy of their breath weapons. Theirs is the raw elemental fury of the volcano, of biting arctic winds, of raging lightning storms; theirs also is the subtle whisper of swamp and forest, corrosive and toxic.</p>
+			<h4>CHROMATIC DRAGONBORN TRAITS</h4>
+			<p>You have the following racial traits.</p>
+			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
+			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Chromatic Ancestry.</em></strong> You trace your ancestry to a chromatic dragon, granting you a special magical affinity. Choose one type of dragon from the Chromatic Ancestry table. This determines the damage type for your other traits as shown in the table.</p>
+			<h5 class="caption">Chromatic Ancestry</h5>
+			<table>
+				<thead>
+					<tr><td>Dragon</td><td>Damage Type</td></tr>
+				</thead>
+				<tr><td>Black</td><td>Acid</td></tr>
+				<tr><td>Blue</td><td>Lightning</td></tr>
+				<tr><td>Green</td><td>Poison</td></tr>
+				<tr><td>Red</td><td>Fire</td></tr>
+				<tr><td>White</td><td>Cold</td></tr>
+			</table>			
+			<p class="indent"><strong><em>Breath Weapon.</em></strong> When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 30-foot line that is 5 feet wide. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d8 damage of the type associated with your Chromatic Ancestry on a failed save, and half as much damage on a successful one. This damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), and 17th level (5d8).</p>
+			<p class="indent">You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+			<p class="indent"><strong><em>Draconic Resistance.</em></strong> You have resistance to the damage type associated with your Chromatic Ancestry.</p>
+			<p class="indent"><strong><em>Chromatic Warding.</em></strong> Starting at 3rd level, as an action, you can channel your draconic energies to protect yourself. For 10 minutes, you become immune to the damage type associated with your Chromatic Ancestry. Once you use this trait, you can’t do so again until you finish a long rest.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_DRAGONBORN_LINEAGE_VARIANT" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Grants" id="ID_WOTC_UA20210126_GRANTS_LINEAGE_ASI" />
+			<grant type="Grants" id="ID_WOTC_UA20210126_GRANTS_LINEAGE_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210126_RACIAL_TRAIT_CREATURE_TYPE_HUMANOID" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_CHROMATIC_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_BREATH_WEAPON" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_DRACONIC_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_CHROMATIC_WARDING" level="3" />
+		</rules>
+	</element>
+	<element name="Chromatic Ancestry" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_CHROMATIC_ANCESTRY">
+		<description>
+			<p>You trace your ancestry to a chromatic dragon, granting you a special magical affinity. Choose one type of dragon from the Chromatic Ancestry table. This determines the damage type for your other traits as shown in the table.</p>
+			<h5 class="caption">Chromatic Ancestry</h5>
+			<table>
+				<thead>
+					<tr><td>Dragon</td><td>Damage Type</td></tr>
+				</thead>
+				<tr><td>Black</td><td>Acid</td></tr>
+				<tr><td>Blue</td><td>Lightning</td></tr>
+				<tr><td>Green</td><td>Poison</td></tr>
+				<tr><td>Red</td><td>Fire</td></tr>
+				<tr><td>White</td><td>Cold</td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Racial Trait" name="Chromatic Ancestry" supports="UA20210415_Chromatic_Ancestry" />
+		</rules>
+	</element>
+	<element name="Breath Weapon" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_BREATH_WEAPON">
+		<description>
+			<p>When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 30-foot line that is 5 feet wide. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d8 damage of the type associated with your Chromatic Ancestry on a failed save, and half as much damage on a successful one. This damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), and 17th level (5d8).</p>
+			<p class="indent">You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet usage="{{proficiency}}/Long Rest">
+			<description>When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 30-foot line that is 5 feet wide. Each creature in the area must make a DC {{ua:chromatic:breath-weapon:dc}} Dexterity save. A creature takes {{ua:chromatic:breath-weapon:dice:count}}d8 {{ua:draconic-ancestry:damage-type}} damage on a failed save, and half as much damage on a successful one.</description>
+		</sheet>
+		<rules>		
+			<stat name="ua:chromatic:breath-weapon:dc" value="8" />
+			<stat name="ua:chromatic:breath-weapon:dc" value="proficiency" />
+			<stat name="ua:chromatic:breath-weapon:dc" value="constitution:modifier" />
+			<stat name="ua:chromatic:breath-weapon:dice:count" value="2" bonus="base" />
+			<stat name="ua:chromatic:breath-weapon:dice:count" value="3" bonus="base" level="5" />
+			<stat name="ua:chromatic:breath-weapon:dice:count" value="4" bonus="base" level="11" />
+			<stat name="ua:chromatic:breath-weapon:dice:count" value="5" bonus="base" level="17" />
+		</rules>
+	</element>
+	<element name="Draconic Resistance" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_DRACONIC_RESISTANCE">
+		<description>
+			<p>You have resistance to the damage type associated with your Chromatic Ancestry.</p>
+		</description>
+		<sheet display="false">
+			<description>You have resistance to the damage type associated with your Chromatic Ancestry.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" requirements="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_ANCESTRY_BLACK" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" requirements="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_ANCESTRY_BLUE" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" requirements="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_ANCESTRY_GREEN" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" requirements="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_ANCESTRY_RED" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_ANCESTRY_WHITE" />
+		</rules>
+	</element>
+	<element name="Chromatic Warding" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_CHROMATIC_WARDING">
+		<description>
+			<p>Starting at 3rd level, as an action, you can channel your draconic energies to protect yourself. For 10 minutes, you become immune to the damage type associated with your Chromatic Ancestry. Once you use this trait, you can’t do so again until you finish a long rest.</p>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>For 10 minutes, you become immune to {{ua:draconic-ancestry:damage-type}} damage.</description>
+		</sheet>
+	</element>	
+	<element name="Metallic Dragonborn" type="Race Variant" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACE_VARIANT_METALLIC_DRAGONBORN">
+		<supports>Dragonborn</supports>
+		<description>
+			<p>Dragonborn with metallic ancestry lay claim to the unflinching tenacity of the metallic dragons—brass, bronze, copper, gold, and silver—whose hues glint in their scales. Theirs is the fire of hearth and forge, the cold of high mountain air, the spark of inspiration, and the scouring touch of acid that cleanses and purifies.</p>
+			<h4>METALLIC DRAGONBORN TRAITS</h4>
+			<p>You have the following racial traits.</p>
+			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
+			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Metallic Ancestry.</em></strong> You trace your ancestry to a metallic dragon, granting you a special magical affinity. Choose one type of dragon from the Metallic Ancestry table. This determines the damage type for your other traits as shown in the table.</p>
+			<h5 class="caption">Metallic Ancestry</h5>
+			<table>
+				<thead>
+					<tr><td>Dragon</td><td>Damage Type</td></tr>
+				</thead>
+				<tr><td>Brass</td><td>Fire</td></tr>
+				<tr><td>Bronze</td><td>Lightning</td></tr>
+				<tr><td>Copper</td><td>Acid</td></tr>
+				<tr><td>Gold</td><td>Fire</td></tr>
+				<tr><td>Silver</td><td>Cold</td></tr>
+			</table>
+			<p class="indent"><strong><em>Breath Weapon.</em></strong> When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 15-foot cone. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d8 damage of the type associated with your Metallic Ancestry on a failed save, and half as much damage on a successful one. This damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), and 17th level (5d8).</p>
+			<p class="indent">You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+			<p class="indent"><strong><em>Draconic Resistance.</em></strong> You have resistance to the damage type associated with your Chromatic Ancestry.</p>
+			<p class="indent"><strong><em>Metallic Breath Weapon.</em></strong> At 3rd level you gain a second breath weapon. When you take the Attack action, you can replace one of your attacks with an exhalation of a magical gas in a 15-foot cone. The save DC for this breath is 8 + your Constitution modifier + your proficiency bonus. When you use this ability, choose one:</p>
+			<ul>
+				<li>Each creature in the area must succeed on a Strength saving throw or be pushed 20 feet away from you and be knocked prone.</li>
+				<li>Each creature in the area must succeed on a Constitution saving throw or become incapacitated until the start of your next turn.</li>
+			</ul>
+			<p class="indent">Once you use your Metallic Breath Weapon, you can’t do so again until you finish a long rest.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_DRAGONBORN_LINEAGE_VARIANT" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Grants" id="ID_WOTC_UA20210126_GRANTS_LINEAGE_ASI" />
+			<grant type="Grants" id="ID_WOTC_UA20210126_GRANTS_LINEAGE_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210126_RACIAL_TRAIT_CREATURE_TYPE_HUMANOID" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_METALLIC_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_BREATH_WEAPON" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_DRACONIC_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_METALLIC_BREATH_WEAPON" level="3" />
+		</rules>
+	</element>
+	<element name="Metallic Ancestry" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_METALLIC_ANCESTRY">
+		<description>
+			<p>You trace your ancestry to a metallic dragon, granting you a special magical affinity. Choose one type of dragon from the Metallic Ancestry table. This determines the damage type for your other traits as shown in the table.</p>
+			<h5 class="caption">Metallic Ancestry</h5>
+			<table>
+				<thead>
+					<tr><td>Dragon</td><td>Damage Type</td></tr>
+				</thead>
+				<tr><td>Brass</td><td>Fire</td></tr>
+				<tr><td>Bronze</td><td>Lightning</td></tr>
+				<tr><td>Copper</td><td>Acid</td></tr>
+				<tr><td>Gold</td><td>Fire</td></tr>
+				<tr><td>Silver</td><td>Cold</td></tr>
+			</table>
+		</description>		
+		<sheet display="false" />
+		<rules>
+			<select type="Racial Trait" name="Metallic Ancestry" supports="UA20210415_Metallic_Ancestry" />
+		</rules>
+	</element>
+	<element name="Breath Weapon" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_BREATH_WEAPON">
+		<description>
+			<p>When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 15-foot cone. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d8 damage of the type associated with your Metallic Ancestry on a failed save, and half as much damage on a successful one. This damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), and 17th level (5d8).</p>
+			<p class="indent">You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet usage="{{proficiency}}/Long Rest">
+			<description>When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 15-foot cone. Each creature in the area must make a DC {{ua:metallic:breath-weapon:dc}} Dexterity save. A creature takes {{ua:metallic:breath-weapon:dice:count}}d8 {{ua:draconic-ancestry:damage-type}} damage on a failed save, and half as much damage on a successful one.</description>
+		</sheet>
+		<rules>		
+			<stat name="ua:metallic:breath-weapon:dc" value="8" />
+			<stat name="ua:metallic:breath-weapon:dc" value="proficiency" />
+			<stat name="ua:metallic:breath-weapon:dc" value="constitution:modifier" />
+			<stat name="ua:metallic:breath-weapon:dice:count" value="2" bonus="base" />
+			<stat name="ua:metallic:breath-weapon:dice:count" value="3" bonus="base" level="5" />
+			<stat name="ua:metallic:breath-weapon:dice:count" value="4" bonus="base" level="11" />
+			<stat name="ua:metallic:breath-weapon:dice:count" value="5" bonus="base" level="17" />
+		</rules>
+	</element>
+	<element name="Draconic Resistance" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_DRACONIC_RESISTANCE">
+		<description>
+			<p>You have resistance to the damage type associated with your Metallic Ancestry.</p>
+		</description>
+		<sheet display="false">
+			<description>You have resistance to the damage type associated with your Metallic Ancestry.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" requirements="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_ANCESTRY_BRASS" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" requirements="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_ANCESTRY_BRONZE" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" requirements="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_ANCESTRY_COPPER" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" requirements="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_ANCESTRY_GOLD" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" requirements="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_ANCESTRY_SILVER" />
+		</rules>
+	</element>
+	<element name="Metallic Breath Weapon" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_METALLIC_BREATH_WEAPON">
+		<description>
+			<p>At 3rd level you gain a second breath weapon. When you take the Attack action, you can replace one of your attacks with an exhalation of a magical gas in a 15-foot cone. The save DC for this breath is 8 + your Constitution modifier + your proficiency bonus. When you use this ability, choose one:</p>
+			<ul>
+				<li>Each creature in the area must succeed on a Strength saving throw or be pushed 20 feet away from you and be knocked prone.</li>
+				<li>Each creature in the area must succeed on a Constitution saving throw or become incapacitated until the start of your next turn.</li>
+			</ul>
+			<p class="indent">Once you use your Metallic Breath Weapon, you can’t do so again until you finish a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>When you take the Attack action, you can replace one of your attacks with an exhalation of a magical gas in a 15-foot cone (DC {{ua:metallic:breath-weapon:dc}}). When you use this ability, choose one: 
+			Each creature in the area must succeed on a Strength save or be pushed 20 feet away from you and be knocked prone. 
+			Each creature in the area must succeed on a Constitution saving throw or become incapacitated until the start of your next turn.</description>
+		</sheet>
+	</element>
+	<element name="Gem Dragonborn" type="Race Variant" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACE_VARIANT_GEM_DRAGONBORN">
+		<supports>Dragonborn</supports>
+		<description>
+			<p>Dragonborn with gem ancestry partake of the heritage of all gem dragons, who claim to be heirs of the ruby dragon, Sardior—the firstborn of all creation, made by Bahamut and Tiamat in the first days of the First World. The colors and mysterious powers of the gem dragons— amethyst, crystal, emerald, sapphire, and topaz—gleam in their scaled skin and course through their veins. Theirs are the wonders of the mind, the force of will, the brilliant light of insight, the resounding echo of discovery, and the desiccation of despair.</p>
+			<h4>GEM DRAGONBORN TRAITS</h4>
+			<p>You have the following racial traits.</p>
+			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
+			<p class="indent"><strong><em>Size.</em></strong> You are Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Gem Ancestry.</em></strong> You trace your ancestry to a gem dragon, granting you a special magical affinity. Choose one type of dragon from the Gem Ancestry table. This determines the damage type for your other traits as shown in the table.</p>
+			<h5 class="caption">Gem Ancestry</h5>
+			<table>
+				<thead>
+					<tr><td>Dragon</td><td>Damage Type</td></tr>
+				</thead>
+				<tr><td>Amethyst</td><td>Force</td></tr>
+				<tr><td>Crystal</td><td>Radiant</td></tr>
+				<tr><td>Emerald</td><td>Psychic</td></tr>
+				<tr><td>Sapphire</td><td>Thunder</td></tr>
+				<tr><td>Topaz</td><td>Necrotic</td></tr>
+			</table>
+			<p class="indent"><strong><em>Breath Weapon.</em></strong> When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 15-foot cone. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d8 damage of the type associated with your Gem Ancestry on a failed save, and half as much damage on a successful one. This damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), and 17th level (5d8).</p>
+			<p class="indent">You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+			<p class="indent"><strong><em>Draconic Resistance.</em></strong> You have resistance to the damage type associated with your Gem Ancestry.</p>
+			<p class="indent"><strong><em>Psionic Mind.</em></strong> You can telepathically speak to any creature you can see within 30 feet of you. You don’t need to share a language with the creature, but the creature must be able to understand at least one language. Your communication doesn’t give the creature the ability to respond to you telepathically.</p>
+			<p class="indent"><strong><em>Gem Flight.</em></strong> Starting at 3rd level, you can use your bonus action to temporarily summon an array of spectral gems that match your Gem Ancestry in the shape of wings that last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can’t do so again until you finish a long rest.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_DRAGONBORN_LINEAGE_VARIANT" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Grants" id="ID_WOTC_UA20210126_GRANTS_LINEAGE_ASI" />
+			<grant type="Grants" id="ID_WOTC_UA20210126_GRANTS_LINEAGE_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210126_RACIAL_TRAIT_CREATURE_TYPE_HUMANOID" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_GEM_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_BREATH_WEAPON" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_DRACONIC_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_PSIONIC_MIND" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_GEM_FLIGHT" level="3" />
+		</rules>
+	</element>
+	<element name="Gem Ancestry" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_GEM_ANCESTRY">
+		<description>
+			<p>You trace your ancestry to a gem dragon, granting you a special magical affinity. Choose one type of dragon from the Gem Ancestry table. This determines the damage type for your other traits as shown in the table.</p>
+			<h5 class="caption">Gem Ancestry</h5>
+			<table>
+				<thead>
+					<tr><td>Dragon</td><td>Damage Type</td></tr>
+				</thead>
+				<tr><td>Amethyst</td><td>Force</td></tr>
+				<tr><td>Crystal</td><td>Radiant</td></tr>
+				<tr><td>Emerald</td><td>Psychic</td></tr>
+				<tr><td>Sapphire</td><td>Thunder</td></tr>
+				<tr><td>Topaz</td><td>Necrotic</td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Racial Trait" name="Gem Ancestry" supports="UA20210415_Gem_Ancestry" />
+		</rules>
+	</element>
+	<element name="Breath Weapon" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_BREATH_WEAPON">
+		<description>
+			<p>When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 15-foot cone. Each creature in the area must make a Dexterity saving throw against a DC equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d8 damage of the type associated with your Gem Ancestry on a failed save, and half as much damage on a successful one. This damage increases by 1d8 when you reach 5th level (3d8), 11th level (4d8), and 17th level (5d8).</p>
+			<p class="indent">You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet usage="{{proficiency}}/Long Rest">
+			<description>When you take the Attack action, you can replace one of your attacks with an exhalation of a magical energy in a 15-foot cone. Each creature in the area must make a DC {{ua:gem:breath-weapon:dc}} Dexterity save. A creature takes {{ua:gem:breath-weapon:dice:count}}d8 {{ua:draconic-ancestry:damage-type}} damage on a failed save, and half as much damage on a successful one.</description>
+		</sheet>
+		<rules>		
+			<stat name="ua:gem:breath-weapon:dc" value="8" />
+			<stat name="ua:gem:breath-weapon:dc" value="proficiency" />
+			<stat name="ua:gem:breath-weapon:dc" value="constitution:modifier" />
+			<stat name="ua:gem:breath-weapon:dice:count" value="2" bonus="base" />
+			<stat name="ua:gem:breath-weapon:dice:count" value="3" bonus="base" level="5" />
+			<stat name="ua:gem:breath-weapon:dice:count" value="4" bonus="base" level="11" />
+			<stat name="ua:gem:breath-weapon:dice:count" value="5" bonus="base" level="17" />
+		</rules>
+	</element>
+	<element name="Draconic Resistance" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_DRACONIC_RESISTANCE">
+		<description>
+			<p>You have resistance to the damage type associated with your Gem Ancestry.</p>
+		</description>
+		<sheet display="false">
+			<description>You have resistance to the damage type associated with your Gem Ancestry.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE" requirements="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_ANCESTRY_AMETHYST" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" requirements="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_ANCESTRY_CRYSTAL" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" requirements="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_ANCESTRY_EMERALD" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" requirements="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_ANCESTRY_SAPPHIRE" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" requirements="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_ANCESTRY_TOPAZ" />
+		</rules>
+	</element>
+	<element name="Psionic Mind" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_PSIONIC_MIND">
+		<description>
+			<p>You can telepathically speak to any creature you can see within 30 feet of you. You don’t need to share a language with the creature, but the creature must be able to understand at least one language. Your communication doesn’t give the creature the ability to respond to you telepathically.</p>
+		</description>
+		<sheet>
+			<description>You can telepathically speak to any creature you can see within 30 feet of you. You don’t need to share a language with the creature, but the creature must be able to understand at least one language. Your communication doesn’t give the creature the ability to respond to you telepathically.</description>
+		</sheet>
+	</element>
+	<element name="Gem Flight" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_GEM_FLIGHT">
+		<description>
+			<p>Starting at 3rd level, you can use your bonus action to temporarily summon an array of spectral gems that match your Gem Ancestry in the shape of wings that last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can’t do so again until you finish a long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1/Long Rest">
+			<description>You can temporarily summon an array of spectral {{ua:draconic-ancestry}} gems in the shape of wings that last for 1 minute. For the duration, you gain a {{speed}}ft. flying speed and can hover.</description>
+		</sheet>
+	</element>	
+	<element name="Chromatic Ancestry, Black" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_ANCESTRY_BLACK">
+		<compendium display="false" />
+		<supports>UA20210415_Chromatic_Ancestry</supports>
+		<description>
+			<p>You trace your ancestry to a black dragon, granting you a special magical affinity.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_CHROMATIC_ANCESTRY" />
+			</div>
+		</description>
+		<sheet alt="Black">
+			<description>Your chromatic ancestry is {{ua:draconic-ancestry}} and your damage type is {{ua:draconic-ancestry:damage-type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="ua:draconic-ancestry" value="Black"/>
+			<stat inline="true" name="ua:draconic-ancestry:damage-type" value="Acid" />
+		</rules>
+	</element>
+	<element name="Chromatic Ancestry, Blue" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_ANCESTRY_BLUE">
+		<compendium display="false" />
+		<supports>UA20210415_Chromatic_Ancestry</supports>
+		<description>		
+			<p>You trace your ancestry to a blue dragon, granting you a special magical affinity.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_CHROMATIC_ANCESTRY" />
+			</div>
+		</description>
+		<sheet alt="Blue">
+			<description>Your chromatic ancestry is {{ua:draconic-ancestry}} and your damage type is {{ua:draconic-ancestry:damage-type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="ua:draconic-ancestry" value="Blue"/>
+			<stat inline="true" name="ua:draconic-ancestry:damage-type" value="Lightning" />
+		</rules>
+	</element>
+	<element name="Chromatic Ancestry, Green" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_ANCESTRY_GREEN">
+		<compendium display="false" />
+		<supports>UA20210415_Chromatic_Ancestry</supports>
+		<description>		
+			<p>You trace your ancestry to a green dragon, granting you a special magical affinity.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_CHROMATIC_ANCESTRY" />
+			</div>
+		</description>
+		<sheet alt="Green">
+			<description>Your chromatic ancestry is {{ua:draconic-ancestry}} and your damage type is {{ua:draconic-ancestry:damage-type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="ua:draconic-ancestry" value="Green"/>
+			<stat inline="true" name="ua:draconic-ancestry:damage-type" value="Poison" />
+		</rules>
+	</element>
+	<element name="Chromatic Ancestry, Red" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_ANCESTRY_RED">
+		<compendium display="false" />
+		<supports>UA20210415_Chromatic_Ancestry</supports>
+		<description>		
+			<p>You trace your ancestry to a red dragon, granting you a special magical affinity.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_CHROMATIC_ANCESTRY" />
+			</div>
+		</description>
+		<sheet alt="Red">
+			<description>Your chromatic ancestry is {{ua:draconic-ancestry}} and your damage type is {{ua:draconic-ancestry:damage-type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="ua:draconic-ancestry" value="Red"/>
+			<stat inline="true" name="ua:draconic-ancestry:damage-type" value="Fire" />
+		</rules>
+	</element>
+	<element name="Chromatic Ancestry, White" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_ANCESTRY_WHITE">
+		<compendium display="false" />
+		<supports>UA20210415_Chromatic_Ancestry</supports>
+		<description>		
+			<p>You trace your ancestry to a white dragon, granting you a special magical affinity.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_RACIAL_TRAIT_CHROMATIC_CHROMATIC_ANCESTRY" />
+			</div>
+		</description>
+		<sheet alt="White">
+			<description>Your chromatic ancestry is {{ua:draconic-ancestry}} and your damage type is {{ua:draconic-ancestry:damage-type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="ua:draconic-ancestry" value="White"/>
+			<stat inline="true" name="ua:draconic-ancestry:damage-type" value="Cold" />
+		</rules>
+	</element>
+	<element name="Metallic Ancestry, Brass" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_ANCESTRY_BRASS">
+		<compendium display="false" />
+		<supports>UA20210415_Metallic_Ancestry</supports>
+		<description>
+			<p>You trace your ancestry to a brass dragon, granting you a special magical affinity.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_METALLIC_ANCESTRY" />
+			</div>
+		</description>
+		<sheet alt="Brass">
+			<description>Your metallic ancestry is {{ua:draconic-ancestry}} and your damage type is {{ua:draconic-ancestry:damage-type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="ua:draconic-ancestry" value="Brass"/>
+			<stat inline="true" name="ua:draconic-ancestry:damage-type" value="Fire" />
+		</rules>
+	</element>
+	<element name="Metallic Ancestry, Bronze" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_ANCESTRY_BRONZE">
+		<compendium display="false" />
+		<supports>UA20210415_Metallic_Ancestry</supports>
+		<description>
+			<p>You trace your ancestry to a bronze dragon, granting you a special magical affinity.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_METALLIC_ANCESTRY" />
+			</div>
+		</description>
+		<sheet alt="Bronze">
+			<description>Your metallic ancestry is {{ua:draconic-ancestry}} and your damage type is {{ua:draconic-ancestry:damage-type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="ua:draconic-ancestry" value="Bronze"/>
+			<stat inline="true" name="ua:draconic-ancestry:damage-type" value="Lightning" />
+		</rules>
+	</element>
+	<element name="Metallic Ancestry, Copper" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_ANCESTRY_COPPER">
+		<compendium display="false" />
+		<supports>UA20210415_Metallic_Ancestry</supports>
+		<description>
+			<p>You trace your ancestry to a copper dragon, granting you a special magical affinity.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_METALLIC_ANCESTRY" />
+			</div>
+		</description>
+		<sheet alt="Copper">
+			<description>Your metallic ancestry is {{ua:draconic-ancestry}} and your damage type is {{ua:draconic-ancestry:damage-type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="ua:draconic-ancestry" value="Copper"/>
+			<stat inline="true" name="ua:draconic-ancestry:damage-type" value="Acid" />
+		</rules>
+	</element>
+	<element name="Metallic Ancestry, Gold" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_ANCESTRY_GOLD">
+		<compendium display="false" />
+		<supports>UA20210415_Metallic_Ancestry</supports>
+		<description>
+			<p>You trace your ancestry to a gold dragon, granting you a special magical affinity.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_METALLIC_ANCESTRY" />
+			</div>
+		</description>
+		<sheet alt="Gold">
+			<description>Your metallic ancestry is {{ua:draconic-ancestry}} and your damage type is {{ua:draconic-ancestry:damage-type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="ua:draconic-ancestry" value="Gold"/>
+			<stat inline="true" name="ua:draconic-ancestry:damage-type" value="Fire" />
+		</rules>
+	</element>
+	<element name="Metallic Ancestry, Silver" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_ANCESTRY_SILVER">
+		<compendium display="false" />
+		<supports>UA20210415_Metallic_Ancestry</supports>
+		<description>
+			<p>You trace your ancestry to a silver dragon, granting you a special magical affinity.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_RACIAL_TRAIT_METALLIC_METALLIC_ANCESTRY" />
+			</div>
+		</description>
+		<sheet alt="Silver">
+			<description>Your metallic ancestry is {{ua:draconic-ancestry}} and your damage type is {{ua:draconic-ancestry:damage-type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="ua:draconic-ancestry" value="Silver"/>
+			<stat inline="true" name="ua:draconic-ancestry:damage-type" value="Cold" />
+		</rules>
+	</element>
+	<element name="Gem Ancestry, Amethyst" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_ANCESTRY_AMETHYST">
+		<compendium display="false" />
+		<supports>UA20210415_Gem_Ancestry</supports>
+		<description>
+			<p>You trace your ancestry to a amethyst dragon, granting you a special magical affinity.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_GEM_ANCESTRY" />
+			</div>
+		</description>
+		<sheet alt="Amethyst">
+			<description>Your gem ancestry is {{ua:draconic-ancestry}} and your damage type is {{ua:draconic-ancestry:damage-type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="ua:draconic-ancestry" value="Amethyst"/>
+			<stat inline="true" name="ua:draconic-ancestry:damage-type" value="Force" />
+		</rules>
+	</element>
+	<element name="Gem Ancestry, Crystal" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_ANCESTRY_CRYSTAL">
+		<compendium display="false" />
+		<supports>UA20210415_Gem_Ancestry</supports>
+		<description>
+			<p>You trace your ancestry to a crystal dragon, granting you a special magical affinity.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_GEM_ANCESTRY" />
+			</div>
+		</description>
+		<sheet alt="Crystal">
+			<description>Your gem ancestry is {{ua:draconic-ancestry}} and your damage type is {{ua:draconic-ancestry:damage-type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="ua:draconic-ancestry" value="Crystal"/>
+			<stat inline="true" name="ua:draconic-ancestry:damage-type" value="Radiant" />
+		</rules>
+	</element>
+	<element name="Gem Ancestry, Emerald" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_ANCESTRY_EMERALD">
+		<compendium display="false" />
+		<supports>UA20210415_Gem_Ancestry</supports>
+		<description>
+			<p>You trace your ancestry to a emerald dragon, granting you a special magical affinity.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_GEM_ANCESTRY" />
+			</div>
+		</description>
+		<sheet alt="Emerald">
+			<description>Your gem ancestry is {{ua:draconic-ancestry}} and your damage type is {{ua:draconic-ancestry:damage-type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="ua:draconic-ancestry" value="Emerald"/>
+			<stat inline="true" name="ua:draconic-ancestry:damage-type" value="Psychic" />
+		</rules>
+	</element>
+	<element name="Gem Ancestry, Sapphire" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_ANCESTRY_SAPPHIRE">
+		<compendium display="false" />
+		<supports>UA20210415_Gem_Ancestry</supports>
+		<description>
+			<p>You trace your ancestry to a sapphire dragon, granting you a special magical affinity.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_GEM_ANCESTRY" />
+			</div>
+		</description>
+		<sheet alt="Sapphire">
+			<description>Your gem ancestry is {{ua:draconic-ancestry}} and your damage type is {{ua:draconic-ancestry:damage-type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="ua:draconic-ancestry" value="Sapphire"/>
+			<stat inline="true" name="ua:draconic-ancestry:damage-type" value="Thunder" />
+		</rules>
+	</element>
+	<element name="Gem Ancestry, Topaz" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_ANCESTRY_TOPAZ">
+		<compendium display="false" />
+		<supports>UA20210415_Gem_Ancestry</supports>
+		<description>
+			<p>You trace your ancestry to a topaz dragon, granting you a special magical affinity.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_RACIAL_TRAIT_GEM_GEM_ANCESTRY" />
+			</div>
+		</description>
+		<sheet alt="Topaz">
+			<description>Your gem ancestry is {{ua:draconic-ancestry}} and your damage type is {{ua:draconic-ancestry:damage-type}}.</description>
+		</sheet>
+		<rules>
+			<stat inline="true" name="ua:draconic-ancestry" value="Topaz"/>
+			<stat inline="true" name="ua:draconic-ancestry:damage-type" value="Necrotic" />
+		</rules>
+	</element>
+	<element name="Kobold" type="Race" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACE_KOBOLD">
+		<description>
+			<p>Some of the smallest draconic creatures to walk the planes, kobolds display their draconic ancestry in the glint of their scales and in their roars. Legends tell of the first kobolds emerging from the Underdark near the lairs of the earliest dragons. In some lands, kobolds serve chromatic or metallic dragons—even worshiping them as divine beings. In other places, kobolds know too well how dangerous those dragons can be and help others defend against draconic destruction.</p>
+			<p class="indent">Whatever their relationship to dragons, kobold scales tend to be rust colored, although the occasional kobold sports scale color more akin to that of a chromatic or a metallic dragon. The roar of a kobold can express a range of emotion: anger, resolve, elation, fear, and more. Regardless of the emotion the kobold expresses, the roar resonates with draconic power.</p>
+			<h4>Kobold Traits</h4>
+			<p>You have the following racial traits.</p>
+			<p class="indent"><strong><em>Creature Type.</em></strong> You are a Humanoid.</p>
+			<p class="indent"><strong><em>Size.</em></strong> You are Small.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.</p>
+			<p class="indent"><strong><em>Draconic Legacy.</em></strong> The kobold connection to dragons can manifest in unpredictable ways in an individual kobold. Choose one of the following legacy options when you select this race:</p>
+			<ul>
+				<li>You have advantage on saving throws to avoid or end the frightened condition on yourself.</li>
+				<li>You know one cantrip of your choice from the sorcerer spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for that cantrip (choose when you select this race).</li>
+				<li>You can make unarmed strikes with your tail. When you hit with it, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.</li>
+			</ul>
+			<p class="indent"><strong><em>Draconic Roar.</em></strong> As a bonus action, you let out a draconic roar at your enemies within 10 feet of you. Until the end of your next turn, you and your allies have advantage on attack rolls against any of those enemies who could hear the roar. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<grant type="Grants" id="ID_WOTC_UA20210126_GRANTS_LINEAGE_ASI" />
+			<grant type="Grants" id="ID_WOTC_UA20210126_GRANTS_LINEAGE_LANGUAGE" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210126_RACIAL_TRAIT_CREATURE_TYPE_HUMANOID" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210415_RACIAL_TRAIT_KOBOLD_DRACONIC_LEGACY" />
+			<grant type="Racial Trait" id="ID_WOTC_UA20210415_RACIAL_TRAIT_KOBOLD_DRACONIC_ROAR" />
+		</rules>
+	</element>
+	<element name="Draconic Legacy" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_KOBOLD_DRACONIC_LEGACY">
+		<description>
+			<p>The kobold connection to dragons can manifest in unpredictable ways in an individual kobold. Choose one of the following legacy options when you select this race:</p>
+			<ul>
+				<li>You have advantage on saving throws to avoid or end the frightened condition on yourself.</li>
+				<li>You know one cantrip of your choice from the sorcerer spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for that cantrip (choose when you select this race).</li>
+				<li>You can make unarmed strikes with your tail. When you hit with it, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.</li>
+			</ul>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Racial Trait" name="Draconic Legacy" supports="ID_WOTC_UA20210415_RACIAL_TRAIT_KOBOLD_DRACONIC_LEGACY_1|ID_WOTC_UA20210415_RACIAL_TRAIT_KOBOLD_DRACONIC_LEGACY_2|ID_WOTC_UA20210415_RACIAL_TRAIT_KOBOLD_DRACONIC_LEGACY_3" />
+		</rules>
+	</element>
+	<element name="Frightened Advantage" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_KOBOLD_DRACONIC_LEGACY_1">
+		<compendium display="false" />
+		<description>
+			<p>You have advantage on saving throws to avoid or end the frightened condition on yourself.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_RACIAL_TRAIT_KOBOLD_DRACONIC_LEGACY" />
+			</div>
+		</description>
+		<sheet alt="Draconic Legacy">
+			<description>You have advantage on saving throws to avoid or end the frightened condition on yourself.</description>
+		</sheet>
+	</element>
+	<element name="Sorcerer Cantrip" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_KOBOLD_DRACONIC_LEGACY_2">
+		<compendium display="false" />
+		<description>
+			<p>You know one cantrip of your choice from the sorcerer spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for that cantrip (choose when you select this race).</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_RACIAL_TRAIT_KOBOLD_DRACONIC_LEGACY" />
+			</div>
+		</description>
+		<sheet alt="Draconic Legacy">
+			<description>Intelligence, Wisdom, or Charisma is your spellcasting ability for your Draconic Legacy cantrip.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Cantrip, Draconic Legacy" supports="0,Sorcerer" />
+		</rules>
+	</element>
+	<element name="Unarmed Strike, Tail" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_KOBOLD_DRACONIC_LEGACY_3">
+		<compendium display="false" />
+		<description>
+			<p>You can make unarmed strikes with your tail. When you hit with it, the strike deals 1d6 + your Strength modifier bludgeoning damage, instead of the bludgeoning damage normal for an unarmed strike.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_RACIAL_TRAIT_KOBOLD_DRACONIC_LEGACY" />
+			</div>
+		</description>
+		<sheet alt="Draconic Legacy">
+			<description>You can make unarmed strikes with your tail that deal 1d6 + {{strength:modifier}} bludgeoning damage.</description>
+		</sheet>
+	</element>
+	<element name="Draconic Roar" type="Racial Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_RACIAL_TRAIT_KOBOLD_DRACONIC_ROAR">
+		<description>
+			<p>As a bonus action, you let out a draconic roar at your enemies within 10 feet of you. Until the end of your next turn, you and your allies have advantage on attack rolls against any of those enemies who could hear the roar. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
+			<description>You let out a draconic roar at your enemies within 10 feet of you. Until the end of your next turn, you and your allies have advantage on attack rolls against any of those enemies who could hear the roar.</description>
+		</sheet>
+	</element>
+	<element name="Dragonborn Lineage Variant" type="Grants" source="Core" id="ID_INTERNAL_GRANTS_DRAGONBORN_LINEAGE_VARIANT" />
+	<element name="Gift of the Chromatic Dragon" type="Feat" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_FEAT_GIFT_OF_THE_CHROMATIC_DRAGON">
+		<description>
+			<p>You’ve manifested some of the power of chromatic dragons, granting you the following benefits:</p>
+			<ul>
+				<li>As a bonus action, you can touch a simple or martial weapon and infuse it with one of the following damage types: acid, cold, fire, lightning, or poison. For the next minute, the weapon deals an extra 1d4 damage of the chosen type when it hits. After you use this ability, you can’t do so again until you finish a long rest.</li>
+				<li>When you take acid, cold, fire, lightning, or poison damage, you can use your reaction to give yourself resistance to that instance of damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
+			</ul>
+		</description>
+		<sheet action="Bonus Action" usage="1/Long Rest">
+			<description>You can touch a simple or martial weapon and infuse it with one of the following damage types: acid, cold, fire, lightning, or poison. For the next minute, the weapon deals an extra 1d4 damage of the chosen type when it hits.</description>
+		</sheet>
+		<rules>
+			<grant type="Feat Feature" id="ID_WOTC_UA20210415_FEAT_FEATURE_GIFT_OF_THE_CHROMATIC_DRAGON_2" />
+		</rules>
+	</element>
+	<element name="Gift of the Chromatic Dragon" type="Feat Feature" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_FEAT_FEATURE_GIFT_OF_THE_CHROMATIC_DRAGON_2">
+		<compendium display="false" />
+		<description>
+			<p>When you take acid, cold, fire, lightning, or poison damage, you can use your reaction to give yourself resistance to that instance of damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_FEAT_GIFT_OF_THE_CHROMATIC_DRAGON" />
+			</div>
+		</description>
+		<sheet action="Reaction" usage="{{proficiency}}/Long Rest">
+			<description>When you take acid, cold, fire, lightning, or poison damage, you can give yourself resistance to that instance of damage.</description>
+		</sheet>
+	</element>
+	<element name="Gift of the Metallic Dragon" type="Feat" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_FEAT_GIFT_OF_THE_METALLIC_DRAGON">
+		<description>
+			<p>You’ve manifested some of the power of metallic dragons, granting you the following benefits:</p>
+			<ul>
+				<li>You learn the cure wounds spell. You can cast this spell without expending a spell slot. Once you cast this spell in this way, you can’t do so again until you finish a long rest. You can also cast this spell using spell slots you have. The spell’s spellcasting ability is Intelligence, Wisdom, or Charisma when you cast it with this feat (choose when you gain the feat).</li>
+				<li>You can manifest protective wings that can shield you or others from attacks. When you or another creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to manifest spectral wings from your back for a moment. Roll a d4 and grant a bonus to the target’s AC equal to the number rolled against that attack roll, potentially causing it to miss. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
+			</ul>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>You can cast the cure wounds spell without expending a spell slot or using spell slots you have, using Intelligence, Wisdom, or Charisma as your spellcasting modifier.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_CURE_WOUNDS" />
+			<grant type="Feat Feature" id="ID_WOTC_UA20210415_FEAT_FEATURE_GIFT_OF_THE_METALLIC_DRAGON" />
+		</rules>
+	</element>
+	<element name="Gift of the Metallic Dragon" type="Feat Feature" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_FEAT_FEATURE_GIFT_OF_THE_METALLIC_DRAGON">
+		<compendium display="false" />
+		<description>
+			<compendium display="false" />
+			<p>You can manifest protective wings that can shield you or others from attacks. When you or another creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to manifest spectral wings from your back for a moment. Roll a d4 and grant a bonus to the target’s AC equal to the number rolled against that attack roll, potentially causing it to miss. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+			<div class="reference">
+				<div element="ID_WOTC_UA20210415_FEAT_GIFT_OF_THE_METALLIC_DRAGON" />
+			</div>
+		</description>
+		<sheet action="Reaction" usage="{{proficiency}}/Long Rest">
+			<description>When you or another creature you can see within 5 feet of you is hit by an attack roll, you can manifest spectral wings from your back for a moment. Roll a d4 and grant a bonus to the target’s AC equal to the number rolled against that attack roll, potentially causing it to miss.</description>
+		</sheet>
+	</element>
+	<element name="Gift of the Gem Dragon" type="Feat" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_FEAT_GIFT_OF_THE_GEM_DRAGON">
+		<description>
+			<p>You’ve manifested some of the power of gem dragons, granting you the following benefits:</p>
+			<ul>
+				<li>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
+				<li>When you take damage from a creature that is within 10 feet of you, you can use your reaction to emanate telekinetic energy. The creature that dealt damage to you must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + the ability modifier of the score increased by this feat) or take 2d8 force damage and be pushed 10 feet away from you. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
+			</ul>
+		</description>
+		<sheet action="Reaction" usage="{{proficiency}}/Long Rest">
+			<description>When you take damage from a creature that is within 10 feet of you, you can emanate telekinetic energy. The creature that dealt damage to you must succeed on a DC {{ua:gift-of-the-gem-dragon:dc}} Strength save or take 2d8 force damage and be pushed 10 feet away from you.</description>
+		</sheet>
+		<rules>
+			<stat name="ua:gift-of-the-gem-dragon:dc" value="8" />
+			<stat name="ua:gift-of-the-gem-dragon:dc" value="proficiency" />
+			<select type="Ability Score Improvement" name="Ability Score Increase, Gift of the Gem Dragon" supports="ID_WOTC_UA20210415_ABILITY_SCORE_IMPROVEMENT_GIFT_OF_THE_GEM_DRAGON_INTELLIGENCE|ID_WOTC_UA20210415_ABILITY_SCORE_IMPROVEMENT_GIFT_OF_THE_GEM_DRAGON_WISDOM|ID_WOTC_UA20210415_ABILITY_SCORE_IMPROVEMENT_GIFT_OF_THE_GEM_DRAGON_CHARISMA" />
+		</rules>
+	</element>
+	<element name="Intelligence" type="Ability Score Improvement" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_ABILITY_SCORE_IMPROVEMENT_GIFT_OF_THE_GEM_DRAGON_INTELLIGENCE">
+		<compendium display="false" />
+		<requirements>ID_WOTC_UA20210415_FEAT_GIFT_OF_THE_GEM_DRAGON</requirements>
+		<description>
+			<p>Increase your Intelligence score by 1, to a maximum of 20.</p>
+		</description>
+		<rules>
+			<stat name="intelligence" value="1" alt="Gift of the Gem Dragon" />
+			<stat name="ua:gift-of-the-gem-dragon:dc" value="intelligence:modifier" />
+		</rules>
+	</element>
+	<element name="Wisdom" type="Ability Score Improvement" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_ABILITY_SCORE_IMPROVEMENT_GIFT_OF_THE_GEM_DRAGON_WISDOM">
+		<compendium display="false" />
+		<requirements>ID_WOTC_UA20210415_FEAT_GIFT_OF_THE_GEM_DRAGON</requirements>
+		<description>
+			<p>Increase your Wisdom score by 1, to a maximum of 20.</p>
+		</description>
+		<rules>
+			<stat name="wisdom" value="1" alt="Gift of the Gem Dragon" />
+			<stat name="ua:gift-of-the-gem-dragon:dc" value="wisdom:modifier" />
+		</rules>
+	</element>
+	<element name="Charisma" type="Ability Score Improvement" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_ABILITY_SCORE_IMPROVEMENT_GIFT_OF_THE_GEM_DRAGON_CHARISMA">
+		<compendium display="false" />
+		<requirements>ID_WOTC_UA20210415_FEAT_GIFT_OF_THE_GEM_DRAGON</requirements>
+		<description>
+			<p>Increase your Charisma score by 1, to a maximum of 20.</p>
+		</description>
+		<rules>
+			<stat name="charisma" value="1" alt="Gift of the Gem Dragon" />
+			<stat name="ua:gift-of-the-gem-dragon:dc" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="Draconic Transformation" type="Spell" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_SPELL_DRACONIC_TRANSFORMATION">
+		<supports>Druid, Sorcerer, Wizard</supports>
+		<description>
+			<p>With a roar, you draw on the magic of dragons to transform yourself, taking on various draconic features. You gain the following benefits until the spell ends:</p>
+			<ul>
+				<li>You have blindsight with a range of 30 feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you’re blinded or in darkness. Moreover, you can see an invisible creature, unless the creature successfully hides from you.</li>
+				<li>Incorporeal wings sprout from your back, giving you a flying speed of 40 feet.</li>
+				<li>When you cast this spell, and as a bonus action on subsequent turns for the duration, you can exhale a breath of shimmering energy in a 30- foot cone. Each creature in the area must make a Dexterity saving throw, taking 3d8 force damage on a failed save or half as much damage on a successful one.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="level">7</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 bonus action</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a statuette of a dragon</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="isConcentration">true</set>
+		</setters>
+	</element>
+	<element name="Fizban’s Platinum Shield" type="Spell" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_SPELL_FIZBANS_PLATINUM_SHIELD">
+		<supports>Sorcerer, Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You create a field of silvery light that surrounds a creature of your choice within range (you can choose yourself). The field sheds dim light out to 5 feet.&lt;/p&gt;
+&lt;p class="indent"&gt;As a bonus action on subsequent turns, you can move the field to another creature within 60 feet of the field.&lt;/p&gt;
+&lt;p class="indent"&gt;The creature protected by the field gains the following benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The creature has half cover.&lt;/li&gt;
+&lt;li&gt;The creature has resistance to acid, cold, fire, lightning, and poison damage.&lt;/li&gt;
+&lt;li&gt;If the creature is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the creature instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.&lt;/li&gt;
+&lt;/ul&gt;</html>
+		</description>
+		<setters>
+			<set name="level">6</set>
+			<set name="school">Abjuration</set>
+			<set name="time">1 action</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a platinum-plated dragon scale</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="isConcentration">true</set>
+		</setters>
+	</element>
+	<element name="Flame Stride" type="Spell" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_SPELL_FLAME_STRIDE">
+		<supports>Artificer, Ranger, Sorcerer, Wizard</supports>
+		<description>
+			<html>&lt;p&gt;The billowing flames of a dragon cover your feet, granting you explosive speed. For the duration, your speed increases by 20 feet and moving doesn’t provoke opportunity attacks.&lt;/p&gt;
+&lt;p class="indent"&gt;When you move within 5 feet of a creature or object that isn’t being worn or carried, it takes 1d6 fire damage from your trail of heat. A creature or object can take this damage only once during a turn.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 4th level or higher, increase your speed by 5 feet for each spell slot level above 3rd. Additionally, the spell deals an additional 1d6 fire damage for each slot level above 3rd.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="level">3</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 bonus action</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="isConcentration">true</set>
+		</setters>
+	</element>
+	<element name="Icingdeath’s Frost" type="Spell" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_SPELL_ICINGDEATHS_FROST">
+		<supports>Sorcerer, Wizard</supports>
+		<description>
+			<html>&lt;p&gt;A burst of icy cold energy emanates from you in a 30-foot cone. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes 3d8 cold damage and is covered in ice for 1 minute or until a creature uses its action to break the ice off itself or another creature. A creature covered in ice has its speed reduced to 0. On a successful save, a creature takes half as much damage with no additional effects.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 3rd level or higher, increase the cold damage by 1d8 for each slot level above 2nd.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="level">2</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="range">Self (15-foot cone)</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a vial of meltwater</set>
+			<set name="duration">Instantaneous</set>
+		</setters>
+	</element>
+	<element name="Nathair’s Mischief" type="Spell" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_SPELL_NATHAIRS_MISCHIEF">
+		<supports>Bard, Sorcerer, Wizard</supports>
+		<description>
+			<p>You fill a 20-foot cube centered on a point you choose within range with fey and draconic magic. Roll on the Mischievous Surge table to determine the magical effect produced. At the start of each of your turns, you can move the cube up to 10 feet and reroll on the table.</p>
+			<h5 class="caption">Mischievous Surge</h5>
+			<table>
+				<thead>
+					<tr><td>d4</td><td>Effect</td></tr>
+				</thead>
+				<tr><td>1</td><td>The smell of apple pie fills the air, and each creature in the cube must succeed on a Wisdom saving throw or become charmed by you until the start of your next turn.</td></tr>
+				<tr><td>2</td><td>Bouquets of flowers appear all around, and each creature in the cube must succeed on a Dexterity saving throw or be blinded until the start of your next turn as the flowers spray water in their faces.</td></tr>
+				<tr><td>3</td><td>Each creature in the cube must succeed on a Wisdom saving throw or begin giggling until the start of your next turn. A giggling creature is incapacitated and uses all its movement to move in a random direction.</td></tr>
+				<tr><td>4</td><td>Drops of molasses appear and hover in the cube, turning it into difficult terrain until the start of your next turn.</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="level">2</set>
+			<set name="school">Illusion</set>
+			<set name="time">1 action</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a piece of crust from an apple pie</set>
+			<set name="duration">Concentration, up to 1 minute</set>
+			<set name="isConcentration">true</set>
+		</setters>
+	</element>
+	<element name="Raulothim’s Psychic Lance" type="Spell" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_SPELL_RAULOTHIMS_PSYCHIC_LANCE">
+		<supports>Bard, Sorcerer, Warlock, Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter the creature’s name. If the named target is within range, it gains no benefit from cover or invisibility as the lance homes in on it. If the named target isn’t within range, the lance dissipates, and the spell slot is not expended.&lt;/p&gt;
+&lt;p class="indent"&gt;The target must succeed on an Intelligence saving throw or take 10d6 psychic damage and be incapacitated until the start of your next turn.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="level">4</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 action</set>
+			<set name="range">120 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="duration">Instantaneous</set>
+		</setters>
+	</element>
+	<element name="Summon Draconic Spirit" type="Spell" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_SPELL_SUMMON_DRACONIC_SPIRIT">
+		<supports>Druid, Sorcerer, Wizard</supports>
+		<description>
+			<html>&lt;p&gt;You call forth a draconic spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Draconic Spirit stat block. When you cast this spell, choose a family of dragon: Chromatic, Gem, or Metallic. The creature resembles a dragon of the chosen family, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.&lt;/p&gt;
+&lt;p class="indent"&gt;The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 6th level or higher, use the higher level wherever the spell’s level appears in the stat block.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="level">5</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 action</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">an art object from a dragon’s hoard</set>
+			<set name="duration">Concentration, up to 1 hour</set>
+			<set name="isConcentration">true</set>
+		</setters>
+	</element>
+	<element name="Draconic Spirit, Chromatic" type="Companion" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_COMPANION_DRACONIC_SPIRIT_CHROMATIC">
+		<supports>Companion</supports>
+		<requirements>ID_WOTC_UA20210415_SPELL_SUMMON_DRACONIC_SPIRIT</requirements>
+		<description></description>
+		<setters>
+			<set name="strength">19</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">17</set>
+			<set name="intelligence">10</set>
+			<set name="wisdom">14</set>
+			<set name="charisma">14</set>
+			<set name="ac">14 + the level of the spell (natural armor)</set>
+			<set name="hp">50 + 10 for each spell level above 5th</set>
+			<set name="speed">30 ft., fly 80 ft., swim 30 ft.</set>
+			<set name="resistances">acid, cold, fire, lightning, poison</set>
+			<set name="immunities">charmed, frightened, poisoned</set>
+			<set name="senses">blindsight 30 ft., darkvision 60 ft., passive</set>
+			<set name="languages">Draconic, understands the languages you speak</set>
+			<set name="type">Dragon</set>
+			<set name="size">Large</set>
+			<set name="alignment">Unaligned</set>
+			<set name="challenge">—</set>
+			<set name="proficiency">2</set>
+			<set name="traits">ID_WOTC_UA20210415_COMPANION_TRAIT_DRACONIC_SPIRIT_SHARED_RESISTANCES</set>
+			<set name="actions">ID_WOTC_UA20210415_COMPANION_ACTION_DRACONIC_SPIRIT_MULTIATTACK,ID_WOTC_UA20210415_COMPANION_ACTION_DRACONIC_SPIRIT_BITE_AND_CLAW,ID_WOTC_UA20210415_COMPANION_ACTION_DRACONIC_SPIRIT_BREATH_WEAPON</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="14" bonus="base" />
+			<stat name="companion:ac" value="5" bonus="spell" />
+			<stat name="companion:hp:max" value="50" bonus="spell" />
+			<!-- <stat name="companion:hp:max" value="10" /> -->
+			<stat name="companion:speed" value="40" bonus="base" />	
+			<stat name="companion:fly" value="80" bonus="base" />	
+			<stat name="companion:swim" value="30" bonus="base" />
+			<select type="Companion Feature" name="Draconic Spirit, Spell Level" supports="UA_Draconic Spirit Spell Level" default="ID_WOTC_UA20210415_COMPANION_FEATURE_DRACONIC_SPIRIT_LEVEL_5" />
+		</rules>
+	</element>
+	<element name="Draconic Spirit, Metallic" type="Companion" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_COMPANION_DRACONIC_SPIRIT_METALLIC">
+		<supports>Companion</supports>
+		<requirements>ID_WOTC_UA20210415_SPELL_SUMMON_DRACONIC_SPIRIT</requirements>
+		<description></description>
+		<setters>
+			<set name="strength">19</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">17</set>
+			<set name="intelligence">10</set>
+			<set name="wisdom">14</set>
+			<set name="charisma">14</set>
+			<set name="ac">14 + the level of the spell (natural armor)</set>
+			<set name="hp">50 + 10 for each spell level above 5th</set>
+			<set name="speed">30 ft., fly 80 ft., swim 30 ft.</set>
+			<set name="resistances">acid, cold, fire, lightning, poison</set>
+			<set name="immunities">charmed, frightened, poisoned</set>
+			<set name="senses">blindsight 30 ft., darkvision 60 ft., passive</set>
+			<set name="languages">Draconic, understands the languages you speak</set>
+			<set name="type">Dragon</set>
+			<set name="size">Large</set>
+			<set name="alignment">Unaligned</set>
+			<set name="challenge">—</set>
+			<set name="proficiency">2</set>
+			<set name="traits">ID_WOTC_UA20210415_COMPANION_TRAIT_DRACONIC_SPIRIT_SHARED_RESISTANCES</set>
+			<set name="actions">ID_WOTC_UA20210415_COMPANION_ACTION_DRACONIC_SPIRIT_MULTIATTACK,ID_WOTC_UA20210415_COMPANION_ACTION_DRACONIC_SPIRIT_BITE_AND_CLAW,ID_WOTC_UA20210415_COMPANION_ACTION_DRACONIC_SPIRIT_BREATH_WEAPON</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="14" bonus="base" />
+			<stat name="companion:ac" value="5" bonus="spell" />
+			<stat name="companion:hp:max" value="50" bonus="spell" />
+			<!-- <stat name="companion:hp:max" value="10" /> -->
+			<stat name="companion:speed" value="40" bonus="base" />	
+			<stat name="companion:fly" value="80" bonus="base" />	
+			<stat name="companion:swim" value="30" bonus="base" />
+			<select type="Companion Feature" name="Draconic Spirit, Spell Level" supports="UA_Draconic Spirit Spell Level" default="ID_WOTC_UA20210415_COMPANION_FEATURE_DRACONIC_SPIRIT_LEVEL_5" />
+		</rules>
+	</element>
+	<element name="Draconic Spirit, Gem" type="Companion" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_COMPANION_DRACONIC_SPIRIT_GEM">
+		<supports>Companion</supports>
+		<requirements>ID_WOTC_UA20210415_SPELL_SUMMON_DRACONIC_SPIRIT</requirements>
+		<description></description>
+		<setters>
+			<set name="strength">19</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">17</set>
+			<set name="intelligence">10</set>
+			<set name="wisdom">14</set>
+			<set name="charisma">14</set>
+			<set name="ac">14 + the level of the spell (natural armor)</set>
+			<set name="hp">50 + 10 for each spell level above 5th</set>
+			<set name="speed">30 ft., fly 80 ft., swim 30 ft.</set>
+			<set name="resistances">force, necrotic, psychic, radiant, thunder</set>
+			<set name="immunities">charmed, frightened, poisoned</set>
+			<set name="senses">blindsight 30 ft., darkvision 60 ft., passive</set>
+			<set name="languages">Draconic, understands the languages you speak</set>
+			<set name="type">Dragon</set>
+			<set name="size">Large</set>
+			<set name="alignment">Unaligned</set>
+			<set name="challenge">—</set>
+			<set name="proficiency">2</set>
+			<set name="traits">ID_WOTC_UA20210415_COMPANION_TRAIT_DRACONIC_SPIRIT_SHARED_RESISTANCES</set>
+			<set name="actions">ID_WOTC_UA20210415_COMPANION_ACTION_DRACONIC_SPIRIT_MULTIATTACK,ID_WOTC_UA20210415_COMPANION_ACTION_DRACONIC_SPIRIT_BITE_AND_CLAW,ID_WOTC_UA20210415_COMPANION_ACTION_DRACONIC_SPIRIT_BREATH_WEAPON</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="14" bonus="base" />
+			<stat name="companion:ac" value="5" bonus="spell" />
+			<stat name="companion:hp:max" value="50" bonus="spell" />
+			<!-- <stat name="companion:hp:max" value="10" /> -->
+			<stat name="companion:speed" value="40" bonus="base" />	
+			<stat name="companion:fly" value="80" bonus="base" />	
+			<stat name="companion:swim" value="30" bonus="base" />
+			<select type="Companion Feature" name="Draconic Spirit, Spell Level" supports="UA_Draconic Spirit Spell Level" default="ID_WOTC_UA20210415_COMPANION_FEATURE_DRACONIC_SPIRIT_LEVEL_5" />
+		</rules>
+	</element>
+	<element name="Shared Resistances" type="Companion Trait" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_COMPANION_TRAIT_DRACONIC_SPIRIT_SHARED_RESISTANCES">
+		<description>
+			<p>When you summon the dragon, choose one of its damage resistances. You have resistance to the chosen damage type until the spell ends.</p>
+		</description>
+		<sheet>
+			<description>When you summon the dragon, choose one of its damage resistances. You have resistance to the chosen damage type until the spell ends.</description>
+		</sheet>
+	</element>
+	<element name="Multiattack" type="Companion Action" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_COMPANION_ACTION_DRACONIC_SPIRIT_MULTIATTACK">
+		<description>
+			<p>The dragon uses its Breath Weapon, and it makes a number of Bite and Claw attacks equal to half the spell’s level (rounded down).</p>
+		</description>
+		<sheet>
+			<description>The dragon uses its Breath Weapon, and it makes a number of Bite and Claw attacks equal to half the spell’s level (rounded down).</description>
+		</sheet>
+	</element>
+	<element name="Bite and Claw" type="Companion Action" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_COMPANION_ACTION_DRACONIC_SPIRIT_BITE_AND_CLAW">
+		<description>
+			<p>Melee Weapon Attack: your spell attack modifier to hit, reach 10 ft., one target. Hit: 1d6 + 4 + the spell’s level piercing damage.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: your spell attack modifier to hit, reach 10 ft., one target. Hit: 1d6 + 4 + the spell’s level piercing damage.</description>
+		</sheet>
+	</element>
+	<element name="Breath Weapon" type="Companion Action" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_COMPANION_ACTION_DRACONIC_SPIRIT_BREATH_WEAPON">
+		<description>
+			<p>The dragon exhales a stream of multicolored energy in a 30-foot cone. Each creature in that area must make a Dexterity saving throw, taking 2d6 damage of your choice of a damage type this dragon has resistance to on a failed save, or half as much damage on a successful one.</p>
+		</description>
+		<sheet>
+			<description>The dragon exhales a stream of multicolored energy in a 30-foot cone. Each creature in that area must make a Dexterity saving throw, taking 2d6 damage of your choice of a damage type this dragon has resistance to on a failed save, or half as much damage on a successful one.</description>
+		</sheet>
+	</element>
+	<element name="Level 5" type="Companion Feature" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_COMPANION_FEATURE_DRACONIC_SPIRIT_LEVEL_5">
+		<supports>UA_Draconic Spirit Spell Level</supports>
+		<compendium display="false" />
+		<requirements>ID_WOTC_UA20210415_COMPANION_DRACONIC_SPIRIT_CHROMATIC||ID_WOTC_UA20210415_COMPANION_DRACONIC_SPIRIT_METALLIC||ID_WOTC_UA20210415_COMPANION_DRACONIC_SPIRIT_GEM</requirements>
+		<description>
+			<p>The draconic spirit spell was cast at level 5.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="companion:ac" value="5" bonus="spell" />
+			<stat name="companion:hp:max" value="50" bonus="spell" />
+		</rules>
+	</element>
+	<element name="Level 6" type="Companion Feature" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_COMPANION_FEATURE_DRACONIC_SPIRIT_LEVEL_6">
+		<supports>UA_Draconic Spirit Spell Level</supports>
+		<compendium display="false" />
+		<requirements>ID_WOTC_UA20210415_COMPANION_DRACONIC_SPIRIT_CHROMATIC||ID_WOTC_UA20210415_COMPANION_DRACONIC_SPIRIT_METALLIC||ID_WOTC_UA20210415_COMPANION_DRACONIC_SPIRIT_GEM</requirements>
+		<description>
+			<p>The draconic spirit spell was cast at level 6.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="companion:ac" value="6" bonus="spell" />
+			<stat name="companion:hp:max" value="60" bonus="spell" />
+		</rules>
+	</element>
+	<element name="Level 7" type="Companion Feature" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_COMPANION_FEATURE_DRACONIC_SPIRIT_LEVEL_7">
+		<supports>UA_Draconic Spirit Spell Level</supports>
+		<compendium display="false" />
+		<requirements>ID_WOTC_UA20210415_COMPANION_DRACONIC_SPIRIT_CHROMATIC||ID_WOTC_UA20210415_COMPANION_DRACONIC_SPIRIT_METALLIC||ID_WOTC_UA20210415_COMPANION_DRACONIC_SPIRIT_GEM</requirements>
+		<description>
+			<p>The draconic spirit spell was cast at level 7.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="companion:ac" value="7" bonus="spell" />
+			<stat name="companion:hp:max" value="70" bonus="spell" />
+		</rules>
+	</element>
+	<element name="Level 8" type="Companion Feature" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_COMPANION_FEATURE_DRACONIC_SPIRIT_LEVEL_8">
+		<supports>UA_Draconic Spirit Spell Level</supports>
+		<compendium display="false" />
+		<requirements>ID_WOTC_UA20210415_COMPANION_DRACONIC_SPIRIT_CHROMATIC||ID_WOTC_UA20210415_COMPANION_DRACONIC_SPIRIT_METALLIC||ID_WOTC_UA20210415_COMPANION_DRACONIC_SPIRIT_GEM</requirements>
+		<description>
+			<p>The draconic spirit spell was cast at level 8.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="companion:ac" value="8" bonus="spell" />
+			<stat name="companion:hp:max" value="80" bonus="spell" />
+		</rules>
+	</element>
+	<element name="Level 9" type="Companion Feature" source="Unearthed Arcana: Draconic Options" id="ID_WOTC_UA20210415_COMPANION_FEATURE_DRACONIC_SPIRIT_LEVEL_9">
+		<supports>UA_Draconic Spirit Spell Level</supports>
+		<compendium display="false" />
+		<requirements>ID_WOTC_UA20210415_COMPANION_DRACONIC_SPIRIT_CHROMATIC||ID_WOTC_UA20210415_COMPANION_DRACONIC_SPIRIT_METALLIC||ID_WOTC_UA20210415_COMPANION_DRACONIC_SPIRIT_GEM</requirements>
+		<description>
+			<p>The draconic spirit spell was cast at level 9.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="companion:ac" value="9" bonus="spell" />
+			<stat name="companion:hp:max" value="90" bonus="spell" />
+		</rules>
+	</element>
+</elements>
