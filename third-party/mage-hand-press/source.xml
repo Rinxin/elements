@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Mage Hand Press" type="Source" source="Core" id="ID_HOMEBREW_SOURCE_MAGE_HAND_PRESS">
+		<description>
+			<![CDATA[<p></p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">MHP</set>
+			<set name="url">http://mfov.magehandpress.com/</set>
+			<set name="author" url="http://mfov.magehandpress.com/">Mage Hand Press</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+</elements>
