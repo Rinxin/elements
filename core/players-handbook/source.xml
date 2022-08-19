@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Player’s Handbook" type="Source" source="Core" id="ID_WOTC_SOURCE_PLAYERS_HANDBOOK">
+		<description>
+			<![CDATA[<p><strong>Everything a player needs to create heroic characters for the world’s greatest roleplaying game.</strong></p><p>The Player’s Handbook is the essential reference for every Dungeons &amp; Dragons roleplayer. It contains rules for character creation and advancement, backgrounds and skills, exploration and combat, equipment, spells, and much more. Use this book to create exciting characters from among the most iconic D&amp;D races and classes.</p><p>Dungeons &amp; Dragons immerses you in a world of adventure. Explore ancient ruins and deadly dungeons. Battle monsters while searching for legendary treasures. Gain experience and power as you trek across uncharted lands with your companions.</p><p>The world needs heroes. Will you answer the call?</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">PHB</set>
+			<set name="url">http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook/</set>
+			<set name="image">https://media.dnd.wizards.com/styles/products_thumbnail/public/images/product/DnD_PHBTH.png</set>
+			<set name="errata">https://media.wizards.com/2020/dnd/downloads/PH-Errata.pdf</set>
+			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+			<set name="official">true</set>
+			<set name="core">true</set>
+			<set name="release">20140819</set>
+		</setters>
+	</element>
+	<element name="Ignore Heavy Armor Speed Reduction" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_IGNORE_HEAVY_ARMOR_SPEED_REDUCTION" />
+	<append id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT">
+		<supports>ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT</supports>
+	</append>
+	<!-- intentional dupe -->
+	<element name="Aberration" type="Racial Trait" source="Player’s Handbook" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_ABERRATION">
+		<compendium display="false" />
+		<supports>CORE_LINEAGE_CREATURE_TYPE,DEFAULT_CREATURE_TYPE</supports>
+		<description>
+			<html>&lt;p&gt;Your creature type is Aberration.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Your creature type is Aberration.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_ABERRATION" />
+		</rules>
+	</element>
+	<element name="Beast" type="Racial Trait" source="Player’s Handbook" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_BEAST">
+		<compendium display="false" />
+		<supports>CORE_LINEAGE_CREATURE_TYPE,DEFAULT_CREATURE_TYPE</supports>
+		<description>
+			<html>&lt;p&gt;Your creature type is Beast.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Your creature type is Beast.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_BEAST" />
+		</rules>
+	</element>
+	<element name="Celestial" type="Racial Trait" source="Player’s Handbook" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_CELESTIAL">
+		<compendium display="false" />
+		<supports>CORE_LINEAGE_CREATURE_TYPE,DEFAULT_CREATURE_TYPE</supports>
+		<description>
+			<html>&lt;p&gt;Your creature type is Celestial.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Your creature type is Celestial.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_CELESTIAL" />
+		</rules>
+	</element>
+	<element name="Construct" type="Racial Trait" source="Player’s Handbook" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_CONSTRUCT">
+		<compendium display="false" />
+		<supports>CORE_LINEAGE_CREATURE_TYPE,DEFAULT_CREATURE_TYPE</supports>
+		<description>
+			<html>&lt;p&gt;Your creature type is Construct.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Your creature type is Construct.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_CONSTRUCT" />
+		</rules>
+	</element>
+	<element name="Dragon" type="Racial Trait" source="Player’s Handbook" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_DRAGON">
+		<compendium display="false" />
+		<supports>CORE_LINEAGE_CREATURE_TYPE,DEFAULT_CREATURE_TYPE</supports>
+		<description>
+			<html>&lt;p&gt;Your creature type is Dragon.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Your creature type is Dragon.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_DRAGON" />
+		</rules>
+	</element>
+	<element name="Elemental" type="Racial Trait" source="Player’s Handbook" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_ELEMENTAL">
+		<compendium display="false" />
+		<supports>CORE_LINEAGE_CREATURE_TYPE,DEFAULT_CREATURE_TYPE</supports>
+		<description>
+			<html>&lt;p&gt;Your creature type is Elemental.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Your creature type is Elemental.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_ELEMENTAL" />
+		</rules>
+	</element>
+	<element name="Fey" type="Racial Trait" source="Player’s Handbook" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_FEY">
+		<compendium display="false" />
+		<supports>CORE_LINEAGE_CREATURE_TYPE,DEFAULT_CREATURE_TYPE</supports>
+		<description>
+			<html>&lt;p&gt;Your creature type is Fey.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Your creature type is Fey.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_FEY" />
+		</rules>
+	</element>
+	<element name="Fiend" type="Racial Trait" source="Player’s Handbook" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_FIEND">
+		<compendium display="false" />
+		<supports>CORE_LINEAGE_CREATURE_TYPE,DEFAULT_CREATURE_TYPE</supports>
+		<description>
+			<html>&lt;p&gt;Your creature type is Fiend.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Your creature type is Fiend.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_FIEND" />
+		</rules>
+	</element>
+	<element name="Giant" type="Racial Trait" source="Player’s Handbook" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_GIANT">
+		<compendium display="false" />
+		<supports>CORE_LINEAGE_CREATURE_TYPE,DEFAULT_CREATURE_TYPE</supports>
+		<description>
+			<html>&lt;p&gt;Your creature type is Giant.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Your creature type is Giant.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_GIANT" />
+		</rules>
+	</element>
+	<element name="Humanoid" type="Racial Trait" source="Player’s Handbook" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_HUMANOID">
+		<compendium display="false" />
+		<supports>CORE_LINEAGE_CREATURE_TYPE,DEFAULT_CREATURE_TYPE</supports>
+		<description>
+			<html>&lt;p&gt;Your creature type is Humanoid.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Your creature type is Humanoid.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_HUMANOID" />
+		</rules>
+	</element>
+	<element name="Monstrosity" type="Racial Trait" source="Player’s Handbook" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_MONSTROSITY">
+		<compendium display="false" />
+		<supports>CORE_LINEAGE_CREATURE_TYPE,DEFAULT_CREATURE_TYPE</supports>
+		<description>
+			<html>&lt;p&gt;Your creature type is Monstrosity.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Your creature type is Monstrosity.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_MONSTROSITY" />
+		</rules>
+	</element>
+	<element name="Ooze" type="Racial Trait" source="Player’s Handbook" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_OOZE">
+		<compendium display="false" />
+		<supports>CORE_LINEAGE_CREATURE_TYPE,DEFAULT_CREATURE_TYPE</supports>
+		<description>
+			<html>&lt;p&gt;Your creature type is Ooze.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Your creature type is Ooze.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_OOZE" />
+		</rules>
+	</element>
+	<element name="Plant" type="Racial Trait" source="Player’s Handbook" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_PLANT">
+		<compendium display="false" />
+		<supports>CORE_LINEAGE_CREATURE_TYPE,DEFAULT_CREATURE_TYPE</supports>
+		<description>
+			<html>&lt;p&gt;Your creature type is Plant.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Your creature type is Plant.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_PLANT" />
+		</rules>
+	</element>
+	<element name="Undead" type="Racial Trait" source="Player’s Handbook" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_UNDEAD">
+		<compendium display="false" />
+		<supports>CORE_LINEAGE_CREATURE_TYPE,DEFAULT_CREATURE_TYPE</supports>
+		<description>
+			<html>&lt;p&gt;Your creature type is Undead.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Your creature type is Undead.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_UNDEAD" />
+		</rules>
+	</element>
+	<element name="Humanoid, Goblinoid" type="Racial Trait" source="Player’s Handbook" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_HUMANOID_GOBLINOID">
+		<compendium display="false" />
+		<supports>COUNTS_AS_CREATURE_TYPE, Goblinoid</supports>
+		<description>
+			<html>&lt;p&gt;Your creature type is Humanoid. You are also considered a goblinoid any prerequisite or effect that requires you to be a goblinoid.&lt;/p&gt;</html>
+		</description>
+		<sheet alt="Humanoid">
+			<description>Your creature type is Humanoid. You are also considered a goblinoid for any prerequisite or effect that requires you to be a goblinoid.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_HUMANOID" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_COUNTS_AS_GOBLINOID" />
+		</rules>
+	</element>
+	<element name="Humanoid, Gnome" type="Racial Trait" source="Player’s Handbook" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_HUMANOID_GNOME">
+		<compendium display="false" />
+		<supports>COUNTS_AS_CREATURE_TYPE, Gnome</supports>
+		<description>
+			<html>&lt;p&gt;Your creature type is Humanoid. You are also considered a gnome for any prerequisite or effect that requires you to be a gnome.&lt;/p&gt;</html>
+		</description>
+		<sheet alt="Humanoid">
+			<description>Your creature type is Humanoid. You are also considered a gnome for any prerequisite or effect that requires you to be a gnome.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_HUMANOID" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_COUNTS_AS_GNOME" />
+		</rules>
+	</element>
+	<element name="Humanoid, Dwarf" type="Racial Trait" source="Player’s Handbook" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_HUMANOID_DWARF">
+		<compendium display="false" />
+		<supports>COUNTS_AS_CREATURE_TYPE, Dwarf</supports>
+		<description>
+			<html>&lt;p&gt;Your creature type is Humanoid. You are also considered a dwarf for any prerequisite or effect that requires you to be a dwarf.&lt;/p&gt;</html>
+		</description>
+		<sheet alt="Humanoid">
+			<description>Your creature type is Humanoid. You are also considered a dwarf for any prerequisite or effect that requires you to be a dwarf.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_HUMANOID" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_COUNTS_AS_DWARF" />
+		</rules>
+	</element>
+	<element name="Humanoid, Elf" type="Racial Trait" source="Player’s Handbook" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_HUMANOID_ELF">
+		<compendium display="false" />
+		<supports>COUNTS_AS_CREATURE_TYPE, Elf</supports>
+		<description>
+			<html>&lt;p&gt;Your creature type is Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf.&lt;/p&gt;</html>
+		</description>
+		<sheet alt="Humanoid">
+			<description>Your creature type is Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_HUMANOID" />
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_COUNTS_AS_ELF" />
+		</rules>
+	</element>
+	<element name="Aberration" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_ABERRATION">
+		<sheet display="false" />
+	</element>
+	<element name="Beast" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_BEAST">
+		<sheet display="false" />
+	</element>
+	<element name="Celestial" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_CELESTIAL">
+		<sheet display="false" />
+	</element>
+	<element name="Construct" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_CONSTRUCT">
+		<sheet display="false" />
+	</element>
+	<element name="Dragon" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_DRAGON">
+		<sheet display="false" />
+	</element>
+	<element name="Elemental" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_ELEMENTAL">
+		<sheet display="false" />
+	</element>
+	<element name="Fey" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_FEY">
+		<sheet display="false" />
+	</element>
+	<element name="Fiend" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_FIEND">
+		<sheet display="false" />
+	</element>
+	<element name="Giant" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_GIANT">
+		<sheet display="false" />
+	</element>
+	<element name="Humanoid" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_HUMANOID">
+		<sheet display="false" />
+	</element>
+	<element name="Monstrosity" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_MONSTROSITY">
+		<sheet display="false" />
+	</element>
+	<element name="Ooze" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_OOZE">
+		<sheet display="false" />
+	</element>
+	<element name="Plant" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_PLANT">
+		<sheet display="false" />
+	</element>
+	<element name="Undead" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_CREATURE_TYPE_UNDEAD">
+		<sheet display="false" />
+	</element>
+	<element name="Goblinoid" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_GOBLINOID">
+		<sheet display="false" />
+	</element>
+	<element name="Gnome" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_GNOME">
+		<sheet display="false" />
+	</element>
+	<element name="Dwarf" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_DWARF">
+		<sheet display="false" />
+	</element>
+	<element name="Elf" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_ELF">
+		<sheet display="false" />
+	</element>
+	<element name="Aarakocra" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_AARAKOCRA">
+		<sheet display="false" />
+	</element>
+	<element name="Tiefling" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_TIEFLING">
+		<sheet display="false" />
+	</element>
+	<element name="Orc" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_ORC">
+		<sheet display="false" />
+	</element>
+	<element name="Tabaxi" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_TABAXI">
+		<sheet display="false" />
+	</element>
+	<element name="Firbolg" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_FIRBOLG">
+		<sheet display="false" />
+	</element>
+	<element name="Kenku" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_KENKU">
+		<sheet display="false" />
+	</element>
+	<element name="Goliath" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_GOLIATH">
+		<sheet display="false" />
+	</element>
+	<element name="Yuanti" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_YUANTI">
+		<sheet display="false" />
+	</element>
+	<element name="Lizardfolk" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_LIZARDFOLK">
+		<sheet display="false" />
+	</element>
+	<element name="Triton" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_TRITON">
+		<sheet display="false" />
+	</element>
+	<element name="Kobold" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_KOBOLD">
+		<sheet display="false" />
+	</element>
+	<element name="Bugbear" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_BUGBEAR">
+		<sheet display="false" />
+	</element>
+	<element name="Genasi" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_GENASI">
+		<sheet display="false" />
+	</element>
+	<element name="Aasimar" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_AASIMAR">
+		<sheet display="false" />
+	</element>
+	<element name="Tortle" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_TORTLE">
+		<sheet display="false" />
+	</element>
+	<element name="Human" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_HUMAN">
+		<sheet display="false" />
+	</element>
+	<element name="Half-Orc" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_HALF_ORC">
+		<sheet display="false" />
+	</element>
+	<element name="Dragonborn" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_DRAGONBORN">
+		<sheet display="false" />
+	</element>
+	<element name="Halfling" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_HALFLING">
+		<sheet display="false" />
+	</element>
+	<element name="Tiefling" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_COUNTS_AS_TIEFLING">
+		<sheet display="false" />
+	</element>
+
+</elements>
