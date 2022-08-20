@@ -1,1 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
 
+  <element name="Aegis of the Abyss" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Amulet of the Frog" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Band of the Firm Grip" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Blackout Candle" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Blade of the Empire" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Blade of the Northern Tribe" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Bladestaff" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Bolas" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Boom-erang" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Close Quarters Bow" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Coinbox of Holding" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Cornucopeia of the Harvest" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Crimson Amplifier" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Crystalline Crusher" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Dagger of the Red Dragon" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Dance" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Death Knight's Helmet" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Executioner's Remorse" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Explosive Arrow" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Forgemaster's Warhammer" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Fuzzy Teddy" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Grapple Arrow" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Gravedigger's Staff" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Hand Wraps of the Gathering Storm" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Hood of the Deciever" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Ikrian Gloves" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Injection Arrow" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Jade Xiphos" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Knife of the Vampire Lord" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Kobold's Lucky Tooth" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Lightflask" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Lockcrawler" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="Lunar Scimitar" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  <element name="" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+  </element>
+  
+	<element name="Armor, +1" type="Magic Item" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_1">
+		<description>
+			<p>You have a bonus to AC while wearing this armor. The bonus is determined by its rarity.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot">body</set>
+			<set name="type" addition="light, medium, or heavy">Armor</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+			<set name="name-format">{{parent}} +{{enhancement}}</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+		</rules>
+	</element>
+</elements>
