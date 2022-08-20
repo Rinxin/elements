@@ -120,14 +120,18 @@
 			<set name="keywords"></set>
 			<set name="category">Adventuring Gear, Treasure, Equipment Packs, Tools, Musical Instruments, Armor, Magic Armor, Weapons, Magic Weapons, Ammunition, Spellcasting Focus, Wondrous Item, Supernatural Gifts, Staffs, Rods, Wands, Rings, Potions, Poison, Scroll, Spell Scrolls, Explosives, Mounts & Vehicles</set>
 			<set name="cost" currency="gp">0</set>
-   			<set name="weight" lb="0.5">1/2 lb.</set>
+   			<set name="weight" lb="0.5" excludeEncumbrance="false">1/2 lb.</set>
 			<set name="stackable">False</set>
 
-			<set name="slot">body,gift,onehand,ring,twohanded</set>
+			<set name="slot">arms,body,feet,gift,hands,head,misc,neck,onehand,ring,shoulders,twohanded,waist</set>
 			<set name="equippable">true</set>
-			<set name="attunement" >true</set>
-			<set name="type" addition="">Armor,Blessing,Charm,Epic Boon,Potion,Ring</set>
+			<set name="attunement" addition="">true</set>
+			<set name="type" addition="">Armor,Blessing,Charm,Epic Boon,Potion,Ring,Rod,Staff,Treasure,Vehicles,Wand,Weapon,Wondrous Item</set>
 			<set name="rarity">Common,Uncommon,Rare,Very Rare, Legendary, Artifact</set>
+   			<set name="weapon">Name or ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE||ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE||ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED</set>
+   			<set name="valuable">false</set>
+
+			<set name="cursed">true</set>
 			<set name="enhancement"></set>
 			<set name="charges">3</set>
 
@@ -140,6 +144,11 @@
 		<rules>
 			<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
 			<stat name="speed:swim,climb,walk,fly" value="40, speed" bonus="base" />
+			<stat name="perception:passive" value="5" bonus="advantage" />			
+
+			**class specific**
+			<stat name="warlock:spellcasting:attack" value="1" bonus="rod of the pact keeper" />
+			<stat name="warlock:spellcasting:dc" value="1" bonus="rod of the pact keeper" />
 			
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FIRE" />
 		</rules>
