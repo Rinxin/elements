@@ -2,6 +2,24 @@
 <elements>
 
   <element name="Aegis of the Abyss" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+	  <description>
+			<p></p>
+		  	<p class="indent"></p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="category">Adventuring Gear, Treasure, Equipment Packs, Tools, Musical Instruments, Armor, Magic Armor, Weapons, Magic Weapons, Ammunition, Spellcasting Focus, Wondrous Item, Supernatural Gifts, Staffs, Rods, Wands, Rings, Potions, Poison, Scroll, Spell Scrolls, Explosives, Mounts & Vehicles</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="slot"></set>
+			<set name="type" addition="">Armor</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement"></set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+			<set name="name-format">{{parent}} +{{enhancement}}</set>
+		</setters>
+		<rules>
+			<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+		</rules>
   </element>
   <element name="Amulet of the Frog" type="Magic Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
   </element>
@@ -89,3 +107,48 @@
 		</rules>
 	</element>
 </elements>
+
+<!--Example formating for items
+<element name="Aegis of the Abyss" type="Magic Item;Item" source="Relics of the Realms v1" id="ID_PATREON_BONUSACTION_MAGIC_ITEM_AEGIS_OF_THE_ABYSS">
+	  <description>
+			<p></p>
+		  	<p class="indent"></p>
+
+			<div element="ID_INTERNAL_SUPPORT_POISON_CONTACT" />
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="category">Adventuring Gear, Treasure, Equipment Packs, Tools, Musical Instruments, Armor, Magic Armor, Weapons, Magic Weapons, Ammunition, Spellcasting Focus, Wondrous Item, Supernatural Gifts, Staffs, Rods, Wands, Rings, Potions, Poison, Scroll, Spell Scrolls, Explosives, Mounts & Vehicles</set>
+			<set name="cost" currency="gp">0</set>
+   			<set name="weight" lb="0.5">1/2 lb.</set>
+			<set name="stackable">False</set>
+
+			<set name="slot">body,gift,onehand,ring,twohanded</set>
+			<set name="equippable">true</set>
+			<set name="attunement" >true</set>
+			<set name="type" addition="">Armor,Blessing,Charm,Epic Boon,Potion,Ring</set>
+			<set name="rarity">Common,Uncommon,Rare,Very Rare, Legendary, Artifact</set>
+			<set name="enhancement"></set>
+			<set name="charges">3</set>
+
+			
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_LIGHT|ID_INTERNAL_ARMOR_GROUP_MEDIUM|ID_INTERNAL_ARMOR_GROUP_HEAVY</set>
+			<set name="name-format">{{parent}} +{{enhancement}}</set>
+		</setters>
+		
+		<sheet alt="" />
+		<rules>
+			<stat name="ac:armored:enhancement" value="1" bonus="enhancement" />
+			<stat name="speed:swim,climb,walk,fly" value="40, speed" bonus="base" />
+			
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_FIRE" />
+		</rules>
+  </element>
+
+	<element name="Contact" type="Support" source="Internal" id="ID_INTERNAL_SUPPORT_POISON_CONTACT">
+		<description>
+			<p>Contact poison can be smeared on an object and remains potent until it is touched or washed off. A creature that touches contact poison with exposed skin suffers its effects.</p>
+		</description>
+	</element>
+
+-->
