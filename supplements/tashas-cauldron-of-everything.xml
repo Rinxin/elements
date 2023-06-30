@@ -3539,7 +3539,7 @@
 		</rules>
 	</append>
 	<element name="Blade Of Disaster" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_BLADE_OF_DISASTER">
-		<supports>Sorcerer, Warlock, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You create a blade-shaped planar rift about 3 feet long in an unoccupied space you can see within range. The blade lasts for the duration.&lt;/p&gt;
 &lt;p class="indent"&gt;When you cast this spell, you can make up to two melee spell attacks with the blade, each one against a creature, loose object, or structure within 5 feet of the blade. On a hit, the target takes 4d12 force damage. This attack scores a critical hit if the number on the d20 is 18 or higher. On a critical hit, the blade deals an extra 8d12 force damage (for a total of 12d12 force damage).&lt;/p&gt;
@@ -3559,7 +3559,7 @@
 		</setters>
 	</element>	
 	<element name="Booming Blade" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_BOOMING_BLADE">
-		<supports>Artificer, Sorcerer, Warlock, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You brandish the weapon used in the spell’s casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack’s normal effects and then becomes sheathed in booming energy until the start of your next turn. If the target willingly moves 5 feet or more before then, the target takes 1d8 thunder damage, and the spell ends.&lt;/p&gt;
 &lt;p class="indent"&gt;This spell’s damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 thunder damage to the target on a hit, and the damage the target takes for moving increases to 2d8. Both damage rolls increase by 1d8 at 11th level (2d8 and 3d8) and again at 17th level (3d8 and 4d8).&lt;/p&gt;</html>
@@ -3577,7 +3577,7 @@
 		</setters>
 	</element>
 	<element name="Dream Of The Blue Veil" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_DREAM_OF_THE_BLUE_VEIL">
-		<supports>Bard, Sorcerer, Warlock, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You and up to eight willing creatures within range fall unconscious for the spells’ duration and experience visions of another world on the Material Plane, such as Oerth, Toril, Krynn, or Eberron. If the spell reaches its full duration, the visions conclude with each of you encountering and pulling back a mysterious blue curtain. The spell then ends with you mentally and physically transported to the world that was in the visions.&lt;/p&gt;
 &lt;p class="indent"&gt;To cast this spell, you must have a magic item that originated on the world you wish to reach, and you must be aware of the world’s existence, even if you don’t know the world’s name. Your destination in the other world is a safe location within 1 mile of where the magic item was created. Alternatively, you can cast the spell if one of the affected creatures was born on the other world, which causes your destination to be a safe location within 1 mile of where that creature was born.&lt;/p&gt;
@@ -3596,7 +3596,7 @@
 		</setters>
 	</element>
 	<element name="Green-Flame Blade" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_GREENFLAME_BLADE">
-		<supports>Artificer, Sorcerer, Warlock, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You brandish the weapon used in the spell’s casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack’s normal effects, and you can cause green fire to leap from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier.&lt;/p&gt;
 &lt;p class="indent"&gt;This spell’s damage increases when you reach certain levels. At 5th level, the melee attack deals an extra 1d8 fire damage to the target on a hit, and the fire damage to the second creature increases to 1d8 + your spellcasting ability modifier. Both damage rolls increase by 1d8 at 11th level (2d8 and 2d8) and 17th level (3d8 and 3d8).&lt;/p&gt;</html>
@@ -3614,7 +3614,7 @@
 		</setters>
 	</element>
 	<element name="Intellect Fortress" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_INTELLECT_FORTRESS">
-		<supports>Artificer, Bard, Sorcerer, Warlock, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;For the duration, you or one willing creature you can see within range has resistance by psychic damage, as well as advantage on Intelligence, Wisdom, and Charisma saving throws.&lt;/p&gt;
 &lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd. The creatures must be within 30 feet of each other when you target them.&lt;/p&gt;</html>
@@ -3632,7 +3632,7 @@
 		</setters>
 	</element>
 	<element name="Lightning Lure" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_LIGHTING_LURE">
-		<supports>Artificer, Sorcerer, Warlock, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You create a lash of lightning energy that strikes at one creature of your choice that you can see within 15 feet of you. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8 lightning damage if it is within 5 feet of you. This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).&lt;/p&gt;</html>
 		</description>
@@ -3648,7 +3648,7 @@
 		</setters>
 	</element>
 	<element name="Mind Sliver" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_MIND_SLIVER">
-		<supports>Sorcerer, Warlock, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You drive a disorienting spike of psychic energy into the mind of one creature you can see within range. The target must succeed on an Intelligence saving throw or take 1d6 psychic damage and subtract 1d4 from the next saving throw it makes before the end of your next turn.&lt;/p&gt;
 &lt;p class="indent"&gt;This spell’s damage increases by 1d6 when you reach certain levels: 5th level (2d6), 11th level (3d6), and 17th level (4d6).&lt;/p&gt;</html>
@@ -3665,7 +3665,7 @@
 		</setters>
 	</element>
 	<element name="Spirit Shroud" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SPIRIT_SHROUD">
-		<supports>Cleric, Paladin, Warlock, Wizard</supports>
+		<supports>Arcane, Divine</supports>
 		<description>
 			<html>&lt;p&gt;You call forth spirits of the dead, which flit around you for the spell’s duration. The spirits are intangible and invulnerable.&lt;/p&gt;
 &lt;p class="indent"&gt;Until the spell ends, any attack you make deals 1d8 extra damage when you hit a creature within 10 feet of you. This damage is radiant, necrotic, or cold (your choice when you cast the spell). Any creature that takes this damage can’t regain hit points until the start of your next turn.&lt;/p&gt;
@@ -3685,7 +3685,7 @@
 		</setters>
 	</element>
 	<element name="Summon Aberration" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_ABERRATION">
-		<supports>Warlock, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You call forth an aberrant spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Aberrant Spirit stat block. When you cast the spell choose Beholderkin, Slaad, or Star Spawn. The creature resembles an aberration of that kind, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.&lt;/p&gt;
 &lt;p class="indent"&gt;The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.&lt;/p&gt;
@@ -3705,7 +3705,7 @@
 		</setters>
 	</element>
 	<element name="Summon Beast" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_BEAST">
-		<supports>Druid, Ranger</supports>
+		<supports>Primal</supports>
 		<description>
 			<html>&lt;p&gt;You call forth a bestial spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Bestial Spirit stat block. When you cast the spell, choose an environment: Air, Land, or Water. The creature resembles an animal of your choice that is native to the chosen environment, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.&lt;/p&gt;
 &lt;p class="indent"&gt;The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.&lt;/p&gt;
@@ -3725,7 +3725,7 @@
 		</setters>
 	</element>
 	<element name="Summon Celestial" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_CELESTIAL">
-		<supports>Cleric, Paladin</supports>
+		<supports>Divine</supports>
 		<description>
 			<html>&lt;p&gt;You call forth a celestial spirit. It manifests in an angelic form in an unoccupied space that you can see within range. This corporeal form uses the Celestial Spirit stat block. When you cast the spell, choose Avenger or Defender.&lt;/p&gt;
 &lt;p class="indent"&gt;Your choice determines the creature’s attack in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.&lt;/p&gt;
@@ -3746,7 +3746,7 @@
 		</setters>
 	</element>
 	<element name="Summon Construct" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_CONSTRUCT">
-		<supports>Artificer, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You call forth the spirit of a construct. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Construct Spirit stat block. When you cast the spell, choose a material: Clay, Metal, or Stone. The creature resembles a golem or a modron (your choice) made of the chosen material, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.&lt;/p&gt;
 &lt;p class="indent"&gt;The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.&lt;/p&gt;
@@ -3766,7 +3766,7 @@
 		</setters>
 	</element>
 	<element name="Summon Elemental" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_ELEMENTAL">
-		<supports>Druid, Ranger, Wizard</supports>
+		<supports>Arcane, Primal</supports>
 		<description>
 			<html>&lt;p&gt;You call forth an elemental spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Elemental Spirit stat block. When you cast the spell, choose an element: Air, Earth, Fire, or Water. The creature resembles a bipedal form wreathed in the chosen element, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.&lt;/p&gt;
 &lt;p class="indent"&gt;The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.&lt;/p&gt;
@@ -3786,7 +3786,7 @@
 		</setters>
 	</element>
 	<element name="Summon Fey" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_FEY">
-		<supports>Druid, Ranger, Warlock, Wizard</supports>
+		<supports>Arcane, Primal</supports>
 		<description>
 			<html>&lt;p&gt;You call forth a fey spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Fey Spirit stat block. When you cast the spell, choose a mood. Fuming, Mirthful, or Tricksy. The creature resembles a fey creature of your choice marked by the chosen mood, which determines one of the traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.&lt;/p&gt;
 &lt;p class="indent"&gt;The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.&lt;/p&gt;
@@ -3806,7 +3806,7 @@
 		</setters>
 	</element>
 	<element name="Summon Fiend" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_FIEND">
-		<supports>Warlock, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You call forth a fiendish spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Fiendish Spirit stat block. When you cast the spell, choose Demon, Devil, or Yugoloth. The creature resembles a fiend of the chosen type, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.&lt;/p&gt;
 &lt;p class="indent"&gt;The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.&lt;/p&gt;
@@ -3826,7 +3826,7 @@
 		</setters>
 	</element>
 	<element name="Summon Shadowspawn" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_SHADOWSPAWN">
-		<supports>Warlock, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You call forth a shadowy spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Shadow Spirit stat block. When you cast the spell, choose an emotion: Fury, Despair, or Fear. The creature resembles a misshapen biped marked by the chosen emotion, which determines certain traits in its stat block. The creature determines when it drop to 0 hit points or when the spell ends.&lt;/p&gt;
 &lt;p class="indent"&gt;The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and it uses its move to avoid danger.&lt;/p&gt;
@@ -3846,7 +3846,7 @@
 		</setters>
 	</element>
 	<element name="Summon Undead" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SUMMON_UNDEAD">
-		<supports>Warlock, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You call forth an undead spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Undead Spirit stat block. When you cast the spell, choose the creature’s form: Ghostly, Putrid, or Skeletal. The spirit resembles an undead creature with the chosen form, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.&lt;/p&gt;
 &lt;p class="indent"&gt;The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.&lt;/p&gt;
@@ -3866,7 +3866,7 @@
 		</setters>
 	</element>
 	<element name="Sword Burst" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_SWORD_BURST">
-		<supports>Artificer, Sorcerer, Warlock, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You create a momentary circle of spectral blades that sweep around you. All other creatures within 5 feet of you must succeed on a Dexterity saving throw or take 1d6 force damage This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).&lt;/p&gt;</html>
 		</description>
@@ -3882,7 +3882,7 @@
 		</setters>
 	</element>
 	<element name="Tasha’s Caustic Brew" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_TASHAS_CAUSTIC_BREW">
-		<supports>Artificer, Sorcerer, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;A stream of acid emanates from you in a line 30 feet long and 5 feet wide in a direction you choose. Each creature in the line must succeed on a Dexterity saving throw or be covered in acid for the spell’s duration or until a creature uses its action to scrape or wash the acid off itself or another creature. A creature covered in the acid takes 2d4 acid damage at start of each of its turns.&lt;/p&gt;</html>
 		</description>
@@ -3900,7 +3900,7 @@
 		</setters>
 	</element>
 	<element name="Tasha’s Mind Whip" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_TASHAS_MIND_WHIP">
-		<supports>Sorcerer, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You psychically lash out at one creature you can see within range. The target must make an Intelligence saving throw. On a failed save, the target takes 3d6 psychic damage, and it can’t take a reaction until the end of its next turn. Moreover, on its next turn, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three. On a successful save, the target takes half as much damage and suffers none of the spell’s other effects.&lt;/p&gt;
 &lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.&lt;/p&gt;</html>
@@ -3917,7 +3917,7 @@
 		</setters>
 	</element>
 	<element name="Tasha’s Otherworldly Guise" type="Spell" source="Tasha’s Cauldron of Everything" id="ID_WOTC_TCOE_SPELL_TASHAS_OTHERWORLDLY_GUISE">
-		<supports>Sorcerer, Warlock, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;Uttering an incantation, you draw on the magic of the Lower Planes or Upper Planes (your choice) to transform yourself. You gain the following benefits until the spell ends:&lt;/p&gt;
 			&lt;ul&gt;
