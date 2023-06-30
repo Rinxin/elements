@@ -139,7 +139,7 @@
 			<description>You have the ability to cast spells.</description>
 		</sheet>
 		<spellcasting name="Sorcerer" ability="Charisma" allowReplace="true">
-			<list>Sorcerer</list>
+			<list>Arcane</list>
 		</spellcasting>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
