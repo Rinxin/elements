@@ -1164,7 +1164,7 @@ Protective Wings. You can manifest protective wings that can shield you or other
 		</sheet>
 	</element>
 	<element name="Ashardalon’s Stride" type="Spell" source="Fizban’s Treasury of Dragons" id="ID_WOTC_FTOD_SPELL_ASHARDALONS_STRIDE">
-		<supports>Ranger, Sorcerer, Wizard, Artificer</supports>
+		<supports>Arcane, Primal</supports>
 		<description>
 			<html>&lt;p&gt;The billowing flames of a dragon blast from your feet, granting you explosive speed. For the duration, your speed increases by 20 feet and moving doesn’t provoke opportunity attacks.&lt;/p&gt;
 &lt;p class="indent"&gt;When you move within 5 feet of a creature or an object that isn’t being worn or carried, it takes 1d6 fire damage from your trail of heat. A creature or object can take this damage only once during a turn.&lt;/p&gt;
@@ -1186,7 +1186,7 @@ Protective Wings. You can manifest protective wings that can shield you or other
 		</setters>
 	</element>
 	<element name="Draconic Transformation" type="Spell" source="Fizban’s Treasury of Dragons" id="ID_WOTC_FTOD_SPELL_DRACONIC_TRANSFORMATION">
-		<supports>Druid, Sorcerer, Wizard</supports>
+		<supports>Arcane, Primal</supports>
 		<description>
 			<html>&lt;p&gt;With a roar, you draw on the magic of dragons to transform yourself, taking on draconic features. You gain the following benefits until the spell ends:&lt;/p&gt;
 &lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Blindsight.&lt;/em&gt;&lt;/strong&gt; You have blindsight with a range of 30 feet. Within that range, you can effectively see anything that isn’t behind total cover, even if you’re blinded or in darkness. Moreover, you can see an invisible creature, unless the creature successfully hides from you.&lt;/p&gt;
@@ -1208,7 +1208,7 @@ Protective Wings. You can manifest protective wings that can shield you or other
 		</setters>
 	</element>
 	<element name="Fizban’s Platinum Shield" type="Spell" source="Fizban’s Treasury of Dragons" id="ID_WOTC_FTOD_SPELL_FIZBANS_PLATINUM_SHIELD">
-		<supports>Sorcerer, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You create a field of silvery light that surrounds a creature of your choice within range (you can choose yourself). The field sheds dim light out to 5 feet. While surrounded by the field, a creature gains the following benefits:&lt;/p&gt;
 &lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;Cover.&lt;/em&gt;&lt;/strong&gt; The creature has half cover.&lt;/p&gt;
@@ -1231,7 +1231,7 @@ Protective Wings. You can manifest protective wings that can shield you or other
 		</setters>
 	</element>
 	<element name="Nathair’s Mischief" type="Spell" source="Fizban’s Treasury of Dragons" id="ID_WOTC_FTOD_SPELL_NATHAIRS_MISCHIEF">
-		<supports>Bard, Sorcerer, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You fill a 20-foot cube you can see within range with fey and draconic magic. Roll on the Mischievous Surge table to determine the magical effect produced, and roll again at the start of each of your turns until the spell ends. You can move the cube up to 10 feet before you roll.&lt;/p&gt;
 &lt;h5 class="caption"&gt;Mischievous Surge&lt;/h5&gt;
@@ -1260,7 +1260,7 @@ Protective Wings. You can manifest protective wings that can shield you or other
 		</setters>
 	</element>
 	<element name="Raulothim’s Psychic Lance" type="Spell" source="Fizban’s Treasury of Dragons" id="ID_WOTC_FTOD_SPELL_RAULOTHIMS_PSYCHIC_LANCE">
-		<supports>Bard, Sorcerer, Wizard, Warlock</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You unleash a shimmering lance of psychic power from your forehead at a creature that you can see within range. Alternatively, you can utter a creature’s name. If the named target is within range, it becomes the spell’s target even if you can’t see it. If the named target isn’t within range, the lance dissipates without effect.&lt;/p&gt;
 &lt;p class="indent"&gt;The target must make an Intelligence saving throw. On a failed save, the target takes 7d6 psychic damage and is incapacitated until the start of your next turn. On a successful save, the creature takes half as much damage and isn’t incapacitated.&lt;/p&gt;
@@ -1281,7 +1281,7 @@ Protective Wings. You can manifest protective wings that can shield you or other
 		</setters>
 	</element>
 	<element name="Rime’s Binding Ice" type="Spell" source="Fizban’s Treasury of Dragons" id="ID_WOTC_FTOD_SPELL_RIMES_BINDING_ICE">
-		<supports>Sorcerer, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;A burst of cold energy emanates from you in a 30-foot cone. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes 3d8 cold damage and is hindered by ice formations for 1 minute, or until it or another creature within reach of it uses an action to break away the ice. A creature hindered by ice has its speed reduced to 0. On a successful save, a creature takes half as much damage and isn’t hindered by ice.&lt;/p&gt;
 &lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 3rd level or higher, increase the cold damage by 1d8 for each slot level above 2nd.&lt;/p&gt;</html>
@@ -1301,7 +1301,7 @@ Protective Wings. You can manifest protective wings that can shield you or other
 		</setters>
 	</element>
 	<element name="Summon Draconic Spirit" type="Spell" source="Fizban’s Treasury of Dragons" id="ID_WOTC_FTOD_SPELL_SUMMON_DRACONIC_SPIRIT">
-		<supports>Druid, Sorcerer, Wizard</supports>
+		<supports>Arcane, Primal</supports>
 		<description>
 			<html>&lt;p&gt;You call forth a draconic spirit. It manifests in an unoccupied space that you can see within range. This corporeal form uses the Draconic Spirit stat block. When you cast this spell, choose a family of dragon: chromatic, gem, or metallic. The creature resembles a dragon of the chosen family, which determines certain traits in its stat block. The creature disappears when it drops to 0 hit points or when the spell ends.&lt;/p&gt;
 &lt;p class="indent"&gt;The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its move to avoid danger.&lt;/p&gt;
