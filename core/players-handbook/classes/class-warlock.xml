@@ -149,7 +149,7 @@
 			<description>Your arcane research and the magic bestowed on you by your patron have given you facility with spells. You have {{warlock:spellcasting:slots:count}} slots of level {{warlock:spellcasting:slot}}</description>
 		</sheet>
 		<spellcasting name="Warlock" ability="Charisma" allowReplace="true">
-			<list>Warlock</list>
+			<list>Arcane</list>
 		</spellcasting>
 		<rules>
 			<!-- add not full but single _not counting as multiclass spellcaster due to pact magic -->
