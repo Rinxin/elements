@@ -145,7 +145,7 @@
 			<description>You can cast cleric spells as rituals. You can prepare {{cleric:spellcasting:prepare}} spells from the cleric spell list. You can use a holy symbol as your spellcasting focus.</description>
 		</sheet>
 		<spellcasting name="Cleric" ability="Wisdom" prepare="true">
-			<list known="true">Cleric</list>
+			<list known="true">Divine</list>
 		</spellcasting>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
