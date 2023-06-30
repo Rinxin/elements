@@ -166,7 +166,7 @@
 			<description>You can cast druid spells as rituals. You can prepare {{druid:spellcasting:prepare}} spells from the druid spell list. You can use a druidic focus as your spellcasting focus.</description>
 		</sheet>
 		<spellcasting name="Druid" ability="Wisdom" prepare="true">
-			<list known="true">Druid</list>
+			<list known="true">Primal</list>
 		</spellcasting>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
