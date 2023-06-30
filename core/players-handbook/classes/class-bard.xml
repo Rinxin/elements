@@ -174,7 +174,7 @@
 			<description>You have learned to untangle and reshape the fabric of reality in harmony with your wishes and music.</description>
 		</sheet>
 		<spellcasting name="Bard" ability="Charisma" prepare="false" allowReplace="true">
-			<list>Bard</list>
+			<list>Arcane,(Divination||Enchantment||Illusion||Transmutation)</list>
 		</spellcasting>
 		<rules>
 			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
