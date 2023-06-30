@@ -580,7 +580,7 @@ Consider customizing how your spells look when you cast them. Your Witherbloom s
 		</spellcasting>
 	</element>
 	<element name="Borrowed Knowledge" type="Spell" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_SPELL_BORROWED_KNOWLEDGE">
-		<supports>Bard, Cleric, Wizard, Warlock</supports>
+		<supports>Arcane, Divine</supports>
 		<description>
 			<html>&lt;p&gt;You draw on knowledge from spirits of the past. Choose one skill in which you lack proficiency. For the spell's duration, you have proficiency in the chosen skill. The spell ends early if you cast it again.&lt;/p&gt;</html>
 		</description>
@@ -599,7 +599,7 @@ Consider customizing how your spells look when you cast them. Your Witherbloom s
 		</setters>
 	</element>
 	<element name="Kinetic Jaunt" type="Spell" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_SPELL_KINETIC_JAUNT">
-		<supports>Bard, Sorcerer, Wizard, Artificer</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You magically empower your movement with dance-like steps, giving yourself the following benefits for the duration:&lt;/p&gt;
 &lt;ul&gt;
@@ -623,7 +623,7 @@ Consider customizing how your spells look when you cast them. Your Witherbloom s
 		</setters>
 	</element>
 	<element name="Silvery Barbs" type="Spell" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_SPELL_SILVERY_BARBS">
-		<supports>Bard, Sorcerer, Wizard</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You magically distract the triggering creature and turn its momentary uncertainty into encouragement for another creature. The triggering creature must reroll the d20 and use the lower roll.&lt;/p&gt;
 &lt;p class="indent"&gt;You can then choose a different creature you can see within range (you can choose yourself). The chosen creature has advantage on the next attack roll, ability check, or saving throw it makes within 1 minute. A creature can be empowered by only one use of this spell at a time.&lt;/p&gt;</html>
@@ -643,7 +643,7 @@ Consider customizing how your spells look when you cast them. Your Witherbloom s
 		</setters>
 	</element>
 	<element name="Vortex Warp" type="Spell" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_SPELL_VORTEX_WARP">
-		<supports>Sorcerer, Wizard, Artificer</supports>
+		<supports>Arcane</supports>
 		<description>
 			<html>&lt;p&gt;You magically twist space around another creature you can see within range. The target must succeed on a Constitution saving throw (the target can choose to fail), or the target is teleported to an unoccupied space of your choice that you can see within range. The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze.&lt;/p&gt;
 &lt;p class="indent"&gt;&lt;strong&gt;&lt;em&gt;At Higher Levels.&lt;/em&gt;&lt;/strong&gt; When you cast this spell using a spell slot of 3rd level or higher, the range of the spell increases by 30 feet for each slot level above 2nd.&lt;/p&gt;</html>
@@ -663,7 +663,7 @@ Consider customizing how your spells look when you cast them. Your Witherbloom s
 		</setters>
 	</element>
 	<element name="Wither and Bloom" type="Spell" source="Strixhaven: A Curriculum of Chaos" id="ID_WOTC_SCOC_SPELL_WITHER_AND_BLOOM">
-		<supports>Druid, Sorcerer, Wizard</supports>
+		<supports>Arcane, Primal</supports>
 		<description>
 			<html>&lt;p&gt;You invoke both death and life upon a 10-foot-radius sphere centered on a point within range. Each creature of your choice in that area must make a Constitution saving throw, taking 2d6 necrotic damage on a failed save, or half as much damage on a successful one. Nonmagical vegetation in that area withers.&lt;/p&gt;
 &lt;p class="indent"&gt;In addition, one creature of your choice in that area can spend and roll one of its unspent Hit Dice and regain a number of hit points equal to the roll plus your spellcasting ability modifier.&lt;/p&gt;
