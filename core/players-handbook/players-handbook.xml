@@ -1462,16 +1462,528 @@
 	</element>
 	
   <!---->
+  <element name="Halfling" type="Race" source="Player’s Handbook" id="ID_RACE_HALFLING">
+    <description>
+      <p class="flavor">The comforts of home are the goals of most halfling’s lives: a place to settle in peace and quiet, far from marauding monsters and clashing armies; a blazing fire and a generous meal; fine drink and fine conversation. Though some halflings live out their days in remote agricultural communities, others form nomadic bands that travel constantly, lured by the open road and the wide horizon to discover the wonders of new lands and peoples. But even these wanderers love peace, food, hearth, and home, though home might be a wagon jostling along an dirt road or a raft floating downriver.</p>
 
+      <h4>SMALL AND PRACTICAL</h4>
+      <p class="indent">The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense. Standing about 3 feet tall, they appear relatively harmless and so have managed to survive for centuries in the shadow of empires and on the edges of wars and political strife. They are inclined to be stout, weighing between 40 and 45 pounds.</p>
+      <p class="indent">Halflings’ skin ranges from tan to pale with a ruddy cast, and their hair is usually brown or sandy brown and wavy. They have brown or hazel eyes. Halfling men often sport long sideburns, but beards are rare among them and mustaches even more so. They like to wear simple, comfortable, and practical clothes, favoring bright colors.</p>
+      <p class="indent">Halfling practicality extends beyond their clothing. They’re concerned with basic needs and simple pleasures and have little use for ostentation. Even the wealthiest of halflings keep their treasures locked in a cellar rather than on display for all to see. They have a knack for finding the most straightforward solution to a problem, and have little patience for dithering.</p>
+
+      <h4>KIND AND CURIOUS</h4>
+      <p>Halflings are an affable and cheerful people. They cherish the bonds of family and friendship as well as the comforts of hearth and home, harboring few dreams of gold or glory. Even adventurers among them usually venture into the world for reasons of community, friendship, wanderlust, or curiosity. They love discovering new things, even simple things, such as an exotic food or an unfamiliar style of clothing.</p>
+      <p class="indent">Halflings are easily moved to pity and hate to see any living thing suffer. They are generous, happily sharing what they have even in lean times.</p>
+
+      <h4>BLEND INTO THE CROWD</h4>
+      <p>Halflings are adept at fitting into a community of humans, dwarves, or elves, making themselves valuable and welcome. The combination of their inherent stealth and their unassuming nature helps halflings to avoid unwanted attention.</p>
+      <p class="indent">Halflings work readily with others, and they are loyal to their friends, whether halfling or otherwise. They can display remarkable ferocity when their friends, families, or communities are threatened.</p>
+
+      <h4>PASTORAL PLEASANTRIES</h4>
+      <p>Most halflings live in small, peaceful communities with large farms and well-kept groves. They rarely build kingdoms of their own or even hold much land beyond their quiet shires. They typically don’t recognize any sort of halfling nobility or royalty, instead looking to family elders to guide them. Families preserve their traditional ways despite the rise and fall of empires.</p>
+      <p class="indent">Many halflings live among other races, where the halflings’ hard work and loyal outlook offer them abundant rewards and creature comforts. Some halfling communities travel as a way of life, driving wagons or guiding boats from place to place and maintaining no permanent home.</p>
+
+      <h4>EXPLORING OPPORTUNITIES</h4>
+      <p>Halflings usually set out on the adventurer’s path to defend their communities, support their friends, or explore a wide and wonder-filled world. For them, adventuring is less a career than an opportunity or sometimes a necessity.</p>
+
+      <h4>HALFLING NAMES</h4>
+      <p>A halfling has a given name, a family name, and possibly a nickname. Family names are often nicknames that stuck so tenaciously they have been passed down through the generations.</p>
+      <p>
+        <span class="feature">Male Names:</span>Alton, Ander, Cade, Corrin, Eldon, Errich, Finnan, Garret, Lindal, Lyle, Merric, Milo, Osborn, Perrin, Reed, Roscoe, Wellby<br/>
+        <span class="feature">Female Names:</span>Andry, Bree, Callie, Cora, Euphemia, Jillian, Kithri, Lavinia, Lidda, Merla, Nedda, Paela, Portia, Seraphina, Shaena, Trym, Vani, Verna<br/>
+        <span class="feature">Family Names:</span>Brushgather, Goodbarrel, Greenbottle, High-hill, Hilltopple, Leagallow, Tealeaf, Thorngage, Tosscobble, Underbough<br/>
+      </p>
+
+      <h4>HALFLING TRAITS</h4>
+      <p>Your halfling character has a number of traits in common with all other halflings.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 2.<br/>
+        <span class="feature">Age.</span>A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.<br/>
+        <span class="feature">Alignment.</span>Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.<br/>
+        <span class="feature">Size.</span>Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.<br/>
+        <span class="feature">Speed.</span>Your base walking speed is 25 feet.<br/>
+        <span class="feature">Lucky.</span>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.<br/>
+        <span class="feature">Brave.</span>You have advantage on saving throws against being frightened.<br/>
+        <span class="feature">Halfling Nimbleness.</span>You can move through the space of any creature that is of a size larger than yours.<br/>
+        <span class="feature">Languages.</span>You can speak, read, and write Common and Halfling. The Halfling language isn’t secret, but halflings are loath to share it with others. They write very little, so they don’t have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.<br/>
+        <span class="feature">Subrace.</span>The two main kinds of halfling, lightfoot and stout, are more like closely related families than true subraces. Choose one of these subraces.<br/>
+      </p>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Alton, Ander, Cade, Corrin, Eldon, Errich, Finnan, Garret, Lindal, Lyle, Merric, Milo, Osborn, Perrin, Reed, Roscoe, Wellby</set>
+      <set name="names" type="female">Andry, Bree, Callie, Cora, Euphemia, Jillian, Kithri, Lavinia, Lidda, Merla, Nedda, Paela, Portia, Seraphina, Shaena, Trym, Vani, Verna</set>
+      <set name="names" type="family">Brushgather, Goodbarrel, Greenbottle, High-hill, Hilltopple, Leagallow, Tealeaf, Thorngage, Tosscobble, Underbough</set>
+      <set name="names-format">{{name}} {{family}}</set>
+      <set name="height" modifier="2d4">2'7"</set>
+      <set name="weight" modifier="1d4">35 lb.</set>
+    </setters>
+    <rules>
+      <stat name="dexterity" value="2"/>
+      <stat name="innate speed" value="25" bonus="base"/>
+      <grant type="Size" id="ID_SIZE_SMALL" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_HALFLING" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_LUCKY" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_BRAVE" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALFLING_NIMBLENESS" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HALFLING_SUBRACE" />
+    </rules>
+  </element>
+
+  <element name="Lucky" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_LUCKY">
+    <description>
+      <p>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</p>
+    </description>
+    <sheet>
+      <description>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</description>
+    </sheet>
+  </element>
+
+<element name="Brave" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_BRAVE">
+    <description>
+      <p>You have advantage on saving throws against being frightened.</p>
+    </description>
+    <sheet>
+      <description>You have advantage on saving throws against being frightened.</description>
+    </sheet>
+  </element>
+
+<element name="Halfling Nimbleness" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HALFLING_NIMBLENESS">
+    <description>
+      <p>You can move through the space of any creature that is of a size larger than yours.</p>
+    </description>
+    <sheet>
+      <description>You can move through the space of any creature that is of a size larger than yours.</description>
+    </sheet>
+  </element>
+
+<element name="Halfling Subrace" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HALFLING_SUBRACE">
+    <description>
+      <p>The two main kinds of halfling, lightfoot and stout, are more like closely related families than true subraces. Choose one of these subraces.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Sub Race" name="Halfling Subrace" supports="Halfling" />
+    </rules>
+  </element>
+
+  <element name="Lightfoot Halfling" type="Sub Race" source="Player’s Handbook" id="ID_SUB_RACE_LIGHTFOOT_HALFLING">
+    <supports>Halfling</supports>
+    <description>
+      <p>As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You’re inclined to be affable and get along well with others. In the Forgotten Realms, lightfoot halflings have spread the farthest and thus are the most common variety.</p>
+      <p>Lightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life. In the world of Greyhawk, these halflings are called hairfeet or tallfellows.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Your Charisma score increases by 1.<br/>
+        <span class="feature">Naturally Stealthy.</span>You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.<br/>
+      </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="charisma" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_NATURALLY_STEALTHY" />
+    </rules>
+  </element>
+
+<element name="Stout Halfling" type="Sub Race" source="Player’s Handbook" id="ID_SUB_RACE_STOUT_HALFLING">
+    <supports>Halfling</supports>
+    <description>
+      <p>As a stout halfling, you’re hardier than average and have some resistance to poison. Some say that stouts have dwarven blood. In the Forgotten Realms, these halflings are called stronghearts, and they’re most common in the south.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Your Constitution score increases by 1.<br/>
+        <span class="feature">Stout Resilience.</span>You have advantage on saving throws against poison, and you have resistance against poison damage.<br/>
+      </p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="constitution" value="1" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_STOUT_RESILIENCE" />
+    </rules>
+  </element>
+
+  <element name="Naturally Stealthy" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_NATURALLY_STEALTHY">
+    <description>
+      <p>You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</p>
+    </description>
+    <sheet>
+      <description>You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.</description>
+    </sheet>
+  </element>
+
+<element name="Stout Resilience" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_STOUT_RESILIENCE">
+    <description>
+      <p>You have advantage on saving throws against poison, and you have resistance against poison damage.</p>
+    </description>
+    <sheet>
+      <description>You have advantage on saving throws against poison, and you have resistance against poison damage.</description>
+    </sheet>
+    <rules>
+	    <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+    </rules>
+  </element>
 	
   <!---->
+  	<element name="Half-Orc" type="Race" source="Player’s Handbook" id="ID_RACE_HALFORC">
+		<description>
+			<p class="flavor">Whether united under the leadership of a mighty warlock or having fought to a standstill after years of conflict, orc and human tribes sometimes form alliances, joining forces into a larger horde to the terror of civilized lands nearby. When these alliances are sealed by marriages, half-orcs are born. Some half-orcs rise to become proud chiefs of orc tribes, their human blood giving them an edge over their full-blooded orc rivals. Some venture into the world to prove their worth among humans and other more civilized races. Many of these become adventurers, achieving greatness for their mighty deeds and notoriety for their barbaric customs and savage fury.</p>
+			<h4>SCARRED AND STRONG</h4>
+			<p>Half-orcs’ grayish pigmentation, sloping foreheads, jutting jaws, prominent teeth, and towering builds make their orcish heritage plain for all to see. Half-orcs stand between 6 and 7 feet tall and usually weigh between 180 and 250 pounds.</p>
+			<p class="indent">Orcs regard battle scars as tokens of pride and ornamental scars as things of beauty. Other scars, though, mark an orc or half-orc as a former slave or a disgraced exile. Any half-orc who has lived among or near orcs has scars, whether they are marks of humiliation or of pride, recounting their past exploits and injuries. Such a half-orc living among humans might display these scars proudly or hide them in shame.</p>
+			<h4>THE MARK OF GRUUMSH</h4>
+			<p>The one-eyed god Gruumsh created the orc s, and even those orcs who turn away from his worship can’t fully escape his influence. The same is true of half-orcs, though their human blood moderates the impact of their orcish heritage. Some half-orcs hear the whispers of Gruumsh in their dreams, calling them to unleash the rage that simmers within them. Others feel Gruumsh’s exultation when they join in melee combat—and either exult along with him or shiver with fear and loathing. Half-orcs are not evil by nature, but evil does lurk within them, whether they embrace it or rebel against it.</p>
+			<p class="indent">Beyond the rage of Gruumsh, half-orcs feel emotion powerfully. Rage doesn’t just quicken their pulse, it makes their bodies burn. An insult stings like acid, and sadness saps their strength. But they laugh loudly and heartily, and simple bodily pleasures—feasting, drinking, wrestling, drumming, and wild dancing—fill their hearts with joy. They tend to be short-tempered and sometimes sullen, more inclined to action than contemplation and to fighting than arguing. The most accomplished half-orcs are those with enough selfcontrol to get by in a civilized land.</p>
+			<h4>TRIBES AND SLUMS</h4>
+			<p>Half-orcs most often live among orc s. Of the other races, humans are most likely to accept half-orcs, and halforcs almost always live in human lands when not living among orc tribes. Whether proving themselves among rough barbarian tribes or scrabbling to survive in the slums of larger cities, half-orcs get by on their physical might, their endurance, and the sheer determination they inherit from their human ancestry.</p>
+			<h4>HALF-ORC NAMES</h4>
+			<p>Half-orcs usually have names appropriate to the culture in which they were raised. A half-orc who wants to fit in among humans might trade an orc name for a human name. Some half-orcs with human names decide to adopt a guttural orc name because they think it makes them more intimidating.</p>
+			<ul class="unstyled">
+				<li><strong>Male Orc Names:</strong> Dench, Feng, Gell, Henk, Holg, Imsh, Keth, Krusk, Mhurren, Ront, Shump, Thokk</li>
+				<li><strong>Female Orc Names:</strong> Baggi, Emen, Engong, Kansif, Myev, Neega, Ovak, Ownka, Shautha, Sutha, Vola, Volen, Yevelda</li>
+			</ul>
+			<h4>HALF-ORC TRAITS</h4>
+			<p>Your half-orc character has certain traits deriving from your orc ancestry.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2, and your Constitution score increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Half-orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-orcs raised among orcs and willing to live out their lives among them are usually evil.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Menacing.</em></strong> You gain proficiency in the Intimidation skill.</p>
+			<p class="indent"><strong><em>Relentless Endurance.</em></strong> When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.</p>
+			<p class="indent"><strong><em>Savage Attacks.</em></strong> When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Dench, Feng, Gell, Henk, Holg, Imsh, Keth, Krusk, Mhurren, Ront, Shump, Thokk</set>
+			<set name="names" type="female">Baggi, Emen, Engong, Kansif, Myev, Neega, Ovak, Ownka, Shautha, Sutha, Vola, Volen, Yevelda</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="2d10">4'10"</set>
+			<set name="weight" modifier="2d6">140 lb.</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="2" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED,!ID_INTERNAL_GRANTS_DRAGONMARK"/>
+			<stat name="constitution" value="1" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED,!ID_INTERNAL_GRANTS_DRAGONMARK"/>
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" requirements="!ID_INTERNAL_GRANTS_DRAGONMARK" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_MENACING" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED,!ID_INTERNAL_GRANTS_DRAGONMARK"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_RELENTLESS_ENDURANCE" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED,!ID_INTERNAL_GRANTS_DRAGONMARK"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SAVAGE_ATTACKS" requirements="!ID_WOTC_WGTE_GRANTS_DARKMARKED,!ID_INTERNAL_GRANTS_DRAGONMARK"/>
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_ORC" requirements="!ID_INTERNAL_GRANTS_DRAGONMARK" />
+			<select type="Race Variant" name="Half-Orc Variant" supports="Half-Orc Variant" optional="true" />
+		</rules>
+	</element>	
 
+	<element name="Menacing" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_MENACING">
+		<description>
+			<p>You gain proficiency in the Intimidation skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You gain proficiency in the Intimidation skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+		</rules>
+	</element>
+
+	<element name="Relentless Endurance" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_RELENTLESS_ENDURANCE">
+		<description>
+			<p>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>When you are reduced to 0 hps but not killed outright, you can drop to 1 hp instead.</description>
+		</sheet>
+	</element>
+
+	<element name="Savage Attacks" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_SAVAGE_ATTACKS">
+		<description>
+			<p>When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.</p>
+		</description>
+		<sheet>
+			<description>When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.</description>
+		</sheet>
+	</element>
 	
   <!---->
+  <element name="Human" type="Race" source="Player’s Handbook" id="ID_RACE_HUMAN">
+    <description>
+      <p class="flavor">In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that’s why they build their mighty empires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.</p>
 
+      <h4>A BROAD SPECTRUM</h4>
+      <p>With their penchant for migration and conquest, humans are more physically diverse than other common races. There is no typical human. An individual can stand from 5 feet to a little over 6 feet tall and weigh from 125 to 250 pounds. Human skin shades range from nearly black to very pale, and hair colors from black to blond (curly, kinky, or straight); males might sport facial hair that is sparse or thick. A lot of humans have a dash of nonhuman blood, revealing hints of elf, orc, or other lineages. Humans reach adulthood in their late teens and rarely live even a single century.</p>
+
+      <h4>VARIETY IN ALL THINGS</h4>
+      <p>Humans are the most adaptable and ambitious people among the common races. They have widely varying tastes, morals, and customs in the many different lands where they have settled. When they settle, though, they stay: they build cities to last for the ages, and great kingdoms that can persist for long centuries. An individual human might have a relatively short life span, but a human nation or culture preserves traditions with origins far beyond the reach of any single human’s memory. They live fully in the present—making them well suited to the adventuring life—but also plan for the future, striving to leave a lasting legacy. Individually and as a group, humans are adaptable opportunists, and they stay alert to changing political and social dynamics.</p>
+
+      <h4>LASTING INSTITUTIONS</h4>
+      <p>Where a single elf or dwarf might take on the responsibility of guarding a special location or a powerful secret, humans found sacred orders and institutions for such purposes. While dwarf clans and halfling elders pass on the ancient traditions to each new generation, human temples, governments, libraries, and codes of law fix their traditions in the bedrock of history. Humans dream of immortality, but (except for those few who seek undeath or divine ascension to escape death’s clutches) they achieve it by ensuring that they will be remembered when they are gone.</p>
+      <p class="indent">Although some humans can be xenophobic, in general their societies are inclusive. Human lands welcome large numbers of nonhumans compared to the proportion of humans who live in nonhuman lands.</p>
+
+      <h4>EXEMPLARS OF AMBITION</h4>
+      <p>Humans who seek adventure are the most daring and ambitious members of a daring and ambitious race. They seek to earn glory in the eyes of their fellows by amassing power, wealth, and fame. More than other people, humans champion causes rather than territories or groups.</p>
+
+      <h4>HUMAN NAMES AND ETHNICITIES</h4>
+      <p>Having so much more variety than other cultures, humans as a whole have no typical names. Some human parents give their children names from other languages, such as Dwarvish or Elvish (pronounced more or less correctly), but most parents give names that are linked to their region’s culture or to the naming traditions of their ancestors.</p>
+      <p class="indent">The material culture and physical characteristics of humans can change wildly from region to region. In the Forgotten Realms, for example, the clothing, architecture, cuisine, music, and literature are different in the northwestern lands of the Silver Marches than in distant Turmish or Impiltur to the east—and even more distinctive in far-off Kara-Tur. Human physical characteristics, though, vary according to the ancient migrations of the earliest humans, so that the humans of the Silver Marches have every possible variation of coloration and features.</p>
+      <p class="indent">In the Forgotten Realms, nine human ethnic groups are widely recognized, though over a dozen others are found in more localized areas of Faerûn. These groups, and the typical names of their members, can be used as inspiration no matter which world your human is in.</p>
+
+      <h6>Calishite</h6>
+      <p>Shorter and slighter in build than most other humans, Calishites have dusky brown skin, hair, and eyes. They’re found primarily in southwest Faerûn.</p>
+      <p><span class="feature">Calishite Names:</span>(Male) Aseir, Bardeid, Haseid, Khemed, Mehmen, Sudeiman, Zasheir; (female) Atala, Ceidil, Hama, Jasmal, Meilil, Seipora, Yasheira, Zasheida; (surnames) Basha, Dumein, Jassan, Khalid, Mostana, Pashar, Rein</p>
+  
+      <h6>Chondathan</h6>
+      <p>Chondathans are slender, tawny-skinned folk with brown hair that ranges from almost blond to almost black. Most are tall and have green or brown eyes, but these traits are hardly universal. Humans of Chondathan descent dominate the central lands of Faerûn. around the Inner Sea.</p>
+      <p><span class="feature">Chondathan Names:</span>(Male) Darvin, Dorn, Evendur, Gorstag, Grim, Helm, Malark, Morn, Randal, Stedd; (female) Arveene, Esvele, Jhessail, Kerri, Lureene, Miri, Rowan, Shandri, Tessele; (surnames) Amblecrown, Buckman, Dundragon, Evenwood, Greycastle, Tallstag</p>
+  
+      <h6>Damaran</h6>
+      <p>Found primarily in the northwest of Faerûn, Damarans are of moderate height and build, with skin hues ranging from tawny to fair. Their hair is usually brown or black, and their eye color varies widely, though brown is most common.</p>
+      <p><span class="feature">Damaran Names:</span>(Male) Bor, Fodel, Glar, Grigor, Igan, Ivor, Kosef, Mival, Orel, Pavel, Sergor; (female) Alethra, Kara, Katernin, Mara, Natali, Olma, Tana, Zora; (surnames) Bersk, Chernin, Dotsk, Kulenov, Marsk, Nemetsk, Shemov, Starag</p>
+   
+      <h6>Illuskan</h6>
+      <p>Illuskans are tall, fair-skinned folk with blue or steely gray eyes. Most have raven-black hair, but those who inhabit the extreme northwest have blond, red, or light brown hair.</p>
+      <p><span class="feature">Illuskan Names:</span>(Male) Ander, Blath, Bran, Frath, Geth, Lander, Luth, Malcer, Stor, Taman, Urth; (female) Amafrey, Betha, Cefrey, Kethra, Mara, Olga, Silifrey, Westra; (surnames) Brightwood, Helder, Hornraven, Lackman, Stormwind, Windrivver</p>
+
+      <h6>Mulan</h6>
+      <p>Dominant in the eastern and southeastern shores of the Inner Sea, the Mulan are generally tall, slim, and amber-skinned, with eyes of hazel or brown. Their hair ranges from black to dark brown, but in the lands where the Mulan are most prominent, nobles and many other Mulan shave off all their hair.</p>
+      <p><span class="feature">Mulan Names:</span>(Male) Aoth, Bareris, Ehput-Ki, Kethoth, Mumed, Ramas, So-Kehur, Thazar-De, Urhur; (female) Arizima, Chathi, Nephis, Nulara, Murithi, Sefris, Thola, Umara, Zolis; (surnames) Ankhalab, Anskuld, Fezim, Hahpet, Nathandem, Sepret, Uuthrakt</p>
+  
+      <h6>Rashemi</h6>
+      <p>Most often found east of the Inner Sea and often intermingled with the Mulan, Rashemis tend to be short, stout, and muscular. They usually have dusky skin, dark eyes, and thick black hair.</p>
+      <p><span class="feature">Rashemi Names:</span>(Male) Borivik, Faurgar, Jandar, Kanithar, Madislak, Ralmevik, Shaumar, Vladislak; (female) Fyevarra, Hulmarra, Immith, Imzel, Navarra, Shevarra, Tammith. Yuldra; (surnames) Chergoba, Dyernina, Iltazyara, Murnyethara, Stayanoga, Ulmokina</p>
+  
+      <h6>Shou</h6>
+      <p>The Shou are the most numerous and powerful ethnic group in Kara-Tur, far to the east of Faerûn. They are yellowish-bronze in hue, with black hair and dark eyes. Shou surnames are usually presented before the given name.</p>
+      <p><span class="feature">Shou Names:</span>(Male) An, Chen, Chi, Fai, Jiang, Jun, Lian, Long, Meng, On, Shan, Shui, Wen; (female) Bai, Chao, Jia, Lei, Mei, Qiao, Shui, Tai; (surnames) Chien, Huang, Kao, Kung, Lao, Ling, Mei, Pin, Shin, Sum, Tan, Wan</p>
+ 
+      <h6>Tethyrian</h6>
+      <p>Widespread along the entire Sword Coast at the western edge of Faerûn, Tethyrians are of medium build and height, with dusky skin that tends to grow fairer the farther north they dwell. Their hair and eye color varies widely, but brown hair and blue eyes are the most common. Tethyrians primarily use Chondathan names.</p>
+
+      <h6>Turami</h6>
+      <p>Native to the southern shore of the Inner Sea, the Turami people are generally tall and muscular, with dark mahogany skin, curly black hair, and dark eyes.</p>
+      <p><span class="feature">Turami Names:</span>(Male) Anton, Diero, Marcon, Pieron, Rimardo, Romero, Salazar, Umbero; (female) Balama, Dona, Faila, Jalana, Luisa, Marta, Quara, Selise, Vonda; (surnames) Agosto, Astorio, Calabra, Domine, Falone, Marivaldi, Pisacar, Ramondo</p>
+
+      <h4>HUMAN TRAITS</h4>
+      <p>It’s hard to make generalizations about humans, but your human character has these traits.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Your ability scores each increase by 1.<br />
+        <span class="feature">Age.</span>Humans reach adulthood in their late teens and live less than a century.<br />
+        <span class="feature">Alignment.</span>Humans tend toward no particular alignment. The best and the worst are found among them.<br />
+        <span class="feature">Size.</span>Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.<br />
+        <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br />
+        <span class="feature">Languages.</span>You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.<br />
+      </p>
+      <div element="ID_RACE_VARIANT_HUMAN_VARIANT"/>
+    </description>
+    <sheet display="false" />
+    <setters>
+      <set name="names" type="male">Ander, Blath, Bran, Frath, Geth, Lander, Luth, Malcer, Stor, Taman, Urth</set>
+      <set name="names" type="female">Amafrey, Betha, Cefrey, Kethra, Mara, Olga, Silifrey, Westra</set>
+      <set name="names" type="surname">Brightwood, Helder, Hornraven, Lackman, Stormwind, Windrivver</set>
+      <set name="names-format">{{name}} {{surname}}</set>
+      <set name="height" modifier="2d10">4'8"</set>
+      <set name="weight" modifier="2d4">110 lb.</set>
+    </setters>
+    <rules>
+      <stat name="strength" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />
+      <stat name="dexterity" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />
+      <stat name="constitution" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />
+      <stat name="intelligence" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />
+      <stat name="wisdom" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />
+      <stat name="charisma" value="1" requirements="!(ID_INTERNAL_GRANTS_REQTEMPFIX||ID_RACE_VARIANT_HUMAN_VARIANT||ID_INTERNAL_GRANTS_DRAGONMARK||ID_WOTC_WGTE_GRANTS_DARKMARKED||ID_UA_PS_GRANTS_HUMAN_VARIANT)" />      
+      <grant type="Size" id="ID_SIZE_MEDIUM"/>
+      <stat name="innate speed" value="30" bonus="base"/>
+      <grant type="Language" id="ID_LANGUAGE_COMMON"/>	  
+      <select type="Language" name="Language (Human)" supports="Standard||Exotic" requirements="!ID_UA_PS_GRANTS_HUMAN_VARIANT,!ID_WOTC_ERLW_DRAGONMARK_MARK_OF_FINDING"/>
+      <select type="Race Variant" name="Human Variant" supports="Human" optional="true" />
+    </rules>
+  </element>
+  
+  <element name="Human Variant" type="Race Variant" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT">
+    <supports>Human</supports>
+    <requirements>ID_INTERNAL_OPTION_ALLOW_FEATS</requirements>
+    <description>
+      <p>If your campaign uses the optional feat rules from the Player’s Handbook, your Dungeon Master might allow these variant traits, all of which replace the human’s Ability Score Increase trait.</p>
+      <p>
+        <span class="feature">Ability Score Increase.</span>Two different ability scores of your choice increase by 1.<br />
+        <span class="feature">Skills.</span>You gain proficiency in one skill of your choice.<br />
+        <span class="feature">Feat.</span>You gain one feat of your choice.<br />
+      </p>
+    </description>
+    <sheet alt="Human" display="false"/>
+    <rules>
+      <select type="Racial Trait" name="Ability Score Increase (Human Variant)" supports="Human Variant" number="2" />
+      <select type="Proficiency" name="Skill Proficiency (Human Variant)" supports="Skill" />
+      <select type="Feat" name="Feat (Human Variant)" />
+    </rules>
+  </element>
+
+  <!--temp fix, todo: undo in next release -->
+  <element name="Req Temp Fix" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_REQTEMPFIX" />
+
+<append id="ID_RACE_VARIANT_HUMAN_VARIANT">
+    <rules>
+      <grant type="Grants" id="ID_INTERNAL_GRANTS_REQTEMPFIX"/>
+    </rules>
+  </append>
+  <!--/temp-fix-->
+
+  
+  <!--Human Variant Ability Score Increase-->
+  <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_STRENGTH">
+    <compendium display="false" />
+    <supports>Human Variant</supports>
+    <description>
+      <p>Your Strength score increases by 1.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="strength" value="1" alt="Human Variant" />
+    </rules>
+  </element>
+
+<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_DEXTERITY">
+    <compendium display="false" />
+    <supports>Human Variant</supports>
+    <description>
+      <p>Your Dexterity score increases by 1.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="dexterity" value="1" alt="Human Variant" />
+    </rules>
+  </element>
+
+<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_CONSTITUTION">
+    <compendium display="false" />
+    <supports>Human Variant</supports>
+    <description>
+      <p>Your Constitution score increases by 1.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="constitution" value="1" alt="Human Variant" />
+    </rules>
+  </element>
+ 
+<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_INTELLIGENCE">
+    <compendium display="false" />
+    <supports>Human Variant</supports>
+    <description>
+      <p>Your Intelligence score increases by 1.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="intelligence" value="1" alt="Human Variant" />
+    </rules>
+  </element>
+
+<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_WISDOM">
+    <compendium display="false" />
+    <supports>Human Variant</supports>
+    <description>
+      <p>Your Wisdom score increases by 1.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="wisdom" value="1" alt="Human Variant" />
+    </rules>
+  </element>
+
+<element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Player’s Handbook" id="ID_RACE_VARIANT_HUMAN_VARIANT_CHARISMA">
+    <compendium display="false" />
+    <supports>Human Variant</supports>
+    <description>
+      <p>Your Charisma score increases by 1.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="charisma" value="1" alt="Human Variant" />
+    </rules>
+  </element>
 	
   <!---->
+	<element name="Tiefling" type="Race" source="Player’s Handbook" id="ID_RACE_TIEFLING">
+		<description>
+			<p class="flavor">To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. And to twist the knife, tieflings know that this is because a pact struck generations ago infused the essence of Asmodeus—overlord of the Nine Hells—into their bloodline. Their appearance and their nature are not their fault but the result of an ancient sin, for which they and their children and their children’s children will always be held accountable.</p>
+			<h4>INFERNAL BLOODLINE</h4>
+			<p>Tieflings are derived from human bloodlines, and in the broadest possible sense, they still look human. However, their infernal heritage has left a clear imprint on their appearance. Tieflings have large horns that take any of a variety of shapes: some have curling horns like a ram, others have straight and tall horns like a gazelle’s, and some spiral upward like an antelopes’ horns. They have thick tails, four to five feet long, which lash or coil around their legs when they get upset or nervous. Their canine teeth are sharply pointed, and their eyes are solid colors—black, red, white, silver, or gold—with no visible sclera or pupil. Their skin tones cover the full range of human coloration, but also include various shades of red. Their hair, cascading down from behind their horns, is usually dark, from black or brown to dark red, blue, or purple.</p>
+			<h4>SELF-RELIANT AND SUSPICIOUS</h4>
+			<p>Tieflings subsist in small minorities found mostly in human cities or towns, often in the roughest quarters of those places, where they grow up to be swindlers, thieves, or crime lords. Sometimes they live among other minority populations in enclaves where they are treated with more respect.</p>
+			<p class="indent">Lacking a homeland, tieflings know that they have to make their own way in the world and that they have to be strong to survive. They are not quick to trust anyone who claims to be a friend, but when a tiefling’s companions demonstrate that they trust him or her, the tiefling learns to extend the same trust to them. And once a tiefling gives someone loyalty, the tiefling is a firm friend or ally for life.</p>
+			<h4>TIEFLING NAMES</h4>
+			<p>Tiefling names fall into three broad categories. Tieflings born into another culture typically have names reflective of that culture. Some have names derived from the Infernal language, passed down through generations, that reflect their fiendish heritage. And some younger tieflings, striving to find a place in the world, adopt a name that signifies a virtue or other concept and then try to embody that concept. For some, the chosen name is a noble quest. For others, it’s a grim destiny.</p>
+			<ul class="unstyled">
+				<li><strong>Male Infernal Names:</strong> Akmenos, Amnon, Barakas, Damakos, Ekemon, Iados, Kairon, Leucis, Melech, Mordai, Morthos, Pelaios, Skamos, Therai</li>
+				<li><strong>Female Infernal Names:</strong> Akta, Anakis, Bryseis, Criella, Damaia, Ea, Kallista, Lerissa, Makaria, Nemeia, Orianna, Phelaia, Rieta</li>
+				<li><strong>“Virtue” Names:</strong> Art, Carrion, Chant, Creed, Despair, Excellence, Fear, Glory, Hope, Ideal, Music, Nowhere, Open, Poetry, Quest, Random, Reverence, Sorrow, Temerity, Torment, Weary</li>
+			</ul>
+			<h4>TIEFLING TRAITS</h4>
+			<p>Tieflings share certain racial traits as a result of their infernal descent.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 1, and your Charisma score increases by 2.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Tieflings mature at the same rate as humans but live a few years longer.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Tieflings are about the same size and build as humans. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Hellish Resistance.</em></strong> You have resistance to fire damage.</p>
+			<p class="indent"><strong><em>Infernal Legacy.</em></strong> You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell once per day as a 2nd-level spell. Once you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Infernal.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="names" type="male">Akmenos, Amnon, Barakas, Damakos, Ekemon, Iados, Kairon, Leucis, Melech, Mordai, Morthos, Pelaios, Skamos, Therai</set>
+			<set name="names" type="female">Akta, Anakis, Bryseis, Criella, Damaia, Ea, Kallista, Lerissa, Makaria, Nemeia, Orianna, Phelaia, Rieta</set>
+			<set name="names" type="virtue">Art, Carrion, Chant, Creed, Despair, Excellence, Fear, Glory, Hope, Ideal, Music, Nowhere, Open, Poetry, Quest, Random, Reverence, Sorrow, Temerity, Torment, Weary</set>
+			<set name="names-format">{{name}} “{{virtue}}”</set>
+			<set name="height" modifier="2d8">4'9"</set>
+			<set name="weight" modifier="2d4">110 lb.</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" requirements="!ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
+			<stat name="charisma" value="2" requirements="!ID_INTERNAL_GRANTS_TIEFLING_SUBRACE"/>
+			<stat name="innate speed" value="30" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_INFERNAL" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_HELLISH_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_INFERNAL_LEGACY" requirements="!ID_INTERNAL_GRANTS_TIEFLING_SUBRACE"/>
+			<select type="Sub Race" name="Tiefling Subrace" supports="Tiefling" optional="true" />
+		</rules>
+	</element>
 
+	<element name="Hellish Resistance" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HELLISH_RESISTANCE">
+		<description>
+			<p>You have resistance to fire damage.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to fire damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+		</rules>
+	</element>
+
+	<element name="Infernal Legacy" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_INFERNAL_LEGACY">
+		<description>
+			<p>You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet>
+			<description>You know the thaumaturgy cantrip. (Charisma)</description>
+			<description level="3">You know the thaumaturgy cantrip. You can cast the hellish rebuke spell as a 2nd-level spell (1/long rest). (Charisma)</description>
+			<description level="5">You know the thaumaturgy cantrip. You can cast the hellish rebuke spell as a 2nd-level spell and the darkness spell (1/long rest). (Charisma)</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" />
+			<grant type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" level="3"/>
+			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="5"/>
+		</rules>
+	</element>
+	
+	<!-- an element that you should grant in a subrace so that you can override stats/infernal legacy -->
+	<element name="Tiefling Subrace" type="Grants" source="Internal" id="ID_INTERNAL_GRANTS_TIEFLING_SUBRACE" />
 	
 <!--Chapter 3 Classes-->
 <!--Chapter 4 Personality & Background-->  
