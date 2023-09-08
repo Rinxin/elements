@@ -2533,7 +2533,109 @@
 			<description>While you’re raging, you can knock a Large or smaller creature prone when you hit it with melee weapon attack.</description>
 		</sheet>
 	</element>
-	
+
+  <!--Barbarian Optional Features-->
+    <element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_1">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_2">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_3">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_4">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_5">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_6">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_7">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_8">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_9">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_10">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_11">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_12">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_13">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_14">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_15">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_16">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_17">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_18">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_19">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Barbarian" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARBARIAN_20">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+  
   <!--Bard-->
 	<element name="Bard" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_BARD">
 		<description>
@@ -2985,6 +3087,108 @@
 		<sheet action="Bonus Action">
 			<description>When you use your action to cast a bard spell, you can make one weapon attack.</description>
 		</sheet>
+	</element>
+
+  <!--Bard Optional Features-->
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_1">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_2">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_3">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_4">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_5">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_6">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_7">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_8">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_9">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_10">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_11">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_12">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_13">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_14">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_15">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_16">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_17">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_18">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_19">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Bard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_BARD_20">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
 	</element>
 	
   <!--Cleric-->
@@ -4016,6 +4220,108 @@
 			<description>You gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.</description>
 		</sheet>
 	</element>
+
+<!--Cleric Optional Features-->
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_1">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_2">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_3">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_4">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_5">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_6">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_7">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_8">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_9">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_10">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_11">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_12">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_13">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_14">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_15">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_16">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_17">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_18">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_19">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Cleric" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_CLERIC_20">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
 	
   <!--Druid-->
 	<element name="Druid" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_DRUID">
@@ -4660,6 +4966,108 @@
 			<grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" spellcasting="Druid" />
 		</rules>
 	</element>
+
+<!--Druid Optional Features-->
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_1">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_2">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_3">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_4">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_5">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_6">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_7">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_8">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_9">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_10">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_11">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_12">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_13">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_14">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_15">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_16">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_17">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_18">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_19">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Druid" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_DRUID_20">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>	
 	
   <!--Fighter-->
 	<element name="Fighter" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FIGHTER">
@@ -5402,6 +5810,108 @@
 		<sheet>
 			<description>When you use your action to cast a spell, you can make one weapon attack as a bonus action.</description>
 		</sheet>
+	</element>
+
+<!--Fighter Optional Features-->
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_1">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_2">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_3">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_4">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_5">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_6">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_7">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_8">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_9">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_10">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_11">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_12">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_13">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_14">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_15">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_16">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_17">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_18">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_19">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Fighter" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_FIGHTER_20">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
 	</element>
 	
   <!--Monk-->
@@ -6251,6 +6761,108 @@
 			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_STONE" />
 		</rules>
 	</element>
+
+<!--Monk Optional Features-->
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_1">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_2">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_3">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_4">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_5">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_6">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_7">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_8">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_9">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_10">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_11">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_12">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_13">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_14">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_15">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_16">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_17">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_18">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_19">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Monk" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_MONK_20">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
 	
   <!--Paladin-->
 	<element name="Paladin" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_PALADIN">
@@ -6962,6 +7574,108 @@
 			Wings sprout from your back and grant you a flying speed of 60 feet.
 			You emanate an aura of menace in a 30-foot radius. The first time any enemy creature enters the aura or starts its turn there during a battle, the creature must succeed on a Wisdom saving throw or become frightened of you for 1 minute or until it takes any damage. Attack rolls against the frightened creature have advantage.</description>
 		</sheet>
+	</element>
+
+<!--Paladin Optional Features-->
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_1">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_2">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_3">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_4">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_5">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_6">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_7">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_8">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_9">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_10">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_11">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_12">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_13">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_14">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_15">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_16">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_17">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_18">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_19">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Paladin" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_PALADIN_20">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
 	</element>
 	
   <!--Ranger-->
@@ -7985,6 +8699,108 @@
 			<description>When you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you.</description>
 		</sheet>
 	</element>
+
+  <!--Ranger Optional Features-->
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_1">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_2">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_3">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_4">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_5">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_6">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_7">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_8">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_9">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_10">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_11">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_12">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_13">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_14">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_15">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_16">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_17">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_18">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_19">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Ranger" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_RANGER_20">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
 	
   <!--Rogue-->
 	<element name="Rogue" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_ROGUE">
@@ -8802,6 +9618,108 @@
 			<stat name="thieves tools:proficiency" value="proficiency" bonus="double" />
 		</rules>
 	</element>
+
+<!--Rogue Optional Features-->
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_1">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_2">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_3">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_4">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_5">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_6">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_7">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_8">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_9">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_10">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_11">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_12">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_13">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_14">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_15">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_16">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_17">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_18">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_19">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Rogue" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_ROGUE_20">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
 	
   <!--Sorcerer-->
 	<element name="Sorcerer" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_SORCERER">
@@ -9495,6 +10413,108 @@
 		<sheet>
 			<description>When you roll damage for a spell and roll the highest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage. You can use the feature only once per turn.</description>
 		</sheet>
+	</element>
+
+<!--Sorcerer-->
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_1">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_2">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_3">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_4">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_5">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_6">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_7">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_8">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_9">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_10">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_11">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_12">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_13">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_14">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_15">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_16">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_17">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_18">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_19">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Sorcerer" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_SORCERER_20">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
 	</element>
 	
   <!--Warlock-->
@@ -10581,7 +11601,109 @@
 			<description>You can touch an incapacitated humanoid. That creature is then charmed by you until a remove curse spell is cast on it, the charmed condition is removed from it, or you use this feature again. You can communicate telepathically with the charmed creature as long as the two of you are on the same plane of existence.</description>
 		</sheet>
 	</element>
-	
+
+<!--Warlock Optional Features-->
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_1">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_2">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_3">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_4">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_5">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_6">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_7">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_8">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_9">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_10">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_11">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_12">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_13">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_14">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_15">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_16">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_17">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_18">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_19">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Warlock" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WARLOCK_20">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+
   <!--Wizard-->
 	<element name="Wizard" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_WIZARD">
 		<description>
@@ -11518,6 +12640,108 @@
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_THUNDER" />
 		</rules>
 	</element>
+
+<!--Wizard Optional Features-->
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_1">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_2">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_3">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_4">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_5">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_6">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_7">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_8">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_9">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_10">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_11">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_12">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_13">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_14">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_15">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_16">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_17">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_18">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_19">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element>
+	<element name="Wizard" type="Class Feature" source="Internal" id="ID_INTERNAL_CLASS_FEATURE_OPTIONAL_WIZARD_20">
+		<compendium display="false" />
+		<requirements>ID_GRANTS_OPTIONAL_CLASS_FEATURES</requirements>
+		<sheet display="false" />
+	</element> 
 	
 <!--Chapter 4 Personality & Background-->  
 <!--Chapter 5 Equipment-->  
